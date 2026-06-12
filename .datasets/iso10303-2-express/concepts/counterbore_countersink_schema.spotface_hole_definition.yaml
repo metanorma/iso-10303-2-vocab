@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.spotface_hole_definition
+  localized_concepts:
+    eng: 8eae391d-94d9-5f65-b268-1351a537159b
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.spotface_hole_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_definition,counterbore_hole_definition}} that represents the spotface hole definition {{entity}}'
+  notes:
+    - content: A **spotface_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_definition,counterbore_hole_definition}} in which a radius is applied to the bottom surface of each bore.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: spotface_hole_definition
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: 8eae391d-94d9-5f65-b268-1351a537159b

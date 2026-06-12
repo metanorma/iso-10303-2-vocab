@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_connectivity_definition_mim.physical_connectivity_layout_topology_requirement_assignment
+  localized_concepts:
+    eng: 42602c03-6fcb-51dc-89d2-55e3df0eebbd
+  domains:
+    - concept_id: section-Physical_connectivity_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+      ref_type: section
+id: Physical_connectivity_definition_mim.physical_connectivity_layout_topology_requirement_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that represents the physical connectivity layout topology requirement assignment {{entity}}'
+  notes:
+    - content: A **physical_connectivity_layout_topology_requirement_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_layout_topology_requirement_assignment,Physical_connectivity_layout_topology_requirement_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+          version: '5'
+      type: authoritative
+      id: Physical_connectivity_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_connectivity_layout_topology_requirement_assignment
+  domain: 'application module: Physical_connectivity_definition_mim'
+  language_code: eng
+  annotations: []
+id: 42602c03-6fcb-51dc-89d2-55e3df0eebbd

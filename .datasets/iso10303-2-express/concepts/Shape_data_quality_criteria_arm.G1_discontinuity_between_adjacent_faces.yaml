@@ -1,0 +1,30 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.G1_discontinuity_between_adjacent_faces
+  localized_concepts:
+    eng: 5086678a-ef3a-5f76-9147-6829a319395b
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.G1_discontinuity_between_adjacent_faces
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Non_smooth_geometry_transition_across_edge,Non_smooth_geometry_transition_across_edge}} that represents the g1 discontinuity between adjacent faces {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: G1_discontinuity_between_adjacent_faces
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 5086678a-ef3a-5f76-9147-6829a319395b

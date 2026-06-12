@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Incidence_geometric_constraint
+  localized_concepts:
+    eng: 88206048-b5db-5cbf-87de-6bbda79dcfc6
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Incidence_geometric_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that represents the incidence geometric constraint {{entity}}'
+  notes:
+    - content: An **Incidence_geometric_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that requires one or more {{geometric_constraint_element,geometric_constraint_element}} instances to lie on (or be incident on) one or more reference {{geometric_constraint_element,geometric_constraint_element}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Incidence_geometric_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 88206048-b5db-5cbf-87de-6bbda79dcfc6

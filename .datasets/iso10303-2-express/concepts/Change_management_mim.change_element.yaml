@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_mim.change_element
+  localized_concepts:
+    eng: 7cf79ba7-42bb-5a71-8464-5aedb910b7b7
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.change_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the change element {{entity}}'
+  notes:
+    - content: A **change_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: change_element
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: 7cf79ba7-42bb-5a71-8464-5aedb910b7b7

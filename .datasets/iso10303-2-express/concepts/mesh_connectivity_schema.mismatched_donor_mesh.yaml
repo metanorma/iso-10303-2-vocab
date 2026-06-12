@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_connectivity_schema.mismatched_donor_mesh
+  localized_concepts:
+    eng: 60081a44-6346-56ca-bcf7-939b0327aaba
+  domains:
+    - concept_id: section-mesh_connectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+      ref_type: section
+id: mesh_connectivity_schema.mismatched_donor_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mismatched donor mesh {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_donor_mesh,mismatched_donor_mesh}} is a mesh that acts as a donor for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_mesh_region,mismatched_mesh_region}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+          version: '3'
+      type: authoritative
+      id: mesh_connectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mismatched_donor_mesh
+  domain: 'resource: mesh_connectivity_schema'
+  language_code: eng
+  annotations: []
+id: 60081a44-6346-56ca-bcf7-939b0327aaba

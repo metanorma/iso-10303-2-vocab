@@ -1,0 +1,31 @@
+data:
+  identifier: Date_time_arm.Local_time
+  localized_concepts:
+    eng: 4ed7f1e3-2afb-5819-9672-2501cd0ff635
+  domains:
+    - concept_id: section-Date_time_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm
+      ref_type: section
+id: Date_time_arm.Local_time
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the local time {{entity}}'
+  notes:
+    - content: A **Local_time** is a point in time in a day, represented on a 24-hour clock by hour, minute and second.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm
+          version: '2'
+      type: authoritative
+      id: Date_time_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Local_time
+  domain: 'application module: Date_time_arm'
+  language_code: eng
+  annotations: []
+id: 4ed7f1e3-2afb-5819-9672-2501cd0ff635

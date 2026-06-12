@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Uncertainty_qualifier
+  localized_concepts:
+    eng: b9960610-b40d-525e-a27b-70819f24f191
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Uncertainty_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the uncertainty qualifier {{entity}}'
+  notes:
+    - content: An **Uncertainty_qualifier** is a supertype of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Standard_uncertainty,Standard_uncertainty}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Qualitative_uncertainty,Qualitative_uncertainty}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Uncertainty_qualifier
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: b9960610-b40d-525e-a27b-70819f24f191

@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.geometric_tolerance_with_maximum_tolerance
+  localized_concepts:
+    eng: 0605aaee-05ac-5d2e-b974-f1f527e11b97
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.geometric_tolerance_with_maximum_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance_with_modifiers,geometric_tolerance_with_modifiers}} that represents the geometric tolerance with maximum tolerance {{entity}}'
+  notes:
+    - content: A **geometric_tolerance_with_maximum_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance_with_modifiers,geometric_tolerance_with_modifiers}} that limits the allowable maximum geometric tolerance in combination with a maximum material requirement or least material requirement modifier.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometric_tolerance_with_maximum_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 0605aaee-05ac-5d2e-b974-f1f527e11b97

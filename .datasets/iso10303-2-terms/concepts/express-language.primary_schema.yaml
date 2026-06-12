@@ -1,0 +1,28 @@
+---
+data:
+  identifier: express-language.primary_schema
+  localized_concepts:
+    eng: e4c983b9-f492-5b26-a9b7-c2ee0ab987ea
+  domains:
+  - concept_id: section-express-language
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: f957d1c9-65ca-56f5-8925-28911d18cb71
+schema_version: v3
+---
+data:
+  definition:
+  - content: schema of interest in a group of interrelated schemas that form a, possibly
+      cyclic, directed graph
+  notes:
+  - content: There can be one or more primary schemas within the graph, where the
+      other schemas in the graph are only there to support the primary schema.
+  - content: The primary schema has a special role in the conversion of a shortform
+      schema into a longform schema.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: primary schema
+  language_code: eng
+  annotations: []
+id: e4c983b9-f492-5b26-a9b7-c2ee0ab987ea

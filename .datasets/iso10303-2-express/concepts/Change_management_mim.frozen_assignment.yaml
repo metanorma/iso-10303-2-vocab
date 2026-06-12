@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_mim.frozen_assignment
+  localized_concepts:
+    eng: ac96731c-7919-5f81-a4b1-8c36fc95222d
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.frozen_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that represents the frozen assignment {{entity}}'
+  notes:
+    - content: A **frozen_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Frozen_assignment,Frozen_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: frozen_assignment
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: ac96731c-7919-5f81-a4b1-8c36fc95222d

@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.electric_current_measure_with_unit
+  localized_concepts:
+    eng: 399fe55b-1d96-563b-baab-714c06ec6e5f
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.electric_current_measure_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that represents the electric current measure with unit {{entity}}'
+  notes:
+    - content: An **electric_current_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} in which the physical quantity is an electric current as defined in ISO/IEC 80000 series.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: electric_current_measure_with_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 399fe55b-1d96-563b-baab-714c06ec6e5f

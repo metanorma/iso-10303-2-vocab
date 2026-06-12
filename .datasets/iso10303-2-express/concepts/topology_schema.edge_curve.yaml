@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.edge_curve
+  localized_concepts:
+    eng: 05837c91-195d-5adb-9c1e-6bb2abd5e066
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.edge_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the edge curve {{entity}}'
+  notes:
+    - content: An **edge_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}, which has its geometry fully defined.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: edge_curve
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: 05837c91-195d-5adb-9c1e-6bb2abd5e066

@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.b_spline_basis
+  localized_concepts:
+    eng: 41f6da97-157b-55e6-b85d-451f262243b9
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.b_spline_basis
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the b spline basis {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} defines a tuple of B-spline basis functions, usually for use with one of the input variables of a B-spline function.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: b_spline_basis
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 41f6da97-157b-55e6-b85d-451f262243b9

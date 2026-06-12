@@ -1,0 +1,31 @@
+data:
+  identifier: conditions_schema.mbna_bc_dataset
+  localized_concepts:
+    eng: 9cdc6008-27b8-5849-8883-0fde23cb8737
+  domains:
+    - concept_id: section-conditions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+      ref_type: section
+id: conditions_schema.mbna_bc_dataset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_condition,mbna_condition}} that represents the mbna bc dataset {{entity}}'
+  notes:
+    - content: An *mbna_bc_dataset* is Dirichlet or Neumann data for a single set of boundary-condition equations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+          version: '1'
+      type: authoritative
+      id: conditions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_bc_dataset
+  domain: 'resource: conditions_schema'
+  language_code: eng
+  annotations: []
+id: 9cdc6008-27b8-5849-8883-0fde23cb8737

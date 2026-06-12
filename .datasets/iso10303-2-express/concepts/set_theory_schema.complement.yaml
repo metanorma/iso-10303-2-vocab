@@ -1,0 +1,38 @@
+data:
+  identifier: set_theory_schema.complement
+  localized_concepts:
+    eng: 63945cf5-23bd-534a-b5b7-cfa3ef52e7e9
+  domains:
+    - concept_id: section-set_theory_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+      ref_type: section
+id: set_theory_schema.complement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the complement {{entity}}'
+  notes:
+    - content: |-
+        A **complement** is a relationship that is between:
+
+        * set S1,
+        * set U, and
+        * set S2,
+
+        that indicates set S2 consists of all members of U that are not members of S1.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+          version: '1'
+      type: authoritative
+      id: set_theory_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: complement
+  domain: 'resource: set_theory_schema'
+  language_code: eng
+  annotations: []
+id: 63945cf5-23bd-534a-b5b7-cfa3ef52e7e9

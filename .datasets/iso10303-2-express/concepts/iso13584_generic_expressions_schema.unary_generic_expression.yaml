@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_generic_expressions_schema.unary_generic_expression
+  localized_concepts:
+    eng: ed08c06d-e159-5bea-9a64-3195ca83d704
+  domains:
+    - concept_id: section-iso13584_generic_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema
+      ref_type: section
+id: iso13584_generic_expressions_schema.unary_generic_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_expression,generic_expression}} that represents the unary generic expression {{entity}}'
+  notes:
+    - content: An *unary_generic_expression* is the ABSTRACT SUPERTYPE of all the unary operators.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_generic_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unary_generic_expression
+  domain: 'resource: iso13584_generic_expressions_schema'
+  language_code: eng
+  annotations: []
+id: ed08c06d-e159-5bea-9a64-3195ca83d704

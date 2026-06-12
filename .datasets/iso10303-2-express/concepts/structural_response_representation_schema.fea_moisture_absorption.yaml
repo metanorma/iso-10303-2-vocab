@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.fea_moisture_absorption
+  localized_concepts:
+    eng: b15df16e-f6f7-5b48-9935-8051541bd3cb
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.fea_moisture_absorption
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_material_property_representation_item,fea_material_property_representation_item}} that represents the fea moisture absorption {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_moisture_absorption,fea_moisture_absorption}} is the relationship of a change in moisture strain in an element to a small change in moisture as follows:.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fea_moisture_absorption
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: b15df16e-f6f7-5b48-9935-8051541bd3cb

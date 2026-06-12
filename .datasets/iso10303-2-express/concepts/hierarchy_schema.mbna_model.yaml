@@ -1,0 +1,31 @@
+data:
+  identifier: hierarchy_schema.mbna_model
+  localized_concepts:
+    eng: 0a312047-5207-55b5-b9c9-4f9b631b0d1a
+  domains:
+    - concept_id: section-hierarchy_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+      ref_type: section
+id: hierarchy_schema.mbna_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain,model_product_domain}} that represents the mbna model {{entity}}'
+  notes:
+    - content: An *mbna_model* is the highest level structure in an analysis database.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+          version: '1'
+      type: authoritative
+      id: hierarchy_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_model
+  domain: 'resource: hierarchy_schema'
+  language_code: eng
+  annotations: []
+id: 0a312047-5207-55b5-b9c9-4f9b631b0d1a

@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_connectivity_definition_arm.Physical_connectivity_definition_domain
+  localized_concepts:
+    eng: 64764d26-b841-5720-84a6-792f7d3cf49d
+  domains:
+    - concept_id: section-Physical_connectivity_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+      ref_type: section
+id: Physical_connectivity_definition_arm.Physical_connectivity_definition_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity definition domain {{entity}}'
+  notes:
+    - content: A **Physical_connectivity_definition_domain** is the application of a domain name to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition,Physical_connectivity_definition}} to support cases where domains other than pure electrical are required.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+          version: '5'
+      type: authoritative
+      id: Physical_connectivity_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_connectivity_definition_domain
+  domain: 'application module: Physical_connectivity_definition_arm'
+  language_code: eng
+  annotations: []
+id: 64764d26-b841-5720-84a6-792f7d3cf49d

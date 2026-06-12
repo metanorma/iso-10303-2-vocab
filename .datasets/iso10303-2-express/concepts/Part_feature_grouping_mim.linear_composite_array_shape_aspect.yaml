@@ -1,0 +1,31 @@
+data:
+  identifier: Part_feature_grouping_mim.linear_composite_array_shape_aspect
+  localized_concepts:
+    eng: af368d02-d29c-5462-97d3-af83505f671c
+  domains:
+    - concept_id: section-Part_feature_grouping_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
+      ref_type: section
+id: Part_feature_grouping_mim.linear_composite_array_shape_aspect
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}} that represents the linear composite array shape aspect {{entity}}'
+  notes:
+    - content: A **linear_composite_array_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_linear_array_feature,Part_linear_array_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
+          version: '3'
+      type: authoritative
+      id: Part_feature_grouping_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: linear_composite_array_shape_aspect
+  domain: 'application module: Part_feature_grouping_mim'
+  language_code: eng
+  annotations: []
+id: af368d02-d29c-5462-97d3-af83505f671c

@@ -1,0 +1,31 @@
+data:
+  identifier: Altered_package_mim.surface_prepped_terminal
+  localized_concepts:
+    eng: b461b28d-cf02-589a-84ac-d8f45ad7058c
+  domains:
+    - concept_id: section-Altered_package_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
+      ref_type: section
+id: Altered_package_mim.surface_prepped_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}} that represents the surface prepped terminal {{entity}}'
+  notes:
+    - content: A **surface_prepped_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Surface_prepped_terminal,Surface_prepped_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
+          version: '4'
+      type: authoritative
+      id: Altered_package_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_prepped_terminal
+  domain: 'application module: Altered_package_mim'
+  language_code: eng
+  annotations: []
+id: b461b28d-cf02-589a-84ac-d8f45ad7058c

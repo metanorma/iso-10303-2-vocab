@@ -1,0 +1,31 @@
+data:
+  identifier: Numeric_expression_arm.Simple_numeric_expression
+  localized_concepts:
+    eng: 19fd2a9e-31fa-548c-9ae3-dbea56f74c2d
+  domains:
+    - concept_id: section-Numeric_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+      ref_type: section
+id: Numeric_expression_arm.Simple_numeric_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the simple numeric expression {{entity}}'
+  notes:
+    - content: A **Simple_numeric_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Numeric_expression,Numeric_expression}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Simple_generic_expression,Simple_generic_expression}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+          version: '2'
+      type: authoritative
+      id: Numeric_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Simple_numeric_expression
+  domain: 'application module: Numeric_expression_arm'
+  language_code: eng
+  annotations: []
+id: 19fd2a9e-31fa-548c-9ae3-dbea56f74c2d

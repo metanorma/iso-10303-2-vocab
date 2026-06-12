@@ -1,0 +1,36 @@
+data:
+  identifier: geometric_model_schema.tessellated_edge_curve
+  localized_concepts:
+    eng: 889bf3ec-4d37-5cd9-a37f-06600c0a54fd
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.tessellated_edge_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tessellated edge curve {{entity}}'
+  notes:
+    - content: |-
+        A **tessellated_edge_curve** is a type of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that is a tessellated form of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}}, but is not a type of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}}, for use in
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_brep_shape_representation,tessellated_brep_shape_representation}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_edge_curve
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 889bf3ec-4d37-5cd9-a37f-06600c0a54fd

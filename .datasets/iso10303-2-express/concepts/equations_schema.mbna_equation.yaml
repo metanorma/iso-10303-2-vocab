@@ -1,0 +1,33 @@
+data:
+  identifier: equations_schema.mbna_equation
+  localized_concepts:
+    eng: 2a552073-1fac-5e7f-83d3-ba5ff6587e0b
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.mbna_equation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain,model_product_domain}} that represents the mbna equation {{entity}}'
+  notes:
+    - content: |-
+        A *mbna_equation* represents the concept of a mathematical
+        formulation of a physics phenonema.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_equation
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: 2a552073-1fac-5e7f-83d3-ba5ff6587e0b

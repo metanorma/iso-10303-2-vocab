@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_date_arm.Year_month
+  localized_concepts:
+    eng: d7ec5a7d-2a00-5950-b921-ca9a14dfa6c4
+  domains:
+    - concept_id: section-Extended_date_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+      ref_type: section
+id: Extended_date_arm.Year_month
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the year month {{entity}}'
+  notes:
+    - content: A **Year_month** is an identification of a month in a calendar year.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+          version: '2'
+      type: authoritative
+      id: Extended_date_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Year_month
+  domain: 'application module: Extended_date_arm'
+  language_code: eng
+  annotations: []
+id: d7ec5a7d-2a00-5950-b921-ca9a14dfa6c4

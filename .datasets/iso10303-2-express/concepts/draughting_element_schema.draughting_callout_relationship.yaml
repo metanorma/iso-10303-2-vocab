@@ -1,0 +1,31 @@
+data:
+  identifier: draughting_element_schema.draughting_callout_relationship
+  localized_concepts:
+    eng: 1a5aaa1b-a9c0-5f07-97d5-248f82fd6361
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.draughting_callout_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the draughting callout relationship {{entity}}'
+  notes:
+    - content: A **draughting_callout_relationship** is a logical relationship between two annotation groups which appear on a drawing.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_callout_relationship
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: 1a5aaa1b-a9c0-5f07-97d5-248f82fd6361

@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.dimension_related_tolerance_zone_element
+  localized_concepts:
+    eng: cc385294-2bd9-5fb5-9b3e-66aa16414664
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.dimension_related_tolerance_zone_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimension related tolerance zone element {{entity}}'
+  notes:
+    - content: A **dimension_related_tolerance_zone_element** is an association of a tolerance zone definition with a locating dimension.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dimension_related_tolerance_zone_element
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: cc385294-2bd9-5fb5-9b3e-66aa16414664

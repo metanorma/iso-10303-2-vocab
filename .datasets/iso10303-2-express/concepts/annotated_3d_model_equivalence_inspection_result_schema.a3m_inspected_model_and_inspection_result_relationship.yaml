@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_equivalence_inspection_result_schema.a3m_inspected_model_and_inspection_result_relationship
+  localized_concepts:
+    eng: 2d2df879-4964-538d-a07e-4cc0a4b6e225
+  domains:
+    - concept_id: section-annotated_3d_model_equivalence_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_inspection_result_schema
+      ref_type: section
+id: annotated_3d_model_equivalence_inspection_result_schema.a3m_inspected_model_and_inspection_result_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the a3m inspected model and inspection result relationship {{entity}}'
+  notes:
+    - content: An **a3m_inspected_model_and_inspection_result_relationship** is the relationship between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_inspection_result_schema.a3m_equivalence_inspection_result_representation,a3m_equivalence_inspection_result_representation}} and the target annotated 3d model represented by {{target_annotated_3d_model_select,target_annotated_3d_model_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: annotated_3d_model_equivalence_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_inspected_model_and_inspection_result_relationship
+  domain: 'resource: annotated_3d_model_equivalence_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 2d2df879-4964-538d-a07e-4cc0a4b6e225

@@ -1,0 +1,31 @@
+data:
+  identifier: Process_property_assignment_arm.Activity_property_representation
+  localized_concepts:
+    eng: c64bd924-2553-5038-afd6-4eafc00e5f4f
+  domains:
+    - concept_id: section-Process_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+      ref_type: section
+id: Process_property_assignment_arm.Activity_property_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the activity property representation {{entity}}'
+  notes:
+    - content: An **Activity_property_representation** is an association between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} and one of its representations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+          version: '2'
+      type: authoritative
+      id: Process_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_property_representation
+  domain: 'application module: Process_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: c64bd924-2553-5038-afd6-4eafc00e5f4f

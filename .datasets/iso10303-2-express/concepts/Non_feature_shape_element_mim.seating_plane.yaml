@@ -1,0 +1,31 @@
+data:
+  identifier: Non_feature_shape_element_mim.seating_plane
+  localized_concepts:
+    eng: 1b4442de-38f7-58f2-b313-053c79fb131e
+  domains:
+    - concept_id: section-Non_feature_shape_element_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+      ref_type: section
+id: Non_feature_shape_element_mim.seating_plane
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the seating plane {{entity}}'
+  notes:
+    - content: The **seating_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Seating_plane,Seating_plane}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+          version: '5'
+      type: authoritative
+      id: Non_feature_shape_element_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: seating_plane
+  domain: 'application module: Non_feature_shape_element_mim'
+  language_code: eng
+  annotations: []
+id: 1b4442de-38f7-58f2-b313-053c79fb131e

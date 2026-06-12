@@ -1,0 +1,31 @@
+data:
+  identifier: Description_assignment_mim.applied_description_text_assignment_relationship
+  localized_concepts:
+    eng: 0fe410d7-f22d-51d9-a1bc-8fabc0b4cfbb
+  domains:
+    - concept_id: section-Description_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_mim
+      ref_type: section
+id: Description_assignment_mim.applied_description_text_assignment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.description_text_assignment_relationship,description_text_assignment_relationship}} that represents the applied description text assignment relationship {{entity}}'
+  notes:
+    - content: An **applied_description_text_assignment_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.description_text_assignment_relationship,description_text_assignment_relationship}} that describes a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_mim.applied_description_text_assignment,applied_description_text_assignment}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Description_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_description_text_assignment_relationship
+  domain: 'application module: Description_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 0fe410d7-f22d-51d9-a1bc-8fabc0b4cfbb

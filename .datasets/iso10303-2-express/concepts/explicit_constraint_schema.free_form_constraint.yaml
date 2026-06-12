@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_constraint_schema.free_form_constraint
+  localized_concepts:
+    eng: 84ae94cb-2fff-5070-bc17-5c7ae114167f
+  domains:
+    - concept_id: section-explicit_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+      ref_type: section
+id: explicit_constraint_schema.free_form_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}} that represents the free form constraint {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.free_form_constraint,free_form_constraint}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}} defining a special purpose constraint that cannot be modelled with the defined constraint entities available in any particular application context.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: free_form_constraint
+  domain: 'resource: explicit_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 84ae94cb-2fff-5070-bc17-5c7ae114167f

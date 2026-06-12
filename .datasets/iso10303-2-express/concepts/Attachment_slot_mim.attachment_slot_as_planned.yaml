@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_mim.attachment_slot_as_planned
+  localized_concepts:
+    eng: 497ab0e2-3460-5a8c-bc2a-b6a8cf7c96f5
+  domains:
+    - concept_id: section-Attachment_slot_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+      ref_type: section
+id: Attachment_slot_mim.attachment_slot_as_planned
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the attachment slot as planned {{entity}}'
+  notes:
+    - content: An **attachment_slot_as_planned** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies an individual that is the subject of a plan to realize an attachment slot.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: attachment_slot_as_planned
+  domain: 'application module: Attachment_slot_mim'
+  language_code: eng
+  annotations: []
+id: 497ab0e2-3460-5a8c-bc2a-b6a8cf7c96f5

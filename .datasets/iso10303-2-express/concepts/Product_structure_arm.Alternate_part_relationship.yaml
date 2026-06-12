@@ -1,0 +1,31 @@
+data:
+  identifier: Product_structure_arm.Alternate_part_relationship
+  localized_concepts:
+    eng: 7063f660-7e36-5d60-b386-6a4dc309894a
+  domains:
+    - concept_id: section-Product_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_structure_arm
+      ref_type: section
+id: Product_structure_arm.Alternate_part_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm.Alternate_product_relationship,Alternate_product_relationship}} that represents the alternate part relationship {{entity}}'
+  notes:
+    - content: An **Alternate_part_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.alternate_product_relationship,alternate_product_relationship}} where the alternate and base products are parts.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_structure_arm
+          version: '1'
+      type: authoritative
+      id: Product_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Alternate_part_relationship
+  domain: 'application module: Product_structure_arm'
+  language_code: eng
+  annotations: []
+id: 7063f660-7e36-5d60-b386-6a4dc309894a

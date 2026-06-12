@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_motion_representation_schema.path_parameter_representation_context
+  localized_concepts:
+    eng: e85a47f6-9b39-5ab0-8166-5a194a6fc3c0
+  domains:
+    - concept_id: section-kinematic_motion_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+      ref_type: section
+id: kinematic_motion_representation_schema.path_parameter_representation_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the path parameter representation context {{entity}}'
+  notes:
+    - content: A **path_parameter_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_context,geometric_representation_context}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.parametric_representation_context,parametric_representation_context}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+          version: '5'
+      type: authoritative
+      id: kinematic_motion_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: path_parameter_representation_context
+  domain: 'resource: kinematic_motion_representation_schema'
+  language_code: eng
+  annotations: []
+id: e85a47f6-9b39-5ab0-8166-5a194a6fc3c0

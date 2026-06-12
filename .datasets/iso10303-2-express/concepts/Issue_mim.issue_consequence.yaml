@@ -1,0 +1,31 @@
+data:
+  identifier: Issue_mim.issue_consequence
+  localized_concepts:
+    eng: d5921abb-c129-5c15-8207-68603a487b79
+  domains:
+    - concept_id: section-Issue_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
+      ref_type: section
+id: Issue_mim.issue_consequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation_consequence,observation_consequence}} that represents the issue consequence {{entity}}'
+  notes:
+    - content: An **issue_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation_consequence,observation_consequence}} that links an issue to the request to resolve the issue.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
+          version: '1'
+      type: authoritative
+      id: Issue_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: issue_consequence
+  domain: 'application module: Issue_mim'
+  language_code: eng
+  annotations: []
+id: d5921abb-c129-5c15-8207-68603a487b79

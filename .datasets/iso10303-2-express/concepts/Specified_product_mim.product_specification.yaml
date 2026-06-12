@@ -1,0 +1,31 @@
+data:
+  identifier: Specified_product_mim.product_specification
+  localized_concepts:
+    eng: b2933053-8896-599f-85c6-1e5abc53eda8
+  domains:
+    - concept_id: section-Specified_product_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
+      ref_type: section
+id: Specified_product_mim.product_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product specification {{entity}}'
+  notes:
+    - content: A **product_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim.product_identification,product_identification}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configurable_item,configurable_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Product_specification,Product_specification}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
+          version: '5'
+      type: authoritative
+      id: Specified_product_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_specification
+  domain: 'application module: Specified_product_mim'
+  language_code: eng
+  annotations: []
+id: b2933053-8896-599f-85c6-1e5abc53eda8

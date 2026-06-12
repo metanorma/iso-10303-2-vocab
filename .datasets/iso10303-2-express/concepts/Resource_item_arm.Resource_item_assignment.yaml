@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_item_arm.Resource_item_assignment
+  localized_concepts:
+    eng: 21ad18ae-54cc-5e2a-b8b3-c49c4f03cbfe
+  domains:
+    - concept_id: section-Resource_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+      ref_type: section
+id: Resource_item_arm.Resource_item_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource item assignment {{entity}}'
+  notes:
+    - content: A **Resource_item_assignment** is an association of a resource item with some product information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+          version: '2'
+      type: authoritative
+      id: Resource_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Resource_item_assignment
+  domain: 'application module: Resource_item_arm'
+  language_code: eng
+  annotations: []
+id: 21ad18ae-54cc-5e2a-b8b3-c49c4f03cbfe

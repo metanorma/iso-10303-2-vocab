@@ -1,0 +1,31 @@
+data:
+  identifier: Process_property_assignment_arm.Activity_property
+  localized_concepts:
+    eng: 3613f5c5-6c98-54b5-ba7a-30f6df14ae3f
+  domains:
+    - concept_id: section-Process_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+      ref_type: section
+id: Process_property_assignment_arm.Activity_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the activity property {{entity}}'
+  notes:
+    - content: An **Activity_property** is a property of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}} or of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+          version: '2'
+      type: authoritative
+      id: Process_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_property
+  domain: 'application module: Process_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 3613f5c5-6c98-54b5-ba7a-30f6df14ae3f

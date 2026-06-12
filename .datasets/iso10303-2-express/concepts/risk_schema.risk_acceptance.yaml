@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_acceptance
+  localized_concepts:
+    eng: 9edaece2-5eb2-5bce-81b4-00f4766f4ce1
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_acceptance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the risk acceptance {{entity}}'
+  notes:
+    - content: A **risk_acceptance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that is the process of planning and accepting a risk.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_acceptance
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: 9edaece2-5eb2-5bce-81b4-00f4766f4ce1

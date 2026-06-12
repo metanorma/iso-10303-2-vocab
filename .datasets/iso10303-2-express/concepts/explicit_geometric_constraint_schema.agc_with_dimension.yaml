@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.agc_with_dimension
+  localized_concepts:
+    eng: b6d06324-c8f6-54e7-a58c-f32e1f492879
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.agc_with_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.angle_geometric_constraint,angle_geometric_constraint}} that represents the agc with dimension {{entity}}'
+  notes:
+    - content: The *agc_with_dimension* entity data type is a type of *angle_geometric_constraint* asserting a dimensional value for an angular constraint relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: agc_with_dimension
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: b6d06324-c8f6-54e7-a58c-f32e1f492879

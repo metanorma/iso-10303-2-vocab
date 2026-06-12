@@ -1,0 +1,31 @@
+data:
+  identifier: Position_in_organization_arm.Position
+  localized_concepts:
+    eng: 93f36d1e-6296-5165-a713-c98ede432f4a
+  domains:
+    - concept_id: section-Position_in_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+      ref_type: section
+id: Position_in_organization_arm.Position
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position {{entity}}'
+  notes:
+    - content: A **Position** is a function or job performed by a person.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+          version: '1'
+      type: authoritative
+      id: Position_in_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Position
+  domain: 'application module: Position_in_organization_arm'
+  language_code: eng
+  annotations: []
+id: 93f36d1e-6296-5165-a713-c98ede432f4a

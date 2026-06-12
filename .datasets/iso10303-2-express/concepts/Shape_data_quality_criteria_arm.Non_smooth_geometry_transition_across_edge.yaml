@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.Non_smooth_geometry_transition_across_edge
+  localized_concepts:
+    eng: 00126582-c630-53cd-91da-155ecce84413
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.Non_smooth_geometry_transition_across_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_topology_and_geometry_relationship,Inapt_topology_and_geometry_relationship}} that represents the non smooth geometry transition across edge {{entity}}'
+  notes:
+    - content: A **Non_smooth_geometry_transition_across_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_topology_and_geometry_relationship,Inapt_topology_and_geometry_relationship}} that is a supertype of criteria for detecting two types of non smooth geometric transition across edge.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Non_smooth_geometry_transition_across_edge
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 00126582-c630-53cd-91da-155ecce84413

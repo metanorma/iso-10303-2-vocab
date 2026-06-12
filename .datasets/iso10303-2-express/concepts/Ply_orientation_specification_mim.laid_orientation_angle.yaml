@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_mim.laid_orientation_angle
+  localized_concepts:
+    eng: 7f74c417-cba0-553e-9622-ea0d02b7b672
+  domains:
+    - concept_id: section-Ply_orientation_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+      ref_type: section
+id: Ply_orientation_specification_mim.laid_orientation_angle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim.ply_orientation_angle,ply_orientation_angle}} that represents the laid orientation angle {{entity}}'
+  notes:
+    - content: A **laid_orientation_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim.ply_orientation_angle,ply_orientation_angle}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Laid_orientation_angle,Laid_orientation_angle}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+          version: '4'
+      type: authoritative
+      id: Ply_orientation_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: laid_orientation_angle
+  domain: 'application module: Ply_orientation_specification_mim'
+  language_code: eng
+  annotations: []
+id: 7f74c417-cba0-553e-9622-ea0d02b7b672

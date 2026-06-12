@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Dimensioned_parallel_constraint
+  localized_concepts:
+    eng: 44c23327-1725-5f2a-ac28-6c0b1a57735e
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Dimensioned_parallel_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Parallel_constraint,Parallel_constraint}} that represents the dimensioned parallel constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_parallel_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Parallel_constraint,Parallel_constraint}} that specifies a displacement value that constrains the distance between two parallel line or plane instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_parallel_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 44c23327-1725-5f2a-ac28-6c0b1a57735e

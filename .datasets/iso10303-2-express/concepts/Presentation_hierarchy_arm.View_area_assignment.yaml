@@ -1,0 +1,31 @@
+data:
+  identifier: Presentation_hierarchy_arm.View_area_assignment
+  localized_concepts:
+    eng: 45817bf1-aa75-5be4-b90b-f1f1171a918e
+  domains:
+    - concept_id: section-Presentation_hierarchy_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+      ref_type: section
+id: Presentation_hierarchy_arm.View_area_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the view area assignment {{entity}}'
+  notes:
+    - content: A **View_area_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.View_area,View_area}} with the object that is presented on the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.View_area,View_area}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+          version: '1'
+      type: authoritative
+      id: Presentation_hierarchy_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: View_area_assignment
+  domain: 'application module: Presentation_hierarchy_arm'
+  language_code: eng
+  annotations: []
+id: 45817bf1-aa75-5be4-b90b-f1f1171a918e

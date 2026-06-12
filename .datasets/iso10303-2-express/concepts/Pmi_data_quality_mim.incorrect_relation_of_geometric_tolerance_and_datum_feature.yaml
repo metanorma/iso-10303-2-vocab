@@ -1,0 +1,31 @@
+data:
+  identifier: Pmi_data_quality_mim.incorrect_relation_of_geometric_tolerance_and_datum_feature
+  localized_concepts:
+    eng: 6b9e5a56-cf38-5440-9129-412481684b1e
+  domains:
+    - concept_id: section-Pmi_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+      ref_type: section
+id: Pmi_data_quality_mim.incorrect_relation_of_geometric_tolerance_and_datum_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}} that represents the incorrect relation of geometric tolerance and datum feature {{entity}}'
+  notes:
+    - content: An **incorrect_relation_of_geometric_tolerance_and_datum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Incorrect_relation_of_geometric_tolerance_and_datum_feature,Incorrect_relation_of_geometric_tolerance_and_datum_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Pmi_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: incorrect_relation_of_geometric_tolerance_and_datum_feature
+  domain: 'application module: Pmi_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 6b9e5a56-cf38-5440-9129-412481684b1e

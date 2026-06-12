@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Mesh
+  localized_concepts:
+    eng: e4676a31-8d02-5b9c-8e91-d42d4064214b
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the mesh {{entity}}'
+  notes:
+    - content: A **Mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} consisting of one or more cells.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mesh
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: e4676a31-8d02-5b9c-8e91-d42d4064214b

@@ -1,0 +1,31 @@
+data:
+  identifier: Effectivity_arm.Serial_effectivity
+  localized_concepts:
+    eng: 179b78e2-7244-53dc-a9ac-5182e55aa20c
+  domains:
+    - concept_id: section-Effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+      ref_type: section
+id: Effectivity_arm.Serial_effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} that represents the serial effectivity {{entity}}'
+  notes:
+    - content: A **Serial_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} for which the domain of applicability is defined as a possibly open-ended interval of serial numbers.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+          version: '2'
+      type: authoritative
+      id: Effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Serial_effectivity
+  domain: 'application module: Effectivity_arm'
+  language_code: eng
+  annotations: []
+id: 179b78e2-7244-53dc-a9ac-5182e55aa20c

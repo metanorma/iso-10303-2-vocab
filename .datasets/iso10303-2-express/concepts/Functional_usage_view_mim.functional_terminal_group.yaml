@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_usage_view_mim.functional_terminal_group
+  localized_concepts:
+    eng: 8ea79083-1890-53f9-abeb-5f6ecb761055
+  domains:
+    - concept_id: section-Functional_usage_view_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim
+      ref_type: section
+id: Functional_usage_view_mim.functional_terminal_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the functional terminal group {{entity}}'
+  notes:
+    - content: A **functional_terminal_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} group that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_terminal_group,Functional_terminal_group}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim
+          version: '5'
+      type: authoritative
+      id: Functional_usage_view_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: functional_terminal_group
+  domain: 'application module: Functional_usage_view_mim'
+  language_code: eng
+  annotations: []
+id: 8ea79083-1890-53f9-abeb-5f6ecb761055

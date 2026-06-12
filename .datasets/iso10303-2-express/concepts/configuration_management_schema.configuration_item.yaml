@@ -1,0 +1,31 @@
+data:
+  identifier: configuration_management_schema.configuration_item
+  localized_concepts:
+    eng: 1c03a7fc-ab03-5347-b630-5b07fc65955a
+  domains:
+    - concept_id: section-configuration_management_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+      ref_type: section
+id: configuration_management_schema.configuration_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the configuration item {{entity}}'
+  notes:
+    - content: A **configuration_item** is an identification of an idea of a product or any of the discrete portions of a product, that is designated for configuration management and treated as a single unit in the configuration management process.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+          version: '4'
+      type: authoritative
+      id: configuration_management_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: configuration_item
+  domain: 'resource: configuration_management_schema'
+  language_code: eng
+  annotations: []
+id: 1c03a7fc-ab03-5347-b630-5b07fc65955a

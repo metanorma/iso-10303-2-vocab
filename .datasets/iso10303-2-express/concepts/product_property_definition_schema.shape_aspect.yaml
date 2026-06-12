@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_definition_schema.shape_aspect
+  localized_concepts:
+    eng: 91fc201a-464f-52bc-8781-4ad0762136ab
+  domains:
+    - concept_id: section-product_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+      ref_type: section
+id: product_property_definition_schema.shape_aspect
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape aspect {{entity}}'
+  notes:
+    - content: A **shape_aspect** is an identified element of the shape of an object or is part of another **shape_aspect**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_aspect
+  domain: 'resource: product_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 91fc201a-464f-52bc-8781-4ad0762136ab

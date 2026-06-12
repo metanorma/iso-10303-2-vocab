@@ -1,0 +1,33 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.imported_geometry
+  localized_concepts:
+    eng: fe5f44bc-86a0-5df3-94de-b4d78399af36
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: c178e72f-c6ea-588a-ad47-827b110b78d3
+schema_version: v3
+---
+data:
+  definition:
+  - content: points and curves imported into the plane of a two-dimensional {{sketch}},
+      but defined in terms of elements external to the sketch
+  examples:
+  - content: Examples of imported geometry are provided by projections of external
+      points or curves onto the plane of a sketch. These elements are not subject
+      to editing within the context of the sketch, since their defining elements lie
+      outside it. Their purpose is to serve as reference elements for constraints
+      on the sketch geometry.
+  notes:
+  - content: This definition applies only in the restricted context of <<ISO_10303-108_2005>>;
+      the concept of imported geometry may have a wider meaning in other application
+      areas.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: imported geometry
+  language_code: eng
+  annotations: []
+id: fe5f44bc-86a0-5df3-94de-b4d78399af36

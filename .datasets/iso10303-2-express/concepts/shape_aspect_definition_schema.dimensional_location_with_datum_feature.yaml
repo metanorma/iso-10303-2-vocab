@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.dimensional_location_with_datum_feature
+  localized_concepts:
+    eng: 91a26648-5706-5d02-8492-f9cc26edf7b2
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.dimensional_location_with_datum_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimensional location with datum feature {{entity}}'
+  notes:
+    - content: A **dimensional_location_with_datum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_feature,datum_feature}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}} that shall be used when the datum is established from two opposing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}s that define a feature of size.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dimensional_location_with_datum_feature
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: 91a26648-5706-5d02-8492-f9cc26edf7b2

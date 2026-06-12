@@ -1,0 +1,30 @@
+data:
+  identifier: Activity_as_realized_arm.Activity_actual
+  localized_concepts:
+    eng: ff763c42-d5d3-550a-95e7-a4c7b349af8b
+  domains:
+    - concept_id: section-Activity_as_realized_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
+      ref_type: section
+id: Activity_as_realized_arm.Activity_actual
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}} that represents the activity actual {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
+          version: '3'
+      type: authoritative
+      id: Activity_as_realized_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_actual
+  domain: 'application module: Activity_as_realized_arm'
+  language_code: eng
+  annotations: []
+id: ff763c42-d5d3-550a-95e7-a4c7b349af8b

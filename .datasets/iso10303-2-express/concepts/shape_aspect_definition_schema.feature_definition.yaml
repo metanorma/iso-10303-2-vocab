@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.feature_definition
+  localized_concepts:
+    eng: 758ca3b6-b948-520a-91ba-89b47dc2f278
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.feature_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that represents the feature definition {{entity}}'
+  notes:
+    - content: A **feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that is a preconceived form pattern.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: feature_definition
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: 758ca3b6-b948-520a-91ba-89b47dc2f278

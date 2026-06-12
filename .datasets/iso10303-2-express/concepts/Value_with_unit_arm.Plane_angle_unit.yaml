@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Plane_angle_unit
+  localized_concepts:
+    eng: 382d708e-f33e-5146-acba-90e18048a955
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Plane_angle_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the plane angle unit {{entity}}'
+  notes:
+    - content: A **Plane_angle_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} by which a angles in planes are expressed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plane_angle_unit
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: 382d708e-f33e-5146-acba-90e18048a955

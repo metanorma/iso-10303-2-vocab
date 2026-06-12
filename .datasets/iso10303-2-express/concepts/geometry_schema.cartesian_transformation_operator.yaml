@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.cartesian_transformation_operator
+  localized_concepts:
+    eng: 660838f0-7e95-5530-a0d3-d5514d90d090
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.cartesian_transformation_operator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the cartesian transformation operator {{entity}}'
+  notes:
+    - content: A **cartesian_transformation_operator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.functionally_defined_transformation,functionally_defined_transformation}} , that defines a geometric transformation composed of translation, rotation, mirroring and uniform scaling.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cartesian_transformation_operator
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 660838f0-7e95-5530-a0d3-d5514d90d090

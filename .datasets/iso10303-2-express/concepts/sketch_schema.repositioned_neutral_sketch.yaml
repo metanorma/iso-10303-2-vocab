@@ -1,0 +1,31 @@
+data:
+  identifier: sketch_schema.repositioned_neutral_sketch
+  localized_concepts:
+    eng: 4232844b-8403-5668-9dba-e2343104f57b
+  domains:
+    - concept_id: section-sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+      ref_type: section
+id: sketch_schema.repositioned_neutral_sketch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the repositioned neutral sketch {{entity}}'
+  notes:
+    - content: The entity data type *repositioned_neutral_sketch* is a type of *mapped_item*, and also of *geometric_representation_item*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+          version: '4'
+      type: authoritative
+      id: sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: repositioned_neutral_sketch
+  domain: 'resource: sketch_schema'
+  language_code: eng
+  annotations: []
+id: 4232844b-8403-5668-9dba-e2343104f57b

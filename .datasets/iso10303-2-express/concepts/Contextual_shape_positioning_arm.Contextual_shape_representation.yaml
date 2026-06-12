@@ -1,0 +1,31 @@
+data:
+  identifier: Contextual_shape_positioning_arm.Contextual_shape_representation
+  localized_concepts:
+    eng: 5de0de7b-d67d-55fd-b661-3c1537b41ac8
+  domains:
+    - concept_id: section-Contextual_shape_positioning_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+      ref_type: section
+id: Contextual_shape_positioning_arm.Contextual_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the contextual shape representation {{entity}}'
+  notes:
+    - content: A **Contextual_shape_representation** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_relationship_arm.Geometric_model_relationship,Geometric_model_relationship}} to a product structure relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+          version: '9'
+      type: authoritative
+      id: Contextual_shape_positioning_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Contextual_shape_representation
+  domain: 'application module: Contextual_shape_positioning_arm'
+  language_code: eng
+  annotations: []
+id: 5de0de7b-d67d-55fd-b661-3c1537b41ac8

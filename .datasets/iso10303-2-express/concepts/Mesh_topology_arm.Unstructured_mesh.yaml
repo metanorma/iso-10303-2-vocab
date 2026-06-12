@@ -1,0 +1,30 @@
+data:
+  identifier: Mesh_topology_arm.Unstructured_mesh
+  localized_concepts:
+    eng: b5e80c4c-0e57-55cf-b0e9-28339a661373
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Unstructured_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}} that represents the unstructured mesh {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Unstructured_mesh
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: b5e80c4c-0e57-55cf-b0e9-28339a661373

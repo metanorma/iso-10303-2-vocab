@@ -1,0 +1,31 @@
+data:
+  identifier: Item_definition_structure_arm.Geometrical_relationship
+  localized_concepts:
+    eng: 31de389e-7ac7-59d0-9454-a6dcb53d80e1
+  domains:
+    - concept_id: section-Item_definition_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+      ref_type: section
+id: Item_definition_structure_arm.Geometrical_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that represents the geometrical relationship {{entity}}'
+  notes:
+    - content: A **Geometrical_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that specifies that the shape and location of the relating part version is derived from the shape and location of the related part version.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+          version: '6'
+      type: authoritative
+      id: Item_definition_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometrical_relationship
+  domain: 'application module: Item_definition_structure_arm'
+  language_code: eng
+  annotations: []
+id: 31de389e-7ac7-59d0-9454-a6dcb53d80e1

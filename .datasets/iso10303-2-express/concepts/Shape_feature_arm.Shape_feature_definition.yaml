@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_feature_arm.Shape_feature_definition
+  localized_concepts:
+    eng: 24d64fbf-5449-5741-aa8f-7ac1d7a7295f
+  domains:
+    - concept_id: section-Shape_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+      ref_type: section
+id: Shape_feature_arm.Shape_feature_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} that represents the shape feature definition {{entity}}'
+  notes:
+    - content: A **Shape_feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} that defines the shape of a feature either by an explicit {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} or by an implicit {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is defined by parameters.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+          version: '5'
+      type: authoritative
+      id: Shape_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_feature_definition
+  domain: 'application module: Shape_feature_arm'
+  language_code: eng
+  annotations: []
+id: 24d64fbf-5449-5741-aa8f-7ac1d7a7295f

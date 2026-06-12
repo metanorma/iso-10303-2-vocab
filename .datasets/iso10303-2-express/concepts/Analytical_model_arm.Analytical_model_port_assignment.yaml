@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_port_assignment
+  localized_concepts:
+    eng: c1aa8339-a552-574c-9e18-f2c8ce0c21fe
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_port_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analytical model port assignment {{entity}}'
+  notes:
+    - content: An **Analytical_model_port_assignment** is a relationship established between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_port,Analytical_model_port}} and an **assigned_item**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_port_assignment
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: c1aa8339-a552-574c-9e18-f2c8ce0c21fe

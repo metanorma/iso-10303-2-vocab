@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_constraints_arm.Dimensioned_surface_distance_assembly_constraint
+  localized_concepts:
+    eng: 4d9dd733-4ab2-5944-9a6e-861b2723451e
+  domains:
+    - concept_id: section-Assembly_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+      ref_type: section
+id: Assembly_constraints_arm.Dimensioned_surface_distance_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimensioned surface distance assembly constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_surface_distance_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm.Binary_assembly_constraint,Binary_assembly_constraint}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Dimensioned_surface_distance_constraint,Dimensioned_surface_distance_constraint}} that constrains the minimum distance between two surfaces belonging to different constituents.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+          version: '1'
+      type: authoritative
+      id: Assembly_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_surface_distance_assembly_constraint
+  domain: 'application module: Assembly_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 4d9dd733-4ab2-5944-9a6e-861b2723451e

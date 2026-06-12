@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Curve_segment_set
+  localized_concepts:
+    eng: 3bc6b888-8847-5015-81f2-b152bb9d130f
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Curve_segment_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the curve segment set {{entity}}'
+  notes:
+    - content: A **Curve_segment_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that defines a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Composite_curve_segment,Composite_curve_segment}} composite curve segment elements, for use in the constraint {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Curve_smoothness_constraint,Curve_smoothness_constraint}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Curve_segment_set
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 3bc6b888-8847-5015-81f2-b152bb9d130f

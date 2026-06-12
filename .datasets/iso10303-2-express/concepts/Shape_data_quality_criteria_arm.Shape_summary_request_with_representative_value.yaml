@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.Shape_summary_request_with_representative_value
+  localized_concepts:
+    eng: 2d0d44de-db37-573a-a347-4483c9aa11b7
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.Shape_summary_request_with_representative_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Summary_report_request,Summary_report_request}} that represents the shape summary request with representative value {{entity}}'
+  notes:
+    - content: A **Shape_summary_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Summary_report_request,Summary_report_request}} that requests a summarized inspection report with representative measured value on the criterion concerned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_summary_request_with_representative_value
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 2d0d44de-db37-573a-a347-4483c9aa11b7

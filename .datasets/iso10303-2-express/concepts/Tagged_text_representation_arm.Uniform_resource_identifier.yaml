@@ -1,0 +1,31 @@
+data:
+  identifier: Tagged_text_representation_arm.Uniform_resource_identifier
+  localized_concepts:
+    eng: 38633522-2ad7-5d31-bb1d-d44d2319e391
+  domains:
+    - concept_id: section-Tagged_text_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
+      ref_type: section
+id: Tagged_text_representation_arm.Uniform_resource_identifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that represents the uniform resource identifier {{entity}}'
+  notes:
+    - content: A **Uniform_resource_identifier** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that is defined in Internet Engineering Task Force RFC 3986:2005.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
+          version: '2'
+      type: authoritative
+      id: Tagged_text_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Uniform_resource_identifier
+  domain: 'application module: Tagged_text_representation_arm'
+  language_code: eng
+  annotations: []
+id: 38633522-2ad7-5d31-bb1d-d44d2319e391

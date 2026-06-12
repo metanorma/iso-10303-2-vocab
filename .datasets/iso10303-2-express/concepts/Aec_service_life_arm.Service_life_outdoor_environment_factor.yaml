@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Service_life_outdoor_environment_factor
+  localized_concepts:
+    eng: febeabe1-f22f-57bb-bbcb-a16675c04d05
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Service_life_outdoor_environment_factor
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that represents the service life outdoor environment factor {{entity}}'
+  notes:
+    - content: A **Service_life_outdoor_environment_factor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that depends upon the outdoor environment.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Service_life_outdoor_environment_factor
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: febeabe1-f22f-57bb-bbcb-a16675c04d05

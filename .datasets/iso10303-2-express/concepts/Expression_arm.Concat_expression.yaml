@@ -1,0 +1,31 @@
+data:
+  identifier: Expression_arm.Concat_expression
+  localized_concepts:
+    eng: 8bcd1fca-07dd-5690-a2a0-de35616c0d93
+  domains:
+    - concept_id: section-Expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+      ref_type: section
+id: Expression_arm.Concat_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the concat expression {{entity}}'
+  notes:
+    - content: A **Concat_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm.String_expression,String_expression}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Multiple_arity_generic_expression,Multiple_arity_generic_expression}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+          version: '3'
+      type: authoritative
+      id: Expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Concat_expression
+  domain: 'application module: Expression_arm'
+  language_code: eng
+  annotations: []
+id: 8bcd1fca-07dd-5690-a2a0-de35616c0d93

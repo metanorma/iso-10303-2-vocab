@@ -1,0 +1,31 @@
+data:
+  identifier: Form_feature_in_panel_mim.locator
+  localized_concepts:
+    eng: 136cd5df-dcc0-5b87-aec3-0fbd8655f0e5
+  domains:
+    - concept_id: section-Form_feature_in_panel_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+      ref_type: section
+id: Form_feature_in_panel_mim.locator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the locator {{entity}}'
+  notes:
+    - content: A **locator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} applicable to panel parts, that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Locator_feature,Locator_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+          version: '4'
+      type: authoritative
+      id: Form_feature_in_panel_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: locator
+  domain: 'application module: Form_feature_in_panel_mim'
+  language_code: eng
+  annotations: []
+id: 136cd5df-dcc0-5b87-aec3-0fbd8655f0e5

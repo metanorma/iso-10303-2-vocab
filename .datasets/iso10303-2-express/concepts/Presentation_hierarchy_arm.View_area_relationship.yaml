@@ -1,0 +1,31 @@
+data:
+  identifier: Presentation_hierarchy_arm.View_area_relationship
+  localized_concepts:
+    eng: db600790-68c3-5848-a75f-afbd63b1097f
+  domains:
+    - concept_id: section-Presentation_hierarchy_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+      ref_type: section
+id: Presentation_hierarchy_arm.View_area_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the view area relationship {{entity}}'
+  notes:
+    - content: A **View_area_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.View_area,View_area}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+          version: '1'
+      type: authoritative
+      id: Presentation_hierarchy_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: View_area_relationship
+  domain: 'application module: Presentation_hierarchy_arm'
+  language_code: eng
+  annotations: []
+id: db600790-68c3-5848-a75f-afbd63b1097f

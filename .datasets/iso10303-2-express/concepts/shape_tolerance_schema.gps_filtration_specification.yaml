@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.gps_filtration_specification
+  localized_concepts:
+    eng: 8048155c-db37-51c8-9a23-70afd8830f88
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.gps_filtration_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the gps filtration specification {{entity}}'
+  notes:
+    - content: A **gps_filtration_specification** is a specification of the filtering of the toleranced feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: gps_filtration_specification
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 8048155c-db37-51c8-9a23-70afd8830f88

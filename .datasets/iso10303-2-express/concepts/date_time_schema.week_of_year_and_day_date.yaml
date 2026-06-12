@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.week_of_year_and_day_date
+  localized_concepts:
+    eng: 7896c244-0eca-5b44-be9a-955d9164c43b
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.week_of_year_and_day_date
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} that represents the week of year and day date {{entity}}'
+  notes:
+    - content: A **week_of_year_and_day_date** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} defined by identifying the week within a year and the day within that particular week.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: week_of_year_and_day_date
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 7896c244-0eca-5b44-be9a-955d9164c43b

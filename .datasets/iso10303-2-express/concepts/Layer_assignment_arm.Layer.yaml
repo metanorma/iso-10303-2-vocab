@@ -1,0 +1,31 @@
+data:
+  identifier: Layer_assignment_arm.Layer
+  localized_concepts:
+    eng: b0686a40-54b8-5ae0-b64c-12d8783708f3
+  domains:
+    - concept_id: section-Layer_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm
+      ref_type: section
+id: Layer_assignment_arm.Layer
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the layer {{entity}}'
+  notes:
+    - content: A **Layer** is a general structure for collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm
+          version: '3'
+      type: authoritative
+      id: Layer_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Layer
+  domain: 'application module: Layer_assignment_arm'
+  language_code: eng
+  annotations: []
+id: b0686a40-54b8-5ae0-b64c-12d8783708f3

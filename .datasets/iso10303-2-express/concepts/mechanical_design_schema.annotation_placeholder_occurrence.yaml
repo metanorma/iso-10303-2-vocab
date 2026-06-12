@@ -1,0 +1,31 @@
+data:
+  identifier: mechanical_design_schema.annotation_placeholder_occurrence
+  localized_concepts:
+    eng: 134be46c-fc24-55a5-9cf0-c677545912b7
+  domains:
+    - concept_id: section-mechanical_design_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+      ref_type: section
+id: mechanical_design_schema.annotation_placeholder_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the annotation placeholder occurrence {{entity}}'
+  notes:
+    - content: An **annotation_placeholder_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that provides enough information about the position and orientation of a PMI annotation so that a target system with PMI authoring capability can re-create the presentation based on the Representation data given in the file.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+          version: '3'
+      type: authoritative
+      id: mechanical_design_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: annotation_placeholder_occurrence
+  domain: 'resource: mechanical_design_schema'
+  language_code: eng
+  annotations: []
+id: 134be46c-fc24-55a5-9cf0-c677545912b7

@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Duration
+  localized_concepts:
+    eng: df3e1ff3-b8d0-5dcc-a9aa-0ec0fa58bf38
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Duration
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the duration {{entity}}'
+  notes:
+    - content: A **Duration** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that defines the magnitude of a time interval.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Duration
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: df3e1ff3-b8d0-5dcc-a9aa-0ec0fa58bf38

@@ -1,0 +1,31 @@
+data:
+  identifier: Default_setting_association_arm.Default_fillet
+  localized_concepts:
+    eng: 2ff10b93-ee56-5e1e-8a36-4200f787cb68
+  domains:
+    - concept_id: section-Default_setting_association_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+      ref_type: section
+id: Default_setting_association_arm.Default_fillet
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm.Default_shape_property,Default_shape_property}} that represents the default fillet {{entity}}'
+  notes:
+    - content: A **Default_fillet** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm.Default_shape_property,Default_shape_property}} that is the definition of a fillet that shall be applied to each non-tangent continuous, concave edge of a shape model where no other fillet is specified and where its nature does not change from concave to convex.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+          version: '2'
+      type: authoritative
+      id: Default_setting_association_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Default_fillet
+  domain: 'application module: Default_setting_association_arm'
+  language_code: eng
+  annotations: []
+id: 2ff10b93-ee56-5e1e-8a36-4200f787cb68

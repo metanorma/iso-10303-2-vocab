@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_mim.printed_connector_template_terminal_relationship
+  localized_concepts:
+    eng: ceb2c349-d62c-526c-be35-272f4b42fddf
+  domains:
+    - concept_id: section-Printed_physical_layout_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+      ref_type: section
+id: Printed_physical_layout_template_mim.printed_connector_template_terminal_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the printed connector template terminal relationship {{entity}}'
+  notes:
+    - content: A **printed_connector_template_terminal_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template_terminal_relationship,Printed_connector_template_terminal_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: printed_connector_template_terminal_relationship
+  domain: 'application module: Printed_physical_layout_template_mim'
+  language_code: eng
+  annotations: []
+id: ceb2c349-d62c-526c-be35-272f4b42fddf

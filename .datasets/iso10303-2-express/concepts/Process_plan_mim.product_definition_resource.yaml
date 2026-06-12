@@ -1,0 +1,31 @@
+data:
+  identifier: Process_plan_mim.product_definition_resource
+  localized_concepts:
+    eng: 5413bd2a-8f3f-56d7-afb1-5205ebd8bba3
+  domains:
+    - concept_id: section-Process_plan_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+      ref_type: section
+id: Process_plan_mim.product_definition_resource
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition resource {{entity}}'
+  notes:
+    - content: A **product_definition_resource** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_resource,action_resource}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that specifies a tool that is used to perform a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+          version: '4'
+      type: authoritative
+      id: Process_plan_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_resource
+  domain: 'application module: Process_plan_mim'
+  language_code: eng
+  annotations: []
+id: 5413bd2a-8f3f-56d7-afb1-5205ebd8bba3

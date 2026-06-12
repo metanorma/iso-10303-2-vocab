@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.maximum_function
+  localized_concepts:
+    eng: 20e0c192-78dd-5b47-9117-036f55c4e34d
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.maximum_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_function_call,multiple_arity_function_call}} that represents the maximum function {{entity}}'
+  notes:
+    - content: The *maximum_function* entity returns the maximum value of the list of values of its operands that shall evaluate to a number in the NUMBER data type domain.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maximum_function
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: 20e0c192-78dd-5b47-9117-036f55c4e34d

@@ -1,0 +1,31 @@
+data:
+  identifier: Effectivity_arm.Effectivity
+  localized_concepts:
+    eng: 910604b0-3e33-5956-af3b-5750ea784fe8
+  domains:
+    - concept_id: section-Effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+      ref_type: section
+id: Effectivity_arm.Effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the effectivity {{entity}}'
+  notes:
+    - content: An **Effectivity** is the identification of a domain of applicability.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+          version: '2'
+      type: authoritative
+      id: Effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Effectivity
+  domain: 'application module: Effectivity_arm'
+  language_code: eng
+  annotations: []
+id: 910604b0-3e33-5956-af3b-5750ea784fe8

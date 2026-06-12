@@ -1,0 +1,31 @@
+data:
+  identifier: Verification_and_validation_arm.Evidence
+  localized_concepts:
+    eng: e9150376-77b4-5078-892e-252f5ede3e05
+  domains:
+    - concept_id: section-Verification_and_validation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+      ref_type: section
+id: Verification_and_validation_arm.Evidence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the evidence {{entity}}'
+  notes:
+    - content: An **Evidence** is a collector of items used together to provide a single piece of evidence within a validation or verification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+          version: '3'
+      type: authoritative
+      id: Verification_and_validation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Evidence
+  domain: 'application module: Verification_and_validation_arm'
+  language_code: eng
+  annotations: []
+id: e9150376-77b4-5078-892e-252f5ede3e05

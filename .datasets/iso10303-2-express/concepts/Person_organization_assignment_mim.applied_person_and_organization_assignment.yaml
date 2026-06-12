@@ -1,0 +1,31 @@
+data:
+  identifier: Person_organization_assignment_mim.applied_person_and_organization_assignment
+  localized_concepts:
+    eng: 16bb7295-fa66-55ad-a442-e6cd1fb946a3
+  domains:
+    - concept_id: section-Person_organization_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_mim
+      ref_type: section
+id: Person_organization_assignment_mim.applied_person_and_organization_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}} that represents the applied person and organization assignment {{entity}}'
+  notes:
+    - content: An **applied_person_and_organization_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}} to instances of entity data types listed in {{person_and_organization_item,person_and_organization_item}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_mim
+          version: '2'
+      type: authoritative
+      id: Person_organization_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_person_and_organization_assignment
+  domain: 'application module: Person_organization_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 16bb7295-fa66-55ad-a442-e6cd1fb946a3

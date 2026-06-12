@@ -1,0 +1,31 @@
+data:
+  identifier: Experience_arm.Experience_type_relationship
+  localized_concepts:
+    eng: f4c24694-a3e6-564f-9b99-44e5dc5ff47b
+  domains:
+    - concept_id: section-Experience_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+      ref_type: section
+id: Experience_arm.Experience_type_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience type relationship {{entity}}'
+  notes:
+    - content: An **Experience_type_relationship** is used to relate a compound experience to its component experiences.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+          version: '1'
+      type: authoritative
+      id: Experience_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Experience_type_relationship
+  domain: 'application module: Experience_arm'
+  language_code: eng
+  annotations: []
+id: f4c24694-a3e6-564f-9b99-44e5dc5ff47b

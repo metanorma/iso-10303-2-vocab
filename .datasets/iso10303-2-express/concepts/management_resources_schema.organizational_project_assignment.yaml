@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.organizational_project_assignment
+  localized_concepts:
+    eng: c71cd6b4-07f6-5780-94a2-9b90847be58e
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.organizational_project_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organizational project assignment {{entity}}'
+  notes:
+    - content: An **organizational_project_assignment** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organizational_project,organizational_project}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: organizational_project_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: c71cd6b4-07f6-5780-94a2-9b90847be58e

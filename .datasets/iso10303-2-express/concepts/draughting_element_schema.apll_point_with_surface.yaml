@@ -1,0 +1,31 @@
+data:
+  identifier: draughting_element_schema.apll_point_with_surface
+  localized_concepts:
+    eng: 12028abc-f33c-5d12-8320-6fde321a9a9f
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.apll_point_with_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_point,cartesian_point}} that represents the apll point with surface {{entity}}'
+  notes:
+    - content: An **apll_point_with_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_point,cartesian_point}} included to help compose a list of points that represent starting points, midpoints, and end points for a receiver to implement presentation information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: apll_point_with_surface
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: 12028abc-f33c-5d12-8320-6fde321a9a9f

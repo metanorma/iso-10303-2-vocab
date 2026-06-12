@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.fill_area_style_colour
+  localized_concepts:
+    eng: 114416d5-21e5-5c69-8982-d691ec357117
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.fill_area_style_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fill area style colour {{entity}}'
+  notes:
+    - content: A **fill_area_style_colour** is a definition of a colour to be used for solid fill of visible curve segments, annotation fill areas, or surfaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fill_area_style_colour
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 114416d5-21e5-5c69-8982-d691ec357117

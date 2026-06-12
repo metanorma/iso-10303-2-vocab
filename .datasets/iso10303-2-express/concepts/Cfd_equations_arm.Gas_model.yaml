@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_equations_arm.Gas_model
+  localized_concepts:
+    eng: 30dcef28-4ae9-5aba-8e3b-456220eb8033
+  domains:
+    - concept_id: section-Cfd_equations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+      ref_type: section
+id: Cfd_equations_arm.Gas_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} that represents the gas model {{entity}}'
+  notes:
+    - content: A **Gas_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} that is the equation of state model used in the governing equations to relate pressure, temperature and density.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_equations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Gas_model
+  domain: 'application module: Cfd_equations_arm'
+  language_code: eng
+  annotations: []
+id: 30dcef28-4ae9-5aba-8e3b-456220eb8033

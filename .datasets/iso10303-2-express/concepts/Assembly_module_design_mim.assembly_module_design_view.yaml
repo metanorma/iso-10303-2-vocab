@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_design_mim.assembly_module_design_view
+  localized_concepts:
+    eng: 18c926d1-6b76-50f8-abaf-3f985953b86e
+  domains:
+    - concept_id: section-Assembly_module_design_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_mim
+      ref_type: section
+id: Assembly_module_design_mim.assembly_module_design_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the assembly module design view {{entity}}'
+  notes:
+    - content: An **assembly_module_design_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm.Assembly_module_design_view,Assembly_module_design_view}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_module_design_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_module_design_view
+  domain: 'application module: Assembly_module_design_mim'
+  language_code: eng
+  annotations: []
+id: 18c926d1-6b76-50f8-abaf-3f985953b86e

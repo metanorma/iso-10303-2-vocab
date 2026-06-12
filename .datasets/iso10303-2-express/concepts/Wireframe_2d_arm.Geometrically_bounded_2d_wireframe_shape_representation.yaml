@@ -1,0 +1,31 @@
+data:
+  identifier: Wireframe_2d_arm.Geometrically_bounded_2d_wireframe_shape_representation
+  localized_concepts:
+    eng: 376d97da-6576-5533-bc95-8f21635422fe
+  domains:
+    - concept_id: section-Wireframe_2d_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wireframe_2d_arm
+      ref_type: section
+id: Wireframe_2d_arm.Geometrically_bounded_2d_wireframe_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the geometrically bounded 2d wireframe shape representation {{entity}}'
+  notes:
+    - content: A **Geometrically_bounded_2d_wireframe_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that contains 2D points and curves.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wireframe_2d_arm
+          version: '1'
+      type: authoritative
+      id: Wireframe_2d_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometrically_bounded_2d_wireframe_shape_representation
+  domain: 'application module: Wireframe_2d_arm'
+  language_code: eng
+  annotations: []
+id: 376d97da-6576-5533-bc95-8f21635422fe

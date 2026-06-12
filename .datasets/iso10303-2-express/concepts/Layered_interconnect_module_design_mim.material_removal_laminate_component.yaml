@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_module_design_mim.material_removal_laminate_component
+  localized_concepts:
+    eng: 3c7e80da-dc82-5311-a2cc-95bc709fcd96
+  domains:
+    - concept_id: section-Layered_interconnect_module_design_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+      ref_type: section
+id: Layered_interconnect_module_design_mim.material_removal_laminate_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.laminate_component,laminate_component}} that represents the material removal laminate component {{entity}}'
+  notes:
+    - content: A **material_removal_laminate_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.laminate_component,laminate_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Material_removal_laminate_component,Material_removal_laminate_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_module_design_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: material_removal_laminate_component
+  domain: 'application module: Layered_interconnect_module_design_mim'
+  language_code: eng
+  annotations: []
+id: 3c7e80da-dc82-5311-a2cc-95bc709fcd96

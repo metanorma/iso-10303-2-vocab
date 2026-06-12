@@ -1,0 +1,31 @@
+data:
+  identifier: Layout_macro_definition_mim.layout_macro_component
+  localized_concepts:
+    eng: 7e4b23ac-675e-5388-8330-a5dd9bda9575
+  domains:
+    - concept_id: section-Layout_macro_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
+      ref_type: section
+id: Layout_macro_definition_mim.layout_macro_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}} that represents the layout macro component {{entity}}'
+  notes:
+    - content: A **layout_macro_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_arm.Layout_macro_component,Layout_macro_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
+          version: '4'
+      type: authoritative
+      id: Layout_macro_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: layout_macro_component
+  domain: 'application module: Layout_macro_definition_mim'
+  language_code: eng
+  annotations: []
+id: 7e4b23ac-675e-5388-8330-a5dd9bda9575

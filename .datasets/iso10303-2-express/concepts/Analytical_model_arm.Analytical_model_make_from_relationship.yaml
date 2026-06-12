@@ -1,0 +1,30 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_make_from_relationship
+  localized_concepts:
+    eng: 9264a0c1-ffb7-574a-bc25-1b49ebd6af51
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_make_from_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the analytical model make from relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_make_from_relationship
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: 9264a0c1-ffb7-574a-bc25-1b49ebd6af51

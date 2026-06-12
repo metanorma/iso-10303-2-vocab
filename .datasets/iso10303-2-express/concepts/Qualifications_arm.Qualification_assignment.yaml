@@ -1,0 +1,31 @@
+data:
+  identifier: Qualifications_arm.Qualification_assignment
+  localized_concepts:
+    eng: 0fb0e377-5742-542e-96d6-afb0cd8d754b
+  domains:
+    - concept_id: section-Qualifications_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
+      ref_type: section
+id: Qualifications_arm.Qualification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualification assignment {{entity}}'
+  notes:
+    - content: A **Qualification_assignment** is the assignment of a qualification to a person or organization.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
+          version: '1'
+      type: authoritative
+      id: Qualifications_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Qualification_assignment
+  domain: 'application module: Qualifications_arm'
+  language_code: eng
+  annotations: []
+id: 0fb0e377-5742-542e-96d6-afb0cd8d754b

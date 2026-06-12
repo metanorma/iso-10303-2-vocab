@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_person_organization_arm.Compound_person_name_assignment
+  localized_concepts:
+    eng: 89af1307-a886-594b-8a30-e8c49f13b878
+  domains:
+    - concept_id: section-Extended_person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+      ref_type: section
+id: Extended_person_organization_arm.Compound_person_name_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the compound person name assignment {{entity}}'
+  notes:
+    - content: A **Compound_person_name_assignment** is a characterized association that assigns a **Compound_person_name** to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person,Person}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Extended_person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Compound_person_name_assignment
+  domain: 'application module: Extended_person_organization_arm'
+  language_code: eng
+  annotations: []
+id: 89af1307-a886-594b-8a30-e8c49f13b878

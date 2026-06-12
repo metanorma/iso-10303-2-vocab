@@ -1,0 +1,31 @@
+data:
+  identifier: Activity_method_implementation_arm.Activity_method_realization
+  localized_concepts:
+    eng: 904e2517-c537-521b-9e17-298666488e65
+  domains:
+    - concept_id: section-Activity_method_implementation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_implementation_arm
+      ref_type: section
+id: Activity_method_implementation_arm.Activity_method_realization
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the activity method realization {{entity}}'
+  notes:
+    - content: An **Activity_method_realization** is a further specification of how an activity method is to be performed with the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_implementation_arm
+          version: '2'
+      type: authoritative
+      id: Activity_method_implementation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_method_realization
+  domain: 'application module: Activity_method_implementation_arm'
+  language_code: eng
+  annotations: []
+id: 904e2517-c537-521b-9e17-298666488e65

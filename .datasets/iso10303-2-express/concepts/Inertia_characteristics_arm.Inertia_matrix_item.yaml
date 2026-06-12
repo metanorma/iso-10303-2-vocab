@@ -1,0 +1,31 @@
+data:
+  identifier: Inertia_characteristics_arm.Inertia_matrix_item
+  localized_concepts:
+    eng: d8ba4429-3a55-5fdc-a025-7579fbba1f00
+  domains:
+    - concept_id: section-Inertia_characteristics_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_arm
+      ref_type: section
+id: Inertia_characteristics_arm.Inertia_matrix_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the inertia matrix item {{entity}}'
+  notes:
+    - content: An **Inertia_matrix_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that specifies the six distinct values of an inertia matrix which represents the angular mass of a rigid body about a particular point and their common unit.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_arm
+          version: '3'
+      type: authoritative
+      id: Inertia_characteristics_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Inertia_matrix_item
+  domain: 'application module: Inertia_characteristics_arm'
+  language_code: eng
+  annotations: []
+id: d8ba4429-3a55-5fdc-a025-7579fbba1f00

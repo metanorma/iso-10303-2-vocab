@@ -1,0 +1,31 @@
+data:
+  identifier: Behaviour_view_definition_arm.Behaviour_view_definition
+  localized_concepts:
+    eng: 2b034157-cbe7-5cb1-843b-17bfd696d54c
+  domains:
+    - concept_id: section-Behaviour_view_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_view_definition_arm
+      ref_type: section
+id: Behaviour_view_definition_arm.Behaviour_view_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the behaviour view definition {{entity}}'
+  notes:
+    - content: A **Behaviour_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that provides a characterized view of a behaviour version for a particular domain.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_view_definition_arm
+          version: '1'
+      type: authoritative
+      id: Behaviour_view_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Behaviour_view_definition
+  domain: 'application module: Behaviour_view_definition_arm'
+  language_code: eng
+  annotations: []
+id: 2b034157-cbe7-5cb1-843b-17bfd696d54c

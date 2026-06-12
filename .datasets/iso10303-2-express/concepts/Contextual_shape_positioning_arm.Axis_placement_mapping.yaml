@@ -1,0 +1,31 @@
+data:
+  identifier: Contextual_shape_positioning_arm.Axis_placement_mapping
+  localized_concepts:
+    eng: 585b327e-0e47-582e-a7d0-813ce1bc4984
+  domains:
+    - concept_id: section-Contextual_shape_positioning_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+      ref_type: section
+id: Contextual_shape_positioning_arm.Axis_placement_mapping
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the axis placement mapping {{entity}}'
+  notes:
+    - content: An **Axis_placement_mapping** is a geometric transformation that is defined by a source and a target {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that are mapped onto each other.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+          version: '9'
+      type: authoritative
+      id: Contextual_shape_positioning_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Axis_placement_mapping
+  domain: 'application module: Contextual_shape_positioning_arm'
+  language_code: eng
+  annotations: []
+id: 585b327e-0e47-582e-a7d0-813ce1bc4984

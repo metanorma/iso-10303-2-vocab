@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_usage_view_arm.Functional_unit_usage_view_terminal_definition_make_from_relationship
+  localized_concepts:
+    eng: 9f66788f-1db7-5eeb-9861-44f3d0a16ce5
+  domains:
+    - concept_id: section-Functional_usage_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+      ref_type: section
+id: Functional_usage_view_arm.Functional_unit_usage_view_terminal_definition_make_from_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the functional unit usage view terminal definition make from relationship {{entity}}'
+  notes:
+    - content: A **Functional_unit_usage_view_terminal_definition_make_from_relationship** is the description of the directed relationship between a terminal that is one result of creating a new {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_definition,Functional_unit_definition}} by copying and modifying an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_definition,Functional_unit_definition}} and the source terminal.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+          version: '5'
+      type: authoritative
+      id: Functional_usage_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_unit_usage_view_terminal_definition_make_from_relationship
+  domain: 'application module: Functional_usage_view_arm'
+  language_code: eng
+  annotations: []
+id: 9f66788f-1db7-5eeb-9861-44f3d0a16ce5

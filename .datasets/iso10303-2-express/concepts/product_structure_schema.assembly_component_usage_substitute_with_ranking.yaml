@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.assembly_component_usage_substitute_with_ranking
+  localized_concepts:
+    eng: 6892d053-c76c-5245-a12c-35bd7ce0f425
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.assembly_component_usage_substitute_with_ranking
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage_substitute,assembly_component_usage_substitute}} that represents the assembly component usage substitute with ranking {{entity}}'
+  notes:
+    - content: An **assembly_component_usage_substitute_with_ranking** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage_substitute,assembly_component_usage_substitute}} that specifies a relative preference value for the usage of a particular constituent as a substitute for another among all substitutes within the context of a given assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_component_usage_substitute_with_ranking
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: 6892d053-c76c-5245-a12c-35bd7ce0f425

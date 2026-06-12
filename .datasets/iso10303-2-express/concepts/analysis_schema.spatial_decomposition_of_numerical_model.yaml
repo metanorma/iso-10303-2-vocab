@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_schema.spatial_decomposition_of_numerical_model
+  localized_concepts:
+    eng: 0e628792-30ff-5937-963f-28d5a96d61fe
+  domains:
+    - concept_id: section-analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+      ref_type: section
+id: analysis_schema.spatial_decomposition_of_numerical_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the spatial decomposition of numerical model {{entity}}'
+  notes:
+    - content: A **spatial_decomposition_of_numerical_model** is a decomposition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} into different subspaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+          version: '1'
+      type: authoritative
+      id: analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: spatial_decomposition_of_numerical_model
+  domain: 'resource: analysis_schema'
+  language_code: eng
+  annotations: []
+id: 0e628792-30ff-5937-963f-28d5a96d61fe

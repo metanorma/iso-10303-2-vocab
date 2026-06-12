@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.explicit_unstructured_mesh
+  localized_concepts:
+    eng: a061c3b1-8d45-5a96-a05b-11c3c0277243
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.explicit_unstructured_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.unstructured_mesh,unstructured_mesh}} that represents the explicit unstructured mesh {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.explicit_unstructured_mesh,explicit_unstructured_mesh}} is a representation of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.unstructured_mesh,unstructured_mesh}} that is similar, but not entirely identical to, that specified in ISO 10303-104.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: explicit_unstructured_mesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: a061c3b1-8d45-5a96-a05b-11c3c0277243

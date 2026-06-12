@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_organization_schema.camera_image_2d_with_scale
+  localized_concepts:
+    eng: ad51a139-2d23-549d-8536-ede50901331f
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.camera_image_2d_with_scale
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_image,camera_image}} that represents the camera image 2d with scale {{entity}}'
+  notes:
+    - content: A **camera_image_2d_with_scale** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_image,camera_image}} with a derived scale.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: camera_image_2d_with_scale
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: ad51a139-2d23-549d-8536-ede50901331f

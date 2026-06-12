@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_assessment
+  localized_concepts:
+    eng: 6a5e7d92-5c34-51a2-bb60-fc7dda47acdf
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_assessment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the risk assessment {{entity}}'
+  notes:
+    - content: A **risk_assessment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that is the overall process of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_analysis,risk_analysis}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_evaluation,risk_evaluation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_assessment
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: 6a5e7d92-5c34-51a2-bb60-fc7dda47acdf

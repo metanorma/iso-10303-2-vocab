@@ -1,0 +1,31 @@
+data:
+  identifier: Signal_arm.Signal
+  localized_concepts:
+    eng: 79e6f133-b121-523a-a672-ec6e0504becb
+  domains:
+    - concept_id: section-Signal_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+      ref_type: section
+id: Signal_arm.Signal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the signal {{entity}}'
+  notes:
+    - content: A **Signal** is an abstraction of signal as categorized according to an ISO or IEC standard in this document.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+          version: '1'
+      type: authoritative
+      id: Signal_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Signal
+  domain: 'application module: Signal_arm'
+  language_code: eng
+  annotations: []
+id: 79e6f133-b121-523a-a672-ec6e0504becb

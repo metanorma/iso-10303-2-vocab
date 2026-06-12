@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_physical_interface_requirement_arm.Mating_connector_termination
+  localized_concepts:
+    eng: 7122b14e-cd8b-51af-b9b5-4fcb6dc7a75a
+  domains:
+    - concept_id: section-Assembly_physical_interface_requirement_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+      ref_type: section
+id: Assembly_physical_interface_requirement_arm.Mating_connector_termination
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mating connector termination {{entity}}'
+  notes:
+    - content: A **Mating_connector_termination** is a single terminal of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Mating_connector_usage,Mating_connector_usage}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_interface_requirement_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mating_connector_termination
+  domain: 'application module: Assembly_physical_interface_requirement_arm'
+  language_code: eng
+  annotations: []
+id: 7122b14e-cd8b-51af-b9b5-4fcb6dc7a75a

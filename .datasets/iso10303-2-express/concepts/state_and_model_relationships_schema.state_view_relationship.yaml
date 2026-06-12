@@ -1,0 +1,36 @@
+data:
+  identifier: state_and_model_relationships_schema.state_view_relationship
+  localized_concepts:
+    eng: 803e5dd4-b3b4-53ab-aa67-5446b2f98b63
+  domains:
+    - concept_id: section-state_and_model_relationships_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_and_model_relationships_schema
+      ref_type: section
+id: state_and_model_relationships_schema.state_view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state view relationship {{entity}}'
+  notes:
+    - content: |-
+        A **state_view_relationship** is a relationship between:
+
+        * an idealisation of a state for analysis; and
+        * a discretised state analysis model
+
+        which indicates that the discretised state analysis model is a model of the idealised state created for the purpose of numerical analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_and_model_relationships_schema
+      type: authoritative
+      id: state_and_model_relationships_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_view_relationship
+  domain: 'resource: state_and_model_relationships_schema'
+  language_code: eng
+  annotations: []
+id: 803e5dd4-b3b4-53ab-aa67-5446b2f98b63

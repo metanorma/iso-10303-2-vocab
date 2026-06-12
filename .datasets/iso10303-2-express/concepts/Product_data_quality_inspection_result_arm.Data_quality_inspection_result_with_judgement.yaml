@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement
+  localized_concepts:
+    eng: 2353e253-1147-5bb5-ac66-0053d5484ffd
+  domains:
+    - concept_id: section-Product_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+      ref_type: section
+id: Product_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result,Data_quality_inspection_result}} that represents the data quality inspection result with judgement {{entity}}'
+  notes:
+    - content: A **Data_quality_inspection_result_with_judgement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result,Data_quality_inspection_result}} that contains information on whether the data inspected have passed or failed the test for the criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_quality_inspection_result_with_judgement
+  domain: 'application module: Product_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 2353e253-1147-5bb5-ac66-0053d5484ffd

@@ -1,0 +1,31 @@
+data:
+  identifier: Default_tolerance_arm.Tolerance_table_cell
+  localized_concepts:
+    eng: 418ac294-d875-517c-a034-ed7decfb0edc
+  domains:
+    - concept_id: section-Default_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+      ref_type: section
+id: Default_tolerance_arm.Tolerance_table_cell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tolerance table cell {{entity}}'
+  notes:
+    - content: A **Tolerance_table_cell** is one cell of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.General_tolerance_table,General_tolerance_table}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+          version: '3'
+      type: authoritative
+      id: Default_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tolerance_table_cell
+  domain: 'application module: Default_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 418ac294-d875-517c-a034-ed7decfb0edc

@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_material_aspects_arm.Data_environment
+  localized_concepts:
+    eng: c847ff13-5b08-5ac5-a16f-912d075c8dd5
+  domains:
+    - concept_id: section-Generic_material_aspects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+      ref_type: section
+id: Generic_material_aspects_arm.Data_environment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data environment {{entity}}'
+  notes:
+    - content: A **Data_environment** is the specification of the conditions under which a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_property_value_representation,Material_property_value_representation}} is valid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+          version: '4'
+      type: authoritative
+      id: Generic_material_aspects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_environment
+  domain: 'application module: Generic_material_aspects_arm'
+  language_code: eng
+  annotations: []
+id: c847ff13-5b08-5ac5-a16f-912d075c8dd5

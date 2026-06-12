@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Partial_circular_path_feature_component
+  localized_concepts:
+    eng: fd071d88-bebc-5fc5-8256-8cf19281c8f8
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Partial_circular_path_feature_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Circular_path_feature_component,Circular_path_feature_component}} that represents the partial circular path feature component {{entity}}'
+  notes:
+    - content: A **Partial_circular_path_feature_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Circular_path_feature_component,Circular_path_feature_component}} that is a direction of travel along an arc of constant radius around an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Partial_circular_path_feature_component
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: fd071d88-bebc-5fc5-8256-8cf19281c8f8

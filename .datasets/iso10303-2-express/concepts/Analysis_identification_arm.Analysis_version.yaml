@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_identification_arm.Analysis_version
+  localized_concepts:
+    eng: f03b093a-329e-5677-8cf5-93db81e4231b
+  domains:
+    - concept_id: section-Analysis_identification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
+      ref_type: section
+id: Analysis_identification_arm.Analysis_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the analysis version {{entity}}'
+  notes:
+    - content: An **Analysis_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a particular version of an analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
+          version: '2'
+      type: authoritative
+      id: Analysis_identification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analysis_version
+  domain: 'application module: Analysis_identification_arm'
+  language_code: eng
+  annotations: []
+id: f03b093a-329e-5677-8cf5-93db81e4231b

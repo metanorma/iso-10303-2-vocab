@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_mim.disallowed_assembly_relationship_usage
+  localized_concepts:
+    eng: 29a1bd8c-a412-5414-be6a-2ec2765c1d21
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_mim.disallowed_assembly_relationship_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that represents the disallowed assembly relationship usage {{entity}}'
+  notes:
+    - content: A **disallowed_assembly_relationship_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Disallowed_assembly_relationship_usage,Disallowed_assembly_relationship_usage}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: disallowed_assembly_relationship_usage
+  domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
+  language_code: eng
+  annotations: []
+id: 29a1bd8c-a412-5414-be6a-2ec2765c1d21

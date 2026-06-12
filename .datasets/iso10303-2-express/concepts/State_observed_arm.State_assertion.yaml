@@ -1,0 +1,31 @@
+data:
+  identifier: State_observed_arm.State_assertion
+  localized_concepts:
+    eng: 24967eb8-1b09-531f-8328-c1d636e2b625
+  domains:
+    - concept_id: section-State_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+      ref_type: section
+id: State_observed_arm.State_assertion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.Defined_state_association,Defined_state_association}} that represents the state assertion {{entity}}'
+  notes:
+    - content: A **State_assertion** is a type of Defined state association that is used to assert that the subject {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} is in conformance with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition,State_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+          version: '4'
+      type: authoritative
+      id: State_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_assertion
+  domain: 'application module: State_observed_arm'
+  language_code: eng
+  annotations: []
+id: 24967eb8-1b09-531f-8328-c1d636e2b625

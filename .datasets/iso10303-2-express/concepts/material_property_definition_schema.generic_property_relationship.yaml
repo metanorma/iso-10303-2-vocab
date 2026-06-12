@@ -1,0 +1,31 @@
+data:
+  identifier: material_property_definition_schema.generic_property_relationship
+  localized_concepts:
+    eng: 364cfe6d-0846-5b37-9e57-983d6eb87cbc
+  domains:
+    - concept_id: section-material_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+      ref_type: section
+id: material_property_definition_schema.generic_property_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the generic property relationship {{entity}}'
+  notes:
+    - content: A **generic_property_relationship** is an association between two members of {{generic_property_definition_select,generic_property_definition_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+          version: '4'
+      type: authoritative
+      id: material_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: generic_property_relationship
+  domain: 'resource: material_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 364cfe6d-0846-5b37-9e57-983d6eb87cbc

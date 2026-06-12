@@ -1,0 +1,30 @@
+data:
+  identifier: Production_rule_arm.Rule_version
+  localized_concepts:
+    eng: 0a065e0b-9d09-5db9-ad65-3a8b2fc86ee3
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Rule_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm.Software_version,Software_version}} that represents the rule version {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rule_version
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: 0a065e0b-9d09-5db9-ad65-3a8b2fc86ee3

@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Surface_of_revolution
+  localized_concepts:
+    eng: 7a73f671-4919-57fb-8ff4-b0cdc39ece82
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Surface_of_revolution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Swept_surface,Swept_surface}} that represents the surface of revolution {{entity}}'
+  notes:
+    - content: A **Surface_of_revolution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Swept_surface,Swept_surface}} that is the result of revolving the {{swept_curve,swept_curve}} about an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface_of_revolution
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 7a73f671-4919-57fb-8ff4-b0cdc39ece82

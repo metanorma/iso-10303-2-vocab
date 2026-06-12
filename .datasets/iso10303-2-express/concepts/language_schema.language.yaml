@@ -1,0 +1,31 @@
+data:
+  identifier: language_schema.language
+  localized_concepts:
+    eng: 295795e7-589c-595f-b43c-7513360a6964
+  domains:
+    - concept_id: section-language_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:language_schema
+      ref_type: section
+id: language_schema.language
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the language {{entity}}'
+  notes:
+    - content: A **language** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that is a specification of the language in which an information is given.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:language_schema
+          version: '1'
+      type: authoritative
+      id: language_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: language
+  domain: 'resource: language_schema'
+  language_code: eng
+  annotations: []
+id: 295795e7-589c-595f-b43c-7513360a6964

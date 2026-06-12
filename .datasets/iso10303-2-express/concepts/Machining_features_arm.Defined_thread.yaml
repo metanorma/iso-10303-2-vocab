@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Defined_thread
+  localized_concepts:
+    eng: beaeef86-cdda-5a38-8546-f48233e4d24e
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Defined_thread
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Thread,Thread}} that represents the defined thread {{entity}}'
+  notes:
+    - content: A **Defined_thread** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Thread,Thread}} that is specified explicitly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Defined_thread
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: beaeef86-cdda-5a38-8546-f48233e4d24e

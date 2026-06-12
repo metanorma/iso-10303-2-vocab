@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_arm.Change
+  localized_concepts:
+    eng: 76a02216-5c26-5609-a461-b999422ec8c4
+  domains:
+    - concept_id: section-Change_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+      ref_type: section
+id: Change_management_arm.Change
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the change {{entity}}'
+  notes:
+    - content: A **Change** is the result of an activity which alters an object or group of objects from its original state.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+          version: '3'
+      type: authoritative
+      id: Change_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Change
+  domain: 'application module: Change_management_arm'
+  language_code: eng
+  annotations: []
+id: 76a02216-5c26-5609-a461-b999422ec8c4

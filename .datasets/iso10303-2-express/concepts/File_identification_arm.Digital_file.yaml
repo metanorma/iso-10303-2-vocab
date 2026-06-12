@@ -1,0 +1,30 @@
+data:
+  identifier: File_identification_arm.Digital_file
+  localized_concepts:
+    eng: cf0b61d5-bf5b-5586-8ab1-e6b59ac62834
+  domains:
+    - concept_id: section-File_identification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
+      ref_type: section
+id: File_identification_arm.Digital_file
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}} that represents the digital file {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
+          version: '4'
+      type: authoritative
+      id: File_identification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Digital_file
+  domain: 'application module: File_identification_arm'
+  language_code: eng
+  annotations: []
+id: cf0b61d5-bf5b-5586-8ab1-e6b59ac62834

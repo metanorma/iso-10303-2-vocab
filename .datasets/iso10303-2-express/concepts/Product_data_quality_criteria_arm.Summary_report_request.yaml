@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_criteria_arm.Summary_report_request
+  localized_concepts:
+    eng: 99272487-d4d7-5615-ad4e-ac2a7a34125a
+  domains:
+    - concept_id: section-Product_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+      ref_type: section
+id: Product_data_quality_criteria_arm.Summary_report_request
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_report_request,data_quality_report_request}} that represents the summary report request {{entity}}'
+  notes:
+    - content: A **Summary_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_report_request,Data_quality_report_request}} that requests a summarized inspection report on the criterion concerned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Summary_report_request
+  domain: 'application module: Product_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 99272487-d4d7-5615-ad4e-ac2a7a34125a

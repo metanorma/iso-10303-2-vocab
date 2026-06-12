@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Submesh
+  localized_concepts:
+    eng: 3d0ee4ba-1dde-58d0-9a4e-a0de4373c1c1
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Submesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}} that represents the submesh {{entity}}'
+  notes:
+    - content: A **Submesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}} that is part of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Submesh
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: 3d0ee4ba-1dde-58d0-9a4e-a0de4373c1c1

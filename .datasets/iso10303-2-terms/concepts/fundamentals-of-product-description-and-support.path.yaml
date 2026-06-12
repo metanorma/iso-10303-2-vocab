@@ -1,0 +1,28 @@
+---
+data:
+  identifier: fundamentals-of-product-description-and-support.path
+  localized_concepts:
+    eng: 551ebdf0-a8d7-56f6-bf1b-7d15481997c5
+  domains:
+  - concept_id: section-fundamentals-of-product-description-and-support
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: ecc9ea2a-8a48-5ac9-8b32-4ca78f278d4c
+schema_version: v3
+---
+data:
+  definition:
+  - content: sequence of nodes such that from each of its nodes there is an edge to
+      the next node in the sequence
+  notes:
+  - content: A path has two terminal nodes (nodes that have degree 1), while all others
+      (if any) have degree 2.
+  - content: The first and last nodes in the path are different. No nodes are referenced
+      more than once by a link.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: path
+  language_code: eng
+  annotations: []
+id: 551ebdf0-a8d7-56f6-bf1b-7d15481997c5

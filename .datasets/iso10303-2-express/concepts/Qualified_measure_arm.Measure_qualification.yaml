@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Measure_qualification
+  localized_concepts:
+    eng: 8f470f41-c772-56a6-9476-6ac6796a7407
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Measure_qualification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the measure qualification {{entity}}'
+  notes:
+    - content: A **Measure_qualification** is a means to provide information about measurements in which there is an associated uncertainty.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Measure_qualification
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: 8f470f41-c772-56a6-9476-6ac6796a7407

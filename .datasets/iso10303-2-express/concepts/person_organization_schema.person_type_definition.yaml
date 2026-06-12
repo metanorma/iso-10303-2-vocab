@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.person_type_definition
+  localized_concepts:
+    eng: 0f8966c8-7ae3-5a4f-a432-cdf1bf58a0b8
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.person_type_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person type definition {{entity}}'
+  notes:
+    - content: A **person_type_definition** is a characterization of type of person.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: person_type_definition
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: 0f8966c8-7ae3-5a4f-a432-cdf1bf58a0b8

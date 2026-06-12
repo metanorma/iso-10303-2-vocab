@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_mim.point_based_llai
+  localized_concepts:
+    eng: d655b0a3-c5f3-5a13-8657-d702ea1b8482
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_mim.point_based_llai
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}} that represents the point based llai {{entity}}'
+  notes:
+    - content: A **point_based_llai** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Point_based_llai,Point_based_llai}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: point_based_llai
+  domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
+  language_code: eng
+  annotations: []
+id: d655b0a3-c5f3-5a13-8657-d702ea1b8482

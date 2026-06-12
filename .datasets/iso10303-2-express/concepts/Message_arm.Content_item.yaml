@@ -1,0 +1,31 @@
+data:
+  identifier: Message_arm.Content_item
+  localized_concepts:
+    eng: b48ca445-1204-5d3e-ad84-a40e117bb066
+  domains:
+    - concept_id: section-Message_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+      ref_type: section
+id: Message_arm.Content_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the content item {{entity}}'
+  notes:
+    - content: A **Content_item** is a reference to any item that can be referenced as part of the message content.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+          version: '2'
+      type: authoritative
+      id: Message_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Content_item
+  domain: 'application module: Message_arm'
+  language_code: eng
+  annotations: []
+id: b48ca445-1204-5d3e-ad84-a40e117bb066

@@ -1,0 +1,31 @@
+data:
+  identifier: experience_schema.experience_type
+  localized_concepts:
+    eng: 1f63fabf-a476-56d1-b3b8-cad9ca90ba9b
+  domains:
+    - concept_id: section-experience_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema
+      ref_type: section
+id: experience_schema.experience_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience type {{entity}}'
+  notes:
+    - content: An **experience_type** is a category of experience.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema
+          version: '4'
+      type: authoritative
+      id: experience_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: experience_type
+  domain: 'resource: experience_schema'
+  language_code: eng
+  annotations: []
+id: 1f63fabf-a476-56d1-b3b8-cad9ca90ba9b

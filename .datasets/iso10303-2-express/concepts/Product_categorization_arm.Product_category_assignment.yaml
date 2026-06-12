@@ -1,0 +1,31 @@
+data:
+  identifier: Product_categorization_arm.Product_category_assignment
+  localized_concepts:
+    eng: 9b561062-400c-503a-ab1f-fe2eed4f8d46
+  domains:
+    - concept_id: section-Product_categorization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+      ref_type: section
+id: Product_categorization_arm.Product_category_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product category assignment {{entity}}'
+  notes:
+    - content: A **Product_category_assignment** is the inclusion of one or more products in a product category.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+          version: '3'
+      type: authoritative
+      id: Product_categorization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_category_assignment
+  domain: 'application module: Product_categorization_arm'
+  language_code: eng
+  annotations: []
+id: 9b561062-400c-503a-ab1f-fe2eed4f8d46

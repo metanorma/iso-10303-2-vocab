@@ -1,0 +1,31 @@
+data:
+  identifier: Time_interval_assignment_mim.applied_time_interval_assignment
+  localized_concepts:
+    eng: 3171ecc9-7a01-5dc3-8cb4-20efbd28baf2
+  domains:
+    - concept_id: section-Time_interval_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_mim
+      ref_type: section
+id: Time_interval_assignment_mim.applied_time_interval_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.time_interval_assignment,time_interval_assignment}} that represents the applied time interval assignment {{entity}}'
+  notes:
+    - content: An **applied_time_interval_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_mim.applied_time_interval_assignment,applied_time_interval_assignment}} that is assigned a set of {{time_interval_item,time_interval_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Time_interval_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_time_interval_assignment
+  domain: 'application module: Time_interval_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 3171ecc9-7a01-5dc3-8cb4-20efbd28baf2

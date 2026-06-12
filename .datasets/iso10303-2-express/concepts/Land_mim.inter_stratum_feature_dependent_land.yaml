@@ -1,0 +1,31 @@
+data:
+  identifier: Land_mim.inter_stratum_feature_dependent_land
+  localized_concepts:
+    eng: 917397fd-2c5d-5ac0-823f-2fa1a7074a8f
+  domains:
+    - concept_id: section-Land_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+      ref_type: section
+id: Land_mim.inter_stratum_feature_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim.land,land}} that represents the inter stratum feature dependent land {{entity}}'
+  notes:
+    - content: An **inter_stratum_feature_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim.land,land}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Inter_stratum_feature_dependent_land,Inter_stratum_feature_dependent_land}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+          version: '5'
+      type: authoritative
+      id: Land_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: inter_stratum_feature_dependent_land
+  domain: 'application module: Land_mim'
+  language_code: eng
+  annotations: []
+id: 917397fd-2c5d-5ac0-823f-2fa1a7074a8f

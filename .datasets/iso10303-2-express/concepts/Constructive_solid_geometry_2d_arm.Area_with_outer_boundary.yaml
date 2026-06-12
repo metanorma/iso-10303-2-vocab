@@ -1,0 +1,31 @@
+data:
+  identifier: Constructive_solid_geometry_2d_arm.Area_with_outer_boundary
+  localized_concepts:
+    eng: f2e7af2d-20a1-51fb-a9b4-bf09afc3e5ce
+  domains:
+    - concept_id: section-Constructive_solid_geometry_2d_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+      ref_type: section
+id: Constructive_solid_geometry_2d_arm.Area_with_outer_boundary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} that represents the area with outer boundary {{entity}}'
+  notes:
+    - content: An **Area_with_outer_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} that represents the extent of an enclosed two-dimensional surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+          version: '6'
+      type: authoritative
+      id: Constructive_solid_geometry_2d_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Area_with_outer_boundary
+  domain: 'application module: Constructive_solid_geometry_2d_arm'
+  language_code: eng
+  annotations: []
+id: f2e7af2d-20a1-51fb-a9b4-bf09afc3e5ce

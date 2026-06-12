@@ -1,0 +1,31 @@
+data:
+  identifier: Management_resource_information_arm.Person_in_organization_relationship
+  localized_concepts:
+    eng: 91ede8c3-8507-52fc-9bab-b5df2dbf50f0
+  domains:
+    - concept_id: section-Management_resource_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Management_resource_information_arm
+      ref_type: section
+id: Management_resource_information_arm.Person_in_organization_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person in organization relationship {{entity}}'
+  notes:
+    - content: A **Person_in_organization_relationship** is a means to specify a relationship between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person_in_organization,Person_in_organization}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Management_resource_information_arm
+          version: '6'
+      type: authoritative
+      id: Management_resource_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Person_in_organization_relationship
+  domain: 'application module: Management_resource_information_arm'
+  language_code: eng
+  annotations: []
+id: 91ede8c3-8507-52fc-9bab-b5df2dbf50f0

@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.datum_system_for_composite_group_element
+  localized_concepts:
+    eng: e66ad8c6-1575-54db-aec7-f08824e26f13
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.datum_system_for_composite_group_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_system,datum_system}} that represents the datum system for composite group element {{entity}}'
+  notes:
+    - content: A **datum_system_for_composite_group_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_system,datum_system}} that provides a capability to assign an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.axis2_placement_3d,axis2_placement_3d}} to a specific element in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.composite_group_shape_aspect,composite_group_shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: datum_system_for_composite_group_element
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: e66ad8c6-1575-54db-aec7-f08824e26f13

@@ -1,0 +1,31 @@
+data:
+  identifier: Footprint_definition_arm.Breakout_footprint_definition
+  localized_concepts:
+    eng: 4509e149-7f03-510a-b901-01e7fd636451
+  domains:
+    - concept_id: section-Footprint_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+      ref_type: section
+id: Footprint_definition_arm.Breakout_footprint_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Generic_footprint_definition,Generic_footprint_definition}} that represents the breakout footprint definition {{entity}}'
+  notes:
+    - content: A **Breakout_footprint_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Generic_footprint_definition,Generic_footprint_definition}} provided to support re-use of patterns necessary to adapt a footprint to a design layout.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+          version: '6'
+      type: authoritative
+      id: Footprint_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Breakout_footprint_definition
+  domain: 'application module: Footprint_definition_arm'
+  language_code: eng
+  annotations: []
+id: 4509e149-7f03-510a-b901-01e7fd636451

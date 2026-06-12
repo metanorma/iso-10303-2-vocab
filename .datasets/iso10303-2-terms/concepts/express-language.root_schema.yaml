@@ -1,0 +1,28 @@
+---
+data:
+  identifier: express-language.root_schema
+  localized_concepts:
+    eng: ba98d970-f78c-57b9-b9cc-761e33570365
+  domains:
+  - concept_id: section-express-language
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: be82740d-d562-556a-8d89-7ce83a1b646f
+schema_version: v3
+---
+data:
+  definition:
+  - content: schema where all the other schemas can be reached from, in a group of
+      interrelated schemas that form a, possibly cyclic, directed graph, that is not
+      the target of any {{interface specification}}
+  notes:
+  - content: The root schema can be considered to be representative of the graph.
+  - content: The root schema has a special role in the conversion of a shortform schema
+      into a longform schema.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: root schema
+  language_code: eng
+  annotations: []
+id: ba98d970-f78c-57b9-b9cc-761e33570365

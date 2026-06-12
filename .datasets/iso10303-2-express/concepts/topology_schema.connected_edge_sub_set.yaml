@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.connected_edge_sub_set
+  localized_concepts:
+    eng: a49d0814-73ec-56f6-b168-813f9a53861e
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.connected_edge_sub_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}} that represents the connected edge sub set {{entity}}'
+  notes:
+    - content: A **connected_edge_sub_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}}, whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: connected_edge_sub_set
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: a49d0814-73ec-56f6-b168-813f9a53861e

@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.date_role
+  localized_concepts:
+    eng: 9ddc580b-902b-5763-bc8d-8f6124b62f21
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.date_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date role {{entity}}'
+  notes:
+    - content: A **date_role** is a role for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} A **date_role** is an incompletely modeled concept and requires population related entity data types to form a complete **date_role**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: date_role
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 9ddc580b-902b-5763-bc8d-8f6124b62f21

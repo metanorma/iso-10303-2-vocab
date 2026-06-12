@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_design_arm.Component_mounting_clearance_relationship
+  localized_concepts:
+    eng: 6cb1f8bc-8bf7-557b-9f2a-ec2169dca8a8
+  domains:
+    - concept_id: section-Assembly_module_design_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+      ref_type: section
+id: Assembly_module_design_arm.Component_mounting_clearance_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component mounting clearance relationship {{entity}}'
+  notes:
+    - content: A **Component_mounting_clearance_relationship** is the relationship between the features of one component and another in their next assembly, with respect to the clearance between them.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_design_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_mounting_clearance_relationship
+  domain: 'application module: Assembly_module_design_arm'
+  language_code: eng
+  annotations: []
+id: 6cb1f8bc-8bf7-557b-9f2a-ec2169dca8a8

@@ -1,0 +1,31 @@
+data:
+  identifier: Derived_shape_element_arm.Geometric_alignment
+  localized_concepts:
+    eng: 44bd1bb1-7040-5042-8fbb-36c75ffc3c15
+  domains:
+    - concept_id: section-Derived_shape_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+      ref_type: section
+id: Derived_shape_element_arm.Geometric_alignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that represents the geometric alignment {{entity}}'
+  notes:
+    - content: A **Geometric_alignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that defines a planar or linear feature that requires two or more features lying in the same plane or along the same line.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+          version: '5'
+      type: authoritative
+      id: Derived_shape_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometric_alignment
+  domain: 'application module: Derived_shape_element_arm'
+  language_code: eng
+  annotations: []
+id: 44bd1bb1-7040-5042-8fbb-36c75ffc3c15

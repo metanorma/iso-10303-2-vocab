@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.vertex
+  localized_concepts:
+    eng: 48b3f3d0-787c-51f7-8a07-bef1786fef9a
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the vertex {{entity}}'
+  notes:
+    - content: A **vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}, and is the topological construct corresponding to a point.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: vertex
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: 48b3f3d0-787c-51f7-8a07-bef1786fef9a

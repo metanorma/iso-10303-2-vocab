@@ -1,0 +1,37 @@
+data:
+  identifier: Fea_definition_relationships_arm.Fea_model_topological_relationship
+  localized_concepts:
+    eng: 378ba071-6a87-527f-babd-90f490f8273b
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Fea_model_topological_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea model topological relationship {{entity}}'
+  notes:
+    - content: |-
+        A **Fea_model_topological_relationship** is a relationship between:
+
+        * an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}; and
+        * a mesh;
+
+        that indicates the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}} has the topological relationships of the mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fea_model_topological_relationship
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 378ba071-6a87-527f-babd-90f490f8273b

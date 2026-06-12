@@ -1,0 +1,31 @@
+data:
+  identifier: Decision_support_mim.ds_characterizable_property_definition_representation
+  localized_concepts:
+    eng: fbb912f7-a334-5205-8327-5233b675d6e3
+  domains:
+    - concept_id: section-Decision_support_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+      ref_type: section
+id: Decision_support_mim.ds_characterizable_property_definition_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ds characterizable property definition representation {{entity}}'
+  notes:
+    - content: A **ds_characterizable_property_definition_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+          version: '2'
+      type: authoritative
+      id: Decision_support_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ds_characterizable_property_definition_representation
+  domain: 'application module: Decision_support_mim'
+  language_code: eng
+  annotations: []
+id: fbb912f7-a334-5205-8327-5233b675d6e3

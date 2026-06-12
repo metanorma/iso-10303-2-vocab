@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_definition_arm.Software_for_data_quality_check
+  localized_concepts:
+    eng: 814cf44b-dbdc-5ed5-895f-b358b58eec87
+  domains:
+    - concept_id: section-Product_data_quality_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+      ref_type: section
+id: Product_data_quality_definition_arm.Software_for_data_quality_check
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the software for data quality check {{entity}}'
+  notes:
+    - content: A **Software_for_data_quality_check** is an identification of software required to be used, or used in data quality inspection.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Software_for_data_quality_check
+  domain: 'application module: Product_data_quality_definition_arm'
+  language_code: eng
+  annotations: []
+id: 814cf44b-dbdc-5ed5-895f-b358b58eec87

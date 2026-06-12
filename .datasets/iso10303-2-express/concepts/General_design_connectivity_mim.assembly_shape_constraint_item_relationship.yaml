@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.assembly_shape_constraint_item_relationship
+  localized_concepts:
+    eng: 0fb644ad-cdb3-5d9f-b442-d6c53b598110
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.assembly_shape_constraint_item_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the assembly shape constraint item relationship {{entity}}'
+  notes:
+    - content: An **assembly_shape_constraint_item_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Assembly_shape_constraint_item_relationship,Assembly_shape_constraint_item_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_shape_constraint_item_relationship
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: 0fb644ad-cdb3-5d9f-b442-d6c53b598110

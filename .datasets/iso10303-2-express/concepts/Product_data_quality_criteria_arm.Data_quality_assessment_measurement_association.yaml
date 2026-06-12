@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_criteria_arm.Data_quality_assessment_measurement_association
+  localized_concepts:
+    eng: 926bda3b-c8be-5104-8793-a975990f7a70
+  domains:
+    - concept_id: section-Product_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+      ref_type: section
+id: Product_data_quality_criteria_arm.Data_quality_assessment_measurement_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data quality assessment measurement association {{entity}}'
+  notes:
+    - content: A **Data_quality_assessment_measurement_association** is the representation of a relationship between a measurement requirement and its corresponding assessment specification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_quality_assessment_measurement_association
+  domain: 'application module: Product_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 926bda3b-c8be-5104-8793-a975990f7a70

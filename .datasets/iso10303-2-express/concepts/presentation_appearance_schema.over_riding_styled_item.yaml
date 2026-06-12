@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.over_riding_styled_item
+  localized_concepts:
+    eng: eacddfc6-587b-52ec-adf8-f0ce48a9b79f
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.over_riding_styled_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.styled_item,styled_item}} that represents the over riding styled item {{entity}}'
+  notes:
+    - content: An **over_riding_styled_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.styled_item,styled_item}} where the style assignment takes precedence over another assigned style.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: over_riding_styled_item
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: eacddfc6-587b-52ec-adf8-f0ce48a9b79f

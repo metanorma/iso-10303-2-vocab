@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_topology_schema.kinematic_joint
+  localized_concepts:
+    eng: e0caa862-77d7-5ad4-8923-88064bb0706a
+  domains:
+    - concept_id: section-kinematic_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+      ref_type: section
+id: kinematic_topology_schema.kinematic_joint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} that represents the kinematic joint {{entity}}'
+  notes:
+    - content: A **kinematic_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} that is a specification of the topological aspect of an ordered connection between two and only two links.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: kinematic_joint
+  domain: 'resource: kinematic_topology_schema'
+  language_code: eng
+  annotations: []
+id: e0caa862-77d7-5ad4-8923-88064bb0706a

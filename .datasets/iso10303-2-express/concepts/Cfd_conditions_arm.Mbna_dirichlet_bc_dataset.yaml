@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_conditions_arm.Mbna_dirichlet_bc_dataset
+  localized_concepts:
+    eng: d475ff36-34ca-5b30-a52e-40295a2b42b7
+  domains:
+    - concept_id: section-Cfd_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+      ref_type: section
+id: Cfd_conditions_arm.Mbna_dirichlet_bc_dataset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}} that represents the mbna dirichlet bc dataset {{entity}}'
+  notes:
+    - content: A **Mbna_dirichlet_bc_dataset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}} that contains Dirichlet boundary condition data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_dirichlet_bc_dataset
+  domain: 'application module: Cfd_conditions_arm'
+  language_code: eng
+  annotations: []
+id: d475ff36-34ca-5b30-a52e-40295a2b42b7

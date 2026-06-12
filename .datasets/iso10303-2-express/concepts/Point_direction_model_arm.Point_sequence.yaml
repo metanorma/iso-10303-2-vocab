@@ -1,0 +1,31 @@
+data:
+  identifier: Point_direction_model_arm.Point_sequence
+  localized_concepts:
+    eng: 08363719-1803-5d63-a210-c6b3e55f3f33
+  domains:
+    - concept_id: section-Point_direction_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+      ref_type: section
+id: Point_direction_model_arm.Point_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the point sequence {{entity}}'
+  notes:
+    - content: A **Point_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents an ordered lists of points.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+          version: '2'
+      type: authoritative
+      id: Point_direction_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_sequence
+  domain: 'application module: Point_direction_model_arm'
+  language_code: eng
+  annotations: []
+id: 08363719-1803-5d63-a210-c6b3e55f3f33

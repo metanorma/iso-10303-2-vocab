@@ -1,0 +1,31 @@
+data:
+  identifier: Selected_item_mim.selected_items_assignment_in_context_group
+  localized_concepts:
+    eng: 8c32db55-a017-5141-857f-4fca840727b8
+  domains:
+    - concept_id: section-Selected_item_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+      ref_type: section
+id: Selected_item_mim.selected_items_assignment_in_context_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the selected items assignment in context group {{entity}}'
+  notes:
+    - content: A **selected_items_assignment_in_context_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim.selected_item_assignment,selected_item_assignment}} to its context which is identified by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim.selected_items_context_group,selected_items_context_group}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+          version: '2'
+      type: authoritative
+      id: Selected_item_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: selected_items_assignment_in_context_group
+  domain: 'application module: Selected_item_mim'
+  language_code: eng
+  annotations: []
+id: 8c32db55-a017-5141-857f-4fca840727b8

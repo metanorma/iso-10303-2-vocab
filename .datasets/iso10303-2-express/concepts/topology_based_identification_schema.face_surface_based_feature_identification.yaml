@@ -1,0 +1,31 @@
+data:
+  identifier: topology_based_identification_schema.face_surface_based_feature_identification
+  localized_concepts:
+    eng: ce763068-eefe-5a6c-93a9-5ba059f37635
+  domains:
+    - concept_id: section-topology_based_identification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+      ref_type: section
+id: topology_based_identification_schema.face_surface_based_feature_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}} that represents the face surface based feature identification {{entity}}'
+  notes:
+    - content: A **face_surface_based_feature_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}} that specifies a face relating to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_surface,face_surface}} based operation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+          version: '1'
+      type: authoritative
+      id: topology_based_identification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: face_surface_based_feature_identification
+  domain: 'resource: topology_based_identification_schema'
+  language_code: eng
+  annotations: []
+id: ce763068-eefe-5a6c-93a9-5ba059f37635

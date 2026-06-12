@@ -1,0 +1,31 @@
+data:
+  identifier: Building_structure_arm.Item_proximity_relationship
+  localized_concepts:
+    eng: 29398c58-1c4f-5546-87d7-072cd9639492
+  domains:
+    - concept_id: section-Building_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+      ref_type: section
+id: Building_structure_arm.Item_proximity_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the item proximity relationship {{entity}}'
+  notes:
+    - content: An **Item_proximity_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that defines an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}} and another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}} that is near it.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+          version: '1'
+      type: authoritative
+      id: Building_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Item_proximity_relationship
+  domain: 'application module: Building_structure_arm'
+  language_code: eng
+  annotations: []
+id: 29398c58-1c4f-5546-87d7-072cd9639492

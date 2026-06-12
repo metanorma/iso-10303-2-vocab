@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.shelled_solid
+  localized_concepts:
+    eng: f31b981a-eff7-5464-bace-fc1ea42e33ed
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.shelled_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.modified_solid,modified_solid}} that represents the shelled solid {{entity}}'
+  notes:
+    - content: A *shelled_solid* is a type of *modified_solid* created by the application of an operation called _shelling_ or _hollowing_ on the original base solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shelled_solid
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: f31b981a-eff7-5464-bace-fc1ea42e33ed

@@ -1,0 +1,31 @@
+data:
+  identifier: Device_marking_arm.Configuration_controlled_message
+  localized_concepts:
+    eng: bd4b75b5-51b6-5e0f-9654-4c6e45eb25d1
+  domains:
+    - concept_id: section-Device_marking_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Device_marking_arm
+      ref_type: section
+id: Device_marking_arm.Configuration_controlled_message
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the configuration controlled message {{entity}}'
+  notes:
+    - content: A **Configuration_controlled_message** is a message that has its content under version control, and that is source data for application of marking materials to a product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Device_marking_arm
+          version: '2'
+      type: authoritative
+      id: Device_marking_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Configuration_controlled_message
+  domain: 'application module: Device_marking_arm'
+  language_code: eng
+  annotations: []
+id: bd4b75b5-51b6-5e0f-9654-4c6e45eb25d1

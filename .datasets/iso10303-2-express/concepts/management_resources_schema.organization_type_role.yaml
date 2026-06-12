@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.organization_type_role
+  localized_concepts:
+    eng: c7cde068-5ab1-5a73-9c46-fa4472ba5f53
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.organization_type_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization type role {{entity}}'
+  notes:
+    - content: An **organization_type_role** is a purpose for an **organization_type** and provides identification and description of the purpose.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: organization_type_role
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: c7cde068-5ab1-5a73-9c46-fa4472ba5f53

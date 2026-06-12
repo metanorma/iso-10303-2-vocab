@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_line_segment_2_points
+  localized_concepts:
+    eng: 2679b27c-d7ae-5e14-b614-3d3511477010
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_line_segment_2_points
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_line_segment,create_line_segment}} that represents the create line segment 2 points {{entity}}'
+  notes:
+    - content: A *create_line_segment_2_points* is a type of *create_line_segment* that creates a line segment with two given end points.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_line_segment_2_points
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 2679b27c-d7ae-5e14-b614-3d3511477010

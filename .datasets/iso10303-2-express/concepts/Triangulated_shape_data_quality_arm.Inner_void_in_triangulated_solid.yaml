@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Inner_void_in_triangulated_solid
+  localized_concepts:
+    eng: 6ba0f99d-f2f3-5f1c-992b-23b65aa816f2
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Inner_void_in_triangulated_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that represents the inner void in triangulated solid {{entity}}'
+  notes:
+    - content: An **Inner_void_in_triangulated_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that asserts that a triangulated shape model has one or more inner void shells.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Inner_void_in_triangulated_solid
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: 6ba0f99d-f2f3-5f1c-992b-23b65aa816f2

@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_arm.Non_referenced_coordinate_system
+  localized_concepts:
+    eng: 9584de8a-0322-5fbe-b170-a5ef26553c14
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_arm.Non_referenced_coordinate_system
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}} that represents the non referenced coordinate system {{entity}}'
+  notes:
+    - content: A **Non_referenced_coordinate_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}} that represents a criterion detecting a coordinate system that is not referenced.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Non_referenced_coordinate_system
+  domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 9584de8a-0322-5fbe-b170-a5ef26553c14

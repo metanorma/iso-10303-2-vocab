@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_mim.product_concept_feature_category
+  localized_concepts:
+    eng: 5ae45b67-473d-500f-8b29-d0cffd322fbe
+  domains:
+    - concept_id: section-Product_class_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+      ref_type: section
+id: Product_class_mim.product_concept_feature_category
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the product concept feature category {{entity}}'
+  notes:
+    - content: A **product_concept_feature_category** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies a set of similar product features represented with {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+          version: '6'
+      type: authoritative
+      id: Product_class_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_concept_feature_category
+  domain: 'application module: Product_class_mim'
+  language_code: eng
+  annotations: []
+id: 5ae45b67-473d-500f-8b29-d0cffd322fbe

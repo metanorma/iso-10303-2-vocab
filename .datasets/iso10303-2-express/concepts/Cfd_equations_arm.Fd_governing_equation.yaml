@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_equations_arm.Fd_governing_equation
+  localized_concepts:
+    eng: 88dc628e-02d5-50bd-873f-b958a25c9ccc
+  domains:
+    - concept_id: section-Cfd_equations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+      ref_type: section
+id: Cfd_equations_arm.Fd_governing_equation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_governing_equation,Mbna_governing_equation}} that represents the fd governing equation {{entity}}'
+  notes:
+    - content: A **Fd_governing_equation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_governing_equation,Mbna_governing_equation}} describing the class of governing flow equations associated with the solution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_equations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fd_governing_equation
+  domain: 'application module: Cfd_equations_arm'
+  language_code: eng
+  annotations: []
+id: 88dc628e-02d5-50bd-873f-b958a25c9ccc

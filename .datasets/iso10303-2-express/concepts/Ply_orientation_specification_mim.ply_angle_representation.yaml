@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_mim.ply_angle_representation
+  localized_concepts:
+    eng: 27428bc9-c84a-538b-8973-18f1ade93b08
+  domains:
+    - concept_id: section-Ply_orientation_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+      ref_type: section
+id: Ply_orientation_specification_mim.ply_angle_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the ply angle representation {{entity}}'
+  notes:
+    - content: A **ply_angle_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that specifies the value of a ply angle for the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Ply_orientation_angle,Ply_orientation_angle}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+          version: '4'
+      type: authoritative
+      id: Ply_orientation_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ply_angle_representation
+  domain: 'application module: Ply_orientation_specification_mim'
+  language_code: eng
+  annotations: []
+id: 27428bc9-c84a-538b-8973-18f1ade93b08

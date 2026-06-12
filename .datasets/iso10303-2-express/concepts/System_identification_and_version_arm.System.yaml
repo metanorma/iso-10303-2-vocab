@@ -1,0 +1,31 @@
+data:
+  identifier: System_identification_and_version_arm.System
+  localized_concepts:
+    eng: 24a2821a-31c8-5824-b6f8-4fabf12ca702
+  domains:
+    - concept_id: section-System_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
+      ref_type: section
+id: System_identification_and_version_arm.System
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the system {{entity}}'
+  notes:
+    - content: A **System** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} used to identify a conceptual solution to a collection of reqirements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
+          version: '2'
+      type: authoritative
+      id: System_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: System
+  domain: 'application module: System_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 24a2821a-31c8-5824-b6f8-4fabf12ca702

@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.effectivity_context_assignment
+  localized_concepts:
+    eng: 16d77dae-5291-5ced-a803-c26f7dde51eb
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.effectivity_context_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the effectivity context assignment {{entity}}'
+  notes:
+    - content: An **effectivity_context_assignment** is an assignment of a purpose to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_assignment,effectivity_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: effectivity_context_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 16d77dae-5291-5ced-a803-c26f7dde51eb

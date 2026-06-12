@@ -1,0 +1,31 @@
+data:
+  identifier: Non_feature_shape_element_mim.edge_segment_vertex
+  localized_concepts:
+    eng: 92c5dedc-3869-53c0-b1d9-f0535c86138a
+  domains:
+    - concept_id: section-Non_feature_shape_element_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+      ref_type: section
+id: Non_feature_shape_element_mim.edge_segment_vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the edge segment vertex {{entity}}'
+  notes:
+    - content: An **edge_segment_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Edge_segment_vertex,Edge_segment_vertex}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+          version: '5'
+      type: authoritative
+      id: Non_feature_shape_element_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: edge_segment_vertex
+  domain: 'application module: Non_feature_shape_element_mim'
+  language_code: eng
+  annotations: []
+id: 92c5dedc-3869-53c0-b1d9-f0535c86138a

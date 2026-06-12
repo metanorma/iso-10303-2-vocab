@@ -1,0 +1,30 @@
+data:
+  identifier: Connection_of_individual_product_mim.connection_of_individual_product
+  localized_concepts:
+    eng: 48b55ee1-a604-5c22-ab0e-e76f39c1fab0
+  domains:
+    - concept_id: section-Connection_of_individual_product_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_product_mim
+      ref_type: section
+id: Connection_of_individual_product_mim.connection_of_individual_product
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the connection of individual product {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_product_mim
+          version: '1'
+      type: authoritative
+      id: Connection_of_individual_product_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: connection_of_individual_product
+  domain: 'application module: Connection_of_individual_product_mim'
+  language_code: eng
+  annotations: []
+id: 48b55ee1-a604-5c22-ab0e-e76f39c1fab0

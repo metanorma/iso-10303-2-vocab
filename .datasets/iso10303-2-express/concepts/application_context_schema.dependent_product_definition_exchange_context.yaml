@@ -1,0 +1,31 @@
+data:
+  identifier: application_context_schema.dependent_product_definition_exchange_context
+  localized_concepts:
+    eng: 671fbdc2-31aa-5e8c-8f42-32856cfef3d4
+  domains:
+    - concept_id: section-application_context_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+      ref_type: section
+id: application_context_schema.dependent_product_definition_exchange_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.product_definition_context,product_definition_context}} that represents the dependent product definition exchange context {{entity}}'
+  notes:
+    - content: A **dependent_product_definition_exchange_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.product_definition_context,product_definition_context}} and is an abstract entity that describes a specific context for exchange.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+          version: '9'
+      type: authoritative
+      id: application_context_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dependent_product_definition_exchange_context
+  domain: 'resource: application_context_schema'
+  language_code: eng
+  annotations: []
+id: 671fbdc2-31aa-5e8c-8f42-32856cfef3d4

@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Csg_solid
+  localized_concepts:
+    eng: bc5e8cbb-1930-54de-8b32-56c424548822
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Csg_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the csg solid {{entity}}'
+  notes:
+    - content: A **Csg_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} which is a solid represented as a CSG model defined by a collection of so-called primitive solids, combined using regularised Boolean operations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Csg_solid
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: bc5e8cbb-1930-54de-8b32-56c424548822

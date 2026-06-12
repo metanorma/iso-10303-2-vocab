@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Straight_knurl
+  localized_concepts:
+    eng: 0bdcbbce-9595-56c6-957e-454f7b7b9065
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Straight_knurl
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}} that represents the straight knurl {{entity}}'
+  notes:
+    - content: A **Straight_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}} that is typified by knurl scoring that is parallel to the axis of the scored surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Straight_knurl
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 0bdcbbce-9595-56c6-957e-454f7b7b9065

@@ -1,0 +1,31 @@
+data:
+  identifier: Group_arm.Group_relationship
+  localized_concepts:
+    eng: 4ed99997-f341-5d4b-9621-962bf3a1ab87
+  domains:
+    - concept_id: section-Group_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
+      ref_type: section
+id: Group_arm.Group_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the group relationship {{entity}}'
+  notes:
+    - content: A **Group_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm.Group,Group}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
+          version: '2'
+      type: authoritative
+      id: Group_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Group_relationship
+  domain: 'application module: Group_arm'
+  language_code: eng
+  annotations: []
+id: 4ed99997-f341-5d4b-9621-962bf3a1ab87

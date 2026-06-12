@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_product_relationships_arm.Analysis_view_relationship
+  localized_concepts:
+    eng: ec1612cf-e38e-58bd-943d-13a5086e8589
+  domains:
+    - concept_id: section-Analysis_product_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_product_relationships_arm
+      ref_type: section
+id: Analysis_product_relationships_arm.Analysis_view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analysis view relationship {{entity}}'
+  notes:
+    - content: An **Analysis_view_relationship** is a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} that is a view of a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_product_relationships_arm
+          version: '1'
+      type: authoritative
+      id: Analysis_product_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analysis_view_relationship
+  domain: 'application module: Analysis_product_relationships_arm'
+  language_code: eng
+  annotations: []
+id: ec1612cf-e38e-58bd-943d-13a5086e8589

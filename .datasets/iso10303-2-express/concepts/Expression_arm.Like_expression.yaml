@@ -1,0 +1,30 @@
+data:
+  identifier: Expression_arm.Like_expression
+  localized_concepts:
+    eng: 9ce80425-cb93-5e97-9c79-20afe94421da
+  domains:
+    - concept_id: section-Expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+      ref_type: section
+id: Expression_arm.Like_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Comparison_expression,Comparison_expression}} that represents the like expression {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+          version: '3'
+      type: authoritative
+      id: Expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Like_expression
+  domain: 'application module: Expression_arm'
+  language_code: eng
+  annotations: []
+id: 9ce80425-cb93-5e97-9c79-20afe94421da

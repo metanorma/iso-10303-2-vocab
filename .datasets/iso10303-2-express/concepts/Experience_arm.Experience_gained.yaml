@@ -1,0 +1,31 @@
+data:
+  identifier: Experience_arm.Experience_gained
+  localized_concepts:
+    eng: 582af3e9-aedb-5090-93dc-6c73a384c0b1
+  domains:
+    - concept_id: section-Experience_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+      ref_type: section
+id: Experience_arm.Experience_gained
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience gained {{entity}}'
+  notes:
+    - content: An **Experience_gained** is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm.Experience_instance,Experience_instance}} and a person or organization.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+          version: '1'
+      type: authoritative
+      id: Experience_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Experience_gained
+  domain: 'application module: Experience_arm'
+  language_code: eng
+  annotations: []
+id: 582af3e9-aedb-5090-93dc-6c73a384c0b1

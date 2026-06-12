@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_equivalence_shape_arm.Different_surface_area
+  localized_concepts:
+    eng: 1ee43210-fceb-5a0d-8e30-f6ac983bfdc7
+  domains:
+    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+      ref_type: section
+id: Annotated_3d_model_equivalence_shape_arm.Different_surface_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}} that represents the different surface area {{entity}}'
+  notes:
+    - content: A **Different_surface_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}} that asserts the surface areas of the two compared {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}}s are different.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_equivalence_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Different_surface_area
+  domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
+  language_code: eng
+  annotations: []
+id: 1ee43210-fceb-5a0d-8e30-f6ac983bfdc7

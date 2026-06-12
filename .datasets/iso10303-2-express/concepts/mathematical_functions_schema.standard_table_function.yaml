@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.standard_table_function
+  localized_concepts:
+    eng: d95760a1-b0c8-5c1a-9673-b7230e332ee9
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.standard_table_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} that represents the standard table function {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} represents dense arrays of any dimension whose elements have been linearly ordered in one of two standard ways.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: standard_table_function
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: d95760a1-b0c8-5c1a-9673-b7230e332ee9

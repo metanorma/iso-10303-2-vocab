@@ -1,0 +1,31 @@
+data:
+  identifier: Project_management_mim.prjm_characterizable_state_observed
+  localized_concepts:
+    eng: f00e5f56-7db5-59d8-96f0-01d8903bdc2e
+  domains:
+    - concept_id: section-Project_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+      ref_type: section
+id: Project_management_mim.prjm_characterizable_state_observed
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the prjm characterizable state observed {{entity}}'
+  notes:
+    - content: A **prjm_characterizable_state_observed** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+          version: '2'
+      type: authoritative
+      id: Project_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: prjm_characterizable_state_observed
+  domain: 'application module: Project_management_mim'
+  language_code: eng
+  annotations: []
+id: f00e5f56-7db5-59d8-96f0-01d8903bdc2e

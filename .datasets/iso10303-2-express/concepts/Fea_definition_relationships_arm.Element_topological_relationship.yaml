@@ -1,0 +1,37 @@
+data:
+  identifier: Fea_definition_relationships_arm.Element_topological_relationship
+  localized_concepts:
+    eng: f82bf376-8592-573f-9b45-99f86fb66d6d
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Element_topological_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element topological relationship {{entity}}'
+  notes:
+    - content: |-
+        An **Element_topological_relationship** is a relationship between:
+
+        * an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Element_shape_aspect,Element_shape_aspect}}; and
+        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}};
+
+        that indicates the **element_ref** has the topological relationships of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Element_topological_relationship
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: f82bf376-8592-573f-9b45-99f86fb66d6d

@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.curve_style_with_ends_and_corners
+  localized_concepts:
+    eng: 28caf668-7329-553a-99a5-fe7df1a23bdb
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.curve_style_with_ends_and_corners
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}} that represents the curve style with ends and corners {{entity}}'
+  notes:
+    - content: A **curve_style_with_ends_and_corners** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}} which specifies the visual appearance of the ends and corners of a curve.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: curve_style_with_ends_and_corners
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 28caf668-7329-553a-99a5-fe7df1a23bdb

@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.rib_top
+  localized_concepts:
+    eng: bf9cfcdf-a8b4-5ee1-8f28-c2d89dc967c2
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.rib_top
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the rib top {{entity}}'
+  notes:
+    - content: A **rib_top** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that is the representation of a volume that is removed from the top of a shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rib_top
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: bf9cfcdf-a8b4-5ee1-8f28-c2d89dc967c2

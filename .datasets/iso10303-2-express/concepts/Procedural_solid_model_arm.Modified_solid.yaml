@@ -1,0 +1,31 @@
+data:
+  identifier: Procedural_solid_model_arm.Modified_solid
+  localized_concepts:
+    eng: a3bc7d7a-96f9-59a8-a32a-2fe7f2ccf00d
+  domains:
+    - concept_id: section-Procedural_solid_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
+      ref_type: section
+id: Procedural_solid_model_arm.Modified_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the modified solid {{entity}}'
+  notes:
+    - content: A **Modified_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies an shape modification operation to create a local modification of a {{base_solid,base_solid}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
+          version: '2'
+      type: authoritative
+      id: Procedural_solid_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Modified_solid
+  domain: 'application module: Procedural_solid_model_arm'
+  language_code: eng
+  annotations: []
+id: a3bc7d7a-96f9-59a8-a32a-2fe7f2ccf00d

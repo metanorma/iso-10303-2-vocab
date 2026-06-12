@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Substructure_element
+  localized_concepts:
+    eng: bf984bb6-a8bd-5649-ac0a-b497c718d4f7
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Substructure_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Element,Element}} that represents the substructure element {{entity}}'
+  notes:
+    - content: A **Substructure_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Element,Element}} that contains a finite element model that may be assembled into another finite element model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Substructure_element
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: bf984bb6-a8bd-5649-ac0a-b497c718d4f7

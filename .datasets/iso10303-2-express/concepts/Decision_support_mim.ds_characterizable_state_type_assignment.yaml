@@ -1,0 +1,31 @@
+data:
+  identifier: Decision_support_mim.ds_characterizable_state_type_assignment
+  localized_concepts:
+    eng: f1ae2407-e25b-5142-b79a-58108086fe48
+  domains:
+    - concept_id: section-Decision_support_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+      ref_type: section
+id: Decision_support_mim.ds_characterizable_state_type_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ds characterizable state type assignment {{entity}}'
+  notes:
+    - content: A **ds_characterizable_state_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_assignment,state_type_assignment}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+          version: '2'
+      type: authoritative
+      id: Decision_support_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ds_characterizable_state_type_assignment
+  domain: 'application module: Decision_support_mim'
+  language_code: eng
+  annotations: []
+id: f1ae2407-e25b-5142-b79a-58108086fe48

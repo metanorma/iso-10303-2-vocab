@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.bezier_volume
+  localized_concepts:
+    eng: af1d667a-6940-5d9e-b3a5-0b7b5e9740b2
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.bezier_volume
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_volume,b_spline_volume}} that represents the bezier volume {{entity}}'
+  notes:
+    - content: A **bezier_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_volume,b_spline_volume}} in which the knots are evenly spaced and have high multiplicities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: bezier_volume
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: af1d667a-6940-5d9e-b3a5-0b7b5e9740b2

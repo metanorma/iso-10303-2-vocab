@@ -1,0 +1,30 @@
+data:
+  identifier: Kinematic_state_arm.Rack_and_pinion_pair_value
+  localized_concepts:
+    eng: 68880bb7-a2f7-580b-b51e-9cca566d4975
+  domains:
+    - concept_id: section-Kinematic_state_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+      ref_type: section
+id: Kinematic_state_arm.Rack_and_pinion_pair_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Pair_value,Pair_value}} that represents the rack and pinion pair value {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_state_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rack_and_pinion_pair_value
+  domain: 'application module: Kinematic_state_arm'
+  language_code: eng
+  annotations: []
+id: 68880bb7-a2f7-580b-b51e-9cca566d4975

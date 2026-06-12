@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_arm.Laid_orientation_angle
+  localized_concepts:
+    eng: 3f66375e-2057-5f0c-95a3-bc4e80f7f407
+  domains:
+    - concept_id: section-Ply_orientation_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+      ref_type: section
+id: Ply_orientation_specification_arm.Laid_orientation_angle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Ply_orientation_angle,Ply_orientation_angle}} that represents the laid orientation angle {{entity}}'
+  notes:
+    - content: A **Laid_orientation_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Ply_orientation_angle,Ply_orientation_angle}} that specifies that the laminate table ply orientations represent the fiber directions as laid by operations such as hand layup, tape laying, or fiber placement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+          version: '5'
+      type: authoritative
+      id: Ply_orientation_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Laid_orientation_angle
+  domain: 'application module: Ply_orientation_specification_arm'
+  language_code: eng
+  annotations: []
+id: 3f66375e-2057-5f0c-95a3-bc4e80f7f407

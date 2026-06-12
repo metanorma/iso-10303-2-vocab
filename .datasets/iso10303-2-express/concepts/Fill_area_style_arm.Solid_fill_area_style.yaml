@@ -1,0 +1,31 @@
+data:
+  identifier: Fill_area_style_arm.Solid_fill_area_style
+  localized_concepts:
+    eng: a36f6a6d-cfbd-5e47-8fce-2250fa8b7d20
+  domains:
+    - concept_id: section-Fill_area_style_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+      ref_type: section
+id: Fill_area_style_arm.Solid_fill_area_style
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the solid fill area style {{entity}}'
+  notes:
+    - content: A **Solid_fill_area_style** is a style for filling visible curve segments, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Annotation_fill_area,Annotation_fill_area}}, or surfaces with tiles or hatching.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+          version: '3'
+      type: authoritative
+      id: Fill_area_style_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Solid_fill_area_style
+  domain: 'application module: Fill_area_style_arm'
+  language_code: eng
+  annotations: []
+id: a36f6a6d-cfbd-5e47-8fce-2250fa8b7d20

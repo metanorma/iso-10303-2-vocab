@@ -1,0 +1,31 @@
+data:
+  identifier: Type_of_person_arm.Type_of_person_definition_required_attributes_relationship
+  localized_concepts:
+    eng: 452a980e-031e-5cf4-ae74-d78e51627d5a
+  domains:
+    - concept_id: section-Type_of_person_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+      ref_type: section
+id: Type_of_person_arm.Type_of_person_definition_required_attributes_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the type of person definition required attributes relationship {{entity}}'
+  notes:
+    - content: A **Type_of_person_definition_required_attributes_relationship** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm.Type_of_person_definition,Type_of_person_definition}} and the attributes required to define that type of person.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+          version: '1'
+      type: authoritative
+      id: Type_of_person_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Type_of_person_definition_required_attributes_relationship
+  domain: 'application module: Type_of_person_arm'
+  language_code: eng
+  annotations: []
+id: 452a980e-031e-5cf4-ae74-d78e51627d5a

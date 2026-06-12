@@ -1,0 +1,31 @@
+data:
+  identifier: Text_representation_arm.Text_font_family
+  localized_concepts:
+    eng: 5892b1fd-c291-5fac-a78a-3205441ac448
+  domains:
+    - concept_id: section-Text_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+      ref_type: section
+id: Text_representation_arm.Text_font_family
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the text font family {{entity}}'
+  notes:
+    - content: A **Text_font_family** is the identification of a related collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Text_font,Text_font}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+          version: '5'
+      type: authoritative
+      id: Text_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Text_font_family
+  domain: 'application module: Text_representation_arm'
+  language_code: eng
+  annotations: []
+id: 5892b1fd-c291-5fac-a78a-3205441ac448

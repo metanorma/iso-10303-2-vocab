@@ -1,0 +1,31 @@
+data:
+  identifier: Probability_distribution_arm.Distribution_by_value
+  localized_concepts:
+    eng: 3f44aaca-91e2-5550-9b2c-a5ddb97e8250
+  domains:
+    - concept_id: section-Probability_distribution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+      ref_type: section
+id: Probability_distribution_arm.Distribution_by_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm.Probability_distribution,Probability_distribution}} that represents the distribution by value {{entity}}'
+  notes:
+    - content: A **Distribution_by_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm.Probability_distribution,Probability_distribution}} that explicitly lists pairs of random variable values and function values.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+          version: '3'
+      type: authoritative
+      id: Probability_distribution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Distribution_by_value
+  domain: 'application module: Probability_distribution_arm'
+  language_code: eng
+  annotations: []
+id: 3f44aaca-91e2-5550-9b2c-a5ddb97e8250

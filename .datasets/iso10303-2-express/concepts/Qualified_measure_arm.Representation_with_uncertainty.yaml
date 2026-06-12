@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Representation_with_uncertainty
+  localized_concepts:
+    eng: a96f8b73-22a0-52aa-9363-40402a0b17a2
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Representation_with_uncertainty
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the representation with uncertainty {{entity}}'
+  notes:
+    - content: A **Representation_with_uncertainty** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that specifies uncertainty with respect to the elements of representation that it collects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Representation_with_uncertainty
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: a96f8b73-22a0-52aa-9363-40402a0b17a2

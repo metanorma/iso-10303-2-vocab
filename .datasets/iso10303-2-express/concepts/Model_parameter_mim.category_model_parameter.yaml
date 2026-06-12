@@ -1,0 +1,31 @@
+data:
+  identifier: Model_parameter_mim.category_model_parameter
+  localized_concepts:
+    eng: 0d21ebee-8537-58af-ac11-bccccf9dea5f
+  domains:
+    - concept_id: section-Model_parameter_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+      ref_type: section
+id: Model_parameter_mim.category_model_parameter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.model_parameter,model_parameter}} that represents the category model parameter {{entity}}'
+  notes:
+    - content: A **category_model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.model_parameter,model_parameter}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Category_model_parameter,Category_model_parameter}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+          version: '5'
+      type: authoritative
+      id: Model_parameter_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: category_model_parameter
+  domain: 'application module: Model_parameter_mim'
+  language_code: eng
+  annotations: []
+id: 0d21ebee-8537-58af-ac11-bccccf9dea5f

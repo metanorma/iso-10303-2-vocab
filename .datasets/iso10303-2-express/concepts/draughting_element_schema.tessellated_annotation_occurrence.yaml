@@ -1,0 +1,31 @@
+data:
+  identifier: draughting_element_schema.tessellated_annotation_occurrence
+  localized_concepts:
+    eng: 84544d1b-cae9-53d1-85f6-578e23e88566
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.tessellated_annotation_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} that represents the tessellated annotation occurrence {{entity}}'
+  notes:
+    - content: A **tessellated_annotation_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} for tessellated geometry.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_annotation_occurrence
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: 84544d1b-cae9-53d1-85f6-578e23e88566

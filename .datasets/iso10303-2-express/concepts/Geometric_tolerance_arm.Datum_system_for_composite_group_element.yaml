@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Datum_system_for_composite_group_element
+  localized_concepts:
+    eng: 0d31d159-1446-50a7-a222-b05dd7c71f30
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Datum_system_for_composite_group_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_system,Datum_system}} that represents the datum system for composite group element {{entity}}'
+  notes:
+    - content: A **Datum_system_for_composite_group_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_system,Datum_system}} that specifies an element of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_group_shape_element,Composite_group_shape_element}} and an associated model coordinate system for that element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Datum_system_for_composite_group_element
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 0d31d159-1446-50a7-a222-b05dd7c71f30

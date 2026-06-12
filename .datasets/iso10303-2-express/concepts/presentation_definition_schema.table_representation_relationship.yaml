@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.table_representation_relationship
+  localized_concepts:
+    eng: 20e92b80-2dcd-5208-b787-a83cfa66e099
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.table_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation_relationship,symbol_representation_relationship}} that represents the table representation relationship {{entity}}'
+  notes:
+    - content: A **table_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation_relationship,symbol_representation_relationship}} used to relate {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.table_representation,table_representation}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.table_record_representation,table_record_representation}}, and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.table_record_field_representation,table_record_field_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: table_representation_relationship
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: 20e92b80-2dcd-5208-b787-a83cfa66e099

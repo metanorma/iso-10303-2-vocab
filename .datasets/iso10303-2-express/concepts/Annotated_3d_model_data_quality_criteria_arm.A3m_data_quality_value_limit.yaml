@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_value_limit
+  localized_concepts:
+    eng: a97274c3-c52c-5ee1-8b44-42acb913434e
+  domains:
+    - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+      ref_type: section
+id: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_value_limit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the a3m data quality value limit {{entity}}'
+  notes:
+    - content: An **A3m_data_quality_value_limit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Qualified_representation_item,Qualified_representation_item}} that specifies a qualified numerical value representing either the lower limit or the upper limit of a particular quantifiable characteristic.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: A3m_data_quality_value_limit
+  domain: 'application module: Annotated_3d_model_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: a97274c3-c52c-5ee1-8b44-42acb913434e

@@ -1,0 +1,31 @@
+data:
+  identifier: Alias_identification_arm.Alias_identification
+  localized_concepts:
+    eng: 8722c833-f1b9-51c7-b6a7-29ce8b1ff84d
+  domains:
+    - concept_id: section-Alias_identification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alias_identification_arm
+      ref_type: section
+id: Alias_identification_arm.Alias_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_arm.Identification_assignment,Identification_assignment}} that represents the alias identification {{entity}}'
+  notes:
+    - content: An **Alias_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_arm.Identification_assignment,Identification_assignment}} that provides an alias identifier to product or activity data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alias_identification_arm
+          version: '4'
+      type: authoritative
+      id: Alias_identification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Alias_identification
+  domain: 'application module: Alias_identification_arm'
+  language_code: eng
+  annotations: []
+id: 8722c833-f1b9-51c7-b6a7-29ce8b1ff84d

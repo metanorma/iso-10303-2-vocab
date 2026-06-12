@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_mim.impedance_measurement_setup_requirement
+  localized_concepts:
+    eng: 663ffcb7-3ba7-53c9-9535-c7562f2e90c7
+  domains:
+    - concept_id: section-Fabrication_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+      ref_type: section
+id: Fabrication_technology_mim.impedance_measurement_setup_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that represents the impedance measurement setup requirement {{entity}}'
+  notes:
+    - content: An **impedance_measurement_setup_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Impedance_measurement_setup_requirement,Impedance_measurement_setup_requirement}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: impedance_measurement_setup_requirement
+  domain: 'application module: Fabrication_technology_mim'
+  language_code: eng
+  annotations: []
+id: 663ffcb7-3ba7-53c9-9535-c7562f2e90c7

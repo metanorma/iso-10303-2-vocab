@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_document_mim.document_identifier_assignment
+  localized_concepts:
+    eng: 5bd432ac-196d-56ce-bf78-889eed248573
+  domains:
+    - concept_id: section-Specification_document_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+      ref_type: section
+id: Specification_document_mim.document_identifier_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the document identifier assignment {{entity}}'
+  notes:
+    - content: A **document_identifier_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that specifies one or more of {{document_identifier_assigned_item,document_identifier_assigned_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+          version: '4'
+      type: authoritative
+      id: Specification_document_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: document_identifier_assignment
+  domain: 'application module: Specification_document_mim'
+  language_code: eng
+  annotations: []
+id: 5bd432ac-196d-56ce-bf78-889eed248573

@@ -1,0 +1,31 @@
+data:
+  identifier: Configuration_item_arm.Product_configuration_revision_sequence
+  localized_concepts:
+    eng: f7554274-4e8d-5610-af3d-a804c7bb33bd
+  domains:
+    - concept_id: section-Configuration_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm
+      ref_type: section
+id: Configuration_item_arm.Product_configuration_revision_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration_relationship,Product_configuration_relationship}} that represents the product configuration revision sequence {{entity}}'
+  notes:
+    - content: A **Product_configuration_revision_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration_relationship,Product_configuration_relationship}} that is used to relate a previous version (predecessor) of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}} to the version that replaces it (successor).
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm
+          version: '2'
+      type: authoritative
+      id: Configuration_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_configuration_revision_sequence
+  domain: 'application module: Configuration_item_arm'
+  language_code: eng
+  annotations: []
+id: f7554274-4e8d-5610-af3d-a804c7bb33bd

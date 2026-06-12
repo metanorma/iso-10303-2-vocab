@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_topology_arm.Vertex_loop
+  localized_concepts:
+    eng: ff8d0c86-8e18-5a06-9aab-83302147d5a7
+  domains:
+    - concept_id: section-Elemental_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+      ref_type: section
+id: Elemental_topology_arm.Vertex_loop
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Loop,Loop}} that represents the vertex loop {{entity}}'
+  notes:
+    - content: A **Vertex_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Loop,Loop}} of zero extent consisting of a single vertex.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+          version: '7'
+      type: authoritative
+      id: Elemental_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Vertex_loop
+  domain: 'application module: Elemental_topology_arm'
+  language_code: eng
+  annotations: []
+id: ff8d0c86-8e18-5a06-9aab-83302147d5a7

@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Structured_mesh_with_rind
+  localized_concepts:
+    eng: dbe395bc-844e-5d95-8f2e-968cd24cc083
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Structured_mesh_with_rind
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Structured_mesh,Structured_mesh}} that represents the structured mesh with rind {{entity}}'
+  notes:
+    - content: A **Structured_mesh_with_rind** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Structured_mesh,Structured_mesh}} with specified rind planes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Structured_mesh_with_rind
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: dbe395bc-844e-5d95-8f2e-968cd24cc083

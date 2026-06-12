@@ -1,0 +1,31 @@
+data:
+  identifier: Work_request_arm.Work_request
+  localized_concepts:
+    eng: 8ef0df96-0b6b-5e65-9d66-72ee15513593
+  domains:
+    - concept_id: section-Work_request_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm
+      ref_type: section
+id: Work_request_arm.Work_request
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work request {{entity}}'
+  notes:
+    - content: A **Work_request** is the solicitation for some work to be done.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm
+          version: '3'
+      type: authoritative
+      id: Work_request_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Work_request
+  domain: 'application module: Work_request_arm'
+  language_code: eng
+  annotations: []
+id: 8ef0df96-0b6b-5e65-9d66-72ee15513593

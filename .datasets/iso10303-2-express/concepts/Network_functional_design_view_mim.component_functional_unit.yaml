@@ -1,0 +1,31 @@
+data:
+  identifier: Network_functional_design_view_mim.component_functional_unit
+  localized_concepts:
+    eng: 689c5397-92f9-5ebd-875d-076489b6562b
+  domains:
+    - concept_id: section-Network_functional_design_view_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_mim
+      ref_type: section
+id: Network_functional_design_view_mim.component_functional_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the component functional unit {{entity}}'
+  notes:
+    - content: A **component_functional_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_mim
+          version: '4'
+      type: authoritative
+      id: Network_functional_design_view_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: component_functional_unit
+  domain: 'application module: Network_functional_design_view_mim'
+  language_code: eng
+  annotations: []
+id: 689c5397-92f9-5ebd-875d-076489b6562b

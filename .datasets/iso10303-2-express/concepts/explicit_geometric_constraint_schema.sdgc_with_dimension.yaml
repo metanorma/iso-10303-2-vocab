@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.sdgc_with_dimension
+  localized_concepts:
+    eng: 5182f4c6-87ce-5a9b-ba9e-28e8bf44c755
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.sdgc_with_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.surface_distance_geometric_constraint,surface_distance_geometric_constraint}} that represents the sdgc with dimension {{entity}}'
+  notes:
+    - content: The entity data type *sdgc_with_dimension* is a type of *surface_distance_geometric_constraint* asserting a value for the minimum distance between two surfaces, or between a surface and a set of up to three reference elements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: sdgc_with_dimension
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 5182f4c6-87ce-5a9b-ba9e-28e8bf44c755

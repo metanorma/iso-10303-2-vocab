@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_arm.Positive_angle_data_element
+  localized_concepts:
+    eng: 09bda156-309d-597b-afc6-a930b5defd10
+  domains:
+    - concept_id: section-Value_with_unit_extension_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+      ref_type: section
+id: Value_with_unit_extension_arm.Positive_angle_data_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Angle_data_element,Angle_data_element}} that represents the positive angle data element {{entity}}'
+  notes:
+    - content: A **Positive_angle_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Angle_data_element,Angle_data_element}} where the requisite unit type is that of positive angular displacement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Positive_angle_data_element
+  domain: 'application module: Value_with_unit_extension_arm'
+  language_code: eng
+  annotations: []
+id: 09bda156-309d-597b-afc6-a930b5defd10

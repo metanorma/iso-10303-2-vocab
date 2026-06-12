@@ -1,0 +1,31 @@
+data:
+  identifier: Activity_method_arm.Activity_method
+  localized_concepts:
+    eng: 209d8078-a766-5307-8ac1-9bb84c58b9a6
+  domains:
+    - concept_id: section-Activity_method_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm
+      ref_type: section
+id: Activity_method_arm.Activity_method
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the activity method {{entity}}'
+  notes:
+    - content: An **Activity_method** is a way to carry out an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm
+          version: '2'
+      type: authoritative
+      id: Activity_method_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_method
+  domain: 'application module: Activity_method_arm'
+  language_code: eng
+  annotations: []
+id: 209d8078-a766-5307-8ac1-9bb84c58b9a6

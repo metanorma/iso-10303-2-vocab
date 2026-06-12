@@ -1,0 +1,31 @@
+data:
+  identifier: Shell_based_wireframe_arm.Shell_based_wireframe_shape_representation
+  localized_concepts:
+    eng: 33fd7ed5-8c83-5621-8099-85ad089adaa7
+  domains:
+    - concept_id: section-Shell_based_wireframe_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shell_based_wireframe_arm
+      ref_type: section
+id: Shell_based_wireframe_arm.Shell_based_wireframe_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the shell based wireframe shape representation {{entity}}'
+  notes:
+    - content: A **Shell_based_wireframe_shape_representation** is a type of three dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} defined by wireframe shells that define an implicit volume.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shell_based_wireframe_arm
+          version: '1'
+      type: authoritative
+      id: Shell_based_wireframe_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shell_based_wireframe_shape_representation
+  domain: 'application module: Shell_based_wireframe_arm'
+  language_code: eng
+  annotations: []
+id: 33fd7ed5-8c83-5621-8099-85ad089adaa7

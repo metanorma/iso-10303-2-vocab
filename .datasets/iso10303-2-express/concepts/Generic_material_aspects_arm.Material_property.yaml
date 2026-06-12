@@ -1,0 +1,30 @@
+data:
+  identifier: Generic_material_aspects_arm.Material_property
+  localized_concepts:
+    eng: 4c4e0548-9dc9-5cf5-bff1-a485ad8d756a
+  domains:
+    - concept_id: section-Generic_material_aspects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+      ref_type: section
+id: Generic_material_aspects_arm.Material_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that represents the material property {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+          version: '4'
+      type: authoritative
+      id: Generic_material_aspects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Material_property
+  domain: 'application module: Generic_material_aspects_arm'
+  language_code: eng
+  annotations: []
+id: 4c4e0548-9dc9-5cf5-bff1-a485ad8d756a

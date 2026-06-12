@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_management_arm.Managed_resource
+  localized_concepts:
+    eng: b7ee8bf7-3c51-5eba-9c99-93da2723dd3e
+  domains:
+    - concept_id: section-Resource_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+      ref_type: section
+id: Resource_management_arm.Managed_resource
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the managed resource {{entity}}'
+  notes:
+    - content: A **Managed_resource** is a representation of a resource that is provided with resource management capabilities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+          version: '2'
+      type: authoritative
+      id: Resource_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Managed_resource
+  domain: 'application module: Resource_management_arm'
+  language_code: eng
+  annotations: []
+id: b7ee8bf7-3c51-5eba-9c99-93da2723dd3e

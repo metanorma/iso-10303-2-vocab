@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_motion_representation_schema.kinematic_path_defined_by_nodes
+  localized_concepts:
+    eng: 162c9700-c56e-5572-bfc9-e9e6298e5483
+  domains:
+    - concept_id: section-kinematic_motion_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+      ref_type: section
+id: kinematic_motion_representation_schema.kinematic_path_defined_by_nodes
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path,kinematic_path}} that represents the kinematic path defined by nodes {{entity}}'
+  notes:
+    - content: A **kinematic_path_defined_by_nodes** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path,kinematic_path}} whose segments are of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.path_node,path_node}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+          version: '5'
+      type: authoritative
+      id: kinematic_motion_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: kinematic_path_defined_by_nodes
+  domain: 'resource: kinematic_motion_representation_schema'
+  language_code: eng
+  annotations: []
+id: 162c9700-c56e-5572-bfc9-e9e6298e5483

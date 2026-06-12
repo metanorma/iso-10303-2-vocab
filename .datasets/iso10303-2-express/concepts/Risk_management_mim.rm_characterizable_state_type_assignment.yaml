@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_management_mim.rm_characterizable_state_type_assignment
+  localized_concepts:
+    eng: 97cdabb3-1651-544d-b48a-7c93b553e98f
+  domains:
+    - concept_id: section-Risk_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+      ref_type: section
+id: Risk_management_mim.rm_characterizable_state_type_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rm characterizable state type assignment {{entity}}'
+  notes:
+    - content: A **rm_characterizable_state_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_assignment,state_type_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+          version: '4'
+      type: authoritative
+      id: Risk_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rm_characterizable_state_type_assignment
+  domain: 'application module: Risk_management_mim'
+  language_code: eng
+  annotations: []
+id: 97cdabb3-1651-544d-b48a-7c93b553e98f

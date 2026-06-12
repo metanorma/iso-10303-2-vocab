@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Tessellated_vertex
+  localized_concepts:
+    eng: c5e86368-773d-5f4e-a0b3-062bbe31c568
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Tessellated_vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}} that represents the tessellated vertex {{entity}}'
+  notes:
+    - content: A **Tessellated_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}} and is a single vertex in a tessellated model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tessellated_vertex
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: c5e86368-773d-5f4e-a0b3-062bbe31c568

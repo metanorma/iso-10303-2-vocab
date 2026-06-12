@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_definition_schema.shape_aspect_occurrence
+  localized_concepts:
+    eng: 9f9630c1-03a8-5392-934e-a487aceb5517
+  domains:
+    - concept_id: section-product_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+      ref_type: section
+id: product_property_definition_schema.shape_aspect_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the shape aspect occurrence {{entity}}'
+  notes:
+    - content: A **shape_aspect_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that is defined by another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_aspect_occurrence
+  domain: 'resource: product_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 9f9630c1-03a8-5392-934e-a487aceb5517

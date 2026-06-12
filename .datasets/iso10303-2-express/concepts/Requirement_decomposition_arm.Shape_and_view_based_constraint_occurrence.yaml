@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_decomposition_arm.Shape_and_view_based_constraint_occurrence
+  localized_concepts:
+    eng: 7ca6ae73-cecd-59e8-ad27-77ce8a23fb2a
+  domains:
+    - concept_id: section-Requirement_decomposition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+      ref_type: section
+id: Requirement_decomposition_arm.Shape_and_view_based_constraint_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.View_based_constraint_occurrence,View_based_constraint_occurrence}} that represents the shape and view based constraint occurrence {{entity}}'
+  notes:
+    - content: A **Shape_and_view_based_constraint_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.View_based_constraint_occurrence,View_based_constraint_occurrence}} that has a basis in the characteristics of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} within the context of the {{constraining_part,constraining_part}} inherited from {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.View_based_constraint_occurrence,View_based_constraint_occurrence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_decomposition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_and_view_based_constraint_occurrence
+  domain: 'application module: Requirement_decomposition_arm'
+  language_code: eng
+  annotations: []
+id: 7ca6ae73-cecd-59e8-ad27-77ce8a23fb2a

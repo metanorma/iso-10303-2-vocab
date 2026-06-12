@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_mim.bare_die
+  localized_concepts:
+    eng: cc40df7d-1930-51b2-959e-739fff8a5de1
+  domains:
+    - concept_id: section-Bare_die_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+      ref_type: section
+id: Bare_die_mim.bare_die
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the bare die {{entity}}'
+  notes:
+    - content: A **bare_die** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die,Bare_die}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+          version: '5'
+      type: authoritative
+      id: Bare_die_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: bare_die
+  domain: 'application module: Bare_die_mim'
+  language_code: eng
+  annotations: []
+id: cc40df7d-1930-51b2-959e-739fff8a5de1

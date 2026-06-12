@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_resource_schema.pre_defined_colour
+  localized_concepts:
+    eng: 63747ece-5668-5ea7-a3fd-7f95d751ae2b
+  domains:
+    - concept_id: section-presentation_resource_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+      ref_type: section
+id: presentation_resource_schema.pre_defined_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the pre defined colour {{entity}}'
+  notes:
+    - content: A **pre_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour,colour}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.pre_defined_item,pre_defined_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+          version: '6'
+      type: authoritative
+      id: presentation_resource_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pre_defined_colour
+  domain: 'resource: presentation_resource_schema'
+  language_code: eng
+  annotations: []
+id: 63747ece-5668-5ea7-a3fd-7f95d751ae2b

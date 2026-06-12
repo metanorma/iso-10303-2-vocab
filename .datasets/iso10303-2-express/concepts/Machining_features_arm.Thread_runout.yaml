@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Thread_runout
+  localized_concepts:
+    eng: a31d6bca-bea5-5d3e-b993-ab7c2a5d6b3e
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Thread_runout
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the thread runout {{entity}}'
+  notes:
+    - content: A **Thread_runout** is a portion of a thread where the thread form is incomplete.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Thread_runout
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: a31d6bca-bea5-5d3e-b993-ab7c2a5d6b3e

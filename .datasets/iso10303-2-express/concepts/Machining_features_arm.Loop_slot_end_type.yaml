@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Loop_slot_end_type
+  localized_concepts:
+    eng: 976bd47c-ef49-583e-862f-4479905505af
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Loop_slot_end_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the loop slot end type {{entity}}'
+  notes:
+    - content: A **Loop_slot_end_type** is an end conditions of a slot that is a closed loop.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Loop_slot_end_type
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 976bd47c-ef49-583e-862f-4479905505af

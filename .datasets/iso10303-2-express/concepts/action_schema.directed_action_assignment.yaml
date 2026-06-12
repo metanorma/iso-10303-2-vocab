@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.directed_action_assignment
+  localized_concepts:
+    eng: 063a3414-0106-5b2f-911e-f47caffa39c3
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.directed_action_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the directed action assignment {{entity}}'
+  notes:
+    - content: A **directed_action_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.directed_action,directed_action}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: directed_action_assignment
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 063a3414-0106-5b2f-911e-f47caffa39c3

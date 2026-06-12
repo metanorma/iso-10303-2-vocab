@@ -1,0 +1,30 @@
+data:
+  identifier: Change_management_mim.change_composition_relationship
+  localized_concepts:
+    eng: 45bd24e5-6be9-5d4d-8730-586d782d75df
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.change_composition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that represents the change composition relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: change_composition_relationship
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: 45bd24e5-6be9-5d4d-8730-586d782d75df

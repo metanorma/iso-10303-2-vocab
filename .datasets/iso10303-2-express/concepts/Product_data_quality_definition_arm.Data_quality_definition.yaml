@@ -1,0 +1,33 @@
+data:
+  identifier: Product_data_quality_definition_arm.Data_quality_definition
+  localized_concepts:
+    eng: 1294a04a-db0f-5453-8f90-f84e874e7506
+  domains:
+    - concept_id: section-Product_data_quality_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+      ref_type: section
+id: Product_data_quality_definition_arm.Data_quality_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data quality definition {{entity}}'
+  notes:
+    - content: |-
+        // A <b>Data_quality_definition</b> is a
+        A **Data_quality_definition** is a description of the aspects of product data quality.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_quality_definition
+  domain: 'application module: Product_data_quality_definition_arm'
+  language_code: eng
+  annotations: []
+id: 1294a04a-db0f-5453-8f90-f84e874e7506

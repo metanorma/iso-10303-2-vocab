@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.relative_event_occurrence
+  localized_concepts:
+    eng: 5086bda7-be50-5590-a84d-2d9e23243934
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.relative_event_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}} that represents the relative event occurrence {{entity}}'
+  notes:
+    - content: A **relative_event_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}} that takes place with an offset to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: relative_event_occurrence
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 5086bda7-be50-5590-a84d-2d9e23243934

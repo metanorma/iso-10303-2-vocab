@@ -1,0 +1,31 @@
+data:
+  identifier: aic_geometrically_bounded_2d_wireframe.geometrically_bounded_2d_wireframe_representation
+  localized_concepts:
+    eng: a5a8b1c1-8377-5887-9c1f-5cb72ff0dc7c
+  domains:
+    - concept_id: section-aic_geometrically_bounded_2d_wireframe
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_2d_wireframe
+      ref_type: section
+id: aic_geometrically_bounded_2d_wireframe.geometrically_bounded_2d_wireframe_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the geometrically bounded 2d wireframe representation {{entity}}'
+  notes:
+    - content: A **geometrically_bounded_2d_wireframe_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the shape of a product by two-dimensional wireframe geometry without topology.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_2d_wireframe
+          version: '2'
+      type: authoritative
+      id: aic_geometrically_bounded_2d_wireframe
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometrically_bounded_2d_wireframe_representation
+  domain: 'resource: aic_geometrically_bounded_2d_wireframe'
+  language_code: eng
+  annotations: []
+id: a5a8b1c1-8377-5887-9c1f-5cb72ff0dc7c

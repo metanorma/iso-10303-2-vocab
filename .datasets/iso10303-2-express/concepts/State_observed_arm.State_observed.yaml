@@ -1,0 +1,30 @@
+data:
+  identifier: State_observed_arm.State_observed
+  localized_concepts:
+    eng: 9b2fe407-0de1-53ef-bcb7-a52f6e4b82ba
+  domains:
+    - concept_id: section-State_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+      ref_type: section
+id: State_observed_arm.State_observed
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} that represents the state observed {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+          version: '4'
+      type: authoritative
+      id: State_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_observed
+  domain: 'application module: State_observed_arm'
+  language_code: eng
+  annotations: []
+id: 9b2fe407-0de1-53ef-bcb7-a52f6e4b82ba

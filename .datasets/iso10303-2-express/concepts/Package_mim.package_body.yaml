@@ -1,0 +1,31 @@
+data:
+  identifier: Package_mim.package_body
+  localized_concepts:
+    eng: ec190b31-296e-5f0e-82ea-836a43349abb
+  domains:
+    - concept_id: section-Package_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+      ref_type: section
+id: Package_mim.package_body
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the package body {{entity}}'
+  notes:
+    - content: A **package_body** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body,Package_body}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+          version: '7'
+      type: authoritative
+      id: Package_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: package_body
+  domain: 'application module: Package_mim'
+  language_code: eng
+  annotations: []
+id: ec190b31-296e-5f0e-82ea-836a43349abb

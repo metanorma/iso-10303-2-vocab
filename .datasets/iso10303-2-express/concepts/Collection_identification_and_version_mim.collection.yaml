@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_mim.collection
+  localized_concepts:
+    eng: 02c68558-62e6-56d4-affc-a86e35e8ff9d
+  domains:
+    - concept_id: section-Collection_identification_and_version_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+      ref_type: section
+id: Collection_identification_and_version_mim.collection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} that represents the collection {{entity}}'
+  notes:
+    - content: An **collection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} that identifies a set of data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: collection
+  domain: 'application module: Collection_identification_and_version_mim'
+  language_code: eng
+  annotations: []
+id: 02c68558-62e6-56d4-affc-a86e35e8ff9d

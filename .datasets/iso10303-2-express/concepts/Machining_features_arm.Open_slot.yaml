@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Open_slot
+  localized_concepts:
+    eng: bb0ace4d-6a93-5f98-88c2-cd9e4abf0cb3
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Open_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot,Slot}} that represents the open slot {{entity}}'
+  notes:
+    - content: An **Open_slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot,Slot}} that has a course of travel defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Path_feature_component,Path_feature_component}} that is open and has openings.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Open_slot
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: bb0ace4d-6a93-5f98-88c2-cd9e4abf0cb3

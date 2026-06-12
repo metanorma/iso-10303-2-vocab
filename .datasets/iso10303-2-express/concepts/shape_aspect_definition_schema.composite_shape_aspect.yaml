@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.composite_shape_aspect
+  localized_concepts:
+    eng: ea7a15f9-44fe-530a-8807-b3b12ec36d90
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.composite_shape_aspect
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the composite shape aspect {{entity}}'
+  notes:
+    - content: A **composite_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that associates aspects of the product shape for a specific purpose.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: composite_shape_aspect
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: ea7a15f9-44fe-530a-8807-b3b12ec36d90

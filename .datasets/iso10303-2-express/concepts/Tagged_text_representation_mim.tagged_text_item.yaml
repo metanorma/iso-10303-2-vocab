@@ -1,0 +1,31 @@
+data:
+  identifier: Tagged_text_representation_mim.tagged_text_item
+  localized_concepts:
+    eng: 9f32367a-f6fa-5d47-b7c6-b38a01cc309b
+  domains:
+    - concept_id: section-Tagged_text_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+      ref_type: section
+id: Tagged_text_representation_mim.tagged_text_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that represents the tagged text item {{entity}}'
+  notes:
+    - content: A **tagged_text_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.Tagged_text_item,Tagged_text_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+          version: '2'
+      type: authoritative
+      id: Tagged_text_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tagged_text_item
+  domain: 'application module: Tagged_text_representation_mim'
+  language_code: eng
+  annotations: []
+id: 9f32367a-f6fa-5d47-b7c6-b38a01cc309b

@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_context_schema.maths_space_context
+  localized_concepts:
+    eng: e9c72974-ea97-54b7-b9a5-88c258873931
+  domains:
+    - concept_id: section-mathematical_context_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+      ref_type: section
+id: mathematical_context_schema.maths_space_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths space context {{entity}}'
+  notes:
+    - content: A **maths_space_context** is a 1-1 mapping between a physical space and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}} that indicates a meaning for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+          version: '1'
+      type: authoritative
+      id: mathematical_context_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maths_space_context
+  domain: 'resource: mathematical_context_schema'
+  language_code: eng
+  annotations: []
+id: e9c72974-ea97-54b7-b9a5-88c258873931

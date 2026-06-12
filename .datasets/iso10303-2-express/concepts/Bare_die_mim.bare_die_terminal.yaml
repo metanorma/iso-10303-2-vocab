@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_mim.bare_die_terminal
+  localized_concepts:
+    eng: 606615bc-1b2d-5361-8ce7-57ade7779437
+  domains:
+    - concept_id: section-Bare_die_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+      ref_type: section
+id: Bare_die_mim.bare_die_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bare die terminal {{entity}}'
+  notes:
+    - content: A **bare_die_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim.minimally_defined_bare_die_terminal,minimally_defined_bare_die_terminal}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.placed_feature,placed_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_terminal,Bare_die_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+          version: '5'
+      type: authoritative
+      id: Bare_die_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: bare_die_terminal
+  domain: 'application module: Bare_die_mim'
+  language_code: eng
+  annotations: []
+id: 606615bc-1b2d-5361-8ce7-57ade7779437

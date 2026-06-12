@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_assignment_mim.analysis_item
+  localized_concepts:
+    eng: 42b6f3ec-d9b3-5169-a34d-ae62aeaa0f0e
+  domains:
+    - concept_id: section-Analysis_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+      ref_type: section
+id: Analysis_assignment_mim.analysis_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the analysis item {{entity}}'
+  notes:
+    - content: A **analysis_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} which identifies the item to which the analysis is assigned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Analysis_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: analysis_item
+  domain: 'application module: Analysis_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 42b6f3ec-d9b3-5169-a34d-ae62aeaa0f0e

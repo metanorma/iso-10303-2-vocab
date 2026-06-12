@@ -1,0 +1,31 @@
+data:
+  identifier: Required_resource_arm.Required_resource_by_requirement
+  localized_concepts:
+    eng: 178b0336-612e-5683-a9fb-a941c5368ebb
+  domains:
+    - concept_id: section-Required_resource_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+      ref_type: section
+id: Required_resource_arm.Required_resource_by_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}} that represents the required resource by requirement {{entity}}'
+  notes:
+    - content: A **Required_resource_by_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}} that is described in terms of a specification of a type of item which will satisfy the requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+          version: '3'
+      type: authoritative
+      id: Required_resource_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Required_resource_by_requirement
+  domain: 'application module: Required_resource_arm'
+  language_code: eng
+  annotations: []
+id: 178b0336-612e-5683-a9fb-a941c5368ebb

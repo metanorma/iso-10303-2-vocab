@@ -1,0 +1,31 @@
+data:
+  identifier: Configuration_item_mim.configuration_item_hierarchical_relationship
+  localized_concepts:
+    eng: 238e5069-ec44-58f7-89db-16627ae82645
+  domains:
+    - concept_id: section-Configuration_item_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
+      ref_type: section
+id: Configuration_item_mim.configuration_item_hierarchical_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item_relationship,configuration_item_relationship}} that represents the configuration item hierarchical relationship {{entity}}'
+  notes:
+    - content: A **configuration_item_hierarchical_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item_relationship,configuration_item_relationship}} that is used to represent a hierarchical relationship between a parent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}} and a child {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
+          version: '2'
+      type: authoritative
+      id: Configuration_item_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: configuration_item_hierarchical_relationship
+  domain: 'application module: Configuration_item_mim'
+  language_code: eng
+  annotations: []
+id: 238e5069-ec44-58f7-89db-16627ae82645

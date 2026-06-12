@@ -1,0 +1,31 @@
+data:
+  identifier: Product_relationship_arm.Product_relationship
+  localized_concepts:
+    eng: bd016703-b1f6-54b1-b1e7-41096e5ac646
+  domains:
+    - concept_id: section-Product_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm
+      ref_type: section
+id: Product_relationship_arm.Product_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product relationship {{entity}}'
+  notes:
+    - content: A **Product_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm
+          version: '1'
+      type: authoritative
+      id: Product_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_relationship
+  domain: 'application module: Product_relationship_arm'
+  language_code: eng
+  annotations: []
+id: bd016703-b1f6-54b1-b1e7-41096e5ac646

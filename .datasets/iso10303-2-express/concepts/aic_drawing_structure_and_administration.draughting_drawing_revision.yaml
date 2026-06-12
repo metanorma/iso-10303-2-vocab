@@ -1,0 +1,33 @@
+data:
+  identifier: aic_drawing_structure_and_administration.draughting_drawing_revision
+  localized_concepts:
+    eng: 48de5b85-990b-526b-bf46-0b643b73f168
+  domains:
+    - concept_id: section-aic_drawing_structure_and_administration
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+      ref_type: section
+id: aic_drawing_structure_and_administration.draughting_drawing_revision
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema.drawing_revision,drawing_revision}} that represents the draughting drawing revision {{entity}}'
+  notes:
+    - content: |-
+        A *draughting_drawing_revision* is a *drawing_revision* that specifies constraints within the context of
+        draughting.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+          version: '1'
+      type: authoritative
+      id: aic_drawing_structure_and_administration
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_drawing_revision
+  domain: 'resource: aic_drawing_structure_and_administration'
+  language_code: eng
+  annotations: []
+id: 48de5b85-990b-526b-bf46-0b643b73f168

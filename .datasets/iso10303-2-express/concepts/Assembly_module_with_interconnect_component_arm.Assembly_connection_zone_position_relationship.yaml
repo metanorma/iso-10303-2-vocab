@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_arm.Assembly_connection_zone_position_relationship
+  localized_concepts:
+    eng: 47688c5c-f283-516c-b7d3-a2caa0d7b974
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+      ref_type: section
+id: Assembly_module_with_interconnect_component_arm.Assembly_connection_zone_position_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly connection zone position relationship {{entity}}'
+  notes:
+    - content: An **Assembly_connection_zone_position_relationship** is the association between a geometric model of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm.Assembly_module_design_view,Assembly_module_design_view}}, as a target, and a geometric model of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Connection_zone_in_design_view,Connection_zone_in_design_view}}, as the source.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_connection_zone_position_relationship
+  domain: 'application module: Assembly_module_with_interconnect_component_arm'
+  language_code: eng
+  annotations: []
+id: 47688c5c-f283-516c-b7d3-a2caa0d7b974

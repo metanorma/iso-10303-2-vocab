@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_mim.class_usage_effectivity_context_assignment
+  localized_concepts:
+    eng: 142e5060-248e-54a3-a72a-eaab43e1e924
+  domains:
+    - concept_id: section-Specification_control_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_mim
+      ref_type: section
+id: Specification_control_mim.class_usage_effectivity_context_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that represents the class usage effectivity context assignment {{entity}}'
+  notes:
+    - content: A **class_usage_effectivity_context_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Specification_category_breakdown_influence,Specification_category_breakdown_influence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_mim
+          version: '5'
+      type: authoritative
+      id: Specification_control_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: class_usage_effectivity_context_assignment
+  domain: 'application module: Specification_control_mim'
+  language_code: eng
+  annotations: []
+id: 142e5060-248e-54a3-a72a-eaab43e1e924

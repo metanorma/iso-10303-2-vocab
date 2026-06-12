@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_connectivity_arm.Mesh_connectivity
+  localized_concepts:
+    eng: 9eb6d28c-a4ca-57d5-ad70-1890780c8eb1
+  domains:
+    - concept_id: section-Mesh_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+      ref_type: section
+id: Mesh_connectivity_arm.Mesh_connectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh connectivity {{entity}}'
+  notes:
+    - content: A **Mesh_connectivity** is the connectivity of a mesh interface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+          version: '1'
+      type: authoritative
+      id: Mesh_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mesh_connectivity
+  domain: 'application module: Mesh_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 9eb6d28c-a4ca-57d5-ad70-1890780c8eb1

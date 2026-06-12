@@ -1,0 +1,31 @@
+data:
+  identifier: Product_group_arm.Product_group_relationship
+  localized_concepts:
+    eng: 2f3746e9-00e1-5ec2-b5f5-3e119c858e1d
+  domains:
+    - concept_id: section-Product_group_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+      ref_type: section
+id: Product_group_arm.Product_group_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product group relationship {{entity}}'
+  notes:
+    - content: A **Product_group_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.Product_group,Product_group}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+          version: '3'
+      type: authoritative
+      id: Product_group_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_group_relationship
+  domain: 'application module: Product_group_arm'
+  language_code: eng
+  annotations: []
+id: 2f3746e9-00e1-5ec2-b5f5-3e119c858e1d

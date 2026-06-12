@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Explicit_unstructured_mesh
+  localized_concepts:
+    eng: 6664210b-5344-5b0b-a643-038fdd7da7a0
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Explicit_unstructured_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}} that represents the explicit unstructured mesh {{entity}}'
+  notes:
+    - content: An **Explicit_unstructured_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}} that is a representation of an unstructured mesh that is similar, but not entirely identical to, that specified in ISO 10303-104.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Explicit_unstructured_mesh
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: 6664210b-5344-5b0b-a643-038fdd7da7a0

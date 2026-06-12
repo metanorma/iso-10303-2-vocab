@@ -1,0 +1,31 @@
+data:
+  identifier: method_definition_schema.process_or_process_relationship_effectivity
+  localized_concepts:
+    eng: 47fe8ad9-fdfb-5dea-a786-f11d0b64b2e3
+  domains:
+    - concept_id: section-method_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+      ref_type: section
+id: method_definition_schema.process_or_process_relationship_effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the process or process relationship effectivity {{entity}}'
+  notes:
+    - content: '*Process_or_process_relationship_effectivity* is the identification of the valid use of a specific *process_or_process_relationship*.'
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+          version: '1'
+      type: authoritative
+      id: method_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: process_or_process_relationship_effectivity
+  domain: 'resource: method_definition_schema'
+  language_code: eng
+  annotations: []
+id: 47fe8ad9-fdfb-5dea-a786-f11d0b64b2e3

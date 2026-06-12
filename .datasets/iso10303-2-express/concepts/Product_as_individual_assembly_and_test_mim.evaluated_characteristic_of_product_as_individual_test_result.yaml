@@ -1,0 +1,31 @@
+data:
+  identifier: Product_as_individual_assembly_and_test_mim.evaluated_characteristic_of_product_as_individual_test_result
+  localized_concepts:
+    eng: 11bab241-6e4c-5da2-b0d7-a773617a6ada
+  domains:
+    - concept_id: section-Product_as_individual_assembly_and_test_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_assembly_and_test_mim
+      ref_type: section
+id: Product_as_individual_assembly_and_test_mim.evaluated_characteristic_of_product_as_individual_test_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim.evaluated_characteristic,evaluated_characteristic}} that represents the evaluated characteristic of product as individual test result {{entity}}'
+  notes:
+    - content: An **evaluated_characteristic_of_product_as_individual_test_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim.evaluated_characteristic,evaluated_characteristic}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_assembly_and_test_arm.Evaluated_characteristic_of_product_as_individual_test_result,Evaluated_characteristic_of_product_as_individual_test_result}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_assembly_and_test_mim
+          version: '4'
+      type: authoritative
+      id: Product_as_individual_assembly_and_test_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: evaluated_characteristic_of_product_as_individual_test_result
+  domain: 'application module: Product_as_individual_assembly_and_test_mim'
+  language_code: eng
+  annotations: []
+id: 11bab241-6e4c-5da2-b0d7-a773617a6ada

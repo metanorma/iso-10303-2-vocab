@@ -1,0 +1,31 @@
+data:
+  identifier: External_item_identification_assignment_arm.External_item_identification
+  localized_concepts:
+    eng: 8edede20-f9c4-584f-bef7-6fc85fdd1257
+  domains:
+    - concept_id: section-External_item_identification_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+      ref_type: section
+id: External_item_identification_assignment_arm.External_item_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm.External_source_identification,External_source_identification}} that represents the external item identification {{entity}}'
+  notes:
+    - content: An **External_item_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm.External_source_identification,External_source_identification}} that provides the identifier of an item in the context of an external source where it can be found.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+          version: '2'
+      type: authoritative
+      id: External_item_identification_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_item_identification
+  domain: 'application module: External_item_identification_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 8edede20-f9c4-584f-bef7-6fc85fdd1257

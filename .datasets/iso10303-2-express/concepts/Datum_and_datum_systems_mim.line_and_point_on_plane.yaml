@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_and_datum_systems_mim.line_and_point_on_plane
+  localized_concepts:
+    eng: 51a9b7a7-e3ed-5c5e-b850-0fa9550cc86e
+  domains:
+    - concept_id: section-Datum_and_datum_systems_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+      ref_type: section
+id: Datum_and_datum_systems_mim.line_and_point_on_plane
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the line and point on plane {{entity}}'
+  notes:
+    - content: A **line_and_point_on_plane** is a type of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim.line_on_plane_pcurve,line_on_plane_pcurve}} and is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim.point_on_plane,point_on_plane}} that specifies the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}} and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.line,line}} that are on the specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+          version: '1'
+      type: authoritative
+      id: Datum_and_datum_systems_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: line_and_point_on_plane
+  domain: 'application module: Datum_and_datum_systems_mim'
+  language_code: eng
+  annotations: []
+id: 51a9b7a7-e3ed-5c5e-b850-0fa9550cc86e

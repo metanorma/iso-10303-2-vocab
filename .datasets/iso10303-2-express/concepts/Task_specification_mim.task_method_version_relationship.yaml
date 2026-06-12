@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_mim.task_method_version_relationship
+  localized_concepts:
+    eng: e3871d9d-74f8-5bfe-a96e-4e236014e49a
+  domains:
+    - concept_id: section-Task_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+      ref_type: section
+id: Task_specification_mim.task_method_version_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} that represents the task method version relationship {{entity}}'
+  notes:
+    - content: A **task_method_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} that specificies the relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim.task_method_version,task_method_version}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+          version: '2'
+      type: authoritative
+      id: Task_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: task_method_version_relationship
+  domain: 'application module: Task_specification_mim'
+  language_code: eng
+  annotations: []
+id: e3871d9d-74f8-5bfe-a96e-4e236014e49a

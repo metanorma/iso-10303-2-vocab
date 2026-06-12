@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.locally_refined_spline_volume
+  localized_concepts:
+    eng: 42632b4b-ea24-544e-98ef-dc77355ed27e
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.locally_refined_spline_volume
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} that represents the locally refined spline volume {{entity}}'
+  notes:
+    - content: A **locally_refined_spline_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} that is a piecewise parametric polynomial or rational volume described in terms of control points and local B-spline functions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: locally_refined_spline_volume
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 42632b4b-ea24-544e-98ef-dc77355ed27e

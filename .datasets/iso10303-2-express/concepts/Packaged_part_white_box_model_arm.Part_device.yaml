@@ -1,0 +1,31 @@
+data:
+  identifier: Packaged_part_white_box_model_arm.Part_device
+  localized_concepts:
+    eng: 16d94579-297e-5e2b-ad6e-7dad3828c08e
+  domains:
+    - concept_id: section-Packaged_part_white_box_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+      ref_type: section
+id: Packaged_part_white_box_model_arm.Part_device
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part device {{entity}}'
+  notes:
+    - content: A **Part_device** is a specific occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die,Bare_die}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+          version: '3'
+      type: authoritative
+      id: Packaged_part_white_box_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_device
+  domain: 'application module: Packaged_part_white_box_model_arm'
+  language_code: eng
+  annotations: []
+id: 16d94579-297e-5e2b-ad6e-7dad3828c08e

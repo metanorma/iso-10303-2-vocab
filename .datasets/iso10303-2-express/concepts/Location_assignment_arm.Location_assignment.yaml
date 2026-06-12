@@ -1,0 +1,31 @@
+data:
+  identifier: Location_assignment_arm.Location_assignment
+  localized_concepts:
+    eng: b6445b5f-b0de-57aa-a069-8fd380e75458
+  domains:
+    - concept_id: section-Location_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_arm
+      ref_type: section
+id: Location_assignment_arm.Location_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location assignment {{entity}}'
+  notes:
+    - content: A **Location_assignment** is a relationship between a product, event, or person and a location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Location_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Location_assignment
+  domain: 'application module: Location_assignment_arm'
+  language_code: eng
+  annotations: []
+id: b6445b5f-b0de-57aa-a069-8fd380e75458

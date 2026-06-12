@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_design_arm.Minimally_defined_component_terminal
+  localized_concepts:
+    eng: 07b830f9-7802-5c79-bd77-65fcc591bc31
+  domains:
+    - concept_id: section-Assembly_module_design_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+      ref_type: section
+id: Assembly_module_design_arm.Minimally_defined_component_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that represents the minimally defined component terminal {{entity}}'
+  notes:
+    - content: A **Minimally_defined_component_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that is included to permit references to terminals without including geometric representations of the terminals.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_design_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Minimally_defined_component_terminal
+  domain: 'application module: Assembly_module_design_arm'
+  language_code: eng
+  annotations: []
+id: 07b830f9-7802-5c79-bd77-65fcc591bc31

@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_circular_arc_start_end_direction
+  localized_concepts:
+    eng: b66f561c-d8e1-557e-ba7f-bf13cf1945c9
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_circular_arc_start_end_direction
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circular_arc,create_circular_arc}} that represents the create circular arc start end direction {{entity}}'
+  notes:
+    - content: A *create_circular* *arc_startenddirection* is a type of *create_circular_arc* that creates a circular arc in terms of a start point, an end point and a tangential direction at the start point of the arc.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_circular_arc_start_end_direction
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: b66f561c-d8e1-557e-ba7f-bf13cf1945c9

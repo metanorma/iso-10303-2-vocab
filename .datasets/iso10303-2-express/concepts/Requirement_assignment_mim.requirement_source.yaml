@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_mim.requirement_source
+  localized_concepts:
+    eng: 6b278bb7-cb92-55f7-a6e0-8318b0272bfd
+  domains:
+    - concept_id: section-Requirement_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+      ref_type: section
+id: Requirement_assignment_mim.requirement_source
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the requirement source {{entity}}'
+  notes:
+    - content: A **requirement_source** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that provides a link between a requirement and its source object.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: requirement_source
+  domain: 'application module: Requirement_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 6b278bb7-cb92-55f7-a6e0-8318b0272bfd

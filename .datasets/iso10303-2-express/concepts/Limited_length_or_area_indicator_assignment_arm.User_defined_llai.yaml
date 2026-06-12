@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_arm.User_defined_llai
+  localized_concepts:
+    eng: 2625a757-717a-5064-954f-32bacc062cc6
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_arm.User_defined_llai
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Limited_length_area_indicator,Limited_length_area_indicator}} that represents the user defined llai {{entity}}'
+  notes:
+    - content: A **User_defined_llai** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Limited_length_area_indicator,Limited_length_area_indicator}} that is an LLAI type used to define a specific region of the part with unique characteristics or requirements, that is not otherwise covered by other LLAI sub-types, or for which the authoring software does not have a specific LLAI feature that aligns to one of the other sub-types.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: User_defined_llai
+  domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 2625a757-717a-5064-954f-32bacc062cc6

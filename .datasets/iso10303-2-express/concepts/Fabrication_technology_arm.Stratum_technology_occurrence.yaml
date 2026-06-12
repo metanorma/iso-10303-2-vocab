@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Stratum_technology_occurrence
+  localized_concepts:
+    eng: f914a6fe-69f4-5720-a64c-f9157c8399d1
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Stratum_technology_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the stratum technology occurrence {{entity}}'
+  notes:
+    - content: A **Stratum_technology_occurrence** is a reference or instance of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}} provided for the purpose of constructing an abstract stackup model of an interconnect based solely on the technology parameters and not on any specific set of geometric properties.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Stratum_technology_occurrence
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: f914a6fe-69f4-5720-a64c-f9157c8399d1

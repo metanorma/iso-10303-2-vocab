@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Wire_terminal
+  localized_concepts:
+    eng: 0c3f443b-2d82-5289-a1f3-ca44b68c9ec9
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Wire_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} that represents the wire terminal {{entity}}'
+  notes:
+    - content: A **Wire_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} where the explicit shape of the terminal is not predefined in a library.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Wire_terminal
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: 0c3f443b-2d82-5289-a1f3-ca44b68c9ec9

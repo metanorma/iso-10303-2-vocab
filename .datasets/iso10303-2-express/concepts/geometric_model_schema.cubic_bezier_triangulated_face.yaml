@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.cubic_bezier_triangulated_face
+  localized_concepts:
+    eng: 9ca9dfd3-b1c3-5637-afe7-c9c9d7770ec7
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.cubic_bezier_triangulated_face
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_face,tessellated_face}} that represents the cubic bezier triangulated face {{entity}}'
+  notes:
+    - content: A **cubic_bezier_triangulated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_face,tessellated_face}} that has its geometry defined by a set of curved triangles.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cubic_bezier_triangulated_face
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 9ca9dfd3-b1c3-5637-afe7-c9c9d7770ec7

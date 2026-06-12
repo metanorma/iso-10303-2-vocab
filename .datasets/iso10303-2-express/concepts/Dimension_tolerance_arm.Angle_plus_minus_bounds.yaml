@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Angle_plus_minus_bounds
+  localized_concepts:
+    eng: 711cbae5-0b37-55fe-a0fe-fb882a20d024
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Angle_plus_minus_bounds
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Plus_minus_bounds,Plus_minus_bounds}} that represents the angle plus minus bounds {{entity}}'
+  notes:
+    - content: An **Angle_plus_minus_bounds** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Plus_minus_bounds,Plus_minus_bounds}} in which the domain is a plane angle.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Angle_plus_minus_bounds
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 711cbae5-0b37-55fe-a0fe-fb882a20d024

@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Solid_replica
+  localized_concepts:
+    eng: 63a90737-2119-5e15-ad01-cfc0c257345b
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Solid_replica
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the solid replica {{entity}}'
+  notes:
+    - content: A **Solid_replica** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} which is a copy of another solid at a new location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Solid_replica
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: 63a90737-2119-5e15-ad01-cfc0c257345b

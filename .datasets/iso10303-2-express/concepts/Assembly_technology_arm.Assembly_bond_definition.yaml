@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_arm.Assembly_bond_definition
+  localized_concepts:
+    eng: d9172551-43ee-5c6a-844f-5c58ab8acdf5
+  domains:
+    - concept_id: section-Assembly_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+      ref_type: section
+id: Assembly_technology_arm.Assembly_bond_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly bond definition {{entity}}'
+  notes:
+    - content: An **Assembly_bond_definition** is the definition of the joint that uses bulk material to bond together portions of the assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_bond_definition
+  domain: 'application module: Assembly_technology_arm'
+  language_code: eng
+  annotations: []
+id: d9172551-43ee-5c6a-844f-5c58ab8acdf5

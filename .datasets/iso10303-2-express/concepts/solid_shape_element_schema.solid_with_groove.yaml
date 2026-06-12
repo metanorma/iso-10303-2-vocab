@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_groove
+  localized_concepts:
+    eng: 7a54996d-89d5-5fe0-bef7-c6d87e28391f
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_groove
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_depression,solid_with_depression}} that represents the solid with groove {{entity}}'
+  notes:
+    - content: A *solid_with_groove* is a type of *solid_with_depression* that results from the creation of a depression extending around a surface of revolution in such a way that its cross-sections are constant in any plane containing the axis of that surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_groove
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: 7a54996d-89d5-5fe0-bef7-c6d87e28391f

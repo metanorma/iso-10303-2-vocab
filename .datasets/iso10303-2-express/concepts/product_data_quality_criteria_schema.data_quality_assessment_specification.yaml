@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_quality_criteria_schema.data_quality_assessment_specification
+  localized_concepts:
+    eng: 4314ea70-17d8-525b-bad5-e7a26ce817ef
+  domains:
+    - concept_id: section-product_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+      ref_type: section
+id: product_data_quality_criteria_schema.data_quality_assessment_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data quality assessment specification {{entity}}'
+  notes:
+    - content: A **data_quality_assessment_specification** is the representation of a specification to be applied to evaluate inspection results for each criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: product_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_quality_assessment_specification
+  domain: 'resource: product_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 4314ea70-17d8-525b-bad5-e7a26ce817ef

@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Default_component_termination_passage_definition
+  localized_concepts:
+    eng: 66fa361e-2498-5542-86fd-a24314830663
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Default_component_termination_passage_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}} that represents the default component termination passage definition {{entity}}'
+  notes:
+    - content: A **Default_component_termination_passage_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}} that defines a default passage based on characteristics of the associated {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Default_component_termination_passage_definition
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 66fa361e-2498-5542-86fd-a24314830663

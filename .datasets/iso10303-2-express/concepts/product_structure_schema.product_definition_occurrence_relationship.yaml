@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.product_definition_occurrence_relationship
+  localized_concepts:
+    eng: 05828fa2-b01d-50f8-92b6-d6a8ff44aef1
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.product_definition_occurrence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition occurrence relationship {{entity}}'
+  notes:
+    - content: A **product_definition_occurrence_relationship** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} in which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} referenced by the **occurrence** attribute is a specific instance of the constituent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} referenced by the {{related_product_definition,related_product_definition}} attribute of the **occurrence_usage** in the assembly {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} referenced by the {{relating_product_definition,relating_product_definition}} attribute.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_occurrence_relationship
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: 05828fa2-b01d-50f8-92b6-d6a8ff44aef1

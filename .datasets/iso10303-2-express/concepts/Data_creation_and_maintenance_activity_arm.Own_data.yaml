@@ -1,0 +1,31 @@
+data:
+  identifier: Data_creation_and_maintenance_activity_arm.Own_data
+  localized_concepts:
+    eng: 9ce27bdd-c0b9-57d1-be97-94c0560a425c
+  domains:
+    - concept_id: section-Data_creation_and_maintenance_activity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+      ref_type: section
+id: Data_creation_and_maintenance_activity_arm.Own_data
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that represents the own data {{entity}}'
+  notes:
+    - content: A **Own_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that is the ownership of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+          version: '1'
+      type: authoritative
+      id: Data_creation_and_maintenance_activity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Own_data
+  domain: 'application module: Data_creation_and_maintenance_activity_arm'
+  language_code: eng
+  annotations: []
+id: 9ce27bdd-c0b9-57d1-be97-94c0560a425c

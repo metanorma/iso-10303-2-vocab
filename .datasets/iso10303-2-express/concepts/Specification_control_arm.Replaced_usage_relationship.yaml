@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_arm.Replaced_usage_relationship
+  localized_concepts:
+    eng: 35c45bff-5a43-5fd5-b018-94af562874b7
+  domains:
+    - concept_id: section-Specification_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+      ref_type: section
+id: Specification_control_arm.Replaced_usage_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Part_occurrence_relationship,Part_occurrence_relationship}} that represents the replaced usage relationship {{entity}}'
+  notes:
+    - content: A **Replaced_usage_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Part_occurrence_relationship,Part_occurrence_relationship}} that specifies that the part occurrence referred to as {{relating_view,relating_view}} is replaced by the part occurrence identified as {{related_view,related_view}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+          version: '5'
+      type: authoritative
+      id: Specification_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Replaced_usage_relationship
+  domain: 'application module: Specification_control_arm'
+  language_code: eng
+  annotations: []
+id: 35c45bff-5a43-5fd5-b018-94af562874b7

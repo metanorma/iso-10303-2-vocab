@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.terminal_feature
+  localized_concepts:
+    eng: 7f7ed49f-1010-5197-ae39-680d2059ffe2
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.terminal_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim.contact_feature,contact_feature}} that represents the terminal feature {{entity}}'
+  notes:
+    - content: A **terminal_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim.contact_feature,contact_feature}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.General_part_terminal,General_part_terminal}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: terminal_feature
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: 7f7ed49f-1010-5197-ae39-680d2059ffe2

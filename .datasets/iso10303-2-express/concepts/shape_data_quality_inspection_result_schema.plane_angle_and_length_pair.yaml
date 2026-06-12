@@ -1,0 +1,33 @@
+data:
+  identifier: shape_data_quality_inspection_result_schema.plane_angle_and_length_pair
+  localized_concepts:
+    eng: 1e6ec1ee-265e-5594-a1f6-2a059e981088
+  domains:
+    - concept_id: section-shape_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+      ref_type: section
+id: shape_data_quality_inspection_result_schema.plane_angle_and_length_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the plane angle and length pair {{entity}}'
+  notes:
+    - content: |-
+        A **plane_angle_and_length_pair**
+        is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents the measured value that consists of a {{plane_angle_measure,plane_angle_measure}} and a distance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: plane_angle_and_length_pair
+  domain: 'resource: shape_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 1e6ec1ee-265e-5594-a1f6-2a059e981088

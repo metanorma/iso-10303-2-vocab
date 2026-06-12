@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.arbitrary_volume_2d_element_coordinate_system
+  localized_concepts:
+    eng: c355a226-0dcb-5716-a1ce-dfc14a7f7ac2
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.arbitrary_volume_2d_element_coordinate_system
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}} that represents the arbitrary volume 2d element coordinate system {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.arbitrary_volume_2d_element_coordinate_system,arbitrary_volume_2d_element_coordinate_system}} specifies an arbitrary orthogonal coordinate system for a volume 2D element, for which the stem:[x] axis shall be normal to the 2D analysis plane and in the direction of the stem:[k] axis of the 2D analysis plane definition coordinate system.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: arbitrary_volume_2d_element_coordinate_system
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: c355a226-0dcb-5716-a1ce-dfc14a7f7ac2

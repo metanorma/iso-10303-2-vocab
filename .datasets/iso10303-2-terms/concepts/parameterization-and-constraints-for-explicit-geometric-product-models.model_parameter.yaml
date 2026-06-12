@@ -1,0 +1,55 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.model_parameter
+  localized_concepts:
+    eng: 2db25f8c-5fdf-5b3a-a72d-89aa5031293d
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: f68e27a9-e209-5362-b4a0-48fb7930b0fc
+schema_version: v3
+---
+data:
+  definition:
+  - content: explicitly represented variable associated with some quantity in a model
+  examples:
+  - content: The dimensions of a generic block may be represented by model parameters
+      stem:[L] (length), stem:[W] (width) and stem:[H] (height). Individual members
+      of the family of blocks are specified by assigning numerical values to the three
+      parameters independently. Alternatively, relationships may be defined between
+      the model parameters, such as stem:[L = 2W, H = 0.5W], to restrict the size
+      of the family and define it in terms of the single independent model parameter
+      stem:[W].
+  notes:
+  - content: Assignment of different values to model parameters generates different
+      members of a family of models. Model parameters therefore express design freedom
+      in a model, according to the parameterization scheme imposed by its creator.
+      Limitations may be defined on the allowable ranges of model parameters.
+  - content: Distinction must be made between the use of the word {{parameter}} in
+      <<ISO_10303-108_2005>>, in <<ISO_10303-11_1994>>, in <<ISO_10303-42_2022>> and
+      in <<ISO_10303-50>>. In <<ISO_10303-11_1994>> a parameter is used for the formal
+      representation of an input to, or output from, a function or procedure defined
+      in an EXPRESS schema. In <<ISO_10303-42_2022>> a parameter is a variable used
+      to identify the position of a point on a curve or a surface, so that the parameter
+      may be thought of as an input to a function whose output is a coordinate value.
+      In <<ISO_10303-50>> a parameter is defined as "a free variable in an expression".
+      In <<ISO_10303-108_2005>> the term "model parameter" is used for a variable
+      that controls dimensions or other gross characteristics of a model, for example
+      the overall shape of a product model. A model parameter may be thought of as
+      an input to a procedure, in this case a procedure that computes one instance
+      of a family of shape models. It is unfortunate that the word "parameter" is
+      in widespread current use for such a variety of purposes. Although at a broad
+      conceptual level the usages within ISO 10303 are similar, there are significant
+      differences in such matters as the way the functions or procedures are defined
+      and in the scope of parameters in a model.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: model parameter
+  - type: expression
+    normative_status: admitted
+    designation: parameter
+  language_code: eng
+  annotations: []
+id: 2db25f8c-5fdf-5b3a-a72d-89aa5031293d

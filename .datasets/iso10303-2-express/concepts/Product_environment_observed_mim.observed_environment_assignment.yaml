@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_mim.observed_environment_assignment
+  localized_concepts:
+    eng: 30024db5-9881-50df-a885-65bbf464de9c
+  domains:
+    - concept_id: section-Product_environment_observed_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+      ref_type: section
+id: Product_environment_observed_mim.observed_environment_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the observed environment assignment {{entity}}'
+  notes:
+    - content: An **observed_environment_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that assigns a product to the environment in which is or has operated.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: observed_environment_assignment
+  domain: 'application module: Product_environment_observed_mim'
+  language_code: eng
+  annotations: []
+id: 30024db5-9881-50df-a885-65bbf464de9c

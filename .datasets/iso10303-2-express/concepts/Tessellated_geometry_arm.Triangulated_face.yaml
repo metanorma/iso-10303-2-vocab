@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Triangulated_face
+  localized_concepts:
+    eng: f802c411-9801-52e9-bc4f-797dc709d7da
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Triangulated_face
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_face,Tessellated_face}} that represents the triangulated face {{entity}}'
+  notes:
+    - content: A **Triangulated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_face,Tessellated_face}} that has its geometry defined by a set of triangles.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Triangulated_face
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: f802c411-9801-52e9-bc4f-797dc709d7da

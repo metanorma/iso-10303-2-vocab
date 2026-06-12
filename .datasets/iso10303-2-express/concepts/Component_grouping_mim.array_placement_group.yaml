@@ -1,0 +1,31 @@
+data:
+  identifier: Component_grouping_mim.array_placement_group
+  localized_concepts:
+    eng: 929c1dd3-0a75-518b-94a3-cbcd231de822
+  domains:
+    - concept_id: section-Component_grouping_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+      ref_type: section
+id: Component_grouping_mim.array_placement_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}} that represents the array placement group {{entity}}'
+  notes:
+    - content: An **array_placement_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Array_placement_group,Array_placement_group}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+          version: '6'
+      type: authoritative
+      id: Component_grouping_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: array_placement_group
+  domain: 'application module: Component_grouping_mim'
+  language_code: eng
+  annotations: []
+id: 929c1dd3-0a75-518b-94a3-cbcd231de822

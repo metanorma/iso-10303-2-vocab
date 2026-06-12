@@ -1,0 +1,31 @@
+data:
+  identifier: Location_arm.Regional_grid_location_representation
+  localized_concepts:
+    eng: 688af107-05ab-51a9-a2b5-58d4a19bd28c
+  domains:
+    - concept_id: section-Location_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+      ref_type: section
+id: Location_arm.Regional_grid_location_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} that represents the regional grid location representation {{entity}}'
+  notes:
+    - content: A **Regional_grid_location_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} that specifies a reference grid system.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+          version: '2'
+      type: authoritative
+      id: Location_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Regional_grid_location_representation
+  domain: 'application module: Location_arm'
+  language_code: eng
+  annotations: []
+id: 688af107-05ab-51a9-a2b5-58d4a19bd28c

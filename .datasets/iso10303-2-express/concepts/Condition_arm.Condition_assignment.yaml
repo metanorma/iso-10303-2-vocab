@@ -1,0 +1,31 @@
+data:
+  identifier: Condition_arm.Condition_assignment
+  localized_concepts:
+    eng: bb6e7a91-9702-5407-a3da-cbfe00a3aa65
+  domains:
+    - concept_id: section-Condition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+      ref_type: section
+id: Condition_arm.Condition_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition assignment {{entity}}'
+  notes:
+    - content: A **Condition_assignment** is a relationship that identifies the statement or relationship to which a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm.Condition,Condition}} applies.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+          version: '4'
+      type: authoritative
+      id: Condition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Condition_assignment
+  domain: 'application module: Condition_arm'
+  language_code: eng
+  annotations: []
+id: bb6e7a91-9702-5407-a3da-cbfe00a3aa65

@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Dimensioned_curve_distance_constraint
+  localized_concepts:
+    eng: f305726a-663e-5da3-9c5a-2963efb02e0b
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Dimensioned_curve_distance_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Curve_distance_constraint,Curve_distance_constraint}} that represents the dimensioned curve distance constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_curve_distance_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Curve_distance_constraint,Curve_distance_constraint}} used to constrain the minimum distance between two curves, or between a curve and a set of up to three reference elements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_curve_distance_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: f305726a-663e-5da3-9c5a-2963efb02e0b

@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_feature_arm.General_feature
+  localized_concepts:
+    eng: 290fc7f3-0d3f-5df8-85cb-e4e0b0f93ca1
+  domains:
+    - concept_id: section-Shape_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+      ref_type: section
+id: Shape_feature_arm.General_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that represents the general feature {{entity}}'
+  notes:
+    - content: A **General_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that provides a mechanism to categorize an area of interest in a shape and to associate additional information, not intended for shape generation, with the identified aspect of the shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+          version: '5'
+      type: authoritative
+      id: Shape_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_feature
+  domain: 'application module: Shape_feature_arm'
+  language_code: eng
+  annotations: []
+id: 290fc7f3-0d3f-5df8-85cb-e4e0b0f93ca1

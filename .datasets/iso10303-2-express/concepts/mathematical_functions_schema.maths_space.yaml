@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.maths_space
+  localized_concepts:
+    eng: e118ff1c-123d-5047-93b4-4a49d431fb92
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.maths_space
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_expression,generic_expression}} that represents the maths space {{entity}}'
+  notes:
+    - content: This abstract supertype includes all the representations for mathematical spaces considered in this schema.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maths_space
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: e118ff1c-123d-5047-93b4-4a49d431fb92

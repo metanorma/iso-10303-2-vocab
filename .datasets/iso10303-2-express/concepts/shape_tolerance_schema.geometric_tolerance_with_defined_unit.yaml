@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.geometric_tolerance_with_defined_unit
+  localized_concepts:
+    eng: f28c15e7-f729-5177-8570-6ad25f2b45e0
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.geometric_tolerance_with_defined_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the geometric tolerance with defined unit {{entity}}'
+  notes:
+    - content: A **geometric_tolerance_with_defined_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} specified on a per length unit basis of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometric_tolerance_with_defined_unit
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: f28c15e7-f729-5177-8570-6ad25f2b45e0

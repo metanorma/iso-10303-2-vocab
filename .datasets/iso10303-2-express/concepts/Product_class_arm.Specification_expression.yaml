@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_arm.Specification_expression
+  localized_concepts:
+    eng: 63cfbe6d-9ccc-50b5-a6e4-326d5d43a148
+  domains:
+    - concept_id: section-Product_class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+      ref_type: section
+id: Product_class_arm.Specification_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the specification expression {{entity}}'
+  notes:
+    - content: A **Specification_expression** is a combination of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}} instances formed with Boolean operations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+          version: '6'
+      type: authoritative
+      id: Product_class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Specification_expression
+  domain: 'application module: Product_class_arm'
+  language_code: eng
+  annotations: []
+id: 63cfbe6d-9ccc-50b5-a6e4-326d5d43a148

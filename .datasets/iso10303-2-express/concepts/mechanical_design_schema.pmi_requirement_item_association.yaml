@@ -1,0 +1,31 @@
+data:
+  identifier: mechanical_design_schema.pmi_requirement_item_association
+  localized_concepts:
+    eng: c8068eae-b767-5d7e-9b76-2480fd7468a6
+  domains:
+    - concept_id: section-mechanical_design_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+      ref_type: section
+id: mechanical_design_schema.pmi_requirement_item_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.item_identified_representation_usage,item_identified_representation_usage}} that represents the pmi requirement item association {{entity}}'
+  notes:
+    - content: A **pmi_requirement_item_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.item_identified_representation_usage,item_identified_representation_usage}} that associates a requirement to product manufacturing information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+          version: '3'
+      type: authoritative
+      id: mechanical_design_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pmi_requirement_item_association
+  domain: 'resource: mechanical_design_schema'
+  language_code: eng
+  annotations: []
+id: c8068eae-b767-5d7e-9b76-2480fd7468a6

@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Spur_gear
+  localized_concepts:
+    eng: 7a2c57b4-e732-52f7-a76c-55b804f8fbca
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Spur_gear
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Defined_gear,Defined_gear}} that represents the spur gear {{entity}}'
+  notes:
+    - content: A **Spur_gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Defined_gear,Defined_gear}} that is a cylindrical gear whose tooth traces are straight-line generators of the reference cylinder.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Spur_gear
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 7a2c57b4-e732-52f7-a76c-55b804f8fbca

@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.product_definition_reference
+  localized_concepts:
+    eng: 54367a85-a9be-5b34-bd6b-e1f545e36d64
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.product_definition_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}} that represents the product definition reference {{entity}}'
+  notes:
+    - content: A **product_definition_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}} that identifies the externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} by providing the key attributes necessary to unambiguously identify it and the associated {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} and organization that owns the product id.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_reference
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: 54367a85-a9be-5b34-bd6b-e1f545e36d64

@@ -1,0 +1,24 @@
+---
+data:
+  identifier: non-manifold-surface.non-manifold
+  localized_concepts:
+    eng: 55f5863d-e490-5e62-9d09-9648a670083b
+  domains:
+  - concept_id: section-non-manifold-surface
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 4d182864-1341-51eb-99ee-72adb8b61e1c
+schema_version: v3
+---
+data:
+  definition:
+  - content: surface model that uses topological constructs to define its boundaries
+      and connectivity and that includes either at least two *connected_face_sets*
+      sharing one {{face}} or more than two faces sharing one {{edge}}
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: non-manifold
+  language_code: eng
+  annotations: []
+id: 55f5863d-e490-5e62-9d09-9648a670083b

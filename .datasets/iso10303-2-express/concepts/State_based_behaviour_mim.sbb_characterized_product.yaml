@@ -1,0 +1,31 @@
+data:
+  identifier: State_based_behaviour_mim.sbb_characterized_product
+  localized_concepts:
+    eng: 3d40b45a-cc01-55db-9a06-bed91cefc12c
+  domains:
+    - concept_id: section-State_based_behaviour_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
+      ref_type: section
+id: State_based_behaviour_mim.sbb_characterized_product
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the sbb characterized product {{entity}}'
+  notes:
+    - content: A **sbb_characterized_product** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
+          version: '2'
+      type: authoritative
+      id: State_based_behaviour_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: sbb_characterized_product
+  domain: 'application module: State_based_behaviour_mim'
+  language_code: eng
+  annotations: []
+id: 3d40b45a-cc01-55db-9a06-bed91cefc12c

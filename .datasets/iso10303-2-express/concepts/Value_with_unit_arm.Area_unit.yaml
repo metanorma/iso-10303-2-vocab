@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Area_unit
+  localized_concepts:
+    eng: 9e0e4b06-2852-5017-8126-da1f64abfbcb
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Area_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Derived_unit,Derived_unit}} that represents the area unit {{entity}}'
+  notes:
+    - content: An **Area_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Derived_unit,Derived_unit}} in which the content of a surface is expressed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Area_unit
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: 9e0e4b06-2852-5017-8126-da1f64abfbcb

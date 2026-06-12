@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.subface
+  localized_concepts:
+    eng: dfa7f316-e917-589a-beb0-2b1fb568cc93
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.subface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face,face}} that represents the subface {{entity}}'
+  notes:
+    - content: A **subface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face,face}}, which is a portion of the domain of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face,face}}, or another **subface**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: subface
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: dfa7f316-e917-589a-beb0-2b1fb568cc93

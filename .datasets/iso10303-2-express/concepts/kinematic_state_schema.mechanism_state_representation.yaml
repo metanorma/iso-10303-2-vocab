@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_state_schema.mechanism_state_representation
+  localized_concepts:
+    eng: 9d83a658-5f08-530d-a20a-3173de889136
+  domains:
+    - concept_id: section-kinematic_state_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+      ref_type: section
+id: kinematic_state_schema.mechanism_state_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the mechanism state representation {{entity}}'
+  notes:
+    - content: A **mechanism_state_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that specifies a particular state of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.mechanism_representation,mechanism_representation}} by applying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}}s for each {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}} of the underlying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.mechanism_representation,mechanism_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_state_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mechanism_state_representation
+  domain: 'resource: kinematic_state_schema'
+  language_code: eng
+  annotations: []
+id: 9d83a658-5f08-530d-a20a-3173de889136

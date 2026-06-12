@@ -1,0 +1,31 @@
+data:
+  identifier: Product_categorization_arm.Product_category
+  localized_concepts:
+    eng: 4b0d1b49-b11b-51ef-9726-1d69f29341bc
+  domains:
+    - concept_id: section-Product_categorization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+      ref_type: section
+id: Product_categorization_arm.Product_category
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product category {{entity}}'
+  notes:
+    - content: A **Product_category** is a type of product that is defined for a purpose that is specific to a module or application protocol.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+          version: '3'
+      type: authoritative
+      id: Product_categorization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_category
+  domain: 'application module: Product_categorization_arm'
+  language_code: eng
+  annotations: []
+id: 4b0d1b49-b11b-51ef-9726-1d69f29341bc

@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.shape_feature_fit_relationship
+  localized_concepts:
+    eng: d23b7bd5-6b1d-5842-a901-e8c7fc9eb793
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.shape_feature_fit_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape feature fit relationship {{entity}}'
+  notes:
+    - content: A **shape_feature_fit_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_feature_fit_relationship,Part_feature_fit_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_feature_fit_relationship
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: d23b7bd5-6b1d-5842-a901-e8c7fc9eb793

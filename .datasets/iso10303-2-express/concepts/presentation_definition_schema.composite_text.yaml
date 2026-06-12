@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_definition_schema.composite_text
+  localized_concepts:
+    eng: 4acdd481-0bde-5abe-aa0c-aa298dbdc130
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.composite_text
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the composite text {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: composite_text
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: 4acdd481-0bde-5abe-aa0c-aa298dbdc130

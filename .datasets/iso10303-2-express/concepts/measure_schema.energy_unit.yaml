@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.energy_unit
+  localized_concepts:
+    eng: 86edd3c4-0b35-5f8b-be60-e9616af4cf56
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.energy_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} that represents the energy unit {{entity}}'
+  notes:
+    - content: An **energy_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} in which the energy is expressed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: energy_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 86edd3c4-0b35-5f8b-be60-e9616af4cf56

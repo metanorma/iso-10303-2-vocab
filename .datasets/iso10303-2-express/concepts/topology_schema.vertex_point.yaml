@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.vertex_point
+  localized_concepts:
+    eng: 2a272944-1b67-534f-9b40-c6b5a53c7662
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.vertex_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the vertex point {{entity}}'
+  notes:
+    - content: A **vertex_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex,vertex}}, which has its geometry defined as a point.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: vertex_point
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: 2a272944-1b67-534f-9b40-c6b5a53c7662

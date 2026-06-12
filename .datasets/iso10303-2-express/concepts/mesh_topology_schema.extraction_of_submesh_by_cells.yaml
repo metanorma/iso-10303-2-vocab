@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.extraction_of_submesh_by_cells
+  localized_concepts:
+    eng: 87ea9b6f-efb7-542a-81e2-86768b6085de
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.extraction_of_submesh_by_cells
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_submesh,extraction_of_submesh}} that represents the extraction of submesh by cells {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_submesh_by_cells,extraction_of_submesh_by_cells}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_submesh,extraction_of_submesh}} that extracts a submesh by listing the cells.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extraction_of_submesh_by_cells
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 87ea9b6f-efb7-542a-81e2-86768b6085de

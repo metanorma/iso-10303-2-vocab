@@ -1,0 +1,31 @@
+data:
+  identifier: Product_concept_identification_arm.Product_concept
+  localized_concepts:
+    eng: 35d5648d-7076-5113-9d92-05cd2d0b8271
+  domains:
+    - concept_id: section-Product_concept_identification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
+      ref_type: section
+id: Product_concept_identification_arm.Product_concept
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product concept {{entity}}'
+  notes:
+    - content: A **Product_concept** is the identification of a set of similar products that were, are or will be proposed to customers.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
+          version: '1'
+      type: authoritative
+      id: Product_concept_identification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_concept
+  domain: 'application module: Product_concept_identification_arm'
+  language_code: eng
+  annotations: []
+id: 35d5648d-7076-5113-9d92-05cd2d0b8271

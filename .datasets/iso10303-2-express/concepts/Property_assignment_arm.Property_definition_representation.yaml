@@ -1,0 +1,31 @@
+data:
+  identifier: Property_assignment_arm.Property_definition_representation
+  localized_concepts:
+    eng: 019bfc02-5c1d-5ec8-ab56-57963bf4fdd6
+  domains:
+    - concept_id: section-Property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+      ref_type: section
+id: Property_assignment_arm.Property_definition_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the property definition representation {{entity}}'
+  notes:
+    - content: A **Property_definition_representation** is an association between an {{represented_definition,represented_definition}} and one of its {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+          version: '4'
+      type: authoritative
+      id: Property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Property_definition_representation
+  domain: 'application module: Property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 019bfc02-5c1d-5ec8-ab56-57963bf4fdd6

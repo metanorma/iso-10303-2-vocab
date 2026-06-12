@@ -1,0 +1,31 @@
+data:
+  identifier: aic_associative_draughting_elements.dimension_text_associativity
+  localized_concepts:
+    eng: 4adcff51-3f99-566d-bbd6-e6d9aa0fb4da
+  domains:
+    - concept_id: section-aic_associative_draughting_elements
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+      ref_type: section
+id: aic_associative_draughting_elements.dimension_text_associativity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimension text associativity {{entity}}'
+  notes:
+    - content: A **dimension_text_associativity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.text_literal,text_literal}} that maps a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.shape_dimension_representation,shape_dimension_representation}} onto the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} which presents the measurement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+          version: '3'
+      type: authoritative
+      id: aic_associative_draughting_elements
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dimension_text_associativity
+  domain: 'resource: aic_associative_draughting_elements'
+  language_code: eng
+  annotations: []
+id: 4adcff51-3f99-566d-bbd6-e6d9aa0fb4da

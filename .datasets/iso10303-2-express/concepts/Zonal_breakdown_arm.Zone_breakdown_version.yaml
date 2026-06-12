@@ -1,0 +1,31 @@
+data:
+  identifier: Zonal_breakdown_arm.Zone_breakdown_version
+  localized_concepts:
+    eng: fbfbcaca-7cb4-5205-9264-d38a97ac7a7c
+  domains:
+    - concept_id: section-Zonal_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+      ref_type: section
+id: Zonal_breakdown_arm.Zone_breakdown_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_version,Breakdown_version}} that represents the zone breakdown version {{entity}}'
+  notes:
+    - content: A **Zone_breakdown_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_version,Breakdown_version}} that identifies a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm.Zone_breakdown,Zone_breakdown}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: Zonal_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Zone_breakdown_version
+  domain: 'application module: Zonal_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: fbfbcaca-7cb4-5205-9264-d38a97ac7a7c

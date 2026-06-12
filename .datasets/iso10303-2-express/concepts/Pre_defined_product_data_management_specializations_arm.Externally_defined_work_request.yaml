@@ -1,0 +1,31 @@
+data:
+  identifier: Pre_defined_product_data_management_specializations_arm.Externally_defined_work_request
+  localized_concepts:
+    eng: 4608584c-6c6b-5162-9494-de124d9d4a2f
+  domains:
+    - concept_id: section-Pre_defined_product_data_management_specializations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+      ref_type: section
+id: Pre_defined_product_data_management_specializations_arm.Externally_defined_work_request
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request,Work_request}} that represents the externally defined work request {{entity}}'
+  notes:
+    - content: A **Externally_defined_work_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request,Work_request}} whose meaning is defined outside of this standard in an external source.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+          version: '4'
+      type: authoritative
+      id: Pre_defined_product_data_management_specializations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_work_request
+  domain: 'application module: Pre_defined_product_data_management_specializations_arm'
+  language_code: eng
+  annotations: []
+id: 4608584c-6c6b-5162-9494-de124d9d4a2f

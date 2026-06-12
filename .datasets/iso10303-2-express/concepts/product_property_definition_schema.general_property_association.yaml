@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_definition_schema.general_property_association
+  localized_concepts:
+    eng: 63fefdcc-e9db-546d-bfc0-aeba96bd1b6f
+  domains:
+    - concept_id: section-product_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+      ref_type: section
+id: product_property_definition_schema.general_property_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the general property association {{entity}}'
+  notes:
+    - content: A **general_property_association** is an association of an instance of one of the types listed in {{derived_property_select,derived_property_select}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: general_property_association
+  domain: 'resource: product_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 63fefdcc-e9db-546d-bfc0-aeba96bd1b6f

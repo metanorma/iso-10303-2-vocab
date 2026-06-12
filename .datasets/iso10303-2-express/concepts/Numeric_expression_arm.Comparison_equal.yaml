@@ -1,0 +1,31 @@
+data:
+  identifier: Numeric_expression_arm.Comparison_equal
+  localized_concepts:
+    eng: 68f9d02d-313d-59c8-9d08-2929ac25ed0e
+  domains:
+    - concept_id: section-Numeric_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+      ref_type: section
+id: Numeric_expression_arm.Comparison_equal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Comparison_expression,Comparison_expression}} that represents the comparison equal {{entity}}'
+  notes:
+    - content: A **Comparison_equal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Comparison_expression,Comparison_expression}} carries the semantics of the value equal ('=') operator defined in ISO 10303-11 restricted to the NUMBER, BOOLEAN and STRING EXPRESS data types.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+          version: '2'
+      type: authoritative
+      id: Numeric_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Comparison_equal
+  domain: 'application module: Numeric_expression_arm'
+  language_code: eng
+  annotations: []
+id: 68f9d02d-313d-59c8-9d08-2929ac25ed0e

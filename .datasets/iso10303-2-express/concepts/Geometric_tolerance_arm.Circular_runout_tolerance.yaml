@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Circular_runout_tolerance
+  localized_concepts:
+    eng: cc85aa91-4fc9-56df-ad45-cb078c649b54
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Circular_runout_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the circular runout tolerance {{entity}}'
+  notes:
+    - content: A **Circular_runout_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that constrains the deviation of features constructed about an axis or at right angles to an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Circular_runout_tolerance
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: cc85aa91-4fc9-56df-ad45-cb078c649b54

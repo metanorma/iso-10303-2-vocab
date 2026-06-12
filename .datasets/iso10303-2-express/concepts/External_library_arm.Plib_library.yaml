@@ -1,0 +1,31 @@
+data:
+  identifier: External_library_arm.Plib_library
+  localized_concepts:
+    eng: 83c29300-3dcf-5d4d-b7fb-3fe5bd2f95e5
+  domains:
+    - concept_id: section-External_library_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+      ref_type: section
+id: External_library_arm.Plib_library
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}} that represents the plib library {{entity}}'
+  notes:
+    - content: An **Plib_library** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}} whose representation is defined in ISO 13584-25 (conformance classes 5-11).
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+          version: '3'
+      type: authoritative
+      id: External_library_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plib_library
+  domain: 'application module: External_library_arm'
+  language_code: eng
+  annotations: []
+id: 83c29300-3dcf-5d4d-b7fb-3fe5bd2f95e5

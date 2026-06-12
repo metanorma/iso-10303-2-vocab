@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_mim.assumption
+  localized_concepts:
+    eng: ebbf89b1-5be9-5c4c-8519-62c82a61fcfe
+  domains:
+    - concept_id: section-Justification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+      ref_type: section
+id: Justification_mim.assumption
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}} that represents the assumption {{entity}}'
+  notes:
+    - content: An **assumption** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}} that identifies something assumed to be true without proof.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+          version: '2'
+      type: authoritative
+      id: Justification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assumption
+  domain: 'application module: Justification_mim'
+  language_code: eng
+  annotations: []
+id: ebbf89b1-5be9-5c4c-8519-62c82a61fcfe

@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Tessellated_curve_set
+  localized_concepts:
+    eng: 1332eff9-8a33-5f85-9c1f-005c39f3aa25
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Tessellated_curve_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that represents the tessellated curve set {{entity}}'
+  notes:
+    - content: A **Tessellated_curve_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that is a tessellated representation of a collection of curves.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tessellated_curve_set
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 1332eff9-8a33-5f85-9c1f-005c39f3aa25

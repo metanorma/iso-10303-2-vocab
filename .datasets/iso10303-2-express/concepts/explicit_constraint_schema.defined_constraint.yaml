@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_constraint_schema.defined_constraint
+  localized_concepts:
+    eng: c6160e87-9dd8-54a8-b39f-9e002aa41972
+  domains:
+    - concept_id: section-explicit_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+      ref_type: section
+id: explicit_constraint_schema.defined_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}} that represents the defined constraint {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.defined_constraint,defined_constraint}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}}, and the abstract supertype of a class of constraints defined in descriptive terms, with no specification of a precise mathematical relationship between parameters and entity data type instance attributes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: defined_constraint
+  domain: 'resource: explicit_constraint_schema'
+  language_code: eng
+  annotations: []
+id: c6160e87-9dd8-54a8-b39f-9e002aa41972

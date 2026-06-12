@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.clgc_with_dimension
+  localized_concepts:
+    eng: 2a321c52-6fa0-5735-8043-efbece62f8ad
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.clgc_with_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.curve_length_geometric_constraint,curve_length_geometric_constraint}} that represents the clgc with dimension {{entity}}'
+  notes:
+    - content: The *clgc_with_dimension* entity data type is a type of *curve_length_geometric_constraint* asserting that the members of a set of *bounded_curve* instances all have the same specified length.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: clgc_with_dimension
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 2a321c52-6fa0-5735-8043-efbece62f8ad

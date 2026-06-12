@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_topology_arm.Vertex
+  localized_concepts:
+    eng: 52332f1a-915e-54bc-8024-684b011c498f
+  domains:
+    - concept_id: section-Elemental_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+      ref_type: section
+id: Elemental_topology_arm.Vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the vertex {{entity}}'
+  notes:
+    - content: A **Vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} is a point of interest in topological space, it has dimensionality 0.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+          version: '7'
+      type: authoritative
+      id: Elemental_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Vertex
+  domain: 'application module: Elemental_topology_arm'
+  language_code: eng
+  annotations: []
+id: 52332f1a-915e-54bc-8024-684b011c498f

@@ -1,0 +1,37 @@
+data:
+  identifier: Shape_parameters_mim.keepout_design_object_category
+  localized_concepts:
+    eng: a211e74d-bd40-591e-82f8-f7d6bd1df25f
+  domains:
+    - concept_id: section-Shape_parameters_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_parameters_mim
+      ref_type: section
+id: Shape_parameters_mim.keepout_design_object_category
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that represents the keepout design object category {{entity}}'
+  notes:
+    - content: |-
+        A **keepout_design_object_category** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that specifies a design object category for the implementation of the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_arm.Part_template_3d_keepout_shape_model,Part_template_3d_keepout_shape_model}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Part_template_planar_keepout_shape_model,Part_template_planar_keepout_shape_model}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_shape_arm.Physical_unit_3d_keepout_shape_model,Physical_unit_3d_keepout_shape_model}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_shape_arm.Physical_unit_planar_keepout_shape_model,Physical_unit_planar_keepout_shape_model}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_parameters_mim
+          version: '2'
+      type: authoritative
+      id: Shape_parameters_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: keepout_design_object_category
+  domain: 'application module: Shape_parameters_mim'
+  language_code: eng
+  annotations: []
+id: a211e74d-bd40-591e-82f8-f7d6bd1df25f

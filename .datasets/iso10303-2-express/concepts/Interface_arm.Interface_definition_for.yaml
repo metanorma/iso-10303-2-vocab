@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_arm.Interface_definition_for
+  localized_concepts:
+    eng: de9d131e-090f-5422-a7a8-87d975ff5a4d
+  domains:
+    - concept_id: section-Interface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+      ref_type: section
+id: Interface_arm.Interface_definition_for
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface definition for {{entity}}'
+  notes:
+    - content: An **Interface_definition_for** is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_specification,Interface_specification}} and an item that conforms to the specification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+          version: '5'
+      type: authoritative
+      id: Interface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_definition_for
+  domain: 'application module: Interface_arm'
+  language_code: eng
+  annotations: []
+id: de9d131e-090f-5422-a7a8-87d975ff5a4d

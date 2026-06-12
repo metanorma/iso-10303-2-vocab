@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.experience_type_role
+  localized_concepts:
+    eng: 9944257f-25be-55e3-824e-26e11f4fc7ae
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.experience_type_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience type role {{entity}}'
+  notes:
+    - content: An **experience_type_role** is a specified purpose for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema.experience_type,experience_type}} and a description of the purpose.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: experience_type_role
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 9944257f-25be-55e3-824e-26e11f4fc7ae

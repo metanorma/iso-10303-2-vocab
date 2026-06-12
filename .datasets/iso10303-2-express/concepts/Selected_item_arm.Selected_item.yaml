@@ -1,0 +1,31 @@
+data:
+  identifier: Selected_item_arm.Selected_item
+  localized_concepts:
+    eng: 5a6961c4-067a-5657-9bfc-d7455abd2027
+  domains:
+    - concept_id: section-Selected_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_arm
+      ref_type: section
+id: Selected_item_arm.Selected_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents the selected item {{entity}}'
+  notes:
+    - content: A **Selected_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} used to classify identified product or activity data for configuration management purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_arm
+          version: '2'
+      type: authoritative
+      id: Selected_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Selected_item
+  domain: 'application module: Selected_item_arm'
+  language_code: eng
+  annotations: []
+id: 5a6961c4-067a-5657-9bfc-d7455abd2027

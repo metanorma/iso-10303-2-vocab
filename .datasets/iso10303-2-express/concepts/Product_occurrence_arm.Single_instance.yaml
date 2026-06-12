@@ -1,0 +1,31 @@
+data:
+  identifier: Product_occurrence_arm.Single_instance
+  localized_concepts:
+    eng: d7df0d77-2695-5d88-bfbb-8e0cda345a84
+  domains:
+    - concept_id: section-Product_occurrence_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+      ref_type: section
+id: Product_occurrence_arm.Single_instance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that represents the single instance {{entity}}'
+  notes:
+    - content: A **Single_instance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that identifies a single occurrence of a part.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+          version: '5'
+      type: authoritative
+      id: Product_occurrence_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Single_instance
+  domain: 'application module: Product_occurrence_arm'
+  language_code: eng
+  annotations: []
+id: d7df0d77-2695-5d88-bfbb-8e0cda345a84

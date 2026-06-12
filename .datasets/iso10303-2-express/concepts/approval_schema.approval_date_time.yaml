@@ -1,0 +1,31 @@
+data:
+  identifier: approval_schema.approval_date_time
+  localized_concepts:
+    eng: 58146d64-a811-5d26-9a70-82b249664687
+  domains:
+    - concept_id: section-approval_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+      ref_type: section
+id: approval_schema.approval_date_time
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval date time {{entity}}'
+  notes:
+    - content: An **approval_date_time** is an association between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}} and a date, time, or date and time.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+          version: '7'
+      type: authoritative
+      id: approval_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: approval_date_time
+  domain: 'resource: approval_schema'
+  language_code: eng
+  annotations: []
+id: 58146d64-a811-5d26-9a70-82b249664687

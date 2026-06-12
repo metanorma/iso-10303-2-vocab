@@ -1,0 +1,31 @@
+data:
+  identifier: Sketch_arm.Subsketch
+  localized_concepts:
+    eng: 1f9bc8bc-3bdc-5203-9440-f2df19a5f5ae
+  domains:
+    - concept_id: section-Sketch_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+      ref_type: section
+id: Sketch_arm.Subsketch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the subsketch {{entity}}'
+  notes:
+    - content: A **Subsketch** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that defines a partial sketch in terms of a subset of the geometric elements composing a full sketch.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+          version: '3'
+      type: authoritative
+      id: Sketch_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Subsketch
+  domain: 'application module: Sketch_arm'
+  language_code: eng
+  annotations: []
+id: 1f9bc8bc-3bdc-5203-9440-f2df19a5f5ae

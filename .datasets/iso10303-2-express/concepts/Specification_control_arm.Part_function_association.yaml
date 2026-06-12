@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_arm.Part_function_association
+  localized_concepts:
+    eng: 8401dc9f-e983-5a18-acca-01eeec1dcb20
+  domains:
+    - concept_id: section-Specification_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+      ref_type: section
+id: Specification_control_arm.Part_function_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the part function association {{entity}}'
+  notes:
+    - content: A **Part_function_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that relates a functional element with a definition of a version of a part that realizes this functionality.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+          version: '5'
+      type: authoritative
+      id: Specification_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_function_association
+  domain: 'application module: Specification_control_arm'
+  language_code: eng
+  annotations: []
+id: 8401dc9f-e983-5a18-acca-01eeec1dcb20

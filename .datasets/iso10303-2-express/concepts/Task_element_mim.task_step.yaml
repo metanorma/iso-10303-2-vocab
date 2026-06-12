@@ -1,0 +1,31 @@
+data:
+  identifier: Task_element_mim.task_step
+  localized_concepts:
+    eng: 9c8e41b2-4850-509a-8316-d1d1794d3882
+  domains:
+    - concept_id: section-Task_element_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+      ref_type: section
+id: Task_element_mim.task_step
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that represents the task step {{entity}}'
+  notes:
+    - content: A **task_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that represents one stage within a task and is not further broken down.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+          version: '1'
+      type: authoritative
+      id: Task_element_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: task_step
+  domain: 'application module: Task_element_mim'
+  language_code: eng
+  annotations: []
+id: 9c8e41b2-4850-509a-8316-d1d1794d3882

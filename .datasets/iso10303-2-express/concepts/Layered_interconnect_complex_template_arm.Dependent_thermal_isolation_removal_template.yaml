@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_complex_template_arm.Dependent_thermal_isolation_removal_template
+  localized_concepts:
+    eng: bb3359ae-3859-5ec2-ba7a-215b0d85e2e3
+  domains:
+    - concept_id: section-Layered_interconnect_complex_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+      ref_type: section
+id: Layered_interconnect_complex_template_arm.Dependent_thermal_isolation_removal_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Thermal_isolation_removal_template,Thermal_isolation_removal_template}} that represents the dependent thermal isolation removal template {{entity}}'
+  notes:
+    - content: A **Dependent_thermal_isolation_removal_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Thermal_isolation_removal_template,Thermal_isolation_removal_template}} that has an existence dependency on a member of {{land_physical_template_or_inter_stratum_feature_template,land_physical_template_or_inter_stratum_feature_template}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+          version: '5'
+      type: authoritative
+      id: Layered_interconnect_complex_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dependent_thermal_isolation_removal_template
+  domain: 'application module: Layered_interconnect_complex_template_arm'
+  language_code: eng
+  annotations: []
+id: bb3359ae-3859-5ec2-ba7a-215b0d85e2e3

@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_placement_requirements_mim.group_product_definition
+  localized_concepts:
+    eng: 43791970-7d14-524e-8f51-71279511d179
+  domains:
+    - concept_id: section-Assembly_component_placement_requirements_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+      ref_type: section
+id: Assembly_component_placement_requirements_mim.group_product_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.component_definition,component_definition}} that represents the group product definition {{entity}}'
+  notes:
+    - content: A **group_product_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.component_definition,component_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Placement_group_requirement_definition,Placement_group_requirement_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+          version: '6'
+      type: authoritative
+      id: Assembly_component_placement_requirements_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: group_product_definition
+  domain: 'application module: Assembly_component_placement_requirements_mim'
+  language_code: eng
+  annotations: []
+id: 43791970-7d14-524e-8f51-71279511d179

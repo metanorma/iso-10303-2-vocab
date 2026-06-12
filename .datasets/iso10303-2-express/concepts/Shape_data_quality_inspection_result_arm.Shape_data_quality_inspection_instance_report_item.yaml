@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_instance_report_item
+  localized_concepts:
+    eng: 9adaa0be-293b-5a97-9b46-e3bc80e68da8
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_instance_report_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_instance_report_item,Data_quality_inspection_instance_report_item}} that represents the shape data quality inspection instance report item {{entity}}'
+  notes:
+    - content: A **Shape_data_quality_inspection_instance_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_instance_report_item,Data_quality_inspection_instance_report_item}} and represents the detailed information obtained for each inspected element or a pair of elements of product shape data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_data_quality_inspection_instance_report_item
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 9adaa0be-293b-5a97-9b46-e3bc80e68da8

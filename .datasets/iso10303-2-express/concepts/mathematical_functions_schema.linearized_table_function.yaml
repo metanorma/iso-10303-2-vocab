@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.linearized_table_function
+  localized_concepts:
+    eng: 7aaf8ea8-ccf7-5dd6-bb57-c0e93ee2ecf1
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.linearized_table_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the linearized table function {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.explicit_table_function,explicit_table_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} is a supertype carrying the common attributes of a family of entity types which make use of a one-dimensional array function to implement a many-dimensional table function.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: linearized_table_function
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 7aaf8ea8-ccf7-5dd6-bb57-c0e93ee2ecf1

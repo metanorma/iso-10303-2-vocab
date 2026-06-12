@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion
+  localized_concepts:
+    eng: b0e5604a-e5e4-5302-af36-9af8747ac802
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally conditioned data quality criterion {{entity}}'
+  notes:
+    - content: A **externally_conditioned_data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_measurement_requirement,data_quality_measurement_requirement}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_criterion,data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_conditioned_data_quality_criterion
+  domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
+  language_code: eng
+  annotations: []
+id: b0e5604a-e5e4-5302-af36-9af8747ac802

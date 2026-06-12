@@ -1,0 +1,31 @@
+data:
+  identifier: Mechanical_design_features_and_requirements_mim.mechanical_design_requirement_item_association
+  localized_concepts:
+    eng: 2b965cc2-64a1-5864-afd3-73fa4490c8ff
+  domains:
+    - concept_id: section-Mechanical_design_features_and_requirements_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_mim
+      ref_type: section
+id: Mechanical_design_features_and_requirements_mim.mechanical_design_requirement_item_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.pmi_requirement_item_association,pmi_requirement_item_association}} that represents the mechanical design requirement item association {{entity}}'
+  notes:
+    - content: A **mechanical_design_requirement_item_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.item_identified_representation_usage,item_identified_representation_usage}} that implements the ARM concept of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Mechanical_design_requirement_item_association,Mechanical_design_requirement_item_association}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_mim
+          version: '3'
+      type: authoritative
+      id: Mechanical_design_features_and_requirements_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mechanical_design_requirement_item_association
+  domain: 'application module: Mechanical_design_features_and_requirements_mim'
+  language_code: eng
+  annotations: []
+id: 2b965cc2-64a1-5864-afd3-73fa4490c8ff

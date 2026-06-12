@@ -1,0 +1,30 @@
+data:
+  identifier: Production_rule_arm.Rule_condition
+  localized_concepts:
+    eng: 0ffa6187-b01c-500d-b835-e210e740486a
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Rule_condition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Atomic_formula,Atomic_formula}} that represents the rule condition {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rule_condition
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: 0ffa6187-b01c-500d-b835-e210e740486a

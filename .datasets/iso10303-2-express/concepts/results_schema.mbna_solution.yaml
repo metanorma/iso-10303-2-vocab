@@ -1,0 +1,31 @@
+data:
+  identifier: results_schema.mbna_solution
+  localized_concepts:
+    eng: 3b18498f-8efa-5777-93b5-f8b22ab041d5
+  domains:
+    - concept_id: section-results_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+      ref_type: section
+id: results_schema.mbna_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema.mbna_result,mbna_result}} that represents the mbna solution {{entity}}'
+  notes:
+    - content: An *mbna_solution* is the solution within a zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+          version: '1'
+      type: authoritative
+      id: results_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_solution
+  domain: 'resource: results_schema'
+  language_code: eng
+  annotations: []
+id: 3b18498f-8efa-5777-93b5-f8b22ab041d5

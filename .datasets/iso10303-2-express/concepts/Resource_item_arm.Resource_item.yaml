@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_item_arm.Resource_item
+  localized_concepts:
+    eng: 334f9ba7-c69a-577f-9820-c4b46276e3ea
+  domains:
+    - concept_id: section-Resource_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+      ref_type: section
+id: Resource_item_arm.Resource_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource item {{entity}}'
+  notes:
+    - content: A **Resource_item** is an item that can occur in the role of a resource within the application context.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+          version: '2'
+      type: authoritative
+      id: Resource_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Resource_item
+  domain: 'application module: Resource_item_arm'
+  language_code: eng
+  annotations: []
+id: 334f9ba7-c69a-577f-9820-c4b46276e3ea

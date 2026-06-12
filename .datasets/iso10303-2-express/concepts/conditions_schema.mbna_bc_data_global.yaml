@@ -1,0 +1,31 @@
+data:
+  identifier: conditions_schema.mbna_bc_data_global
+  localized_concepts:
+    eng: c46d5506-e52f-56ae-a2b1-31549360e21a
+  domains:
+    - concept_id: section-conditions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+      ref_type: section
+id: conditions_schema.mbna_bc_data_global
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_bc_data,mbna_bc_data}} that represents the mbna bc data global {{entity}}'
+  notes:
+    - content: An *mbna_bc_data_global* is global boundary-condition data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+          version: '1'
+      type: authoritative
+      id: conditions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_bc_data_global
+  domain: 'resource: conditions_schema'
+  language_code: eng
+  annotations: []
+id: c46d5506-e52f-56ae-a2b1-31549360e21a

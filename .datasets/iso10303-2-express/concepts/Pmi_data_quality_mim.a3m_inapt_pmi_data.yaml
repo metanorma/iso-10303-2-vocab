@@ -1,0 +1,31 @@
+data:
+  identifier: Pmi_data_quality_mim.a3m_inapt_pmi_data
+  localized_concepts:
+    eng: 68103976-9d36-5ff9-9c5e-e8a71cb25caf
+  domains:
+    - concept_id: section-Pmi_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+      ref_type: section
+id: Pmi_data_quality_mim.a3m_inapt_pmi_data
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_pmi_data_quality_criterion,a3m_pmi_data_quality_criterion}} that represents the a3m inapt pmi data {{entity}}'
+  notes:
+    - content: An **a3m_inapt_pmi_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_pmi_data_quality_criterion,a3m_pmi_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_inapt_pmi_data,A3m_inapt_pmi_data}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Pmi_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_inapt_pmi_data
+  domain: 'application module: Pmi_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 68103976-9d36-5ff9-9c5e-e8a71cb25caf

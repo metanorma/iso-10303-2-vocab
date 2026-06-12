@@ -1,0 +1,31 @@
+data:
+  identifier: Product_replacement_arm.Alternate_product_relationship
+  localized_concepts:
+    eng: d6d622db-dc42-5b30-adf8-c2ad786b06c7
+  domains:
+    - concept_id: section-Product_replacement_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm
+      ref_type: section
+id: Product_replacement_arm.Alternate_product_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the alternate product relationship {{entity}}'
+  notes:
+    - content: An **Alternate_product_relationship** is an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm
+          version: '2'
+      type: authoritative
+      id: Product_replacement_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Alternate_product_relationship
+  domain: 'application module: Product_replacement_arm'
+  language_code: eng
+  annotations: []
+id: d6d622db-dc42-5b30-adf8-c2ad786b06c7

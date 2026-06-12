@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Indices_list
+  localized_concepts:
+    eng: cce0a297-f96c-5edc-9f47-f6c39e381d80
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Indices_list
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the indices list {{entity}}'
+  notes:
+    - content: An **Indices_list** is a list of indices into a multi-dimensional array.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Indices_list
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: cce0a297-f96c-5edc-9f47-f6c39e381d80

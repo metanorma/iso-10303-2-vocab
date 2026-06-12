@@ -1,0 +1,31 @@
+data:
+  identifier: Planned_characteristic_arm.Evaluated_characteristic
+  localized_concepts:
+    eng: 4a55d1f6-eec8-5e89-86b6-3f238583bd69
+  domains:
+    - concept_id: section-Planned_characteristic_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+      ref_type: section
+id: Planned_characteristic_arm.Evaluated_characteristic
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the evaluated characteristic {{entity}}'
+  notes:
+    - content: An **Evaluated_characteristic** is a set of properties resulting from an evaluation or intended evaluation of product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+          version: '4'
+      type: authoritative
+      id: Planned_characteristic_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Evaluated_characteristic
+  domain: 'application module: Planned_characteristic_arm'
+  language_code: eng
+  annotations: []
+id: 4a55d1f6-eec8-5e89-86b6-3f238583bd69

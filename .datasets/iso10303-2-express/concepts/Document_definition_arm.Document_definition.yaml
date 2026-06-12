@@ -1,0 +1,31 @@
+data:
+  identifier: Document_definition_arm.Document_definition
+  localized_concepts:
+    eng: cf6435e6-784a-500b-ab0d-bb00a1093688
+  domains:
+    - concept_id: section-Document_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+      ref_type: section
+id: Document_definition_arm.Document_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the document definition {{entity}}'
+  notes:
+    - content: A **Document_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm.Document_version,Document_version}} in a particular format.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+          version: '1'
+      type: authoritative
+      id: Document_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Document_definition
+  domain: 'application module: Document_definition_arm'
+  language_code: eng
+  annotations: []
+id: cf6435e6-784a-500b-ab0d-bb00a1093688

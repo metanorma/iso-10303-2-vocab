@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.partial_circular_profile
+  localized_concepts:
+    eng: 13a39961-c9c9-5dc5-bf88-2a1eed37cdec
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.partial_circular_profile
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the partial circular profile {{entity}}'
+  notes:
+    - content: A **partial_circular_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that is the representation of arc of constant radius, with a location and a position.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: partial_circular_profile
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 13a39961-c9c9-5dc5-bf88-2a1eed37cdec

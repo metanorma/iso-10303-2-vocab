@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_results_arm.Mbna_solution
+  localized_concepts:
+    eng: 897033eb-8f9c-5f27-a208-d2e3d6a222cf
+  domains:
+    - concept_id: section-Cfd_results_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+      ref_type: section
+id: Cfd_results_arm.Mbna_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that represents the mbna solution {{entity}}'
+  notes:
+    - content: A **Mbna_solution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that is the solution within a zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_results_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_solution
+  domain: 'application module: Cfd_results_arm'
+  language_code: eng
+  annotations: []
+id: 897033eb-8f9c-5f27-a208-d2e3d6a222cf

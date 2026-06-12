@@ -1,0 +1,31 @@
+data:
+  identifier: Mating_structure_arm.Mated_assembly_occurrence_relationship
+  localized_concepts:
+    eng: d3c9fe9f-0f75-576b-a767-6b23fc728bce
+  domains:
+    - concept_id: section-Mating_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm
+      ref_type: section
+id: Mating_structure_arm.Mated_assembly_occurrence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mated assembly occurrence relationship {{entity}}'
+  notes:
+    - content: A **Mated_assembly_occurrence_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembled_part_association,Assembled_part_association}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm
+          version: '4'
+      type: authoritative
+      id: Mating_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mated_assembly_occurrence_relationship
+  domain: 'application module: Mating_structure_arm'
+  language_code: eng
+  annotations: []
+id: d3c9fe9f-0f75-576b-a767-6b23fc728bce

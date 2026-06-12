@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_elements.dimension_pair
+  localized_concepts:
+    eng: e8e1756f-2516-5ed0-aaeb-a57166587834
+  domains:
+    - concept_id: section-aic_draughting_elements
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+      ref_type: section
+id: aic_draughting_elements.dimension_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout_relationship,draughting_callout_relationship}} that represents the dimension pair {{entity}}'
+  notes:
+    - content: A **dimension_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout_relationship,draughting_callout_relationship}} that identifies the relationship between dimensions that participate in a chained or parallel dimension sequence.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+          version: '2'
+      type: authoritative
+      id: aic_draughting_elements
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dimension_pair
+  domain: 'resource: aic_draughting_elements'
+  language_code: eng
+  annotations: []
+id: e8e1756f-2516-5ed0-aaeb-a57166587834

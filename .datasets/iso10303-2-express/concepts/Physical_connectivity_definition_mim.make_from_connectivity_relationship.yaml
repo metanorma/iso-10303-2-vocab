@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_connectivity_definition_mim.make_from_connectivity_relationship
+  localized_concepts:
+    eng: bdaa26a9-a37d-586e-b79e-ee60f6b75ab6
+  domains:
+    - concept_id: section-Physical_connectivity_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+      ref_type: section
+id: Physical_connectivity_definition_mim.make_from_connectivity_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the make from connectivity relationship {{entity}}'
+  notes:
+    - content: A **make_from_connectivity_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_make_from_relationship,Physical_connectivity_make_from_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+          version: '5'
+      type: authoritative
+      id: Physical_connectivity_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: make_from_connectivity_relationship
+  domain: 'application module: Physical_connectivity_definition_mim'
+  language_code: eng
+  annotations: []
+id: bdaa26a9-a37d-586e-b79e-ee60f6b75ab6

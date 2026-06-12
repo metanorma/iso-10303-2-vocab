@@ -1,0 +1,30 @@
+data:
+  identifier: kinematic_property_schema.product_definition_relationship_kinematics
+  localized_concepts:
+    eng: cb444764-5475-5aea-b3d8-2d54bb5952c6
+  domains:
+    - concept_id: section-kinematic_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+      ref_type: section
+id: kinematic_property_schema.product_definition_relationship_kinematics
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the product definition relationship kinematics {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_relationship_kinematics
+  domain: 'resource: kinematic_property_schema'
+  language_code: eng
+  annotations: []
+id: cb444764-5475-5aea-b3d8-2d54bb5952c6

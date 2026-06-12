@@ -1,0 +1,31 @@
+data:
+  identifier: sketch_schema.implicit_model_intersection_curve
+  localized_concepts:
+    eng: 2d96b212-5c0b-5eb2-8f7a-b109cc12018c
+  domains:
+    - concept_id: section-sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+      ref_type: section
+id: sketch_schema.implicit_model_intersection_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema.implicit_planar_curve,implicit_planar_curve}} that represents the implicit model intersection curve {{entity}}'
+  notes:
+    - content: The entity data type *implicit_model_intersection_curve* is a type of *implicit_planar_curve*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+          version: '4'
+      type: authoritative
+      id: sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: implicit_model_intersection_curve
+  domain: 'resource: sketch_schema'
+  language_code: eng
+  annotations: []
+id: 2d96b212-5c0b-5eb2-8f7a-b109cc12018c

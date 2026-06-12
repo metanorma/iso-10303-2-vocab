@@ -1,0 +1,31 @@
+data:
+  identifier: Draughting_annotation_arm.Dimension_symbol
+  localized_concepts:
+    eng: 889cf3bf-45a2-5a59-ac78-896ba969516c
+  domains:
+    - concept_id: section-Draughting_annotation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+      ref_type: section
+id: Draughting_annotation_arm.Dimension_symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimension symbol {{entity}}'
+  notes:
+    - content: An **Dimension_symbol** is a predefined annotation symbol used to present information about dimensions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+          version: '4'
+      type: authoritative
+      id: Draughting_annotation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimension_symbol
+  domain: 'application module: Draughting_annotation_arm'
+  language_code: eng
+  annotations: []
+id: 889cf3bf-45a2-5a59-ac78-896ba969516c

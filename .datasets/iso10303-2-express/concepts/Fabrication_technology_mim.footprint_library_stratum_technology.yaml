@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_mim.footprint_library_stratum_technology
+  localized_concepts:
+    eng: 2f38665f-4f0e-532b-ad86-7a0637b0c371
+  domains:
+    - concept_id: section-Fabrication_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+      ref_type: section
+id: Fabrication_technology_mim.footprint_library_stratum_technology
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_technology,stratum_technology}} that represents the footprint library stratum technology {{entity}}'
+  notes:
+    - content: A **footprint_library_stratum_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_technology,stratum_technology}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Footprint_library_stratum_technology,Footprint_library_stratum_technology}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: footprint_library_stratum_technology
+  domain: 'application module: Fabrication_technology_mim'
+  language_code: eng
+  annotations: []
+id: 2f38665f-4f0e-532b-ad86-7a0637b0c371

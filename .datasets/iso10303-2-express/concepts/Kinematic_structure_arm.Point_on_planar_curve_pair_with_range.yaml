@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Point_on_planar_curve_pair_with_range
+  localized_concepts:
+    eng: 706d5616-fa0e-5dae-a6f9-60c4405c08f0
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Point_on_planar_curve_pair_with_range
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Point_on_planar_curve_pair,Point_on_planar_curve_pair}} that represents the point on planar curve pair with range {{entity}}'
+  notes:
+    - content: A **Point_on_planar_curve_pair_with_range** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Point_on_planar_curve_pair,Point_on_planar_curve_pair}} A **Point_on_planar_curve_pair_with_range** specifies the lower bound and the upper bound of the parameter range for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Point_on_planar_curve_pair,Point_on_planar_curve_pair}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_on_planar_curve_pair_with_range
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: 706d5616-fa0e-5dae-a6f9-60c4405c08f0

@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.styled_tessellated_item_with_colours
+  localized_concepts:
+    eng: cf9eb89f-459f-5ec0-8f82-9640a466f881
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.styled_tessellated_item_with_colours
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.styled_item,styled_item}} that represents the styled tessellated item with colours {{entity}}'
+  notes:
+    - content: A **styled_tessellated_item_with_colours** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.styled_item,styled_item}} that assigns colour values to the vertices of tessellated surfaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: styled_tessellated_item_with_colours
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: cf9eb89f-459f-5ec0-8f82-9640a466f881

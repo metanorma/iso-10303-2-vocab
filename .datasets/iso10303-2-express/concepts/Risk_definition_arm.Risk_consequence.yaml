@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_consequence
+  localized_concepts:
+    eng: 5b1639e2-b145-51f8-9d6f-6b7594d7114f
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_consequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the risk consequence {{entity}}'
+  notes:
+    - content: A **Risk_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} and specifies the outcome of an event.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_consequence
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 5b1639e2-b145-51f8-9d6f-6b7594d7114f

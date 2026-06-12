@@ -1,0 +1,31 @@
+data:
+  identifier: Default_setting_association_arm.Default_shape_property
+  localized_concepts:
+    eng: a9d45f53-1f15-578b-b4da-53c26f9e602e
+  domains:
+    - concept_id: section-Default_setting_association_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+      ref_type: section
+id: Default_setting_association_arm.Default_shape_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Assigned_shape_property,Assigned_shape_property}} that represents the default shape property {{entity}}'
+  notes:
+    - content: A **Default_shape_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Assigned_shape_property,Assigned_shape_property}} that describes general characteristics of the shape of a product that might not be available through the geometric representation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+          version: '2'
+      type: authoritative
+      id: Default_setting_association_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Default_shape_property
+  domain: 'application module: Default_setting_association_arm'
+  language_code: eng
+  annotations: []
+id: a9d45f53-1f15-578b-b4da-53c26f9e602e

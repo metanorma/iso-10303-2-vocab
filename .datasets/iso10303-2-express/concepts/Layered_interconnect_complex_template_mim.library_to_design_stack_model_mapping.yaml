@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_complex_template_mim.library_to_design_stack_model_mapping
+  localized_concepts:
+    eng: 21932a59-df5d-558d-a59d-91cb2fba8e6a
+  domains:
+    - concept_id: section-Layered_interconnect_complex_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+      ref_type: section
+id: Layered_interconnect_complex_template_mim.library_to_design_stack_model_mapping
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the library to design stack model mapping {{entity}}'
+  notes:
+    - content: A **library_to_design_stack_model_mapping** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Library_to_design_stack_model_mapping,Library_to_design_stack_model_mapping}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+          version: '5'
+      type: authoritative
+      id: Layered_interconnect_complex_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: library_to_design_stack_model_mapping
+  domain: 'application module: Layered_interconnect_complex_template_mim'
+  language_code: eng
+  annotations: []
+id: 21932a59-df5d-558d-a59d-91cb2fba8e6a

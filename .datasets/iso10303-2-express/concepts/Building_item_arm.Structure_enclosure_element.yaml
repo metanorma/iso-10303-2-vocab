@@ -1,0 +1,31 @@
+data:
+  identifier: Building_item_arm.Structure_enclosure_element
+  localized_concepts:
+    eng: 1c724e71-2fac-5ce2-ada9-3a57d905233c
+  domains:
+    - concept_id: section-Building_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+      ref_type: section
+id: Building_item_arm.Structure_enclosure_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}} that represents the structure enclosure element {{entity}}'
+  notes:
+    - content: A **Structure_enclosure_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}} that is an identifiable part of a building that contributes to the basic form or function of a building.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+          version: '1'
+      type: authoritative
+      id: Building_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Structure_enclosure_element
+  domain: 'application module: Building_item_arm'
+  language_code: eng
+  annotations: []
+id: 1c724e71-2fac-5ce2-ada9-3a57d905233c

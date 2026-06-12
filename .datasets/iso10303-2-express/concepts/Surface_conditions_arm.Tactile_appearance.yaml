@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Tactile_appearance
+  localized_concepts:
+    eng: 6bb929b8-20cb-5e77-9d06-990bcd3c0536
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Tactile_appearance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that represents the tactile appearance {{entity}}'
+  notes:
+    - content: A **Tactile_appearance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that specifies the appearance of a surface of a part regarding the sense of touch.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tactile_appearance
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 6bb929b8-20cb-5e77-9d06-990bcd3c0536

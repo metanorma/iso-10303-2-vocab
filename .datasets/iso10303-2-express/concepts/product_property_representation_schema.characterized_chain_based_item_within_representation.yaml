@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_representation_schema.characterized_chain_based_item_within_representation
+  localized_concepts:
+    eng: ef92ff1b-07ae-5528-828c-b22b7d963c80
+  domains:
+    - concept_id: section-product_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+      ref_type: section
+id: product_property_representation_schema.characterized_chain_based_item_within_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.characterized_item_within_representation,characterized_item_within_representation}} that represents the characterized chain based item within representation {{entity}}'
+  notes:
+    - content: A **characterized_chain_based_item_within_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.characterized_item_within_representation,characterized_item_within_representation}} that represents a chain of representations in a graph of representations, where the undirected links in the graph can be instances of entity data types {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}}, or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+          version: '10'
+      type: authoritative
+      id: product_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_chain_based_item_within_representation
+  domain: 'resource: product_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: ef92ff1b-07ae-5528-828c-b22b7d963c80

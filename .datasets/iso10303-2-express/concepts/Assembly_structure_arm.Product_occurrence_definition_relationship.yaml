@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_structure_arm.Product_occurrence_definition_relationship
+  localized_concepts:
+    eng: 1d7ce8e8-8268-55a5-a8c6-d243e1b9d547
+  domains:
+    - concept_id: section-Assembly_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm
+      ref_type: section
+id: Assembly_structure_arm.Product_occurrence_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product occurrence definition relationship {{entity}}'
+  notes:
+    - content: A **Product_occurrence_definition_relationship** is an occurrence relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm
+          version: '7'
+      type: authoritative
+      id: Assembly_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_occurrence_definition_relationship
+  domain: 'application module: Assembly_structure_arm'
+  language_code: eng
+  annotations: []
+id: 1d7ce8e8-8268-55a5-a8c6-d243e1b9d547

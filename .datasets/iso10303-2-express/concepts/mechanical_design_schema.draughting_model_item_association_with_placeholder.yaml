@@ -1,0 +1,31 @@
+data:
+  identifier: mechanical_design_schema.draughting_model_item_association_with_placeholder
+  localized_concepts:
+    eng: 4460415c-a5b2-5289-aea8-b614ba8d556c
+  domains:
+    - concept_id: section-mechanical_design_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+      ref_type: section
+id: mechanical_design_schema.draughting_model_item_association_with_placeholder
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_model_item_association,draughting_model_item_association}} that represents the draughting model item association with placeholder {{entity}}'
+  notes:
+    - content: A **draughting_model_item_association_with_placeholder** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_model_item_association,draughting_model_item_association}} that specifies a placeholder for product and manufacturing information annotation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+          version: '3'
+      type: authoritative
+      id: mechanical_design_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_model_item_association_with_placeholder
+  domain: 'resource: mechanical_design_schema'
+  language_code: eng
+  annotations: []
+id: 4460415c-a5b2-5289-aea8-b614ba8d556c

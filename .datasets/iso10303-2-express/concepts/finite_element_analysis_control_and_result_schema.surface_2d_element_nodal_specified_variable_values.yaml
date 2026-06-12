@@ -1,0 +1,31 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.surface_2d_element_nodal_specified_variable_values
+  localized_concepts:
+    eng: 3d05d167-5d2c-586a-97bf-603cf688f10c
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.surface_2d_element_nodal_specified_variable_values
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_2d_element_field_variable_definition,surface_2d_element_field_variable_definition}} that represents the surface 2d element nodal specified variable values {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_2d_element_nodal_specified_variable_values,surface_2d_element_nodal_specified_variable_values}} is a state of the model that specifies the value of a variable for the nodes of a surface 2D element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_2d_element_nodal_specified_variable_values
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: 3d05d167-5d2c-586a-97bf-603cf688f10c

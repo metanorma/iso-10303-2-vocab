@@ -1,0 +1,30 @@
+data:
+  identifier: Currency_arm.Currency_value
+  localized_concepts:
+    eng: e0b342d8-1481-55f2-a7c1-b43e6a8965b5
+  domains:
+    - concept_id: section-Currency_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+      ref_type: section
+id: Currency_arm.Currency_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the currency value {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+          version: '1'
+      type: authoritative
+      id: Currency_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Currency_value
+  domain: 'application module: Currency_arm'
+  language_code: eng
+  annotations: []
+id: e0b342d8-1481-55f2-a7c1-b43e6a8965b5

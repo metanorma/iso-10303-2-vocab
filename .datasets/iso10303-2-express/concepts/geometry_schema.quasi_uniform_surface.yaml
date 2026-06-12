@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.quasi_uniform_surface
+  localized_concepts:
+    eng: 9d9d6c9c-b5e0-5c6b-a2b6-d59a05905412
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.quasi_uniform_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_surface,b_spline_surface}} that represents the quasi uniform surface {{entity}}'
+  notes:
+    - content: A **quasi_uniform_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_surface,b_spline_surface}}, in which the knots are evenly spaced, and except for the first and last, have multiplicity 1.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: quasi_uniform_surface
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 9d9d6c9c-b5e0-5c6b-a2b6-d59a05905412

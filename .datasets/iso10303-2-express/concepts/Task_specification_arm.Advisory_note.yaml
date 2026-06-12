@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Advisory_note
+  localized_concepts:
+    eng: 3c83ea2d-8660-52c2-b865-5bc6b2b4e66f
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Advisory_note
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the advisory note {{entity}}'
+  notes:
+    - content: An **Advisory_note** is the link between a task element with an advisory task step.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Advisory_note
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 3c83ea2d-8660-52c2-b865-5bc6b2b4e66f

@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Assembly_shape_constraint_item_relationship
+  localized_concepts:
+    eng: 044d5288-e407-52cd-813c-bb34f159c3da
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Assembly_shape_constraint_item_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the assembly shape constraint item relationship {{entity}}'
+  notes:
+    - content: An **Assembly_shape_constraint_item_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that relates an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_shape_feature,Occurrence_shape_feature}} to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Assembly_shape_constraint,Assembly_shape_constraint}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_shape_constraint_item_relationship
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 044d5288-e407-52cd-813c-bb34f159c3da

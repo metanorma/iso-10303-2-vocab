@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_circular_pocket
+  localized_concepts:
+    eng: f14da6e4-5d07-51b5-8b91-20d272baa499
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_circular_pocket
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_pocket,solid_with_pocket}} that represents the solid with circular pocket {{entity}}'
+  notes:
+    - content: A *solid_with_circular_pocket* is a type of *solid_with_pocket* for which the defining pocket profile is a circle.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_circular_pocket
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: f14da6e4-5d07-51b5-8b91-20d272baa499

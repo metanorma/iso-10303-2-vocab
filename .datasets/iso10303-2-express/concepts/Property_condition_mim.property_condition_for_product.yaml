@@ -1,0 +1,30 @@
+data:
+  identifier: Property_condition_mim.property_condition_for_product
+  localized_concepts:
+    eng: 33e536e8-6dc5-55a8-9bf1-cfa09b852a26
+  domains:
+    - concept_id: section-Property_condition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+      ref_type: section
+id: Property_condition_mim.property_condition_for_product
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.class_of_possession_of_property_by_product,class_of_possession_of_property_by_product}} that represents the property condition for product {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+          version: '1'
+      type: authoritative
+      id: Property_condition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: property_condition_for_product
+  domain: 'application module: Property_condition_mim'
+  language_code: eng
+  annotations: []
+id: 33e536e8-6dc5-55a8-9bf1-cfa09b852a26

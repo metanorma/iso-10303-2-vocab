@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_geometric_shape_arm.Bounding_box
+  localized_concepts:
+    eng: db4b2e74-2f5d-5b5d-bc8e-87efa1501474
+  domains:
+    - concept_id: section-Elemental_geometric_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+      ref_type: section
+id: Elemental_geometric_shape_arm.Bounding_box
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_dependent_property_representation,Shape_dependent_property_representation}} that represents the bounding box {{entity}}'
+  notes:
+    - content: A **Bounding_box** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_dependent_property_representation,Shape_dependent_property_representation}} that is the bounding box of the shape, or of a portion of the shape of an object.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+          version: '12'
+      type: authoritative
+      id: Elemental_geometric_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Bounding_box
+  domain: 'application module: Elemental_geometric_shape_arm'
+  language_code: eng
+  annotations: []
+id: db4b2e74-2f5d-5b5d-bc8e-87efa1501474

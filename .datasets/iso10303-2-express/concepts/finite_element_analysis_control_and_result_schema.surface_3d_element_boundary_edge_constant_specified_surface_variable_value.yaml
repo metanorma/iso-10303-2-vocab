@@ -1,0 +1,31 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.surface_3d_element_boundary_edge_constant_specified_surface_variable_value
+  localized_concepts:
+    eng: ce6ccbf3-b9e7-525d-9ec7-0df321a53901
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.surface_3d_element_boundary_edge_constant_specified_surface_variable_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_3d_element_field_variable_definition,surface_3d_element_field_variable_definition}} that represents the surface 3d element boundary edge constant specified surface variable value {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_3d_element_boundary_edge_constant_specified_surface_variable_value,surface_3d_element_boundary_edge_constant_specified_surface_variable_value}} is a state of the model that is defined by specifying the value of a variable at a point on a surface, which is constant along a surface 3D element edge.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_3d_element_boundary_edge_constant_specified_surface_variable_value
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: ce6ccbf3-b9e7-525d-9ec7-0df321a53901

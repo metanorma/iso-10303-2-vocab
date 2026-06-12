@@ -1,0 +1,33 @@
+data:
+  identifier: product_data_equivalence_inspection_result_schema.criterion_report_item_with_number_of_instances
+  localized_concepts:
+    eng: 801ad2fd-64fe-5ea2-9d64-74848be6d71a
+  domains:
+    - concept_id: section-product_data_equivalence_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+      ref_type: section
+id: product_data_equivalence_inspection_result_schema.criterion_report_item_with_number_of_instances
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_criterion_report_item,data_equivalence_inspection_criterion_report_item}} that represents the criterion report item with number of instances {{entity}}'
+  notes:
+    - content: |-
+        A **criterion_report_item_with_number_of_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_criterion_report_item,data_equivalence_inspection_criterion_report_item}} that includes a {{count_measure,count_measure}}
+        that implies {{number_of_inspections,number_of_inspections}} or {{number_of_defects,number_of_defects}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: product_data_equivalence_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: criterion_report_item_with_number_of_instances
+  domain: 'resource: product_data_equivalence_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 801ad2fd-64fe-5ea2-9d64-74848be6d71a

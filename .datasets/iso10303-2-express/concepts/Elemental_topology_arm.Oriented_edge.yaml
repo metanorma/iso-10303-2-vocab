@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_topology_arm.Oriented_edge
+  localized_concepts:
+    eng: 7260dd8c-85a2-5125-a9ea-c7c53dfa5ab2
+  domains:
+    - concept_id: section-Elemental_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+      ref_type: section
+id: Elemental_topology_arm.Oriented_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}} that represents the oriented edge {{entity}}'
+  notes:
+    - content: An **Oriented_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}} constructed from another edge which contains a BOOLEAN orientation flag to indicate whether or not the orientation of the constructed edge agrees with the orientation of the original edge.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+          version: '7'
+      type: authoritative
+      id: Elemental_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Oriented_edge
+  domain: 'application module: Elemental_topology_arm'
+  language_code: eng
+  annotations: []
+id: 7260dd8c-85a2-5125-a9ea-c7c53dfa5ab2

@@ -1,0 +1,31 @@
+data:
+  identifier: Part_external_reference_arm.Package_terminal_external_reference
+  localized_concepts:
+    eng: e1ebfdff-8e2a-558b-a3a7-715849e0fed7
+  domains:
+    - concept_id: section-Part_external_reference_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
+      ref_type: section
+id: Part_external_reference_arm.Package_terminal_external_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the package terminal external reference {{entity}}'
+  notes:
+    - content: A **Package_terminal_external_reference** is an unambiguous reference to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} in an external system.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
+          version: '4'
+      type: authoritative
+      id: Part_external_reference_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Package_terminal_external_reference
+  domain: 'application module: Part_external_reference_arm'
+  language_code: eng
+  annotations: []
+id: e1ebfdff-8e2a-558b-a3a7-715849e0fed7

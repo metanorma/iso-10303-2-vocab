@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometric_topology_arm.Face_surface
+  localized_concepts:
+    eng: f639089c-5e9c-5a9e-b388-8d7b594e6720
+  domains:
+    - concept_id: section-Basic_geometric_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+      ref_type: section
+id: Basic_geometric_topology_arm.Face_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the face surface {{entity}}'
+  notes:
+    - content: A **Face_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}} that has its geometry defined by a geometric {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Surface,Surface}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+          version: '6'
+      type: authoritative
+      id: Basic_geometric_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Face_surface
+  domain: 'application module: Basic_geometric_topology_arm'
+  language_code: eng
+  annotations: []
+id: f639089c-5e9c-5a9e-b388-8d7b594e6720

@@ -1,0 +1,31 @@
+data:
+  identifier: Project_management_resource_information_mim.pmri_characterizable_applied_organization_assignment
+  localized_concepts:
+    eng: 728916bb-5657-509d-9116-464a68b64d72
+  domains:
+    - concept_id: section-Project_management_resource_information_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_resource_information_mim
+      ref_type: section
+id: Project_management_resource_information_mim.pmri_characterizable_applied_organization_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the pmri characterizable applied organization assignment {{entity}}'
+  notes:
+    - content: A **pmri_characterizable_applied_organization_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_mim.applied_organization_assignment,applied_organization_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_resource_information_mim
+          version: '2'
+      type: authoritative
+      id: Project_management_resource_information_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pmri_characterizable_applied_organization_assignment
+  domain: 'application module: Project_management_resource_information_mim'
+  language_code: eng
+  annotations: []
+id: 728916bb-5657-509d-9116-464a68b64d72

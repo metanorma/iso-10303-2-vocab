@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.executed_action
+  localized_concepts:
+    eng: 9fa0a6c0-5138-5605-b8bf-4ce5679853a0
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.executed_action
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the executed action {{entity}}'
+  notes:
+    - content: An **executed_action** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that is completed, partially completed, or just identified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: executed_action
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 9fa0a6c0-5138-5605-b8bf-4ce5679853a0

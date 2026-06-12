@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_circle_2_points
+  localized_concepts:
+    eng: 5cf7f3a0-5230-591f-8d68-a6d1bd2aee21
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_circle_2_points
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circle,create_circle}} that represents the create circle 2 points {{entity}}'
+  notes:
+    - content: A *create_circle_2_points* is a type of *create_circle* that creates a circle in terms of two points, which are interpreted as end points of a diameter of the circle.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_circle_2_points
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 5cf7f3a0-5230-591f-8d68-a6d1bd2aee21

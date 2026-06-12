@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_assignment_mim.applied_classification_assignment_relationship
+  localized_concepts:
+    eng: 5f02340c-46b7-5b38-b16c-fc57707c677e
+  domains:
+    - concept_id: section-Classification_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim
+      ref_type: section
+id: Classification_assignment_mim.applied_classification_assignment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment_relationship,classification_assignment_relationship}} that represents the applied classification assignment relationship {{entity}}'
+  notes:
+    - content: An **applied_classification_assignment_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment_relationship,classification_assignment_relationship}} that describes a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim.applied_classification_assignment,applied_classification_assignment}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim
+          version: '3'
+      type: authoritative
+      id: Classification_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_classification_assignment_relationship
+  domain: 'application module: Classification_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 5f02340c-46b7-5b38-b16c-fc57707c677e

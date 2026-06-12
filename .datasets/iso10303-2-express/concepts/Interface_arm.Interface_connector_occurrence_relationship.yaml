@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_arm.Interface_connector_occurrence_relationship
+  localized_concepts:
+    eng: 3a32d314-4292-561c-92bb-ffc60a69f4b2
+  domains:
+    - concept_id: section-Interface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+      ref_type: section
+id: Interface_arm.Interface_connector_occurrence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface connector occurrence relationship {{entity}}'
+  notes:
+    - content: An **Interface_connector_occurrence_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_occurrence,Interface_connector_occurrence}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+          version: '5'
+      type: authoritative
+      id: Interface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_connector_occurrence_relationship
+  domain: 'application module: Interface_arm'
+  language_code: eng
+  annotations: []
+id: 3a32d314-4292-561c-92bb-ffc60a69f4b2

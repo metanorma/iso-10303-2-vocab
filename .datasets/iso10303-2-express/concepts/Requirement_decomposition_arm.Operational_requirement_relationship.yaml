@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_decomposition_arm.Operational_requirement_relationship
+  localized_concepts:
+    eng: 939a5d0f-56a2-50b8-b2f6-b9cd3b55f56f
+  domains:
+    - concept_id: section-Requirement_decomposition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+      ref_type: section
+id: Requirement_decomposition_arm.Operational_requirement_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the operational requirement relationship {{entity}}'
+  notes:
+    - content: An **Operational_requirement_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_decomposition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Operational_requirement_relationship
+  domain: 'application module: Requirement_decomposition_arm'
+  language_code: eng
+  annotations: []
+id: 939a5d0f-56a2-50b8-b2f6-b9cd3b55f56f

@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_arm.Item_assumed
+  localized_concepts:
+    eng: 0b70979e-f15f-5891-8f00-8e35662c0117
+  domains:
+    - concept_id: section-Justification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+      ref_type: section
+id: Justification_arm.Item_assumed
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the item assumed {{entity}}'
+  notes:
+    - content: An **Item_assumed** is an association between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm.Assumption,Assumption}} and the item that is being assumed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+          version: '2'
+      type: authoritative
+      id: Justification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Item_assumed
+  domain: 'application module: Justification_arm'
+  language_code: eng
+  annotations: []
+id: 0b70979e-f15f-5891-8f00-8e35662c0117

@@ -1,0 +1,31 @@
+data:
+  identifier: basic_attribute_schema.generic_attribute_assignment
+  localized_concepts:
+    eng: e532c700-bab8-59c8-b403-907d7afd18cc
+  domains:
+    - concept_id: section-basic_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+      ref_type: section
+id: basic_attribute_schema.generic_attribute_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the generic attribute assignment {{entity}}'
+  notes:
+    - content: A **generic_attribute_assignment** is the assignment of a generic attribute to element of product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+          version: '9'
+      type: authoritative
+      id: basic_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: generic_attribute_assignment
+  domain: 'resource: basic_attribute_schema'
+  language_code: eng
+  annotations: []
+id: e532c700-bab8-59c8-b403-907d7afd18cc

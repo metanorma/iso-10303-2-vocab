@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_assignment_to_part_arm.Part_connected_terminals_definition
+  localized_concepts:
+    eng: f99f83a9-ffc9-5258-b337-668f017f8624
+  domains:
+    - concept_id: section-Functional_assignment_to_part_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+      ref_type: section
+id: Functional_assignment_to_part_arm.Part_connected_terminals_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part connected terminals definition {{entity}}'
+  notes:
+    - content: A **Part_connected_terminals_definition** is the association between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} that are connected internally to the part.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+          version: '3'
+      type: authoritative
+      id: Functional_assignment_to_part_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_connected_terminals_definition
+  domain: 'application module: Functional_assignment_to_part_arm'
+  language_code: eng
+  annotations: []
+id: f99f83a9-ffc9-5258-b337-668f017f8624

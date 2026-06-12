@@ -1,0 +1,31 @@
+data:
+  identifier: Product_as_individual_mim.product_as_planned
+  localized_concepts:
+    eng: baa23900-8dca-5ba3-9439-6d0e9a7bb98f
+  domains:
+    - concept_id: section-Product_as_individual_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+      ref_type: section
+id: Product_as_individual_mim.product_as_planned
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the product as planned {{entity}}'
+  notes:
+    - content: A **product_as_planned** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies an individual artefact that has yet to be made.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+          version: '5'
+      type: authoritative
+      id: Product_as_individual_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_as_planned
+  domain: 'application module: Product_as_individual_mim'
+  language_code: eng
+  annotations: []
+id: baa23900-8dca-5ba3-9439-6d0e9a7bb98f

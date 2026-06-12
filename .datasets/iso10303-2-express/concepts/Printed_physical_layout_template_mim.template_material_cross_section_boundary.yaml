@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_mim.template_material_cross_section_boundary
+  localized_concepts:
+    eng: 1ad70d86-1b0b-5cda-b8d8-2e40cb400ec8
+  domains:
+    - concept_id: section-Printed_physical_layout_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+      ref_type: section
+id: Printed_physical_layout_template_mim.template_material_cross_section_boundary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the template material cross section boundary {{entity}}'
+  notes:
+    - content: 'A **template_material_cross_section_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of: {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Template_material_cross_section_boundary,Template_material_cross_section_boundary}}.'
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: template_material_cross_section_boundary
+  domain: 'application module: Printed_physical_layout_template_mim'
+  language_code: eng
+  annotations: []
+id: 1ad70d86-1b0b-5cda-b8d8-2e40cb400ec8

@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.fd_governing_equation
+  localized_concepts:
+    eng: c0a4fb78-7c5e-5e64-a2b9-3aedc4a6d79a
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.fd_governing_equation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_governing_equation,mbna_governing_equation}} that represents the fd governing equation {{entity}}'
+  notes:
+    - content: An *fd_governing_equation* is an *mbna_governing_equation* describing the class of governing flow equations associated with the solution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fd_governing_equation
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: c0a4fb78-7c5e-5e64-a2b9-3aedc4a6d79a

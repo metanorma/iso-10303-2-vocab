@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.between_shape_aspect
+  localized_concepts:
+    eng: e13fe71b-c50a-5aa1-b9f1-8412c2efa5be
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.between_shape_aspect
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.continuous_shape_aspect,continuous_shape_aspect}} that represents the between shape aspect {{entity}}'
+  notes:
+    - content: A **between_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.continuous_shape_aspect,continuous_shape_aspect}} where some of the composing members are marked as forming elements of the borders of the continuous region.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: between_shape_aspect
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: e13fe71b-c50a-5aa1-b9f1-8412c2efa5be

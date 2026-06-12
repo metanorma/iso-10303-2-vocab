@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.mathematical_description
+  localized_concepts:
+    eng: c04d6b57-2246-536b-8af3-a2f860a4e11d
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.mathematical_description
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mathematical description {{entity}}'
+  notes:
+    - content: This type relates a {{maths_expression,maths_expression}} and a description or definition of the same mathematical object or expression by a string in an identified language or identified encoding of an identified language.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mathematical_description
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: c04d6b57-2246-536b-8af3-a2f860a4e11d

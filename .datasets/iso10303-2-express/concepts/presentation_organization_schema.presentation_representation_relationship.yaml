@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_organization_schema.presentation_representation_relationship
+  localized_concepts:
+    eng: 4b2700c0-9825-55f4-a3c5-fa60c8901008
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.presentation_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship_with_transformation,representation_relationship_with_transformation}} that represents the presentation representation relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: presentation_representation_relationship
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: 4b2700c0-9825-55f4-a3c5-fa60c8901008

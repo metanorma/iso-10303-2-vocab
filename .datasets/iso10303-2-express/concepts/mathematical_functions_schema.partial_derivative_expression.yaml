@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.partial_derivative_expression
+  localized_concepts:
+    eng: fcdd67a9-ac57-5479-b7d2-35fa2da8b72f
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.partial_derivative_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} that represents the partial derivative expression {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} represents a specified partial derviative of another expression.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: partial_derivative_expression
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: fcdd67a9-ac57-5479-b7d2-35fa2da8b72f

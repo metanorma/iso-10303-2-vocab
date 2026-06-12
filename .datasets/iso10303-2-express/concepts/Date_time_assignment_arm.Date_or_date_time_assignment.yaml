@@ -1,0 +1,31 @@
+data:
+  identifier: Date_time_assignment_arm.Date_or_date_time_assignment
+  localized_concepts:
+    eng: 7be07bc1-048d-5a9c-b060-8e966cac01a1
+  domains:
+    - concept_id: section-Date_time_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_arm
+      ref_type: section
+id: Date_time_assignment_arm.Date_or_date_time_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date or date time assignment {{entity}}'
+  notes:
+    - content: A **Date_or_date_time_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm.Calendar_date,Calendar_date}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm.Date_time,Date_time}} with activity or product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_arm
+          version: '2'
+      type: authoritative
+      id: Date_time_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Date_or_date_time_assignment
+  domain: 'application module: Date_time_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 7be07bc1-048d-5a9c-b060-8e966cac01a1

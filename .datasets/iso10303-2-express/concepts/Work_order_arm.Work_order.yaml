@@ -1,0 +1,31 @@
+data:
+  identifier: Work_order_arm.Work_order
+  localized_concepts:
+    eng: 8ee1823a-701c-5066-aae6-edd3b003c27f
+  domains:
+    - concept_id: section-Work_order_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+      ref_type: section
+id: Work_order_arm.Work_order
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work order {{entity}}'
+  notes:
+    - content: A **Work_order** is the authorization for one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}} objects to be performed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+          version: '3'
+      type: authoritative
+      id: Work_order_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Work_order
+  domain: 'application module: Work_order_arm'
+  language_code: eng
+  annotations: []
+id: 8ee1823a-701c-5066-aae6-edd3b003c27f

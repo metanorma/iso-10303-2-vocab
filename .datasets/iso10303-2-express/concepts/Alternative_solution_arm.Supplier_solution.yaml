@@ -1,0 +1,31 @@
+data:
+  identifier: Alternative_solution_arm.Supplier_solution
+  localized_concepts:
+    eng: 0f2a4273-11bf-5ee0-b59c-6f5e9307438a
+  domains:
+    - concept_id: section-Alternative_solution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+      ref_type: section
+id: Alternative_solution_arm.Supplier_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}} that represents the supplier solution {{entity}}'
+  notes:
+    - content: A **Supplier_solution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}} provided by a supplier.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+          version: '4'
+      type: authoritative
+      id: Alternative_solution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Supplier_solution
+  domain: 'application module: Alternative_solution_arm'
+  language_code: eng
+  annotations: []
+id: 0f2a4273-11bf-5ee0-b59c-6f5e9307438a

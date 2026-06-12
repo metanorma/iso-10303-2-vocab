@@ -1,0 +1,35 @@
+data:
+  identifier: Land_mim.land
+  localized_concepts:
+    eng: 21787280-9f61-5aba-b518-e37951508c79
+  domains:
+    - concept_id: section-Land_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+      ref_type: section
+id: Land_mim.land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.stratum_feature_template_component,stratum_feature_template_component}} that represents the land {{entity}}'
+  notes:
+    - content: |-
+        A **land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.stratum_feature_template_component,stratum_feature_template_component}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Contact_size_dependent_land,Contact_size_dependent_land}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land,Land}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+          version: '5'
+      type: authoritative
+      id: Land_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: land
+  domain: 'application module: Land_mim'
+  language_code: eng
+  annotations: []
+id: 21787280-9f61-5aba-b518-e37951508c79

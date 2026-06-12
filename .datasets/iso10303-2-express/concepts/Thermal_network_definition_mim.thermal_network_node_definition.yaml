@@ -1,0 +1,31 @@
+data:
+  identifier: Thermal_network_definition_mim.thermal_network_node_definition
+  localized_concepts:
+    eng: ed29c2cb-d89a-5a12-a5e4-986bbeebc374
+  domains:
+    - concept_id: section-Thermal_network_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_mim
+      ref_type: section
+id: Thermal_network_definition_mim.thermal_network_node_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_mim.network_node_definition,network_node_definition}} that represents the thermal network node definition {{entity}}'
+  notes:
+    - content: A **thermal_network_node_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_mim.network_node_definition,network_node_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm.Thermal_functional_unit_network_node_definition,Thermal_functional_unit_network_node_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_mim
+          version: '5'
+      type: authoritative
+      id: Thermal_network_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thermal_network_node_definition
+  domain: 'application module: Thermal_network_definition_mim'
+  language_code: eng
+  annotations: []
+id: ed29c2cb-d89a-5a12-a5e4-986bbeebc374

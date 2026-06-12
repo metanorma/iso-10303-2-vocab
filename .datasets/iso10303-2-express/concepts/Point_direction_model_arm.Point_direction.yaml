@@ -1,0 +1,31 @@
+data:
+  identifier: Point_direction_model_arm.Point_direction
+  localized_concepts:
+    eng: 423e2ea4-9ac4-538b-a1e8-73567bd4915d
+  domains:
+    - concept_id: section-Point_direction_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+      ref_type: section
+id: Point_direction_model_arm.Point_direction
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the point direction {{entity}}'
+  notes:
+    - content: A **Point_direction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents a location in space of a single axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+          version: '2'
+      type: authoritative
+      id: Point_direction_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_direction
+  domain: 'application module: Point_direction_model_arm'
+  language_code: eng
+  annotations: []
+id: 423e2ea4-9ac4-538b-a1e8-73567bd4915d

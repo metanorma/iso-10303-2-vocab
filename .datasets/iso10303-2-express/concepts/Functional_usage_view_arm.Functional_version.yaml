@@ -1,0 +1,30 @@
+data:
+  identifier: Functional_usage_view_arm.Functional_version
+  localized_concepts:
+    eng: d4b264d8-2403-5696-b9e7-61ae21f748ab
+  domains:
+    - concept_id: section-Functional_usage_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+      ref_type: section
+id: Functional_usage_view_arm.Functional_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_version,Information_version}} that represents the functional version {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+          version: '5'
+      type: authoritative
+      id: Functional_usage_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_version
+  domain: 'application module: Functional_usage_view_arm'
+  language_code: eng
+  annotations: []
+id: d4b264d8-2403-5696-b9e7-61ae21f748ab

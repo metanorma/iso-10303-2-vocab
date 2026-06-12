@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_schema.process_product_association
+  localized_concepts:
+    eng: 5aabde58-0423-5bd8-bb4a-fb8df46ed611
+  domains:
+    - concept_id: section-process_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+      ref_type: section
+id: process_property_schema.process_product_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process product association {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.process_product_association,process_product_association}} is an association that specifies the product definition characteristic of interest to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.product_definition_process,product_definition_process}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+          version: '1'
+      type: authoritative
+      id: process_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: process_product_association
+  domain: 'resource: process_property_schema'
+  language_code: eng
+  annotations: []
+id: 5aabde58-0423-5bd8-bb4a-fb8df46ed611

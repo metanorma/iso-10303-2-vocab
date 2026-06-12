@@ -1,0 +1,32 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.construction_geometry
+  localized_concepts:
+    eng: f3023f38-6af2-56d1-a6c6-d163ceed2bc7
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: bfaa9f53-f615-53d8-94af-3bb0df35cb1f
+schema_version: v3
+---
+data:
+  definition:
+  - content: geometry used as an aid in the construction of a shape that is not an
+      element of the shape itself
+  examples:
+  - content: This concept may be illustrated by the case of a "spine" curve used in
+      the generation of certain types of swept surfaces. A planar generating curve
+      is defined, together with a reference point lying in its plane. The reference
+      point is then swept along the spine curve, the plane of the generating curve
+      being maintained normal to it. The generating curve sweeps out the desired surface.
+      If the reference point does not lie on the generating curve the spine curve
+      does not lie on the generated surface, and it is therefore classified as construction
+      geometry.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: construction geometry
+  language_code: eng
+  annotations: []
+id: f3023f38-6af2-56d1-a6c6-d163ceed2bc7

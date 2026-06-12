@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_constraint_schema.explicit_constraint
+  localized_concepts:
+    eng: 5cccdb39-2849-5931-9794-edddb3b64491
+  domains:
+    - concept_id: section-explicit_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+      ref_type: section
+id: explicit_constraint_schema.explicit_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}} that represents the explicit constraint {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: explicit_constraint
+  domain: 'resource: explicit_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 5cccdb39-2849-5931-9794-edddb3b64491

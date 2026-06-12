@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_arm.Row_value
+  localized_concepts:
+    eng: 0a55931d-7396-5024-b530-4695fb9ef352
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Row_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the row value {{entity}}'
+  notes:
+    - content: A **Row_value** is a data type containing a sequenced arrangement of data values.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Row_value
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: 0a55931d-7396-5024-b530-4695fb9ef352

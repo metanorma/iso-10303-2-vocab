@@ -1,0 +1,31 @@
+data:
+  identifier: Planned_characteristic_mim.evaluation_product_definition
+  localized_concepts:
+    eng: cba7ddc0-4a78-57ab-8800-444cba9a7782
+  domains:
+    - concept_id: section-Planned_characteristic_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
+      ref_type: section
+id: Planned_characteristic_mim.evaluation_product_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the evaluation product definition {{entity}}'
+  notes:
+    - content: An **evaluation_product_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm.Evaluation_view_definition,Evaluation_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
+          version: '4'
+      type: authoritative
+      id: Planned_characteristic_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: evaluation_product_definition
+  domain: 'application module: Planned_characteristic_mim'
+  language_code: eng
+  annotations: []
+id: cba7ddc0-4a78-57ab-8800-444cba9a7782

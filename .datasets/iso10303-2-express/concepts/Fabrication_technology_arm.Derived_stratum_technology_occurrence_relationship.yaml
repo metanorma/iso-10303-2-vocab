@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Derived_stratum_technology_occurrence_relationship
+  localized_concepts:
+    eng: 5df76182-e6fb-5063-9c22-108f0de43bea
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Derived_stratum_technology_occurrence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}} that represents the derived stratum technology occurrence relationship {{entity}}'
+  notes:
+    - content: A **Derived_stratum_technology_occurrence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}} for the purpose of stating that the geometry of one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}} is derived from the geometry of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Derived_stratum_technology_occurrence_relationship
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 5df76182-e6fb-5063-9c22-108f0de43bea

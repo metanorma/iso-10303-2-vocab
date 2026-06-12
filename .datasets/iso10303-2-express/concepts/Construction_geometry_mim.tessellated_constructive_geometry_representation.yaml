@@ -1,0 +1,31 @@
+data:
+  identifier: Construction_geometry_mim.tessellated_constructive_geometry_representation
+  localized_concepts:
+    eng: 06372c2d-7064-5ecc-b22b-a1f15ae1a8dd
+  domains:
+    - concept_id: section-Construction_geometry_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_mim
+      ref_type: section
+id: Construction_geometry_mim.tessellated_constructive_geometry_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_shape_representation,tessellated_shape_representation}} that represents the tessellated constructive geometry representation {{entity}}'
+  notes:
+    - content: A **tessellated_constructive_geometry_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_shape_representation,tessellated_shape_representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm.Tessellated_constructive_geometry,Tessellated_constructive_geometry}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_mim
+          version: '7'
+      type: authoritative
+      id: Construction_geometry_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_constructive_geometry_representation
+  domain: 'application module: Construction_geometry_mim'
+  language_code: eng
+  annotations: []
+id: 06372c2d-7064-5ecc-b22b-a1f15ae1a8dd

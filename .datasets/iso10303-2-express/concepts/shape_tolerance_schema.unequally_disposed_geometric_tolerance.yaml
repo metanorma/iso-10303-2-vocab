@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.unequally_disposed_geometric_tolerance
+  localized_concepts:
+    eng: 850424ad-d73b-5498-945c-6ecfd21adcbc
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.unequally_disposed_geometric_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the unequally disposed geometric tolerance {{entity}}'
+  notes:
+    - content: An **unequally_disposed_geometric_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} whose tolerance zone is offset from the default value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unequally_disposed_geometric_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 850424ad-d73b-5498-945c-6ecfd21adcbc

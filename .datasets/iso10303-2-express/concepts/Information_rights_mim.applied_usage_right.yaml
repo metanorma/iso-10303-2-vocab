@@ -1,0 +1,31 @@
+data:
+  identifier: Information_rights_mim.applied_usage_right
+  localized_concepts:
+    eng: bb9b0130-cff9-500a-8307-75a31f52b3bc
+  domains:
+    - concept_id: section-Information_rights_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim
+      ref_type: section
+id: Information_rights_mim.applied_usage_right
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that represents the applied usage right {{entity}}'
+  notes:
+    - content: An **applied_usage_right** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}} that is the link from an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim.information_usage_right,information_usage_right}} forming the items to which it applies.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim
+          version: '4'
+      type: authoritative
+      id: Information_rights_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_usage_right
+  domain: 'application module: Information_rights_mim'
+  language_code: eng
+  annotations: []
+id: bb9b0130-cff9-500a-8307-75a31f52b3bc

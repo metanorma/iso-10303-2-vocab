@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_arm.Component_overlap_relationship
+  localized_concepts:
+    eng: 64de433b-17b1-5d63-99ba-a8e73e58271f
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+      ref_type: section
+id: Assembly_module_with_interconnect_component_arm.Component_overlap_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component overlap relationship {{entity}}'
+  notes:
+    - content: A **Component_overlap_relationship** is the relationship between one component and another in their next assembly, with respect to the physical overlap between them.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_overlap_relationship
+  domain: 'application module: Assembly_module_with_interconnect_component_arm'
+  language_code: eng
+  annotations: []
+id: 64de433b-17b1-5d63-99ba-a8e73e58271f

@@ -1,0 +1,31 @@
+data:
+  identifier: systems_engineering_representation_schema.expression_role
+  localized_concepts:
+    eng: b53aea8d-c239-537b-9b20-f08660470ea0
+  domains:
+    - concept_id: section-systems_engineering_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+      ref_type: section
+id: systems_engineering_representation_schema.expression_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the expression role {{entity}}'
+  notes:
+    - content: An **expression_role** is the role an expression plays.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+          version: '2'
+      type: authoritative
+      id: systems_engineering_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: expression_role
+  domain: 'resource: systems_engineering_representation_schema'
+  language_code: eng
+  annotations: []
+id: b53aea8d-c239-537b-9b20-f08660470ea0

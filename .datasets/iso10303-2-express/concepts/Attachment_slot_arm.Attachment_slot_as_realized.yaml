@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_arm.Attachment_slot_as_realized
+  localized_concepts:
+    eng: bddabbf5-5f5e-5590-945a-205bf567ea48
+  domains:
+    - concept_id: section-Attachment_slot_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+      ref_type: section
+id: Attachment_slot_arm.Attachment_slot_as_realized
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot_version,Attachment_slot_version}} that represents the attachment slot as realized {{entity}}'
+  notes:
+    - content: An **Attachment_slot_as_realized** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot_version,Attachment_slot_version}} that identifies an individual that is a realized {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot,Attachment_slot}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Attachment_slot_as_realized
+  domain: 'application module: Attachment_slot_arm'
+  language_code: eng
+  annotations: []
+id: bddabbf5-5f5e-5590-945a-205bf567ea48

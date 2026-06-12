@@ -1,0 +1,31 @@
+data:
+  identifier: aic_associative_draughting_elements.annotation_occurrence_associativity
+  localized_concepts:
+    eng: 3a309713-4120-5e50-a3ae-7ea909af76c1
+  domains:
+    - concept_id: section-aic_associative_draughting_elements
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+      ref_type: section
+id: aic_associative_draughting_elements.annotation_occurrence_associativity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}} that represents the annotation occurrence associativity {{entity}}'
+  notes:
+    - content: An **annotation_occurrence_associativity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}} that relates an element of annotation to the leader or projection curve which visually directs information in the drawing to the element or to the fill area whose boundary is derived from the element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+          version: '3'
+      type: authoritative
+      id: aic_associative_draughting_elements
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: annotation_occurrence_associativity
+  domain: 'resource: aic_associative_draughting_elements'
+  language_code: eng
+  annotations: []
+id: 3a309713-4120-5e50-a3ae-7ea909af76c1

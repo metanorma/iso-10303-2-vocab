@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.explicit_composite_hole
+  localized_concepts:
+    eng: a21458f7-ed31-51b0-afba-7e400a427626
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.explicit_composite_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.composite_hole,composite_hole}} that represents the explicit composite hole {{entity}}'
+  notes:
+    - content: An **explicit_composite_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.composite_hole,composite_hole}} that includes the data elements locally rather than in a separate representation as specified in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.composite_hole,composite_hole}} supertype.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: explicit_composite_hole
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: a21458f7-ed31-51b0-afba-7e400a427626

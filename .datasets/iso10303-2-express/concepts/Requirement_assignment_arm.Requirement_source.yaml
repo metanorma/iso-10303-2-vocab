@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_arm.Requirement_source
+  localized_concepts:
+    eng: b3c201b1-fd74-502e-a139-f5b87816fc25
+  domains:
+    - concept_id: section-Requirement_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+      ref_type: section
+id: Requirement_assignment_arm.Requirement_source
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the requirement source {{entity}}'
+  notes:
+    - content: A **Requirement_source** is a relationship between a requirement (via the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} entity) and the data types representing the source of the requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement_source
+  domain: 'application module: Requirement_assignment_arm'
+  language_code: eng
+  annotations: []
+id: b3c201b1-fd74-502e-a139-f5b87816fc25

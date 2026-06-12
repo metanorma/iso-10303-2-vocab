@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_quality_inspection_result_schema.data_quality_inspection_criterion_report_item
+  localized_concepts:
+    eng: c1943d02-8007-5fab-909e-cf50af446fe5
+  domains:
+    - concept_id: section-product_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema
+      ref_type: section
+id: product_data_quality_inspection_result_schema.data_quality_inspection_criterion_report_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the data quality inspection criterion report item {{entity}}'
+  notes:
+    - content: A **data_quality_inspection_criterion_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents an integer value that implies {{number_of_inspected_instances,number_of_inspected_instances}} or {{number_of_quality_defects_detected,number_of_quality_defects_detected}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: product_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_quality_inspection_criterion_report_item
+  domain: 'resource: product_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: c1943d02-8007-5fab-909e-cf50af446fe5

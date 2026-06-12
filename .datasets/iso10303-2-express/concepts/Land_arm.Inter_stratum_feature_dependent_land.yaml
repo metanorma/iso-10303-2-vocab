@@ -1,0 +1,31 @@
+data:
+  identifier: Land_arm.Inter_stratum_feature_dependent_land
+  localized_concepts:
+    eng: 1e235296-b815-5021-a810-97288bad28f8
+  domains:
+    - concept_id: section-Land_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+      ref_type: section
+id: Land_arm.Inter_stratum_feature_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land,Land}} that represents the inter stratum feature dependent land {{entity}}'
+  notes:
+    - content: An **Inter_stratum_feature_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land,Land}} included in the design to provide mechanical support to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}} or included in the design to provide a connection to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+          version: '5'
+      type: authoritative
+      id: Land_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Inter_stratum_feature_dependent_land
+  domain: 'application module: Land_arm'
+  language_code: eng
+  annotations: []
+id: 1e235296-b815-5021-a810-97288bad28f8

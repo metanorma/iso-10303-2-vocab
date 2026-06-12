@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values
+  localized_concepts:
+    eng: 97e9e8f5-8062-5750-b235-33d8b766d58b
+  domains:
+    - concept_id: section-annotated_3d_model_equivalence_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+      ref_type: section
+id: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_inspection_requirement,data_equivalence_inspection_requirement}} that represents the a3m equivalence inspection requirement with values {{entity}}'
+  notes:
+    - content: An **a3m_equivalence_inspection_requirement_with_values** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_inspection_requirement,data_equivalence_inspection_requirement}} that has constraining information about inspection requirements, such as the maximum allowable tolerance for approximation and the tolerance for use in discretization.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+          version: '1'
+      type: authoritative
+      id: annotated_3d_model_equivalence_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_equivalence_inspection_requirement_with_values
+  domain: 'resource: annotated_3d_model_equivalence_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 97e9e8f5-8062-5750-b235-33d8b766d58b

@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Surface_texture_parameter
+  localized_concepts:
+    eng: 742c00c4-4512-58e6-9a65-2892af2e2d2f
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Surface_texture_parameter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface texture parameter {{entity}}'
+  notes:
+    - content: A **Surface_texture_parameter** is a detailed requirement of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_texture,Surface_texture}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface_texture_parameter
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 742c00c4-4512-58e6-9a65-2892af2e2d2f

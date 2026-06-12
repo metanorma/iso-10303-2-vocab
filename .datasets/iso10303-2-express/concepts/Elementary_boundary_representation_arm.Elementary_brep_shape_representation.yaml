@@ -1,0 +1,31 @@
+data:
+  identifier: Elementary_boundary_representation_arm.Elementary_brep_shape_representation
+  localized_concepts:
+    eng: a4c6e44c-67d9-546b-beb4-9bc79399997b
+  domains:
+    - concept_id: section-Elementary_boundary_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_boundary_representation_arm
+      ref_type: section
+id: Elementary_boundary_representation_arm.Elementary_brep_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the elementary brep shape representation {{entity}}'
+  notes:
+    - content: An **Elementary_brep_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} composed of one or more manifold solid breps each of which is defined with elementary geometry and complete explicit topology.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_boundary_representation_arm
+          version: '2'
+      type: authoritative
+      id: Elementary_boundary_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Elementary_brep_shape_representation
+  domain: 'application module: Elementary_boundary_representation_arm'
+  language_code: eng
+  annotations: []
+id: a4c6e44c-67d9-546b-beb4-9bc79399997b

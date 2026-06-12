@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.table_record_representation
+  localized_concepts:
+    eng: ac319312-73fa-5ec5-89f3-07cafc26f3cc
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.table_record_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that represents the table record representation {{entity}}'
+  notes:
+    - content: A **table_record_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} used for creating records within tables.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: table_record_representation
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: ac319312-73fa-5ec5-89f3-07cafc26f3cc

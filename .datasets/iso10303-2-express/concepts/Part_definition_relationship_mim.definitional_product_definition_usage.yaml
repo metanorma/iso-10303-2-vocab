@@ -1,0 +1,31 @@
+data:
+  identifier: Part_definition_relationship_mim.definitional_product_definition_usage
+  localized_concepts:
+    eng: 098d56aa-153c-5a1b-8334-ad089c404805
+  domains:
+    - concept_id: section-Part_definition_relationship_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_mim
+      ref_type: section
+id: Part_definition_relationship_mim.definitional_product_definition_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_usage,product_definition_usage}} that represents the definitional product definition usage {{entity}}'
+  notes:
+    - content: A **definitional_product_definition_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_usage,product_definition_usage}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm.Definitional_part_view_usage,Definitional_part_view_usage}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_mim
+          version: '3'
+      type: authoritative
+      id: Part_definition_relationship_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: definitional_product_definition_usage
+  domain: 'application module: Part_definition_relationship_mim'
+  language_code: eng
+  annotations: []
+id: 098d56aa-153c-5a1b-8334-ad089c404805

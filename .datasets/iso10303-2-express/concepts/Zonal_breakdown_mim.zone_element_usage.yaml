@@ -1,0 +1,31 @@
+data:
+  identifier: Zonal_breakdown_mim.zone_element_usage
+  localized_concepts:
+    eng: a0707ce5-8947-5f0c-a3e9-6b7ce49a4bc9
+  domains:
+    - concept_id: section-Zonal_breakdown_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
+      ref_type: section
+id: Zonal_breakdown_mim.zone_element_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_element_usage,breakdown_element_usage}} that represents the zone element usage {{entity}}'
+  notes:
+    - content: A **zone_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_element_usage,breakdown_element_usage}} that identifies the relationship between a parent and child zone element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
+          version: '1'
+      type: authoritative
+      id: Zonal_breakdown_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: zone_element_usage
+  domain: 'application module: Zonal_breakdown_mim'
+  language_code: eng
+  annotations: []
+id: a0707ce5-8947-5f0c-a3e9-6b7ce49a4bc9

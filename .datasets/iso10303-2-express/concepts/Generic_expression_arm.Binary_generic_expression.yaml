@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_expression_arm.Binary_generic_expression
+  localized_concepts:
+    eng: 5d0e17e9-83d7-5762-a74d-07859d276518
+  domains:
+    - concept_id: section-Generic_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+      ref_type: section
+id: Generic_expression_arm.Binary_generic_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} that represents the binary generic expression {{entity}}'
+  notes:
+    - content: A **Binary_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} and is the ABSTRACT SUPERTYPE of all the binary operators.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+          version: '3'
+      type: authoritative
+      id: Generic_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Binary_generic_expression
+  domain: 'application module: Generic_expression_arm'
+  language_code: eng
+  annotations: []
+id: 5d0e17e9-83d7-5762-a74d-07859d276518

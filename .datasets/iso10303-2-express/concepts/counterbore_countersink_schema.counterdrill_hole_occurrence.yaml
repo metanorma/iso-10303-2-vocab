@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.counterdrill_hole_occurrence
+  localized_concepts:
+    eng: c1e1029a-607f-5cc9-b962-34172b0f1016
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.counterdrill_hole_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that represents the counterdrill hole occurrence {{entity}}'
+  notes:
+    - content: A **counterdrill_hole_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that is an application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterdrill_hole_definition,counterdrill_hole_definition}} in a design definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: counterdrill_hole_occurrence
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: c1e1029a-607f-5cc9-b962-34172b0f1016

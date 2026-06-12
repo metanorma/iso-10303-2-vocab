@@ -1,0 +1,31 @@
+data:
+  identifier: Planned_characteristic_arm.Planned_characteristic
+  localized_concepts:
+    eng: 079b26ac-71f6-536d-b702-c972514a5982
+  domains:
+    - concept_id: section-Planned_characteristic_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+      ref_type: section
+id: Planned_characteristic_arm.Planned_characteristic
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the planned characteristic {{entity}}'
+  notes:
+    - content: A **Planned_characteristic** is a means to associate design intent information based on manufacturing capabilities and component characteristics with an allocated requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+          version: '4'
+      type: authoritative
+      id: Planned_characteristic_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Planned_characteristic
+  domain: 'application module: Planned_characteristic_arm'
+  language_code: eng
+  annotations: []
+id: 079b26ac-71f6-536d-b702-c972514a5982

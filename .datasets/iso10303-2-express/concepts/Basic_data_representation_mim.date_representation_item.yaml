@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_mim.date_representation_item
+  localized_concepts:
+    eng: b18e1984-b00c-50f9-a735-ac8682858ef2
+  domains:
+    - concept_id: section-Basic_data_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+      ref_type: section
+id: Basic_data_representation_mim.date_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date representation item {{entity}}'
+  notes:
+    - content: A **date_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Date_time_representation_item,Date_time_representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: date_representation_item
+  domain: 'application module: Basic_data_representation_mim'
+  language_code: eng
+  annotations: []
+id: b18e1984-b00c-50f9-a735-ac8682858ef2

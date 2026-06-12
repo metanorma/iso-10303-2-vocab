@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_arm.Collection
+  localized_concepts:
+    eng: 54a568b5-556e-5208-aeee-d0a56e11915d
+  domains:
+    - concept_id: section-Collection_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+      ref_type: section
+id: Collection_identification_and_version_arm.Collection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the collection {{entity}}'
+  notes:
+    - content: An **Collection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that identifies a set of data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Collection
+  domain: 'application module: Collection_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 54a568b5-556e-5208-aeee-d0a56e11915d

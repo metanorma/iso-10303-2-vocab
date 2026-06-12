@@ -1,0 +1,31 @@
+data:
+  identifier: Process_plan_arm.Product_version_resource
+  localized_concepts:
+    eng: 167d9a7e-b57c-5343-9017-5e57035a3f18
+  domains:
+    - concept_id: section-Process_plan_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+      ref_type: section
+id: Process_plan_arm.Product_version_resource
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product version resource {{entity}}'
+  notes:
+    - content: A **Product_version_resource** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that also specifies a resource for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_plan,Process_plan}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+          version: '4'
+      type: authoritative
+      id: Process_plan_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_version_resource
+  domain: 'application module: Process_plan_arm'
+  language_code: eng
+  annotations: []
+id: 167d9a7e-b57c-5343-9017-5e57035a3f18

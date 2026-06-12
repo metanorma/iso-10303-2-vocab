@@ -1,0 +1,31 @@
+data:
+  identifier: Identification_assignment_arm.Identification_assignment
+  localized_concepts:
+    eng: 31bd8370-51c8-5b9f-8c37-05545215d4ce
+  domains:
+    - concept_id: section-Identification_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_arm
+      ref_type: section
+id: Identification_assignment_arm.Identification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the identification assignment {{entity}}'
+  notes:
+    - content: An **Identification_assignment** is the assignment of an identifier to product or activity data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_arm
+          version: '2'
+      type: authoritative
+      id: Identification_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Identification_assignment
+  domain: 'application module: Identification_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 31bd8370-51c8-5b9f-8c37-05545215d4ce

@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Protrusion
+  localized_concepts:
+    eng: 95c2164a-36cc-5f97-8e4b-cf1a139f0b16
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Protrusion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that represents the protrusion {{entity}}'
+  notes:
+    - content: A **Protrusion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that is an arbitrary shape that extends out from a surrounding surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Protrusion
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 95c2164a-36cc-5f97-8e4b-cf1a139f0b16

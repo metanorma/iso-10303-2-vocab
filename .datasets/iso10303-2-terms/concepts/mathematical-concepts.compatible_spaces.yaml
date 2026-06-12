@@ -1,0 +1,27 @@
+---
+data:
+  identifier: mathematical-concepts.compatible_spaces
+  localized_concepts:
+    eng: e7c62f87-9565-5526-994d-6fc101304f74
+  domains:
+  - concept_id: section-mathematical-concepts
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 81883ee3-7e15-5a7e-93b3-5aadb3435324
+schema_version: v3
+---
+data:
+  definition:
+  - content: mathematical spaces whose intersection is not determined to be empty
+      by the algorithm represented by the EXPRESS function *compatible_spaces*
+  notes:
+  - content: Two spaces are compatible if their intersection is not "obviously" empty.
+      In practice, "obvious" is defined by what is detected by the algorithm. The
+      purpose is to rule out some obvious nonsense while permitting ignorance.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: compatible spaces
+  language_code: eng
+  annotations: []
+id: e7c62f87-9565-5526-994d-6fc101304f74

@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_constraint_schema.free_form_relation
+  localized_concepts:
+    eng: 5e577656-d80f-50c1-9562-8352d4efed0b
+  domains:
+    - concept_id: section-explicit_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+      ref_type: section
+id: explicit_constraint_schema.free_form_relation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.free_form_constraint,free_form_constraint}} that represents the free form relation {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.free_form_relation,free_form_relation}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.free_form_constraint,free_form_constraint}} representing a `BOOLEAN`-valued relation between the values of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.variational_parameter,variational_parameter}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: free_form_relation
+  domain: 'resource: explicit_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 5e577656-d80f-50c1-9562-8352d4efed0b

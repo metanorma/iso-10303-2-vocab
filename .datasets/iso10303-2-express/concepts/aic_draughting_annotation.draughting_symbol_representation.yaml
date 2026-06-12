@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_annotation.draughting_symbol_representation
+  localized_concepts:
+    eng: 3f9b334c-841c-58ce-9d39-fdb4aa2a2460
+  domains:
+    - concept_id: section-aic_draughting_annotation
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+      ref_type: section
+id: aic_draughting_annotation.draughting_symbol_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that represents the draughting symbol representation {{entity}}'
+  notes:
+    - content: A **draughting_symbol_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that collects {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_curve_occurrence,annotation_curve_occurrence}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text_occurrence,annotation_text_occurrence}}, and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_fill_area_occurrence,annotation_fill_area_occurrence}} as the definition of a symbol.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+          version: '2'
+      type: authoritative
+      id: aic_draughting_annotation
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_symbol_representation
+  domain: 'resource: aic_draughting_annotation'
+  language_code: eng
+  annotations: []
+id: 3f9b334c-841c-58ce-9d39-fdb4aa2a2460

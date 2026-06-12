@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.ellipse
+  localized_concepts:
+    eng: e6944a5d-f917-51f2-887a-6a237f8421a2
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.ellipse
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.conic,conic}} that represents the ellipse {{entity}}'
+  notes:
+    - content: An **ellipse** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.conic,conic}}, section defined by the lengths of the semi-major and semi-minor diameters and the position (center or mid point of the line joining the foci) and orientation of the curve.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ellipse
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: e6944a5d-f917-51f2-887a-6a237f8421a2

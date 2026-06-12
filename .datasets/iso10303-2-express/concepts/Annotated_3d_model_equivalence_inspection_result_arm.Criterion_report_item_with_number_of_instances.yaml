@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_equivalence_inspection_result_arm.Criterion_report_item_with_number_of_instances
+  localized_concepts:
+    eng: e80d154f-5143-52a0-8923-2fcb4b895f45
+  domains:
+    - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+      ref_type: section
+id: Annotated_3d_model_equivalence_inspection_result_arm.Criterion_report_item_with_number_of_instances
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_criterion_report_item,A3m_equivalence_inspection_criterion_report_item}} that represents the criterion report item with number of instances {{entity}}'
+  notes:
+    - content: A **Criterion_report_item_with_number_of_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_criterion_report_item,A3m_equivalence_inspection_criterion_report_item}} that includes a {{count_measure,count_measure}} that implies {{number_of_inspections,number_of_inspections}} or {{number_of_defects,number_of_defects}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_equivalence_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Criterion_report_item_with_number_of_instances
+  domain: 'application module: Annotated_3d_model_equivalence_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: e80d154f-5143-52a0-8923-2fcb4b895f45

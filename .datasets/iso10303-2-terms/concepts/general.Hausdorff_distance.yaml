@@ -1,0 +1,39 @@
+---
+data:
+  identifier: general.Hausdorff_distance
+  localized_concepts:
+    eng: c4f2fb8a-adaf-5ed1-99b6-1860a16ae520
+  domains:
+  - concept_id: section-general
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: f35d452d-a045-564b-8b05-25098af90f09
+schema_version: v3
+---
+data:
+  definition:
+  - content: |
+      distance that measures how far apart are the two sets of points stem:[A]
+      and stem:[B] in:
+
+      [stem%unnumbered]
+      ++++
+      H(A,B) = max{ h(A, B), h(B,A) }
+      ++++
+
+      [%key]
+      stem:[h(A,B)]:: is the directed Hausdorff distance from
+        stem:[A] to stem:[B], stem:[max_{a in A} { min_{b in B} {d(a,b)} }]
+      stem:[A]:: stem:[{ a_{1}, ..., a_{m} }]
+      stem:[B]:: stem:[{ b_{1}, ..., b_{m} }]
+      stem:[d(a,b)]:: is the {{Euclidean distance}} between the points stem:[a] and stem:[b]
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hausdorff distance
+  - type: expression
+    normative_status: admitted
+    designation: HH
+  language_code: eng
+  annotations: []
+id: c4f2fb8a-adaf-5ed1-99b6-1860a16ae520

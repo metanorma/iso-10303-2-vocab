@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_simple_template_arm.Electrical_isolation_removal_template
+  localized_concepts:
+    eng: bdc4623c-c0a4-59fd-bca2-dc849c23e061
+  domains:
+    - concept_id: section-Layered_interconnect_simple_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+      ref_type: section
+id: Layered_interconnect_simple_template_arm.Electrical_isolation_removal_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Material_removal_feature_template,Material_removal_feature_template}} that represents the electrical isolation removal template {{entity}}'
+  notes:
+    - content: An **Electrical_isolation_removal_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Material_removal_feature_template,Material_removal_feature_template}} that describes the shape of material to be removed from a feature in a design when that template is instantiated in the design to achieve electrical isolation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_simple_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Electrical_isolation_removal_template
+  domain: 'application module: Layered_interconnect_simple_template_arm'
+  language_code: eng
+  annotations: []
+id: bdc4623c-c0a4-59fd-bca2-dc849c23e061

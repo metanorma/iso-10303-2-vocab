@@ -1,0 +1,36 @@
+data:
+  identifier: Mesh_function_arm.Mesh_function
+  localized_concepts:
+    eng: d3210590-7d27-551c-bd3d-a4b8be7c516b
+  domains:
+    - concept_id: section-Mesh_function_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
+      ref_type: section
+id: Mesh_function_arm.Mesh_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh function {{entity}}'
+  notes:
+    - content: |-
+        A **Mesh_function** is an application defined function that:
+
+        * has a domain that consists of a table of real tuple spaces; The table is a one dimensional array for an unstructured mesh, but can be a rectangular array of any dimension for a structured mesh.The real tuples can have different dimensions, if the mesh contains cells of different dimensions.The real tuple spaces can have different bounds, if the mesh contains cells of different shape, such as wedges and hexhedra.
+        * has a set of control values, such that the function within each cell is determined by a subset of the control values and basis for that cell. The assignment of control values to cells is determined by the topology of the mesh.A control value is usually, but not necessarily, the value of the function at a position within the mesh
+        * interpolates or extrapolates separately within each cell from the control values assigned to that cell.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
+          version: '1'
+      type: authoritative
+      id: Mesh_function_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mesh_function
+  domain: 'application module: Mesh_function_arm'
+  language_code: eng
+  annotations: []
+id: d3210590-7d27-551c-bd3d-a4b8be7c516b

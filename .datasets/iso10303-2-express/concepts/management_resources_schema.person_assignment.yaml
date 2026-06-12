@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.person_assignment
+  localized_concepts:
+    eng: 3eafd116-eda0-5289-bfcf-cd4684eff773
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.person_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person assignment {{entity}}'
+  notes:
+    - content: A **person_assignment** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person,person}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: person_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 3eafd116-eda0-5289-bfcf-cd4684eff773

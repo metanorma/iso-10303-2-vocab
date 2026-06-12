@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Nodal_results_coordinate_system
+  localized_concepts:
+    eng: a6a95609-fe78-5048-ba01-4201b1649667
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Nodal_results_coordinate_system
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the nodal results coordinate system {{entity}}'
+  notes:
+    - content: A **Nodal_results_coordinate_system** is the coordinate system for the node analysis variables in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Nodal_results_coordinate_system
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: a6a95609-fe78-5048-ba01-4201b1649667

@@ -1,0 +1,31 @@
+data:
+  identifier: Product_occurrence_arm.Definition_based_product_occurrence
+  localized_concepts:
+    eng: 7e76720d-9b36-538c-908e-8808ece89642
+  domains:
+    - concept_id: section-Product_occurrence_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+      ref_type: section
+id: Product_occurrence_arm.Definition_based_product_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that represents the definition based product occurrence {{entity}}'
+  notes:
+    - content: A **Definition_based_product_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that uses another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} of the same {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} as its definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+          version: '5'
+      type: authoritative
+      id: Product_occurrence_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Definition_based_product_occurrence
+  domain: 'application module: Product_occurrence_arm'
+  language_code: eng
+  annotations: []
+id: 7e76720d-9b36-538c-908e-8808ece89642

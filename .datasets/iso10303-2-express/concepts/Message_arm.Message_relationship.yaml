@@ -1,0 +1,31 @@
+data:
+  identifier: Message_arm.Message_relationship
+  localized_concepts:
+    eng: 94547ef6-436b-5f51-88a1-fd8ad61924aa
+  domains:
+    - concept_id: section-Message_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+      ref_type: section
+id: Message_arm.Message_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the message relationship {{entity}}'
+  notes:
+    - content: A **Message_relationship** is a link between two related messages.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+          version: '2'
+      type: authoritative
+      id: Message_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Message_relationship
+  domain: 'application module: Message_arm'
+  language_code: eng
+  annotations: []
+id: 94547ef6-436b-5f51-88a1-fd8ad61924aa

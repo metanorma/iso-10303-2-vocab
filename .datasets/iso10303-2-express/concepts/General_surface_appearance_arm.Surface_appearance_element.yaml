@@ -1,0 +1,31 @@
+data:
+  identifier: General_surface_appearance_arm.Surface_appearance_element
+  localized_concepts:
+    eng: cd308e3f-9b29-5a78-b70b-47f2e1a987b0
+  domains:
+    - concept_id: section-General_surface_appearance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+      ref_type: section
+id: General_surface_appearance_arm.Surface_appearance_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface appearance element {{entity}}'
+  notes:
+    - content: A **Surface_appearance_element** is either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_related_curve_appearance,Surface_related_curve_appearance}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_colour,Surface_colour}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+          version: '3'
+      type: authoritative
+      id: General_surface_appearance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface_appearance_element
+  domain: 'application module: General_surface_appearance_arm'
+  language_code: eng
+  annotations: []
+id: cd308e3f-9b29-5a78-b70b-47f2e1a987b0

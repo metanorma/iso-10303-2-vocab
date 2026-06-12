@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Connection_zone_package_interface_plane_relationship
+  localized_concepts:
+    eng: f72ddb6d-9731-5079-b15f-6bc36d475e15
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Connection_zone_package_interface_plane_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the connection zone package interface plane relationship {{entity}}'
+  notes:
+    - content: A **Connection_zone_package_interface_plane_relationship** is a mechanism to establish a derived relationship declaration between two connection areas using a common plane as the interface declaration.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Connection_zone_package_interface_plane_relationship
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: f72ddb6d-9731-5079-b15f-6bc36d475e15

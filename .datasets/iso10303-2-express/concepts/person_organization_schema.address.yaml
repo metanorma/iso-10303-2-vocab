@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.address
+  localized_concepts:
+    eng: 205f8ebf-e42b-55ba-aa58-86f7aace63fb
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.address
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the address {{entity}}'
+  notes:
+    - content: An **address** is the information necessary for communicating, using one or more communication methods.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: address
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: 205f8ebf-e42b-55ba-aa58-86f7aace63fb

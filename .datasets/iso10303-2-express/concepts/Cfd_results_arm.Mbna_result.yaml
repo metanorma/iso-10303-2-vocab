@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_results_arm.Mbna_result
+  localized_concepts:
+    eng: 2f7fdada-cfa9-51f5-b71f-630109479450
+  domains:
+    - concept_id: section-Cfd_results_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+      ref_type: section
+id: Cfd_results_arm.Mbna_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_property_distribution,Model_property_distribution}} that represents the mbna result {{entity}}'
+  notes:
+    - content: A **Mbna_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_property_distribution,Model_property_distribution}} that represents the concept of a solution to an analysis problem and/or other data resulting from an analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_results_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_result
+  domain: 'application module: Cfd_results_arm'
+  language_code: eng
+  annotations: []
+id: 2f7fdada-cfa9-51f5-b71f-630109479450

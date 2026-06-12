@@ -1,0 +1,31 @@
+data:
+  identifier: Information_product_arm.Information_definition
+  localized_concepts:
+    eng: 866e1653-5ff3-5c7d-b07c-34c5b7c03c83
+  domains:
+    - concept_id: section-Information_product_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm
+      ref_type: section
+id: Information_product_arm.Information_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the information definition {{entity}}'
+  notes:
+    - content: An **Information_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that collects the definitional information of the versions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm
+          version: '2'
+      type: authoritative
+      id: Information_product_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Information_definition
+  domain: 'application module: Information_product_arm'
+  language_code: eng
+  annotations: []
+id: 866e1653-5ff3-5c7d-b07c-34c5b7c03c83

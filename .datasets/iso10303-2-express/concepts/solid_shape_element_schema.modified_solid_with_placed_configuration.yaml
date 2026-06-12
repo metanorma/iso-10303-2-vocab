@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.modified_solid_with_placed_configuration
+  localized_concepts:
+    eng: f41228a0-7746-5d41-84bd-375471cee5d4
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.modified_solid_with_placed_configuration
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.modified_solid,modified_solid}} that represents the modified solid with placed configuration {{entity}}'
+  notes:
+    - content: A *modified_solid_with_placed_configuration* is a type of *modified_solid* in which a local shape configuration is positioned and oriented by means of an *axis_placement* rather than (as in the case of earlier entities in this schema) with respect to elements of the base solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: modified_solid_with_placed_configuration
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: f41228a0-7746-5d41-84bd-375471cee5d4

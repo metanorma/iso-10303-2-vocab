@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_2d_shape_arm.Planar_shape_model
+  localized_concepts:
+    eng: a6377ec7-4373-5ba9-83bb-33fe0d63bc13
+  domains:
+    - concept_id: section-Layered_2d_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_2d_shape_arm
+      ref_type: section
+id: Layered_2d_shape_arm.Planar_shape_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the planar shape model {{entity}}'
+  notes:
+    - content: A **Planar_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that lies on a two-dimensional plane.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_2d_shape_arm
+          version: '3'
+      type: authoritative
+      id: Layered_2d_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Planar_shape_model
+  domain: 'application module: Layered_2d_shape_arm'
+  language_code: eng
+  annotations: []
+id: a6377ec7-4373-5ba9-83bb-33fe0d63bc13

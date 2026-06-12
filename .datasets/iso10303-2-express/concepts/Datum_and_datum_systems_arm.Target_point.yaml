@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_and_datum_systems_arm.Target_point
+  localized_concepts:
+    eng: 4698b895-9cd2-5d21-aa81-2d7ba3007065
+  domains:
+    - concept_id: section-Datum_and_datum_systems_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+      ref_type: section
+id: Datum_and_datum_systems_arm.Target_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}} that represents the target point {{entity}}'
+  notes:
+    - content: A **Target_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}} that specifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_target,Datum_target}} that is defined by a single implicit point.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+          version: '1'
+      type: authoritative
+      id: Datum_and_datum_systems_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Target_point
+  domain: 'application module: Datum_and_datum_systems_arm'
+  language_code: eng
+  annotations: []
+id: 4698b895-9cd2-5d21-aa81-2d7ba3007065

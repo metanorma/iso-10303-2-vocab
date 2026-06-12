@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_mim.connection_zone_based_assembly_joint
+  localized_concepts:
+    eng: d54da34e-2aa8-5e2e-b4de-ce5a528a3f9a
+  domains:
+    - concept_id: section-Assembly_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+      ref_type: section
+id: Assembly_technology_mim.connection_zone_based_assembly_joint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim.assembly_joint,assembly_joint}} that represents the connection zone based assembly joint {{entity}}'
+  notes:
+    - content: A **connection_zone_based_assembly_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim.assembly_joint,assembly_joint}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Connection_zone_based_assembly_joint,Connection_zone_based_assembly_joint}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: connection_zone_based_assembly_joint
+  domain: 'application module: Assembly_technology_mim'
+  language_code: eng
+  annotations: []
+id: d54da34e-2aa8-5e2e-b4de-ce5a528a3f9a

@@ -1,0 +1,31 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.element_nodal_freedom_terms
+  localized_concepts:
+    eng: f8ffc12b-9540-551d-9adf-ae8c99e1e494
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.element_nodal_freedom_terms
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element nodal freedom terms {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.element_nodal_freedom_terms,element_nodal_freedom_terms}} is a list of degrees of freedom and corresponding values at a node of an element, and a reference coordinate system in which the values are defined.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: element_nodal_freedom_terms
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: f8ffc12b-9540-551d-9adf-ae8c99e1e494

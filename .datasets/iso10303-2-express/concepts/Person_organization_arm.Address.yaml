@@ -1,0 +1,31 @@
+data:
+  identifier: Person_organization_arm.Address
+  localized_concepts:
+    eng: c44ed4de-94eb-5095-89bb-138919f4d18a
+  domains:
+    - concept_id: section-Person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+      ref_type: section
+id: Person_organization_arm.Address
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the address {{entity}}'
+  notes:
+    - content: An **Address** is the information that locate persons or organizations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Address
+  domain: 'application module: Person_organization_arm'
+  language_code: eng
+  annotations: []
+id: c44ed4de-94eb-5095-89bb-138919f4d18a

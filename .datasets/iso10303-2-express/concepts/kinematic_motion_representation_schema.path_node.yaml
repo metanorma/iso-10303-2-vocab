@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_motion_representation_schema.path_node
+  localized_concepts:
+    eng: 078c3bc0-40b4-5cc0-aceb-02e32d0f30f0
+  domains:
+    - concept_id: section-kinematic_motion_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+      ref_type: section
+id: kinematic_motion_representation_schema.path_node
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path_segment,kinematic_path_segment}} that represents the path node {{entity}}'
+  notes:
+    - content: A **path_node** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path_segment,kinematic_path_segment}} that is a constituent of a path definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+          version: '5'
+      type: authoritative
+      id: kinematic_motion_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: path_node
+  domain: 'resource: kinematic_motion_representation_schema'
+  language_code: eng
+  annotations: []
+id: 078c3bc0-40b4-5cc0-aceb-02e32d0f30f0

@@ -1,0 +1,31 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.specified_state
+  localized_concepts:
+    eng: 1fd1304f-fd79-5f71-96d4-2586d7532f10
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.specified_state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}} that represents the specified state {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.specified_state,specified_state}} is all the information for the state that is specified, and that none of it is the result of a previous calculation represented within the information model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: specified_state
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: 1fd1304f-fd79-5f71-96d4-2586d7532f10

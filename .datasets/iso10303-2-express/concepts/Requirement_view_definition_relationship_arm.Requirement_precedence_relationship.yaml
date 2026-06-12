@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_view_definition_relationship_arm.Requirement_precedence_relationship
+  localized_concepts:
+    eng: 5c216d59-079a-5894-88fe-866a7745a123
+  domains:
+    - concept_id: section-Requirement_view_definition_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+      ref_type: section
+id: Requirement_view_definition_relationship_arm.Requirement_precedence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} that represents the requirement precedence relationship {{entity}}'
+  notes:
+    - content: A **Requirement_precedence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} where the related {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} has higher priority than the relating {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_view_definition_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement_precedence_relationship
+  domain: 'application module: Requirement_view_definition_relationship_arm'
+  language_code: eng
+  annotations: []
+id: 5c216d59-079a-5894-88fe-866a7745a123

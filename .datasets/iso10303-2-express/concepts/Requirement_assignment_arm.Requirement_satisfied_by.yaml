@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_arm.Requirement_satisfied_by
+  localized_concepts:
+    eng: caee575b-ff62-5879-a403-4b9537655ad6
+  domains:
+    - concept_id: section-Requirement_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+      ref_type: section
+id: Requirement_assignment_arm.Requirement_satisfied_by
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the requirement satisfied by {{entity}}'
+  notes:
+    - content: A **Requirement_satisfied_by** is a relationship between an item (specified in {{requirement_satisfaction_item,requirement_satisfaction_item}}) and a requirement, asserting that the item satisfies the identified requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement_satisfied_by
+  domain: 'application module: Requirement_assignment_arm'
+  language_code: eng
+  annotations: []
+id: caee575b-ff62-5879-a403-4b9537655ad6

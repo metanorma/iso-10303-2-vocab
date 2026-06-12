@@ -1,0 +1,31 @@
+data:
+  identifier: shape_data_quality_inspection_result_schema.extreme_instance
+  localized_concepts:
+    eng: d41642e5-5ba5-55a3-a49b-90516f407bc7
+  domains:
+    - concept_id: section-shape_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+      ref_type: section
+id: shape_data_quality_inspection_result_schema.extreme_instance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the extreme instance {{entity}}'
+  notes:
+    - content: An **extreme_instance** is the representation of a pair of extreme measured value and related location information where it was detected.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extreme_instance
+  domain: 'resource: shape_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: d41642e5-5ba5-55a3-a49b-90516f407bc7

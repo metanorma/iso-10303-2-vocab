@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.sketch_transform_scale
+  localized_concepts:
+    eng: 5cc4dae8-19d1-5cf0-b27d-f398b07e328f
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.sketch_transform_scale
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_operate_transform,sketch_operate_transform}} that represents the sketch transform scale {{entity}}'
+  notes:
+    - content: A *sketch_transform_scale* is a type of *sketch_operate_transform* that applies a scaling transformation to the selected objects, in the plane of the sketch.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: sketch_transform_scale
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 5cc4dae8-19d1-5cf0-b27d-f398b07e328f

@@ -1,0 +1,31 @@
+data:
+  identifier: Person_organization_arm.Organization_relationship
+  localized_concepts:
+    eng: eb46693f-04e7-59d7-b02d-dae3d1d1b097
+  domains:
+    - concept_id: section-Person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+      ref_type: section
+id: Person_organization_arm.Organization_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization relationship {{entity}}'
+  notes:
+    - content: An **Organization_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Organization_relationship
+  domain: 'application module: Person_organization_arm'
+  language_code: eng
+  annotations: []
+id: eb46693f-04e7-59d7-b02d-dae3d1d1b097

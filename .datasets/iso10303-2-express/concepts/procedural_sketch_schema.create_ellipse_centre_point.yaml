@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_ellipse_centre_point
+  localized_concepts:
+    eng: 33470009-90b6-50d4-b640-b5c2df43a23f
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_ellipse_centre_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_ellipse,create_ellipse}} that represents the create ellipse centre point {{entity}}'
+  notes:
+    - content: A *create_ellipse_centre_point* is a type of *create_ellipse* that creates an ellipse in terms of a centre point and two points lying on the ellipse.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_ellipse_centre_point
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 33470009-90b6-50d4-b640-b5c2df43a23f

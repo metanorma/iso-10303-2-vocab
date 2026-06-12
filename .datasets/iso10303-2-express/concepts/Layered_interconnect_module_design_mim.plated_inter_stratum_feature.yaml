@@ -1,0 +1,38 @@
+data:
+  identifier: Layered_interconnect_module_design_mim.plated_inter_stratum_feature
+  localized_concepts:
+    eng: 4ac0b6f2-8e32-5a22-8857-88b73a89e496
+  domains:
+    - concept_id: section-Layered_interconnect_module_design_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+      ref_type: section
+id: Layered_interconnect_module_design_mim.plated_inter_stratum_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.inter_stratum_feature,inter_stratum_feature}} that represents the plated inter stratum feature {{entity}}'
+  notes:
+    - content: |-
+        A **plated_inter_stratum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.inter_stratum_feature,inter_stratum_feature}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_join_implementation,Inter_stratum_join_implementation}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Physical_network_supporting_inter_stratum_feature,Physical_network_supporting_inter_stratum_feature}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Plated_cutout,Plated_cutout}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Plated_inter_stratum_feature,Plated_inter_stratum_feature}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Plated_interconnect_module_edge,Plated_interconnect_module_edge}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_module_design_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: plated_inter_stratum_feature
+  domain: 'application module: Layered_interconnect_module_design_mim'
+  language_code: eng
+  annotations: []
+id: 4ac0b6f2-8e32-5a22-8857-88b73a89e496

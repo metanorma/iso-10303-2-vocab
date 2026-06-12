@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Equivalent_sub_stack_definition
+  localized_concepts:
+    eng: 24b6bd5a-e877-57d6-a1bf-6df7052226b3
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Equivalent_sub_stack_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the equivalent sub stack definition {{entity}}'
+  notes:
+    - content: An **Equivalent_sub_stack_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that specifies the equivalence of a subset of a more generic stackup to a subset of a more detailed stackup.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Equivalent_sub_stack_definition
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 24b6bd5a-e877-57d6-a1bf-6df7052226b3

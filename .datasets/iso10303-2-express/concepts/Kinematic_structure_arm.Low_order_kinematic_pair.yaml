@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Low_order_kinematic_pair
+  localized_concepts:
+    eng: cfefee26-e088-52ad-8d74-b64a5a17befe
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Low_order_kinematic_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} that represents the low order kinematic pair {{entity}}'
+  notes:
+    - content: A **Low_order_kinematic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} whose motion is constraint by simple translation or rotational parameters.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Low_order_kinematic_pair
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: cfefee26-e088-52ad-8d74-b64a5a17befe

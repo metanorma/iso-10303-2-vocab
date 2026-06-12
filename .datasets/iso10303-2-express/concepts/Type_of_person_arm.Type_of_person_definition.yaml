@@ -1,0 +1,31 @@
+data:
+  identifier: Type_of_person_arm.Type_of_person_definition
+  localized_concepts:
+    eng: 2a0b4dbd-fa8d-58af-9bb2-f96c17eba09a
+  domains:
+    - concept_id: section-Type_of_person_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+      ref_type: section
+id: Type_of_person_arm.Type_of_person_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the type of person definition {{entity}}'
+  notes:
+    - content: A **Type_of_person_definition** is the definition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm.Type_of_person,Type_of_person}} in terms of required properties or attributes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+          version: '1'
+      type: authoritative
+      id: Type_of_person_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Type_of_person_definition
+  domain: 'application module: Type_of_person_arm'
+  language_code: eng
+  annotations: []
+id: 2a0b4dbd-fa8d-58af-9bb2-f96c17eba09a

@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Directed_or_oriented_tolerance_zone
+  localized_concepts:
+    eng: 1f5587f9-68a3-5743-ae60-359b077c60d4
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Directed_or_oriented_tolerance_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone,Tolerance_zone}} that represents the directed or oriented tolerance zone {{entity}}'
+  notes:
+    - content: A **Directed_or_oriented_tolerance_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone,Tolerance_zone}} that includes additional direction or orientation information for the tolerance zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Directed_or_oriented_tolerance_zone
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 1f5587f9-68a3-5743-ae60-359b077c60d4

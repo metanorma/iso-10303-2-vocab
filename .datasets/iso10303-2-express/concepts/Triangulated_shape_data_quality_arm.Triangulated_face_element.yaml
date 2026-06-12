@@ -1,0 +1,33 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Triangulated_face_element
+  localized_concepts:
+    eng: 2e2bbba9-0f03-5722-9ea9-031b2dc9a12b
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Triangulated_face_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the triangulated face element {{entity}}'
+  notes:
+    - content: |-
+        A **Triangulated_face_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is a supertype of entities for representing the partial element(s) of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Triangulated_face,Triangulated_face}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Triangulated_face_element
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: 2e2bbba9-0f03-5722-9ea9-031b2dc9a12b

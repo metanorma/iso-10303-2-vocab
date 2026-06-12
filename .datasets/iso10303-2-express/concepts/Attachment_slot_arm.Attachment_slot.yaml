@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_arm.Attachment_slot
+  localized_concepts:
+    eng: 976232e3-635b-54c3-9509-95e42d0523f2
+  domains:
+    - concept_id: section-Attachment_slot_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+      ref_type: section
+id: Attachment_slot_arm.Attachment_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the attachment slot {{entity}}'
+  notes:
+    - content: An **Attachment_slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the position in which a part is or can be attached to a parent product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Attachment_slot
+  domain: 'application module: Attachment_slot_arm'
+  language_code: eng
+  annotations: []
+id: 976232e3-635b-54c3-9509-95e42d0523f2

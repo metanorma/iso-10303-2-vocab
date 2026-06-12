@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.triangulated_surface_set
+  localized_concepts:
+    eng: 3e6ec341-ac2b-5edf-966a-d473f469c20c
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.triangulated_surface_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_surface_set,tessellated_surface_set}} that represents the triangulated surface set {{entity}}'
+  notes:
+    - content: A **triangulated_surface_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_surface_set,tessellated_surface_set}} defining the geometry of the surface set as a set of triangles.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: triangulated_surface_set
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 3e6ec341-ac2b-5edf-966a-d473f469c20c

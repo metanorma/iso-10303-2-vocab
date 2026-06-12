@@ -1,0 +1,31 @@
+data:
+  identifier: Feature_and_connection_zone_arm.Feature_definition_with_connection_area
+  localized_concepts:
+    eng: 1964cfee-b0ad-5793-9502-d1fa77e0b0dd
+  domains:
+    - concept_id: section-Feature_and_connection_zone_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm
+      ref_type: section
+id: Feature_and_connection_zone_arm.Feature_definition_with_connection_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that represents the feature definition with connection area {{entity}}'
+  notes:
+    - content: A **Feature_definition_with_connection_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that specifies one or more areas on the feature that may be attachment areas when used in a realization.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm
+          version: '5'
+      type: authoritative
+      id: Feature_and_connection_zone_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Feature_definition_with_connection_area
+  domain: 'application module: Feature_and_connection_zone_arm'
+  language_code: eng
+  annotations: []
+id: 1964cfee-b0ad-5793-9502-d1fa77e0b0dd

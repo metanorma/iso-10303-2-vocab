@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_decomposition_arm.View_based_constraint_occurrence
+  localized_concepts:
+    eng: 5917a587-bf37-5648-9e7a-d51b421fcbd1
+  domains:
+    - concept_id: section-Requirement_decomposition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+      ref_type: section
+id: Requirement_decomposition_arm.View_based_constraint_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Constraint_occurrence,Constraint_occurrence}} that represents the view based constraint occurrence {{entity}}'
+  notes:
+    - content: A **View_based_constraint_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Constraint_occurrence,Constraint_occurrence}} that has a basis in the characteristics of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_decomposition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: View_based_constraint_occurrence
+  domain: 'application module: Requirement_decomposition_arm'
+  language_code: eng
+  annotations: []
+id: 5917a587-bf37-5648-9e7a-d51b421fcbd1

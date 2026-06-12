@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Defined_gear
+  localized_concepts:
+    eng: 086b4845-6367-55f7-b723-65908273fbb2
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Defined_gear
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Gear,Gear}} that represents the defined gear {{entity}}'
+  notes:
+    - content: A **Defined_gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Gear,Gear}} that is specified explicitly, all attributes for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Gear,Gear}} are declared and defined.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Defined_gear
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 086b4845-6367-55f7-b723-65908273fbb2

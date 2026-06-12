@@ -1,0 +1,31 @@
+data:
+  identifier: Foundation_state_definition_arm.State_definition_role
+  localized_concepts:
+    eng: eb2b1fd0-e8bd-5e92-b43c-2df5af682b6c
+  domains:
+    - concept_id: section-Foundation_state_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+      ref_type: section
+id: Foundation_state_definition_arm.State_definition_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state definition role {{entity}}'
+  notes:
+    - content: A **State_definition_role** is the purpose of the association of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.Applied_state_definition_assignment,Applied_state_definition_assignment}} with product or activity data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+          version: '2'
+      type: authoritative
+      id: Foundation_state_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_definition_role
+  domain: 'application module: Foundation_state_definition_arm'
+  language_code: eng
+  annotations: []
+id: eb2b1fd0-e8bd-5e92-b43c-2df5af682b6c

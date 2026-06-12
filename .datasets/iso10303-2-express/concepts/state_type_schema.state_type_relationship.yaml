@@ -1,0 +1,31 @@
+data:
+  identifier: state_type_schema.state_type_relationship
+  localized_concepts:
+    eng: cfc11670-1599-51a8-9ad6-84e970697365
+  domains:
+    - concept_id: section-state_type_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+      ref_type: section
+id: state_type_schema.state_type_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state type relationship {{entity}}'
+  notes:
+    - content: A **state_type_relationship** is a relationship that relates instances of two sets of the entity {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}} and provides an identification and description of their relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+          version: '1'
+      type: authoritative
+      id: state_type_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_type_relationship
+  domain: 'resource: state_type_schema'
+  language_code: eng
+  annotations: []
+id: cfc11670-1599-51a8-9ad6-84e970697365

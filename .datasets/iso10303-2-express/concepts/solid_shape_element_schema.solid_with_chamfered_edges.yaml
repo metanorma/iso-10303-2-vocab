@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_chamfered_edges
+  localized_concepts:
+    eng: 5f40749d-b48a-55eb-83e9-30bbf805f120
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_chamfered_edges
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.edge_blended_solid,edge_blended_solid}} that represents the solid with chamfered edges {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}} is a type of *edge_blended_solid* in which the members of a list of edges are blended by the creation of bevelled faces on the resulting solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_chamfered_edges
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: 5f40749d-b48a-55eb-83e9-30bbf805f120

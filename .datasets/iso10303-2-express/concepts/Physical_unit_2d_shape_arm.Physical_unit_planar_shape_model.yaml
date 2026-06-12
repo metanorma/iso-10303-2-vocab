@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_2d_shape_arm.Physical_unit_planar_shape_model
+  localized_concepts:
+    eng: ba6daff7-5bc4-544a-a7ef-3dd8c24fcc2d
+  domains:
+    - concept_id: section-Physical_unit_2d_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_shape_arm
+      ref_type: section
+id: Physical_unit_2d_shape_arm.Physical_unit_planar_shape_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical unit planar shape model {{entity}}'
+  notes:
+    - content: A **Physical_unit_planar_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_2d_shape_arm.Planar_projected_shape_model,Planar_projected_shape_model}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_shape_with_parameters_arm.Physical_unit_shape_model,Physical_unit_shape_model}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_shape_arm
+          version: '4'
+      type: authoritative
+      id: Physical_unit_2d_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_unit_planar_shape_model
+  domain: 'application module: Physical_unit_2d_shape_arm'
+  language_code: eng
+  annotations: []
+id: ba6daff7-5bc4-544a-a7ef-3dd8c24fcc2d

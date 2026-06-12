@@ -1,0 +1,31 @@
+data:
+  identifier: Area_2d_arm.Polygonal_area
+  localized_concepts:
+    eng: 99d84539-4a16-51c6-bf47-5f579ea0abac
+  domains:
+    - concept_id: section-Area_2d_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+      ref_type: section
+id: Area_2d_arm.Polygonal_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} that represents the polygonal area {{entity}}'
+  notes:
+    - content: A **Polygonal_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} that has three distinct points as boundaries in the same plane.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+          version: '2'
+      type: authoritative
+      id: Area_2d_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Polygonal_area
+  domain: 'application module: Area_2d_arm'
+  language_code: eng
+  annotations: []
+id: 99d84539-4a16-51c6-bf47-5f579ea0abac

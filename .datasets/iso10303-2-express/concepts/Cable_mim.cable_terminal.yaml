@@ -1,0 +1,31 @@
+data:
+  identifier: Cable_mim.cable_terminal
+  localized_concepts:
+    eng: 2c580f29-29da-5188-b49b-8a5f4c016bfb
+  domains:
+    - concept_id: section-Cable_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
+      ref_type: section
+id: Cable_mim.cable_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the cable terminal {{entity}}'
+  notes:
+    - content: A **cable_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_arm.Cable_terminal,Cable_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
+          version: '4'
+      type: authoritative
+      id: Cable_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cable_terminal
+  domain: 'application module: Cable_mim'
+  language_code: eng
+  annotations: []
+id: 2c580f29-29da-5188-b49b-8a5f4c016bfb

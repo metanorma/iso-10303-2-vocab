@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.instanced_feature
+  localized_concepts:
+    eng: f62435e2-a366-5ac5-a4d8-525700c36197
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.instanced_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the instanced feature {{entity}}'
+  notes:
+    - content: An **instanced_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} and of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that is the identification of a preconceived form pattern on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: instanced_feature
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: f62435e2-a366-5ac5-a4d8-525700c36197

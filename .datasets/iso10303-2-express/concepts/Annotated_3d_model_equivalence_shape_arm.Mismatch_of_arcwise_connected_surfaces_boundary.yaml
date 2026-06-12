@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_arcwise_connected_surfaces_boundary
+  localized_concepts:
+    eng: 47c5dc06-49cb-5e2e-a12f-fe207c8118a9
+  domains:
+    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+      ref_type: section
+id: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_arcwise_connected_surfaces_boundary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_detailed_shape_data_content,A3m_equivalence_criterion_of_detailed_shape_data_content}} that represents the mismatch of arcwise connected surfaces boundary {{entity}}'
+  notes:
+    - content: A **Mismatch_of_arcwise_connected_surfaces_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_detailed_shape_data_content,A3m_equivalence_criterion_of_detailed_shape_data_content}} which detects the difference between boundary edges of the two compared {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}}s, where the boundary edges mean the external boundary edges which are referred only once from a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}} of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_equivalence_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mismatch_of_arcwise_connected_surfaces_boundary
+  domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
+  language_code: eng
+  annotations: []
+id: 47c5dc06-49cb-5e2e-a12f-fe207c8118a9

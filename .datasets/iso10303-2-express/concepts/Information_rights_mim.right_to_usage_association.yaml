@@ -1,0 +1,31 @@
+data:
+  identifier: Information_rights_mim.right_to_usage_association
+  localized_concepts:
+    eng: 127e0b3c-e73c-5f89-b666-8647b106c1c0
+  domains:
+    - concept_id: section-Information_rights_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim
+      ref_type: section
+id: Information_rights_mim.right_to_usage_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} that represents the right to usage association {{entity}}'
+  notes:
+    - content: A **right_to_usage_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} which provides the link between an information right and its usage.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim
+          version: '4'
+      type: authoritative
+      id: Information_rights_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: right_to_usage_association
+  domain: 'application module: Information_rights_mim'
+  language_code: eng
+  annotations: []
+id: 127e0b3c-e73c-5f89-b666-8647b106c1c0

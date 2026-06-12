@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Fea_group_relationship
+  localized_concepts:
+    eng: 535908c1-7788-56cd-9e01-75849aa04967
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Fea_group_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea group relationship {{entity}}'
+  notes:
+    - content: An **Fea_group_relationship** is an association between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_group,Fea_group}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fea_group_relationship
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: 535908c1-7788-56cd-9e01-75849aa04967

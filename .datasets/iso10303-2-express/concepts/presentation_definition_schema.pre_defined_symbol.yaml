@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_definition_schema.pre_defined_symbol
+  localized_concepts:
+    eng: 50accee0-33c1-5fe5-baf9-7baf4465fe4f
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.pre_defined_symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.pre_defined_item,pre_defined_item}} that represents the pre defined symbol {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pre_defined_symbol
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: 50accee0-33c1-5fe5-baf9-7baf4465fe4f

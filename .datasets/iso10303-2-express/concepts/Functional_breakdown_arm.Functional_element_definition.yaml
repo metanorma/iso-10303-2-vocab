@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_breakdown_arm.Functional_element_definition
+  localized_concepts:
+    eng: b01dbed7-ce45-5f6a-abeb-a6ef4766930f
+  domains:
+    - concept_id: section-Functional_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+      ref_type: section
+id: Functional_breakdown_arm.Functional_element_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that represents the functional element definition {{entity}}'
+  notes:
+    - content: A **Functional_element_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that identifies a view of a version ( {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element_version,Functional_element_version}} ) of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element,Functional_element}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+          version: '2'
+      type: authoritative
+      id: Functional_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_element_definition
+  domain: 'application module: Functional_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: b01dbed7-ce45-5f6a-abeb-a6ef4766930f

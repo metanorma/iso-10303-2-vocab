@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_mim.assigned_requirement
+  localized_concepts:
+    eng: 4bb4a923-bb79-5bdd-b8cc-d30f24e98ee6
+  domains:
+    - concept_id: section-Requirement_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+      ref_type: section
+id: Requirement_assignment_mim.assigned_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the assigned requirement {{entity}}'
+  notes:
+    - content: A **assigned_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies a relationship between a requirement assigment and a product definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assigned_requirement
+  domain: 'application module: Requirement_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 4bb4a923-bb79-5bdd-b8cc-d30f24e98ee6

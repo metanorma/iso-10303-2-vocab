@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_specified_general_property_arm.Specified_representation_context
+  localized_concepts:
+    eng: b1c28417-3f7e-572a-8a55-9560c8a1b2d8
+  domains:
+    - concept_id: section-Cfd_specified_general_property_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
+      ref_type: section
+id: Cfd_specified_general_property_arm.Specified_representation_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the specified representation context {{entity}}'
+  notes:
+    - content: A **Specified_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} where the identifier is one of a pre-defined set.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
+          version: '2'
+      type: authoritative
+      id: Cfd_specified_general_property_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Specified_representation_context
+  domain: 'application module: Cfd_specified_general_property_arm'
+  language_code: eng
+  annotations: []
+id: b1c28417-3f7e-572a-8a55-9560c8a1b2d8

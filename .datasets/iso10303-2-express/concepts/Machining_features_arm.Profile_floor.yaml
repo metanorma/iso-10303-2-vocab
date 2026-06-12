@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Profile_floor
+  localized_concepts:
+    eng: 63b9a81a-5643-58af-8d7b-74c406e7c7b6
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Profile_floor
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the profile floor {{entity}}'
+  notes:
+    - content: A **Profile_floor** is a bottom condition for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Profile_floor
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 63b9a81a-5643-58af-8d7b-74c406e7c7b6

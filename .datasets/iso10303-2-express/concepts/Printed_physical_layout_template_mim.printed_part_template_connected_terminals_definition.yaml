@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_mim.printed_part_template_connected_terminals_definition
+  localized_concepts:
+    eng: 03a13af3-6191-5444-aa7e-ad86d78447a1
+  domains:
+    - concept_id: section-Printed_physical_layout_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+      ref_type: section
+id: Printed_physical_layout_template_mim.printed_part_template_connected_terminals_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the printed part template connected terminals definition {{entity}}'
+  notes:
+    - content: A **printed_part_template_connected_terminals_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_connected_terminals_definition,Printed_part_template_connected_terminals_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: printed_part_template_connected_terminals_definition
+  domain: 'application module: Printed_physical_layout_template_mim'
+  language_code: eng
+  annotations: []
+id: 03a13af3-6191-5444-aa7e-ad86d78447a1

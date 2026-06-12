@@ -1,0 +1,31 @@
+data:
+  identifier: Product_replacement_arm.Assembly_relationship_substitution
+  localized_concepts:
+    eng: 963a09cc-0ced-5b3b-b465-18050e909640
+  domains:
+    - concept_id: section-Product_replacement_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm
+      ref_type: section
+id: Product_replacement_arm.Assembly_relationship_substitution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly relationship substitution {{entity}}'
+  notes:
+    - content: An **Assembly_relationship_substitution** is a relationship that indicates that an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}} may be substituted by another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm
+          version: '2'
+      type: authoritative
+      id: Product_replacement_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_relationship_substitution
+  domain: 'application module: Product_replacement_arm'
+  language_code: eng
+  annotations: []
+id: 963a09cc-0ced-5b3b-b465-18050e909640

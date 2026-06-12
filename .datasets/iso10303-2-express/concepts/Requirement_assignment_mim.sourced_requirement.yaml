@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_mim.sourced_requirement
+  localized_concepts:
+    eng: fa9fbc43-5403-5a14-a6a1-719c1a539f8b
+  domains:
+    - concept_id: section-Requirement_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+      ref_type: section
+id: Requirement_assignment_mim.sourced_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the sourced requirement {{entity}}'
+  notes:
+    - content: A **sourced_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies a relationship between a requirement source and a product definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: sourced_requirement
+  domain: 'application module: Requirement_assignment_mim'
+  language_code: eng
+  annotations: []
+id: fa9fbc43-5403-5a14-a6a1-719c1a539f8b

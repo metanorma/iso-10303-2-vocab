@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_measure_representation_mim.value_range
+  localized_concepts:
+    eng: 445481f4-4f5a-5ae0-9483-62f90e0c0348
+  domains:
+    - concept_id: section-Extended_measure_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_mim
+      ref_type: section
+id: Extended_measure_representation_mim.value_range
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the value range {{entity}}'
+  notes:
+    - content: A **value_range** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm.Value_range,Value_range}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_mim
+          version: '4'
+      type: authoritative
+      id: Extended_measure_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: value_range
+  domain: 'application module: Extended_measure_representation_mim'
+  language_code: eng
+  annotations: []
+id: 445481f4-4f5a-5ae0-9483-62f90e0c0348

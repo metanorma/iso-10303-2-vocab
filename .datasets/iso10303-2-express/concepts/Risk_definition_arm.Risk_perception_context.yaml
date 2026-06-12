@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_perception_context
+  localized_concepts:
+    eng: 41c36d08-0604-526c-bf9c-21f646b4ac41
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_perception_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Initial_view_definition_context,Initial_view_definition_context}} that represents the risk perception context {{entity}}'
+  notes:
+    - content: A **Risk_perception_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.View_definition_context,View_definition_context}} defining the context for describing the perception of the risk.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_perception_context
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 41c36d08-0604-526c-bf9c-21f646b4ac41

@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_mim.passage_deposition_material_identification
+  localized_concepts:
+    eng: a1604bdc-f9c2-56c6-ab09-004dbdb11bf2
+  domains:
+    - concept_id: section-Fabrication_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+      ref_type: section
+id: Fabrication_technology_mim.passage_deposition_material_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.material_designation,material_designation}} that represents the passage deposition material identification {{entity}}'
+  notes:
+    - content: A **passage_deposition_material_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.material_designation,material_designation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_deposition_material_identification,Passage_deposition_material_identification}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: passage_deposition_material_identification
+  domain: 'application module: Fabrication_technology_mim'
+  language_code: eng
+  annotations: []
+id: a1604bdc-f9c2-56c6-ab09-004dbdb11bf2

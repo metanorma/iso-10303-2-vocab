@@ -1,0 +1,31 @@
+data:
+  identifier: Colour_mim.externally_defined_colour
+  localized_concepts:
+    eng: bd2d053e-68f8-5a78-ad66-5472c323ee7e
+  domains:
+    - concept_id: section-Colour_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_mim
+      ref_type: section
+id: Colour_mim.externally_defined_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined colour {{entity}}'
+  notes:
+    - content: An **externally_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour_specification,colour_specification}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that has its definition specified outside of ISO 10303.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_mim
+          version: '3'
+      type: authoritative
+      id: Colour_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_colour
+  domain: 'application module: Colour_mim'
+  language_code: eng
+  annotations: []
+id: bd2d053e-68f8-5a78-ad66-5472c323ee7e

@@ -1,0 +1,30 @@
+data:
+  identifier: material_property_definition_schema.product_material_composition_relationship
+  localized_concepts:
+    eng: 1df7b6bc-f910-5be3-8e75-41c70622a633
+  domains:
+    - concept_id: section-material_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+      ref_type: section
+id: material_property_definition_schema.product_material_composition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the product material composition relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+          version: '4'
+      type: authoritative
+      id: material_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_material_composition_relationship
+  domain: 'resource: material_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 1df7b6bc-f910-5be3-8e75-41c70622a633

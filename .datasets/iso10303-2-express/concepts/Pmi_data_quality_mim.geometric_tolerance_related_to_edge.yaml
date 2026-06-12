@@ -1,0 +1,31 @@
+data:
+  identifier: Pmi_data_quality_mim.geometric_tolerance_related_to_edge
+  localized_concepts:
+    eng: 010251a5-04ba-5d39-bb46-225c2b44a7cb
+  domains:
+    - concept_id: section-Pmi_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+      ref_type: section
+id: Pmi_data_quality_mim.geometric_tolerance_related_to_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}} that represents the geometric tolerance related to edge {{entity}}'
+  notes:
+    - content: A **geometric_tolerance_related_to_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Geometric_tolerance_related_to_edge,Geometric_tolerance_related_to_edge}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Pmi_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometric_tolerance_related_to_edge
+  domain: 'application module: Pmi_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 010251a5-04ba-5d39-bb46-225c2b44a7cb

@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_assignment_arm.Analysis_assignment
+  localized_concepts:
+    eng: 5e0ac55b-5fc7-5278-bb75-414d5d9435cd
+  domains:
+    - concept_id: section-Analysis_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
+      ref_type: section
+id: Analysis_assignment_arm.Analysis_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analysis assignment {{entity}}'
+  notes:
+    - content: An **Analysis_assignment** is a relationship that relates a specific version of an analysis to the item being analyzed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Analysis_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analysis_assignment
+  domain: 'application module: Analysis_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 5e0ac55b-5fc7-5278-bb75-414d5d9435cd

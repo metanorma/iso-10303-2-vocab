@@ -1,0 +1,31 @@
+data:
+  identifier: Curve_appearance_arm.Vector_appearance
+  localized_concepts:
+    eng: 3a7dbd9c-5488-5672-b2dd-30d4290704e3
+  domains:
+    - concept_id: section-Curve_appearance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+      ref_type: section
+id: Curve_appearance_arm.Vector_appearance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Curve_appearance,Curve_appearance}} that represents the vector appearance {{entity}}'
+  notes:
+    - content: A **Vector_appearance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Curve_appearance,Curve_appearance}} that is the definition of the visual appearance of a vector.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+          version: '6'
+      type: authoritative
+      id: Curve_appearance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Vector_appearance
+  domain: 'application module: Curve_appearance_arm'
+  language_code: eng
+  annotations: []
+id: 3a7dbd9c-5488-5672-b2dd-30d4290704e3

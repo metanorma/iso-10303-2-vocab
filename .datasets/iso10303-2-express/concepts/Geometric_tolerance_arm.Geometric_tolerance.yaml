@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Geometric_tolerance
+  localized_concepts:
+    eng: a9e0f9a3-9daf-577a-baec-c77a5717e2ef
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Geometric_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometric tolerance {{entity}}'
+  notes:
+    - content: A **Geometric_tolerance** is a specification of the allowed deviation of some element of the shape of a product from its theoretically exact shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometric_tolerance
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: a9e0f9a3-9daf-577a-baec-c77a5717e2ef

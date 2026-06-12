@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_specification_mim.functional_specification_definition
+  localized_concepts:
+    eng: 719c0de8-072a-54ae-9a10-8d441160ec9b
+  domains:
+    - concept_id: section-Functional_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_mim
+      ref_type: section
+id: Functional_specification_mim.functional_specification_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim.functional_unit,functional_unit}} that represents the functional specification definition {{entity}}'
+  notes:
+    - content: A **functional_specification_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim.functional_unit,functional_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm.Functional_specification_definition,Functional_specification_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_mim
+          version: '3'
+      type: authoritative
+      id: Functional_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: functional_specification_definition
+  domain: 'application module: Functional_specification_mim'
+  language_code: eng
+  annotations: []
+id: 719c0de8-072a-54ae-9a10-8d441160ec9b

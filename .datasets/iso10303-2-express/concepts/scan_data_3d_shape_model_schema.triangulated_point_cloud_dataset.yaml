@@ -1,0 +1,31 @@
+data:
+  identifier: scan_data_3d_shape_model_schema.triangulated_point_cloud_dataset
+  localized_concepts:
+    eng: a2bec63e-ef8e-5069-9267-18cf9e27d6e2
+  domains:
+    - concept_id: section-scan_data_3d_shape_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+      ref_type: section
+id: scan_data_3d_shape_model_schema.triangulated_point_cloud_dataset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.scanned_data_item,scanned_data_item}} that represents the triangulated point cloud dataset {{entity}}'
+  notes:
+    - content: A **triangulated_point_cloud_dataset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.scanned_data_item,scanned_data_item}} in which the points of the dataset are arranged into triangles.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+          version: '2'
+      type: authoritative
+      id: scan_data_3d_shape_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: triangulated_point_cloud_dataset
+  domain: 'resource: scan_data_3d_shape_model_schema'
+  language_code: eng
+  annotations: []
+id: a2bec63e-ef8e-5069-9267-18cf9e27d6e2

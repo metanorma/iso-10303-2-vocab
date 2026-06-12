@@ -1,0 +1,32 @@
+---
+data:
+  identifier: general.short-to-long-form_generation
+  localized_concepts:
+    eng: b628e6df-d802-55ed-8a48-090c77c33eef
+  domains:
+  - concept_id: section-general
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: c570d203-a058-5d8f-81da-f371e5acc13a
+schema_version: v3
+---
+data:
+  definition:
+  - content: transformation process of generating an EXPRESS schema that does not
+      contain interfaces, taking as input any EXPRESS schema or schemata compliant
+      with any version of <<ISO_10303-11>>
+  notes:
+  - content: The original implementation methods included in ISO 10303 presupposed
+      a data model consisting of a single schema, termed the longform schema.
+  - content: The algorithm that defines the transformation process is specified in
+      <<ISO_10303-11>>.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: short-to-long-form generation
+  - type: abbreviation
+    normative_status: preferred
+    designation: SHTOLO
+  language_code: eng
+  annotations: []
+id: b628e6df-d802-55ed-8a48-090c77c33eef

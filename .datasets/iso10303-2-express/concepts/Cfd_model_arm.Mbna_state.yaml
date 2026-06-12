@@ -1,0 +1,30 @@
+data:
+  identifier: Cfd_model_arm.Mbna_state
+  localized_concepts:
+    eng: 8b7a859f-c8f5-50b5-ba0f-a1e346bcd653
+  domains:
+    - concept_id: section-Cfd_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+      ref_type: section
+id: Cfd_model_arm.Mbna_state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_state_domain,model_state_domain}} that represents the mbna state {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_state
+  domain: 'application module: Cfd_model_arm'
+  language_code: eng
+  annotations: []
+id: 8b7a859f-c8f5-50b5-ba0f-a1e346bcd653

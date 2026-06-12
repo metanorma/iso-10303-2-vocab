@@ -1,0 +1,31 @@
+data:
+  identifier: Part_and_zone_laminate_tables_arm.Surface_with_direction
+  localized_concepts:
+    eng: 6399c67b-b655-5f94-9c65-4db6dde8925d
+  domains:
+    - concept_id: section-Part_and_zone_laminate_tables_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+      ref_type: section
+id: Part_and_zone_laminate_tables_arm.Surface_with_direction
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface with direction {{entity}}'
+  notes:
+    - content: A **Surface_with_direction** is the specification of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Surface,Surface}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Direction,Direction}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+          version: '6'
+      type: authoritative
+      id: Part_and_zone_laminate_tables_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface_with_direction
+  domain: 'application module: Part_and_zone_laminate_tables_arm'
+  language_code: eng
+  annotations: []
+id: 6399c67b-b655-5f94-9c65-4db6dde8925d

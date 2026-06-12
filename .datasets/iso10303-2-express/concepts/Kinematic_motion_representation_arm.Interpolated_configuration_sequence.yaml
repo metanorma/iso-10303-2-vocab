@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_motion_representation_arm.Interpolated_configuration_sequence
+  localized_concepts:
+    eng: 2b45c7a7-e662-50aa-a1ac-7418df831687
+  domains:
+    - concept_id: section-Kinematic_motion_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+      ref_type: section
+id: Kinematic_motion_representation_arm.Interpolated_configuration_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the interpolated configuration sequence {{entity}}'
+  notes:
+    - content: An **Interpolated_configuration_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents a sequence of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Interpolated_configuration_segment,Interpolated_configuration_segment}}s, each consisting of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Mechanism_state_representation,Mechanism_state_representation}} at a particular parameter value and an interpolation type to the next segment in the sequence, or, in the case of the last segment in the sequence, to the first {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Interpolated_configuration_segment,Interpolated_configuration_segment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+          version: '3'
+      type: authoritative
+      id: Kinematic_motion_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interpolated_configuration_sequence
+  domain: 'application module: Kinematic_motion_representation_arm'
+  language_code: eng
+  annotations: []
+id: 2b45c7a7-e662-50aa-a1ac-7418df831687

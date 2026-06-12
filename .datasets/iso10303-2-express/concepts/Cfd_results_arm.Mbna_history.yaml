@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_results_arm.Mbna_history
+  localized_concepts:
+    eng: 27b9b634-275f-5edd-b93f-fbfab60c494f
+  domains:
+    - concept_id: section-Cfd_results_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+      ref_type: section
+id: Cfd_results_arm.Mbna_history
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that represents the mbna history {{entity}}'
+  notes:
+    - content: A **Mbna_history** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that is solver convergence history information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_results_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_history
+  domain: 'application module: Cfd_results_arm'
+  language_code: eng
+  annotations: []
+id: 27b9b634-275f-5edd-b93f-fbfab60c494f

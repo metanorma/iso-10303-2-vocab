@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_placement_requirements_arm.Component_placement_restriction_assignment
+  localized_concepts:
+    eng: df70d57d-5116-56f1-83d7-31d742b68918
+  domains:
+    - concept_id: section-Assembly_component_placement_requirements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+      ref_type: section
+id: Assembly_component_placement_requirements_arm.Component_placement_restriction_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component placement restriction assignment {{entity}}'
+  notes:
+    - content: A **Component_placement_restriction_assignment** is the relationship between the area or volume of an entire {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component,Interconnect_module_component}} or a portion thereof and restrictions to placement of other components in that area or volume due to an item in the design.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+          version: '6'
+      type: authoritative
+      id: Assembly_component_placement_requirements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_placement_restriction_assignment
+  domain: 'application module: Assembly_component_placement_requirements_arm'
+  language_code: eng
+  annotations: []
+id: df70d57d-5116-56f1-83d7-31d742b68918

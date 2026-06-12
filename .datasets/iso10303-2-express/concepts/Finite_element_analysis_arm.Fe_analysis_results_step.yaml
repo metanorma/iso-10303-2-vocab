@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_element_analysis_arm.Fe_analysis_results_step
+  localized_concepts:
+    eng: fb687507-b8d5-5cfa-ac17-12bc5ce5e71a
+  domains:
+    - concept_id: section-Finite_element_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+      ref_type: section
+id: Finite_element_analysis_arm.Fe_analysis_results_step
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fe analysis results step {{entity}}'
+  notes:
+    - content: An **Fe_analysis_results_step** is the state of the node and element analysis variables at the end of a step.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Finite_element_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fe_analysis_results_step
+  domain: 'application module: Finite_element_analysis_arm'
+  language_code: eng
+  annotations: []
+id: fb687507-b8d5-5cfa-ac17-12bc5ce5e71a

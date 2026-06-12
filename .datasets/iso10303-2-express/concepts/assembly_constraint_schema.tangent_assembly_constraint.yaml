@@ -1,0 +1,31 @@
+data:
+  identifier: assembly_constraint_schema.tangent_assembly_constraint
+  localized_concepts:
+    eng: 3d71bfde-553e-51bd-a933-7bc076a8fca3
+  domains:
+    - concept_id: section-assembly_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+      ref_type: section
+id: assembly_constraint_schema.tangent_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tangent assembly constraint {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.tangent_assembly_constraint,tangent_assembly_constraint}} specifies that two geometric elements belonging to different constituents are constrained to be tangent to each other.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+          version: '3'
+      type: authoritative
+      id: assembly_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tangent_assembly_constraint
+  domain: 'resource: assembly_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 3d71bfde-553e-51bd-a933-7bc076a8fca3

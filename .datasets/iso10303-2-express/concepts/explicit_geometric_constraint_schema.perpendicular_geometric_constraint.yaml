@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.perpendicular_geometric_constraint
+  localized_concepts:
+    eng: 1e222b3b-52e9-5a41-a2d6-1cc07aaf3bbc
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.perpendicular_geometric_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.explicit_geometric_constraint,explicit_geometric_constraint}} that represents the perpendicular geometric constraint {{entity}}'
+  notes:
+    - content: The *perpendicular_geometric_constraint* entity data type is a type of *explicit_geometric_constraint* asserting that instances of *linear_geometry_constraint_element* are perpendicular to each other.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: perpendicular_geometric_constraint
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 1e222b3b-52e9-5a41-a2d6-1cc07aaf3bbc

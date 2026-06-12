@@ -1,0 +1,65 @@
+name: Regenerate Concepts
+
+on:
+  workflow_dispatch:
+    inputs:
+      iso_10303_ref:
+        description: "Branch or tag of the iso-10303 source repo"
+        required: false
+        default: "develop"
+  schedule:
+    # Weekly on Mondays at 06:00 UTC
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout iso-10303-2 (this repo)
+        uses: actions/checkout@v4
+
+      - name: Checkout iso-10303 (private source repo)
+        uses: actions/checkout@v4
+        with:
+          repository: metanorma/iso-10303
+          ref: ${{ github.event.inputs.iso_10303_ref || 'develop' }}
+          token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
+          path: _iso-10303-src
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Install suma
+        run: gem install suma
+
+      - name: Extract EXPRESS concepts
+        env:
+          ISO_10303_SRC: ${{ github.workspace }}/_iso-10303-src
+        run: |
+          rake concepts:express
+
+      - name: Copy term definitions
+        env:
+          ISO_10303_SRC: ${{ github.workspace }}/_iso-10303-src
+        run: |
+          rake concepts:terms
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: regenerate concepts from iso-10303"
+          title: "Regenerate concepts from iso-10303"
+          body: |
+            Automated concept regeneration from the iso-10303 source repository.
+
+            This PR updates the `.datasets/` directory with the latest concept
+            definitions extracted from EXPRESS schemas and term sources.
+          branch: regenerate-concepts
+          base: main
+          delete-branch: true

@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_mim.justification_support_assignment
+  localized_concepts:
+    eng: 6e8c28fb-15be-582d-8112-fa9fcdcb9373
+  domains:
+    - concept_id: section-Justification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+      ref_type: section
+id: Justification_mim.justification_support_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the justification support assignment {{entity}}'
+  notes:
+    - content: A **justification_support_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies the relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} categorized as a justification and the {{justification_support_item,justification_support_item}} providing the evidential support for the justification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+          version: '2'
+      type: authoritative
+      id: Justification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: justification_support_assignment
+  domain: 'application module: Justification_mim'
+  language_code: eng
+  annotations: []
+id: 6e8c28fb-15be-582d-8112-fa9fcdcb9373

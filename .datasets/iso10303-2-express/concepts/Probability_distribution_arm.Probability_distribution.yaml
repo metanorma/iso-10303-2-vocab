@@ -1,0 +1,31 @@
+data:
+  identifier: Probability_distribution_arm.Probability_distribution
+  localized_concepts:
+    eng: 9cd7376b-29ea-54ed-969f-af514d6c406c
+  domains:
+    - concept_id: section-Probability_distribution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+      ref_type: section
+id: Probability_distribution_arm.Probability_distribution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm.Probability_generator,Probability_generator}} that represents the probability distribution {{entity}}'
+  notes:
+    - content: A **Probability_distribution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm.Probability_generator,Probability_generator}} that is a probability distribution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+          version: '3'
+      type: authoritative
+      id: Probability_distribution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Probability_distribution
+  domain: 'application module: Probability_distribution_arm'
+  language_code: eng
+  annotations: []
+id: 9cd7376b-29ea-54ed-969f-af514d6c406c

@@ -1,0 +1,31 @@
+data:
+  identifier: sketch_schema.subsketch
+  localized_concepts:
+    eng: fa3a2b66-2bee-5a7f-9f3c-1b41e3005cf1
+  domains:
+    - concept_id: section-sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+      ref_type: section
+id: sketch_schema.subsketch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the subsketch {{entity}}'
+  notes:
+    - content: The entity data type *subsketch* is a type of *geometric_representation_item*, defining a partial sketch in terms of a subset of the geometric elements composing a full sketch.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+          version: '4'
+      type: authoritative
+      id: sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: subsketch
+  domain: 'resource: sketch_schema'
+  language_code: eng
+  annotations: []
+id: fa3a2b66-2bee-5a7f-9f3c-1b41e3005cf1

@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_structure_schema.linear_flexible_and_planar_curve_pair
+  localized_concepts:
+    eng: 94003ab9-a261-54a0-9a01-1e738f47d34c
+  domains:
+    - concept_id: section-kinematic_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+      ref_type: section
+id: kinematic_structure_schema.linear_flexible_and_planar_curve_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.high_order_kinematic_pair,high_order_kinematic_pair}} that represents the linear flexible and planar curve pair {{entity}}'
+  notes:
+    - content: A **linear_flexible_and_planar_curve_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.high_order_kinematic_pair,high_order_kinematic_pair}}, that describes a linear flexible link that moves around a rotating curve where the rotation axis of the curve is perpendicular to the direction of the linear flexible link and the curve.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: linear_flexible_and_planar_curve_pair
+  domain: 'resource: kinematic_structure_schema'
+  language_code: eng
+  annotations: []
+id: 94003ab9-a261-54a0-9a01-1e738f47d34c

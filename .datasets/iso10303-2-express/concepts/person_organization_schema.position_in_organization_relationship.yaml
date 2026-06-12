@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.position_in_organization_relationship
+  localized_concepts:
+    eng: f375efd2-70a4-5a40-b204-8c2fd28dbbf1
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.position_in_organization_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position in organization relationship {{entity}}'
+  notes:
+    - content: A **position_in_organization_relationship** is a relationship between two instances of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.position_in_organization,position_in_organization}} entity data type and provides for the identification, naming, and description of that relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: position_in_organization_relationship
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: f375efd2-70a4-5a40-b204-8c2fd28dbbf1

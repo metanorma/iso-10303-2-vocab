@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_reference_arm.Generic_product_view_definition_reference
+  localized_concepts:
+    eng: 8a8313b6-3490-5cc3-91f6-d29af45f67fa
+  domains:
+    - concept_id: section-Product_view_definition_reference_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+      ref_type: section
+id: Product_view_definition_reference_arm.Generic_product_view_definition_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the generic product view definition reference {{entity}}'
+  notes:
+    - content: A **Generic_product_view_definition_reference** is a is a reference to an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} which may or may not have a local representation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+          version: '2'
+      type: authoritative
+      id: Product_view_definition_reference_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Generic_product_view_definition_reference
+  domain: 'application module: Product_view_definition_reference_arm'
+  language_code: eng
+  annotations: []
+id: 8a8313b6-3490-5cc3-91f6-d29af45f67fa

@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_polygon
+  localized_concepts:
+    eng: a9714778-4f59-5a22-8ea3-ede122b92a3c
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_polygon
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_curve_element,sketch_create_curve_element}} that represents the create polygon {{entity}}'
+  notes:
+    - content: A *create_polygon* is a type of *sketch_create_curve_element* that creates a regular n-sided polygon which is either inscribed in a circle or circumscribed about a circle, the choice being indicated by the value of the attribute *circle_type*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_polygon
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: a9714778-4f59-5a22-8ea3-ede122b92a3c

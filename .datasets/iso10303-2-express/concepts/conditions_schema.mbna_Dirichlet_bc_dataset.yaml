@@ -1,0 +1,31 @@
+data:
+  identifier: conditions_schema.mbna_Dirichlet_bc_dataset
+  localized_concepts:
+    eng: 32dee4fd-b2be-5edd-9659-c9e8a55a29e2
+  domains:
+    - concept_id: section-conditions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+      ref_type: section
+id: conditions_schema.mbna_Dirichlet_bc_dataset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_bc_dataset,mbna_bc_dataset}} that represents the mbna dirichlet bc dataset {{entity}}'
+  notes:
+    - content: An *mbna_Dirichlet_bc_dataset* is an *mbna_bc_dataset* that contains Dirichlet boundary condition data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+          version: '1'
+      type: authoritative
+      id: conditions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_Dirichlet_bc_dataset
+  domain: 'resource: conditions_schema'
+  language_code: eng
+  annotations: []
+id: 32dee4fd-b2be-5edd-9659-c9e8a55a29e2

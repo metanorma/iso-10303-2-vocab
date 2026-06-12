@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_rectangular_pattern
+  localized_concepts:
+    eng: b3433ead-a525-52d4-8b83-c79402e36d15
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_rectangular_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_shape_element_pattern,solid_with_shape_element_pattern}} that represents the solid with rectangular pattern {{entity}}'
+  notes:
+    - content: A *solid_with_rectangular_pattern* is a type of *solid_with_shape_element_pattern* in which multiple replicates of the specified shape configuration are arranged in a rectangular pattern.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_rectangular_pattern
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: b3433ead-a525-52d4-8b83-c79402e36d15

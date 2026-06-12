@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_equations_arm.Flow_equation_set
+  localized_concepts:
+    eng: fd665232-efcc-59ba-97d2-e5f3b440ad6b
+  domains:
+    - concept_id: section-Cfd_equations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+      ref_type: section
+id: Cfd_equations_arm.Flow_equation_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation_set,Mbna_equation_set}} that represents the flow equation set {{entity}}'
+  notes:
+    - content: A **Flow_equation_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation_set,Mbna_equation_set}} set providing a general description of governing flow equations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_equations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Flow_equation_set
+  domain: 'application module: Cfd_equations_arm'
+  language_code: eng
+  annotations: []
+id: fd665232-efcc-59ba-97d2-e5f3b440ad6b

@@ -1,0 +1,31 @@
+data:
+  identifier: Fea_definition_relationships_arm.Same_discretised_action_model
+  localized_concepts:
+    eng: 05526882-6026-5bee-bd7d-7a03d46b9e01
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Same_discretised_action_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same discretised action model {{entity}}'
+  notes:
+    - content: A **Same_discretised_action_model** is a relationship between records of a discretised action model, and that states they each have the same meaning.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Same_discretised_action_model
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 05526882-6026-5bee-bd7d-7a03d46b9e01

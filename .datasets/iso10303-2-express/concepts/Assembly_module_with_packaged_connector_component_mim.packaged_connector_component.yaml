@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_packaged_connector_component_mim.packaged_connector_component
+  localized_concepts:
+    eng: 823f57b3-7231-5a33-b8f8-a7e6b5b3f671
+  domains:
+    - concept_id: section-Assembly_module_with_packaged_connector_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_mim
+      ref_type: section
+id: Assembly_module_with_packaged_connector_component_mim.packaged_connector_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the packaged connector component {{entity}}'
+  notes:
+    - content: A **packaged_connector_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_mim.interface_component,interface_component}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim.packaged_component,packaged_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm.Packaged_connector_component,Packaged_connector_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_mim
+          version: '4'
+      type: authoritative
+      id: Assembly_module_with_packaged_connector_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: packaged_connector_component
+  domain: 'application module: Assembly_module_with_packaged_connector_component_mim'
+  language_code: eng
+  annotations: []
+id: 823f57b3-7231-5a33-b8f8-a7e6b5b3f671

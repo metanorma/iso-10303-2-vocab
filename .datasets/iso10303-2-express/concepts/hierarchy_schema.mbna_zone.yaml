@@ -1,0 +1,31 @@
+data:
+  identifier: hierarchy_schema.mbna_zone
+  localized_concepts:
+    eng: c2a86f94-a081-5f7d-92f6-e105d7399976
+  domains:
+    - concept_id: section-hierarchy_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+      ref_type: section
+id: hierarchy_schema.mbna_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain_with_mesh,model_product_domain_with_mesh}} that represents the mbna zone {{entity}}'
+  notes:
+    - content: An *mbna_zone* collects the information pertinent to an individual multiblock zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+          version: '1'
+      type: authoritative
+      id: hierarchy_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_zone
+  domain: 'resource: hierarchy_schema'
+  language_code: eng
+  annotations: []
+id: c2a86f94-a081-5f7d-92f6-e105d7399976

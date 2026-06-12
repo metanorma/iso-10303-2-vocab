@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_schema.simulation_run
+  localized_concepts:
+    eng: 883176da-4cf1-541f-9c5f-7ea230efdf06
+  domains:
+    - concept_id: section-analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+      ref_type: section
+id: analysis_schema.simulation_run
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the simulation run {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.simulation_run,simulation_run}} is an individual activity that simulates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+          version: '1'
+      type: authoritative
+      id: analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: simulation_run
+  domain: 'resource: analysis_schema'
+  language_code: eng
+  annotations: []
+id: 883176da-4cf1-541f-9c5f-7ea230efdf06

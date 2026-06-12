@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_equivalence_inspection_result_schema.a3m_equivalence_inspection_result_representation
+  localized_concepts:
+    eng: 1cb4474b-1868-5f81-a520-6d9cf6164b45
+  domains:
+    - concept_id: section-annotated_3d_model_equivalence_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_inspection_result_schema
+      ref_type: section
+id: annotated_3d_model_equivalence_inspection_result_schema.a3m_equivalence_inspection_result_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_representation,data_equivalence_inspection_result_representation}} that represents the a3m equivalence inspection result representation {{entity}}'
+  notes:
+    - content: An **a3m_equivalence_inspection_result_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_representation,data_equivalence_inspection_result_representation}} defined in {{product_data_equivalence_inspection_result_schema,product_data_equivalence_inspection_result_schema}} and represents all the inspection results for a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_criterion,a3m_equivalence_criterion}} against a specific pair of product data instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: annotated_3d_model_equivalence_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_equivalence_inspection_result_representation
+  domain: 'resource: annotated_3d_model_equivalence_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 1cb4474b-1868-5f81-a520-6d9cf6164b45

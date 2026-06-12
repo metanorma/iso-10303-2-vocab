@@ -1,0 +1,31 @@
+data:
+  identifier: Time_interval_assignment_arm.Time_interval_role
+  localized_concepts:
+    eng: f95baa1d-3b80-5f2e-ac58-d16f9cfc9e73
+  domains:
+    - concept_id: section-Time_interval_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_arm
+      ref_type: section
+id: Time_interval_assignment_arm.Time_interval_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the time interval role {{entity}}'
+  notes:
+    - content: A **Time_interval_role** is a role for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_arm.Time_interval_assignment,Time_interval_assignment}} and a description of that role.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Time_interval_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Time_interval_role
+  domain: 'application module: Time_interval_assignment_arm'
+  language_code: eng
+  annotations: []
+id: f95baa1d-3b80-5f2e-ac58-d16f9cfc9e73

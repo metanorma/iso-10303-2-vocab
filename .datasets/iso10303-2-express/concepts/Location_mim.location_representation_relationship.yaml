@@ -1,0 +1,31 @@
+data:
+  identifier: Location_mim.location_representation_relationship
+  localized_concepts:
+    eng: c2fcf37c-1fee-505e-93aa-300950fb9264
+  domains:
+    - concept_id: section-Location_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_mim
+      ref_type: section
+id: Location_mim.location_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the location representation relationship {{entity}}'
+  notes:
+    - content: A **location_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that is used to relate two {{location_groupable_item,location_groupable_item}}s used to represent a location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_mim
+          version: '2'
+      type: authoritative
+      id: Location_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: location_representation_relationship
+  domain: 'application module: Location_mim'
+  language_code: eng
+  annotations: []
+id: c2fcf37c-1fee-505e-93aa-300950fb9264

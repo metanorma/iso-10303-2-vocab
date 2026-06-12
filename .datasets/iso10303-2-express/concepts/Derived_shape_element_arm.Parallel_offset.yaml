@@ -1,0 +1,31 @@
+data:
+  identifier: Derived_shape_element_arm.Parallel_offset
+  localized_concepts:
+    eng: 59283353-dd6b-5107-9036-a177bf2d4450
+  domains:
+    - concept_id: section-Derived_shape_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+      ref_type: section
+id: Derived_shape_element_arm.Parallel_offset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that represents the parallel offset {{entity}}'
+  notes:
+    - content: A **Parallel_offset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that is located at a constant distance from a {{related,related}} element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+          version: '5'
+      type: authoritative
+      id: Derived_shape_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Parallel_offset
+  domain: 'application module: Derived_shape_element_arm'
+  language_code: eng
+  annotations: []
+id: 59283353-dd6b-5107-9036-a177bf2d4450

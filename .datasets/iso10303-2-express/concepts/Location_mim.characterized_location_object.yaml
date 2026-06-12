@@ -1,0 +1,31 @@
+data:
+  identifier: Location_mim.characterized_location_object
+  localized_concepts:
+    eng: 3b266503-4b71-5f0f-aaea-fef8b603949c
+  domains:
+    - concept_id: section-Location_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_mim
+      ref_type: section
+id: Location_mim.characterized_location_object
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized location object {{entity}}'
+  notes:
+    - content: A **characterized_location_object** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema.location,location}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema.location,location}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_mim
+          version: '2'
+      type: authoritative
+      id: Location_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_location_object
+  domain: 'application module: Location_mim'
+  language_code: eng
+  annotations: []
+id: 3b266503-4b71-5f0f-aaea-fef8b603949c

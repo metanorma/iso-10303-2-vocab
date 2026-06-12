@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.curve_3d_element_position_weight
+  localized_concepts:
+    eng: c2872dd2-f162-5bcd-8ad7-86233ff3488d
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.curve_3d_element_position_weight
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve 3d element position weight {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_3d_element_position_weight,curve_3d_element_position_weight}} is an integration position within a 3D curve element, and its weighting factor.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: curve_3d_element_position_weight
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: c2872dd2-f162-5bcd-8ad7-86233ff3488d

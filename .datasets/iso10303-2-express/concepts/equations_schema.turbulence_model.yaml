@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.turbulence_model
+  localized_concepts:
+    eng: 9280fe31-bbdd-53de-8345-538ba78bded3
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.turbulence_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}} that represents the turbulence model {{entity}}'
+  notes:
+    - content: A *turbulence_model* is the equation set used to model the turbulence quantities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: turbulence_model
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: 9280fe31-bbdd-53de-8345-538ba78bded3

@@ -1,0 +1,31 @@
+data:
+  identifier: assembly_feature_relationship_schema.shape_aspect_relationship_representation_association
+  localized_concepts:
+    eng: b8e5af69-ac28-5704-8d16-978e4ef7f794
+  domains:
+    - concept_id: section-assembly_feature_relationship_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema
+      ref_type: section
+id: assembly_feature_relationship_schema.shape_aspect_relationship_representation_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape aspect relationship representation association {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema.shape_aspect_relationship_representation_association,shape_aspect_relationship_representation_association}} identifies an instance of *representation_relationship* representing the geometric information of an instance of *shape_aspect_relationship*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema
+          version: '4'
+      type: authoritative
+      id: assembly_feature_relationship_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_aspect_relationship_representation_association
+  domain: 'resource: assembly_feature_relationship_schema'
+  language_code: eng
+  annotations: []
+id: b8e5af69-ac28-5704-8d16-978e4ef7f794

@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_and_datum_systems_mim.placed_datum_target_feature
+  localized_concepts:
+    eng: 64ff2eb1-44ed-5f2b-96cf-2f4372120163
+  domains:
+    - concept_id: section-Datum_and_datum_systems_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+      ref_type: section
+id: Datum_and_datum_systems_mim.placed_datum_target_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_target,datum_target}} that represents the placed datum target feature {{entity}}'
+  notes:
+    - content: A **placed_datum_target_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_target,datum_target}} that represents the implicit definition of a datum target for tolerancing purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+          version: '1'
+      type: authoritative
+      id: Datum_and_datum_systems_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: placed_datum_target_feature
+  domain: 'application module: Datum_and_datum_systems_mim'
+  language_code: eng
+  annotations: []
+id: 64ff2eb1-44ed-5f2b-96cf-2f4372120163

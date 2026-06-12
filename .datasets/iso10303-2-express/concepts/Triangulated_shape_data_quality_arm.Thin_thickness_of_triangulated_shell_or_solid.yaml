@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Thin_thickness_of_triangulated_shell_or_solid
+  localized_concepts:
+    eng: 94ad47ce-4ea2-521a-9f29-d8b27fad3f12
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Thin_thickness_of_triangulated_shell_or_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that represents the thin thickness of triangulated shell or solid {{entity}}'
+  notes:
+    - content: A **Thin_thickness_of_triangulated_shell_or_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that asserts that a thickness of tessellated shell or solid is too thin.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Thin_thickness_of_triangulated_shell_or_solid
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: 94ad47ce-4ea2-521a-9f29-d8b27fad3f12

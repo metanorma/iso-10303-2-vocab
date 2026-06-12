@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.symbol_colour
+  localized_concepts:
+    eng: e3367cbb-36b0-53ea-b31d-2e4931f0a105
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.symbol_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the symbol colour {{entity}}'
+  notes:
+    - content: A **symbol_colour** is the presentation style that specifies the colour of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol,annotation_symbol}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: symbol_colour
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: e3367cbb-36b0-53ea-b31d-2e4931f0a105

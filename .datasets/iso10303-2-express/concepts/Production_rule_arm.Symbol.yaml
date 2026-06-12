@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_arm.Symbol
+  localized_concepts:
+    eng: af0bf189-47fa-5db7-859f-5fd039dcd0f9
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the symbol {{entity}}'
+  notes:
+    - content: A **Symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} used by the rules system to name the things on which assertions are made.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Symbol
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: af0bf189-47fa-5db7-859f-5fd039dcd0f9

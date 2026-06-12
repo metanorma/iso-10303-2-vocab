@@ -1,0 +1,30 @@
+data:
+  identifier: shape_data_quality_criteria_schema.narrow_surface_patch
+  localized_concepts:
+    eng: caf0afe0-7477-5c1a-9422-eae1f9b3d71d
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.narrow_surface_patch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometry_with_local_near_degeneracy,geometry_with_local_near_degeneracy}} that represents the narrow surface patch {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: narrow_surface_patch
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: caf0afe0-7477-5c1a-9422-eae1f9b3d71d

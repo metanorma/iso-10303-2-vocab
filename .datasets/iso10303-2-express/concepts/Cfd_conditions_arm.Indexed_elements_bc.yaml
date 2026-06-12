@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_conditions_arm.Indexed_elements_bc
+  localized_concepts:
+    eng: 37291632-c07d-53f6-88fc-22382692f56d
+  domains:
+    - concept_id: section-Cfd_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+      ref_type: section
+id: Cfd_conditions_arm.Indexed_elements_bc
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc,Mbna_bc}} that represents the indexed elements bc {{entity}}'
+  notes:
+    - content: An **Indexed_elements_bc** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc,Mbna_bc}} containing boundary-condition information for cells in a structured mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Indexed_elements_bc
+  domain: 'application module: Cfd_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 37291632-c07d-53f6-88fc-22382692f56d

@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_macro_definition_arm.Assembly_module_macro_terminal
+  localized_concepts:
+    eng: b2601ca4-391c-52a0-857a-194d9e345ec2
+  domains:
+    - concept_id: section-Assembly_module_macro_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_macro_definition_arm
+      ref_type: section
+id: Assembly_module_macro_definition_arm.Assembly_module_macro_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}} that represents the assembly module macro terminal {{entity}}'
+  notes:
+    - content: An **Assembly_module_macro_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}} that is populated only in the case of a macro definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_macro_definition_arm
+          version: '3'
+      type: authoritative
+      id: Assembly_module_macro_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_module_macro_terminal
+  domain: 'application module: Assembly_module_macro_definition_arm'
+  language_code: eng
+  annotations: []
+id: b2601ca4-391c-52a0-857a-194d9e345ec2

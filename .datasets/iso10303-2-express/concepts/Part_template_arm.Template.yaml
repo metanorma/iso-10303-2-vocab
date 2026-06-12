@@ -1,0 +1,30 @@
+data:
+  identifier: Part_template_arm.Template
+  localized_concepts:
+    eng: 21d349a2-566f-5535-8493-7e405459d368
+  domains:
+    - concept_id: section-Part_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm
+      ref_type: section
+id: Part_template_arm.Template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_version_identification_arm.Part,Part}} that represents the template {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm
+          version: '5'
+      type: authoritative
+      id: Part_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Template
+  domain: 'application module: Part_template_arm'
+  language_code: eng
+  annotations: []
+id: 21d349a2-566f-5535-8493-7e405459d368

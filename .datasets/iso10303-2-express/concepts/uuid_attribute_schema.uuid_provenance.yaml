@@ -1,0 +1,33 @@
+data:
+  identifier: uuid_attribute_schema.uuid_provenance
+  localized_concepts:
+    eng: 1cde268d-85e9-5c0b-a55e-6f0e8af84ea7
+  domains:
+    - concept_id: section-uuid_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+      ref_type: section
+id: uuid_attribute_schema.uuid_provenance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the uuid provenance {{entity}}'
+  notes:
+    - content: |-
+        A **uuid_provenance** is the specification of a sequence of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema.uuid_relationship,uuid_relationship}} entities in a simple list that provides a historical record of those relationships.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+          version: '1'
+      type: authoritative
+      id: uuid_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uuid_provenance
+  domain: 'resource: uuid_attribute_schema'
+  language_code: eng
+  annotations: []
+id: 1cde268d-85e9-5c0b-a55e-6f0e8af84ea7

@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_geometric_shape_arm.Cartesian_point
+  localized_concepts:
+    eng: 533a8475-6fa7-5958-89e0-b8fd7f4250e5
+  domains:
+    - concept_id: section-Elemental_geometric_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+      ref_type: section
+id: Elemental_geometric_shape_arm.Cartesian_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Point,Point}} that represents the cartesian point {{entity}}'
+  notes:
+    - content: A **Cartesian_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Point,Point}} that defines a point by a list of up to 3 cartesian coordinates.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+          version: '12'
+      type: authoritative
+      id: Elemental_geometric_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cartesian_point
+  domain: 'application module: Elemental_geometric_shape_arm'
+  language_code: eng
+  annotations: []
+id: 533a8475-6fa7-5958-89e0-b8fd7f4250e5

@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_connectivity_arm.Mismatched_mesh_region
+  localized_concepts:
+    eng: c45ea782-30d1-517f-8c51-b363d7761819
+  domains:
+    - concept_id: section-Mesh_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+      ref_type: section
+id: Mesh_connectivity_arm.Mismatched_mesh_region
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_mesh_connection,Mismatched_mesh_connection}} that represents the mismatched mesh region {{entity}}'
+  notes:
+    - content: A **Mismatched_mesh_region** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_mesh_connection,Mismatched_mesh_connection}} that is abutting or overset.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+          version: '1'
+      type: authoritative
+      id: Mesh_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mismatched_mesh_region
+  domain: 'application module: Mesh_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: c45ea782-30d1-517f-8c51-b363d7761819

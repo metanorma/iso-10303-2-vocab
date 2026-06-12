@@ -1,0 +1,30 @@
+data:
+  identifier: kinematic_state_schema.rolling_curve_pair_value
+  localized_concepts:
+    eng: 20fed4b3-359e-5749-af78-84852fa475fe
+  domains:
+    - concept_id: section-kinematic_state_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+      ref_type: section
+id: kinematic_state_schema.rolling_curve_pair_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}} that represents the rolling curve pair value {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_state_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rolling_curve_pair_value
+  domain: 'resource: kinematic_state_schema'
+  language_code: eng
+  annotations: []
+id: 20fed4b3-359e-5749-af78-84852fa475fe

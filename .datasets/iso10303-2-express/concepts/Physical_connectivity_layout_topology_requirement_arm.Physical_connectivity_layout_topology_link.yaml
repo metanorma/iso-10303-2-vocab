@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_link
+  localized_concepts:
+    eng: bced5b7b-c8b3-56b1-9028-e28866d99b17
+  domains:
+    - concept_id: section-Physical_connectivity_layout_topology_requirement_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm
+      ref_type: section
+id: Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_link
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity layout topology link {{entity}}'
+  notes:
+    - content: A **Physical_connectivity_layout_topology_link** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_node,Physical_connectivity_layout_topology_node}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm
+          version: '1'
+      type: authoritative
+      id: Physical_connectivity_layout_topology_requirement_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_connectivity_layout_topology_link
+  domain: 'application module: Physical_connectivity_layout_topology_requirement_arm'
+  language_code: eng
+  annotations: []
+id: bced5b7b-c8b3-56b1-9028-e28866d99b17

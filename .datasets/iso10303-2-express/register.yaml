@@ -1,0 +1,2701 @@
+---
+schema_type: glossarist
+schema_version: '3'
+id: iso10303-2-express
+ref: ISO 10303-2 EXPRESS Concepts
+urn: urn:iso:std:iso:10303:-2:*
+urnAliases:
+- urn:iso:std:iso:10303:-2:ed-1:en:tech:*
+status: current
+owner: ISO/TC 184/SC 4
+sourceRepo: https://github.com/iso-10303/iso-10303
+languages:
+- eng
+description:
+  eng: EXPRESS schema concepts extracted from ISO 10303 application modules and integrated
+    resources
+ordering: systematic
+sections:
+- id: Activity_arm
+  names:
+    eng: Activity (ARM)
+- id: Activity_as_realized_arm
+  names:
+    eng: Activity as realized (ARM)
+- id: Activity_as_realized_mim
+  names:
+    eng: Activity as realized (MIM)
+- id: Activity_characterized_mim
+  names:
+    eng: Activity characterized (MIM)
+- id: Activity_method_arm
+  names:
+    eng: Activity method (ARM)
+- id: Activity_method_assignment_arm
+  names:
+    eng: Activity method assignment (ARM)
+- id: Activity_method_assignment_mim
+  names:
+    eng: Activity method assignment (MIM)
+- id: Activity_method_implementation_arm
+  names:
+    eng: Activity method implementation (ARM)
+- id: Activity_mim
+  names:
+    eng: Activity (MIM)
+- id: Additive_manufacturing_part_and_build_information_arm
+  names:
+    eng: Additive manufacturing part and build information (ARM)
+- id: Additive_manufacturing_part_and_build_information_mim
+  names:
+    eng: Additive manufacturing part and build information (MIM)
+- id: Advanced_boundary_representation_arm
+  names:
+    eng: Advanced boundary representation (ARM)
+- id: Aec_service_life_arm
+  names:
+    eng: Aec service life (ARM)
+- id: Alias_identification_arm
+  names:
+    eng: Alias identification (ARM)
+- id: Altered_package_arm
+  names:
+    eng: Altered package (ARM)
+- id: Altered_package_mim
+  names:
+    eng: Altered package (MIM)
+- id: Altered_part_arm
+  names:
+    eng: Altered part (ARM)
+- id: Alternative_solution_arm
+  names:
+    eng: Alternative solution (ARM)
+- id: Analysis_arm
+  names:
+    eng: Analysis (ARM)
+- id: Analysis_assignment_arm
+  names:
+    eng: Analysis assignment (ARM)
+- id: Analysis_assignment_mim
+  names:
+    eng: Analysis assignment (MIM)
+- id: Analysis_identification_arm
+  names:
+    eng: Analysis identification (ARM)
+- id: Analysis_product_relationships_arm
+  names:
+    eng: Analysis product relationships (ARM)
+- id: Analysis_representation_arm
+  names:
+    eng: Analysis representation (ARM)
+- id: Analysis_shape_arm
+  names:
+    eng: Analysis shape (ARM)
+- id: Analytical_model_arm
+  names:
+    eng: Analytical model (ARM)
+- id: Analytical_model_mim
+  names:
+    eng: Analytical model (MIM)
+- id: Annotated_3d_model_data_quality_criteria_arm
+  names:
+    eng: Annotated 3d model data quality criteria (ARM)
+- id: Annotated_3d_model_data_quality_inspection_result_arm
+  names:
+    eng: Annotated 3d model data quality inspection result (ARM)
+- id: Annotated_3d_model_equivalence_assembly_arm
+  names:
+    eng: Annotated 3d model equivalence assembly (ARM)
+- id: Annotated_3d_model_equivalence_assembly_mim
+  names:
+    eng: Annotated 3d model equivalence assembly (MIM)
+- id: Annotated_3d_model_equivalence_criteria_arm
+  names:
+    eng: Annotated 3d model equivalence criteria (ARM)
+- id: Annotated_3d_model_equivalence_inspection_result_arm
+  names:
+    eng: Annotated 3d model equivalence inspection result (ARM)
+- id: Annotated_3d_model_equivalence_shape_arm
+  names:
+    eng: Annotated 3d model equivalence shape (ARM)
+- id: Annotated_3d_model_equivalence_shape_mim
+  names:
+    eng: Annotated 3d model equivalence shape (MIM)
+- id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+  names:
+    eng: Ap203 configuration controlled 3d design of mechanical parts and assemblies
+      (MIM)
+- id: Ap239_document_management_mim
+  names:
+    eng: Ap239 document management (MIM)
+- id: Ap239_part_definition_information_arm
+  names:
+    eng: Ap239 part definition information (ARM)
+- id: Ap239_part_definition_information_mim
+  names:
+    eng: Ap239 part definition information (MIM)
+- id: Ap239_product_life_cycle_support_mim
+  names:
+    eng: Ap239 product life cycle support (MIM)
+- id: Ap239_task_specification_resourced_mim
+  names:
+    eng: Ap239 task specification resourced (MIM)
+- id: Ap239_work_definition_mim
+  names:
+    eng: Ap239 work definition (MIM)
+- id: Ap242_managed_model_based_3d_engineering_arm
+  names:
+    eng: Ap242 managed model based 3d engineering (ARM)
+- id: Ap242_managed_model_based_3d_engineering_mim
+  names:
+    eng: Ap242 managed model based 3d engineering (MIM)
+- id: Appearance_assignment_arm
+  names:
+    eng: Appearance assignment (ARM)
+- id: Approval_arm
+  names:
+    eng: Approval (ARM)
+- id: Approval_mim
+  names:
+    eng: Approval (MIM)
+- id: Area_2d_arm
+  names:
+    eng: Area 2d (ARM)
+- id: Assembly_2d_shape_arm
+  names:
+    eng: Assembly 2d shape (ARM)
+- id: Assembly_3d_shape_arm
+  names:
+    eng: Assembly 3d shape (ARM)
+- id: Assembly_component_arm
+  names:
+    eng: Assembly component (ARM)
+- id: Assembly_component_mim
+  names:
+    eng: Assembly component (MIM)
+- id: Assembly_component_placement_requirements_arm
+  names:
+    eng: Assembly component placement requirements (ARM)
+- id: Assembly_component_placement_requirements_mim
+  names:
+    eng: Assembly component placement requirements (MIM)
+- id: Assembly_constraints_arm
+  names:
+    eng: Assembly constraints (ARM)
+- id: Assembly_feature_relationship_arm
+  names:
+    eng: Assembly feature relationship (ARM)
+- id: Assembly_functional_interface_requirement_arm
+  names:
+    eng: Assembly functional interface requirement (ARM)
+- id: Assembly_functional_interface_requirement_mim
+  names:
+    eng: Assembly functional interface requirement (MIM)
+- id: Assembly_module_design_arm
+  names:
+    eng: Assembly module design (ARM)
+- id: Assembly_module_design_mim
+  names:
+    eng: Assembly module design (MIM)
+- id: Assembly_module_macro_definition_arm
+  names:
+    eng: Assembly module macro definition (ARM)
+- id: Assembly_module_macro_definition_mim
+  names:
+    eng: Assembly module macro definition (MIM)
+- id: Assembly_module_usage_view_arm
+  names:
+    eng: Assembly module usage view (ARM)
+- id: Assembly_module_usage_view_mim
+  names:
+    eng: Assembly module usage view (MIM)
+- id: Assembly_module_with_cable_component_2d_arm
+  names:
+    eng: Assembly module with cable component 2d (ARM)
+- id: Assembly_module_with_cable_component_3d_arm
+  names:
+    eng: Assembly module with cable component 3d (ARM)
+- id: Assembly_module_with_cable_component_arm
+  names:
+    eng: Assembly module with cable component (ARM)
+- id: Assembly_module_with_cable_component_mim
+  names:
+    eng: Assembly module with cable component (MIM)
+- id: Assembly_module_with_interconnect_component_arm
+  names:
+    eng: Assembly module with interconnect component (ARM)
+- id: Assembly_module_with_interconnect_component_mim
+  names:
+    eng: Assembly module with interconnect component (MIM)
+- id: Assembly_module_with_macro_component_arm
+  names:
+    eng: Assembly module with macro component (ARM)
+- id: Assembly_module_with_macro_component_mim
+  names:
+    eng: Assembly module with macro component (MIM)
+- id: Assembly_module_with_packaged_component_arm
+  names:
+    eng: Assembly module with packaged component (ARM)
+- id: Assembly_module_with_packaged_component_mim
+  names:
+    eng: Assembly module with packaged component (MIM)
+- id: Assembly_module_with_packaged_connector_component_arm
+  names:
+    eng: Assembly module with packaged connector component (ARM)
+- id: Assembly_module_with_packaged_connector_component_mim
+  names:
+    eng: Assembly module with packaged connector component (MIM)
+- id: Assembly_module_with_subassembly_arm
+  names:
+    eng: Assembly module with subassembly (ARM)
+- id: Assembly_module_with_subassembly_mim
+  names:
+    eng: Assembly module with subassembly (MIM)
+- id: Assembly_physical_interface_requirement_arm
+  names:
+    eng: Assembly physical interface requirement (ARM)
+- id: Assembly_physical_interface_requirement_mim
+  names:
+    eng: Assembly physical interface requirement (MIM)
+- id: Assembly_physical_requirement_allocation_arm
+  names:
+    eng: Assembly physical requirement allocation (ARM)
+- id: Assembly_physical_requirement_allocation_mim
+  names:
+    eng: Assembly physical requirement allocation (MIM)
+- id: Assembly_shape_arm
+  names:
+    eng: Assembly shape (ARM)
+- id: Assembly_structure_arm
+  names:
+    eng: Assembly structure (ARM)
+- id: Assembly_technology_arm
+  names:
+    eng: Assembly technology (ARM)
+- id: Assembly_technology_mim
+  names:
+    eng: Assembly technology (MIM)
+- id: Assignment_object_relationship_arm
+  names:
+    eng: Assignment object relationship (ARM)
+- id: Associative_draughting_elements_arm
+  names:
+    eng: Associative draughting elements (ARM)
+- id: Associative_text_arm
+  names:
+    eng: Associative text (ARM)
+- id: Attachment_slot_arm
+  names:
+    eng: Attachment slot (ARM)
+- id: Attachment_slot_mim
+  names:
+    eng: Attachment slot (MIM)
+- id: Attribute_classification_arm
+  names:
+    eng: Attribute classification (ARM)
+- id: Attribute_classification_mim
+  names:
+    eng: Attribute classification (MIM)
+- id: B_spline_geometry_arm
+  names:
+    eng: B spline geometry (ARM)
+- id: Bare_die_arm
+  names:
+    eng: Bare die (ARM)
+- id: Bare_die_mim
+  names:
+    eng: Bare die (MIM)
+- id: Basic_curve_arm
+  names:
+    eng: Basic curve (ARM)
+- id: Basic_data_representation_arm
+  names:
+    eng: Basic data representation (ARM)
+- id: Basic_data_representation_mim
+  names:
+    eng: Basic data representation (MIM)
+- id: Basic_geometric_topology_arm
+  names:
+    eng: Basic geometric topology (ARM)
+- id: Basic_geometry_arm
+  names:
+    eng: Basic geometry (ARM)
+- id: Behaviour_description_assignment_arm
+  names:
+    eng: Behaviour description assignment (ARM)
+- id: Behaviour_identification_and_version_arm
+  names:
+    eng: Behaviour identification and version (ARM)
+- id: Behaviour_view_definition_arm
+  names:
+    eng: Behaviour view definition (ARM)
+- id: Binary_representation_arm
+  names:
+    eng: Binary representation (ARM)
+- id: Building_component_arm
+  names:
+    eng: Building component (ARM)
+- id: Building_component_mim
+  names:
+    eng: Building component (MIM)
+- id: Building_item_arm
+  names:
+    eng: Building item (ARM)
+- id: Building_item_mim
+  names:
+    eng: Building item (MIM)
+- id: Building_structure_arm
+  names:
+    eng: Building structure (ARM)
+- id: Building_structure_mim
+  names:
+    eng: Building structure (MIM)
+- id: Cable_arm
+  names:
+    eng: Cable (ARM)
+- id: Cable_mim
+  names:
+    eng: Cable (MIM)
+- id: Camera_view_3d_arm
+  names:
+    eng: Camera view 3d (ARM)
+- id: Camera_view_3d_mim
+  names:
+    eng: Camera view 3d (MIM)
+- id: Cardinality_of_relationship_arm
+  names:
+    eng: Cardinality of relationship (ARM)
+- id: Cardinality_of_relationship_mim
+  names:
+    eng: Cardinality of relationship (MIM)
+- id: Certification_arm
+  names:
+    eng: Certification (ARM)
+- id: Certification_mim
+  names:
+    eng: Certification (MIM)
+- id: Cfd_conditions_arm
+  names:
+    eng: Cfd conditions (ARM)
+- id: Cfd_equations_arm
+  names:
+    eng: Cfd equations (ARM)
+- id: Cfd_model_arm
+  names:
+    eng: Cfd model (ARM)
+- id: Cfd_results_arm
+  names:
+    eng: Cfd results (ARM)
+- id: Cfd_specified_general_property_arm
+  names:
+    eng: Cfd specified general property (ARM)
+- id: Change_management_arm
+  names:
+    eng: Change management (ARM)
+- id: Change_management_mim
+  names:
+    eng: Change management (MIM)
+- id: Characteristic_arm
+  names:
+    eng: Characteristic (ARM)
+- id: Characteristic_mim
+  names:
+    eng: Characteristic (MIM)
+- id: Characterizable_object_arm
+  names:
+    eng: Characterizable object (ARM)
+- id: Characterized_representation_arm
+  names:
+    eng: Characterized representation (ARM)
+- id: Characterized_representation_mim
+  names:
+    eng: Characterized representation (MIM)
+- id: Chemical_substance_arm
+  names:
+    eng: Chemical substance (ARM)
+- id: Class_arm
+  names:
+    eng: Class (ARM)
+- id: Class_of_activity_arm
+  names:
+    eng: Class of activity (ARM)
+- id: Class_of_activity_mim
+  names:
+    eng: Class of activity (MIM)
+- id: Class_of_composition_of_activity_arm
+  names:
+    eng: Class of composition of activity (ARM)
+- id: Class_of_composition_of_activity_mim
+  names:
+    eng: Class of composition of activity (MIM)
+- id: Class_of_composition_of_product_arm
+  names:
+    eng: Class of composition of product (ARM)
+- id: Class_of_composition_of_product_mim
+  names:
+    eng: Class of composition of product (MIM)
+- id: Class_of_connection_of_activity_arm
+  names:
+    eng: Class of connection of activity (ARM)
+- id: Class_of_connection_of_activity_mim
+  names:
+    eng: Class of connection of activity (MIM)
+- id: Class_of_connection_of_product_arm
+  names:
+    eng: Class of connection of product (ARM)
+- id: Class_of_connection_of_product_mim
+  names:
+    eng: Class of connection of product (MIM)
+- id: Class_of_containment_of_product_arm
+  names:
+    eng: Class of containment of product (ARM)
+- id: Class_of_containment_of_product_mim
+  names:
+    eng: Class of containment of product (MIM)
+- id: Class_of_involvement_in_activity_arm
+  names:
+    eng: Class of involvement in activity (ARM)
+- id: Class_of_involvement_in_activity_mim
+  names:
+    eng: Class of involvement in activity (MIM)
+- id: Class_of_involvement_of_product_in_connection_arm
+  names:
+    eng: Class of involvement of product in connection (ARM)
+- id: Class_of_involvement_of_product_in_connection_mim
+  names:
+    eng: Class of involvement of product in connection (MIM)
+- id: Class_of_person_arm
+  names:
+    eng: Class of person (ARM)
+- id: Class_of_person_mim
+  names:
+    eng: Class of person (MIM)
+- id: Class_of_product_arm
+  names:
+    eng: Class of product (ARM)
+- id: Class_of_product_mim
+  names:
+    eng: Class of product (MIM)
+- id: Classification_arm
+  names:
+    eng: Classification (ARM)
+- id: Classification_assignment_arm
+  names:
+    eng: Classification assignment (ARM)
+- id: Classification_assignment_mim
+  names:
+    eng: Classification assignment (MIM)
+- id: Classification_with_attributes_arm
+  names:
+    eng: Classification with attributes (ARM)
+- id: Classification_with_attributes_mim
+  names:
+    eng: Classification with attributes (MIM)
+- id: Collection_identification_and_version_arm
+  names:
+    eng: Collection identification and version (ARM)
+- id: Collection_identification_and_version_mim
+  names:
+    eng: Collection identification and version (MIM)
+- id: Colour_arm
+  names:
+    eng: Colour (ARM)
+- id: Colour_mim
+  names:
+    eng: Colour (MIM)
+- id: Component_feature_arm
+  names:
+    eng: Component feature (ARM)
+- id: Component_feature_mim
+  names:
+    eng: Component feature (MIM)
+- id: Component_grouping_arm
+  names:
+    eng: Component grouping (ARM)
+- id: Component_grouping_mim
+  names:
+    eng: Component grouping (MIM)
+- id: Composite_constituent_shape_arm
+  names:
+    eng: Composite constituent shape (ARM)
+- id: Composite_constituent_shape_mim
+  names:
+    eng: Composite constituent shape (MIM)
+- id: Composite_material_aspects_arm
+  names:
+    eng: Composite material aspects (ARM)
+- id: Composite_material_aspects_mim
+  names:
+    eng: Composite material aspects (MIM)
+- id: Composite_surface_arm
+  names:
+    eng: Composite surface (ARM)
+- id: Composition_of_individual_activity_arm
+  names:
+    eng: Composition of individual activity (ARM)
+- id: Composition_of_individual_activity_mim
+  names:
+    eng: Composition of individual activity (MIM)
+- id: Composition_of_individual_product_arm
+  names:
+    eng: Composition of individual product (ARM)
+- id: Composition_of_individual_product_mim
+  names:
+    eng: Composition of individual product (MIM)
+- id: Compound_shape_representation_arm
+  names:
+    eng: Compound shape representation (ARM)
+- id: Compound_shape_representation_mim
+  names:
+    eng: Compound shape representation (MIM)
+- id: Condition_arm
+  names:
+    eng: Condition (ARM)
+- id: Condition_evaluation_arm
+  names:
+    eng: Condition evaluation (ARM)
+- id: Conditional_effectivity_arm
+  names:
+    eng: Conditional effectivity (ARM)
+- id: Conductivity_material_aspects_arm
+  names:
+    eng: Conductivity material aspects (ARM)
+- id: Conductivity_material_aspects_mim
+  names:
+    eng: Conductivity material aspects (MIM)
+- id: Configuration_effectivity_arm
+  names:
+    eng: Configuration effectivity (ARM)
+- id: Configuration_item_arm
+  names:
+    eng: Configuration item (ARM)
+- id: Configuration_item_mim
+  names:
+    eng: Configuration item (MIM)
+- id: Connection_of_individual_activity_arm
+  names:
+    eng: Connection of individual activity (ARM)
+- id: Connection_of_individual_activity_mim
+  names:
+    eng: Connection of individual activity (MIM)
+- id: Connection_of_individual_product_arm
+  names:
+    eng: Connection of individual product (ARM)
+- id: Connection_of_individual_product_mim
+  names:
+    eng: Connection of individual product (MIM)
+- id: Connectivity_allocation_to_physical_network_arm
+  names:
+    eng: Connectivity allocation to physical network (ARM)
+- id: Construction_geometry_arm
+  names:
+    eng: Construction geometry (ARM)
+- id: Construction_geometry_mim
+  names:
+    eng: Construction geometry (MIM)
+- id: Constructive_solid_geometry_2d_arm
+  names:
+    eng: Constructive solid geometry 2d (ARM)
+- id: Constructive_solid_geometry_2d_mim
+  names:
+    eng: Constructive solid geometry 2d (MIM)
+- id: Constructive_solid_geometry_3d_arm
+  names:
+    eng: Constructive solid geometry 3d (ARM)
+- id: Containment_of_individual_product_arm
+  names:
+    eng: Containment of individual product (ARM)
+- id: Containment_of_individual_product_mim
+  names:
+    eng: Containment of individual product (MIM)
+- id: Contextual_shape_positioning_arm
+  names:
+    eng: Contextual shape positioning (ARM)
+- id: Contract_arm
+  names:
+    eng: Contract (ARM)
+- id: Contract_mim
+  names:
+    eng: Contract (MIM)
+- id: Currency_arm
+  names:
+    eng: Currency (ARM)
+- id: Currency_mim
+  names:
+    eng: Currency (MIM)
+- id: Curve_appearance_arm
+  names:
+    eng: Curve appearance (ARM)
+- id: Curve_appearance_mim
+  names:
+    eng: Curve appearance (MIM)
+- id: Curve_swept_solid_arm
+  names:
+    eng: Curve swept solid (ARM)
+- id: Data_creation_and_maintenance_activity_arm
+  names:
+    eng: Data creation and maintenance activity (ARM)
+- id: Date_time_arm
+  names:
+    eng: Date time (ARM)
+- id: Date_time_assignment_arm
+  names:
+    eng: Date time assignment (ARM)
+- id: Date_time_assignment_mim
+  names:
+    eng: Date time assignment (MIM)
+- id: Datum_and_datum_systems_arm
+  names:
+    eng: Datum and datum systems (ARM)
+- id: Datum_and_datum_systems_mim
+  names:
+    eng: Datum and datum systems (MIM)
+- id: Datum_difference_based_model_arm
+  names:
+    eng: Datum difference based model (ARM)
+- id: Datum_difference_based_model_mim
+  names:
+    eng: Datum difference based model (MIM)
+- id: Decision_support_mim
+  names:
+    eng: Decision support (MIM)
+- id: Default_setting_association_arm
+  names:
+    eng: Default setting association (ARM)
+- id: Default_tolerance_arm
+  names:
+    eng: Default tolerance (ARM)
+- id: Default_tolerance_mim
+  names:
+    eng: Default tolerance (MIM)
+- id: Derived_shape_element_arm
+  names:
+    eng: Derived shape element (ARM)
+- id: Description_assignment_arm
+  names:
+    eng: Description assignment (ARM)
+- id: Description_assignment_mim
+  names:
+    eng: Description assignment (MIM)
+- id: Design_product_data_management_arm
+  names:
+    eng: Design product data management (ARM)
+- id: Design_specific_assignment_to_assembly_usage_view_arm
+  names:
+    eng: Design specific assignment to assembly usage view (ARM)
+- id: Design_specific_assignment_to_interconnect_usage_view_arm
+  names:
+    eng: Design specific assignment to interconnect usage view (ARM)
+- id: Device_marking_arm
+  names:
+    eng: Device marking (ARM)
+- id: Dimension_and_tolerance_callouts_arm
+  names:
+    eng: Dimension and tolerance callouts (ARM)
+- id: Dimension_and_tolerance_callouts_mim
+  names:
+    eng: Dimension and tolerance callouts (MIM)
+- id: Dimension_tolerance_arm
+  names:
+    eng: Dimension tolerance (ARM)
+- id: Dimension_tolerance_mim
+  names:
+    eng: Dimension tolerance (MIM)
+- id: Discrete_shield_arm
+  names:
+    eng: Discrete shield (ARM)
+- id: Discrete_shield_mim
+  names:
+    eng: Discrete shield (MIM)
+- id: Disposition_arm
+  names:
+    eng: Disposition (ARM)
+- id: Disposition_mim
+  names:
+    eng: Disposition (MIM)
+- id: Document_and_version_identification_arm
+  names:
+    eng: Document and version identification (ARM)
+- id: Document_assignment_arm
+  names:
+    eng: Document assignment (ARM)
+- id: Document_assignment_mim
+  names:
+    eng: Document assignment (MIM)
+- id: Document_definition_arm
+  names:
+    eng: Document definition (ARM)
+- id: Document_properties_arm
+  names:
+    eng: Document properties (ARM)
+- id: Document_structure_arm
+  names:
+    eng: Document structure (ARM)
+- id: Draughting_annotation_arm
+  names:
+    eng: Draughting annotation (ARM)
+- id: Draughting_annotation_mim
+  names:
+    eng: Draughting annotation (MIM)
+- id: Draughting_element_arm
+  names:
+    eng: Draughting element (ARM)
+- id: Draughting_element_specialisations_arm
+  names:
+    eng: Draughting element specialisations (ARM)
+- id: Draughting_element_specialisations_mim
+  names:
+    eng: Draughting element specialisations (MIM)
+- id: Drawing_definition_arm
+  names:
+    eng: Drawing definition (ARM)
+- id: Drawing_definition_mim
+  names:
+    eng: Drawing definition (MIM)
+- id: Drawing_structure_and_administration_arm
+  names:
+    eng: Drawing structure and administration (ARM)
+- id: Edge_based_topological_representation_with_length_constraint_arm
+  names:
+    eng: Edge based topological representation with length constraint (ARM)
+- id: Edge_based_topological_representation_with_length_constraint_mim
+  names:
+    eng: Edge based topological representation with length constraint (MIM)
+- id: Edge_based_wireframe_arm
+  names:
+    eng: Edge based wireframe (ARM)
+- id: Edge_shape_feature_arm
+  names:
+    eng: Edge shape feature (ARM)
+- id: Effectivity_application_arm
+  names:
+    eng: Effectivity application (ARM)
+- id: Effectivity_application_mim
+  names:
+    eng: Effectivity application (MIM)
+- id: Effectivity_arm
+  names:
+    eng: Effectivity (ARM)
+- id: Electrical_network_definition_arm
+  names:
+    eng: Electrical network definition (ARM)
+- id: Electrical_network_definition_mim
+  names:
+    eng: Electrical network definition (MIM)
+- id: Elemental_geometric_shape_arm
+  names:
+    eng: Elemental geometric shape (ARM)
+- id: Elemental_topology_arm
+  names:
+    eng: Elemental topology (ARM)
+- id: Elementary_boundary_representation_arm
+  names:
+    eng: Elementary boundary representation (ARM)
+- id: Elementary_function_arm
+  names:
+    eng: Elementary function (ARM)
+- id: Envelope_arm
+  names:
+    eng: Envelope (ARM)
+- id: Envelope_mim
+  names:
+    eng: Envelope (MIM)
+- id: Event_arm
+  names:
+    eng: Event (ARM)
+- id: Event_assignment_arm
+  names:
+    eng: Event assignment (ARM)
+- id: Event_assignment_mim
+  names:
+    eng: Event assignment (MIM)
+- id: Experience_arm
+  names:
+    eng: Experience (ARM)
+- id: Experience_mim
+  names:
+    eng: Experience (MIM)
+- id: Explicit_constraints_arm
+  names:
+    eng: Explicit constraints (ARM)
+- id: Expression_arm
+  names:
+    eng: Expression (ARM)
+- id: Expression_assignment_arm
+  names:
+    eng: Expression assignment (ARM)
+- id: Expression_assignment_mim
+  names:
+    eng: Expression assignment (MIM)
+- id: Extended_basic_geometry_arm
+  names:
+    eng: Extended basic geometry (ARM)
+- id: Extended_basic_geometry_mim
+  names:
+    eng: Extended basic geometry (MIM)
+- id: Extended_date_arm
+  names:
+    eng: Extended date (ARM)
+- id: Extended_measure_representation_arm
+  names:
+    eng: Extended measure representation (ARM)
+- id: Extended_measure_representation_mim
+  names:
+    eng: Extended measure representation (MIM)
+- id: Extended_person_organization_arm
+  names:
+    eng: Extended person organization (ARM)
+- id: Extended_person_organization_mim
+  names:
+    eng: Extended person organization (MIM)
+- id: Extended_task_element_arm
+  names:
+    eng: Extended task element (ARM)
+- id: External_analysis_representation_arm
+  names:
+    eng: External analysis representation (ARM)
+- id: External_class_arm
+  names:
+    eng: External class (ARM)
+- id: External_class_mim
+  names:
+    eng: External class (MIM)
+- id: External_currency_arm
+  names:
+    eng: External currency (ARM)
+- id: External_currency_mim
+  names:
+    eng: External currency (MIM)
+- id: External_functional_model_arm
+  names:
+    eng: External functional model (ARM)
+- id: External_item_identification_assignment_arm
+  names:
+    eng: External item identification assignment (ARM)
+- id: External_item_identification_assignment_mim
+  names:
+    eng: External item identification assignment (MIM)
+- id: External_library_arm
+  names:
+    eng: External library (ARM)
+- id: External_model_arm
+  names:
+    eng: External model (ARM)
+- id: External_properties_arm
+  names:
+    eng: External properties (ARM)
+- id: External_properties_mim
+  names:
+    eng: External properties (MIM)
+- id: External_representation_item_arm
+  names:
+    eng: External representation item (ARM)
+- id: External_representation_item_mim
+  names:
+    eng: External representation item (MIM)
+- id: External_source_arm
+  names:
+    eng: External source (ARM)
+- id: External_state_based_behaviour_model_arm
+  names:
+    eng: External state based behaviour model (ARM)
+- id: External_state_based_behaviour_model_mim
+  names:
+    eng: External state based behaviour model (MIM)
+- id: External_unit_arm
+  names:
+    eng: External unit (ARM)
+- id: External_unit_mim
+  names:
+    eng: External unit (MIM)
+- id: Externally_conditioned_data_quality_criteria_arm
+  names:
+    eng: Externally conditioned data quality criteria (ARM)
+- id: Externally_conditioned_data_quality_criteria_mim
+  names:
+    eng: Externally conditioned data quality criteria (MIM)
+- id: Externally_conditioned_data_quality_inspection_result_arm
+  names:
+    eng: Externally conditioned data quality inspection result (ARM)
+- id: Externally_conditioned_data_quality_inspection_result_mim
+  names:
+    eng: Externally conditioned data quality inspection result (MIM)
+- id: Extruded_structure_cross_section_arm
+  names:
+    eng: Extruded structure cross section (ARM)
+- id: Extruded_structure_cross_section_mim
+  names:
+    eng: Extruded structure cross section (MIM)
+- id: Fabrication_joint_arm
+  names:
+    eng: Fabrication joint (ARM)
+- id: Fabrication_joint_mim
+  names:
+    eng: Fabrication joint (MIM)
+- id: Fabrication_requirement_arm
+  names:
+    eng: Fabrication requirement (ARM)
+- id: Fabrication_technology_arm
+  names:
+    eng: Fabrication technology (ARM)
+- id: Fabrication_technology_mim
+  names:
+    eng: Fabrication technology (MIM)
+- id: Faceted_boundary_representation_arm
+  names:
+    eng: Faceted boundary representation (ARM)
+- id: Fea_definition_relationships_arm
+  names:
+    eng: Fea definition relationships (ARM)
+- id: Fea_material_aspects_arm
+  names:
+    eng: Fea material aspects (ARM)
+- id: Feature_and_connection_zone_arm
+  names:
+    eng: Feature and connection zone (ARM)
+- id: Feature_and_connection_zone_mim
+  names:
+    eng: Feature and connection zone (MIM)
+- id: File_identification_arm
+  names:
+    eng: File identification (ARM)
+- id: File_identification_mim
+  names:
+    eng: File identification (MIM)
+- id: Fill_area_style_arm
+  names:
+    eng: Fill area style (ARM)
+- id: Finite_element_analysis_arm
+  names:
+    eng: Finite element analysis (ARM)
+- id: Finite_element_shape_arm
+  names:
+    eng: Finite element shape (ARM)
+- id: Finite_element_shape_mim
+  names:
+    eng: Finite element shape (MIM)
+- id: Finite_elements_arm
+  names:
+    eng: Finite elements (ARM)
+- id: Footprint_definition_arm
+  names:
+    eng: Footprint definition (ARM)
+- id: Footprint_definition_mim
+  names:
+    eng: Footprint definition (MIM)
+- id: Form_feature_in_panel_arm
+  names:
+    eng: Form feature in panel (ARM)
+- id: Form_feature_in_panel_mim
+  names:
+    eng: Form feature in panel (MIM)
+- id: Foundation_representation_arm
+  names:
+    eng: Foundation representation (ARM)
+- id: Foundation_state_definition_arm
+  names:
+    eng: Foundation state definition (ARM)
+- id: Foundation_state_definition_mim
+  names:
+    eng: Foundation state definition (MIM)
+- id: Function_based_behaviour_mim
+  names:
+    eng: Function based behaviour (MIM)
+- id: Function_based_behaviour_representation_arm
+  names:
+    eng: Function based behaviour representation (ARM)
+- id: Functional_assignment_to_part_arm
+  names:
+    eng: Functional assignment to part (ARM)
+- id: Functional_assignment_to_part_mim
+  names:
+    eng: Functional assignment to part (MIM)
+- id: Functional_breakdown_arm
+  names:
+    eng: Functional breakdown (ARM)
+- id: Functional_breakdown_mim
+  names:
+    eng: Functional breakdown (MIM)
+- id: Functional_decomposition_to_assembly_design_arm
+  names:
+    eng: Functional decomposition to assembly design (ARM)
+- id: Functional_decomposition_to_design_arm
+  names:
+    eng: Functional decomposition to design (ARM)
+- id: Functional_decomposition_to_design_mim
+  names:
+    eng: Functional decomposition to design (MIM)
+- id: Functional_decomposition_to_interconnect_design_arm
+  names:
+    eng: Functional decomposition to interconnect design (ARM)
+- id: Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
+  names:
+    eng: Functional decomposition with nodal representation to packaged mapping (ARM)
+- id: Functional_decomposition_with_nodal_representation_to_packaged_mapping_mim
+  names:
+    eng: Functional decomposition with nodal representation to packaged mapping (MIM)
+- id: Functional_specification_arm
+  names:
+    eng: Functional specification (ARM)
+- id: Functional_specification_mim
+  names:
+    eng: Functional specification (MIM)
+- id: Functional_unit_requirement_allocation_arm
+  names:
+    eng: Functional unit requirement allocation (ARM)
+- id: Functional_usage_view_arm
+  names:
+    eng: Functional usage view (ARM)
+- id: Functional_usage_view_mim
+  names:
+    eng: Functional usage view (MIM)
+- id: General_design_connectivity_arm
+  names:
+    eng: General design connectivity (ARM)
+- id: General_design_connectivity_mim
+  names:
+    eng: General design connectivity (MIM)
+- id: General_model_parameter_arm
+  names:
+    eng: General model parameter (ARM)
+- id: General_model_parameter_mim
+  names:
+    eng: General model parameter (MIM)
+- id: General_surface_appearance_arm
+  names:
+    eng: General surface appearance (ARM)
+- id: Generic_expression_arm
+  names:
+    eng: Generic expression (ARM)
+- id: Generic_material_aspects_arm
+  names:
+    eng: Generic material aspects (ARM)
+- id: Generic_material_aspects_mim
+  names:
+    eng: Generic material aspects (MIM)
+- id: Geometric_constraints_arm
+  names:
+    eng: Geometric constraints (ARM)
+- id: Geometric_model_2d_3d_relationship_arm
+  names:
+    eng: Geometric model 2d 3d relationship (ARM)
+- id: Geometric_model_2d_3d_relationship_mim
+  names:
+    eng: Geometric model 2d 3d relationship (MIM)
+- id: Geometric_model_relationship_arm
+  names:
+    eng: Geometric model relationship (ARM)
+- id: Geometric_tolerance_arm
+  names:
+    eng: Geometric tolerance (ARM)
+- id: Geometric_validation_property_representation_arm
+  names:
+    eng: Geometric validation property representation (ARM)
+- id: Geometrically_bounded_surface_arm
+  names:
+    eng: Geometrically bounded surface (ARM)
+- id: Geometrically_bounded_wireframe_arm
+  names:
+    eng: Geometrically bounded wireframe (ARM)
+- id: Group_arm
+  names:
+    eng: Group (ARM)
+- id: Group_mim
+  names:
+    eng: Group (MIM)
+- id: Hybrid_boundary_representation_arm
+  names:
+    eng: Hybrid boundary representation (ARM)
+- id: Identification_assignment_arm
+  names:
+    eng: Identification assignment (ARM)
+- id: Identification_assignment_mim
+  names:
+    eng: Identification assignment (MIM)
+- id: Identification_relationship_arm
+  names:
+    eng: Identification relationship (ARM)
+- id: Incomplete_data_reference_mechanism_arm
+  names:
+    eng: Incomplete data reference mechanism (ARM)
+- id: Incomplete_data_reference_mechanism_mim
+  names:
+    eng: Incomplete data reference mechanism (MIM)
+- id: Independent_property_arm
+  names:
+    eng: Independent property (ARM)
+- id: Independent_property_definition_arm
+  names:
+    eng: Independent property definition (ARM)
+- id: Independent_property_definition_mim
+  names:
+    eng: Independent property definition (MIM)
+- id: Independent_property_representation_arm
+  names:
+    eng: Independent property representation (ARM)
+- id: Individual_activity_arm
+  names:
+    eng: Individual activity (ARM)
+- id: Individual_activity_mim
+  names:
+    eng: Individual activity (MIM)
+- id: Individual_involvement_in_activity_arm
+  names:
+    eng: Individual involvement in activity (ARM)
+- id: Individual_involvement_in_activity_mim
+  names:
+    eng: Individual involvement in activity (MIM)
+- id: Inertia_characteristics_arm
+  names:
+    eng: Inertia characteristics (ARM)
+- id: Inertia_characteristics_mim
+  names:
+    eng: Inertia characteristics (MIM)
+- id: Information_product_arm
+  names:
+    eng: Information product (ARM)
+- id: Information_rights_arm
+  names:
+    eng: Information rights (ARM)
+- id: Information_rights_mim
+  names:
+    eng: Information rights (MIM)
+- id: Integral_shield_arm
+  names:
+    eng: Integral shield (ARM)
+- id: Integral_shield_mim
+  names:
+    eng: Integral shield (MIM)
+- id: Interconnect_2d_shape_arm
+  names:
+    eng: Interconnect 2d shape (ARM)
+- id: Interconnect_module_connection_routing_arm
+  names:
+    eng: Interconnect module connection routing (ARM)
+- id: Interconnect_module_connection_routing_mim
+  names:
+    eng: Interconnect module connection routing (MIM)
+- id: Interconnect_module_to_assembly_module_relationship_arm
+  names:
+    eng: Interconnect module to assembly module relationship (ARM)
+- id: Interconnect_module_usage_view_arm
+  names:
+    eng: Interconnect module usage view (ARM)
+- id: Interconnect_module_usage_view_mim
+  names:
+    eng: Interconnect module usage view (MIM)
+- id: Interconnect_module_with_macros_arm
+  names:
+    eng: Interconnect module with macros (ARM)
+- id: Interconnect_module_with_macros_mim
+  names:
+    eng: Interconnect module with macros (MIM)
+- id: Interconnect_non_planar_shape_arm
+  names:
+    eng: Interconnect non planar shape (ARM)
+- id: Interconnect_non_planar_shape_mim
+  names:
+    eng: Interconnect non planar shape (MIM)
+- id: Interconnect_physical_requirement_allocation_arm
+  names:
+    eng: Interconnect physical requirement allocation (ARM)
+- id: Interconnect_physical_requirement_allocation_mim
+  names:
+    eng: Interconnect physical requirement allocation (MIM)
+- id: Interconnect_placement_requirements_arm
+  names:
+    eng: Interconnect placement requirements (ARM)
+- id: Interconnect_placement_requirements_mim
+  names:
+    eng: Interconnect placement requirements (MIM)
+- id: Interface_arm
+  names:
+    eng: Interface (ARM)
+- id: Interface_component_arm
+  names:
+    eng: Interface component (ARM)
+- id: Interface_component_mim
+  names:
+    eng: Interface component (MIM)
+- id: Interface_lifecycle_arm
+  names:
+    eng: Interface lifecycle (ARM)
+- id: Interface_lifecycle_mim
+  names:
+    eng: Interface lifecycle (MIM)
+- id: Interface_mim
+  names:
+    eng: Interface (MIM)
+- id: Involvement_of_individual_product_in_connection_arm
+  names:
+    eng: Involvement of individual product in connection (ARM)
+- id: Involvement_of_individual_product_in_connection_mim
+  names:
+    eng: Involvement of individual product in connection (MIM)
+- id: Issue_arm
+  names:
+    eng: Issue (ARM)
+- id: Issue_mim
+  names:
+    eng: Issue (MIM)
+- id: Item_definition_structure_arm
+  names:
+    eng: Item definition structure (ARM)
+- id: Justification_arm
+  names:
+    eng: Justification (ARM)
+- id: Justification_mim
+  names:
+    eng: Justification (MIM)
+- id: Kinematic_analysis_control_and_result_arm
+  names:
+    eng: Kinematic analysis control and result (ARM)
+- id: Kinematic_motion_representation_arm
+  names:
+    eng: Kinematic motion representation (ARM)
+- id: Kinematic_state_arm
+  names:
+    eng: Kinematic state (ARM)
+- id: Kinematic_structure_arm
+  names:
+    eng: Kinematic structure (ARM)
+- id: Kinematic_topology_arm
+  names:
+    eng: Kinematic topology (ARM)
+- id: Land_arm
+  names:
+    eng: Land (ARM)
+- id: Land_mim
+  names:
+    eng: Land (MIM)
+- id: Layer_assignment_arm
+  names:
+    eng: Layer assignment (ARM)
+- id: Layer_assignment_mim
+  names:
+    eng: Layer assignment (MIM)
+- id: Layered_2d_shape_arm
+  names:
+    eng: Layered 2d shape (ARM)
+- id: Layered_3d_shape_arm
+  names:
+    eng: Layered 3d shape (ARM)
+- id: Layered_3d_shape_mim
+  names:
+    eng: Layered 3d shape (MIM)
+- id: Layered_interconnect_complex_template_arm
+  names:
+    eng: Layered interconnect complex template (ARM)
+- id: Layered_interconnect_complex_template_mim
+  names:
+    eng: Layered interconnect complex template (MIM)
+- id: Layered_interconnect_module_2d_design_arm
+  names:
+    eng: Layered interconnect module 2d design (ARM)
+- id: Layered_interconnect_module_3d_design_arm
+  names:
+    eng: Layered interconnect module 3d design (ARM)
+- id: Layered_interconnect_module_design_arm
+  names:
+    eng: Layered interconnect module design (ARM)
+- id: Layered_interconnect_module_design_mim
+  names:
+    eng: Layered interconnect module design (MIM)
+- id: Layered_interconnect_module_with_printed_component_design_arm
+  names:
+    eng: Layered interconnect module with printed component design (ARM)
+- id: Layered_interconnect_module_with_printed_component_design_mim
+  names:
+    eng: Layered interconnect module with printed component design (MIM)
+- id: Layered_interconnect_simple_template_arm
+  names:
+    eng: Layered interconnect simple template (ARM)
+- id: Layered_interconnect_simple_template_mim
+  names:
+    eng: Layered interconnect simple template (MIM)
+- id: Layout_macro_definition_arm
+  names:
+    eng: Layout macro definition (ARM)
+- id: Layout_macro_definition_mim
+  names:
+    eng: Layout macro definition (MIM)
+- id: Limited_length_or_area_indicator_assignment_arm
+  names:
+    eng: Limited length or area indicator assignment (ARM)
+- id: Limited_length_or_area_indicator_assignment_mim
+  names:
+    eng: Limited length or area indicator assignment (MIM)
+- id: Location_arm
+  names:
+    eng: Location (ARM)
+- id: Location_assignment_arm
+  names:
+    eng: Location assignment (ARM)
+- id: Location_assignment_characterized_mim
+  names:
+    eng: Location assignment characterized (MIM)
+- id: Location_assignment_mim
+  names:
+    eng: Location assignment (MIM)
+- id: Location_in_building_arm
+  names:
+    eng: Location in building (ARM)
+- id: Location_mim
+  names:
+    eng: Location (MIM)
+- id: Machining_features_arm
+  names:
+    eng: Machining features (ARM)
+- id: Machining_features_mim
+  names:
+    eng: Machining features (MIM)
+- id: Management_resource_information_arm
+  names:
+    eng: Management resource information (ARM)
+- id: Manifold_subsurface_arm
+  names:
+    eng: Manifold subsurface (ARM)
+- id: Manifold_surface_arm
+  names:
+    eng: Manifold surface (ARM)
+- id: Manufacturing_configuration_effectivity_arm
+  names:
+    eng: Manufacturing configuration effectivity (ARM)
+- id: Maths_space_arm
+  names:
+    eng: Maths space (ARM)
+- id: Mating_structure_arm
+  names:
+    eng: Mating structure (ARM)
+- id: Mating_structure_mim
+  names:
+    eng: Mating structure (MIM)
+- id: Measure_representation_arm
+  names:
+    eng: Measure representation (ARM)
+- id: Mechanical_design_features_and_requirements_arm
+  names:
+    eng: Mechanical design features and requirements (ARM)
+- id: Mechanical_design_features_and_requirements_mim
+  names:
+    eng: Mechanical design features and requirements (MIM)
+- id: Mechanical_design_geometric_presentation_arm
+  names:
+    eng: Mechanical design geometric presentation (ARM)
+- id: Mechanical_design_presentation_representation_with_draughting_arm
+  names:
+    eng: Mechanical design presentation representation with draughting (ARM)
+- id: Mechanical_design_presentation_representation_with_draughting_mim
+  names:
+    eng: Mechanical design presentation representation with draughting (MIM)
+- id: Mechanical_design_shaded_presentation_arm
+  names:
+    eng: Mechanical design shaded presentation (ARM)
+- id: Mesh_connectivity_arm
+  names:
+    eng: Mesh connectivity (ARM)
+- id: Mesh_function_arm
+  names:
+    eng: Mesh function (ARM)
+- id: Mesh_topology_arm
+  names:
+    eng: Mesh topology (ARM)
+- id: Message_arm
+  names:
+    eng: Message (ARM)
+- id: Message_mim
+  names:
+    eng: Message (MIM)
+- id: Model_based_3d_geometrical_dimensioning_and_tolerancing_representation_arm
+  names:
+    eng: Model based 3d geometrical dimensioning and tolerancing representation (ARM)
+- id: Model_parameter_arm
+  names:
+    eng: Model parameter (ARM)
+- id: Model_parameter_mim
+  names:
+    eng: Model parameter (MIM)
+- id: Modified_swept_solid_arm
+  names:
+    eng: Modified swept solid (ARM)
+- id: Multi_linguism_arm
+  names:
+    eng: Multi linguism (ARM)
+- id: Multi_linguism_mim
+  names:
+    eng: Multi linguism (MIM)
+- id: Name_assignment_arm
+  names:
+    eng: Name assignment (ARM)
+- id: Name_assignment_mim
+  names:
+    eng: Name assignment (MIM)
+- id: Network_functional_design_view_arm
+  names:
+    eng: Network functional design view (ARM)
+- id: Network_functional_design_view_mim
+  names:
+    eng: Network functional design view (MIM)
+- id: Non_feature_shape_element_arm
+  names:
+    eng: Non feature shape element (ARM)
+- id: Non_feature_shape_element_mim
+  names:
+    eng: Non feature shape element (MIM)
+- id: Non_manifold_surface_arm
+  names:
+    eng: Non manifold surface (ARM)
+- id: Numeric_expression_arm
+  names:
+    eng: Numeric expression (ARM)
+- id: Numeric_function_arm
+  names:
+    eng: Numeric function (ARM)
+- id: Numerical_interface_arm
+  names:
+    eng: Numerical interface (ARM)
+- id: Numerical_interface_mim
+  names:
+    eng: Numerical interface (MIM)
+- id: Observation_arm
+  names:
+    eng: Observation (ARM)
+- id: Observation_mim
+  names:
+    eng: Observation (MIM)
+- id: Organization_structure_mim
+  names:
+    eng: Organization structure (MIM)
+- id: Organization_type_arm
+  names:
+    eng: Organization type (ARM)
+- id: Organization_type_mim
+  names:
+    eng: Organization type (MIM)
+- id: Package_arm
+  names:
+    eng: Package (ARM)
+- id: Package_mim
+  names:
+    eng: Package (MIM)
+- id: Packaged_connector_model_arm
+  names:
+    eng: Packaged connector model (ARM)
+- id: Packaged_connector_model_mim
+  names:
+    eng: Packaged connector model (MIM)
+- id: Packaged_part_black_box_model_arm
+  names:
+    eng: Packaged part black box model (ARM)
+- id: Packaged_part_black_box_model_mim
+  names:
+    eng: Packaged part black box model (MIM)
+- id: Packaged_part_white_box_model_arm
+  names:
+    eng: Packaged part white box model (ARM)
+- id: Packaged_part_white_box_model_mim
+  names:
+    eng: Packaged part white box model (MIM)
+- id: Parameter_value_specification_arm
+  names:
+    eng: Parameter value specification (ARM)
+- id: Parameter_value_specification_mim
+  names:
+    eng: Parameter value specification (MIM)
+- id: Parameterization_and_variational_representation_arm
+  names:
+    eng: Parameterization and variational representation (ARM)
+- id: Parametric_representation_arm
+  names:
+    eng: Parametric representation (ARM)
+- id: Part_and_version_identification_arm
+  names:
+    eng: Part and version identification (ARM)
+- id: Part_and_zone_laminate_tables_arm
+  names:
+    eng: Part and zone laminate tables (ARM)
+- id: Part_and_zone_laminate_tables_mim
+  names:
+    eng: Part and zone laminate tables (MIM)
+- id: Part_collection_arm
+  names:
+    eng: Part collection (ARM)
+- id: Part_definition_relationship_arm
+  names:
+    eng: Part definition relationship (ARM)
+- id: Part_definition_relationship_mim
+  names:
+    eng: Part definition relationship (MIM)
+- id: Part_external_reference_arm
+  names:
+    eng: Part external reference (ARM)
+- id: Part_external_reference_mim
+  names:
+    eng: Part external reference (MIM)
+- id: Part_feature_function_arm
+  names:
+    eng: Part feature function (ARM)
+- id: Part_feature_function_mim
+  names:
+    eng: Part feature function (MIM)
+- id: Part_feature_grouping_arm
+  names:
+    eng: Part feature grouping (ARM)
+- id: Part_feature_grouping_mim
+  names:
+    eng: Part feature grouping (MIM)
+- id: Part_feature_location_arm
+  names:
+    eng: Part feature location (ARM)
+- id: Part_feature_location_mim
+  names:
+    eng: Part feature location (MIM)
+- id: Part_shape_arm
+  names:
+    eng: Part shape (ARM)
+- id: Part_template_3d_shape_arm
+  names:
+    eng: Part template 3d shape (ARM)
+- id: Part_template_3d_shape_mim
+  names:
+    eng: Part template 3d shape (MIM)
+- id: Part_template_arm
+  names:
+    eng: Part template (ARM)
+- id: Part_template_mim
+  names:
+    eng: Part template (MIM)
+- id: Part_template_non_planar_shape_arm
+  names:
+    eng: Part template non planar shape (ARM)
+- id: Part_template_shape_with_parameters_arm
+  names:
+    eng: Part template shape with parameters (ARM)
+- id: Part_template_shape_with_parameters_mim
+  names:
+    eng: Part template shape with parameters (MIM)
+- id: Part_view_definition_arm
+  names:
+    eng: Part view definition (ARM)
+- id: Person_organization_arm
+  names:
+    eng: Person organization (ARM)
+- id: Person_organization_assignment_arm
+  names:
+    eng: Person organization assignment (ARM)
+- id: Person_organization_assignment_mim
+  names:
+    eng: Person organization assignment (MIM)
+- id: Person_organization_mim
+  names:
+    eng: Person organization (MIM)
+- id: Physical_breakdown_arm
+  names:
+    eng: Physical breakdown (ARM)
+- id: Physical_breakdown_mim
+  names:
+    eng: Physical breakdown (MIM)
+- id: Physical_component_feature_arm
+  names:
+    eng: Physical component feature (ARM)
+- id: Physical_component_feature_mim
+  names:
+    eng: Physical component feature (MIM)
+- id: Physical_connectivity_definition_arm
+  names:
+    eng: Physical connectivity definition (ARM)
+- id: Physical_connectivity_definition_mim
+  names:
+    eng: Physical connectivity definition (MIM)
+- id: Physical_connectivity_layout_topology_requirement_arm
+  names:
+    eng: Physical connectivity layout topology requirement (ARM)
+- id: Physical_connectivity_layout_topology_requirement_mim
+  names:
+    eng: Physical connectivity layout topology requirement (MIM)
+- id: Physical_node_requirement_to_implementing_component_allocation_arm
+  names:
+    eng: Physical node requirement to implementing component allocation (ARM)
+- id: Physical_node_requirement_to_implementing_component_allocation_mim
+  names:
+    eng: Physical node requirement to implementing component allocation (MIM)
+- id: Physical_unit_2d_design_view_arm
+  names:
+    eng: Physical unit 2d design view (ARM)
+- id: Physical_unit_2d_design_view_mim
+  names:
+    eng: Physical unit 2d design view (MIM)
+- id: Physical_unit_2d_shape_arm
+  names:
+    eng: Physical unit 2d shape (ARM)
+- id: Physical_unit_3d_design_view_arm
+  names:
+    eng: Physical unit 3d design view (ARM)
+- id: Physical_unit_3d_design_view_mim
+  names:
+    eng: Physical unit 3d design view (MIM)
+- id: Physical_unit_3d_shape_arm
+  names:
+    eng: Physical unit 3d shape (ARM)
+- id: Physical_unit_design_view_arm
+  names:
+    eng: Physical unit design view (ARM)
+- id: Physical_unit_design_view_mim
+  names:
+    eng: Physical unit design view (MIM)
+- id: Physical_unit_interconnect_definition_arm
+  names:
+    eng: Physical unit interconnect definition (ARM)
+- id: Physical_unit_interconnect_definition_mim
+  names:
+    eng: Physical unit interconnect definition (MIM)
+- id: Physical_unit_non_planar_design_view_arm
+  names:
+    eng: Physical unit non planar design view (ARM)
+- id: Physical_unit_shape_with_parameters_arm
+  names:
+    eng: Physical unit shape with parameters (ARM)
+- id: Physical_unit_usage_view_arm
+  names:
+    eng: Physical unit usage view (ARM)
+- id: Physical_unit_usage_view_mim
+  names:
+    eng: Physical unit usage view (MIM)
+- id: Picture_representation_arm
+  names:
+    eng: Picture representation (ARM)
+- id: Picture_representation_mim
+  names:
+    eng: Picture representation (MIM)
+- id: Planned_characteristic_arm
+  names:
+    eng: Planned characteristic (ARM)
+- id: Planned_characteristic_mim
+  names:
+    eng: Planned characteristic (MIM)
+- id: Plib_class_reference_arm
+  names:
+    eng: Plib class reference (ARM)
+- id: Plib_class_reference_mim
+  names:
+    eng: Plib class reference (MIM)
+- id: Ply_orientation_specification_arm
+  names:
+    eng: Ply orientation specification (ARM)
+- id: Ply_orientation_specification_mim
+  names:
+    eng: Ply orientation specification (MIM)
+- id: Pmi_data_quality_arm
+  names:
+    eng: Pmi data quality (ARM)
+- id: Pmi_data_quality_mim
+  names:
+    eng: Pmi data quality (MIM)
+- id: Point_direction_model_arm
+  names:
+    eng: Point direction model (ARM)
+- id: Point_direction_model_mim
+  names:
+    eng: Point direction model (MIM)
+- id: Position_in_organization_arm
+  names:
+    eng: Position in organization (ARM)
+- id: Position_in_organization_mim
+  names:
+    eng: Position in organization (MIM)
+- id: Possession_of_property_arm
+  names:
+    eng: Possession of property (ARM)
+- id: Possession_of_property_mim
+  names:
+    eng: Possession of property (MIM)
+- id: Pre_defined_datum_2d_symbol_arm
+  names:
+    eng: Pre defined datum 2d symbol (ARM)
+- id: Pre_defined_datum_3d_symbol_arm
+  names:
+    eng: Pre defined datum 3d symbol (ARM)
+- id: Pre_defined_datum_symbol_arm
+  names:
+    eng: Pre defined datum symbol (ARM)
+- id: Pre_defined_datum_symbol_mim
+  names:
+    eng: Pre defined datum symbol (MIM)
+- id: Pre_defined_product_data_management_specializations_arm
+  names:
+    eng: Pre defined product data management specializations (ARM)
+- id: Presentation_hierarchy_arm
+  names:
+    eng: Presentation hierarchy (ARM)
+- id: Presentation_hierarchy_mim
+  names:
+    eng: Presentation hierarchy (MIM)
+- id: Primitive_solids_arm
+  names:
+    eng: Primitive solids (ARM)
+- id: Printed_physical_layout_template_arm
+  names:
+    eng: Printed physical layout template (ARM)
+- id: Printed_physical_layout_template_mim
+  names:
+    eng: Printed physical layout template (MIM)
+- id: Probability_arm
+  names:
+    eng: Probability (ARM)
+- id: Probability_distribution_arm
+  names:
+    eng: Probability distribution (ARM)
+- id: Procedural_shape_model_arm
+  names:
+    eng: Procedural shape model (ARM)
+- id: Procedural_solid_model_arm
+  names:
+    eng: Procedural solid model (ARM)
+- id: Process_plan_arm
+  names:
+    eng: Process plan (ARM)
+- id: Process_plan_mim
+  names:
+    eng: Process plan (MIM)
+- id: Process_property_assignment_arm
+  names:
+    eng: Process property assignment (ARM)
+- id: Product_analysis_arm
+  names:
+    eng: Product analysis (ARM)
+- id: Product_as_individual_arm
+  names:
+    eng: Product as individual (ARM)
+- id: Product_as_individual_assembly_and_test_arm
+  names:
+    eng: Product as individual assembly and test (ARM)
+- id: Product_as_individual_assembly_and_test_mim
+  names:
+    eng: Product as individual assembly and test (MIM)
+- id: Product_as_individual_mim
+  names:
+    eng: Product as individual (MIM)
+- id: Product_breakdown_arm
+  names:
+    eng: Product breakdown (ARM)
+- id: Product_breakdown_mim
+  names:
+    eng: Product breakdown (MIM)
+- id: Product_categorization_arm
+  names:
+    eng: Product categorization (ARM)
+- id: Product_class_arm
+  names:
+    eng: Product class (ARM)
+- id: Product_class_mim
+  names:
+    eng: Product class (MIM)
+- id: Product_concept_identification_arm
+  names:
+    eng: Product concept identification (ARM)
+- id: Product_data_equivalence_definition_arm
+  names:
+    eng: Product data equivalence definition (ARM)
+- id: Product_data_quality_criteria_arm
+  names:
+    eng: Product data quality criteria (ARM)
+- id: Product_data_quality_definition_arm
+  names:
+    eng: Product data quality definition (ARM)
+- id: Product_data_quality_inspection_result_arm
+  names:
+    eng: Product data quality inspection result (ARM)
+- id: Product_environment_definition_arm
+  names:
+    eng: Product environment definition (ARM)
+- id: Product_environment_definition_mim
+  names:
+    eng: Product environment definition (MIM)
+- id: Product_environment_observed_arm
+  names:
+    eng: Product environment observed (ARM)
+- id: Product_environment_observed_mim
+  names:
+    eng: Product environment observed (MIM)
+- id: Product_group_arm
+  names:
+    eng: Product group (ARM)
+- id: Product_group_mim
+  names:
+    eng: Product group (MIM)
+- id: Product_identification_arm
+  names:
+    eng: Product identification (ARM)
+- id: Product_occurrence_arm
+  names:
+    eng: Product occurrence (ARM)
+- id: Product_placement_arm
+  names:
+    eng: Product placement (ARM)
+- id: Product_relationship_arm
+  names:
+    eng: Product relationship (ARM)
+- id: Product_replacement_arm
+  names:
+    eng: Product replacement (ARM)
+- id: Product_structure_arm
+  names:
+    eng: Product structure (ARM)
+- id: Product_version_arm
+  names:
+    eng: Product version (ARM)
+- id: Product_version_relationship_arm
+  names:
+    eng: Product version relationship (ARM)
+- id: Product_view_definition_arm
+  names:
+    eng: Product view definition (ARM)
+- id: Product_view_definition_reference_arm
+  names:
+    eng: Product view definition reference (ARM)
+- id: Product_view_definition_relationship_arm
+  names:
+    eng: Product view definition relationship (ARM)
+- id: Production_rule_arm
+  names:
+    eng: Production rule (ARM)
+- id: Production_rule_mim
+  names:
+    eng: Production rule (MIM)
+- id: Project_arm
+  names:
+    eng: Project (ARM)
+- id: Project_management_mim
+  names:
+    eng: Project management (MIM)
+- id: Project_management_resource_information_mim
+  names:
+    eng: Project management resource information (MIM)
+- id: Project_mim
+  names:
+    eng: Project (MIM)
+- id: Project_resources_arm
+  names:
+    eng: Project resources (ARM)
+- id: Property_as_definition_arm
+  names:
+    eng: Property as definition (ARM)
+- id: Property_as_definition_mim
+  names:
+    eng: Property as definition (MIM)
+- id: Property_assignment_arm
+  names:
+    eng: Property assignment (ARM)
+- id: Property_condition_arm
+  names:
+    eng: Property condition (ARM)
+- id: Property_condition_mim
+  names:
+    eng: Property condition (MIM)
+- id: Property_identification_arm
+  names:
+    eng: Property identification (ARM)
+- id: Property_space_arm
+  names:
+    eng: Property space (ARM)
+- id: Property_space_mim
+  names:
+    eng: Property space (MIM)
+- id: Qualifications_arm
+  names:
+    eng: Qualifications (ARM)
+- id: Qualifications_mim
+  names:
+    eng: Qualifications (MIM)
+- id: Qualified_measure_arm
+  names:
+    eng: Qualified measure (ARM)
+- id: Required_resource_arm
+  names:
+    eng: Required resource (ARM)
+- id: Requirement_assignment_arm
+  names:
+    eng: Requirement assignment (ARM)
+- id: Requirement_assignment_mim
+  names:
+    eng: Requirement assignment (MIM)
+- id: Requirement_decomposition_arm
+  names:
+    eng: Requirement decomposition (ARM)
+- id: Requirement_decomposition_mim
+  names:
+    eng: Requirement decomposition (MIM)
+- id: Requirement_identification_and_version_arm
+  names:
+    eng: Requirement identification and version (ARM)
+- id: Requirement_management_arm
+  names:
+    eng: Requirement management (ARM)
+- id: Requirement_view_definition_arm
+  names:
+    eng: Requirement view definition (ARM)
+- id: Requirement_view_definition_relationship_arm
+  names:
+    eng: Requirement view definition relationship (ARM)
+- id: Requirement_view_definition_relationship_mim
+  names:
+    eng: Requirement view definition relationship (MIM)
+- id: Resource_as_realized_arm
+  names:
+    eng: Resource as realized (ARM)
+- id: Resource_item_arm
+  names:
+    eng: Resource item (ARM)
+- id: Resource_management_arm
+  names:
+    eng: Resource management (ARM)
+- id: Resource_property_assignment_arm
+  names:
+    eng: Resource property assignment (ARM)
+- id: Retention_period_arm
+  names:
+    eng: Retention period (ARM)
+- id: Retention_period_mim
+  names:
+    eng: Retention period (MIM)
+- id: Risk_definition_arm
+  names:
+    eng: Risk definition (ARM)
+- id: Risk_definition_mim
+  names:
+    eng: Risk definition (MIM)
+- id: Risk_management_mim
+  names:
+    eng: Risk management (MIM)
+- id: Root_things_arm
+  names:
+    eng: Root things (ARM)
+- id: Same_as_external_item_arm
+  names:
+    eng: Same as external item (ARM)
+- id: Same_as_external_item_mim
+  names:
+    eng: Same as external item (MIM)
+- id: Scan_data_3d_shape_arm
+  names:
+    eng: Scan data 3d shape (ARM)
+- id: Schedule_mim
+  names:
+    eng: Schedule (MIM)
+- id: Schematic_and_symbolization_arm
+  names:
+    eng: Schematic and symbolization (ARM)
+- id: Schematic_and_symbolization_mim
+  names:
+    eng: Schematic and symbolization (MIM)
+- id: Schematic_drawing_arm
+  names:
+    eng: Schematic drawing (ARM)
+- id: Schematic_drawing_mim
+  names:
+    eng: Schematic drawing (MIM)
+- id: Schematic_element_arm
+  names:
+    eng: Schematic element (ARM)
+- id: Schematic_element_mim
+  names:
+    eng: Schematic element (MIM)
+- id: Scheme_arm
+  names:
+    eng: Scheme (ARM)
+- id: Security_classification_arm
+  names:
+    eng: Security classification (ARM)
+- id: Security_classification_mim
+  names:
+    eng: Security classification (MIM)
+- id: Selected_item_arm
+  names:
+    eng: Selected item (ARM)
+- id: Selected_item_mim
+  names:
+    eng: Selected item (MIM)
+- id: Sequential_laminate_assembly_design_arm
+  names:
+    eng: Sequential laminate assembly design (ARM)
+- id: Sequential_laminate_assembly_design_mim
+  names:
+    eng: Sequential laminate assembly design (MIM)
+- id: Set_theory_arm
+  names:
+    eng: Set theory (ARM)
+- id: Shape_composition_arm
+  names:
+    eng: Shape composition (ARM)
+- id: Shape_data_quality_criteria_arm
+  names:
+    eng: Shape data quality criteria (ARM)
+- id: Shape_data_quality_inspection_result_arm
+  names:
+    eng: Shape data quality inspection result (ARM)
+- id: Shape_feature_arm
+  names:
+    eng: Shape feature (ARM)
+- id: Shape_feature_mim
+  names:
+    eng: Shape feature (MIM)
+- id: Shape_parameters_mim
+  names:
+    eng: Shape parameters (MIM)
+- id: Shape_property_assignment_arm
+  names:
+    eng: Shape property assignment (ARM)
+- id: Shell_based_wireframe_arm
+  names:
+    eng: Shell based wireframe (ARM)
+- id: Signal_arm
+  names:
+    eng: Signal (ARM)
+- id: Signal_mim
+  names:
+    eng: Signal (MIM)
+- id: Sketch_arm
+  names:
+    eng: Sketch (ARM)
+- id: Software_arm
+  names:
+    eng: Software (ARM)
+- id: Solid_model_arm
+  names:
+    eng: Solid model (ARM)
+- id: Solid_with_local_modification_arm
+  names:
+    eng: Solid with local modification (ARM)
+- id: Specification_based_configuration_arm
+  names:
+    eng: Specification based configuration (ARM)
+- id: Specification_based_configuration_mim
+  names:
+    eng: Specification based configuration (MIM)
+- id: Specification_control_arm
+  names:
+    eng: Specification control (ARM)
+- id: Specification_control_mim
+  names:
+    eng: Specification control (MIM)
+- id: Specification_document_arm
+  names:
+    eng: Specification document (ARM)
+- id: Specification_document_mim
+  names:
+    eng: Specification document (MIM)
+- id: Specified_product_arm
+  names:
+    eng: Specified product (ARM)
+- id: Specified_product_mim
+  names:
+    eng: Specified product (MIM)
+- id: State_based_behaviour_mim
+  names:
+    eng: State based behaviour (MIM)
+- id: State_based_behaviour_representation_arm
+  names:
+    eng: State based behaviour representation (ARM)
+- id: State_characterized_mim
+  names:
+    eng: State characterized (MIM)
+- id: State_definition_arm
+  names:
+    eng: State definition (ARM)
+- id: State_observed_arm
+  names:
+    eng: State observed (ARM)
+- id: State_observed_mim
+  names:
+    eng: State observed (MIM)
+- id: Stock_material_arm
+  names:
+    eng: Stock material (ARM)
+- id: Stratum_non_planar_shape_arm
+  names:
+    eng: Stratum non planar shape (ARM)
+- id: Styled_curve_arm
+  names:
+    eng: Styled curve (ARM)
+- id: Styled_curve_mim
+  names:
+    eng: Styled curve (MIM)
+- id: Surface_conditions_arm
+  names:
+    eng: Surface conditions (ARM)
+- id: Surface_conditions_mim
+  names:
+    eng: Surface conditions (MIM)
+- id: Surface_visual_texture_arm
+  names:
+    eng: Surface visual texture (ARM)
+- id: Swept_solid_arm
+  names:
+    eng: Swept solid (ARM)
+- id: Symbolization_by_schematic_element_arm
+  names:
+    eng: Symbolization by schematic element (ARM)
+- id: Symbolization_by_schematic_element_mim
+  names:
+    eng: Symbolization by schematic element (MIM)
+- id: System_breakdown_arm
+  names:
+    eng: System breakdown (ARM)
+- id: System_breakdown_mim
+  names:
+    eng: System breakdown (MIM)
+- id: System_identification_and_version_arm
+  names:
+    eng: System identification and version (ARM)
+- id: System_modelling_mim
+  names:
+    eng: System modelling (MIM)
+- id: System_structure_mim
+  names:
+    eng: System structure (MIM)
+- id: System_view_definition_arm
+  names:
+    eng: System view definition (ARM)
+- id: Tagged_text_representation_arm
+  names:
+    eng: Tagged text representation (ARM)
+- id: Tagged_text_representation_mim
+  names:
+    eng: Tagged text representation (MIM)
+- id: Task_element_arm
+  names:
+    eng: Task element (ARM)
+- id: Task_element_mim
+  names:
+    eng: Task element (MIM)
+- id: Task_specification_arm
+  names:
+    eng: Task specification (ARM)
+- id: Task_specification_mim
+  names:
+    eng: Task specification (MIM)
+- id: Temporal_objects_arm
+  names:
+    eng: Temporal objects (ARM)
+- id: Tessellated_boundary_representation_arm
+  names:
+    eng: Tessellated boundary representation (ARM)
+- id: Tessellated_geometry_arm
+  names:
+    eng: Tessellated geometry (ARM)
+- id: Tessellated_manifold_subsurface_shape_representation_arm
+  names:
+    eng: Tessellated manifold subsurface shape representation (ARM)
+- id: Tessellated_manifold_surface_shape_representation_arm
+  names:
+    eng: Tessellated manifold surface shape representation (ARM)
+- id: Test_requirement_allocation_arm
+  names:
+    eng: Test requirement allocation (ARM)
+- id: Test_select_product_arm
+  names:
+    eng: Test select product (ARM)
+- id: Text_appearance_arm
+  names:
+    eng: Text appearance (ARM)
+- id: Text_representation_arm
+  names:
+    eng: Text representation (ARM)
+- id: Textual_expression_representation_arm
+  names:
+    eng: Textual expression representation (ARM)
+- id: Textual_expression_representation_mim
+  names:
+    eng: Textual expression representation (MIM)
+- id: Thermal_network_definition_arm
+  names:
+    eng: Thermal network definition (ARM)
+- id: Thermal_network_definition_mim
+  names:
+    eng: Thermal network definition (MIM)
+- id: Thickened_face_solid_arm
+  names:
+    eng: Thickened face solid (ARM)
+- id: Time_interval_arm
+  names:
+    eng: Time interval (ARM)
+- id: Time_interval_assignment_arm
+  names:
+    eng: Time interval assignment (ARM)
+- id: Time_interval_assignment_mim
+  names:
+    eng: Time interval assignment (MIM)
+- id: Topologically_bounded_surface_arm
+  names:
+    eng: Topologically bounded surface (ARM)
+- id: Triangulated_shape_data_quality_arm
+  names:
+    eng: Triangulated shape data quality (ARM)
+- id: Triangulated_shape_data_quality_mim
+  names:
+    eng: Triangulated shape data quality (MIM)
+- id: Type_of_person_arm
+  names:
+    eng: Type of person (ARM)
+- id: Type_of_person_mim
+  names:
+    eng: Type of person (MIM)
+- id: Value_with_unit_arm
+  names:
+    eng: Value with unit (ARM)
+- id: Value_with_unit_extension_arm
+  names:
+    eng: Value with unit extension (ARM)
+- id: Value_with_unit_extension_mim
+  names:
+    eng: Value with unit extension (MIM)
+- id: Verification_and_validation_arm
+  names:
+    eng: Verification and validation (ARM)
+- id: Verification_and_validation_mim
+  names:
+    eng: Verification and validation (MIM)
+- id: Vertex_colours_for_tessellated_geometry_arm
+  names:
+    eng: Vertex colours for tessellated geometry (ARM)
+- id: Via_component_arm
+  names:
+    eng: Via component (ARM)
+- id: Via_component_mim
+  names:
+    eng: Via component (MIM)
+- id: Wire_and_cable_design_connectivity_arm
+  names:
+    eng: Wire and cable design connectivity (ARM)
+- id: Wire_and_cable_design_connectivity_mim
+  names:
+    eng: Wire and cable design connectivity (MIM)
+- id: Wireframe_2d_arm
+  names:
+    eng: Wireframe 2d (ARM)
+- id: Wiring_harness_assembly_design_arm
+  names:
+    eng: Wiring harness assembly design (ARM)
+- id: Wiring_harness_assembly_design_mim
+  names:
+    eng: Wiring harness assembly design (MIM)
+- id: Work_control_arm
+  names:
+    eng: Work control (ARM)
+- id: Work_order_arm
+  names:
+    eng: Work order (ARM)
+- id: Work_order_mim
+  names:
+    eng: Work order (MIM)
+- id: Work_output_arm
+  names:
+    eng: Work output (ARM)
+- id: Work_request_arm
+  names:
+    eng: Work request (ARM)
+- id: Work_request_mim
+  names:
+    eng: Work request (MIM)
+- id: Zonal_breakdown_arm
+  names:
+    eng: Zonal breakdown (ARM)
+- id: Zonal_breakdown_mim
+  names:
+    eng: Zonal breakdown (MIM)
+- id: action_and_model_relationships_schema
+  names:
+    eng: action and model relationships schema
+- id: action_schema
+  names:
+    eng: action schema
+- id: aic_advanced_brep
+  names:
+    eng: aic advanced brep
+- id: aic_associative_draughting_elements
+  names:
+    eng: aic associative draughting elements
+- id: aic_csg
+  names:
+    eng: aic csg
+- id: aic_curve_swept_solid
+  names:
+    eng: aic curve swept solid
+- id: aic_draughting_annotation
+  names:
+    eng: aic draughting annotation
+- id: aic_draughting_elements
+  names:
+    eng: aic draughting elements
+- id: aic_drawing_structure_and_administration
+  names:
+    eng: aic drawing structure and administration
+- id: aic_edge_based_wireframe
+  names:
+    eng: aic edge based wireframe
+- id: aic_elementary_brep
+  names:
+    eng: aic elementary brep
+- id: aic_faceted_brep
+  names:
+    eng: aic faceted brep
+- id: aic_geometrically_bounded_2d_wireframe
+  names:
+    eng: aic geometrically bounded 2d wireframe
+- id: aic_geometrically_bounded_surface
+  names:
+    eng: aic geometrically bounded surface
+- id: aic_geometrically_bounded_wireframe
+  names:
+    eng: aic geometrically bounded wireframe
+- id: aic_manifold_subsurface
+  names:
+    eng: aic manifold subsurface
+- id: aic_manifold_surface
+  names:
+    eng: aic manifold surface
+- id: aic_mechanical_design_geometric_presentation
+  names:
+    eng: aic mechanical design geometric presentation
+- id: aic_mechanical_design_shaded_presentation
+  names:
+    eng: aic mechanical design shaded presentation
+- id: aic_non_manifold_surface
+  names:
+    eng: aic non manifold surface
+- id: aic_shell_based_wireframe
+  names:
+    eng: aic shell based wireframe
+- id: aic_topologically_bounded_surface
+  names:
+    eng: aic topologically bounded surface
+- id: analysis_product_relationships_schema
+  names:
+    eng: analysis product relationships schema
+- id: analysis_schema
+  names:
+    eng: analysis schema
+- id: annotated_3d_model_data_quality_criteria_schema
+  names:
+    eng: annotated 3d model data quality criteria schema
+- id: annotated_3d_model_data_quality_inspection_result_schema
+  names:
+    eng: annotated 3d model data quality inspection result schema
+- id: annotated_3d_model_equivalence_criteria_schema
+  names:
+    eng: annotated 3d model equivalence criteria schema
+- id: annotated_3d_model_equivalence_inspection_result_schema
+  names:
+    eng: annotated 3d model equivalence inspection result schema
+- id: application_context_schema
+  names:
+    eng: application context schema
+- id: approval_schema
+  names:
+    eng: approval schema
+- id: assembly_constraint_schema
+  names:
+    eng: assembly constraint schema
+- id: assembly_feature_relationship_schema
+  names:
+    eng: assembly feature relationship schema
+- id: basic_attribute_schema
+  names:
+    eng: basic attribute schema
+- id: basis_schema
+  names:
+    eng: basis schema
+- id: certification_schema
+  names:
+    eng: certification schema
+- id: classification_schema
+  names:
+    eng: classification schema
+- id: conditions_schema
+  names:
+    eng: conditions schema
+- id: configuration_management_schema
+  names:
+    eng: configuration management schema
+- id: contract_schema
+  names:
+    eng: contract schema
+- id: counterbore_countersink_schema
+  names:
+    eng: counterbore countersink schema
+- id: date_time_schema
+  names:
+    eng: date time schema
+- id: document_schema
+  names:
+    eng: document schema
+- id: domain_schema
+  names:
+    eng: domain schema
+- id: draughting_dimension_schema
+  names:
+    eng: draughting dimension schema
+- id: draughting_element_schema
+  names:
+    eng: draughting element schema
+- id: drawing_definition_schema
+  names:
+    eng: drawing definition schema
+- id: effectivity_schema
+  names:
+    eng: effectivity schema
+- id: equations_schema
+  names:
+    eng: equations schema
+- id: experience_schema
+  names:
+    eng: experience schema
+- id: explicit_constraint_schema
+  names:
+    eng: explicit constraint schema
+- id: explicit_geometric_constraint_schema
+  names:
+    eng: explicit geometric constraint schema
+- id: external_reference_schema
+  names:
+    eng: external reference schema
+- id: fea_definition_relationships_schema
+  names:
+    eng: fea definition relationships schema
+- id: fea_scalar_vector_tensor_schema
+  names:
+    eng: fea scalar vector tensor schema
+- id: finite_element_analysis_control_and_result_schema
+  names:
+    eng: finite element analysis control and result schema
+- id: geometric_model_schema
+  names:
+    eng: geometric model schema
+- id: geometry_schema
+  names:
+    eng: geometry schema
+- id: group_schema
+  names:
+    eng: group schema
+- id: hierarchy_schema
+  names:
+    eng: hierarchy schema
+- id: iso13584_expressions_schema
+  names:
+    eng: iso13584 expressions schema
+- id: iso13584_generic_expressions_schema
+  names:
+    eng: iso13584 generic expressions schema
+- id: kinematic_analysis_control_and_result_schema
+  names:
+    eng: kinematic analysis control and result schema
+- id: kinematic_motion_representation_schema
+  names:
+    eng: kinematic motion representation schema
+- id: kinematic_property_schema
+  names:
+    eng: kinematic property schema
+- id: kinematic_state_schema
+  names:
+    eng: kinematic state schema
+- id: kinematic_structure_schema
+  names:
+    eng: kinematic structure schema
+- id: kinematic_topology_schema
+  names:
+    eng: kinematic topology schema
+- id: language_schema
+  names:
+    eng: language schema
+- id: location_schema
+  names:
+    eng: location schema
+- id: machining_feature_schema
+  names:
+    eng: machining feature schema
+- id: management_resources_schema
+  names:
+    eng: management resources schema
+- id: material_property_definition_schema
+  names:
+    eng: material property definition schema
+- id: material_property_representation_schema
+  names:
+    eng: material property representation schema
+- id: mathematical_context_schema
+  names:
+    eng: mathematical context schema
+- id: mathematical_description_of_distribution_schema
+  names:
+    eng: mathematical description of distribution schema
+- id: mathematical_functions_schema
+  names:
+    eng: mathematical functions schema
+- id: measure_schema
+  names:
+    eng: measure schema
+- id: mechanical_design_schema
+  names:
+    eng: mechanical design schema
+- id: mesh_connectivity_schema
+  names:
+    eng: mesh connectivity schema
+- id: mesh_function_schema
+  names:
+    eng: mesh function schema
+- id: mesh_topology_schema
+  names:
+    eng: mesh topology schema
+- id: method_definition_schema
+  names:
+    eng: method definition schema
+- id: parameterization_schema
+  names:
+    eng: parameterization schema
+- id: person_organization_schema
+  names:
+    eng: person organization schema
+- id: presentation_appearance_schema
+  names:
+    eng: presentation appearance schema
+- id: presentation_definition_schema
+  names:
+    eng: presentation definition schema
+- id: presentation_organization_schema
+  names:
+    eng: presentation organization schema
+- id: presentation_resource_schema
+  names:
+    eng: presentation resource schema
+- id: procedural_model_schema
+  names:
+    eng: procedural model schema
+- id: procedural_shape_model_schema
+  names:
+    eng: procedural shape model schema
+- id: procedural_sketch_schema
+  names:
+    eng: procedural sketch schema
+- id: process_property_representation_schema
+  names:
+    eng: process property representation schema
+- id: process_property_schema
+  names:
+    eng: process property schema
+- id: product_analysis_schema
+  names:
+    eng: product analysis schema
+- id: product_and_model_relationships_schema
+  names:
+    eng: product and model relationships schema
+- id: product_concept_schema
+  names:
+    eng: product concept schema
+- id: product_data_equivalence_criteria_schema
+  names:
+    eng: product data equivalence criteria schema
+- id: product_data_equivalence_definition_schema
+  names:
+    eng: product data equivalence definition schema
+- id: product_data_equivalence_inspection_result_schema
+  names:
+    eng: product data equivalence inspection result schema
+- id: product_data_quality_criteria_schema
+  names:
+    eng: product data quality criteria schema
+- id: product_data_quality_definition_schema
+  names:
+    eng: product data quality definition schema
+- id: product_data_quality_inspection_result_schema
+  names:
+    eng: product data quality inspection result schema
+- id: product_definition_schema
+  names:
+    eng: product definition schema
+- id: product_property_definition_schema
+  names:
+    eng: product property definition schema
+- id: product_property_representation_schema
+  names:
+    eng: product property representation schema
+- id: product_structure_schema
+  names:
+    eng: product structure schema
+- id: property_distribution_and_model_relationships_schema
+  names:
+    eng: property distribution and model relationships schema
+- id: qualifications_schema
+  names:
+    eng: qualifications schema
+- id: qualified_measure_schema
+  names:
+    eng: qualified measure schema
+- id: representation_schema
+  names:
+    eng: representation schema
+- id: results_schema
+  names:
+    eng: results schema
+- id: risk_schema
+  names:
+    eng: risk schema
+- id: scan_data_3d_shape_model_schema
+  names:
+    eng: scan data 3d shape model schema
+- id: security_classification_schema
+  names:
+    eng: security classification schema
+- id: set_theory_schema
+  names:
+    eng: set theory schema
+- id: shape_aspect_definition_schema
+  names:
+    eng: shape aspect definition schema
+- id: shape_data_quality_criteria_schema
+  names:
+    eng: shape data quality criteria schema
+- id: shape_data_quality_inspection_result_schema
+  names:
+    eng: shape data quality inspection result schema
+- id: shape_dimension_schema
+  names:
+    eng: shape dimension schema
+- id: shape_tolerance_schema
+  names:
+    eng: shape tolerance schema
+- id: sketch_schema
+  names:
+    eng: sketch schema
+- id: solid_shape_element_schema
+  names:
+    eng: solid shape element schema
+- id: state_and_model_relationships_schema
+  names:
+    eng: state and model relationships schema
+- id: state_observed_schema
+  names:
+    eng: state observed schema
+- id: state_type_schema
+  names:
+    eng: state type schema
+- id: structural_response_definition_schema
+  names:
+    eng: structural response definition schema
+- id: structural_response_representation_schema
+  names:
+    eng: structural response representation schema
+- id: systems_engineering_representation_schema
+  names:
+    eng: systems engineering representation schema
+- id: topology_based_identification_schema
+  names:
+    eng: topology based identification schema
+- id: topology_schema
+  names:
+    eng: topology schema
+- id: uuid_attribute_schema
+  names:
+    eng: uuid attribute schema
+- id: variational_representation_schema
+  names:
+    eng: variational representation schema

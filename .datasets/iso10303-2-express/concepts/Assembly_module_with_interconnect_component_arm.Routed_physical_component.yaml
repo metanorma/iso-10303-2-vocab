@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_arm.Routed_physical_component
+  localized_concepts:
+    eng: e729ba56-21c0-5b90-bfff-76a37287ab51
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+      ref_type: section
+id: Assembly_module_with_interconnect_component_arm.Routed_physical_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}} that represents the routed physical component {{entity}}'
+  notes:
+    - content: A **Routed_physical_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}} whose shape is design specific and is routed along a path described by a centreline.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Routed_physical_component
+  domain: 'application module: Assembly_module_with_interconnect_component_arm'
+  language_code: eng
+  annotations: []
+id: e729ba56-21c0-5b90-bfff-76a37287ab51

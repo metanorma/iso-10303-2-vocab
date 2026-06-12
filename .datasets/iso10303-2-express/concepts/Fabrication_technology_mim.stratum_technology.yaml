@@ -1,0 +1,36 @@
+data:
+  identifier: Fabrication_technology_mim.stratum_technology
+  localized_concepts:
+    eng: c2e13288-266e-50ff-ae13-ef7281b57c78
+  domains:
+    - concept_id: section-Fabrication_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+      ref_type: section
+id: Fabrication_technology_mim.stratum_technology
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the stratum technology {{entity}}'
+  notes:
+    - content: |-
+        A **stratum_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Design_layer_technology,Design_layer_technology}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Documentation_layer_technology,Documentation_layer_technology}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: stratum_technology
+  domain: 'application module: Fabrication_technology_mim'
+  language_code: eng
+  annotations: []
+id: c2e13288-266e-50ff-ae13-ef7281b57c78

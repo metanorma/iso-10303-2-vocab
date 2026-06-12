@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.compound_feature
+  localized_concepts:
+    eng: 4d828ccf-a978-5f60-a552-f2b38218c254
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.compound_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the compound feature {{entity}}'
+  notes:
+    - content: A **compound_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that is the representation of several {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.instanced_feature,instanced_feature}} and their relationships to one another for the purpose of creating unique user defined features.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: compound_feature
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 4d828ccf-a978-5f60-a552-f2b38218c254

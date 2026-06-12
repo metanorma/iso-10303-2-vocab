@@ -1,0 +1,31 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.control_linear_static_analysis_step
+  localized_concepts:
+    eng: 5f66b493-1f10-5c03-a7ba-da91d8df3ae6
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.control_linear_static_analysis_step
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.control_analysis_step,control_analysis_step}} that represents the control linear static analysis step {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.control_linear_static_analysis_step,control_linear_static_analysis_step}} is an analysis step in a linear static analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: control_linear_static_analysis_step
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: 5f66b493-1f10-5c03-a7ba-da91d8df3ae6

@@ -1,0 +1,30 @@
+data:
+  identifier: draughting_element_schema.draughting_callout
+  localized_concepts:
+    eng: eb8f9795-de82-5368-8b06-bd48d69fad40
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.draughting_callout
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the draughting callout {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_callout
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: eb8f9795-de82-5368-8b06-bd48d69fad40

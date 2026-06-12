@@ -1,0 +1,30 @@
+data:
+  identifier: shape_tolerance_schema.roundness_tolerance
+  localized_concepts:
+    eng: 38a36696-ccfe-5693-96b1-713c143b61ee
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.roundness_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the roundness tolerance {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: roundness_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 38a36696-ccfe-5693-96b1-713c143b61ee

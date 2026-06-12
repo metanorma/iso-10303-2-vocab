@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.half_space_2d
+  localized_concepts:
+    eng: aa6dac70-14d8-5a3c-9ce5-81467a2caf2c
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.half_space_2d
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.primitive_2d,primitive_2d}} that represents the half space 2d {{entity}}'
+  notes:
+    - content: A **half_space_2d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.primitive_2d,primitive_2d}} which is a partially bounded region of two-dimensional space.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: half_space_2d
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: aa6dac70-14d8-5a3c-9ce5-81467a2caf2c

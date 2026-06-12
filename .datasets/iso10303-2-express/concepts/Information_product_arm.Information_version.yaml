@@ -1,0 +1,31 @@
+data:
+  identifier: Information_product_arm.Information_version
+  localized_concepts:
+    eng: a01d2fbd-4b75-5039-8734-13bc8bfd31da
+  domains:
+    - concept_id: section-Information_product_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm
+      ref_type: section
+id: Information_product_arm.Information_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the information version {{entity}}'
+  notes:
+    - content: An **Information_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a version of an information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm
+          version: '2'
+      type: authoritative
+      id: Information_product_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Information_version
+  domain: 'application module: Information_product_arm'
+  language_code: eng
+  annotations: []
+id: a01d2fbd-4b75-5039-8734-13bc8bfd31da

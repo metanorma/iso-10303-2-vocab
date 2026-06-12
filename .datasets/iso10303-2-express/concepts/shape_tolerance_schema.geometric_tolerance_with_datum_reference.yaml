@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.geometric_tolerance_with_datum_reference
+  localized_concepts:
+    eng: acfc5e91-1d72-5c4a-986d-9ea789a24306
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.geometric_tolerance_with_datum_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the geometric tolerance with datum reference {{entity}}'
+  notes:
+    - content: A **geometric_tolerance_with_datum_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that references one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum,datum}} for specifying the tolerance condition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometric_tolerance_with_datum_reference
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: acfc5e91-1d72-5c4a-986d-9ea789a24306

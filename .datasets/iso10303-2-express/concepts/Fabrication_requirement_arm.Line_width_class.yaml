@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_requirement_arm.Line_width_class
+  localized_concepts:
+    eng: eb9243d2-33fe-55b9-b819-7771a3d8fa7c
+  domains:
+    - concept_id: section-Fabrication_requirement_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+      ref_type: section
+id: Fabrication_requirement_arm.Line_width_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the line width class {{entity}}'
+  notes:
+    - content: A **Line_width_class** is a category which assigns a name to a length range for classification purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+          version: '3'
+      type: authoritative
+      id: Fabrication_requirement_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Line_width_class
+  domain: 'application module: Fabrication_requirement_arm'
+  language_code: eng
+  annotations: []
+id: eb9243d2-33fe-55b9-b819-7771a3d8fa7c

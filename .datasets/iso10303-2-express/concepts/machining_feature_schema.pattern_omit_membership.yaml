@@ -1,0 +1,30 @@
+data:
+  identifier: machining_feature_schema.pattern_omit_membership
+  localized_concepts:
+    eng: 626a1084-c606-5eab-925e-0ca836fce828
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.pattern_omit_membership
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.feature_component_relationship,feature_component_relationship}} that represents the pattern omit membership {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pattern_omit_membership
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 626a1084-c606-5eab-925e-0ca836fce828

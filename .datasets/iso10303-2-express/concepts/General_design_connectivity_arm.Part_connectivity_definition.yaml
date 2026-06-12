@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Part_connectivity_definition
+  localized_concepts:
+    eng: c1bcde2d-6dfd-5d54-82a0-f5b4a52911e9
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Part_connectivity_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that represents the part connectivity definition {{entity}}'
+  notes:
+    - content: A **Part_connectivity_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that defines a connection between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.General_part_terminal,General_part_terminal}}s or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}}s within an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}}, but without stating the details concerning how these terminals are connected with each other.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_connectivity_definition
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: c1bcde2d-6dfd-5d54-82a0-f5b4a52911e9

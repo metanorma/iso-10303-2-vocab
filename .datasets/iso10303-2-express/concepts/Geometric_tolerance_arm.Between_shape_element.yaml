@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Between_shape_element
+  localized_concepts:
+    eng: a0112316-c33c-58b7-9312-f57b0f88dff2
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Between_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Continuous_shape_element,Continuous_shape_element}} that represents the between shape element {{entity}}'
+  notes:
+    - content: A **Between_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Continuous_shape_element,Continuous_shape_element}} where some of the composing members are marked as forming elements of the borders of the continuous region.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Between_shape_element
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: a0112316-c33c-58b7-9312-f57b0f88dff2

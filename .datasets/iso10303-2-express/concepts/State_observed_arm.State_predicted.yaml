@@ -1,0 +1,31 @@
+data:
+  identifier: State_observed_arm.State_predicted
+  localized_concepts:
+    eng: fa2000f2-4471-5289-a5dc-1016937b0ac5
+  domains:
+    - concept_id: section-State_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+      ref_type: section
+id: State_observed_arm.State_predicted
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} that represents the state predicted {{entity}}'
+  notes:
+    - content: A **State_predicted** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} It is a predicted actual {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+          version: '4'
+      type: authoritative
+      id: State_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_predicted
+  domain: 'application module: State_observed_arm'
+  language_code: eng
+  annotations: []
+id: fa2000f2-4471-5289-a5dc-1016937b0ac5

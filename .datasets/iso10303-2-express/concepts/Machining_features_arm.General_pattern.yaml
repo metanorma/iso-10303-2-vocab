@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.General_pattern
+  localized_concepts:
+    eng: 7541a741-e965-56a4-abf0-79ef6c149e05
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.General_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Replicate_feature,Replicate_feature}} that represents the general pattern {{entity}}'
+  notes:
+    - content: A **General_pattern** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Replicate_feature,Replicate_feature}} that is a base shape component and a list of arbitrary placements to arrange identical copies of the base feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_pattern
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 7541a741-e965-56a4-abf0-79ef6c149e05

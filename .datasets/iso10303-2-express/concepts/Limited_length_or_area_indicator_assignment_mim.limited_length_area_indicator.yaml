@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator
+  localized_concepts:
+    eng: 8f4e2509-3d6f-5481-9517-bcd85c25f61a
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the limited length area indicator {{entity}}'
+  notes:
+    - content: A **limited_length_area_indicator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}{{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Limited_length_area_indicator,Limited_length_area_indicator}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: limited_length_area_indicator
+  domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 8f4e2509-3d6f-5481-9517-bcd85c25f61a

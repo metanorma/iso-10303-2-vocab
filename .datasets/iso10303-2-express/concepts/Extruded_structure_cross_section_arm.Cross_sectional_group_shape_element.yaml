@@ -1,0 +1,31 @@
+data:
+  identifier: Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element
+  localized_concepts:
+    eng: 15c1e89c-2ff7-52b3-8a51-c0e28b8384ff
+  domains:
+    - concept_id: section-Extruded_structure_cross_section_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+      ref_type: section
+id: Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_part_shape_element,Cross_sectional_part_shape_element}} that represents the cross sectional group shape element {{entity}}'
+  notes:
+    - content: A **Cross_sectional_group_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_part_shape_element,Cross_sectional_part_shape_element}} that defines a hierarchical grouping of other {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_part_shape_element,Cross_sectional_part_shape_element}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+          version: '2'
+      type: authoritative
+      id: Extruded_structure_cross_section_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cross_sectional_group_shape_element
+  domain: 'application module: Extruded_structure_cross_section_arm'
+  language_code: eng
+  annotations: []
+id: 15c1e89c-2ff7-52b3-8a51-c0e28b8384ff

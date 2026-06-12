@@ -1,0 +1,31 @@
+data:
+  identifier: Derived_shape_element_arm.Apex
+  localized_concepts:
+    eng: 26e16ffa-ea29-5423-bd2c-83d6a0181038
+  domains:
+    - concept_id: section-Derived_shape_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+      ref_type: section
+id: Derived_shape_element_arm.Apex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that represents the apex {{entity}}'
+  notes:
+    - content: An **Apex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that defines the point corresponding to the common apex (the location where a plane and conical element intersect at a single point) of one or more conical {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+          version: '5'
+      type: authoritative
+      id: Derived_shape_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Apex
+  domain: 'application module: Derived_shape_element_arm'
+  language_code: eng
+  annotations: []
+id: 26e16ffa-ea29-5423-bd2c-83d6a0181038

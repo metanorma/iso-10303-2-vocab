@@ -1,0 +1,31 @@
+data:
+  identifier: Building_structure_mim.building_section
+  localized_concepts:
+    eng: 30724a73-176f-5d9c-a098-6b394ba110c1
+  domains:
+    - concept_id: section-Building_structure_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
+      ref_type: section
+id: Building_structure_mim.building_section
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the building section {{entity}}'
+  notes:
+    - content: A **building_section** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that is a logical segment of a building.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
+          version: '1'
+      type: authoritative
+      id: Building_structure_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: building_section
+  domain: 'application module: Building_structure_mim'
+  language_code: eng
+  annotations: []
+id: 30724a73-176f-5d9c-a098-6b394ba110c1

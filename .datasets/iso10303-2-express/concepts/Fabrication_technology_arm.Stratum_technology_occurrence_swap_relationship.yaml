@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Stratum_technology_occurrence_swap_relationship
+  localized_concepts:
+    eng: fd623c76-3cf3-525a-9530-0b97e6aaf220
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Stratum_technology_occurrence_swap_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}} that represents the stratum technology occurrence swap relationship {{entity}}'
+  notes:
+    - content: A **Stratum_technology_occurrence_swap_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}} provided to indicate that {{sto_2,sto_2}} has been replaced with {{sto_1,sto_1}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Stratum_technology_occurrence_swap_relationship
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: fd623c76-3cf3-525a-9530-0b97e6aaf220

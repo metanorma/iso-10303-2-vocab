@@ -1,0 +1,31 @@
+data:
+  identifier: External_representation_item_arm.External_representation_item
+  localized_concepts:
+    eng: 76232cb0-72b9-55ee-9470-32d983a485ca
+  domains:
+    - concept_id: section-External_representation_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+      ref_type: section
+id: External_representation_item_arm.External_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the external representation item {{entity}}'
+  notes:
+    - content: An **External_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} whose value is defined in an external library.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+          version: '2'
+      type: authoritative
+      id: External_representation_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_representation_item
+  domain: 'application module: External_representation_item_arm'
+  language_code: eng
+  annotations: []
+id: 76232cb0-72b9-55ee-9470-32d983a485ca

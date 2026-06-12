@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Treatment_result
+  localized_concepts:
+    eng: d48db7f6-019b-5d2b-a726-0440b5afadf3
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Treatment_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that represents the treatment result {{entity}}'
+  notes:
+    - content: A **Treatment_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that is a result of a certain treatment.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Treatment_result
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: d48db7f6-019b-5d2b-a726-0440b5afadf3

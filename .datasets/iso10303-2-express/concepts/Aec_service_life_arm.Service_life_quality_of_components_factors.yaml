@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Service_life_quality_of_components_factors
+  localized_concepts:
+    eng: 4793a332-c5dd-526c-9102-27e29a82b6fb
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Service_life_quality_of_components_factors
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that represents the service life quality of components factors {{entity}}'
+  notes:
+    - content: A **Service_life_quality_of_components_factors** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that depends upon the quality of components.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Service_life_quality_of_components_factors
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: 4793a332-c5dd-526c-9102-27e29a82b6fb

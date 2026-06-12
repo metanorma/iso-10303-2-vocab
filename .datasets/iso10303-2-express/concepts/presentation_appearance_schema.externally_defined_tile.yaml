@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_appearance_schema.externally_defined_tile
+  localized_concepts:
+    eng: 5122e59c-2203-5741-b330-462a6d017731
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.externally_defined_tile
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that represents the externally defined tile {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_tile
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 5122e59c-2203-5741-b330-462a6d017731

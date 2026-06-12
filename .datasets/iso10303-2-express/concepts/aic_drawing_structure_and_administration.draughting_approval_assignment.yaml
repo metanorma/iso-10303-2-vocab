@@ -1,0 +1,31 @@
+data:
+  identifier: aic_drawing_structure_and_administration.draughting_approval_assignment
+  localized_concepts:
+    eng: 073cb06b-c5b9-51ab-9a59-4aaea51e5d5d
+  domains:
+    - concept_id: section-aic_drawing_structure_and_administration
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+      ref_type: section
+id: aic_drawing_structure_and_administration.draughting_approval_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that represents the draughting approval assignment {{entity}}'
+  notes:
+    - content: A *draughting_approval_assignment* is the assignment of an approval to a *drawing_revision* or *drawing_sheet_revision*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+          version: '1'
+      type: authoritative
+      id: aic_drawing_structure_and_administration
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_approval_assignment
+  domain: 'resource: aic_drawing_structure_and_administration'
+  language_code: eng
+  annotations: []
+id: 073cb06b-c5b9-51ab-9a59-4aaea51e5d5d

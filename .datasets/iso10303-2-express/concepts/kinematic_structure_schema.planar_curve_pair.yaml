@@ -1,0 +1,30 @@
+data:
+  identifier: kinematic_structure_schema.planar_curve_pair
+  localized_concepts:
+    eng: 8a81560f-98c0-5fc9-af8b-adf2ace3f34c
+  domains:
+    - concept_id: section-kinematic_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+      ref_type: section
+id: kinematic_structure_schema.planar_curve_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.high_order_kinematic_pair,high_order_kinematic_pair}} that represents the planar curve pair {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: planar_curve_pair
+  domain: 'resource: kinematic_structure_schema'
+  language_code: eng
+  annotations: []
+id: 8a81560f-98c0-5fc9-af8b-adf2ace3f34c

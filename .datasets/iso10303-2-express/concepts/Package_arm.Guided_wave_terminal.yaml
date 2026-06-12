@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Guided_wave_terminal
+  localized_concepts:
+    eng: 869fb3b2-3371-5a87-8083-ac5a95cf69b4
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Guided_wave_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} that represents the guided wave terminal {{entity}}'
+  notes:
+    - content: A **Guided_wave_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} that is explicitly included for the purpose of providing access to the functionality of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}} using guided waves.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Guided_wave_terminal
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: 869fb3b2-3371-5a87-8083-ac5a95cf69b4

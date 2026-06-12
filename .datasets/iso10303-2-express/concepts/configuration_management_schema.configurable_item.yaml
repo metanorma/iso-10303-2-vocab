@@ -1,0 +1,31 @@
+data:
+  identifier: configuration_management_schema.configurable_item
+  localized_concepts:
+    eng: 90b7dc60-8af4-58ff-9272-a8b9f61c9cf4
+  domains:
+    - concept_id: section-configuration_management_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+      ref_type: section
+id: configuration_management_schema.configurable_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}} that represents the configurable item {{entity}}'
+  notes:
+    - content: A **configurable_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}} that is characterized by a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} that have been identified for use in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+          version: '4'
+      type: authoritative
+      id: configuration_management_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: configurable_item
+  domain: 'resource: configuration_management_schema'
+  language_code: eng
+  annotations: []
+id: 90b7dc60-8af4-58ff-9272-a8b9f61c9cf4

@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Turned_knurl
+  localized_concepts:
+    eng: 0d8d62eb-403d-5a2a-8522-f3df91dddf59
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Turned_knurl
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}} that represents the turned knurl {{entity}}'
+  notes:
+    - content: A **Turned_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}} that is a scoring pattern consisting of a series of shallow cuts on a cylindrical surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Turned_knurl
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 0d8d62eb-403d-5a2a-8522-f3df91dddf59

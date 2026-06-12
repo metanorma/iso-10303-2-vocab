@@ -1,0 +1,77 @@
+id: iso10303-2
+domain: iso-10303-2.ise
+uriBase: https://iso-10303-2.ise
+title: ISO 10303-2 Vocabulary
+description: Vocabulary for industrial automation systems and integration from ISO 10303.
+
+datasets:
+  - id: iso10303-2-terms
+    uri: "urn:iso:std:iso:10303:-2:ed-1:en:term:*"
+    sourceRepo: https://github.com/iso-10303/iso-10303
+    title: "Terms and Definitions"
+    description: "Terms and definitions from ISO 10303-2 — Industrial automation systems and integration vocabulary"
+    owner: ISO/TC 184/SC 4
+    color: "#00629B"
+
+  - id: iso10303-2-express
+    uri: "urn:iso:std:iso:10303:-2:ed-1:en:tech:*"
+    sourceRepo: https://github.com/iso-10303/iso-10303
+    title: "EXPRESS Concepts"
+    description: "EXPRESS schema concepts extracted from ISO 10303 application modules and integrated resources"
+    owner: ISO/TC 184/SC 4
+    color: "#0891b2"
+
+routing: []
+
+branding:
+  primaryColor: "#e3000f"
+  darkColor: "#333333"
+  fonts:
+    header:
+      family: "Roboto Condensed"
+      source: google
+      weights: [700]
+    body:
+      family: "Roboto"
+      source: google
+      weights: [400, 500, 700]
+  logo:
+    path: /logos/iso-red.svg
+    alt: "ISO"
+    localPath: logos/iso-red.svg
+  ownerName: "ISO/TC 184/SC 4"
+  ownerUrl: https://iso-10303-2.ise
+
+features:
+  news: false
+  stats: true
+  graph: true
+  about: true
+  search: true
+
+pages:
+  - type: about
+    route: about
+    title: About
+    icon: info
+    source: about.md
+
+social:
+  github: "https://github.com/iso-10303/iso-10303"
+
+nav:
+  - label: Concepts
+    route: home
+  - label: Search
+    route: search
+  - label: Graph
+    route: graph
+
+footerNav:
+  - label: About
+    route: about
+
+defaults:
+  language: eng
+
+copyright: "ISO/TC 184/SC 4"

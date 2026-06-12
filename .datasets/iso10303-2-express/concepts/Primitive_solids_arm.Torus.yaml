@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Torus
+  localized_concepts:
+    eng: ff25dc9c-7b87-58eb-9b93-29174c9aa965
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Torus
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the torus {{entity}}'
+  notes:
+    - content: A **Torus** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is a solid in the form of a torus.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Torus
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: ff25dc9c-7b87-58eb-9b93-29174c9aa965

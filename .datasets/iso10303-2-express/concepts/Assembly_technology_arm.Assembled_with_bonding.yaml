@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_arm.Assembled_with_bonding
+  localized_concepts:
+    eng: 7ffb9d5c-f791-5cf1-8287-676e21bd1588
+  domains:
+    - concept_id: section-Assembly_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+      ref_type: section
+id: Assembly_technology_arm.Assembled_with_bonding
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}} that represents the assembled with bonding {{entity}}'
+  notes:
+    - content: An **Assembled_with_bonding** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}} that establishes the joint by bonding.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembled_with_bonding
+  domain: 'application module: Assembly_technology_arm'
+  language_code: eng
+  annotations: []
+id: 7ffb9d5c-f791-5cf1-8287-676e21bd1588

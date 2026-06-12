@@ -1,0 +1,31 @@
+data:
+  identifier: Verification_and_validation_arm.Verification_relationship
+  localized_concepts:
+    eng: 7e994c63-ae74-57b1-80ed-11a312e56d14
+  domains:
+    - concept_id: section-Verification_and_validation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+      ref_type: section
+id: Verification_and_validation_arm.Verification_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the verification relationship {{entity}}'
+  notes:
+    - content: A **Verification_relationship** is an association between two verifications.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+          version: '3'
+      type: authoritative
+      id: Verification_and_validation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Verification_relationship
+  domain: 'application module: Verification_and_validation_arm'
+  language_code: eng
+  annotations: []
+id: 7e994c63-ae74-57b1-80ed-11a312e56d14

@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_date_arm.Week_of_year_and_day_date
+  localized_concepts:
+    eng: b4865f07-d920-5ba0-a96e-2102df727dbc
+  domains:
+    - concept_id: section-Extended_date_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+      ref_type: section
+id: Extended_date_arm.Week_of_year_and_day_date
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the week of year and day date {{entity}}'
+  notes:
+    - content: A **Week_of_year_and_day_date** is an identification of a week and a week day in a calendar year.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+          version: '2'
+      type: authoritative
+      id: Extended_date_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Week_of_year_and_day_date
+  domain: 'application module: Extended_date_arm'
+  language_code: eng
+  annotations: []
+id: b4865f07-d920-5ba0-a96e-2102df727dbc

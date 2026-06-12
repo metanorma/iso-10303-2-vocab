@@ -1,0 +1,37 @@
+data:
+  identifier: Mesh_topology_arm.Product_of_mesh
+  localized_concepts:
+    eng: b05f9dfe-7dd2-5dac-be1e-b7ac6de6281f
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Product_of_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product of mesh {{entity}}'
+  notes:
+    - content: |-
+        A **Product_of_mesh** is a relationship that is between:
+
+        * two operands that are a 1-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}} and an stem:[n]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}; and
+        * a product that is an stem:[(n + 1)]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}},
+
+        which indicates the stem:[(n + 1)]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}} is the Cartesian product of the operands.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_of_mesh
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: b05f9dfe-7dd2-5dac-be1e-b7ac6de6281f

@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_annotation.draughting_subfigure_representation
+  localized_concepts:
+    eng: e9f6533d-517f-5e91-93e5-9886eefad3b0
+  domains:
+    - concept_id: section-aic_draughting_annotation
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+      ref_type: section
+id: aic_draughting_annotation.draughting_subfigure_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that represents the draughting subfigure representation {{entity}}'
+  notes:
+    - content: A **draughting_subfigure_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that collects {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} as the definition of a subfigure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+          version: '2'
+      type: authoritative
+      id: aic_draughting_annotation
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_subfigure_representation
+  domain: 'resource: aic_draughting_annotation'
+  language_code: eng
+  annotations: []
+id: e9f6533d-517f-5e91-93e5-9886eefad3b0

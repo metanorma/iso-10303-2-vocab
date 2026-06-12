@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_mim.logical_representation_item
+  localized_concepts:
+    eng: 7855fb5a-57a0-5a3e-be54-101fc6e44dc1
+  domains:
+    - concept_id: section-Basic_data_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+      ref_type: section
+id: Basic_data_representation_mim.logical_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the logical representation item {{entity}}'
+  notes:
+    - content: A **logical_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.logical_literal,logical_literal}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Logical_representation_item,Logical_representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: logical_representation_item
+  domain: 'application module: Basic_data_representation_mim'
+  language_code: eng
+  annotations: []
+id: 7855fb5a-57a0-5a3e-be54-101fc6e44dc1

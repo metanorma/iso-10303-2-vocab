@@ -1,0 +1,31 @@
+data:
+  identifier: Edge_based_topological_representation_with_length_constraint_mim.edge_bounded_curve_with_length
+  localized_concepts:
+    eng: 0736afda-49d6-5c31-8ec9-44e5ef19f866
+  domains:
+    - concept_id: section-Edge_based_topological_representation_with_length_constraint_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+      ref_type: section
+id: Edge_based_topological_representation_with_length_constraint_mim.edge_bounded_curve_with_length
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}} that represents the edge bounded curve with length {{entity}}'
+  notes:
+    - content: An **edge_bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}} in which the **edge_start** and **edge_end** are of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}} and the **edge_geometry** is of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim.bounded_curve_with_length,bounded_curve_with_length}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+          version: '4'
+      type: authoritative
+      id: Edge_based_topological_representation_with_length_constraint_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: edge_bounded_curve_with_length
+  domain: 'application module: Edge_based_topological_representation_with_length_constraint_mim'
+  language_code: eng
+  annotations: []
+id: 0736afda-49d6-5c31-8ec9-44e5ef19f866

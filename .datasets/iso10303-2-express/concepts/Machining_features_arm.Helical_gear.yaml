@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Helical_gear
+  localized_concepts:
+    eng: a7d5cae9-c706-50bf-94a5-12814f005d7b
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Helical_gear
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Defined_gear,Defined_gear}} that represents the helical gear {{entity}}'
+  notes:
+    - content: A **Helical_gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Defined_gear,Defined_gear}} that is a cylindrical gear whose tooth traces are helices.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Helical_gear
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: a7d5cae9-c706-50bf-94a5-12814f005d7b

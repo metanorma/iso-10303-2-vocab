@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.contact_feature_definition_fit_relationship
+  localized_concepts:
+    eng: 604b8113-ec1d-576c-902a-8efc2d086eb3
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.contact_feature_definition_fit_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim.shape_feature_definition_fit_relationship,shape_feature_definition_fit_relationship}} that represents the contact feature definition fit relationship {{entity}}'
+  notes:
+    - content: A **contact_feature_definition_fit_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Contact_feature_definition_fit_relationship,Contact_feature_definition_fit_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: contact_feature_definition_fit_relationship
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: 604b8113-ec1d-576c-902a-8efc2d086eb3

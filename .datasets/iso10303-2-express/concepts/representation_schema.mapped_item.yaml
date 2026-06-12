@@ -1,0 +1,31 @@
+data:
+  identifier: representation_schema.mapped_item
+  localized_concepts:
+    eng: 42f55828-22ac-5966-8223-4b9ccd8ff077
+  domains:
+    - concept_id: section-representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+      ref_type: section
+id: representation_schema.mapped_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the mapped item {{entity}}'
+  notes:
+    - content: A **mapped_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that specifies the mapping of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} as an element of the items of a second {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+          version: '8'
+      type: authoritative
+      id: representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mapped_item
+  domain: 'resource: representation_schema'
+  language_code: eng
+  annotations: []
+id: 42f55828-22ac-5966-8223-4b9ccd8ff077

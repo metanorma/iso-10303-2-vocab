@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_component_feature_mim.physical_component_feature
+  localized_concepts:
+    eng: 8b4e538c-b1fa-57d1-b0ff-8e1b4faad3d6
+  domains:
+    - concept_id: section-Physical_component_feature_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim
+      ref_type: section
+id: Physical_component_feature_mim.physical_component_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}} that represents the physical component feature {{entity}}'
+  notes:
+    - content: A **physical_component_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_feature,Physical_component_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim
+          version: '5'
+      type: authoritative
+      id: Physical_component_feature_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_component_feature
+  domain: 'application module: Physical_component_feature_mim'
+  language_code: eng
+  annotations: []
+id: 8b4e538c-b1fa-57d1-b0ff-8e1b4faad3d6

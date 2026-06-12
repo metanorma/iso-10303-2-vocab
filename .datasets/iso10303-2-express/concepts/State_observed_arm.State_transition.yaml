@@ -1,0 +1,31 @@
+data:
+  identifier: State_observed_arm.State_transition
+  localized_concepts:
+    eng: fccab301-de40-5497-82fc-d4abd3fb5fb7
+  domains:
+    - concept_id: section-State_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+      ref_type: section
+id: State_observed_arm.State_transition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State_relationship,State_relationship}} that represents the state transition {{entity}}'
+  notes:
+    - content: A **State_transition** is a type of state relationship and it relates two or more states before and after a transition in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}}, where at least one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} is a start state and at least one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} is an end state.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+          version: '4'
+      type: authoritative
+      id: State_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_transition
+  domain: 'application module: State_observed_arm'
+  language_code: eng
+  annotations: []
+id: fccab301-de40-5497-82fc-d4abd3fb5fb7

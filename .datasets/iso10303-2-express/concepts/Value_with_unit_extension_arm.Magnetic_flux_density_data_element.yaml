@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_arm.Magnetic_flux_density_data_element
+  localized_concepts:
+    eng: 5f6879cb-4d55-5a78-988f-3df7bbe75684
+  domains:
+    - concept_id: section-Value_with_unit_extension_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+      ref_type: section
+id: Value_with_unit_extension_arm.Magnetic_flux_density_data_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the magnetic flux density data element {{entity}}'
+  notes:
+    - content: A **Magnetic_flux_density_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} where the measurement is of magnetic flux density.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Magnetic_flux_density_data_element
+  domain: 'application module: Value_with_unit_extension_arm'
+  language_code: eng
+  annotations: []
+id: 5f6879cb-4d55-5a78-988f-3df7bbe75684

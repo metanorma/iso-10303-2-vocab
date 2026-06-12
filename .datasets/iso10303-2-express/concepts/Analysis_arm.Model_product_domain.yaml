@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_arm.Model_product_domain
+  localized_concepts:
+    eng: fbb06e92-c99f-5b0d-81fd-8f2c3e8f8f99
+  domains:
+    - concept_id: section-Analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+      ref_type: section
+id: Analysis_arm.Model_product_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} that represents the model product domain {{entity}}'
+  notes:
+    - content: A **Model_product_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} that is only a spatial decomposition and that has an indefinite time dimension.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+          version: '1'
+      type: authoritative
+      id: Analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Model_product_domain
+  domain: 'application module: Analysis_arm'
+  language_code: eng
+  annotations: []
+id: fbb06e92-c99f-5b0d-81fd-8f2c3e8f8f99

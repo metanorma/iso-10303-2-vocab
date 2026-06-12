@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_connectivity_schema.mismatched_mesh_region
+  localized_concepts:
+    eng: 5b50f979-bda9-57d6-bd05-9d44a3a0f34a
+  domains:
+    - concept_id: section-mesh_connectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+      ref_type: section
+id: mesh_connectivity_schema.mismatched_mesh_region
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_mesh_connection,mismatched_mesh_connection}} that represents the mismatched mesh region {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_mesh_region,mismatched_mesh_region}} is a mismatched connection that is abutting or overset.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+          version: '3'
+      type: authoritative
+      id: mesh_connectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mismatched_mesh_region
+  domain: 'resource: mesh_connectivity_schema'
+  language_code: eng
+  annotations: []
+id: 5b50f979-bda9-57d6-bd05-9d44a3a0f34a

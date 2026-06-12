@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Tool_attachment_point_frame
+  localized_concepts:
+    eng: c74d2abd-8887-5143-be88-652c21dacec0
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Tool_attachment_point_frame
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}} that represents the tool attachment point frame {{entity}}'
+  notes:
+    - content: A **Tool_attachment_point_frame** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}} for the representation of a kinematic attachment frame of a tool that may be attached to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_link_representation,Kinematic_link_representation}} of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tool_attachment_point_frame
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: c74d2abd-8887-5143-be88-652c21dacec0

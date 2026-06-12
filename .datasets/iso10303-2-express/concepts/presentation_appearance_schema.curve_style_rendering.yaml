@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.curve_style_rendering
+  localized_concepts:
+    eng: c769a8fa-5a07-5141-a2af-da520e5c0ebd
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.curve_style_rendering
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve style rendering {{entity}}'
+  notes:
+    - content: A **curve_style_rendering** is allowing the visualization of curves on a surface by application of rendering techniques.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: curve_style_rendering
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: c769a8fa-5a07-5141-a2af-da520e5c0ebd

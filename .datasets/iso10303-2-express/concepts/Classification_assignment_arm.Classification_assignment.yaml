@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_assignment_arm.Classification_assignment
+  localized_concepts:
+    eng: 72916977-a748-5a50-949c-bed54f86a485
+  domains:
+    - concept_id: section-Classification_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm
+      ref_type: section
+id: Classification_assignment_arm.Classification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the classification assignment {{entity}}'
+  notes:
+    - content: A **Classification_assignment** is the assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} to product or activity data for their classification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm
+          version: '3'
+      type: authoritative
+      id: Classification_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Classification_assignment
+  domain: 'application module: Classification_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 72916977-a748-5a50-949c-bed54f86a485

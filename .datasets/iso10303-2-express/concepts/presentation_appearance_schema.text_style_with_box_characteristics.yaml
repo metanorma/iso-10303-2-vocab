@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.text_style_with_box_characteristics
+  localized_concepts:
+    eng: 80c550dc-b213-56cc-99de-3daf9bd9dfd2
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.text_style_with_box_characteristics
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.text_style,text_style}} that represents the text style with box characteristics {{entity}}'
+  notes:
+    - content: A **text_style_with_box_characteristics** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.text_style,text_style}} that specifies the characteristics of the character boxes within the text.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: text_style_with_box_characteristics
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 80c550dc-b213-56cc-99de-3daf9bd9dfd2

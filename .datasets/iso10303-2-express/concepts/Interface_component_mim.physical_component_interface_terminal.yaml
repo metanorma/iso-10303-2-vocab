@@ -1,0 +1,36 @@
+data:
+  identifier: Interface_component_mim.physical_component_interface_terminal
+  localized_concepts:
+    eng: d573ce24-b8e3-531b-a852-c863ff59ad57
+  domains:
+    - concept_id: section-Interface_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_mim
+      ref_type: section
+id: Interface_component_mim.physical_component_interface_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim.physical_component_feature,physical_component_feature}} that represents the physical component interface terminal {{entity}}'
+  notes:
+    - content: |-
+        A **physical_component_interface_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim.physical_component_feature,physical_component_feature}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_arm.Physical_component_interface_terminal,Physical_component_interface_terminal}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_interface_terminal,Interconnect_component_interface_terminal}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm.Packaged_connector_component_interface_terminal,Packaged_connector_component_interface_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_mim
+          version: '4'
+      type: authoritative
+      id: Interface_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_component_interface_terminal
+  domain: 'application module: Interface_component_mim'
+  language_code: eng
+  annotations: []
+id: d573ce24-b8e3-531b-a852-c863ff59ad57

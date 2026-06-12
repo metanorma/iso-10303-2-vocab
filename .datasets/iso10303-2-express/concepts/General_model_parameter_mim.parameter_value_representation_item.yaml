@@ -1,0 +1,31 @@
+data:
+  identifier: General_model_parameter_mim.parameter_value_representation_item
+  localized_concepts:
+    eng: 4ea3a9bd-3995-545d-9a13-7ebc9ca2b968
+  domains:
+    - concept_id: section-General_model_parameter_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_mim
+      ref_type: section
+id: General_model_parameter_mim.parameter_value_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the parameter value representation item {{entity}}'
+  notes:
+    - content: A **parameter_value_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that that is a named input/output of a model used in the definition of the interface (the exposed method of communicating with the model) to the model which is or may be provided with or result in an actual value when the model is used or invoked.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_mim
+          version: '1'
+      type: authoritative
+      id: General_model_parameter_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: parameter_value_representation_item
+  domain: 'application module: General_model_parameter_mim'
+  language_code: eng
+  annotations: []
+id: 4ea3a9bd-3995-545d-9a13-7ebc9ca2b968

@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.turbulence_closure
+  localized_concepts:
+    eng: 9227e6e1-b82e-597b-a8fc-57d3a4fcfebe
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.turbulence_closure
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}} that represents the turbulence closure {{entity}}'
+  notes:
+    - content: A *turbulence_closure* is the turbulence closure for the Reynolds stress terms of the Navier-Stokes equations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: turbulence_closure
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: 9227e6e1-b82e-597b-a8fc-57d3a4fcfebe

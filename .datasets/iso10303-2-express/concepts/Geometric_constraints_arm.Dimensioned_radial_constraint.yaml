@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Dimensioned_radial_constraint
+  localized_concepts:
+    eng: e2d79489-3b7b-5ffb-992f-e6636e2502c1
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Dimensioned_radial_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Radius_geometric_constraint,Radius_geometric_constraint}} that represents the dimensioned radial constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_radial_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Radius_geometric_constraint,Radius_geometric_constraint}} that constrains the members of a set of radial geometry constraint element instances to have a specified radius.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_radial_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: e2d79489-3b7b-5ffb-992f-e6636e2502c1

@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_port
+  localized_concepts:
+    eng: 43a8997e-5b75-5786-a064-3391b53a2bb0
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_port
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analytical model port {{entity}}'
+  notes:
+    - content: An **Analytical_model_port** is a description of an interface point for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_definition,Analytical_model_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_port
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: 43a8997e-5b75-5786-a064-3391b53a2bb0

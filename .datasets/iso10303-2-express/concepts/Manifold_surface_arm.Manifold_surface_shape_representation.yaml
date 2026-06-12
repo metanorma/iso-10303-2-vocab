@@ -1,0 +1,31 @@
+data:
+  identifier: Manifold_surface_arm.Manifold_surface_shape_representation
+  localized_concepts:
+    eng: f5c64195-fa36-5013-8f59-5ee028ddfa60
+  domains:
+    - concept_id: section-Manifold_surface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm
+      ref_type: section
+id: Manifold_surface_arm.Manifold_surface_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the manifold surface shape representation {{entity}}'
+  notes:
+    - content: A **Manifold_surface_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that consists of one or many shell-based surface models, and transformations, if needed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm
+          version: '6'
+      type: authoritative
+      id: Manifold_surface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Manifold_surface_shape_representation
+  domain: 'application module: Manifold_surface_arm'
+  language_code: eng
+  annotations: []
+id: f5c64195-fa36-5013-8f59-5ee028ddfa60

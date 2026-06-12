@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_mim.forward_chaining_rule
+  localized_concepts:
+    eng: 2dbdaff9-b351-5fe8-89b4-5603e32ea10c
+  domains:
+    - concept_id: section-Production_rule_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+      ref_type: section
+id: Production_rule_mim.forward_chaining_rule
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}} that represents the forward chaining rule {{entity}}'
+  notes:
+    - content: An **forward_chaining_rule** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Forward_chaining_rule,Forward_chaining_rule}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+          version: '5'
+      type: authoritative
+      id: Production_rule_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: forward_chaining_rule
+  domain: 'application module: Production_rule_mim'
+  language_code: eng
+  annotations: []
+id: 2dbdaff9-b351-5fe8-89b4-5603e32ea10c

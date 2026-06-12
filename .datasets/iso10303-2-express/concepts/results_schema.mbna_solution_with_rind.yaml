@@ -1,0 +1,33 @@
+data:
+  identifier: results_schema.mbna_solution_with_rind
+  localized_concepts:
+    eng: 99bee449-2ede-561e-bed0-8ec5bf116ee5
+  domains:
+    - concept_id: section-results_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+      ref_type: section
+id: results_schema.mbna_solution_with_rind
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema.mbna_solution,mbna_solution}} that represents the mbna solution with rind {{entity}}'
+  notes:
+    - content: |-
+        An *mbna_solution_with_rind* is an *mbna_solution*
+        with rind point data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+          version: '1'
+      type: authoritative
+      id: results_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_solution_with_rind
+  domain: 'resource: results_schema'
+  language_code: eng
+  annotations: []
+id: 99bee449-2ede-561e-bed0-8ec5bf116ee5

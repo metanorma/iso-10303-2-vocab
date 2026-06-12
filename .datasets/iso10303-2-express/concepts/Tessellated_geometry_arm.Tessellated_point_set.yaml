@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Tessellated_point_set
+  localized_concepts:
+    eng: b7d018ae-27a3-59a1-b54e-df3bf5c0b0d9
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Tessellated_point_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that represents the tessellated point set {{entity}}'
+  notes:
+    - content: A **Tessellated_point_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that is a collection of points used to define tessellated geometry.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tessellated_point_set
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: b7d018ae-27a3-59a1-b54e-df3bf5c0b0d9

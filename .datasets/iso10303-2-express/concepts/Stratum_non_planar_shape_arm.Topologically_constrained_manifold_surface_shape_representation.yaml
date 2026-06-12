@@ -1,0 +1,31 @@
+data:
+  identifier: Stratum_non_planar_shape_arm.Topologically_constrained_manifold_surface_shape_representation
+  localized_concepts:
+    eng: 6f70ecf3-726c-51ec-a19c-85e035f26a19
+  domains:
+    - concept_id: section-Stratum_non_planar_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stratum_non_planar_shape_arm
+      ref_type: section
+id: Stratum_non_planar_shape_arm.Topologically_constrained_manifold_surface_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm.Manifold_surface_shape_representation,Manifold_surface_shape_representation}} that represents the topologically constrained manifold surface shape representation {{entity}}'
+  notes:
+    - content: A **Topologically_constrained_manifold_surface_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm.Manifold_surface_shape_representation,Manifold_surface_shape_representation}} that shall neither self-intersect nor self-overlap.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stratum_non_planar_shape_arm
+          version: '4'
+      type: authoritative
+      id: Stratum_non_planar_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Topologically_constrained_manifold_surface_shape_representation
+  domain: 'application module: Stratum_non_planar_shape_arm'
+  language_code: eng
+  annotations: []
+id: 6f70ecf3-726c-51ec-a19c-85e035f26a19

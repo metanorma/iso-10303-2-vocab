@@ -1,0 +1,31 @@
+data:
+  identifier: Wire_and_cable_design_connectivity_arm.Wire_occurrence_identification
+  localized_concepts:
+    eng: 63810cae-f9b5-5a92-b73f-b00539257a2b
+  domains:
+    - concept_id: section-Wire_and_cable_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+      ref_type: section
+id: Wire_and_cable_design_connectivity_arm.Wire_occurrence_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_transport_feature,Occurrence_transport_feature}} that represents the wire occurrence identification {{entity}}'
+  notes:
+    - content: A **Wire_occurrence_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_transport_feature,Occurrence_transport_feature}} that identifies a colour code for a wire.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+          version: '3'
+      type: authoritative
+      id: Wire_and_cable_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Wire_occurrence_identification
+  domain: 'application module: Wire_and_cable_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 63810cae-f9b5-5a92-b73f-b00539257a2b

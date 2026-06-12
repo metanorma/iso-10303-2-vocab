@@ -1,0 +1,31 @@
+data:
+  identifier: Test_requirement_allocation_arm.Test_requirement_allocation
+  localized_concepts:
+    eng: 4d7f5969-396a-5397-b47d-cf13d88c015c
+  domains:
+    - concept_id: section-Test_requirement_allocation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_requirement_allocation_arm
+      ref_type: section
+id: Test_requirement_allocation_arm.Test_requirement_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the test requirement allocation {{entity}}'
+  notes:
+    - content: A **Test_requirement_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} for which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} has test characteristics.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_requirement_allocation_arm
+          version: '3'
+      type: authoritative
+      id: Test_requirement_allocation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Test_requirement_allocation
+  domain: 'application module: Test_requirement_allocation_arm'
+  language_code: eng
+  annotations: []
+id: 4d7f5969-396a-5397-b47d-cf13d88c015c

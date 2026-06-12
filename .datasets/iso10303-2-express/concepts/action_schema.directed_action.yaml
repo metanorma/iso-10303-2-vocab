@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.directed_action
+  localized_concepts:
+    eng: 96fa107d-6bc0-56e1-8c8f-a8c1c2f9fc2f
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.directed_action
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.executed_action,executed_action}} that represents the directed action {{entity}}'
+  notes:
+    - content: A **directed_action** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.executed_action,executed_action}} that is governed by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_directive,action_directive}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: directed_action
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 96fa107d-6bc0-56e1-8c8f-a8c1c2f9fc2f

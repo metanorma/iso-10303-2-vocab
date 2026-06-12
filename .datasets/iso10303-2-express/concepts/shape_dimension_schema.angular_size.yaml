@@ -1,0 +1,30 @@
+data:
+  identifier: shape_dimension_schema.angular_size
+  localized_concepts:
+    eng: 6460bda6-7ef8-56f7-b151-bdd5145b12c5
+  domains:
+    - concept_id: section-shape_dimension_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+      ref_type: section
+id: shape_dimension_schema.angular_size
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_size,dimensional_size}} that represents the angular size {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+          version: '5'
+      type: authoritative
+      id: shape_dimension_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: angular_size
+  domain: 'resource: shape_dimension_schema'
+  language_code: eng
+  annotations: []
+id: 6460bda6-7ef8-56f7-b151-bdd5145b12c5

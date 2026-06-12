@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_mim.printed_part_template
+  localized_concepts:
+    eng: 60c85867-8d7e-55bd-8994-3b56e6e32692
+  domains:
+    - concept_id: section-Printed_physical_layout_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+      ref_type: section
+id: Printed_physical_layout_template_mim.printed_part_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim.part_template_definition,part_template_definition}} that represents the printed part template {{entity}}'
+  notes:
+    - content: A **printed_part_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim.part_template_definition,part_template_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: printed_part_template
+  domain: 'application module: Printed_physical_layout_template_mim'
+  language_code: eng
+  annotations: []
+id: 60c85867-8d7e-55bd-8994-3b56e6e32692

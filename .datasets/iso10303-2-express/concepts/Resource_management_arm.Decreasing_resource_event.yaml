@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_management_arm.Decreasing_resource_event
+  localized_concepts:
+    eng: 55ab8b88-0dff-5ef4-a234-e618b4444247
+  domains:
+    - concept_id: section-Resource_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+      ref_type: section
+id: Resource_management_arm.Decreasing_resource_event
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}} that represents the decreasing resource event {{entity}}'
+  notes:
+    - content: A **Decreasing_resource_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}} that decreases the balance of a managed resource.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+          version: '2'
+      type: authoritative
+      id: Resource_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Decreasing_resource_event
+  domain: 'application module: Resource_management_arm'
+  language_code: eng
+  annotations: []
+id: 55ab8b88-0dff-5ef4-a234-e618b4444247

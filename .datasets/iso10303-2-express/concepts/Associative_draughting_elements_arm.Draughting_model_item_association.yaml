@@ -1,0 +1,31 @@
+data:
+  identifier: Associative_draughting_elements_arm.Draughting_model_item_association
+  localized_concepts:
+    eng: 97e22f11-ba0f-5299-bf2e-f17fc70ee34c
+  domains:
+    - concept_id: section-Associative_draughting_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
+      ref_type: section
+id: Associative_draughting_elements_arm.Draughting_model_item_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the draughting model item association {{entity}}'
+  notes:
+    - content: A **Draughting_model_item_association** is an identification of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}}, or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement,Axis_placement}}, or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_model_replication,Styled_model_replication}}, or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}} within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm.Draughting_model,Draughting_model}} as being the element that describes a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
+          version: '5'
+      type: authoritative
+      id: Associative_draughting_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Draughting_model_item_association
+  domain: 'application module: Associative_draughting_elements_arm'
+  language_code: eng
+  annotations: []
+id: 97e22f11-ba0f-5299-bf2e-f17fc70ee34c

@@ -1,0 +1,31 @@
+data:
+  identifier: State_observed_mim.state_predicted
+  localized_concepts:
+    eng: 3c341bff-7006-5f27-a6b2-1d54060570cb
+  domains:
+    - concept_id: section-State_observed_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
+      ref_type: section
+id: State_observed_mim.state_predicted
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}} that represents the state predicted {{entity}}'
+  notes:
+    - content: A **state_predicted** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}} which is a predicted individual or actual state.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
+          version: '4'
+      type: authoritative
+      id: State_observed_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_predicted
+  domain: 'application module: State_observed_mim'
+  language_code: eng
+  annotations: []
+id: 3c341bff-7006-5f27-a6b2-1d54060570cb

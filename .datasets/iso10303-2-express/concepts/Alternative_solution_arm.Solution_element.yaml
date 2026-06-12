@@ -1,0 +1,31 @@
+data:
+  identifier: Alternative_solution_arm.Solution_element
+  localized_concepts:
+    eng: 3dc09a6c-1073-5c70-8a69-48a9f29851cf
+  domains:
+    - concept_id: section-Alternative_solution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+      ref_type: section
+id: Alternative_solution_arm.Solution_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the solution element {{entity}}'
+  notes:
+    - content: A **Solution_element** is the association of a functional or organic requirement with an occurrence of a part that provides a way to resolve that requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+          version: '4'
+      type: authoritative
+      id: Alternative_solution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Solution_element
+  domain: 'application module: Alternative_solution_arm'
+  language_code: eng
+  annotations: []
+id: 3dc09a6c-1073-5c70-8a69-48a9f29851cf

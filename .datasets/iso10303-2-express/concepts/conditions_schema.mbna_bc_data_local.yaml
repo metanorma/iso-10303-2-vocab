@@ -1,0 +1,31 @@
+data:
+  identifier: conditions_schema.mbna_bc_data_local
+  localized_concepts:
+    eng: e241424b-e9e7-561a-a824-adf794619010
+  domains:
+    - concept_id: section-conditions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+      ref_type: section
+id: conditions_schema.mbna_bc_data_local
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_bc_data,mbna_bc_data}} that represents the mbna bc data local {{entity}}'
+  notes:
+    - content: An *mbna_bc_data_local* is local boundary-condition data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+          version: '1'
+      type: authoritative
+      id: conditions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_bc_data_local
+  domain: 'resource: conditions_schema'
+  language_code: eng
+  annotations: []
+id: e241424b-e9e7-561a-a824-adf794619010

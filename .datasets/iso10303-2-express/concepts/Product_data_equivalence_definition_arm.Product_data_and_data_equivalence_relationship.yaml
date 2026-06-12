@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_equivalence_definition_arm.Product_data_and_data_equivalence_relationship
+  localized_concepts:
+    eng: 95719773-baf0-5a90-88d5-1aaa7d04fd9c
+  domains:
+    - concept_id: section-Product_data_equivalence_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
+      ref_type: section
+id: Product_data_equivalence_definition_arm.Product_data_and_data_equivalence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product data and data equivalence relationship {{entity}}'
+  notes:
+    - content: A **Product_data_and_data_equivalence_relationship** is a relationship between the product data equivalence information defined by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm.Data_equivalence_definition,Data_equivalence_definition}} and the target product data inspected.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
+          version: '1'
+      type: authoritative
+      id: Product_data_equivalence_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_data_and_data_equivalence_relationship
+  domain: 'application module: Product_data_equivalence_definition_arm'
+  language_code: eng
+  annotations: []
+id: 95719773-baf0-5a90-88d5-1aaa7d04fd9c

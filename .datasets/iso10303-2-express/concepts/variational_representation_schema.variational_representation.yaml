@@ -1,0 +1,31 @@
+data:
+  identifier: variational_representation_schema.variational_representation
+  localized_concepts:
+    eng: 9765c9ff-43e3-5722-9a0e-ed2966a18220
+  domains:
+    - concept_id: section-variational_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+      ref_type: section
+id: variational_representation_schema.variational_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the variational representation {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation,variational_representation}} entity data type defines a type of representation containing parameterization and constraint information that may be used to edit the model, following a transfer, in a manner consistent with the designer's original intent.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+          version: '4'
+      type: authoritative
+      id: variational_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: variational_representation
+  domain: 'resource: variational_representation_schema'
+  language_code: eng
+  annotations: []
+id: 9765c9ff-43e3-5722-9a0e-ed2966a18220

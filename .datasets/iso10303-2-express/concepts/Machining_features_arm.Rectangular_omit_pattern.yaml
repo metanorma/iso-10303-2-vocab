@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Rectangular_omit_pattern
+  localized_concepts:
+    eng: 07040955-e332-5415-8ae0-f8f73292a9cf
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Rectangular_omit_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rectangular omit pattern {{entity}}'
+  notes:
+    - content: A **Rectangular_omit_pattern** is an omission of an occurrence of the base feature in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rectangular_pattern,Rectangular_pattern}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rectangular_omit_pattern
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 07040955-e332-5415-8ae0-f8f73292a9cf

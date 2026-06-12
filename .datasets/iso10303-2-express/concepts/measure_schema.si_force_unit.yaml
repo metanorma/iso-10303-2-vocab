@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.si_force_unit
+  localized_concepts:
+    eng: 8492f0b5-62b0-50c0-bb3d-2ba9fb160846
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.si_force_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the si force unit {{entity}}'
+  notes:
+    - content: A **si_force_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.force_unit,force_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}} in which the force is expressed in SI units.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: si_force_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 8492f0b5-62b0-50c0-bb3d-2ba9fb160846

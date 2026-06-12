@@ -1,0 +1,31 @@
+data:
+  identifier: Default_tolerance_arm.Upper_lower_toleranced_datum
+  localized_concepts:
+    eng: 2a14eb8f-cdea-50e3-a9b6-17125694fa08
+  domains:
+    - concept_id: section-Default_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+      ref_type: section
+id: Default_tolerance_arm.Upper_lower_toleranced_datum
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the upper lower toleranced datum {{entity}}'
+  notes:
+    - content: An **Upper_lower_toleranced_datum** is an entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.Tolerance_table_cell,Tolerance_table_cell}} that is a tolerance range for a dimension.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+          version: '3'
+      type: authoritative
+      id: Default_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Upper_lower_toleranced_datum
+  domain: 'application module: Default_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 2a14eb8f-cdea-50e3-a9b6-17125694fa08

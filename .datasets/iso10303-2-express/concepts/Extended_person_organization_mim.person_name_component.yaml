@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_person_organization_mim.person_name_component
+  localized_concepts:
+    eng: ff34483d-9a38-5b8e-9bea-69f4d7835267
+  domains:
+    - concept_id: section-Extended_person_organization_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
+      ref_type: section
+id: Extended_person_organization_mim.person_name_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.generic_attribute,generic_attribute}} that represents the person name component {{entity}}'
+  notes:
+    - content: A **person_name_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.generic_attribute,generic_attribute}} that defines an element of a name.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
+          version: '1'
+      type: authoritative
+      id: Extended_person_organization_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: person_name_component
+  domain: 'application module: Extended_person_organization_mim'
+  language_code: eng
+  annotations: []
+id: ff34483d-9a38-5b8e-9bea-69f4d7835267

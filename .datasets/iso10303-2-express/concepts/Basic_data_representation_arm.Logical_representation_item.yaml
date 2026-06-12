@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_arm.Logical_representation_item
+  localized_concepts:
+    eng: 087ca561-4b2c-53b4-9060-2a0182509168
+  domains:
+    - concept_id: section-Basic_data_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+      ref_type: section
+id: Basic_data_representation_arm.Logical_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the logical representation item {{entity}}'
+  notes:
+    - content: A **Logical_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} for the representation of logical and boolean values.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Logical_representation_item
+  domain: 'application module: Basic_data_representation_arm'
+  language_code: eng
+  annotations: []
+id: 087ca561-4b2c-53b4-9060-2a0182509168

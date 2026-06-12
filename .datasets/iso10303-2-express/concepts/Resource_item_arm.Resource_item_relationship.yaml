@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_item_arm.Resource_item_relationship
+  localized_concepts:
+    eng: 8b259c59-4a46-588f-bd6e-ead56e4fa70e
+  domains:
+    - concept_id: section-Resource_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+      ref_type: section
+id: Resource_item_arm.Resource_item_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource item relationship {{entity}}'
+  notes:
+    - content: A **Resource_item_relationship** is a specification of how a resource item may be associated with another resource item.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm
+          version: '2'
+      type: authoritative
+      id: Resource_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Resource_item_relationship
+  domain: 'application module: Resource_item_arm'
+  language_code: eng
+  annotations: []
+id: 8b259c59-4a46-588f-bd6e-ead56e4fa70e

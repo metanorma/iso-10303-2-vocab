@@ -1,0 +1,50 @@
+data:
+  identifier: mesh_function_schema.mesh_function
+  localized_concepts:
+    eng: 28213368-d272-51dc-805e-384b4b30579c
+  domains:
+    - concept_id: section-mesh_function_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema
+      ref_type: section
+id: mesh_function_schema.mesh_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh function {{entity}}'
+  notes:
+    - content: |-
+        A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema.mesh_function,mesh_function}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.application_defined_function,application_defined_function}} that:
+
+        * has a domain that consists of a table of real tuple spaces;
+        +
+        --
+        The table is a one dimensional array for an unstructured mesh, but can be a rectangular array of any dimension for a structured mesh.
+
+        The real tuples can have different dimensions, if the mesh contains cells of different dimensions.
+
+        The real tuple spaces can have different bounds, if the mesh contains cells of different shape, such as wedges and hexhedra.
+        --
+
+        * has a set of control values, such that the function within each cell is determined by a subset of the control values and basis for that cell.
+        +
+        --
+        The assignment of control values to cells is determined by the topology of the mesh. A control value is usually, but not necessarily, the value of the function at a position within the mesh.
+        --
+
+        * interpolates or extrapolates separately within each cell from the control values assigned to that cell.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema
+          version: '2'
+      type: authoritative
+      id: mesh_function_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mesh_function
+  domain: 'resource: mesh_function_schema'
+  language_code: eng
+  annotations: []
+id: 28213368-d272-51dc-805e-384b4b30579c

@@ -1,0 +1,31 @@
+data:
+  identifier: Product_breakdown_mim.breakdown_element_realization
+  localized_concepts:
+    eng: 848ae6e6-3447-5f44-9388-fc61945ef863
+  domains:
+    - concept_id: section-Product_breakdown_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+      ref_type: section
+id: Product_breakdown_mim.breakdown_element_realization
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the breakdown element realization {{entity}}'
+  notes:
+    - content: A **breakdown_element_realization** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.product_definition_element_relationship,product_definition_element_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_realization,Breakdown_element_realization}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+          version: '4'
+      type: authoritative
+      id: Product_breakdown_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: breakdown_element_realization
+  domain: 'application module: Product_breakdown_mim'
+  language_code: eng
+  annotations: []
+id: 848ae6e6-3447-5f44-9388-fc61945ef863

@@ -1,0 +1,31 @@
+data:
+  identifier: Task_element_mim.concurrent_task_element
+  localized_concepts:
+    eng: ef8503ab-e522-5a38-b136-ec654180c7e2
+  domains:
+    - concept_id: section-Task_element_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+      ref_type: section
+id: Task_element_mim.concurrent_task_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that represents the concurrent task element {{entity}}'
+  notes:
+    - content: A **concurrent_task_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that involves carrying out multiple {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}s during the time taken to perform the longest of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+          version: '1'
+      type: authoritative
+      id: Task_element_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: concurrent_task_element
+  domain: 'application module: Task_element_mim'
+  language_code: eng
+  annotations: []
+id: ef8503ab-e522-5a38-b136-ec654180c7e2

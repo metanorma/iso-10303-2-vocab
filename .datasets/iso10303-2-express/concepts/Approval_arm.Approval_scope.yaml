@@ -1,0 +1,31 @@
+data:
+  identifier: Approval_arm.Approval_scope
+  localized_concepts:
+    eng: 1bc5d68f-ae95-5e95-948a-15b66450b07e
+  domains:
+    - concept_id: section-Approval_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+      ref_type: section
+id: Approval_arm.Approval_scope
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval scope {{entity}}'
+  notes:
+    - content: An **Approval_scope** is a form of approval limited to specific objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+          version: '5'
+      type: authoritative
+      id: Approval_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Approval_scope
+  domain: 'application module: Approval_arm'
+  language_code: eng
+  annotations: []
+id: 1bc5d68f-ae95-5e95-948a-15b66450b07e

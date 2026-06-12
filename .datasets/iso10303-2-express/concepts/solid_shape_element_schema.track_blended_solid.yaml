@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.track_blended_solid
+  localized_concepts:
+    eng: f84d602f-52d5-5e68-a37c-00068e21a190
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.track_blended_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.edge_blended_solid,edge_blended_solid}} that represents the track blended solid {{entity}}'
+  notes:
+    - content: A *track_blended_solid* is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.edge_blended_solid,edge_blended_solid}} in which the edges to be blended form a continuous open or closed track.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: track_blended_solid
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: f84d602f-52d5-5e68-a37c-00068e21a190

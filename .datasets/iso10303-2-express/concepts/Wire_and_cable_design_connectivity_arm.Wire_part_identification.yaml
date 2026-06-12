@@ -1,0 +1,31 @@
+data:
+  identifier: Wire_and_cable_design_connectivity_arm.Wire_part_identification
+  localized_concepts:
+    eng: 773bfd90-1e08-5e88-87f7-2b574cb4db6b
+  domains:
+    - concept_id: section-Wire_and_cable_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+      ref_type: section
+id: Wire_and_cable_design_connectivity_arm.Wire_part_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_transport_feature,Part_transport_feature}} that represents the wire part identification {{entity}}'
+  notes:
+    - content: A **Wire_part_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_transport_feature,Part_transport_feature}} that identifies a colour code for a wire.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+          version: '3'
+      type: authoritative
+      id: Wire_and_cable_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Wire_part_identification
+  domain: 'application module: Wire_and_cable_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 773bfd90-1e08-5e88-87f7-2b574cb4db6b

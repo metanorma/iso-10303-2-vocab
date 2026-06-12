@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_model_2d_3d_relationship_arm.Axis_placement_2d_3d_mapping
+  localized_concepts:
+    eng: 1bd7fc04-b601-5fc1-91ba-86d645b97f99
+  domains:
+    - concept_id: section-Geometric_model_2d_3d_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_arm
+      ref_type: section
+id: Geometric_model_2d_3d_relationship_arm.Axis_placement_2d_3d_mapping
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the axis placement 2d 3d mapping {{entity}}'
+  notes:
+    - content: An **Axis_placement_2d_3d_mapping** is a geometric transformation defined by a source {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_2d,Axis_placement_2d}} and a target {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_model_2d_3d_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Axis_placement_2d_3d_mapping
+  domain: 'application module: Geometric_model_2d_3d_relationship_arm'
+  language_code: eng
+  annotations: []
+id: 1bd7fc04-b601-5fc1-91ba-86d645b97f99

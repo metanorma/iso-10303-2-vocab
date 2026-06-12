@@ -1,0 +1,31 @@
+data:
+  identifier: Component_feature_mim.component_feature_relationship
+  localized_concepts:
+    eng: 91ee8a96-1c4e-535c-b0a5-95c358fcaaf5
+  domains:
+    - concept_id: section-Component_feature_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+      ref_type: section
+id: Component_feature_mim.component_feature_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the component feature relationship {{entity}}'
+  notes:
+    - content: A **component_feature_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_relationship,Component_feature_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+          version: '5'
+      type: authoritative
+      id: Component_feature_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: component_feature_relationship
+  domain: 'application module: Component_feature_mim'
+  language_code: eng
+  annotations: []
+id: 91ee8a96-1c4e-535c-b0a5-95c358fcaaf5

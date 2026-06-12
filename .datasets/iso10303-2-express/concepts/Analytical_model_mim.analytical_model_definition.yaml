@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_mim.analytical_model_definition
+  localized_concepts:
+    eng: 2e01ef1b-6043-59fc-940e-d8d64785fa38
+  domains:
+    - concept_id: section-Analytical_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+      ref_type: section
+id: Analytical_model_mim.analytical_model_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the analytical model definition {{entity}}'
+  notes:
+    - content: An **analytical_model_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_definition,Analytical_model_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+          version: '5'
+      type: authoritative
+      id: Analytical_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: analytical_model_definition
+  domain: 'application module: Analytical_model_mim'
+  language_code: eng
+  annotations: []
+id: 2e01ef1b-6043-59fc-940e-d8d64785fa38

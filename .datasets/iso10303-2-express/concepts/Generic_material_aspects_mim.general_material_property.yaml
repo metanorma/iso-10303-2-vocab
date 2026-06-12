@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_material_aspects_mim.general_material_property
+  localized_concepts:
+    eng: f713e3e2-db0e-5f70-ad0b-2fb98a63880f
+  domains:
+    - concept_id: section-Generic_material_aspects_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_mim
+      ref_type: section
+id: Generic_material_aspects_mim.general_material_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that represents the general material property {{entity}}'
+  notes:
+    - content: A **general_material_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that depends on material aspects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_mim
+          version: '4'
+      type: authoritative
+      id: Generic_material_aspects_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: general_material_property
+  domain: 'application module: Generic_material_aspects_mim'
+  language_code: eng
+  annotations: []
+id: f713e3e2-db0e-5f70-ad0b-2fb98a63880f

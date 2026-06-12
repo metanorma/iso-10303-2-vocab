@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_arm.Rule_request
+  localized_concepts:
+    eng: c127dc49-4b18-556f-9290-a2411eb407df
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Rule_request
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_action,Rule_action}} that represents the rule request {{entity}}'
+  notes:
+    - content: A **Rule_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_action,Rule_action}} that states a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_product,Rule_product}} has been requested.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rule_request
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: c127dc49-4b18-556f-9290-a2411eb407df

@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_representation_schema.property_definition_representation
+  localized_concepts:
+    eng: 603cfd73-fa8a-5a32-b069-e2d7a8adb20f
+  domains:
+    - concept_id: section-product_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+      ref_type: section
+id: product_property_representation_schema.property_definition_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the property definition representation {{entity}}'
+  notes:
+    - content: A **property_definition_representation** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} and a representation of the property.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+          version: '10'
+      type: authoritative
+      id: product_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: property_definition_representation
+  domain: 'resource: product_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: 603cfd73-fa8a-5a32-b069-e2d7a8adb20f

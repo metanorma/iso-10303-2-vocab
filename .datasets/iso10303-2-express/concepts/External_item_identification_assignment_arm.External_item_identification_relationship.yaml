@@ -1,0 +1,31 @@
+data:
+  identifier: External_item_identification_assignment_arm.External_item_identification_relationship
+  localized_concepts:
+    eng: f0c3f5a5-402d-5f88-9d45-21b6b573ee58
+  domains:
+    - concept_id: section-External_item_identification_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+      ref_type: section
+id: External_item_identification_assignment_arm.External_item_identification_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external item identification relationship {{entity}}'
+  notes:
+    - content: An **External_item_identification_relationship** is a relationship between two {{external_identification_item,external_identification_item}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+          version: '2'
+      type: authoritative
+      id: External_item_identification_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_item_identification_relationship
+  domain: 'application module: External_item_identification_assignment_arm'
+  language_code: eng
+  annotations: []
+id: f0c3f5a5-402d-5f88-9d45-21b6b573ee58

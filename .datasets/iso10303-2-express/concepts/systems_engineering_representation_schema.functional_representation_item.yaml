@@ -1,0 +1,31 @@
+data:
+  identifier: systems_engineering_representation_schema.functional_representation_item
+  localized_concepts:
+    eng: de0373e8-26cb-57f7-b810-96a0ae47f451
+  domains:
+    - concept_id: section-systems_engineering_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+      ref_type: section
+id: systems_engineering_representation_schema.functional_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}} that represents the functional representation item {{entity}}'
+  notes:
+    - content: A **functional_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}} used in the definition of a functional model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+          version: '2'
+      type: authoritative
+      id: systems_engineering_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: functional_representation_item
+  domain: 'resource: systems_engineering_representation_schema'
+  language_code: eng
+  annotations: []
+id: de0373e8-26cb-57f7-b810-96a0ae47f451

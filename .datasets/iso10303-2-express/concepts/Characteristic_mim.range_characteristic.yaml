@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_mim.range_characteristic
+  localized_concepts:
+    eng: cfdc4f28-304a-5566-8ef7-3ad4c2f78d2c
+  domains:
+    - concept_id: section-Characteristic_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+      ref_type: section
+id: Characteristic_mim.range_characteristic
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the range characteristic {{entity}}'
+  notes:
+    - content: A **range_characteristic** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Range_characteristic,Range_characteristic}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+          version: '6'
+      type: authoritative
+      id: Characteristic_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: range_characteristic
+  domain: 'application module: Characteristic_mim'
+  language_code: eng
+  annotations: []
+id: cfdc4f28-304a-5566-8ef7-3ad4c2f78d2c

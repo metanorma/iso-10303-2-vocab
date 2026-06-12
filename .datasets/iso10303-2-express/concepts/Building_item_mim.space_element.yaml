@@ -1,0 +1,31 @@
+data:
+  identifier: Building_item_mim.space_element
+  localized_concepts:
+    eng: 70e0c9f9-ca48-576a-86f7-52d69e8d90d8
+  domains:
+    - concept_id: section-Building_item_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_mim
+      ref_type: section
+id: Building_item_mim.space_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the space element {{entity}}'
+  notes:
+    - content: A **space_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that defines an intangible volumetric region of a building that represents portions of a building usable by building occupants or building service equipment.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_mim
+          version: '1'
+      type: authoritative
+      id: Building_item_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: space_element
+  domain: 'application module: Building_item_mim'
+  language_code: eng
+  annotations: []
+id: 70e0c9f9-ca48-576a-86f7-52d69e8d90d8

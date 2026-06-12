@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Plus_minus_bounds
+  localized_concepts:
+    eng: 13846352-9f25-5e04-bd44-3366ce91c399
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Plus_minus_bounds
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the plus minus bounds {{entity}}'
+  notes:
+    - content: A **Plus_minus_bounds** is the specification of a tolerance by offsets which are each added to the {{limited_value,limited_value}} which is the nominal value, to create the two limits of the allowable range.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plus_minus_bounds
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 13846352-9f25-5e04-bd44-3366ce91c399

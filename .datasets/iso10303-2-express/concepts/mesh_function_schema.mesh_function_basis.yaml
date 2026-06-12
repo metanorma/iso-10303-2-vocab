@@ -1,0 +1,36 @@
+data:
+  identifier: mesh_function_schema.mesh_function_basis
+  localized_concepts:
+    eng: e1af0f40-abe8-577e-92bd-5d92697359cc
+  domains:
+    - concept_id: section-mesh_function_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema
+      ref_type: section
+id: mesh_function_schema.mesh_function_basis
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh function basis {{entity}}'
+  notes:
+    - content: |-
+        A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema.mesh_function_basis,mesh_function_basis}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.application_defined_function,application_defined_function}} that has:
+
+        * a domain that is a real tuple space; and
+
+        * a range that is a space of table functions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_function_schema
+          version: '2'
+      type: authoritative
+      id: mesh_function_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mesh_function_basis
+  domain: 'resource: mesh_function_schema'
+  language_code: eng
+  annotations: []
+id: e1af0f40-abe8-577e-92bd-5d92697359cc

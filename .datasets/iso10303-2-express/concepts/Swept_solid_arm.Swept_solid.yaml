@@ -1,0 +1,31 @@
+data:
+  identifier: Swept_solid_arm.Swept_solid
+  localized_concepts:
+    eng: d4e84228-9bae-574a-a4ef-6c4413c6440a
+  domains:
+    - concept_id: section-Swept_solid_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
+      ref_type: section
+id: Swept_solid_arm.Swept_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the swept solid {{entity}}'
+  notes:
+    - content: A **Swept_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that defines a solid produced by sweeping a face.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
+          version: '2'
+      type: authoritative
+      id: Swept_solid_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Swept_solid
+  domain: 'application module: Swept_solid_arm'
+  language_code: eng
+  annotations: []
+id: d4e84228-9bae-574a-a4ef-6c4413c6440a

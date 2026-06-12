@@ -1,0 +1,30 @@
+data:
+  identifier: Component_grouping_mim.interfaced_group_component
+  localized_concepts:
+    eng: 49c3778c-a09c-57cf-b32d-34cc04c5dceb
+  domains:
+    - concept_id: section-Component_grouping_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+      ref_type: section
+id: Component_grouping_mim.interfaced_group_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}} that represents the interfaced group component {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+          version: '6'
+      type: authoritative
+      id: Component_grouping_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interfaced_group_component
+  domain: 'application module: Component_grouping_mim'
+  language_code: eng
+  annotations: []
+id: 49c3778c-a09c-57cf-b32d-34cc04c5dceb

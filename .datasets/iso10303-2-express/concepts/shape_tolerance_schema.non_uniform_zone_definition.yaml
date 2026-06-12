@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.non_uniform_zone_definition
+  localized_concepts:
+    eng: 040cbce6-c358-572f-b92f-8e91403739a1
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.non_uniform_zone_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone_definition,tolerance_zone_definition}} that represents the non uniform zone definition {{entity}}'
+  notes:
+    - content: A **non_uniform_zone_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone_definition,tolerance_zone_definition}} The boundaries of a **non_uniform_zone_definition** may have any shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: non_uniform_zone_definition
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 040cbce6-c358-572f-b92f-8e91403739a1

@@ -1,0 +1,31 @@
+data:
+  identifier: Geometrically_bounded_surface_arm.Surface_set
+  localized_concepts:
+    eng: f2a62b2e-bb43-5c19-89cd-11a659dca48e
+  domains:
+    - concept_id: section-Geometrically_bounded_surface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+      ref_type: section
+id: Geometrically_bounded_surface_arm.Surface_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the surface set {{entity}}'
+  notes:
+    - content: A **Surface_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that consists of one or many surfaces used to define a surface model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+          version: '3'
+      type: authoritative
+      id: Geometrically_bounded_surface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface_set
+  domain: 'application module: Geometrically_bounded_surface_arm'
+  language_code: eng
+  annotations: []
+id: f2a62b2e-bb43-5c19-89cd-11a659dca48e

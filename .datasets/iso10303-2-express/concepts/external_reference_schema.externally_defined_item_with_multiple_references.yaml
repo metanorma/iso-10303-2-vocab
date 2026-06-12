@@ -1,0 +1,31 @@
+data:
+  identifier: external_reference_schema.externally_defined_item_with_multiple_references
+  localized_concepts:
+    eng: fa017e9f-6081-5113-84ed-c39b6d238472
+  domains:
+    - concept_id: section-external_reference_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+      ref_type: section
+id: external_reference_schema.externally_defined_item_with_multiple_references
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that represents the externally defined item with multiple references {{entity}}'
+  notes:
+    - content: An **externally_defined_item_with_multiple_references** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that allows to define additional references providing information on the context and location of the target item within the source.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+          version: '7'
+      type: authoritative
+      id: external_reference_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_item_with_multiple_references
+  domain: 'resource: external_reference_schema'
+  language_code: eng
+  annotations: []
+id: fa017e9f-6081-5113-84ed-c39b6d238472

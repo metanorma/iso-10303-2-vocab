@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_topology_arm.Kinematic_property_definition_representation
+  localized_concepts:
+    eng: 519d9e9e-c49d-59ec-9033-069493148947
+  domains:
+    - concept_id: section-Kinematic_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+      ref_type: section
+id: Kinematic_topology_arm.Kinematic_property_definition_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that represents the kinematic property definition representation {{entity}}'
+  notes:
+    - content: A **Kinematic_property_definition_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Product_definition_kinematics,Product_definition_kinematics}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+          version: '1'
+      type: authoritative
+      id: Kinematic_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Kinematic_property_definition_representation
+  domain: 'application module: Kinematic_topology_arm'
+  language_code: eng
+  annotations: []
+id: 519d9e9e-c49d-59ec-9033-069493148947

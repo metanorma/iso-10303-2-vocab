@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.rectangular_pyramid
+  localized_concepts:
+    eng: ed705f03-f333-5c78-a993-0a55d2b2b410
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.rectangular_pyramid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the rectangular pyramid {{entity}}'
+  notes:
+    - content: A **rectangular_pyramid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} which is a solid pyramid with a rectangular base.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rectangular_pyramid
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: ed705f03-f333-5c78-a993-0a55d2b2b410

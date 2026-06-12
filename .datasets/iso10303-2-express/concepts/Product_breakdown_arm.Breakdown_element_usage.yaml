@@ -1,0 +1,31 @@
+data:
+  identifier: Product_breakdown_arm.Breakdown_element_usage
+  localized_concepts:
+    eng: 6dccd0a1-1177-565c-9601-dcb6aedf2ab2
+  domains:
+    - concept_id: section-Product_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+      ref_type: section
+id: Product_breakdown_arm.Breakdown_element_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} that represents the breakdown element usage {{entity}}'
+  notes:
+    - content: A **Breakdown_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that identifies a relationship between a parent and child {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+          version: '4'
+      type: authoritative
+      id: Product_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Breakdown_element_usage
+  domain: 'application module: Product_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 6dccd0a1-1177-565c-9601-dcb6aedf2ab2

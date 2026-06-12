@@ -1,0 +1,31 @@
+data:
+  identifier: Approval_arm.Approval
+  localized_concepts:
+    eng: 06df92b5-7e41-5bb0-917f-8d23fa5ebd9f
+  domains:
+    - concept_id: section-Approval_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+      ref_type: section
+id: Approval_arm.Approval
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval {{entity}}'
+  notes:
+    - content: An **Approval** is a formal confirmation of the quality of some activity or product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+          version: '5'
+      type: authoritative
+      id: Approval_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Approval
+  domain: 'application module: Approval_arm'
+  language_code: eng
+  annotations: []
+id: 06df92b5-7e41-5bb0-917f-8d23fa5ebd9f

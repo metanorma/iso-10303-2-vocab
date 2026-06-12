@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.uniform_surface
+  localized_concepts:
+    eng: dd82233d-ca47-58a3-89a6-d7115460b42b
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.uniform_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_surface,b_spline_surface}} that represents the uniform surface {{entity}}'
+  notes:
+    - content: A **uniform_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_surface,b_spline_surface}}, in which the knots are evenly spaced.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uniform_surface
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: dd82233d-ca47-58a3-89a6-d7115460b42b

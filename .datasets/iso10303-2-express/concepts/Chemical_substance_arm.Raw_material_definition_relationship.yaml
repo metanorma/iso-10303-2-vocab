@@ -1,0 +1,30 @@
+data:
+  identifier: Chemical_substance_arm.Raw_material_definition_relationship
+  localized_concepts:
+    eng: ee06b28b-0514-5881-93a3-1a455795927c
+  domains:
+    - concept_id: section-Chemical_substance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+      ref_type: section
+id: Chemical_substance_arm.Raw_material_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} that represents the raw material definition relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+          version: '4'
+      type: authoritative
+      id: Chemical_substance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Raw_material_definition_relationship
+  domain: 'application module: Chemical_substance_arm'
+  language_code: eng
+  annotations: []
+id: ee06b28b-0514-5881-93a3-1a455795927c

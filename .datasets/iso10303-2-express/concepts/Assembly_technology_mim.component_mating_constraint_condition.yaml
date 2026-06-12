@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_mim.component_mating_constraint_condition
+  localized_concepts:
+    eng: 3d17c753-c093-5eee-96b8-a2a773d5b05a
+  domains:
+    - concept_id: section-Assembly_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+      ref_type: section
+id: Assembly_technology_mim.component_mating_constraint_condition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the component mating constraint condition {{entity}}'
+  notes:
+    - content: A **component_mating_constraint_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Component_mating_constraint_condition,Component_mating_constraint_condition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: component_mating_constraint_condition
+  domain: 'application module: Assembly_technology_mim'
+  language_code: eng
+  annotations: []
+id: 3d17c753-c093-5eee-96b8-a2a773d5b05a

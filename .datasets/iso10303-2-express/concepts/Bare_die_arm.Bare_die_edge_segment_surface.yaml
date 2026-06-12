@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_arm.Bare_die_edge_segment_surface
+  localized_concepts:
+    eng: aa2cc960-407c-53ae-8398-9c8638c01203
+  domains:
+    - concept_id: section-Bare_die_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+      ref_type: section
+id: Bare_die_arm.Bare_die_edge_segment_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_surface,Bare_die_surface}} that represents the bare die edge segment surface {{entity}}'
+  notes:
+    - content: A **Bare_die_edge_segment_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_surface,Bare_die_surface}} that is included to support the description of specific segments of the edge of a die.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+          version: '5'
+      type: authoritative
+      id: Bare_die_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Bare_die_edge_segment_surface
+  domain: 'application module: Bare_die_arm'
+  language_code: eng
+  annotations: []
+id: aa2cc960-407c-53ae-8398-9c8638c01203

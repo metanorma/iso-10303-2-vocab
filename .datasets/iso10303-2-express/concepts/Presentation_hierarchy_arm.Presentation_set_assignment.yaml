@@ -1,0 +1,31 @@
+data:
+  identifier: Presentation_hierarchy_arm.Presentation_set_assignment
+  localized_concepts:
+    eng: 882878e1-5522-5e6d-a8e9-e87dacff826f
+  domains:
+    - concept_id: section-Presentation_hierarchy_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+      ref_type: section
+id: Presentation_hierarchy_arm.Presentation_set_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presentation set assignment {{entity}}'
+  notes:
+    - content: A **Presentation_set_assignment** is a mechanism to associate a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.Presentation_set,Presentation_set}} with the object that is presented in this set.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm
+          version: '1'
+      type: authoritative
+      id: Presentation_hierarchy_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Presentation_set_assignment
+  domain: 'application module: Presentation_hierarchy_arm'
+  language_code: eng
+  annotations: []
+id: 882878e1-5522-5e6d-a8e9-e87dacff826f

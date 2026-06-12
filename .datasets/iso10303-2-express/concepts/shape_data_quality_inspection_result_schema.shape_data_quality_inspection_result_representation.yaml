@@ -1,0 +1,30 @@
+data:
+  identifier: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation
+  localized_concepts:
+    eng: fac2b764-cf86-55a3-b67b-c34e5f058d72
+  domains:
+    - concept_id: section-shape_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+      ref_type: section
+id: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_result_representation,data_quality_inspection_result_representation}} that represents the shape data quality inspection result representation {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_data_quality_inspection_result_representation
+  domain: 'resource: shape_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: fac2b764-cf86-55a3-b67b-c34e5f058d72

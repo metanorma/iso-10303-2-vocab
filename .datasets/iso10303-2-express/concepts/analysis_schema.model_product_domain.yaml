@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_schema.model_product_domain
+  localized_concepts:
+    eng: 77b574a2-8de4-5151-8126-d5ae154f7f53
+  domains:
+    - concept_id: section-analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+      ref_type: section
+id: analysis_schema.model_product_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that represents the model product domain {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain,model_product_domain}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that is only a spatial decomposition and that has an indefinite time dimension.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+          version: '1'
+      type: authoritative
+      id: analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: model_product_domain
+  domain: 'resource: analysis_schema'
+  language_code: eng
+  annotations: []
+id: 77b574a2-8de4-5151-8126-d5ae154f7f53

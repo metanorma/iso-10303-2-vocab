@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Vertex_defined_cell
+  localized_concepts:
+    eng: 3fe7a6a1-e161-59bf-b86c-0774e6fe818a
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Vertex_defined_cell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Cell,Cell}} that represents the vertex defined cell {{entity}}'
+  notes:
+    - content: A **Vertex_defined_cell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Cell,Cell}} that is defined by its vertices.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Vertex_defined_cell
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: 3fe7a6a1-e161-59bf-b86c-0774e6fe818a

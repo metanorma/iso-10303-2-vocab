@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_groups
+  localized_concepts:
+    eng: 330e54ed-9b2e-5ed9-9af4-c35abf88f0b6
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_groups
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents the excessive use of groups {{entity}}'
+  notes:
+    - content: A **Excessive_use_of_groups** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents a criterion for detecting any violation of an agreement about the number of instances of group entity.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Excessive_use_of_groups
+  domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 330e54ed-9b2e-5ed9-9af4-c35abf88f0b6

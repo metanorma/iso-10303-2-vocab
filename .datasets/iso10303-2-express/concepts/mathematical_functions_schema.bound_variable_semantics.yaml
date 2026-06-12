@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.bound_variable_semantics
+  localized_concepts:
+    eng: 2a01e072-90c3-5893-ae5a-59599020efae
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.bound_variable_semantics
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} that represents the bound variable semantics {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} indicates that a variable is a bound variable whose semantics is determined by the quantifier expression which references the variable in its {{variable,variables}} attribute.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: bound_variable_semantics
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 2a01e072-90c3-5893-ae5a-59599020efae

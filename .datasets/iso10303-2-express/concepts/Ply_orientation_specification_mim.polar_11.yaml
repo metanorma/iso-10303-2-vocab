@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_mim.polar_11
+  localized_concepts:
+    eng: 7778bd28-1e96-526f-87fd-ad29da02a96b
+  domains:
+    - concept_id: section-Ply_orientation_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+      ref_type: section
+id: Ply_orientation_specification_mim.polar_11
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the polar 11 {{entity}}'
+  notes:
+    - content: A **polar_11** is a type of fiber 11 direction specification for the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Reinforcement_orientation_basis,Reinforcement_orientation_basis}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Polar_11,Polar_11}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+          version: '4'
+      type: authoritative
+      id: Ply_orientation_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: polar_11
+  domain: 'application module: Ply_orientation_specification_mim'
+  language_code: eng
+  annotations: []
+id: 7778bd28-1e96-526f-87fd-ad29da02a96b

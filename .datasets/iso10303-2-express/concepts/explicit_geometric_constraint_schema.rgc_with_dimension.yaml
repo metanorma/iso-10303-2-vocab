@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.rgc_with_dimension
+  localized_concepts:
+    eng: 00797a94-dfe8-56f1-abdf-46d1134441ed
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.rgc_with_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.radius_geometric_constraint,radius_geometric_constraint}} that represents the rgc with dimension {{entity}}'
+  notes:
+    - content: The *rgc_with_dimension* entity data type is a type of *radius_geometric_constraint* asserting that the members of a set of *radial_geometry_constraint_element* instances all have the same specified radius.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rgc_with_dimension
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 00797a94-dfe8-56f1-abdf-46d1134441ed

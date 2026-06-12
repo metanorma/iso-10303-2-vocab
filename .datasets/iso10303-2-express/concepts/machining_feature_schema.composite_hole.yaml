@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.composite_hole
+  localized_concepts:
+    eng: 636f9980-f79a-544f-bf07-56b29d42bedc
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.composite_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.compound_feature,compound_feature}} that represents the composite hole {{entity}}'
+  notes:
+    - content: A **composite_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.compound_feature,compound_feature}} that is the representation of two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.round_hole,round_hole}} for the purpose of creating two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.round_hole,round_hole}} combinations, the countersunk hole and the counterbore hole.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: composite_hole
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 636f9980-f79a-544f-bf07-56b29d42bedc

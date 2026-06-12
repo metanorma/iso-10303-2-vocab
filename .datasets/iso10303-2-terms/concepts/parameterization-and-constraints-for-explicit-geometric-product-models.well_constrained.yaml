@@ -1,0 +1,37 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.well_constrained
+  localized_concepts:
+    eng: 3e23cef4-ff5f-56c7-a6bc-2d69b4b44f22
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: cd45c7ec-da4e-5c67-b6aa-089b54bba194
+schema_version: v3
+---
+data:
+  definition:
+  - content: defined in terms of a set of constraints that are both necessary and
+      sufficient to allow the determination of a unique constraint solution
+  notes:
+  - content: In the ideal situation, only one solution satisfies all the constraints.
+      In practice multiple solutions often arise. In an ISO 10303 model transfer using
+      the capabilities defined in this document, the current result may often be used
+      to determine which solutions were chosen by the original designer. For example,
+      in two dimensions the constraint "Line 2 is parallel to Line 1 at distance 3"
+      has two solutions; Line 2 may lie 3 units either to the left or the right of
+      Line 1. The choice of solution actually made in the sending system will be evident
+      from the current model. Another method which can be used to distinguish chosen
+      solutions of multi-solution constraints or constraint sets is the specification
+      of "near-points". These may be used, for example, to indicate the approximate
+      desired location of a point of tangency. Several of the explicit geometric constraints
+      defined in <<ISO_10303-108_2005,clause=7>> provide for the specification of
+      near-points.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: well constrained
+  language_code: eng
+  annotations: []
+id: 3e23cef4-ff5f-56c7-a6bc-2d69b4b44f22

@@ -1,0 +1,34 @@
+data:
+  identifier: mechanical_design_schema.external_image_placement_in_callout
+  localized_concepts:
+    eng: c83fe0a5-c5ea-5f55-88cd-bfed8afe03d4
+  domains:
+    - concept_id: section-mechanical_design_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+      ref_type: section
+id: mechanical_design_schema.external_image_placement_in_callout
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external image placement in callout {{entity}}'
+  notes:
+    - content: |-
+        An **external_image_placement_in_callout** is a type of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} and a
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that supports exchanging two-dimensional images defined in external artifacts that are presened in a three-dimensional product model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema
+          version: '3'
+      type: authoritative
+      id: mechanical_design_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: external_image_placement_in_callout
+  domain: 'resource: mechanical_design_schema'
+  language_code: eng
+  annotations: []
+id: c83fe0a5-c5ea-5f55-88cd-bfed8afe03d4

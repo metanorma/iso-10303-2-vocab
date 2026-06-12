@@ -1,0 +1,31 @@
+data:
+  identifier: Foundation_state_definition_arm.State_definition_relationship
+  localized_concepts:
+    eng: 64ec509b-0a82-52d9-80b2-09df8c0c2b67
+  domains:
+    - concept_id: section-Foundation_state_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+      ref_type: section
+id: Foundation_state_definition_arm.State_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state definition relationship {{entity}}'
+  notes:
+    - content: A **State_definition_relationship** is an association between two or more instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition,State_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+          version: '2'
+      type: authoritative
+      id: Foundation_state_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_definition_relationship
+  domain: 'application module: Foundation_state_definition_arm'
+  language_code: eng
+  annotations: []
+id: 64ec509b-0a82-52d9-80b2-09df8c0c2b67

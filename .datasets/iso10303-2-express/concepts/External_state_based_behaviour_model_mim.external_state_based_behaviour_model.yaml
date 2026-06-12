@@ -1,0 +1,31 @@
+data:
+  identifier: External_state_based_behaviour_model_mim.external_state_based_behaviour_model
+  localized_concepts:
+    eng: e8c64859-6e5d-598d-9304-b5aff029da0d
+  domains:
+    - concept_id: section-External_state_based_behaviour_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_mim
+      ref_type: section
+id: External_state_based_behaviour_model_mim.external_state_based_behaviour_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.state_based_behaviour_model,state_based_behaviour_model}} that represents the external state based behaviour model {{entity}}'
+  notes:
+    - content: A **external_state_based_behaviour_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.state_based_behaviour_model,state_based_behaviour_model}} which is contained in an external digital file.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_mim
+          version: '1'
+      type: authoritative
+      id: External_state_based_behaviour_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: external_state_based_behaviour_model
+  domain: 'application module: External_state_based_behaviour_model_mim'
+  language_code: eng
+  annotations: []
+id: e8c64859-6e5d-598d-9304-b5aff029da0d

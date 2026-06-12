@@ -1,0 +1,30 @@
+data:
+  identifier: representation_schema.representation_relationship_with_transformation
+  localized_concepts:
+    eng: ac1a9007-7537-5776-9bf7-e1b8460af826
+  domains:
+    - concept_id: section-representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+      ref_type: section
+id: representation_schema.representation_relationship_with_transformation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the representation relationship with transformation {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+          version: '8'
+      type: authoritative
+      id: representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: representation_relationship_with_transformation
+  domain: 'resource: representation_schema'
+  language_code: eng
+  annotations: []
+id: ac1a9007-7537-5776-9bf7-e1b8460af826

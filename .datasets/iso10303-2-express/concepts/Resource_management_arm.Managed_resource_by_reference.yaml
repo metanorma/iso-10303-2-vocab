@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_management_arm.Managed_resource_by_reference
+  localized_concepts:
+    eng: 44a00e3e-8e85-56db-93f0-a04b776bd2d6
+  domains:
+    - concept_id: section-Resource_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+      ref_type: section
+id: Resource_management_arm.Managed_resource_by_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Managed_resource,Managed_resource}} that represents the managed resource by reference {{entity}}'
+  notes:
+    - content: A **Managed_resource_by_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Managed_resource,Managed_resource}} that is described in terms of an identifiable item (not referenced as a realization of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_item_arm.Resource_item,Resource_item}}) which is provided with resource management capabilities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+          version: '2'
+      type: authoritative
+      id: Resource_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Managed_resource_by_reference
+  domain: 'application module: Resource_management_arm'
+  language_code: eng
+  annotations: []
+id: 44a00e3e-8e85-56db-93f0-a04b776bd2d6

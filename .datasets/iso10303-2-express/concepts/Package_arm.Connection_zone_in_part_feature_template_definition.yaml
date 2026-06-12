@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Connection_zone_in_part_feature_template_definition
+  localized_concepts:
+    eng: 257cc305-365e-5873-bc30-397a4abd60ad
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Connection_zone_in_part_feature_template_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Connection_zone,Connection_zone}} that represents the connection zone in part feature template definition {{entity}}'
+  notes:
+    - content: A **Connection_zone_in_part_feature_template_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Connection_zone,Connection_zone}} in which the context is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature_template_definition,Part_feature_template_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Connection_zone_in_part_feature_template_definition
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: 257cc305-365e-5873-bc30-397a4abd60ad

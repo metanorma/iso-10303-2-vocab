@@ -1,0 +1,31 @@
+data:
+  identifier: System_breakdown_arm.System_breakdown_context
+  localized_concepts:
+    eng: 08c6247d-d81a-5974-9279-0f8bba429a9b
+  domains:
+    - concept_id: section-System_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+      ref_type: section
+id: System_breakdown_arm.System_breakdown_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_context,Breakdown_context}} that represents the system breakdown context {{entity}}'
+  notes:
+    - content: A **System_breakdown_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_context,Breakdown_context}} that is a membership relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element,System_element}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_breakdown,System_breakdown}} of which the system element is a member.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: System_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: System_breakdown_context
+  domain: 'application module: System_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 08c6247d-d81a-5974-9279-0f8bba429a9b

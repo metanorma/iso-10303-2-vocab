@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Affected_plane_tolerance_zone
+  localized_concepts:
+    eng: 094b3486-2c63-574f-8a66-b55f94f8a5e0
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Affected_plane_tolerance_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Directed_or_oriented_tolerance_zone,Directed_or_oriented_tolerance_zone}} that represents the affected plane tolerance zone {{entity}}'
+  notes:
+    - content: An **Affected_plane_tolerance_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Directed_or_oriented_tolerance_zone,Directed_or_oriented_tolerance_zone}} whose geometric representation is included in a plane that intersects the feature being toleranced.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Affected_plane_tolerance_zone
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 094b3486-2c63-574f-8a66-b55f94f8a5e0

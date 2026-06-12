@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.contact_feature_definition
+  localized_concepts:
+    eng: 5a750065-b34a-5b65-8a6e-16a22d34fc1e
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.contact_feature_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.shape_feature_definition,shape_feature_definition}} that represents the contact feature definition {{entity}}'
+  notes:
+    - content: A **contact_feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.shape_feature_definition,shape_feature_definition}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Contact_feature_definition,Contact_feature_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: contact_feature_definition
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: 5a750065-b34a-5b65-8a6e-16a22d34fc1e

@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.elementary_space
+  localized_concepts:
+    eng: 4b54d7d5-0239-54aa-babd-fa366aea547a
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.elementary_space
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the elementary space {{entity}}'
+  notes:
+    - content: These instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.elementary_space,elementary_space}} represent unique and frequently referenced mathematical spaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: elementary_space
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 4b54d7d5-0239-54aa-babd-fa366aea547a

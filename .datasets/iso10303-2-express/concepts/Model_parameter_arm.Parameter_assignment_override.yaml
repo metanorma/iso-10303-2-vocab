@@ -1,0 +1,31 @@
+data:
+  identifier: Model_parameter_arm.Parameter_assignment_override
+  localized_concepts:
+    eng: 4ea2555f-e2cf-57d4-a198-38ac1938e4f6
+  domains:
+    - concept_id: section-Model_parameter_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+      ref_type: section
+id: Model_parameter_arm.Parameter_assignment_override
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the parameter assignment override {{entity}}'
+  notes:
+    - content: A **Parameter_assignment_override** is the association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Parameter_assignment,Parameter_assignment}} and another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Parameter_assignment,Parameter_assignment}} which replaces or overrides the first {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Parameter_assignment,Parameter_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+          version: '5'
+      type: authoritative
+      id: Model_parameter_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Parameter_assignment_override
+  domain: 'application module: Model_parameter_arm'
+  language_code: eng
+  annotations: []
+id: 4ea2555f-e2cf-57d4-a198-38ac1938e4f6

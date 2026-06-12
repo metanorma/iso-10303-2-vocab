@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_interconnect_definition_arm.Connector_based_interconnect_definition
+  localized_concepts:
+    eng: 7ce66b01-b9ab-504b-80f2-4f4304fbafe5
+  domains:
+    - concept_id: section-Physical_unit_interconnect_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm
+      ref_type: section
+id: Physical_unit_interconnect_definition_arm.Connector_based_interconnect_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the connector based interconnect definition {{entity}}'
+  notes:
+    - content: A **Connector_based_interconnect_definition** is the linkage between two physical connectors that specifies the existence of a mated state of that pair of connectors in the context of an assembly that includes the components related to the connectors.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm
+          version: '4'
+      type: authoritative
+      id: Physical_unit_interconnect_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Connector_based_interconnect_definition
+  domain: 'application module: Physical_unit_interconnect_definition_arm'
+  language_code: eng
+  annotations: []
+id: 7ce66b01-b9ab-504b-80f2-4f4304fbafe5

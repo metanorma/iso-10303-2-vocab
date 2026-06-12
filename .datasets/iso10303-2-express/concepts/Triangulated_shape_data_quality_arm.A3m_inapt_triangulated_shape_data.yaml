@@ -1,0 +1,33 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data
+  localized_concepts:
+    eng: d4c0e25f-8f74-521f-9967-96e444afee41
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}} that represents the a3m inapt triangulated shape data {{entity}}'
+  notes:
+    - content: |-
+        An **A3m_inapt_triangulated_shape_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}} that is a supertype of criteria for detecting problematic triangulated shape data
+        which may cause problems depending on the context of the application.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: A3m_inapt_triangulated_shape_data
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: d4c0e25f-8f74-521f-9967-96e444afee41

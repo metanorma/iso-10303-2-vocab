@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_arm.Collection_relationship
+  localized_concepts:
+    eng: 374f5fe8-e9ec-5171-8a06-5f7d0abd56ea
+  domains:
+    - concept_id: section-Collection_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+      ref_type: section
+id: Collection_identification_and_version_arm.Collection_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm.Product_relationship,Product_relationship}} that represents the collection relationship {{entity}}'
+  notes:
+    - content: An **Collection_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm.Product_relationship,Product_relationship}} that represents an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection,Collection}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Collection_relationship
+  domain: 'application module: Collection_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 374f5fe8-e9ec-5171-8a06-5f7d0abd56ea

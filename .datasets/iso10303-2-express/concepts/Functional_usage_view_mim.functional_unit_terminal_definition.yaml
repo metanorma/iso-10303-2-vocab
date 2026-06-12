@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_usage_view_mim.functional_unit_terminal_definition
+  localized_concepts:
+    eng: e6369923-5fa5-5e18-8cde-81588d474069
+  domains:
+    - concept_id: section-Functional_usage_view_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim
+      ref_type: section
+id: Functional_usage_view_mim.functional_unit_terminal_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the functional unit terminal definition {{entity}}'
+  notes:
+    - content: A **functional_unit_terminal_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_usage_view_terminal_definition,Functional_unit_usage_view_terminal_definition}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Scalar_terminal_definition,Scalar_terminal_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim
+          version: '5'
+      type: authoritative
+      id: Functional_usage_view_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: functional_unit_terminal_definition
+  domain: 'application module: Functional_usage_view_mim'
+  language_code: eng
+  annotations: []
+id: e6369923-5fa5-5e18-8cde-81588d474069

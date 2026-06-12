@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Precision_qualifier
+  localized_concepts:
+    eng: b523a8dc-ea04-531f-9543-44dbd4eacb4a
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Precision_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the precision qualifier {{entity}}'
+  notes:
+    - content: A **Precision_qualifier** is a specification of the number of significant digits in the representation of a value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Precision_qualifier
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: b523a8dc-ea04-531f-9543-44dbd4eacb4a

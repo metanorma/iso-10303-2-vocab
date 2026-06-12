@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.extended_tuple_space
+  localized_concepts:
+    eng: ecfc3797-27be-56b6-8add-9b1e20358520
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.extended_tuple_space
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the extended tuple space {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents spaces of ordered tuples with a certain number of initial components belonging to a fixed list of spaces, followed by an arbitrary number of components from a fixed space.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extended_tuple_space
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: ecfc3797-27be-56b6-8add-9b1e20358520

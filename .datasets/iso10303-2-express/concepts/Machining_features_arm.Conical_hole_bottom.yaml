@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Conical_hole_bottom
+  localized_concepts:
+    eng: 8b0b71e1-27b5-52a9-bb38-1fd5c1e56bf4
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Conical_hole_bottom
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that represents the conical hole bottom {{entity}}'
+  notes:
+    - content: A **Conical_hole_bottom** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that defines the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}} to be conical in shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Conical_hole_bottom
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 8b0b71e1-27b5-52a9-bb38-1fd5c1e56bf4

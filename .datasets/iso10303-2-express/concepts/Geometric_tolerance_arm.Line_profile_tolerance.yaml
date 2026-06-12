@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Line_profile_tolerance
+  localized_concepts:
+    eng: 523c0151-6928-5cd2-b7a3-9f2d7f53f64a
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Line_profile_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the line profile tolerance {{entity}}'
+  notes:
+    - content: A **Line_profile_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that specifies the definition of a uniform boundary along the true profile within which the elements of the toleranced surface shall lie.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Line_profile_tolerance
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 523c0151-6928-5cd2-b7a3-9f2d7f53f64a

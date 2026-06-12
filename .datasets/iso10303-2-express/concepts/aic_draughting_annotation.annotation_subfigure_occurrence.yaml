@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_annotation.annotation_subfigure_occurrence
+  localized_concepts:
+    eng: ea7121f9-b95d-5c14-b323-477977ee0108
+  domains:
+    - concept_id: section-aic_draughting_annotation
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+      ref_type: section
+id: aic_draughting_annotation.annotation_subfigure_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}} that represents the annotation subfigure occurrence {{entity}}'
+  notes:
+    - content: An **annotation_subfigure_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}} An **annotation_subfigure_occurrence** is a grouping of annotation that is recognized as a subfigure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+          version: '2'
+      type: authoritative
+      id: aic_draughting_annotation
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: annotation_subfigure_occurrence
+  domain: 'resource: aic_draughting_annotation'
+  language_code: eng
+  annotations: []
+id: ea7121f9-b95d-5c14-b323-477977ee0108

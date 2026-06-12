@@ -1,0 +1,31 @@
+data:
+  identifier: Sketch_arm.Sketch_2d_representation
+  localized_concepts:
+    eng: 051438dd-3822-5cab-800b-fbe21e157332
+  domains:
+    - concept_id: section-Sketch_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+      ref_type: section
+id: Sketch_arm.Sketch_2d_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the sketch 2d representation {{entity}}'
+  notes:
+    - content: A **Sketch_2d_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is a representation of planar configurations of geometry that are defined in some neutral 2D coordinate space and may be stored in libraries for reuse in a variety of circumstances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+          version: '3'
+      type: authoritative
+      id: Sketch_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Sketch_2d_representation
+  domain: 'application module: Sketch_arm'
+  language_code: eng
+  annotations: []
+id: 051438dd-3822-5cab-800b-fbe21e157332

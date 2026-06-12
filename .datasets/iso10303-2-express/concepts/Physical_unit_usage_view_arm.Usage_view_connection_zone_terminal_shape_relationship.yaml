@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_usage_view_arm.Usage_view_connection_zone_terminal_shape_relationship
+  localized_concepts:
+    eng: 708981aa-e778-5c6f-9ec3-330cfd6be487
+  domains:
+    - concept_id: section-Physical_unit_usage_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm
+      ref_type: section
+id: Physical_unit_usage_view_arm.Usage_view_connection_zone_terminal_shape_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the usage view connection zone terminal shape relationship {{entity}}'
+  notes:
+    - content: A **Usage_view_connection_zone_terminal_shape_relationship** is a means to position and orient the geometric model of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Connection_zone,Connection_zone}} into the model of a feature using a transformation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm
+          version: '6'
+      type: authoritative
+      id: Physical_unit_usage_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Usage_view_connection_zone_terminal_shape_relationship
+  domain: 'application module: Physical_unit_usage_view_arm'
+  language_code: eng
+  annotations: []
+id: 708981aa-e778-5c6f-9ec3-330cfd6be487

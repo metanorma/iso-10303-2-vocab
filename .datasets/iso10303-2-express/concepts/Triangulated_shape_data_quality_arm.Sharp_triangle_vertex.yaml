@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Sharp_triangle_vertex
+  localized_concepts:
+    eng: b8365af1-6352-55ac-9fbd-181753e765a8
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Sharp_triangle_vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that represents the sharp triangle vertex {{entity}}'
+  notes:
+    - content: A **Sharp_triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_inapt_triangulated_shape_data,A3m_inapt_triangulated_shape_data}} that asserts that the corner angle of a vertex of a triangle is too small.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Sharp_triangle_vertex
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: b8365af1-6352-55ac-9fbd-181753e765a8

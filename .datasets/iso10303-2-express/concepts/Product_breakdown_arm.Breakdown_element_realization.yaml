@@ -1,0 +1,31 @@
+data:
+  identifier: Product_breakdown_arm.Breakdown_element_realization
+  localized_concepts:
+    eng: 98bbd273-e64c-5e9e-927c-1d56566ec85b
+  domains:
+    - concept_id: section-Product_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+      ref_type: section
+id: Product_breakdown_arm.Breakdown_element_realization
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}} that represents the breakdown element realization {{entity}}'
+  notes:
+    - content: A **Breakdown_element_realization** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}} that identifies a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} and an item that realizes that element definition or usage.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+          version: '4'
+      type: authoritative
+      id: Product_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Breakdown_element_realization
+  domain: 'application module: Product_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 98bbd273-e64c-5e9e-927c-1d56566ec85b

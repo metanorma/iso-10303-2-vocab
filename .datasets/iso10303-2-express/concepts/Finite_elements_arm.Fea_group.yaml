@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Fea_group
+  localized_concepts:
+    eng: 3eedd3f7-1dff-505e-aea3-93520e435844
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Fea_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea group {{entity}}'
+  notes:
+    - content: An **Fea_group** is an aggregation of elements or nodes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fea_group
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: 3eedd3f7-1dff-505e-aea3-93520e435844

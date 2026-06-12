@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_mim.interface_definition_connection
+  localized_concepts:
+    eng: 4c341e0d-1d1b-50b9-b74e-332786976588
+  domains:
+    - concept_id: section-Interface_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+      ref_type: section
+id: Interface_mim.interface_definition_connection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the interface definition connection {{entity}}'
+  notes:
+    - content: An **interface_definition_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that identifies an interconnection between a connected pair of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_connector_definition,interface_connector_definition}}s or, if the point of interconnection is not specified, the interconnection between a pair of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+          version: '5'
+      type: authoritative
+      id: Interface_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interface_definition_connection
+  domain: 'application module: Interface_mim'
+  language_code: eng
+  annotations: []
+id: 4c341e0d-1d1b-50b9-b74e-332786976588

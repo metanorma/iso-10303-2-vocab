@@ -1,0 +1,31 @@
+data:
+  identifier: Mechanical_design_features_and_requirements_arm.Explicit_composite_hole
+  localized_concepts:
+    eng: 57a9cca4-5c9b-560c-9c7f-f7dd02b02924
+  domains:
+    - concept_id: section-Mechanical_design_features_and_requirements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+      ref_type: section
+id: Mechanical_design_features_and_requirements_arm.Explicit_composite_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Hole,Hole}} that represents the explicit composite hole {{entity}}'
+  notes:
+    - content: An **Explicit_composite_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Hole,Hole}} that includes the data elements locally rather than in a separate representation as specified in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Hole,Hole}} supertype.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+          version: '3'
+      type: authoritative
+      id: Mechanical_design_features_and_requirements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Explicit_composite_hole
+  domain: 'application module: Mechanical_design_features_and_requirements_arm'
+  language_code: eng
+  annotations: []
+id: 57a9cca4-5c9b-560c-9c7f-f7dd02b02924

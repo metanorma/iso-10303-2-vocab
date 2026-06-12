@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_generic_expressions_schema.environment
+  localized_concepts:
+    eng: f312eed7-68b0-5fc0-9313-7e167db02fe6
+  domains:
+    - concept_id: section-iso13584_generic_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema
+      ref_type: section
+id: iso13584_generic_expressions_schema.environment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the environment {{entity}}'
+  notes:
+    - content: An *environment* entity is an association between the syntax and the semantics of a variable.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_generic_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: environment
+  domain: 'resource: iso13584_generic_expressions_schema'
+  language_code: eng
+  annotations: []
+id: f312eed7-68b0-5fc0-9313-7e167db02fe6

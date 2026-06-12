@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Qualified_numerical_item_with_unit
+  localized_concepts:
+    eng: 1a5e2f51-7574-5b81-9ac2-c6450ef169f9
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Qualified_numerical_item_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualified numerical item with unit {{entity}}'
+  notes:
+    - content: A **Qualified_numerical_item_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Qualified_representation_item,Qualified_representation_item}} that specifies the type and uncertainty of a datum.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Qualified_numerical_item_with_unit
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: 1a5e2f51-7574-5b81-9ac2-c6450ef169f9

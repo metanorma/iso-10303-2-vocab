@@ -1,0 +1,31 @@
+data:
+  identifier: Part_feature_grouping_arm.Part_group_feature
+  localized_concepts:
+    eng: 017948bb-b472-5390-8be2-aba64c2664a9
+  domains:
+    - concept_id: section-Part_feature_grouping_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+      ref_type: section
+id: Part_feature_grouping_arm.Part_group_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part group feature {{entity}}'
+  notes:
+    - content: A **Part_group_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}} that is an aggregation of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+          version: '3'
+      type: authoritative
+      id: Part_feature_grouping_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_group_feature
+  domain: 'application module: Part_feature_grouping_arm'
+  language_code: eng
+  annotations: []
+id: 017948bb-b472-5390-8be2-aba64c2664a9

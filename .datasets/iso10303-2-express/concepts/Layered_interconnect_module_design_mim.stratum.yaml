@@ -1,0 +1,36 @@
+data:
+  identifier: Layered_interconnect_module_design_mim.stratum
+  localized_concepts:
+    eng: 28defc78-cff0-51c8-842c-4bfee52467c6
+  domains:
+    - concept_id: section-Layered_interconnect_module_design_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+      ref_type: section
+id: Layered_interconnect_module_design_mim.stratum
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the stratum {{entity}}'
+  notes:
+    - content: |-
+        A **stratum** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Documentation_layer_stratum,Documentation_layer_stratum}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_module_design_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: stratum
+  domain: 'application module: Layered_interconnect_module_design_mim'
+  language_code: eng
+  annotations: []
+id: 28defc78-cff0-51c8-842c-4bfee52467c6

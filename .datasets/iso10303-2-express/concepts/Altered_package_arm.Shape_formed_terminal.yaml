@@ -1,0 +1,31 @@
+data:
+  identifier: Altered_package_arm.Shape_formed_terminal
+  localized_concepts:
+    eng: 53be06b5-0ddf-5456-b93d-93f1ca989104
+  domains:
+    - concept_id: section-Altered_package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
+      ref_type: section
+id: Altered_package_arm.Shape_formed_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}} that represents the shape formed terminal {{entity}}'
+  notes:
+    - content: A **Shape_formed_terminal** is a type of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}} that defines the result of a modification of its shape from its original {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}} shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
+          version: '4'
+      type: authoritative
+      id: Altered_package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_formed_terminal
+  domain: 'application module: Altered_package_arm'
+  language_code: eng
+  annotations: []
+id: 53be06b5-0ddf-5456-b93d-93f1ca989104

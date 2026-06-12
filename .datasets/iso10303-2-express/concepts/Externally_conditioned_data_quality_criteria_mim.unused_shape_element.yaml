@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_mim.unused_shape_element
+  localized_concepts:
+    eng: 5ea51c32-f704-509d-9909-70d960e9ec82
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_mim.unused_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents the unused shape element {{entity}}'
+  notes:
+    - content: A **unused_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Unused_shape_element,Unused_shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unused_shape_element
+  domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
+  language_code: eng
+  annotations: []
+id: 5ea51c32-f704-509d-9909-70d960e9ec82

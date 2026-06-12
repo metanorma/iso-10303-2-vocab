@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Element_constraint
+  localized_concepts:
+    eng: 79d21090-236e-5da9-b448-54d80c8fdba8
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Element_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element_relationship,Task_element_relationship}} that represents the element constraint {{entity}}'
+  notes:
+    - content: An **Element_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element_relationship,Task_element_relationship}} that signifies a constraint between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Element_constraint
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 79d21090-236e-5da9-b448-54d80c8fdba8

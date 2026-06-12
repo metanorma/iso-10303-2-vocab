@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.product_definition_reference_with_local_representation
+  localized_concepts:
+    eng: ea00effa-a191-5c53-b88f-8b6bcfd8a1b0
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.product_definition_reference_with_local_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition reference with local representation {{entity}}'
+  notes:
+    - content: A **product_definition_reference_with_local_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}} that represents an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} by a local {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_reference_with_local_representation
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: ea00effa-a191-5c53-b88f-8b6bcfd8a1b0

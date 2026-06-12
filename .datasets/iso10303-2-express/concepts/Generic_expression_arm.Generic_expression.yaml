@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_expression_arm.Generic_expression
+  localized_concepts:
+    eng: 461b6ddf-80e7-5afd-8757-0d1370951dc2
+  domains:
+    - concept_id: section-Generic_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+      ref_type: section
+id: Generic_expression_arm.Generic_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the generic expression {{entity}}'
+  notes:
+    - content: A **Generic_expression** is the information model of a **Generic_expression**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+          version: '3'
+      type: authoritative
+      id: Generic_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Generic_expression
+  domain: 'application module: Generic_expression_arm'
+  language_code: eng
+  annotations: []
+id: 461b6ddf-80e7-5afd-8757-0d1370951dc2

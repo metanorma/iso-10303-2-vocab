@@ -1,0 +1,30 @@
+data:
+  identifier: state_and_model_relationships_schema.same_discretised_state_model
+  localized_concepts:
+    eng: 600d2272-930d-5a54-877b-66438a2f75b7
+  domains:
+    - concept_id: section-state_and_model_relationships_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_and_model_relationships_schema
+      ref_type: section
+id: state_and_model_relationships_schema.same_discretised_state_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same discretised state model {{entity}}'
+  notes:
+    - content: A **same_discretised_state_model** is a discretised model of a state created for numerical analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_and_model_relationships_schema
+      type: authoritative
+      id: state_and_model_relationships_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: same_discretised_state_model
+  domain: 'resource: state_and_model_relationships_schema'
+  language_code: eng
+  annotations: []
+id: 600d2272-930d-5a54-877b-66438a2f75b7

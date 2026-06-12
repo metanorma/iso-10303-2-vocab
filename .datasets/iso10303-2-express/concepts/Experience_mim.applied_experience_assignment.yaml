@@ -1,0 +1,31 @@
+data:
+  identifier: Experience_mim.applied_experience_assignment
+  localized_concepts:
+    eng: 8b9d8492-2a1c-5266-b2c3-978f567ee50e
+  domains:
+    - concept_id: section-Experience_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_mim
+      ref_type: section
+id: Experience_mim.applied_experience_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.experience_assignment,experience_assignment}} that represents the applied experience assignment {{entity}}'
+  notes:
+    - content: An **applied_experience_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.experience_assignment,experience_assignment}} that associates an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema.experience,experience}} with one or more {{experience_item,experience_item}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_mim
+          version: '1'
+      type: authoritative
+      id: Experience_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_experience_assignment
+  domain: 'application module: Experience_mim'
+  language_code: eng
+  annotations: []
+id: 8b9d8492-2a1c-5266-b2c3-978f567ee50e

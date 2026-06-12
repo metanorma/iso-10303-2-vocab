@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Task_objective
+  localized_concepts:
+    eng: 6db54b66-be43-570f-9e1a-953cffd616b1
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Task_objective
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the task objective {{entity}}'
+  notes:
+    - content: A **Task_objective** is a result or objective that is reached by undertaking a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm.Task_method,Task_method}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Task_objective
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 6db54b66-be43-570f-9e1a-953cffd616b1

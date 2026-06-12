@@ -1,0 +1,31 @@
+data:
+  identifier: Footprint_definition_mim.breakout_footprint_definition
+  localized_concepts:
+    eng: 40c8ec4e-c041-562e-af51-80e749c7a3e4
+  domains:
+    - concept_id: section-Footprint_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+      ref_type: section
+id: Footprint_definition_mim.breakout_footprint_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}} that represents the breakout footprint definition {{entity}}'
+  notes:
+    - content: A **breakout_footprint_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Breakout_footprint_definition,Breakout_footprint_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+          version: '6'
+      type: authoritative
+      id: Footprint_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: breakout_footprint_definition
+  domain: 'application module: Footprint_definition_mim'
+  language_code: eng
+  annotations: []
+id: 40c8ec4e-c041-562e-af51-80e749c7a3e4

@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_organization_schema.light_source_positional
+  localized_concepts:
+    eng: d875d331-bf9e-5f31-9468-a155f631167f
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.light_source_positional
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.light_source,light_source}} that represents the light source positional {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: light_source_positional
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: d875d331-bf9e-5f31-9468-a155f631167f

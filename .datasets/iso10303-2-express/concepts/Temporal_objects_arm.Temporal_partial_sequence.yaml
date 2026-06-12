@@ -1,0 +1,31 @@
+data:
+  identifier: Temporal_objects_arm.Temporal_partial_sequence
+  localized_concepts:
+    eng: 73bc1e05-333b-59a0-9f95-516d86c10450
+  domains:
+    - concept_id: section-Temporal_objects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+      ref_type: section
+id: Temporal_objects_arm.Temporal_partial_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that represents the temporal partial sequence {{entity}}'
+  notes:
+    - content: A **Temporal_partial_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that specifies one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}} exists before another, but not after.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+          version: '1'
+      type: authoritative
+      id: Temporal_objects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Temporal_partial_sequence
+  domain: 'application module: Temporal_objects_arm'
+  language_code: eng
+  annotations: []
+id: 73bc1e05-333b-59a0-9f95-516d86c10450

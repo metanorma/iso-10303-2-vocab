@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.action_directive
+  localized_concepts:
+    eng: 0ff00fc9-30af-55ca-97cb-ba2f37ebff1a
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.action_directive
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action directive {{entity}}'
+  notes:
+    - content: An **action_directive** is an authoritative instrument that provides directions to achieve the specified results.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_directive
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 0ff00fc9-30af-55ca-97cb-ba2f37ebff1a

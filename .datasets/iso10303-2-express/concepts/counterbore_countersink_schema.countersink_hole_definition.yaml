@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.countersink_hole_definition
+  localized_concepts:
+    eng: 3af63792-af2f-57cd-9da7-c1ca171b1b9b
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.countersink_hole_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_composite_hole,explicit_composite_hole}} that represents the countersink hole definition {{entity}}'
+  notes:
+    - content: A **countersink_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_composite_hole,explicit_composite_hole}} that defines a template to structure the requirements for a countersink hole.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: countersink_hole_definition
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: 3af63792-af2f-57cd-9da7-c1ca171b1b9b

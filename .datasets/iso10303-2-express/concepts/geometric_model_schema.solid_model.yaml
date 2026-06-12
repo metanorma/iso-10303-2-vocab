@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.solid_model
+  localized_concepts:
+    eng: 076fd354-6d50-5446-9dab-943ceef0ceb2
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.solid_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the solid model {{entity}}'
+  notes:
+    - content: A **solid_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} which is a complete representation of the nominal shape of a product such that all points in the interior are connected.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_model
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 076fd354-6d50-5446-9dab-943ceef0ceb2

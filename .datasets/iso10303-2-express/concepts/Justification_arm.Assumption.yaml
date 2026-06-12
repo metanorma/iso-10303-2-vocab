@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_arm.Assumption
+  localized_concepts:
+    eng: 59489bc3-936a-5634-a964-cf4103d1cf68
+  domains:
+    - concept_id: section-Justification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+      ref_type: section
+id: Justification_arm.Assumption
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assumption {{entity}}'
+  notes:
+    - content: An **Assumption** is the identification of something assumed to be true without proof.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+          version: '2'
+      type: authoritative
+      id: Justification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assumption
+  domain: 'application module: Justification_arm'
+  language_code: eng
+  annotations: []
+id: 59489bc3-936a-5634-a964-cf4103d1cf68

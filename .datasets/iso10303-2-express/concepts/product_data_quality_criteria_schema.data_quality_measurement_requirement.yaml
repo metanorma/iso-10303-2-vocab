@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_quality_criteria_schema.data_quality_measurement_requirement
+  localized_concepts:
+    eng: bbebe783-5d37-58bd-86a7-f7329362fd3f
+  domains:
+    - concept_id: section-product_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+      ref_type: section
+id: product_data_quality_criteria_schema.data_quality_measurement_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the data quality measurement requirement {{entity}}'
+  notes:
+    - content: A **data_quality_measurement_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents requirements on acceptable measurement for testing whether the criterion on data quality holds (data quality defect exists) or not.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: product_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_quality_measurement_requirement
+  domain: 'resource: product_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: bbebe783-5d37-58bd-86a7-f7329362fd3f

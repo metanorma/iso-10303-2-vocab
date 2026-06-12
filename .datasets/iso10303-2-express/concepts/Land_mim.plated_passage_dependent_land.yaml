@@ -1,0 +1,31 @@
+data:
+  identifier: Land_mim.plated_passage_dependent_land
+  localized_concepts:
+    eng: 9aef080e-4cda-5f56-9d8d-b082bf1e3ca9
+  domains:
+    - concept_id: section-Land_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+      ref_type: section
+id: Land_mim.plated_passage_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim.inter_stratum_feature_dependent_land,inter_stratum_feature_dependent_land}} that represents the plated passage dependent land {{entity}}'
+  notes:
+    - content: A **plated_passage_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim.inter_stratum_feature_dependent_land,inter_stratum_feature_dependent_land}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Plated_passage_dependent_land,Plated_passage_dependent_land}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+          version: '5'
+      type: authoritative
+      id: Land_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: plated_passage_dependent_land
+  domain: 'application module: Land_mim'
+  language_code: eng
+  annotations: []
+id: 9aef080e-4cda-5f56-9d8d-b082bf1e3ca9

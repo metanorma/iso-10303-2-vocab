@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Contact_ratio
+  localized_concepts:
+    eng: 10c771b3-da0a-5794-82a0-7de605837911
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Contact_ratio
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that represents the contact ratio {{entity}}'
+  notes:
+    - content: A **Contact_ratio** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that specifies the measure of the quality of contact of a shape on a reference surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Contact_ratio
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 10c771b3-da0a-5794-82a0-7de605837911

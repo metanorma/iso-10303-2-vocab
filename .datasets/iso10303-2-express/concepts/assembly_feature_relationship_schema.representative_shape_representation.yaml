@@ -1,0 +1,31 @@
+data:
+  identifier: assembly_feature_relationship_schema.representative_shape_representation
+  localized_concepts:
+    eng: 9e1caa43-bf13-5b54-9817-7997e080796f
+  domains:
+    - concept_id: section-assembly_feature_relationship_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema
+      ref_type: section
+id: assembly_feature_relationship_schema.representative_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the representative shape representation {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema.representative_shape_representation,representative_shape_representation}} is a subtype of *shape_representation* that is a representative shape of a *product_definition* or a *shape_aspect*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_feature_relationship_schema
+          version: '4'
+      type: authoritative
+      id: assembly_feature_relationship_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: representative_shape_representation
+  domain: 'resource: assembly_feature_relationship_schema'
+  language_code: eng
+  annotations: []
+id: 9e1caa43-bf13-5b54-9817-7997e080796f

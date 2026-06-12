@@ -1,0 +1,31 @@
+data:
+  identifier: Scan_data_3d_shape_arm.Point_cloud_dataset
+  localized_concepts:
+    eng: 45dee19a-02b5-51ed-a575-f02e34f00096
+  domains:
+    - concept_id: section-Scan_data_3d_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+      ref_type: section
+id: Scan_data_3d_shape_arm.Point_cloud_dataset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Scanned_data_item,Scanned_data_item}} that represents the point cloud dataset {{entity}}'
+  notes:
+    - content: A **Point_cloud_dataset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Scanned_data_item,Scanned_data_item}} and represents the geometry of a cloud of points produced by a scanner.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+          version: '2'
+      type: authoritative
+      id: Scan_data_3d_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_cloud_dataset
+  domain: 'application module: Scan_data_3d_shape_arm'
+  language_code: eng
+  annotations: []
+id: 45dee19a-02b5-51ed-a575-f02e34f00096

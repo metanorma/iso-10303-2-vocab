@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_simple_template_mim.single_stratum_continuous_template
+  localized_concepts:
+    eng: 9fffa21e-9345-58a4-b1f9-07ef795c4e7d
+  domains:
+    - concept_id: section-Layered_interconnect_simple_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+      ref_type: section
+id: Layered_interconnect_simple_template_mim.single_stratum_continuous_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the single stratum continuous template {{entity}}'
+  notes:
+    - content: A **single_stratum_continuous_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.continuous_template,continuous_template}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.single_stratum_template,single_stratum_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Single_stratum_continuous_template,Single_stratum_continuous_template}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_simple_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: single_stratum_continuous_template
+  domain: 'application module: Layered_interconnect_simple_template_mim'
+  language_code: eng
+  annotations: []
+id: 9fffa21e-9345-58a4-b1f9-07ef795c4e7d

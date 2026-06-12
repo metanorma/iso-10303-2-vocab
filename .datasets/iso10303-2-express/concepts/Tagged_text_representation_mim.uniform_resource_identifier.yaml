@@ -1,0 +1,31 @@
+data:
+  identifier: Tagged_text_representation_mim.uniform_resource_identifier
+  localized_concepts:
+    eng: 59f495d2-5be9-5cc3-868d-f812981b50b0
+  domains:
+    - concept_id: section-Tagged_text_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+      ref_type: section
+id: Tagged_text_representation_mim.uniform_resource_identifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that represents the uniform resource identifier {{entity}}'
+  notes:
+    - content: A **uniform_resource_identifier** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.Uniform_resource_identifier,Uniform_resource_identifier}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+          version: '2'
+      type: authoritative
+      id: Tagged_text_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uniform_resource_identifier
+  domain: 'application module: Tagged_text_representation_mim'
+  language_code: eng
+  annotations: []
+id: 59f495d2-5be9-5cc3-868d-f812981b50b0

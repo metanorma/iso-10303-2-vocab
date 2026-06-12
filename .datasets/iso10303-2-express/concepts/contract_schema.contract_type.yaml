@@ -1,0 +1,31 @@
+data:
+  identifier: contract_schema.contract_type
+  localized_concepts:
+    eng: a6320d9d-7a91-55ed-aa2c-aff51e0654af
+  domains:
+    - concept_id: section-contract_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
+      ref_type: section
+id: contract_schema.contract_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the contract type {{entity}}'
+  notes:
+    - content: A **contract_type** is the kind of information that an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema.contract,contract}} conveys.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
+          version: '3'
+      type: authoritative
+      id: contract_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: contract_type
+  domain: 'resource: contract_schema'
+  language_code: eng
+  annotations: []
+id: a6320d9d-7a91-55ed-aa2c-aff51e0654af

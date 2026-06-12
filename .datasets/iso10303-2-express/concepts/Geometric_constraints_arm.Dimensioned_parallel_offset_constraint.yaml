@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Dimensioned_parallel_offset_constraint
+  localized_concepts:
+    eng: c359f642-cc36-5540-b860-667f7f37f4aa
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Dimensioned_parallel_offset_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Parallel_offset_constraint,Parallel_offset_constraint}} that represents the dimensioned parallel offset constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_parallel_offset_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Parallel_offset_constraint,Parallel_offset_constraint}} that constrains two elements to be parallel offsets at a specified distance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_parallel_offset_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: c359f642-cc36-5540-b860-667f7f37f4aa

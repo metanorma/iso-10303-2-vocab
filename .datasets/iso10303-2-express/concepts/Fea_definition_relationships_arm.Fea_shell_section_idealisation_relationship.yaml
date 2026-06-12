@@ -1,0 +1,37 @@
+data:
+  identifier: Fea_definition_relationships_arm.Fea_shell_section_idealisation_relationship
+  localized_concepts:
+    eng: 541fc257-4c14-50a7-8789-db1255b55adf
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Fea_shell_section_idealisation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea shell section idealisation relationship {{entity}}'
+  notes:
+    - content: |-
+        A **Fea_shell_section_idealisation_relationship** is a relationship between:
+
+        * an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that is the structural behaviour at a point on a shell; and
+        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}};
+
+        that indicates the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}} is an idealisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} for the purpose of analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fea_shell_section_idealisation_relationship
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 541fc257-4c14-50a7-8789-db1255b55adf

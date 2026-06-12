@@ -1,0 +1,31 @@
+data:
+  identifier: Ap239_document_management_mim.characterized_applied_document_usage_constraint_assignment
+  localized_concepts:
+    eng: 2a09667b-8648-545c-989c-fec539c4483c
+  domains:
+    - concept_id: section-Ap239_document_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
+      ref_type: section
+id: Ap239_document_management_mim.characterized_applied_document_usage_constraint_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized applied document usage constraint assignment {{entity}}'
+  notes:
+    - content: A **characterized_applied_document_usage_constraint_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim.applied_document_usage_constraint_assignment,applied_document_usage_constraint_assignment}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
+          version: '4'
+      type: authoritative
+      id: Ap239_document_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_applied_document_usage_constraint_assignment
+  domain: 'application module: Ap239_document_management_mim'
+  language_code: eng
+  annotations: []
+id: 2a09667b-8648-545c-989c-fec539c4483c

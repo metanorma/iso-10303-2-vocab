@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.local_time
+  localized_concepts:
+    eng: d98d5791-1eaa-5d7b-a703-cd6e5f42c68a
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.local_time
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the local time {{entity}}'
+  notes:
+    - content: A **local_time** is a representation of local time of day.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: local_time
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: d98d5791-1eaa-5d7b-a703-cd6e5f42c68a

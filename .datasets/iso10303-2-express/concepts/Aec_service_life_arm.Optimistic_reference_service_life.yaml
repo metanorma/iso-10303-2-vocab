@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Optimistic_reference_service_life
+  localized_concepts:
+    eng: 5dcae483-17c0-53a5-bf34-e861116939d5
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Optimistic_reference_service_life
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}} that represents the optimistic reference service life {{entity}}'
+  notes:
+    - content: A **Optimistic_reference_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}} that is predicted to take place under optimistic operating conditions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Optimistic_reference_service_life
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: 5dcae483-17c0-53a5-bf34-e861116939d5

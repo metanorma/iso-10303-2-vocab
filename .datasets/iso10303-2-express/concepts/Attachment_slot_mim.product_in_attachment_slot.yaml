@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_mim.product_in_attachment_slot
+  localized_concepts:
+    eng: 7a8af2a1-0610-5ae3-9027-e34c1050cc3e
+  domains:
+    - concept_id: section-Attachment_slot_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+      ref_type: section
+id: Attachment_slot_mim.product_in_attachment_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the product in attachment slot {{entity}}'
+  notes:
+    - content: A **product_in_attachment_slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that identifies the relationship between an attachment slot and a product that is capable to attach in the attachment slot.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_in_attachment_slot
+  domain: 'application module: Attachment_slot_mim'
+  language_code: eng
+  annotations: []
+id: 7a8af2a1-0610-5ae3-9027-e34c1050cc3e

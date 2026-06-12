@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Local_linear_stack
+  localized_concepts:
+    eng: 2086b333-89be-5e35-8553-be5d21b4cb7d
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Local_linear_stack
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_sub_stack,Stratum_sub_stack}} that represents the local linear stack {{entity}}'
+  notes:
+    - content: A **Local_linear_stack** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_sub_stack,Stratum_sub_stack}} that is a locally complete vertical extent of the referenced {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_stack_model,Stratum_stack_model}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Local_linear_stack
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 2086b333-89be-5e35-8553-be5d21b4cb7d

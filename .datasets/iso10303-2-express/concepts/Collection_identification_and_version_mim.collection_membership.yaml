@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_mim.collection_membership
+  localized_concepts:
+    eng: c3a205ce-bf8f-5f6b-83c6-fb90b5b8cb74
+  domains:
+    - concept_id: section-Collection_identification_and_version_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+      ref_type: section
+id: Collection_identification_and_version_mim.collection_membership
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}} that represents the collection membership {{entity}}'
+  notes:
+    - content: A **collection_membership** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}} that is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_view_definition,collection_view_definition}} with an object that represents a member of the information collection.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: collection_membership
+  domain: 'application module: Collection_identification_and_version_mim'
+  language_code: eng
+  annotations: []
+id: c3a205ce-bf8f-5f6b-83c6-fb90b5b8cb74

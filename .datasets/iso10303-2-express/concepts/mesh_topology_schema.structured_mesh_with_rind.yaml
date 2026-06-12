@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.structured_mesh_with_rind
+  localized_concepts:
+    eng: 265be231-9778-542e-bad5-290e601513fe
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.structured_mesh_with_rind
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.structured_mesh,structured_mesh}} that represents the structured mesh with rind {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.structured_mesh_with_rind,structured_mesh_with_rind}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.structured_mesh,structured_mesh}} with specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.rind,rind}} planes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: structured_mesh_with_rind
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 265be231-9778-542e-bad5-290e601513fe

@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.datum_reference_compartment
+  localized_concepts:
+    eng: fbd5bd3b-4498-5b31-81de-3df20af0d2a7
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.datum_reference_compartment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.general_datum_reference,general_datum_reference}} that represents the datum reference compartment {{entity}}'
+  notes:
+    - content: A **datum_reference_compartment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.general_datum_reference,general_datum_reference}} that represents the compartment of either the primary, secondary or tertiary datum in a feature control frame.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: datum_reference_compartment
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: fbd5bd3b-4498-5b31-81de-3df20af0d2a7

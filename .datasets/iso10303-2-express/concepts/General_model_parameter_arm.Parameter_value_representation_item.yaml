@@ -1,0 +1,31 @@
+data:
+  identifier: General_model_parameter_arm.Parameter_value_representation_item
+  localized_concepts:
+    eng: c24efe72-d198-506b-9a59-d807110c9072
+  domains:
+    - concept_id: section-General_model_parameter_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+      ref_type: section
+id: General_model_parameter_arm.Parameter_value_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the parameter value representation item {{entity}}'
+  notes:
+    - content: A **Parameter_value_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that adds to the set of items used to represent the value of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm.General_model_parameter,General_model_parameter}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+          version: '1'
+      type: authoritative
+      id: General_model_parameter_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Parameter_value_representation_item
+  domain: 'application module: General_model_parameter_arm'
+  language_code: eng
+  annotations: []
+id: c24efe72-d198-506b-9a59-d807110c9072

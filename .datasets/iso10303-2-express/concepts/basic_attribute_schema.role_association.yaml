@@ -1,0 +1,31 @@
+data:
+  identifier: basic_attribute_schema.role_association
+  localized_concepts:
+    eng: a77fb640-7963-5077-8555-3532680fdcf1
+  domains:
+    - concept_id: section-basic_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+      ref_type: section
+id: basic_attribute_schema.role_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the role association {{entity}}'
+  notes:
+    - content: A **role_association** is the assignment of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.object_role,object_role}} to an association of management type data with other aspects of product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+          version: '9'
+      type: authoritative
+      id: basic_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: role_association
+  domain: 'resource: basic_attribute_schema'
+  language_code: eng
+  annotations: []
+id: a77fb640-7963-5077-8555-3532680fdcf1

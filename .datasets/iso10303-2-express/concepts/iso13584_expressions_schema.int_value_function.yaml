@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.int_value_function
+  localized_concepts:
+    eng: bf7da9af-f50c-57cd-a080-a0aad90f09b1
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.int_value_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.value_function,value_function}} that represents the int value function {{entity}}'
+  notes:
+    - content: The *int_value_function* entity carries the semantics of the VALUE function defined in ISO 10303-11, and asserts that the *string_expression* that corresponds to the *operand* inherited attribute represents an integer number.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: int_value_function
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: bf7da9af-f50c-57cd-a080-a0aad90f09b1

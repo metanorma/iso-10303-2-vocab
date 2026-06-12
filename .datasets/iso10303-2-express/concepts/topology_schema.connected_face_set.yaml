@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.connected_face_set
+  localized_concepts:
+    eng: b1c2e4d4-b455-5698-929d-e192f38b22f3
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.connected_face_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the connected face set {{entity}}'
+  notes:
+    - content: A **connected_face_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}, which is a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face,face}} instances such that the domain of the faces together with their bounding edges and vertices is connected.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: connected_face_set
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: b1c2e4d4-b455-5698-929d-e192f38b22f3

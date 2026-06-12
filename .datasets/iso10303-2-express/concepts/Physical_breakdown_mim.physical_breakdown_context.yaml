@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_breakdown_mim.physical_breakdown_context
+  localized_concepts:
+    eng: bb9e0766-3e18-5e9d-a55c-203c64d4a385
+  domains:
+    - concept_id: section-Physical_breakdown_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_mim
+      ref_type: section
+id: Physical_breakdown_mim.physical_breakdown_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_context,breakdown_context}} that represents the physical breakdown context {{entity}}'
+  notes:
+    - content: A **physical_breakdown_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_context,breakdown_context}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_breakdown_context,Physical_breakdown_context}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_mim
+          version: '2'
+      type: authoritative
+      id: Physical_breakdown_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_breakdown_context
+  domain: 'application module: Physical_breakdown_mim'
+  language_code: eng
+  annotations: []
+id: bb9e0766-3e18-5e9d-a55c-203c64d4a385

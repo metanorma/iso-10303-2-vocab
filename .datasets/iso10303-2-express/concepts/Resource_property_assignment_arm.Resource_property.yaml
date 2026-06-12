@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_property_assignment_arm.Resource_property
+  localized_concepts:
+    eng: e4a535ed-40a5-502a-a654-09643a9ffaf4
+  domains:
+    - concept_id: section-Resource_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm
+      ref_type: section
+id: Resource_property_assignment_arm.Resource_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource property {{entity}}'
+  notes:
+    - content: A **Resource_property** is a property of a resource related object.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Resource_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Resource_property
+  domain: 'application module: Resource_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: e4a535ed-40a5-502a-a654-09643a9ffaf4

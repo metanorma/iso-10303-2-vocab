@@ -1,0 +1,31 @@
+data:
+  identifier: representation_schema.representation_item_relationship
+  localized_concepts:
+    eng: d235980c-5524-55ed-a002-8d07036cb1ab
+  domains:
+    - concept_id: section-representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+      ref_type: section
+id: representation_schema.representation_item_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation item relationship {{entity}}'
+  notes:
+    - content: A **representation_item_relationship** is an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+          version: '8'
+      type: authoritative
+      id: representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: representation_item_relationship
+  domain: 'resource: representation_schema'
+  language_code: eng
+  annotations: []
+id: d235980c-5524-55ed-a002-8d07036cb1ab

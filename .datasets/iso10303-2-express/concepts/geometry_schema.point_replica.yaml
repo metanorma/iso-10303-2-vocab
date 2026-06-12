@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.point_replica
+  localized_concepts:
+    eng: 940d121d-5bbf-5428-8660-4fc43b5d11a0
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.point_replica
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}} that represents the point replica {{entity}}'
+  notes:
+    - content: A **point_replica** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}} that defines a replica of an existing point (the parent) in a different location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: point_replica
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 940d121d-5bbf-5428-8660-4fc43b5d11a0

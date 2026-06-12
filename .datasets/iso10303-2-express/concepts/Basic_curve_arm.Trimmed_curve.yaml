@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_curve_arm.Trimmed_curve
+  localized_concepts:
+    eng: 07e85a72-8708-5d29-9ac6-a9f2caf491be
+  domains:
+    - concept_id: section-Basic_curve_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm
+      ref_type: section
+id: Basic_curve_arm.Trimmed_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_curve,Bounded_curve}} that represents the trimmed curve {{entity}}'
+  notes:
+    - content: A **Trimmed_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Curve,Curve}} that has a defined, finite extent.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm
+          version: '5'
+      type: authoritative
+      id: Basic_curve_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Trimmed_curve
+  domain: 'application module: Basic_curve_arm'
+  language_code: eng
+  annotations: []
+id: 07e85a72-8708-5d29-9ac6-a9f2caf491be

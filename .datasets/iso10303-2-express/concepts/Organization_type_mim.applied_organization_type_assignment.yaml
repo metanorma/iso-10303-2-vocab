@@ -1,0 +1,31 @@
+data:
+  identifier: Organization_type_mim.applied_organization_type_assignment
+  localized_concepts:
+    eng: 2ea1c501-6f53-5246-80c0-d70f3b04edad
+  domains:
+    - concept_id: section-Organization_type_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_mim
+      ref_type: section
+id: Organization_type_mim.applied_organization_type_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.organization_type_assignment,organization_type_assignment}} that represents the applied organization type assignment {{entity}}'
+  notes:
+    - content: An **applied_organization_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.organization_type_assignment,organization_type_assignment}} that relates an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organization_type,organization_type}} to instances of entity data types listed in {{organization_type_item,organization_type_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_mim
+          version: '1'
+      type: authoritative
+      id: Organization_type_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_organization_type_assignment
+  domain: 'application module: Organization_type_mim'
+  language_code: eng
+  annotations: []
+id: 2ea1c501-6f53-5246-80c0-d70f3b04edad

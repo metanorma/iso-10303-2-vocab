@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_arm.Externally_defined_type_qualifier
+  localized_concepts:
+    eng: cf4a98b4-e456-55d2-8241-6b584336792e
+  domains:
+    - concept_id: section-Characteristic_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+      ref_type: section
+id: Characteristic_arm.Externally_defined_type_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}} that represents the externally defined type qualifier {{entity}}'
+  notes:
+    - content: A **Externally_defined_type_qualifier** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}} whose meaning is defined in an external library.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+          version: '6'
+      type: authoritative
+      id: Characteristic_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_type_qualifier
+  domain: 'application module: Characteristic_arm'
+  language_code: eng
+  annotations: []
+id: cf4a98b4-e456-55d2-8241-6b584336792e

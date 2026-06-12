@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_arm.Product_in_attachment_slot
+  localized_concepts:
+    eng: bca20f58-2038-5934-8221-5793e3912ca0
+  domains:
+    - concept_id: section-Attachment_slot_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+      ref_type: section
+id: Attachment_slot_arm.Product_in_attachment_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} that represents the product in attachment slot {{entity}}'
+  notes:
+    - content: A **Product_in_attachment_slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} that is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot,Attachment_slot}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that is designed to be attached to the attachment slot.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_in_attachment_slot
+  domain: 'application module: Attachment_slot_arm'
+  language_code: eng
+  annotations: []
+id: bca20f58-2038-5934-8221-5793e3912ca0

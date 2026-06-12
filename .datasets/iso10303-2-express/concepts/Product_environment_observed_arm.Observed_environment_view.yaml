@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_arm.Observed_environment_view
+  localized_concepts:
+    eng: ae644165-2917-5e6d-b265-be7a7449f522
+  domains:
+    - concept_id: section-Product_environment_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+      ref_type: section
+id: Product_environment_observed_arm.Observed_environment_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the observed environment view {{entity}}'
+  notes:
+    - content: An **Observed_environment_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that provides a view of a version of an observed environment relevant for one or more application domains.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Observed_environment_view
+  domain: 'application module: Product_environment_observed_arm'
+  language_code: eng
+  annotations: []
+id: ae644165-2917-5e6d-b265-be7a7449f522

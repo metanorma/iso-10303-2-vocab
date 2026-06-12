@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_shape_element_pattern
+  localized_concepts:
+    eng: e4d7e48e-b700-5374-b5be-8f3a4bf03c85
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_shape_element_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.modified_solid_with_placed_configuration,modified_solid_with_placed_configuration}} that represents the solid with shape element pattern {{entity}}'
+  notes:
+    - content: A *solid_with_shape_element_pattern* is a type of *modified_solid_with_placed_configuration* generated when a set of replicas of any of the shape configurations created by a subtype of *modified_solid_with_placed_configuration* is arranged in a circular or rectangular pattern on the base solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_shape_element_pattern
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: e4d7e48e-b700-5374-b5be-8f3a4bf03c85

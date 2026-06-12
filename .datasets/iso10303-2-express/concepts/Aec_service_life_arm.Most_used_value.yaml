@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Most_used_value
+  localized_concepts:
+    eng: a9d56566-72d8-5d5d-87d3-d9565a37e132
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Most_used_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the most used value {{entity}}'
+  notes:
+    - content: A **Most_used_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that specifies the most used estimate.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Most_used_value
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: a9d56566-72d8-5d5d-87d3-d9565a37e132

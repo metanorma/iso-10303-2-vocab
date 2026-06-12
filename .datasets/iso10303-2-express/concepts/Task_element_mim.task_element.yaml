@@ -1,0 +1,31 @@
+data:
+  identifier: Task_element_mim.task_element
+  localized_concepts:
+    eng: f1ab7b7e-b866-5936-9fe0-d3ba1e220e87
+  domains:
+    - concept_id: section-Task_element_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+      ref_type: section
+id: Task_element_mim.task_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that represents the task element {{entity}}'
+  notes:
+    - content: A **task_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that prescribes how a task or part of a task is to be carried out.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+          version: '1'
+      type: authoritative
+      id: Task_element_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: task_element
+  domain: 'application module: Task_element_mim'
+  language_code: eng
+  annotations: []
+id: f1ab7b7e-b866-5936-9fe0-d3ba1e220e87

@@ -1,0 +1,31 @@
+data:
+  identifier: Packaged_connector_model_mim.packaged_connector_terminal_relationship
+  localized_concepts:
+    eng: 2d3439bb-a813-57a8-9600-9fbf6ce8e3bf
+  domains:
+    - concept_id: section-Packaged_connector_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_mim
+      ref_type: section
+id: Packaged_connector_model_mim.packaged_connector_terminal_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the packaged connector terminal relationship {{entity}}'
+  notes:
+    - content: A **packaged_connector_terminal_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm.Packaged_connector_terminal_relationship,Packaged_connector_terminal_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_mim
+          version: '3'
+      type: authoritative
+      id: Packaged_connector_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: packaged_connector_terminal_relationship
+  domain: 'application module: Packaged_connector_model_mim'
+  language_code: eng
+  annotations: []
+id: 2d3439bb-a813-57a8-9600-9fbf6ce8e3bf

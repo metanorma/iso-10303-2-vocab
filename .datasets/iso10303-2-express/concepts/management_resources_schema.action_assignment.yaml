@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.action_assignment
+  localized_concepts:
+    eng: 69b4f707-89c8-5ea0-9ea5-1f91373d0494
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.action_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action assignment {{entity}}'
+  notes:
+    - content: An **action_assignment** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 69b4f707-89c8-5ea0-9ea5-1f91373d0494

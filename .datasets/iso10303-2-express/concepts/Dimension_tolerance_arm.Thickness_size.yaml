@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Thickness_size
+  localized_concepts:
+    eng: a9ffd870-7aff-5f1f-8e0d-5b2424c10478
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Thickness_size
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}} that represents the thickness size {{entity}}'
+  notes:
+    - content: A **Thickness_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}} that represents a thickness.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Thickness_size
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: a9ffd870-7aff-5f1f-8e0d-5b2424c10478

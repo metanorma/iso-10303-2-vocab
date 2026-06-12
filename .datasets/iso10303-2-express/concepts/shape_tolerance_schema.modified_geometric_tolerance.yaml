@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.modified_geometric_tolerance
+  localized_concepts:
+    eng: 37444329-a988-5ee9-908b-d88d832874ab
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.modified_geometric_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the modified geometric tolerance {{entity}}'
+  notes:
+    - content: A **modified_geometric_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} with a material limit condition that applies to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} being toleranced.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: modified_geometric_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 37444329-a988-5ee9-908b-d88d832874ab

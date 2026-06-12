@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.faceted_brep
+  localized_concepts:
+    eng: a819d7ad-7bf2-5a45-8881-65f9adb4a73d
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.faceted_brep
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.manifold_solid_brep,manifold_solid_brep}} that represents the faceted brep {{entity}}'
+  notes:
+    - content: A **faceted_brep** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.manifold_solid_brep,manifold_solid_brep}} which is a simple form of boundary representation model in which all faces are planar and all edges are straight lines.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: faceted_brep
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: a819d7ad-7bf2-5a45-8881-65f9adb4a73d

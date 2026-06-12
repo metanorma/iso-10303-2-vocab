@@ -1,0 +1,31 @@
+data:
+  identifier: Zonal_breakdown_arm.Zone_element_usage
+  localized_concepts:
+    eng: 4530ac68-1669-500c-a759-c8e1fa848eb3
+  domains:
+    - concept_id: section-Zonal_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+      ref_type: section
+id: Zonal_breakdown_arm.Zone_element_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} that represents the zone element usage {{entity}}'
+  notes:
+    - content: A **Zone_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} that is a relationship between a parent and child {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm.Zone_element,Zone_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: Zonal_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Zone_element_usage
+  domain: 'application module: Zonal_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 4530ac68-1669-500c-a759-c8e1fa848eb3

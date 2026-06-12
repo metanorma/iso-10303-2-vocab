@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_mim.analytical_model_port
+  localized_concepts:
+    eng: 43434d3a-5551-5b32-9e0a-72898b73d73a
+  domains:
+    - concept_id: section-Analytical_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+      ref_type: section
+id: Analytical_model_mim.analytical_model_port
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analytical model port {{entity}}'
+  notes:
+    - content: An **analytical_model_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_port,Analytical_model_port}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+          version: '5'
+      type: authoritative
+      id: Analytical_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: analytical_model_port
+  domain: 'application module: Analytical_model_mim'
+  language_code: eng
+  annotations: []
+id: 43434d3a-5551-5b32-9e0a-72898b73d73a

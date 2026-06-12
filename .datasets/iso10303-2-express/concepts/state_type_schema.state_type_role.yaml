@@ -1,0 +1,31 @@
+data:
+  identifier: state_type_schema.state_type_role
+  localized_concepts:
+    eng: b0c094ab-84b7-5504-983c-260020f51a62
+  domains:
+    - concept_id: section-state_type_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+      ref_type: section
+id: state_type_schema.state_type_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state type role {{entity}}'
+  notes:
+    - content: A **state_type_role** is a definition that defines a role for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_assignment,state_type_assignment}} and a description of that role.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+          version: '1'
+      type: authoritative
+      id: state_type_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_type_role
+  domain: 'resource: state_type_schema'
+  language_code: eng
+  annotations: []
+id: b0c094ab-84b7-5504-983c-260020f51a62

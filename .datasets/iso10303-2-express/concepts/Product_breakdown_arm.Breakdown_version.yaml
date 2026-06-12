@@ -1,0 +1,31 @@
+data:
+  identifier: Product_breakdown_arm.Breakdown_version
+  localized_concepts:
+    eng: 28aeda08-05cd-5556-aa40-d9e2600a6512
+  domains:
+    - concept_id: section-Product_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+      ref_type: section
+id: Product_breakdown_arm.Breakdown_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the breakdown version {{entity}}'
+  notes:
+    - content: A **Breakdown_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+          version: '4'
+      type: authoritative
+      id: Product_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Breakdown_version
+  domain: 'application module: Product_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 28aeda08-05cd-5556-aa40-d9e2600a6512

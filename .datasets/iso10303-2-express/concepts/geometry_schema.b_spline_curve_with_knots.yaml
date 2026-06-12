@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.b_spline_curve_with_knots
+  localized_concepts:
+    eng: b4efd83e-8efb-58c2-a976-46494907654d
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.b_spline_curve_with_knots
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_curve,b_spline_curve}} that represents the b spline curve with knots {{entity}}'
+  notes:
+    - content: A **b_spline_curve_with_knots** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_curve,b_spline_curve}}, for which the knot values are explicitly given.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: b_spline_curve_with_knots
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: b4efd83e-8efb-58c2-a976-46494907654d

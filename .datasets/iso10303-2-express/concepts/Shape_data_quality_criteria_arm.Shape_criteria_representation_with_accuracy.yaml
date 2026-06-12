@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.Shape_criteria_representation_with_accuracy
+  localized_concepts:
+    eng: 6e530b89-0761-5eed-ba28-7ceaf3fa42fb
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.Shape_criteria_representation_with_accuracy
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Shape_data_quality_criteria_representation,Shape_data_quality_criteria_representation}} that represents the shape criteria representation with accuracy {{entity}}'
+  notes:
+    - content: A **Shape_criteria_representation_with_accuracy** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Shape_data_quality_criteria_representation,Shape_data_quality_criteria_representation}} that contains accuracy information to be applied for measurement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_criteria_representation_with_accuracy
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 6e530b89-0761-5eed-ba28-7ceaf3fa42fb

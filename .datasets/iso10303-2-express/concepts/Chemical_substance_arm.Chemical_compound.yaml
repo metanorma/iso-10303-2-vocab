@@ -1,0 +1,31 @@
+data:
+  identifier: Chemical_substance_arm.Chemical_compound
+  localized_concepts:
+    eng: d852e468-a753-5c28-8547-bba8c508411e
+  domains:
+    - concept_id: section-Chemical_substance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+      ref_type: section
+id: Chemical_substance_arm.Chemical_compound
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}} that represents the chemical compound {{entity}}'
+  notes:
+    - content: A **Chemical_compound** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}} that represents a {{chemical compound}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+          version: '4'
+      type: authoritative
+      id: Chemical_substance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Chemical_compound
+  domain: 'application module: Chemical_substance_arm'
+  language_code: eng
+  annotations: []
+id: d852e468-a753-5c28-8547-bba8c508411e

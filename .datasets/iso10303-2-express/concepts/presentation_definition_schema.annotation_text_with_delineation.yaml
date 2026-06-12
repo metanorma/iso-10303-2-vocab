@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.annotation_text_with_delineation
+  localized_concepts:
+    eng: 849a3c85-e7cb-557e-9eeb-394bbb35f795
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.annotation_text_with_delineation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text,annotation_text}} that represents the annotation text with delineation {{entity}}'
+  notes:
+    - content: An **annotation_text_with_delineation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text,annotation_text}} that specifies the delineation of the text.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: annotation_text_with_delineation
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: 849a3c85-e7cb-557e-9eeb-394bbb35f795

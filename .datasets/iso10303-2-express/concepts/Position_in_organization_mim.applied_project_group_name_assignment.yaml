@@ -1,0 +1,31 @@
+data:
+  identifier: Position_in_organization_mim.applied_project_group_name_assignment
+  localized_concepts:
+    eng: 025ea78b-731a-57f9-ba37-50453aeb7f56
+  domains:
+    - concept_id: section-Position_in_organization_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
+      ref_type: section
+id: Position_in_organization_mim.applied_project_group_name_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.name_assignment,name_assignment}} that represents the applied project group name assignment {{entity}}'
+  notes:
+    - content: An **applied_project_group_name_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.name_assignment,name_assignment}} that associates an instance of a {{label,label}} with one or more {{project_group_name_item,project_group_name_item}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
+          version: '1'
+      type: authoritative
+      id: Position_in_organization_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_project_group_name_assignment
+  domain: 'application module: Position_in_organization_mim'
+  language_code: eng
+  annotations: []
+id: 025ea78b-731a-57f9-ba37-50453aeb7f56

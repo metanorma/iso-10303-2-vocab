@@ -1,0 +1,31 @@
+data:
+  identifier: Product_occurrence_arm.Specification_based_product_occurrence
+  localized_concepts:
+    eng: cad19fba-a7b2-53b9-b21c-891eed75ca60
+  domains:
+    - concept_id: section-Product_occurrence_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+      ref_type: section
+id: Product_occurrence_arm.Specification_based_product_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that represents the specification based product occurrence {{entity}}'
+  notes:
+    - content: A **Specification_based_product_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that identifies an occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Specification_based_product_version,Specification_based_product_version}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+          version: '5'
+      type: authoritative
+      id: Product_occurrence_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Specification_based_product_occurrence
+  domain: 'application module: Product_occurrence_arm'
+  language_code: eng
+  annotations: []
+id: cad19fba-a7b2-53b9-b21c-891eed75ca60

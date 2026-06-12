@@ -1,0 +1,40 @@
+data:
+  identifier: set_theory_schema.proper_subset
+  localized_concepts:
+    eng: a8494ed0-ba1c-55b6-a938-83e59cae8555
+  domains:
+    - concept_id: section-set_theory_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+      ref_type: section
+id: set_theory_schema.proper_subset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema.subset,subset}} that represents the proper subset {{entity}}'
+  notes:
+    - content: |-
+        A **proper_subset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema.subset,subset}} that is a relationship between:
+
+        * set A and
+        * set B,
+
+        that indicates the following:
+
+        * each member of set A is also a member of set B;
+        * set A does not equal set B.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+          version: '1'
+      type: authoritative
+      id: set_theory_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: proper_subset
+  domain: 'resource: set_theory_schema'
+  language_code: eng
+  annotations: []
+id: a8494ed0-ba1c-55b6-a938-83e59cae8555

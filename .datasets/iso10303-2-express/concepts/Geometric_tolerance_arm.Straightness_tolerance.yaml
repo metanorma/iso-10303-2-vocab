@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Straightness_tolerance
+  localized_concepts:
+    eng: 34f5efce-1dae-57c8-843c-313d11fb5c40
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Straightness_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the straightness tolerance {{entity}}'
+  notes:
+    - content: A **Straightness_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that specifies a tolerance zone within which the considered element of a feature or a derived median line must lie.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Straightness_tolerance
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 34f5efce-1dae-57c8-843c-313d11fb5c40

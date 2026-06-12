@@ -1,0 +1,40 @@
+data:
+  identifier: Set_theory_arm.Proper_subset
+  localized_concepts:
+    eng: 628be093-2963-5e11-b7bd-a48df8172a3a
+  domains:
+    - concept_id: section-Set_theory_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+      ref_type: section
+id: Set_theory_arm.Proper_subset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the proper subset {{entity}}'
+  notes:
+    - content: |-
+        A **Proper_subset** is a relationship that is between:
+
+        * set A; and
+        * set B,
+
+        that indicates:
+
+        * each member of set A is also a member of set B; and
+        * set A does not equal set B.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+          version: '1'
+      type: authoritative
+      id: Set_theory_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Proper_subset
+  domain: 'application module: Set_theory_arm'
+  language_code: eng
+  annotations: []
+id: 628be093-2963-5e11-b7bd-a48df8172a3a

@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_schema.resource_property
+  localized_concepts:
+    eng: 15b6349a-da10-562c-994d-dc7cc7710514
+  domains:
+    - concept_id: section-process_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+      ref_type: section
+id: process_property_schema.resource_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource property {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.resource_property,resource_property}} is a characteristic of a resource.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+          version: '1'
+      type: authoritative
+      id: process_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: resource_property
+  domain: 'resource: process_property_schema'
+  language_code: eng
+  annotations: []
+id: 15b6349a-da10-562c-994d-dc7cc7710514

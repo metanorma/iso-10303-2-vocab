@@ -1,0 +1,31 @@
+data:
+  identifier: Ap239_part_definition_information_mim.applied_effectivity_context_assignment
+  localized_concepts:
+    eng: 1cf75dd6-fa48-59b8-ad3b-e55496cbf79b
+  domains:
+    - concept_id: section-Ap239_part_definition_information_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+      ref_type: section
+id: Ap239_part_definition_information_mim.applied_effectivity_context_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that represents the applied effectivity context assignment {{entity}}'
+  notes:
+    - content: A **applied_effectivity_context_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that identifies the context for the association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_assignment,effectivity_assignment}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+          version: '5'
+      type: authoritative
+      id: Ap239_part_definition_information_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_effectivity_context_assignment
+  domain: 'application module: Ap239_part_definition_information_mim'
+  language_code: eng
+  annotations: []
+id: 1cf75dd6-fa48-59b8-ad3b-e55496cbf79b

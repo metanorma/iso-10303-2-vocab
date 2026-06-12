@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Circle
+  localized_concepts:
+    eng: dc091b2d-c1f3-5e51-aba6-490b84ab165e
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Circle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} that represents the circle {{entity}}'
+  notes:
+    - content: A **Circle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} in which all points are equidistant from the centre.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Circle
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: dc091b2d-c1f3-5e51-aba6-490b84ab165e

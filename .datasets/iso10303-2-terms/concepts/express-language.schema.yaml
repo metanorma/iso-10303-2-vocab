@@ -1,0 +1,31 @@
+---
+data:
+  identifier: express-language.schema
+  localized_concepts:
+    eng: 4e702b60-56a2-5bb6-9741-c780dda2bbbb
+  domains:
+  - concept_id: section-express-language
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 40b844ae-4ff1-5819-a02a-fb63cc34e1ab
+schema_version: v3
+---
+data:
+  definition:
+  - content: definition of a common namespace for a collection of related entities
+      and other data type declarations
+  examples:
+  - content: Geometry may be the name of a schema that contains declarations of points,
+      curves, surfaces, and other related data types.
+  notes:
+  - content: For schemas defined in ISO 10303, the use of an information object identifier
+      is specified that includes a version identifier.
+  - content: If two schemas with the same name have different schema version identifiers,
+      they will nevertheless be treated as the same schema.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: schema
+  language_code: eng
+  annotations: []
+id: 4e702b60-56a2-5bb6-9741-c780dda2bbbb

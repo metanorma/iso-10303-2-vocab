@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_arm.Characteristic_data_table_header_usage
+  localized_concepts:
+    eng: beedfa38-3f3e-5bad-bdce-800f2f330571
+  domains:
+    - concept_id: section-Characteristic_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+      ref_type: section
+id: Characteristic_arm.Characteristic_data_table_header_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that represents the characteristic data table header usage {{entity}}'
+  notes:
+    - content: A **Characteristic_data_table_header_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that links a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Characteristic_data_table_representation,Characteristic_data_table_representation}} to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Characteristic_data_table_header,Characteristic_data_table_header}} to which it belongs.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+          version: '6'
+      type: authoritative
+      id: Characteristic_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Characteristic_data_table_header_usage
+  domain: 'application module: Characteristic_arm'
+  language_code: eng
+  annotations: []
+id: beedfa38-3f3e-5bad-bdce-800f2f330571

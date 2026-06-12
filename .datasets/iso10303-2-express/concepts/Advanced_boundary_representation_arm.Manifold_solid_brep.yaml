@@ -1,0 +1,31 @@
+data:
+  identifier: Advanced_boundary_representation_arm.Manifold_solid_brep
+  localized_concepts:
+    eng: da56c3e5-24ae-5aac-880e-ee32147b8fe8
+  domains:
+    - concept_id: section-Advanced_boundary_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
+      ref_type: section
+id: Advanced_boundary_representation_arm.Manifold_solid_brep
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_model_arm.Solid_model,Solid_model}} that represents the manifold solid brep {{entity}}'
+  notes:
+    - content: A **Manifold_solid_brep** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_model_arm.Solid_model,Solid_model}} that may contain multiple elements, faces or surfaces organized into shells.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
+          version: '5'
+      type: authoritative
+      id: Advanced_boundary_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Manifold_solid_brep
+  domain: 'application module: Advanced_boundary_representation_arm'
+  language_code: eng
+  annotations: []
+id: da56c3e5-24ae-5aac-880e-ee32147b8fe8

@@ -1,0 +1,31 @@
+data:
+  identifier: Part_and_zone_laminate_tables_arm.Sector_specification
+  localized_concepts:
+    eng: f46b725f-790c-540b-880f-857898d36fc1
+  domains:
+    - concept_id: section-Part_and_zone_laminate_tables_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+      ref_type: section
+id: Part_and_zone_laminate_tables_arm.Sector_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Product_specification,Product_specification}} that represents the sector specification {{entity}}'
+  notes:
+    - content: A **Sector_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}} that specifies a set of precise requirements of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Sector,Sector}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+          version: '6'
+      type: authoritative
+      id: Part_and_zone_laminate_tables_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Sector_specification
+  domain: 'application module: Part_and_zone_laminate_tables_arm'
+  language_code: eng
+  annotations: []
+id: f46b725f-790c-540b-880f-857898d36fc1

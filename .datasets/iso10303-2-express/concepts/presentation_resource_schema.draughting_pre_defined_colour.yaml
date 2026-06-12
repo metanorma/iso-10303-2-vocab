@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_resource_schema.draughting_pre_defined_colour
+  localized_concepts:
+    eng: 794145c6-7185-52e3-8666-dc7e5d1d058a
+  domains:
+    - concept_id: section-presentation_resource_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+      ref_type: section
+id: presentation_resource_schema.draughting_pre_defined_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_colour,pre_defined_colour}} that represents the draughting pre defined colour {{entity}}'
+  notes:
+    - content: A **draughting_pre_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_colour,pre_defined_colour}} that is identified by name.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+          version: '6'
+      type: authoritative
+      id: presentation_resource_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_pre_defined_colour
+  domain: 'resource: presentation_resource_schema'
+  language_code: eng
+  annotations: []
+id: 794145c6-7185-52e3-8666-dc7e5d1d058a

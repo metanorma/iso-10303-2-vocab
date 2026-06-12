@@ -1,0 +1,30 @@
+data:
+  identifier: kinematic_motion_representation_schema.kinematic_path
+  localized_concepts:
+    eng: 9d347de7-6638-55bc-a6c6-824bf1f02fab
+  domains:
+    - concept_id: section-kinematic_motion_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+      ref_type: section
+id: kinematic_motion_representation_schema.kinematic_path
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the kinematic path {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+          version: '5'
+      type: authoritative
+      id: kinematic_motion_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: kinematic_path
+  domain: 'resource: kinematic_motion_representation_schema'
+  language_code: eng
+  annotations: []
+id: 9d347de7-6638-55bc-a6c6-824bf1f02fab

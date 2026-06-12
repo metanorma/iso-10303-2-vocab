@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_data_quality_inspection_result_schema.a3m_extreme_instance
+  localized_concepts:
+    eng: 9a6f8cad-5cec-5066-89d0-c5957f3c226a
+  domains:
+    - concept_id: section-annotated_3d_model_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
+      ref_type: section
+id: annotated_3d_model_data_quality_inspection_result_schema.a3m_extreme_instance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the a3m extreme instance {{entity}}'
+  notes:
+    - content: An **a3m_extreme_instance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents an extreme measured value and the location information where it was detected.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
+          version: '3'
+      type: authoritative
+      id: annotated_3d_model_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_extreme_instance
+  domain: 'resource: annotated_3d_model_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 9a6f8cad-5cec-5066-89d0-c5957f3c226a

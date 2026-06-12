@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_component_feature_arm.Physical_component_terminal
+  localized_concepts:
+    eng: 2af5685a-ea9e-5864-98ee-76f1beeb6565
+  domains:
+    - concept_id: section-Physical_component_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
+      ref_type: section
+id: Physical_component_feature_arm.Physical_component_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical component terminal {{entity}}'
+  notes:
+    - content: A **Physical_component_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_feature,Physical_component_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
+          version: '5'
+      type: authoritative
+      id: Physical_component_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_component_terminal
+  domain: 'application module: Physical_component_feature_arm'
+  language_code: eng
+  annotations: []
+id: 2af5685a-ea9e-5864-98ee-76f1beeb6565

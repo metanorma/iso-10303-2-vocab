@@ -1,0 +1,31 @@
+data:
+  identifier: External_properties_arm.Plib_property_reference
+  localized_concepts:
+    eng: f0c08ac1-31db-5d9a-b95c-1227aeb63172
+  domains:
+    - concept_id: section-External_properties_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_arm
+      ref_type: section
+id: External_properties_arm.Plib_property_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that represents the plib property reference {{entity}}'
+  notes:
+    - content: A **Plib_property_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that designates a property in a library compliant to ISO 13584.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_arm
+          version: '4'
+      type: authoritative
+      id: External_properties_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plib_property_reference
+  domain: 'application module: External_properties_arm'
+  language_code: eng
+  annotations: []
+id: f0c08ac1-31db-5d9a-b95c-1227aeb63172

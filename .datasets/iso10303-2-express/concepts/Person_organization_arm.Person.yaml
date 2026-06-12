@@ -1,0 +1,31 @@
+data:
+  identifier: Person_organization_arm.Person
+  localized_concepts:
+    eng: 0fa923ce-9414-532c-ae24-0a28f7bc7b76
+  domains:
+    - concept_id: section-Person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+      ref_type: section
+id: Person_organization_arm.Person
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person {{entity}}'
+  notes:
+    - content: A **Person** is an individual human being.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Person
+  domain: 'application module: Person_organization_arm'
+  language_code: eng
+  annotations: []
+id: 0fa923ce-9414-532c-ae24-0a28f7bc7b76

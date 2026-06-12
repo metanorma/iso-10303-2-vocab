@@ -1,0 +1,30 @@
+data:
+  identifier: External_library_arm.User_defined_library_or_dictionary
+  localized_concepts:
+    eng: a600a4da-1a88-52e7-bf90-580d926962b9
+  domains:
+    - concept_id: section-External_library_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+      ref_type: section
+id: External_library_arm.User_defined_library_or_dictionary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_source_arm.External_source,External_source}} that represents the user defined library or dictionary {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+          version: '3'
+      type: authoritative
+      id: External_library_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: User_defined_library_or_dictionary
+  domain: 'application module: External_library_arm'
+  language_code: eng
+  annotations: []
+id: a600a4da-1a88-52e7-bf90-580d926962b9

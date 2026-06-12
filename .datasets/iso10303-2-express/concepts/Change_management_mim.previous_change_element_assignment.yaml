@@ -1,0 +1,30 @@
+data:
+  identifier: Change_management_mim.previous_change_element_assignment
+  localized_concepts:
+    eng: 5da953eb-589e-5f32-86f1-6d394ee86bba
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.previous_change_element_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the previous change element assignment {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: previous_change_element_assignment
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: 5da953eb-589e-5f32-86f1-6d394ee86bba

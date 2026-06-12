@@ -1,0 +1,31 @@
+data:
+  identifier: Decision_support_mim.ds_characterizable_event_occurrence
+  localized_concepts:
+    eng: 0f24fedb-b7cc-5602-bb25-3f0e80ea1a6a
+  domains:
+    - concept_id: section-Decision_support_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+      ref_type: section
+id: Decision_support_mim.ds_characterizable_event_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ds characterizable event occurrence {{entity}}'
+  notes:
+    - content: A **ds_characterizable_event_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+          version: '2'
+      type: authoritative
+      id: Decision_support_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ds_characterizable_event_occurrence
+  domain: 'application module: Decision_support_mim'
+  language_code: eng
+  annotations: []
+id: 0f24fedb-b7cc-5602-bb25-3f0e80ea1a6a

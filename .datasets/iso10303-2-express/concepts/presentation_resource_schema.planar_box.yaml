@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_resource_schema.planar_box
+  localized_concepts:
+    eng: d8295d24-8ad3-5adf-8c94-778f5e3b7d46
+  domains:
+    - concept_id: section-presentation_resource_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+      ref_type: section
+id: presentation_resource_schema.planar_box
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.planar_extent,planar_extent}} that represents the planar box {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+          version: '6'
+      type: authoritative
+      id: presentation_resource_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: planar_box
+  domain: 'resource: presentation_resource_schema'
+  language_code: eng
+  annotations: []
+id: d8295d24-8ad3-5adf-8c94-778f5e3b7d46

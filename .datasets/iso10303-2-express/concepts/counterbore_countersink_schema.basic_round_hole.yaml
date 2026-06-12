@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.basic_round_hole
+  localized_concepts:
+    eng: 530da536-74cb-564a-8634-65afc5dd6eb9
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.basic_round_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.round_hole,round_hole}} that represents the basic round hole {{entity}}'
+  notes:
+    - content: A **basic_round_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.round_hole,round_hole}} that includes the data elements locally rather than in a separate representation as specified in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.round_hole,round_hole}} supertype.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: basic_round_hole
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: 530da536-74cb-564a-8634-65afc5dd6eb9

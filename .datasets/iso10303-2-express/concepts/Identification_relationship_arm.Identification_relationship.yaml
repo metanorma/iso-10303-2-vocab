@@ -1,0 +1,31 @@
+data:
+  identifier: Identification_relationship_arm.Identification_relationship
+  localized_concepts:
+    eng: f275d1af-aed4-5f54-897a-9dd2b2cd02d4
+  domains:
+    - concept_id: section-Identification_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_relationship_arm
+      ref_type: section
+id: Identification_relationship_arm.Identification_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the identification relationship {{entity}}'
+  notes:
+    - content: A **Identification_relationship** is a relationship between a pair of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_arm.Identification_assignment,Identification_assignment}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_relationship_arm
+          version: '1'
+      type: authoritative
+      id: Identification_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Identification_relationship
+  domain: 'application module: Identification_relationship_arm'
+  language_code: eng
+  annotations: []
+id: f275d1af-aed4-5f54-897a-9dd2b2cd02d4

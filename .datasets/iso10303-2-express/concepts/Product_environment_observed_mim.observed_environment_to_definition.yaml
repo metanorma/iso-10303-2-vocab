@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_mim.observed_environment_to_definition
+  localized_concepts:
+    eng: aa8bb883-95b5-5f0f-9cfe-56c21c2a5940
+  domains:
+    - concept_id: section-Product_environment_observed_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+      ref_type: section
+id: Product_environment_observed_mim.observed_environment_to_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} that represents the observed environment to definition {{entity}}'
+  notes:
+    - content: An **observed_environment_to_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} that relates an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim.observed_environment,observed_environment}} to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.environment_definition,environment_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: observed_environment_to_definition
+  domain: 'application module: Product_environment_observed_mim'
+  language_code: eng
+  annotations: []
+id: aa8bb883-95b5-5f0f-9cfe-56c21c2a5940

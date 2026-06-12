@@ -1,0 +1,31 @@
+data:
+  identifier: Assignment_object_relationship_arm.Assignment_object_relationship
+  localized_concepts:
+    eng: f290e33a-0174-510c-b853-6107e3b2d707
+  domains:
+    - concept_id: section-Assignment_object_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assignment_object_relationship_arm
+      ref_type: section
+id: Assignment_object_relationship_arm.Assignment_object_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assignment object relationship {{entity}}'
+  notes:
+    - content: An **Assignment_object_relationship** is a relationship between two {{assignment_object_select,assignment_object_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assignment_object_relationship_arm
+          version: '1'
+      type: authoritative
+      id: Assignment_object_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assignment_object_relationship
+  domain: 'application module: Assignment_object_relationship_arm'
+  language_code: eng
+  annotations: []
+id: f290e33a-0174-510c-b853-6107e3b2d707

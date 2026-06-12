@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_arm.Product_view_definition
+  localized_concepts:
+    eng: ef66d25f-21db-5972-a71c-a2d26eaec28c
+  domains:
+    - concept_id: section-Product_view_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+      ref_type: section
+id: Product_view_definition_arm.Product_view_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product view definition {{entity}}'
+  notes:
+    - content: A **Product_view_definition** is a characterization of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} relevant in one or more application domains and for one or more life-cycle stages.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+          version: '5'
+      type: authoritative
+      id: Product_view_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_view_definition
+  domain: 'application module: Product_view_definition_arm'
+  language_code: eng
+  annotations: []
+id: ef66d25f-21db-5972-a71c-a2d26eaec28c

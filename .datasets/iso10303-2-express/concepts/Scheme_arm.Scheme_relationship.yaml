@@ -1,0 +1,31 @@
+data:
+  identifier: Scheme_arm.Scheme_relationship
+  localized_concepts:
+    eng: f27a201e-920b-5465-9686-950c27133b20
+  domains:
+    - concept_id: section-Scheme_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+      ref_type: section
+id: Scheme_arm.Scheme_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}} that represents the scheme relationship {{entity}}'
+  notes:
+    - content: A **Scheme_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}} relating two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Scheme,Scheme}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+          version: '2'
+      type: authoritative
+      id: Scheme_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Scheme_relationship
+  domain: 'application module: Scheme_arm'
+  language_code: eng
+  annotations: []
+id: f27a201e-920b-5465-9686-950c27133b20

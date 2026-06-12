@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_property_schema.kinematic_property_mechanism_representation
+  localized_concepts:
+    eng: a178f5f3-b143-54a2-b103-9cbb3ddcf10b
+  domains:
+    - concept_id: section-kinematic_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+      ref_type: section
+id: kinematic_property_schema.kinematic_property_mechanism_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema.kinematic_property_definition_representation,kinematic_property_definition_representation}} that represents the kinematic property mechanism representation {{entity}}'
+  notes:
+    - content: A **kinematic_property_mechanism_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema.kinematic_property_definition_representation,kinematic_property_definition_representation}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.mechanism_representation,mechanism_representation}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema.product_definition_kinematics,product_definition_kinematics}} together with the identification of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_link_representation,kinematic_link_representation}} as the base.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: kinematic_property_mechanism_representation
+  domain: 'resource: kinematic_property_schema'
+  language_code: eng
+  annotations: []
+id: a178f5f3-b143-54a2-b103-9cbb3ddcf10b

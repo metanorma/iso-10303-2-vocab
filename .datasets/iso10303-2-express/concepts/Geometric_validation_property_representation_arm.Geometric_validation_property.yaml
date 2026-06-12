@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_validation_property_representation_arm.Geometric_validation_property
+  localized_concepts:
+    eng: 4b6fe07b-910e-5808-b866-b6ca977af4b1
+  domains:
+    - concept_id: section-Geometric_validation_property_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_validation_property_representation_arm
+      ref_type: section
+id: Geometric_validation_property_representation_arm.Geometric_validation_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometric validation property {{entity}}'
+  notes:
+    - content: A **Geometric_validation_property** is the association of a solid or surface {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} with a representation of a property derived from the geometry it contains.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_validation_property_representation_arm
+          version: '1'
+      type: authoritative
+      id: Geometric_validation_property_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometric_validation_property
+  domain: 'application module: Geometric_validation_property_representation_arm'
+  language_code: eng
+  annotations: []
+id: 4b6fe07b-910e-5808-b866-b6ca977af4b1

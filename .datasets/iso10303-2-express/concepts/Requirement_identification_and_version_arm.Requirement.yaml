@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_identification_and_version_arm.Requirement
+  localized_concepts:
+    eng: 25cfb395-30c5-5e6e-b1df-b59cea69270f
+  domains:
+    - concept_id: section-Requirement_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_identification_and_version_arm
+      ref_type: section
+id: Requirement_identification_and_version_arm.Requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the requirement {{entity}}'
+  notes:
+    - content: A **Requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that is used to uniquely identify a requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_identification_and_version_arm
+          version: '2'
+      type: authoritative
+      id: Requirement_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement
+  domain: 'application module: Requirement_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 25cfb395-30c5-5e6e-b1df-b59cea69270f

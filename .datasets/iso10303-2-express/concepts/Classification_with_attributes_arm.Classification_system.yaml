@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_with_attributes_arm.Classification_system
+  localized_concepts:
+    eng: a47890c2-2f7d-5842-8170-b1bd9990d336
+  domains:
+    - concept_id: section-Classification_with_attributes_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+      ref_type: section
+id: Classification_with_attributes_arm.Classification_system
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the classification system {{entity}}'
+  notes:
+    - content: A **Classification_system** is a schema defining classifications of product or activity data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+          version: '7'
+      type: authoritative
+      id: Classification_with_attributes_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Classification_system
+  domain: 'application module: Classification_with_attributes_arm'
+  language_code: eng
+  annotations: []
+id: a47890c2-2f7d-5842-8170-b1bd9990d336

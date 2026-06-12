@@ -1,0 +1,34 @@
+data:
+  identifier: uuid_attribute_schema.uuid_context
+  localized_concepts:
+    eng: 4dfb46db-ef2d-54a2-9602-29786323ae0d
+  domains:
+    - concept_id: section-uuid_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+      ref_type: section
+id: uuid_attribute_schema.uuid_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the uuid context {{entity}}'
+  notes:
+    - content: |-
+        A **uuid_context** associates a context to a
+        {{uuid,uuid}} and is included to support the use case where the enterprise desires more granular context specifiers than that provided by the
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.product_definition_context,product_definition_context}} ENTITY data type.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+          version: '1'
+      type: authoritative
+      id: uuid_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uuid_context
+  domain: 'resource: uuid_attribute_schema'
+  language_code: eng
+  annotations: []
+id: 4dfb46db-ef2d-54a2-9602-29786323ae0d

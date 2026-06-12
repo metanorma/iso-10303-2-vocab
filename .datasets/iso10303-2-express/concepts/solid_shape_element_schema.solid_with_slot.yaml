@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_slot
+  localized_concepts:
+    eng: 24837f00-6a28-5fe4-b5c5-520e2f3cadd7
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_depression,solid_with_depression}} that represents the solid with slot {{entity}}'
+  notes:
+    - content: A *solid_with_slot* is a type of *solid_with_depression* on which a slot has been created.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_slot
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: 24837f00-6a28-5fe4-b5c5-520e2f3cadd7

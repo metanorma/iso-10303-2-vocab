@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.comparison_greater_equal
+  localized_concepts:
+    eng: 11b92090-d84f-5033-ba41-ad8621b95908
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.comparison_greater_equal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.comparison_expression,comparison_expression}} that represents the comparison greater equal {{entity}}'
+  notes:
+    - content: A *comparison_greater_equal* carries the semantics of the greater than or equal ('>=') operator defined in of ISO 10303-11 restricted to the NUMBER, BOOLEAN and STRING EXPRESS data types.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: comparison_greater_equal
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: 11b92090-d84f-5033-ba41-ad8621b95908

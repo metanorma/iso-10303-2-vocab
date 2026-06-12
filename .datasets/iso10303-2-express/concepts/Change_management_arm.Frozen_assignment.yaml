@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_arm.Frozen_assignment
+  localized_concepts:
+    eng: 47c8a7d3-eddb-5bf9-8d21-6fe81686aa56
+  domains:
+    - concept_id: section-Change_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+      ref_type: section
+id: Change_management_arm.Frozen_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the frozen assignment {{entity}}'
+  notes:
+    - content: A **Frozen_assignment** is a collection of objects that shall not be changed in any way.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+          version: '3'
+      type: authoritative
+      id: Change_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Frozen_assignment
+  domain: 'application module: Change_management_arm'
+  language_code: eng
+  annotations: []
+id: 47c8a7d3-eddb-5bf9-8d21-6fe81686aa56

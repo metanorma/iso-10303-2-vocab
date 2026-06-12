@@ -1,0 +1,31 @@
+data:
+  identifier: Additive_manufacturing_part_and_build_information_arm.Executable
+  localized_concepts:
+    eng: c916e074-e33e-5e75-9200-d2d8e994cfe0
+  domains:
+    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+      ref_type: section
+id: Additive_manufacturing_part_and_build_information_arm.Executable
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}} that represents the executable {{entity}}'
+  notes:
+    - content: An **Executable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}} that defines a manufacturing or control operation, such as a machining working step, NC function or program structure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+          version: '2'
+      type: authoritative
+      id: Additive_manufacturing_part_and_build_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Executable
+  domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
+  language_code: eng
+  annotations: []
+id: c916e074-e33e-5e75-9200-d2d8e994cfe0

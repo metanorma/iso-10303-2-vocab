@@ -1,0 +1,32 @@
+---
+data:
+  identifier: mathematical-concepts.bound_variable
+  localized_concepts:
+    eng: 3f5abf6b-2459-5cae-9546-7c41a8b0ff18
+  domains:
+  - concept_id: section-mathematical-concepts
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 9e73fb46-d282-5bf4-9028-8b2dbe40b533
+schema_version: v3
+---
+data:
+  definition:
+  - content: variable which has been specifically referenced by a quantifier in a
+      quantifier expression
+  examples:
+  - content: The variable stem:[x] in the statement stem:[AA x(x = x)].
+  - content: The variable stem:[x] in the set declaration stem:[{x|x^2 = x}].
+  - content: The variable stem:[x] in the definite integral stem:[int_1^2 ln(x)dx].
+  - content: The variable stem:[x] in the function definition stem:[f(x) -= x + 2].
+  notes:
+  - content: A bound variable is no longer available for substitution by a constant
+      value. The semantics of the quantifier expression uses all possible values of
+      the variable rather than one (perhaps undetermined) value.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: bound variable
+  language_code: eng
+  annotations: []
+id: 3f5abf6b-2459-5cae-9546-7c41a8b0ff18

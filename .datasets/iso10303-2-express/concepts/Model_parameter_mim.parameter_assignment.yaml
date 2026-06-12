@@ -1,0 +1,31 @@
+data:
+  identifier: Model_parameter_mim.parameter_assignment
+  localized_concepts:
+    eng: ce8e9cf7-296b-58fd-a64a-65bd33761000
+  domains:
+    - concept_id: section-Model_parameter_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+      ref_type: section
+id: Model_parameter_mim.parameter_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the parameter assignment {{entity}}'
+  notes:
+    - content: A **parameter_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+          version: '5'
+      type: authoritative
+      id: Model_parameter_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: parameter_assignment
+  domain: 'application module: Model_parameter_mim'
+  language_code: eng
+  annotations: []
+id: ce8e9cf7-296b-58fd-a64a-65bd33761000

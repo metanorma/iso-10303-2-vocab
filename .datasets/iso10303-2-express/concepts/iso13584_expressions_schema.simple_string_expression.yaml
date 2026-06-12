@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.simple_string_expression
+  localized_concepts:
+    eng: 125fb80d-9ec4-5b32-af0f-0b1649d68dd2
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.simple_string_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the simple string expression {{entity}}'
+  notes:
+    - content: A *simple_string_expression* is an unary operator of whose range is EXPRESS STRING data type defined in ISO 10303-11.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: simple_string_expression
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: 125fb80d-9ec4-5b32-af0f-0b1649d68dd2

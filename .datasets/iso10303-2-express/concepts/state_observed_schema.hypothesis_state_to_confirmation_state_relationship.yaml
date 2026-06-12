@@ -1,0 +1,31 @@
+data:
+  identifier: state_observed_schema.hypothesis_state_to_confirmation_state_relationship
+  localized_concepts:
+    eng: bae14b9e-8039-53d4-923a-62b50b374dcf
+  domains:
+    - concept_id: section-state_observed_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+      ref_type: section
+id: state_observed_schema.hypothesis_state_to_confirmation_state_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_definition_to_state_assignment_relationship,state_definition_to_state_assignment_relationship}} that represents the hypothesis state to confirmation state relationship {{entity}}'
+  notes:
+    - content: A **hypothesis_state_to_confirmation_state_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_definition_to_state_assignment_relationship,state_definition_to_state_assignment_relationship}} that describes a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.ascribable_state,ascribable_state}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+          version: '3'
+      type: authoritative
+      id: state_observed_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: hypothesis_state_to_confirmation_state_relationship
+  domain: 'resource: state_observed_schema'
+  language_code: eng
+  annotations: []
+id: bae14b9e-8039-53d4-923a-62b50b374dcf

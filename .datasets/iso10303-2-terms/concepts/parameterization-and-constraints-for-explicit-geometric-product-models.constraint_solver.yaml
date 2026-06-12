@@ -1,0 +1,33 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.constraint_solver
+  localized_concepts:
+    eng: 3e8c9131-658a-527b-b9d0-8c7781f353f3
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: cda13ea4-42f3-5e6f-b743-d922961a67a4
+schema_version: v3
+---
+data:
+  definition:
+  - content: software system for solving sets of equations that are mathematical representations
+      of constraint relationships
+  notes:
+  - content: Methods used by constraint solvers for determining solutions are outside
+      the scope of <<ISO_10303-108_2005>>.
+  - content: In straightforward cases a constraint set will have the same number of
+      unknowns as equations. Ideally, however, a constraint solver should also handle
+      underconstrained and overconstrained constraint sets having, respectively, more
+      unknowns and less unknowns than the number of equations. The specification of
+      system response in such cases is also outside the scope of <<ISO_10303-108_2005>>,
+      but it could include the generation of diagnostic information or of partial
+      solutions as appropriate.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: constraint solver
+  language_code: eng
+  annotations: []
+id: 3e8c9131-658a-527b-b9d0-8c7781f353f3

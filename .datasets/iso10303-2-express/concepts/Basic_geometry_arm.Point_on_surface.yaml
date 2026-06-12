@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Point_on_surface
+  localized_concepts:
+    eng: a2b526df-c8b6-59b8-933b-1b3d83295ae8
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Point_on_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Point,Point}} that represents the point on surface {{entity}}'
+  notes:
+    - content: A **Point_on_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that characterizes a point that lies on a surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_on_surface
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: a2b526df-c8b6-59b8-933b-1b3d83295ae8

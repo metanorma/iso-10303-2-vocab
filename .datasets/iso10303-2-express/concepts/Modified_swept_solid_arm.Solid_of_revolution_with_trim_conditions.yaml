@@ -1,0 +1,31 @@
+data:
+  identifier: Modified_swept_solid_arm.Solid_of_revolution_with_trim_conditions
+  localized_concepts:
+    eng: 0f68cf80-d888-5054-8f7b-584bf92b473e
+  domains:
+    - concept_id: section-Modified_swept_solid_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
+      ref_type: section
+id: Modified_swept_solid_arm.Solid_of_revolution_with_trim_conditions
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Solid_of_revolution,Solid_of_revolution}} that represents the solid of revolution with trim conditions {{entity}}'
+  notes:
+    - content: A **Solid_of_revolution_with_trim_conditions** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Solid_of_revolution,Solid_of_revolution}} that has been modified by trimming to change the angle of revolution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
+          version: '1'
+      type: authoritative
+      id: Modified_swept_solid_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Solid_of_revolution_with_trim_conditions
+  domain: 'application module: Modified_swept_solid_arm'
+  language_code: eng
+  annotations: []
+id: 0f68cf80-d888-5054-8f7b-584bf92b473e

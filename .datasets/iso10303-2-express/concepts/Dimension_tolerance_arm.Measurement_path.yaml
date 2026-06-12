@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Measurement_path
+  localized_concepts:
+    eng: c25f6354-0b74-5c86-9205-8cdad9937b64
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Measurement_path
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the measurement path {{entity}}'
+  notes:
+    - content: A **Measurement_path** is a path, direction, or domain of applicability for a dimension or tolerance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Measurement_path
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: c25f6354-0b74-5c86-9205-8cdad9937b64

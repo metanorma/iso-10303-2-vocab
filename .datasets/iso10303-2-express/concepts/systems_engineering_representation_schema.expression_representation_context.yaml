@@ -1,0 +1,31 @@
+data:
+  identifier: systems_engineering_representation_schema.expression_representation_context
+  localized_concepts:
+    eng: a8db4818-aea7-5e0a-b6d6-fd5a0dfe1eb8
+  domains:
+    - concept_id: section-systems_engineering_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+      ref_type: section
+id: systems_engineering_representation_schema.expression_representation_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that represents the expression representation context {{entity}}'
+  notes:
+    - content: An **expression_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that is the context for an expression representation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+          version: '2'
+      type: authoritative
+      id: systems_engineering_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: expression_representation_context
+  domain: 'resource: systems_engineering_representation_schema'
+  language_code: eng
+  annotations: []
+id: a8db4818-aea7-5e0a-b6d6-fd5a0dfe1eb8

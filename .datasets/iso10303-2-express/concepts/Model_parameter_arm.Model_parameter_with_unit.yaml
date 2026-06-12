@@ -1,0 +1,31 @@
+data:
+  identifier: Model_parameter_arm.Model_parameter_with_unit
+  localized_concepts:
+    eng: 9645170e-81bb-5e42-963d-986be3158d01
+  domains:
+    - concept_id: section-Model_parameter_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+      ref_type: section
+id: Model_parameter_arm.Model_parameter_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the model parameter with unit {{entity}}'
+  notes:
+    - content: A **Model_parameter_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Independent_property_with_unit,Independent_property_with_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Model_parameter,Model_parameter}} that includes a specification of the allowed units to use for the parameter.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+          version: '5'
+      type: authoritative
+      id: Model_parameter_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Model_parameter_with_unit
+  domain: 'application module: Model_parameter_arm'
+  language_code: eng
+  annotations: []
+id: 9645170e-81bb-5e42-963d-986be3158d01

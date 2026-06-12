@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.attribute_value_assignment
+  localized_concepts:
+    eng: 728f0e28-e8b6-58f7-bc45-9513acb96609
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.attribute_value_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the attribute value assignment {{entity}}'
+  notes:
+    - content: An **attribute_value_assignment** is an extendion of the cardinality of a string valued attribute in an entity data type by one.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: attribute_value_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 728f0e28-e8b6-58f7-bc45-9513acb96609

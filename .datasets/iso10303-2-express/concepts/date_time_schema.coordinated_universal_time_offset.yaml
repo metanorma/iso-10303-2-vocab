@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.coordinated_universal_time_offset
+  localized_concepts:
+    eng: 05bcf8d2-7a8f-5099-8f92-d23fa9e84d43
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.coordinated_universal_time_offset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the coordinated universal time offset {{entity}}'
+  notes:
+    - content: A **coordinated_universal_time_offset** is the oriented offset (specified in hours and possibly minutes) from the coordinated universal time.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: coordinated_universal_time_offset
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 05bcf8d2-7a8f-5099-8f92-d23fa9e84d43

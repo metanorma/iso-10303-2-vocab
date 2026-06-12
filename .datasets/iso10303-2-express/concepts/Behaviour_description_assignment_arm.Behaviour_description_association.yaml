@@ -1,0 +1,31 @@
+data:
+  identifier: Behaviour_description_assignment_arm.Behaviour_description_association
+  localized_concepts:
+    eng: 5efaa79f-2290-5a6a-8114-8fdd89b7f3e2
+  domains:
+    - concept_id: section-Behaviour_description_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_description_assignment_arm
+      ref_type: section
+id: Behaviour_description_assignment_arm.Behaviour_description_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the behaviour description association {{entity}}'
+  notes:
+    - content: A **Behaviour_description_association** is used to define the item to which a behaviour model is associated.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_description_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Behaviour_description_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Behaviour_description_association
+  domain: 'application module: Behaviour_description_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 5efaa79f-2290-5a6a-8114-8fdd89b7f3e2

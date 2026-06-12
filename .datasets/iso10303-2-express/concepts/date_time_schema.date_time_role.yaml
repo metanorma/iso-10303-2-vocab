@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.date_time_role
+  localized_concepts:
+    eng: 641b1ee5-a230-5f0d-9734-fca62c94df96
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.date_time_role
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date time role {{entity}}'
+  notes:
+    - content: A **date_time_role** is a role for for a moment of time on a particular day.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: date_time_role
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 641b1ee5-a230-5f0d-9734-fca62c94df96

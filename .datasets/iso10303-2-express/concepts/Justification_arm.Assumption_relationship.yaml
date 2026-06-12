@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_arm.Assumption_relationship
+  localized_concepts:
+    eng: 76bcf359-479e-5543-95f1-13bc9ccb35ca
+  domains:
+    - concept_id: section-Justification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+      ref_type: section
+id: Justification_arm.Assumption_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assumption relationship {{entity}}'
+  notes:
+    - content: An **Assumption_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm.Assumption,Assumption}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_arm
+          version: '2'
+      type: authoritative
+      id: Justification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assumption_relationship
+  domain: 'application module: Justification_arm'
+  language_code: eng
+  annotations: []
+id: 76bcf359-479e-5543-95f1-13bc9ccb35ca

@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_motion_representation_arm.Product_structure_link_motion_association
+  localized_concepts:
+    eng: 95b7b197-5525-52b1-a7f2-58d6866b403a
+  domains:
+    - concept_id: section-Kinematic_motion_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+      ref_type: section
+id: Kinematic_motion_representation_arm.Product_structure_link_motion_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Contextual_shape_representation,Contextual_shape_representation}} that represents the product structure link motion association {{entity}}'
+  notes:
+    - content: A **Product_structure_link_motion_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Contextual_shape_representation,Contextual_shape_representation}} that links a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Link_motion_relationship,Link_motion_relationship}} to a corresponding {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Specified_occurrence,Specified_occurrence}} of an assembly structure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+          version: '3'
+      type: authoritative
+      id: Kinematic_motion_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_structure_link_motion_association
+  domain: 'application module: Kinematic_motion_representation_arm'
+  language_code: eng
+  annotations: []
+id: 95b7b197-5525-52b1-a7f2-58d6866b403a

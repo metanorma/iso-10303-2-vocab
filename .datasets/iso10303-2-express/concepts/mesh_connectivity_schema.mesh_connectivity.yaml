@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_connectivity_schema.mesh_connectivity
+  localized_concepts:
+    eng: bc23f313-b53d-5387-b437-075abb571e09
+  domains:
+    - concept_id: section-mesh_connectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+      ref_type: section
+id: mesh_connectivity_schema.mesh_connectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh connectivity {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mesh_connectivity,mesh_connectivity}} specifies the connectivity of a mesh interface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+          version: '3'
+      type: authoritative
+      id: mesh_connectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mesh_connectivity
+  domain: 'resource: mesh_connectivity_schema'
+  language_code: eng
+  annotations: []
+id: bc23f313-b53d-5387-b437-075abb571e09

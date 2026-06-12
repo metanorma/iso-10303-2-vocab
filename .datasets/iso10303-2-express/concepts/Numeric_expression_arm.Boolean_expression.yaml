@@ -1,0 +1,31 @@
+data:
+  identifier: Numeric_expression_arm.Boolean_expression
+  localized_concepts:
+    eng: 7a56cf56-1b60-5337-99c2-c2bc233f23ea
+  domains:
+    - concept_id: section-Numeric_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+      ref_type: section
+id: Numeric_expression_arm.Boolean_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Expression,Expression}} that represents the boolean expression {{entity}}'
+  notes:
+    - content: A **Boolean_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Expression,Expression}} for which the range is the BOOLEAN data type defined in ISO 10303-11.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+          version: '2'
+      type: authoritative
+      id: Numeric_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Boolean_expression
+  domain: 'application module: Numeric_expression_arm'
+  language_code: eng
+  annotations: []
+id: 7a56cf56-1b60-5337-99c2-c2bc233f23ea

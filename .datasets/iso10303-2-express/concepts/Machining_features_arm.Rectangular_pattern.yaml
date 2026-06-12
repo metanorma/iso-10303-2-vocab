@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Rectangular_pattern
+  localized_concepts:
+    eng: d601e773-fdde-5e87-8189-a89ad384d8f9
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Rectangular_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Replicate_feature,Replicate_feature}} that represents the rectangular pattern {{entity}}'
+  notes:
+    - content: A **Rectangular_pattern** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Replicate_feature,Replicate_feature}} that is a shape component arranged in a pattern of rows and columns.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rectangular_pattern
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: d601e773-fdde-5e87-8189-a89ad384d8f9

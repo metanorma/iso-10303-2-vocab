@@ -1,0 +1,31 @@
+data:
+  identifier: Package_mim.visual_orientation_feature
+  localized_concepts:
+    eng: 089f8739-fd95-50f9-9811-6dd55c2205f6
+  domains:
+    - concept_id: section-Package_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+      ref_type: section
+id: Package_mim.visual_orientation_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the visual orientation feature {{entity}}'
+  notes:
+    - content: A **visual_orientation_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Visual_orientation_feature,Visual_orientation_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+          version: '7'
+      type: authoritative
+      id: Package_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: visual_orientation_feature
+  domain: 'application module: Package_mim'
+  language_code: eng
+  annotations: []
+id: 089f8739-fd95-50f9-9811-6dd55c2205f6

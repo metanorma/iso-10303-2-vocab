@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Contact_feature_definition
+  localized_concepts:
+    eng: 44a97604-5e6e-5c1f-b9ad-67c0f1534b8f
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Contact_feature_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that represents the contact feature definition {{entity}}'
+  notes:
+    - content: A **Contact_feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} that can be connected with another **Contact_feature_definition** in the case that a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Contact_feature_definition_fit_relationship,Contact_feature_definition_fit_relationship}} is defined between them.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Contact_feature_definition
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 44a97604-5e6e-5c1f-b9ad-67c0f1534b8f

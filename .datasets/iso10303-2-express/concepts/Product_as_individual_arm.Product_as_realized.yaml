@@ -1,0 +1,31 @@
+data:
+  identifier: Product_as_individual_arm.Product_as_realized
+  localized_concepts:
+    eng: 2c0a0338-dadf-5656-8758-31616f3f728b
+  domains:
+    - concept_id: section-Product_as_individual_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+      ref_type: section
+id: Product_as_individual_arm.Product_as_realized
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual_version,Product_as_individual_version}} that represents the product as realized {{entity}}'
+  notes:
+    - content: A **Product_as_realized** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual_version,Product_as_individual_version}} that identifies a revision of an individual artefact that has been made.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+          version: '5'
+      type: authoritative
+      id: Product_as_individual_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_as_realized
+  domain: 'application module: Product_as_individual_arm'
+  language_code: eng
+  annotations: []
+id: 2c0a0338-dadf-5656-8758-31616f3f728b

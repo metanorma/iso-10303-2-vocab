@@ -1,0 +1,31 @@
+data:
+  identifier: Signal_arm.Composite_signal_property
+  localized_concepts:
+    eng: 1c8d1fee-dd81-5578-ba4e-b1b0ef81adb7
+  domains:
+    - concept_id: section-Signal_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+      ref_type: section
+id: Signal_arm.Composite_signal_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm.Signal_property,Signal_property}} that represents the composite signal property {{entity}}'
+  notes:
+    - content: A **Composite_signal_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm.Signal_property,Signal_property}} that combines more than one signal property into its structure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+          version: '1'
+      type: authoritative
+      id: Signal_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Composite_signal_property
+  domain: 'application module: Signal_arm'
+  language_code: eng
+  annotations: []
+id: 1c8d1fee-dd81-5578-ba4e-b1b0ef81adb7

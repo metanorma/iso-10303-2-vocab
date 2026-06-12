@@ -1,0 +1,31 @@
+data:
+  identifier: systems_engineering_representation_schema.action_method_assignment_relationship
+  localized_concepts:
+    eng: 871d95a0-17a3-5727-962f-2ac5850caa89
+  domains:
+    - concept_id: section-systems_engineering_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+      ref_type: section
+id: systems_engineering_representation_schema.action_method_assignment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action method assignment relationship {{entity}}'
+  notes:
+    - content: A **action_method_assignment_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_method_assignment,action_method_assignment}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+          version: '2'
+      type: authoritative
+      id: systems_engineering_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_method_assignment_relationship
+  domain: 'resource: systems_engineering_representation_schema'
+  language_code: eng
+  annotations: []
+id: 871d95a0-17a3-5727-962f-2ac5850caa89

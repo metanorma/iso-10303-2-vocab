@@ -1,0 +1,31 @@
+data:
+  identifier: shape_data_quality_inspection_result_schema.shape_inspection_result_accuracy_association
+  localized_concepts:
+    eng: 66600243-f101-5359-9111-0232e9fa125a
+  domains:
+    - concept_id: section-shape_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+      ref_type: section
+id: shape_data_quality_inspection_result_schema.shape_inspection_result_accuracy_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape inspection result accuracy association {{entity}}'
+  notes:
+    - content: A **shape_inspection_result_accuracy_association** is the representation of the relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result,shape_data_quality_inspection_result}} and the accuracy applied by the inspection.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_inspection_result_accuracy_association
+  domain: 'resource: shape_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 66600243-f101-5359-9111-0232e9fa125a

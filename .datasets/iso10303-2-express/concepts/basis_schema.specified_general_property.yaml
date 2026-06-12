@@ -1,0 +1,33 @@
+data:
+  identifier: basis_schema.specified_general_property
+  localized_concepts:
+    eng: 110512e4-a817-5dbd-b26e-2c880c11b729
+  domains:
+    - concept_id: section-basis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+      ref_type: section
+id: basis_schema.specified_general_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that represents the specified general property {{entity}}'
+  notes:
+    - content: |-
+        A *specified_general_property* is a kind of
+        *general_property* where the identifier is one of a pre-defined set.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+          version: '2'
+      type: authoritative
+      id: basis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: specified_general_property
+  domain: 'resource: basis_schema'
+  language_code: eng
+  annotations: []
+id: 110512e4-a817-5dbd-b26e-2c880c11b729

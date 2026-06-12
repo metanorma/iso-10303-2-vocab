@@ -1,0 +1,31 @@
+data:
+  identifier: Item_definition_structure_arm.Part_definition_relationship
+  localized_concepts:
+    eng: e6d1bbb1-9c90-5629-9e1f-85c77a6c0060
+  domains:
+    - concept_id: section-Item_definition_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+      ref_type: section
+id: Item_definition_structure_arm.Part_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the part definition relationship {{entity}}'
+  notes:
+    - content: A **Part_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that relates two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}The meaning of the relationship is defined with the inherited attribute {{relation_type,relation_type}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+          version: '6'
+      type: authoritative
+      id: Item_definition_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_definition_relationship
+  domain: 'application module: Item_definition_structure_arm'
+  language_code: eng
+  annotations: []
+id: e6d1bbb1-9c90-5629-9e1f-85c77a6c0060

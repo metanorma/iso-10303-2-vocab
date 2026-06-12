@@ -1,0 +1,31 @@
+data:
+  identifier: Security_classification_arm.Security_classification
+  localized_concepts:
+    eng: 86783a0a-fc9d-51fd-9e1e-76b382393690
+  domains:
+    - concept_id: section-Security_classification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Security_classification_arm
+      ref_type: section
+id: Security_classification_arm.Security_classification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the security classification {{entity}}'
+  notes:
+    - content: A **Security_classification** is a level of confidentiality that can be applied to protect activity or product data against unauthorized usage.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Security_classification_arm
+          version: '1'
+      type: authoritative
+      id: Security_classification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Security_classification
+  domain: 'application module: Security_classification_arm'
+  language_code: eng
+  annotations: []
+id: 86783a0a-fc9d-51fd-9e1e-76b382393690

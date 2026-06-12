@@ -1,0 +1,31 @@
+data:
+  identifier: Message_arm.Message
+  localized_concepts:
+    eng: 02996e65-70d3-59a3-939c-aa0310bd8a61
+  domains:
+    - concept_id: section-Message_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+      ref_type: section
+id: Message_arm.Message
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the message {{entity}}'
+  notes:
+    - content: A **Message** is a collection of information, brought together by an originator (the message definer) for some particular purpose, generally the fulfillment of a process.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+          version: '2'
+      type: authoritative
+      id: Message_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Message
+  domain: 'application module: Message_arm'
+  language_code: eng
+  annotations: []
+id: 02996e65-70d3-59a3-939c-aa0310bd8a61

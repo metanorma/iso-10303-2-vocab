@@ -1,0 +1,31 @@
+data:
+  identifier: Certification_arm.Certification
+  localized_concepts:
+    eng: f048a0fa-34dc-52dc-bc12-fe33e1175c94
+  domains:
+    - concept_id: section-Certification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_arm
+      ref_type: section
+id: Certification_arm.Certification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the certification {{entity}}'
+  notes:
+    - content: A **Certification** is a certificate.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_arm
+          version: '1'
+      type: authoritative
+      id: Certification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Certification
+  domain: 'application module: Certification_arm'
+  language_code: eng
+  annotations: []
+id: f048a0fa-34dc-52dc-bc12-fe33e1175c94

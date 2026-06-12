@@ -1,0 +1,31 @@
+data:
+  identifier: Stock_material_arm.Filament_assembly
+  localized_concepts:
+    eng: 2581467a-18d5-561a-aafb-41f092857d38
+  domains:
+    - concept_id: section-Stock_material_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+      ref_type: section
+id: Stock_material_arm.Filament_assembly
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that represents the filament assembly {{entity}}'
+  notes:
+    - content: A **Filament_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that is a collection of yarns or tows combined together in some manner and frequently embedded in a matrix of homogenous material.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+          version: '3'
+      type: authoritative
+      id: Stock_material_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Filament_assembly
+  domain: 'application module: Stock_material_arm'
+  language_code: eng
+  annotations: []
+id: 2581467a-18d5-561a-aafb-41f092857d38

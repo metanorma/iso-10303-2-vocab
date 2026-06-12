@@ -1,0 +1,31 @@
+data:
+  identifier: Sequential_laminate_assembly_design_arm.Stackup_requirement_to_design_relationship
+  localized_concepts:
+    eng: 0fb06582-7364-5f52-8ff1-3f486864d429
+  domains:
+    - concept_id: section-Sequential_laminate_assembly_design_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+      ref_type: section
+id: Sequential_laminate_assembly_design_arm.Stackup_requirement_to_design_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the stackup requirement to design relationship {{entity}}'
+  notes:
+    - content: A **Stackup_requirement_to_design_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that associates an oem design view with a fabrication stackup view for configuration management purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+          version: '5'
+      type: authoritative
+      id: Sequential_laminate_assembly_design_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Stackup_requirement_to_design_relationship
+  domain: 'application module: Sequential_laminate_assembly_design_arm'
+  language_code: eng
+  annotations: []
+id: 0fb06582-7364-5f52-8ff1-3f486864d429

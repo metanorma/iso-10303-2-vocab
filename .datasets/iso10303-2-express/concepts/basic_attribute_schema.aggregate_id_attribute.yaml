@@ -1,0 +1,31 @@
+data:
+  identifier: basic_attribute_schema.aggregate_id_attribute
+  localized_concepts:
+    eng: ec374f0d-f388-5ea4-9049-baaff71d8808
+  domains:
+    - concept_id: section-basic_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+      ref_type: section
+id: basic_attribute_schema.aggregate_id_attribute
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the aggregate id attribute {{entity}}'
+  notes:
+    - content: An **aggregate_id_attribute** is used for the case where there is more than one product data element for a specific identifier.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+          version: '9'
+      type: authoritative
+      id: basic_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: aggregate_id_attribute
+  domain: 'resource: basic_attribute_schema'
+  language_code: eng
+  annotations: []
+id: ec374f0d-f388-5ea4-9049-baaff71d8808

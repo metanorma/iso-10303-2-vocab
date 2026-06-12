@@ -1,0 +1,31 @@
+data:
+  identifier: document_schema.document_representation_type
+  localized_concepts:
+    eng: 78eef8e7-c85f-5cd3-a640-1a3d388d0262
+  domains:
+    - concept_id: section-document_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+      ref_type: section
+id: document_schema.document_representation_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document representation type {{entity}}'
+  notes:
+    - content: A **document_representation_type** is a specification of the way a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} is represented.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+          version: '4'
+      type: authoritative
+      id: document_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: document_representation_type
+  domain: 'resource: document_schema'
+  language_code: eng
+  annotations: []
+id: 78eef8e7-c85f-5cd3-a640-1a3d388d0262

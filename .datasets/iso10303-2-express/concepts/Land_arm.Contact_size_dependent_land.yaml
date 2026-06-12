@@ -1,0 +1,31 @@
+data:
+  identifier: Land_arm.Contact_size_dependent_land
+  localized_concepts:
+    eng: 60b18d3f-46fb-5a50-b9a5-fcb5b07e9918
+  domains:
+    - concept_id: section-Land_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+      ref_type: section
+id: Land_arm.Contact_size_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land,Land}} that represents the contact size dependent land {{entity}}'
+  notes:
+    - content: A **Contact_size_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land,Land}} whose shape is dependent on the size of the contact area of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}} that will be joined to the **Contact_size_dependent_land** in the assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+          version: '5'
+      type: authoritative
+      id: Land_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Contact_size_dependent_land
+  domain: 'application module: Land_arm'
+  language_code: eng
+  annotations: []
+id: 60b18d3f-46fb-5a50-b9a5-fcb5b07e9918

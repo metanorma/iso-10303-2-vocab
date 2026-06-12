@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_mim.change_element_sequence
+  localized_concepts:
+    eng: a0d1ff69-f81e-5fe7-b6c7-c52a1d4a38c1
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.change_element_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that represents the change element sequence {{entity}}'
+  notes:
+    - content: A **change_element_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element_sequence,Change_element_sequence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: change_element_sequence
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: a0d1ff69-f81e-5fe7-b6c7-c52a1d4a38c1

@@ -1,0 +1,31 @@
+data:
+  identifier: Numeric_expression_arm.Boolean_variable
+  localized_concepts:
+    eng: 39ea70a5-8f1e-5256-aaa2-693843a35173
+  domains:
+    - concept_id: section-Numeric_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+      ref_type: section
+id: Numeric_expression_arm.Boolean_variable
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boolean variable {{entity}}'
+  notes:
+    - content: A **Boolean_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Simple_boolean_expression,Simple_boolean_expression}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Variable,Variable}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+          version: '2'
+      type: authoritative
+      id: Numeric_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Boolean_variable
+  domain: 'application module: Numeric_expression_arm'
+  language_code: eng
+  annotations: []
+id: 39ea70a5-8f1e-5256-aaa2-693843a35173

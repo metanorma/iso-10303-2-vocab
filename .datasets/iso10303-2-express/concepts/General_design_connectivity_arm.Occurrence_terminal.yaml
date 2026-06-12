@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Occurrence_terminal
+  localized_concepts:
+    eng: 7fd6f598-a03a-5528-9971-0fdcfc819d9c
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Occurrence_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_contact_feature,Occurrence_contact_feature}} that represents the occurrence terminal {{entity}}'
+  notes:
+    - content: An **Occurrence_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_contact_feature,Occurrence_contact_feature}} that can be joined with another **Occurrence_terminal** for transporting information, energy, or matter.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Occurrence_terminal
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 7fd6f598-a03a-5528-9971-0fdcfc819d9c

@@ -1,0 +1,31 @@
+data:
+  identifier: document_schema.document_with_class
+  localized_concepts:
+    eng: ffda88bf-3d53-5645-a113-7205b9156e20
+  domains:
+    - concept_id: section-document_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+      ref_type: section
+id: document_schema.document_with_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} that represents the document with class {{entity}}'
+  notes:
+    - content: A **document_with_class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} for which a classification is specified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+          version: '4'
+      type: authoritative
+      id: document_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: document_with_class
+  domain: 'resource: document_schema'
+  language_code: eng
+  annotations: []
+id: ffda88bf-3d53-5645-a113-7205b9156e20

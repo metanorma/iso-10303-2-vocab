@@ -1,0 +1,31 @@
+data:
+  identifier: External_representation_item_arm.External_string_representation_item
+  localized_concepts:
+    eng: bde4ead6-3e56-5385-b833-cc0279d39500
+  domains:
+    - concept_id: section-External_representation_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+      ref_type: section
+id: External_representation_item_arm.External_string_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm.External_representation_item,External_representation_item}} that represents the external string representation item {{entity}}'
+  notes:
+    - content: A **External_string_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm.External_representation_item,External_representation_item}} that is a string defined in an external library.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+          version: '2'
+      type: authoritative
+      id: External_representation_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_string_representation_item
+  domain: 'application module: External_representation_item_arm'
+  language_code: eng
+  annotations: []
+id: bde4ead6-3e56-5385-b833-cc0279d39500

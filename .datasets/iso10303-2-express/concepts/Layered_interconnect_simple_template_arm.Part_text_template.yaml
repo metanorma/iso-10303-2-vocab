@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_simple_template_arm.Part_text_template
+  localized_concepts:
+    eng: 5a35465a-e425-5e3a-bc89-09f8447deb21
+  domains:
+    - concept_id: section-Layered_interconnect_simple_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+      ref_type: section
+id: Layered_interconnect_simple_template_arm.Part_text_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the part text template {{entity}}'
+  notes:
+    - content: A **Part_text_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that is the information required to support the creation of text messages in the stratum material on the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}} or in a marking application.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_simple_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_text_template
+  domain: 'application module: Layered_interconnect_simple_template_arm'
+  language_code: eng
+  annotations: []
+id: 5a35465a-e425-5e3a-bc89-09f8447deb21

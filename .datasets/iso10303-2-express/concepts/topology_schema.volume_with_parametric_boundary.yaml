@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.volume_with_parametric_boundary
+  localized_concepts:
+    eng: a3a9e646-9fe9-561c-a080-fc9370bddb3c
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.volume_with_parametric_boundary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.volume_with_faces,volume_with_faces}} that represents the volume with parametric boundary {{entity}}'
+  notes:
+    - content: A **volume_with_parametric_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.volume_with_faces,volume_with_faces}} where the boundary is specified by six faces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: volume_with_parametric_boundary
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: a3a9e646-9fe9-561c-a080-fc9370bddb3c

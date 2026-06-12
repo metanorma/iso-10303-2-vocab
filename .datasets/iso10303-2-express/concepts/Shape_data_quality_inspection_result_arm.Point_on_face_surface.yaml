@@ -1,0 +1,33 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Point_on_face_surface
+  localized_concepts:
+    eng: e9c791ec-856e-526d-9f3e-d0e87b56e2ef
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Point_on_face_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_surface,point_on_surface}} that represents the point on face surface {{entity}}'
+  notes:
+    - content: |-
+        A **Point_on_face_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Point_on_surface,Point_on_surface}}
+        and represents the location on the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Face_surface,Face_surface}} where the extreme value was measured.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_on_face_surface
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: e9c791ec-856e-526d-9f3e-d0e87b56e2ef

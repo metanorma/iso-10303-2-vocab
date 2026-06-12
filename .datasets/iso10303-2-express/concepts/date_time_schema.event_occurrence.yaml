@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.event_occurrence
+  localized_concepts:
+    eng: 05c0cf6a-34c0-5548-a9e0-5a6c14ff100d
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.event_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event occurrence {{entity}}'
+  notes:
+    - content: An **event_occurrence** is the fact of a transition between states at some point in time.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: event_occurrence
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 05c0cf6a-34c0-5548-a9e0-5a6c14ff100d

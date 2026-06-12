@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_mim.surface_porosity_allowance_area
+  localized_concepts:
+    eng: c1cc056c-a08a-55a8-bf76-a5fb1d67b0d0
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_mim.surface_porosity_allowance_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.area_based_llai,area_based_llai}} that represents the surface porosity allowance area {{entity}}'
+  notes:
+    - content: A **surface_porosity_allowance_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.area_based_llai,area_based_llai}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Surface_porosity_allowance_area,Surface_porosity_allowance_area}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_porosity_allowance_area
+  domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
+  language_code: eng
+  annotations: []
+id: c1cc056c-a08a-55a8-bf76-a5fb1d67b0d0

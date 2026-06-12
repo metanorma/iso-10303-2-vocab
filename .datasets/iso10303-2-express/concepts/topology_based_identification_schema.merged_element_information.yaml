@@ -1,0 +1,31 @@
+data:
+  identifier: topology_based_identification_schema.merged_element_information
+  localized_concepts:
+    eng: 34e912eb-3c2e-5530-92c0-976aadf5def0
+  domains:
+    - concept_id: section-topology_based_identification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+      ref_type: section
+id: topology_based_identification_schema.merged_element_information
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.ambiguity_resolution,ambiguity_resolution}} that represents the merged element information {{entity}}'
+  notes:
+    - content: A **merged_element_information** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.ambiguity_resolution,ambiguity_resolution}} that specifies the MEI to resolve the ambiguity when elements are merged to create a new element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+          version: '1'
+      type: authoritative
+      id: topology_based_identification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: merged_element_information
+  domain: 'resource: topology_based_identification_schema'
+  language_code: eng
+  annotations: []
+id: 34e912eb-3c2e-5530-92c0-976aadf5def0

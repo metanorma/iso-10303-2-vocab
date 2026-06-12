@@ -1,0 +1,31 @@
+data:
+  identifier: Building_component_mim.negative_component
+  localized_concepts:
+    eng: cf21af72-de8d-5146-bb3c-15764a46dcd7
+  domains:
+    - concept_id: section-Building_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+      ref_type: section
+id: Building_component_mim.negative_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the negative component {{entity}}'
+  notes:
+    - content: A **negative_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents a volume of space that is removed from some shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+          version: '1'
+      type: authoritative
+      id: Building_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: negative_component
+  domain: 'application module: Building_component_mim'
+  language_code: eng
+  annotations: []
+id: cf21af72-de8d-5146-bb3c-15764a46dcd7

@@ -1,0 +1,31 @@
+data:
+  identifier: Draughting_annotation_mim.pre_defined_dimension_symbol
+  localized_concepts:
+    eng: 37464f16-1203-58e0-b166-2a6254401a62
+  domains:
+    - concept_id: section-Draughting_annotation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_mim
+      ref_type: section
+id: Draughting_annotation_mim.pre_defined_dimension_symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}} that represents the pre defined dimension symbol {{entity}}'
+  notes:
+    - content: A **pre_defined_dimension_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm.Dimension_symbol,Dimension_symbol}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_mim
+          version: '4'
+      type: authoritative
+      id: Draughting_annotation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pre_defined_dimension_symbol
+  domain: 'application module: Draughting_annotation_mim'
+  language_code: eng
+  annotations: []
+id: 37464f16-1203-58e0-b166-2a6254401a62

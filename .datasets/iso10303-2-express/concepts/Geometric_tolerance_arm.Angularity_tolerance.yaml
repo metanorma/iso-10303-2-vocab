@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Angularity_tolerance
+  localized_concepts:
+    eng: 358125a6-abe6-5da2-a447-98d7a27cee56
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Angularity_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the angularity tolerance {{entity}}'
+  notes:
+    - content: An **Angularity_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that is a constraint on the location of a surface, of a centre plane, of an edge, or of an axis that lies theoretically at a specified angle (other than 90 degrees) from a datum plane or from a datum axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Angularity_tolerance
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 358125a6-abe6-5da2-a447-98d7a27cee56

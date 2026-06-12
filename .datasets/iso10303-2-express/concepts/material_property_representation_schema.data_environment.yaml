@@ -1,0 +1,31 @@
+data:
+  identifier: material_property_representation_schema.data_environment
+  localized_concepts:
+    eng: c9c30d9f-9de2-5c83-9255-599dc37db765
+  domains:
+    - concept_id: section-material_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+      ref_type: section
+id: material_property_representation_schema.data_environment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data environment {{entity}}'
+  notes:
+    - content: A **data_environment** is a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} which allows the conditions which relate to one or more properties to be grouped together.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+          version: '2'
+      type: authoritative
+      id: material_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_environment
+  domain: 'resource: material_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: c9c30d9f-9de2-5c83-9255-599dc37db765

@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_property_assignment_arm.Applied_independent_resource_property
+  localized_concepts:
+    eng: 1119d2a3-c85f-59db-8dd9-96669170e4fa
+  domains:
+    - concept_id: section-Resource_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm
+      ref_type: section
+id: Resource_property_assignment_arm.Applied_independent_resource_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm.Resource_property,Resource_property}} that represents the applied independent resource property {{entity}}'
+  notes:
+    - content: An **Applied_independent_resource_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm.Resource_property,Resource_property}} that is associated to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_property_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Resource_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Applied_independent_resource_property
+  domain: 'application module: Resource_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 1119d2a3-c85f-59db-8dd9-96669170e4fa

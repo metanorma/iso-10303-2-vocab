@@ -1,0 +1,31 @@
+data:
+  identifier: External_class_mim.external_class_library
+  localized_concepts:
+    eng: 23ddbdfb-c1d1-56b8-b1b5-5020ffef6f07
+  domains:
+    - concept_id: section-External_class_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_class_mim
+      ref_type: section
+id: External_class_mim.external_class_library
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.external_source,external_source}} that represents the external class library {{entity}}'
+  notes:
+    - content: An **external_class_library** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.external_source,external_source}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_class_arm.External_class_library,External_class_library}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_class_mim
+          version: '3'
+      type: authoritative
+      id: External_class_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: external_class_library
+  domain: 'application module: External_class_mim'
+  language_code: eng
+  annotations: []
+id: 23ddbdfb-c1d1-56b8-b1b5-5020ffef6f07

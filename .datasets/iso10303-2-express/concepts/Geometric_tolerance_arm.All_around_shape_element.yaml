@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.All_around_shape_element
+  localized_concepts:
+    eng: 88d47def-4880-5175-9eb6-72db3d34de6f
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.All_around_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Continuous_shape_element,Continuous_shape_element}} that represents the all around shape element {{entity}}'
+  notes:
+    - content: An **All_around_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}} that represents the concept of "all around" as defined in ISO 1101.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: All_around_shape_element
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 88d47def-4880-5175-9eb6-72db3d34de6f

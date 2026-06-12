@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_arm.Global_assignment
+  localized_concepts:
+    eng: 483914e6-7788-5b82-b87c-1264bba24130
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Global_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the global assignment {{entity}}'
+  notes:
+    - content: A **Global_assignment** is a statement in the production rules that assigns a value to a variable.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Global_assignment
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: 483914e6-7788-5b82-b87c-1264bba24130

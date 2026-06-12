@@ -1,0 +1,33 @@
+data:
+  identifier: shape_data_quality_criteria_schema.shape_data_quality_criterion_and_accuracy_association
+  localized_concepts:
+    eng: 46122a69-3618-5232-bcfd-be6f803c2f1b
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.shape_data_quality_criterion_and_accuracy_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape data quality criterion and accuracy association {{entity}}'
+  notes:
+    - content: |-
+        A **shape_data_quality_criterion_and_accuracy_association** is the representation of a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_data_quality_criterion,shape_data_quality_criterion}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_measurement_accuracy,shape_measurement_accuracy}} required for the measurement
+        against the criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_data_quality_criterion_and_accuracy_association
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 46122a69-3618-5232-bcfd-be6f803c2f1b

@@ -1,0 +1,31 @@
+data:
+  identifier: Extruded_structure_cross_section_mim.cross_sectional_occurrence_shape_element
+  localized_concepts:
+    eng: 5374722a-84a3-5b16-b5b3-7b77d237e42b
+  domains:
+    - concept_id: section-Extruded_structure_cross_section_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+      ref_type: section
+id: Extruded_structure_cross_section_mim.cross_sectional_occurrence_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the cross sectional occurrence shape element {{entity}}'
+  notes:
+    - content: A **cross_sectional_occurrence_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_occurrence_shape_element,Cross_sectional_occurrence_shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+          version: '2'
+      type: authoritative
+      id: Extruded_structure_cross_section_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cross_sectional_occurrence_shape_element
+  domain: 'application module: Extruded_structure_cross_section_mim'
+  language_code: eng
+  annotations: []
+id: 5374722a-84a3-5b16-b5b3-7b77d237e42b

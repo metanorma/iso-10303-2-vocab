@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_elements.structured_dimension_callout
+  localized_concepts:
+    eng: 7d20f9f5-3f31-5339-acf9-da073007e2b0
+  domains:
+    - concept_id: section-aic_draughting_elements
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+      ref_type: section
+id: aic_draughting_elements.structured_dimension_callout
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that represents the structured dimension callout {{entity}}'
+  notes:
+    - content: A **structured_dimension_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that presents information associated with a dimension, in which individual elements presenting different components of the dimensional information may be identified and distinguished.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+          version: '2'
+      type: authoritative
+      id: aic_draughting_elements
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: structured_dimension_callout
+  domain: 'resource: aic_draughting_elements'
+  language_code: eng
+  annotations: []
+id: 7d20f9f5-3f31-5339-acf9-da073007e2b0

@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_result
+  localized_concepts:
+    eng: b4a62183-9a65-58c9-b3c4-f6a2af861e32
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
+      ref_type: section
+id: Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result,Data_quality_inspection_result}} that represents the externally conditioned data quality inspection result {{entity}}'
+  notes:
+    - content: A **Externally_conditioned_data_quality_inspection_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result,Data_quality_inspection_result}} that represents the inspected result for a specific criterion on the data quality based on externally defined acceptance condition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_conditioned_data_quality_inspection_result
+  domain: 'application module: Externally_conditioned_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: b4a62183-9a65-58c9-b3c4-f6a2af861e32

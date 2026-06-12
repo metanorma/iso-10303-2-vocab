@@ -1,0 +1,31 @@
+data:
+  identifier: drawing_definition_schema.drawing_definition
+  localized_concepts:
+    eng: 1d84f479-3bd5-56c2-a699-2074e14ad1ce
+  domains:
+    - concept_id: section-drawing_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+      ref_type: section
+id: drawing_definition_schema.drawing_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the drawing definition {{entity}}'
+  notes:
+    - content: A **drawing_definition** is an identification and categorization, by type, of a set of drawing versions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+          version: '6'
+      type: authoritative
+      id: drawing_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: drawing_definition
+  domain: 'resource: drawing_definition_schema'
+  language_code: eng
+  annotations: []
+id: 1d84f479-3bd5-56c2-a699-2074e14ad1ce

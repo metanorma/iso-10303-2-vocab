@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_mim.characteristic_type
+  localized_concepts:
+    eng: 1e458808-4c53-5c68-884f-5b856dac0bbb
+  domains:
+    - concept_id: section-Characteristic_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+      ref_type: section
+id: Characteristic_mim.characteristic_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the characteristic type {{entity}}'
+  notes:
+    - content: A **characteristic_type** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that specifies a boolean property, a numeric property whose units are in accordance with ISO 10303-41, a compound characteristic, a logical property, a string property, or an externally defined property for a characteristic.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+          version: '6'
+      type: authoritative
+      id: Characteristic_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characteristic_type
+  domain: 'application module: Characteristic_mim'
+  language_code: eng
+  annotations: []
+id: 1e458808-4c53-5c68-884f-5b856dac0bbb

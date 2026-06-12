@@ -1,0 +1,39 @@
+data:
+  identifier: Set_theory_arm.Subset
+  localized_concepts:
+    eng: ede026ac-1b98-567d-b248-dcb810074a7d
+  domains:
+    - concept_id: section-Set_theory_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+      ref_type: section
+id: Set_theory_arm.Subset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the subset {{entity}}'
+  notes:
+    - content: |-
+        A **Subset** is a relationship that is between:
+
+        * set A; and
+        * set B,
+
+        that indicates:
+
+        * each member of set A is also a member of set B.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+          version: '1'
+      type: authoritative
+      id: Set_theory_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Subset
+  domain: 'application module: Set_theory_arm'
+  language_code: eng
+  annotations: []
+id: ede026ac-1b98-567d-b248-dcb810074a7d

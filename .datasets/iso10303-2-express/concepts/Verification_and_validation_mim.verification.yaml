@@ -1,0 +1,31 @@
+data:
+  identifier: Verification_and_validation_mim.verification
+  localized_concepts:
+    eng: 2e499c5e-2b18-579e-bba6-9465d0170555
+  domains:
+    - concept_id: section-Verification_and_validation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_mim
+      ref_type: section
+id: Verification_and_validation_mim.verification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the verification {{entity}}'
+  notes:
+    - content: A **verification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that is used to assert a claim that a requirement satisfied is by an item has been verified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_mim
+          version: '3'
+      type: authoritative
+      id: Verification_and_validation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: verification
+  domain: 'application module: Verification_and_validation_mim'
+  language_code: eng
+  annotations: []
+id: 2e499c5e-2b18-579e-bba6-9465d0170555

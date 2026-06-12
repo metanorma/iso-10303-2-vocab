@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.centre_of_symmetry
+  localized_concepts:
+    eng: 6044b03a-a9b3-5d2c-940e-6bd719d5f402
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.centre_of_symmetry
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that represents the centre of symmetry {{entity}}'
+  notes:
+    - content: A **centre_of_symmetry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that defines the geometric centre of symmetry of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.symmetric_shape_aspect,symmetric_shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: centre_of_symmetry
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: 6044b03a-a9b3-5d2c-940e-6bd719d5f402

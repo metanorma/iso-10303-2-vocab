@@ -1,0 +1,31 @@
+data:
+  identifier: Pre_defined_product_data_management_specializations_arm.Pre_defined_activity_relationship
+  localized_concepts:
+    eng: 713db97f-8978-5b78-b3a3-2cc2df37103c
+  domains:
+    - concept_id: section-Pre_defined_product_data_management_specializations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+      ref_type: section
+id: Pre_defined_product_data_management_specializations_arm.Pre_defined_activity_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity_relationship,Activity_relationship}} that represents the pre defined activity relationship {{entity}}'
+  notes:
+    - content: A **Pre_defined_activity_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity_relationship,Activity_relationship}} whose meaning is defined by one of the {{Pre_defined_activity_relationship_types,Pre_defined_activity_relationship_types}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+          version: '4'
+      type: authoritative
+      id: Pre_defined_product_data_management_specializations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Pre_defined_activity_relationship
+  domain: 'application module: Pre_defined_product_data_management_specializations_arm'
+  language_code: eng
+  annotations: []
+id: 713db97f-8978-5b78-b3a3-2cc2df37103c

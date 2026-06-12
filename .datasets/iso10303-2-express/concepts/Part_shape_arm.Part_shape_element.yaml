@@ -1,0 +1,31 @@
+data:
+  identifier: Part_shape_arm.Part_shape_element
+  localized_concepts:
+    eng: 3168639a-6411-5591-9492-083df5b29cad
+  domains:
+    - concept_id: section-Part_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm
+      ref_type: section
+id: Part_shape_arm.Part_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the part shape element {{entity}}'
+  notes:
+    - content: A **Part_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents an element of the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} or another **Part_shape_element**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm
+          version: '3'
+      type: authoritative
+      id: Part_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_shape_element
+  domain: 'application module: Part_shape_arm'
+  language_code: eng
+  annotations: []
+id: 3168639a-6411-5591-9492-083df5b29cad

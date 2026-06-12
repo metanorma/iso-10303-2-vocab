@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Lower_value
+  localized_concepts:
+    eng: a31ae60b-1ebb-5f23-bb52-1add58fa642f
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Lower_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the lower value {{entity}}'
+  notes:
+    - content: A **Lower_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that specifies the upper bound of an estimated range.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Lower_value
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: a31ae60b-1ebb-5f23-bb52-1add58fa642f

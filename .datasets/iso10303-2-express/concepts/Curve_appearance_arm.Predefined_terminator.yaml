@@ -1,0 +1,31 @@
+data:
+  identifier: Curve_appearance_arm.Predefined_terminator
+  localized_concepts:
+    eng: 23b1078c-2dbc-5a96-ac55-cb200cd42686
+  domains:
+    - concept_id: section-Curve_appearance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+      ref_type: section
+id: Curve_appearance_arm.Predefined_terminator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Terminator,Terminator}} that represents the predefined terminator {{entity}}'
+  notes:
+    - content: A **Predefined_terminator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Terminator,Terminator}} which is defined in this document.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+          version: '6'
+      type: authoritative
+      id: Curve_appearance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Predefined_terminator
+  domain: 'application module: Curve_appearance_arm'
+  language_code: eng
+  annotations: []
+id: 23b1078c-2dbc-5a96-ac55-cb200cd42686

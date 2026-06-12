@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_design_arm.Assembly_module_design_view
+  localized_concepts:
+    eng: e75947c3-81c9-5615-9a78-ba337f165a7f
+  domains:
+    - concept_id: section-Assembly_module_design_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+      ref_type: section
+id: Assembly_module_design_arm.Assembly_module_design_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly module design view {{entity}}'
+  notes:
+    - content: An **Assembly_module_design_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Part_design_view,Part_design_view}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_design_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_module_design_view
+  domain: 'application module: Assembly_module_design_arm'
+  language_code: eng
+  annotations: []
+id: e75947c3-81c9-5615-9a78-ba337f165a7f

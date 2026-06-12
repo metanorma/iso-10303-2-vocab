@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_arm.Area_data_element
+  localized_concepts:
+    eng: cac174ef-79bb-5367-b0f3-9cc9727ca2a8
+  domains:
+    - concept_id: section-Value_with_unit_extension_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+      ref_type: section
+id: Value_with_unit_extension_arm.Area_data_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the area data element {{entity}}'
+  notes:
+    - content: An **Area_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents a two dimensional area.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Area_data_element
+  domain: 'application module: Value_with_unit_extension_arm'
+  language_code: eng
+  annotations: []
+id: cac174ef-79bb-5367-b0f3-9cc9727ca2a8

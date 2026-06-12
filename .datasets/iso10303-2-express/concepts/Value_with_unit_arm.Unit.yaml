@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Unit
+  localized_concepts:
+    eng: c51cfe81-f5f1-52cc-897f-300205717af1
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the unit {{entity}}'
+  notes:
+    - content: A **Unit** is a unit quantity.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Unit
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: c51cfe81-f5f1-52cc-897f-300205717af1

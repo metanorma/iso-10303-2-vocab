@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_physical_requirement_allocation_arm.Interface_component_allocation
+  localized_concepts:
+    eng: ee8720eb-e31f-5b94-a1cf-07d31da8f273
+  domains:
+    - concept_id: section-Assembly_physical_requirement_allocation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+      ref_type: section
+id: Assembly_physical_requirement_allocation_arm.Interface_component_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface component allocation {{entity}}'
+  notes:
+    - content: An **Interface_component_allocation** is the assignment relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_arm.Interface_component,Interface_component}} on an assembly and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Mating_connector_usage,Mating_connector_usage}} to which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_arm.Interface_component,Interface_component}} must mechanically and electrically mate in the next assembly level.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_requirement_allocation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_component_allocation
+  domain: 'application module: Assembly_physical_requirement_allocation_arm'
+  language_code: eng
+  annotations: []
+id: ee8720eb-e31f-5b94-a1cf-07d31da8f273

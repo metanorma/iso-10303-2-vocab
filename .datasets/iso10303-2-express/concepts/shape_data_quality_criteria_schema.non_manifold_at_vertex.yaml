@@ -1,0 +1,30 @@
+data:
+  identifier: shape_data_quality_criteria_schema.non_manifold_at_vertex
+  localized_concepts:
+    eng: 26c10f20-9eb4-5059-83e6-70a7c6c1ac22
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.non_manifold_at_vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology,inapt_topology}} that represents the non manifold at vertex {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: non_manifold_at_vertex
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 26c10f20-9eb4-5059-83e6-70a7c6c1ac22

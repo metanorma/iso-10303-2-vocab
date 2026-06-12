@@ -1,0 +1,31 @@
+data:
+  identifier: Feature_and_connection_zone_mim.connection_zone_interface_plane_relationship
+  localized_concepts:
+    eng: 01041f7b-40ec-543b-a260-cdd858398915
+  domains:
+    - concept_id: section-Feature_and_connection_zone_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_mim
+      ref_type: section
+id: Feature_and_connection_zone_mim.connection_zone_interface_plane_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the connection zone interface plane relationship {{entity}}'
+  notes:
+    - content: A **connection_zone_interface_plane_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Connection_zone_bare_die_interface_plane_relationship,Connection_zone_bare_die_interface_plane_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_mim
+          version: '5'
+      type: authoritative
+      id: Feature_and_connection_zone_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: connection_zone_interface_plane_relationship
+  domain: 'application module: Feature_and_connection_zone_mim'
+  language_code: eng
+  annotations: []
+id: 01041f7b-40ec-543b-a260-cdd858398915

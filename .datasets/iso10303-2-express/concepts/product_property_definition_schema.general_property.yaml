@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_definition_schema.general_property
+  localized_concepts:
+    eng: 2fa70276-6987-5955-8429-d1cd0282a0ac
+  domains:
+    - concept_id: section-product_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+      ref_type: section
+id: product_property_definition_schema.general_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the general property {{entity}}'
+  notes:
+    - content: A **general_property** is an identification of a type of property.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: general_property
+  domain: 'resource: product_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 2fa70276-6987-5955-8429-d1cd0282a0ac

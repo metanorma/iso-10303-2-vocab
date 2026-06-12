@@ -1,0 +1,31 @@
+data:
+  identifier: location_schema.location_relationship
+  localized_concepts:
+    eng: 0456511b-1ae2-5cea-86e1-6383f070cbf6
+  domains:
+    - concept_id: section-location_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema
+      ref_type: section
+id: location_schema.location_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location relationship {{entity}}'
+  notes:
+    - content: A **location_relationship** is a relationship between two instances of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema.location,location}} entity data type and provides for the identification, naming, and description of that relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema
+          version: '4'
+      type: authoritative
+      id: location_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: location_relationship
+  domain: 'resource: location_schema'
+  language_code: eng
+  annotations: []
+id: 0456511b-1ae2-5cea-86e1-6383f070cbf6

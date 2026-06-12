@@ -1,0 +1,38 @@
+data:
+  identifier: Requirement_decomposition_mim.predefined_requirement_view_definition
+  localized_concepts:
+    eng: 96640021-f80b-5c52-a3e0-b317bf1417c1
+  domains:
+    - concept_id: section-Requirement_decomposition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
+      ref_type: section
+id: Requirement_decomposition_mim.predefined_requirement_view_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the predefined requirement view definition {{entity}}'
+  notes:
+    - content: |-
+        A **predefined_requirement_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Constraint_occurrence,Constraint_occurrence}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Design_characteristic_occurrence,Design_characteristic_occurrence}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Interface_requirement,Interface_requirement}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Material_electrical_conductivity_requirement,Material_electrical_conductivity_requirement}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_decomposition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: predefined_requirement_view_definition
+  domain: 'application module: Requirement_decomposition_mim'
+  language_code: eng
+  annotations: []
+id: 96640021-f80b-5c52-a3e0-b317bf1417c1

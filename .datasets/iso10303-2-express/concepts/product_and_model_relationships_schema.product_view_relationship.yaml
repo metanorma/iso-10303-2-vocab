@@ -1,0 +1,37 @@
+data:
+  identifier: product_and_model_relationships_schema.product_view_relationship
+  localized_concepts:
+    eng: 211f3e56-ece6-57b2-9449-35b1d67a20cf
+  domains:
+    - concept_id: section-product_and_model_relationships_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_and_model_relationships_schema
+      ref_type: section
+id: product_and_model_relationships_schema.product_view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product view relationship {{entity}}'
+  notes:
+    - content: |-
+        A **product_view_relationship** is a relationship that is between:
+
+        * an idealisation of a product for analysis; and
+        * a discretised analysis model
+
+        which indicates that the discretised analysis model is a model of the idealised product created for the purpose of numerical analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_and_model_relationships_schema
+          version: '1'
+      type: authoritative
+      id: product_and_model_relationships_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_view_relationship
+  domain: 'resource: product_and_model_relationships_schema'
+  language_code: eng
+  annotations: []
+id: 211f3e56-ece6-57b2-9449-35b1d67a20cf

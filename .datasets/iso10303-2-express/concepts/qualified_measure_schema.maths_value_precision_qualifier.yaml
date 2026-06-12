@@ -1,0 +1,31 @@
+data:
+  identifier: qualified_measure_schema.maths_value_precision_qualifier
+  localized_concepts:
+    eng: 7f3596e7-0df7-5c5b-be44-52d7fff2f16e
+  domains:
+    - concept_id: section-qualified_measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+      ref_type: section
+id: qualified_measure_schema.maths_value_precision_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value precision qualifier {{entity}}'
+  notes:
+    - content: A **maths_value_precision_qualifier** is an expression that describes the number of significant figures in the components of the representation of a value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+          version: '4'
+      type: authoritative
+      id: qualified_measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maths_value_precision_qualifier
+  domain: 'resource: qualified_measure_schema'
+  language_code: eng
+  annotations: []
+id: 7f3596e7-0df7-5c5b-be44-52d7fff2f16e

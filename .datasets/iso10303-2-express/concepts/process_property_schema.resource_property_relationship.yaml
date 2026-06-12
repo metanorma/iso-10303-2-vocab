@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_schema.resource_property_relationship
+  localized_concepts:
+    eng: b33b6d2f-4318-52e2-9fc9-f9640a2d595c
+  domains:
+    - concept_id: section-process_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+      ref_type: section
+id: process_property_schema.resource_property_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource property relationship {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.resource_property_relationship,resource_property_relationship}} is a relationship between two {{resource_property,resource_properties}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+          version: '1'
+      type: authoritative
+      id: process_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: resource_property_relationship
+  domain: 'resource: process_property_schema'
+  language_code: eng
+  annotations: []
+id: b33b6d2f-4318-52e2-9fc9-f9640a2d595c

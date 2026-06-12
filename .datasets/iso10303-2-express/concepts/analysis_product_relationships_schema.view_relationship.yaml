@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_product_relationships_schema.view_relationship
+  localized_concepts:
+    eng: f55e0c89-95ac-5768-8492-60167d03f400
+  domains:
+    - concept_id: section-analysis_product_relationships_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
+      ref_type: section
+id: analysis_product_relationships_schema.view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the view relationship {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema.view_relationship,view_relationship}} is a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that is a view of a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
+          version: '1'
+      type: authoritative
+      id: analysis_product_relationships_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: view_relationship
+  domain: 'resource: analysis_product_relationships_schema'
+  language_code: eng
+  annotations: []
+id: f55e0c89-95ac-5768-8492-60167d03f400

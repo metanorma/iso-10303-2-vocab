@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_mim.literal_disjunction
+  localized_concepts:
+    eng: 36fafb8f-ff80-5c14-a312-edeb45f43ec4
+  domains:
+    - concept_id: section-Production_rule_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+      ref_type: section
+id: Production_rule_mim.literal_disjunction
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.simple_clause,simple_clause}} that represents the literal disjunction {{entity}}'
+  notes:
+    - content: An **literal_disjunction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.simple_clause,simple_clause}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Literal_disjunction,Literal_disjunction}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+          version: '5'
+      type: authoritative
+      id: Production_rule_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: literal_disjunction
+  domain: 'application module: Production_rule_mim'
+  language_code: eng
+  annotations: []
+id: 36fafb8f-ff80-5c14-a312-edeb45f43ec4

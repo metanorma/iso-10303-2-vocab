@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_relationship_arm.View_definition_usage
+  localized_concepts:
+    eng: 16d273eb-6626-5117-ad08-4fb44b2feb35
+  domains:
+    - concept_id: section-Product_view_definition_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm
+      ref_type: section
+id: Product_view_definition_relationship_arm.View_definition_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the view definition usage {{entity}}'
+  notes:
+    - content: A **View_definition_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that specifies a directed association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm
+          version: '3'
+      type: authoritative
+      id: Product_view_definition_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: View_definition_usage
+  domain: 'application module: Product_view_definition_relationship_arm'
+  language_code: eng
+  annotations: []
+id: 16d273eb-6626-5117-ad08-4fb44b2feb35

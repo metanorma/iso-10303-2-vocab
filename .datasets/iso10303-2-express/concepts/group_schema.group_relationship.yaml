@@ -1,0 +1,31 @@
+data:
+  identifier: group_schema.group_relationship
+  localized_concepts:
+    eng: be3e48ec-7bdb-5908-b9a8-3a5428c0a50a
+  domains:
+    - concept_id: section-group_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
+      ref_type: section
+id: group_schema.group_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the group relationship {{entity}}'
+  notes:
+    - content: A **group_relationship** is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} with a description of their relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
+          version: '7'
+      type: authoritative
+      id: group_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: group_relationship
+  domain: 'resource: group_schema'
+  language_code: eng
+  annotations: []
+id: be3e48ec-7bdb-5908-b9a8-3a5428c0a50a

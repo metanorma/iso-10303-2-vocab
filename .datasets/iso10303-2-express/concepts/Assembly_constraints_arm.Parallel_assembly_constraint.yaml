@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_constraints_arm.Parallel_assembly_constraint
+  localized_concepts:
+    eng: d5592bab-e323-562a-9eac-b2364145f12f
+  domains:
+    - concept_id: section-Assembly_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+      ref_type: section
+id: Assembly_constraints_arm.Parallel_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the parallel assembly constraint {{entity}}'
+  notes:
+    - content: A **Parallel_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm.Binary_assembly_constraint,Binary_assembly_constraint}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Parallel_constraint,Parallel_constraint}} specifying that two {{geometric_constraint_element,geometric_constraint_element}} instances, each belonging to different constituents, are constrained to be parallel.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+          version: '1'
+      type: authoritative
+      id: Assembly_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Parallel_assembly_constraint
+  domain: 'application module: Assembly_constraints_arm'
+  language_code: eng
+  annotations: []
+id: d5592bab-e323-562a-9eac-b2364145f12f

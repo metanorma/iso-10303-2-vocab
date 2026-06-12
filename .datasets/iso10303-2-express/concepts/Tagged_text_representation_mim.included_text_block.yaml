@@ -1,0 +1,31 @@
+data:
+  identifier: Tagged_text_representation_mim.included_text_block
+  localized_concepts:
+    eng: abf86fc0-5214-582f-b926-1ee655173b37
+  domains:
+    - concept_id: section-Tagged_text_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+      ref_type: section
+id: Tagged_text_representation_mim.included_text_block
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that represents the included text block {{entity}}'
+  notes:
+    - content: An **included_text_block** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.Included_text_block,Included_text_block}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+          version: '2'
+      type: authoritative
+      id: Tagged_text_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: included_text_block
+  domain: 'application module: Tagged_text_representation_mim'
+  language_code: eng
+  annotations: []
+id: abf86fc0-5214-582f-b926-1ee655173b37

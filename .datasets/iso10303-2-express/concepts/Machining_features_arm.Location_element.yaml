@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Location_element
+  localized_concepts:
+    eng: da6433d6-1c94-5dfa-a7d1-96106502b7fd
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Location_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the location element {{entity}}'
+  notes:
+    - content: A **Location_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} representation for a reference point.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Location_element
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: da6433d6-1c94-5dfa-a7d1-96106502b7fd

@@ -1,0 +1,31 @@
+data:
+  identifier: Default_tolerance_arm.General_tolerance_table
+  localized_concepts:
+    eng: 9aa749ec-bda9-5602-8d78-329fad0b237b
+  domains:
+    - concept_id: section-Default_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+      ref_type: section
+id: Default_tolerance_arm.General_tolerance_table
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the general tolerance table {{entity}}'
+  notes:
+    - content: A **General_tolerance_table** is a table containing information about {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.General_tolerances,General_tolerances}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+          version: '3'
+      type: authoritative
+      id: Default_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_tolerance_table
+  domain: 'application module: Default_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 9aa749ec-bda9-5602-8d78-329fad0b237b

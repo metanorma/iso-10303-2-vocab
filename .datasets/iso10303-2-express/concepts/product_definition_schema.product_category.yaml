@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.product_category
+  localized_concepts:
+    eng: d7d8b488-b6dd-53ea-b675-c18f56cb2ebc
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.product_category
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product category {{entity}}'
+  notes:
+    - content: A **product_category** is a classification that applies to products.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_category
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: d7d8b488-b6dd-53ea-b675-c18f56cb2ebc

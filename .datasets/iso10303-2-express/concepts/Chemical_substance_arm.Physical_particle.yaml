@@ -1,0 +1,31 @@
+data:
+  identifier: Chemical_substance_arm.Physical_particle
+  localized_concepts:
+    eng: e8ec86d1-64f7-5a87-8f6b-da249f2af1c6
+  domains:
+    - concept_id: section-Chemical_substance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+      ref_type: section
+id: Chemical_substance_arm.Physical_particle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}} that represents the physical particle {{entity}}'
+  notes:
+    - content: A **Physical_particle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}} that represents a {{physical particle}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+          version: '4'
+      type: authoritative
+      id: Chemical_substance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_particle
+  domain: 'application module: Chemical_substance_arm'
+  language_code: eng
+  annotations: []
+id: e8ec86d1-64f7-5a87-8f6b-da249f2af1c6

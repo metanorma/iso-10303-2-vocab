@@ -1,0 +1,31 @@
+data:
+  identifier: Location_arm.Location
+  localized_concepts:
+    eng: b7a0d9e6-aa44-5359-b44a-a2074f3470d7
+  domains:
+    - concept_id: section-Location_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+      ref_type: section
+id: Location_arm.Location
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location {{entity}}'
+  notes:
+    - content: A **Location** is a place or position where an activity or event can occur or a product or resource can exist.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+          version: '2'
+      type: authoritative
+      id: Location_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Location
+  domain: 'application module: Location_arm'
+  language_code: eng
+  annotations: []
+id: b7a0d9e6-aa44-5359-b44a-a2074f3470d7

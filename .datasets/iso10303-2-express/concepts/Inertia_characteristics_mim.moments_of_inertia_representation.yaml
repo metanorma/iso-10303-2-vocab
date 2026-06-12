@@ -1,0 +1,31 @@
+data:
+  identifier: Inertia_characteristics_mim.moments_of_inertia_representation
+  localized_concepts:
+    eng: 2e4e6485-41b3-534c-942f-be6587f49cd0
+  domains:
+    - concept_id: section-Inertia_characteristics_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_mim
+      ref_type: section
+id: Inertia_characteristics_mim.moments_of_inertia_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the moments of inertia representation {{entity}}'
+  notes:
+    - content: A **moments_of_inertia_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that describes the law of inertia of a rigid body.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_mim
+          version: '3'
+      type: authoritative
+      id: Inertia_characteristics_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: moments_of_inertia_representation
+  domain: 'application module: Inertia_characteristics_mim'
+  language_code: eng
+  annotations: []
+id: 2e4e6485-41b3-534c-942f-be6587f49cd0

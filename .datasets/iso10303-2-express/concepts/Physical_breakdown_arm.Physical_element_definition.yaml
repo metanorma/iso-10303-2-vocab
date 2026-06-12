@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_breakdown_arm.Physical_element_definition
+  localized_concepts:
+    eng: 802d57f6-2ba2-5385-816e-09e072605b68
+  domains:
+    - concept_id: section-Physical_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+      ref_type: section
+id: Physical_breakdown_arm.Physical_element_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that represents the physical element definition {{entity}}'
+  notes:
+    - content: A **Physical_element_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that identifies a view of a version ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_element_version,Physical_element_version}}) of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_element,Physical_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+          version: '2'
+      type: authoritative
+      id: Physical_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_element_definition
+  domain: 'application module: Physical_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 802d57f6-2ba2-5385-816e-09e072605b68

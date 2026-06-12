@@ -1,0 +1,31 @@
+data:
+  identifier: Building_component_arm.Building_element_component
+  localized_concepts:
+    eng: a9237da1-d97f-5ca2-9d68-ab702448466d
+  domains:
+    - concept_id: section-Building_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+      ref_type: section
+id: Building_component_arm.Building_element_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the building element component {{entity}}'
+  notes:
+    - content: A **Building_element_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} which represents a part of the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}} object that can play a functional role.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+          version: '1'
+      type: authoritative
+      id: Building_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Building_element_component
+  domain: 'application module: Building_component_arm'
+  language_code: eng
+  annotations: []
+id: a9237da1-d97f-5ca2-9d68-ab702448466d

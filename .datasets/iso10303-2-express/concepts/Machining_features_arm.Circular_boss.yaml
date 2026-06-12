@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Circular_boss
+  localized_concepts:
+    eng: 14ae97d5-b560-5c2d-a3ce-9b54db0250bd
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Circular_boss
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}} that represents the circular boss {{entity}}'
+  notes:
+    - content: A **Circular_boss** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}} that is a cylindrical shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Circular_boss
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 14ae97d5-b560-5c2d-a3ce-9b54db0250bd

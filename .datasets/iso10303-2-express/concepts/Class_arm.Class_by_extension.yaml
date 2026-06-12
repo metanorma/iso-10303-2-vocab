@@ -1,0 +1,31 @@
+data:
+  identifier: Class_arm.Class_by_extension
+  localized_concepts:
+    eng: 996b0b94-cf17-5fa0-adc8-35920a00baff
+  domains:
+    - concept_id: section-Class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm
+      ref_type: section
+id: Class_arm.Class_by_extension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents the class by extension {{entity}}'
+  notes:
+    - content: A **Class_by_extension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that is a set that is defined by means of a criterion that does not enumerate the members.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm
+          version: '2'
+      type: authoritative
+      id: Class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Class_by_extension
+  domain: 'application module: Class_arm'
+  language_code: eng
+  annotations: []
+id: 996b0b94-cf17-5fa0-adc8-35920a00baff

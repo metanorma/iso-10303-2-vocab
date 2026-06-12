@@ -1,0 +1,31 @@
+---
+data:
+  identifier: mathematical-concepts.function_abstraction
+  localized_concepts:
+    eng: c3e993ac-224a-5c44-8718-731d177fa1df
+  domains:
+  - concept_id: section-mathematical-concepts
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 01c1c281-556a-5212-a047-08fb04c0d9c4
+schema_version: v3
+---
+data:
+  definition:
+  - content: quantifier operation which creates an expression denoting a mathematical
+      function from another expression and a list of variables
+  notes:
+  - content: The variables become bound and identify the inputs to the function. The
+      algorithm to be used to produce an output is implied by the expression. The
+      "abstraction" comes from the change in the semantics of what the new expression
+      denotes. The expression going into the operation denotes some object. The resulting
+      expression denotes a higher-order object, namely a function which produces objects
+      of the original type from inputs of the types associated with the variables
+      named as inputs.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: function abstraction
+  language_code: eng
+  annotations: []
+id: c3e993ac-224a-5c44-8718-731d177fa1df

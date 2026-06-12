@@ -1,0 +1,33 @@
+data:
+  identifier: aic_faceted_brep.faceted_brep_shape_representation
+  localized_concepts:
+    eng: 90a03207-963e-55e5-bf77-cd68de6c07a9
+  domains:
+    - concept_id: section-aic_faceted_brep
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_faceted_brep
+      ref_type: section
+id: aic_faceted_brep.faceted_brep_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the faceted brep shape representation {{entity}}'
+  notes:
+    - content: |-
+        The **faceted_brep_shape_representation** is a type of shape representation in which the rep-
+        resentation items are specialisations of faceted brep entities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_faceted_brep
+          version: '1'
+      type: authoritative
+      id: aic_faceted_brep
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: faceted_brep_shape_representation
+  domain: 'resource: aic_faceted_brep'
+  language_code: eng
+  annotations: []
+id: 90a03207-963e-55e5-bf77-cd68de6c07a9

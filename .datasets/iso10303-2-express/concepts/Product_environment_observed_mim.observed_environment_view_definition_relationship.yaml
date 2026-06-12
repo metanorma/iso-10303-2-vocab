@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_mim.observed_environment_view_definition_relationship
+  localized_concepts:
+    eng: eee270c9-11da-52ef-ba5e-d19717430fb0
+  domains:
+    - concept_id: section-Product_environment_observed_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+      ref_type: section
+id: Product_environment_observed_mim.observed_environment_view_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the observed environment view definition relationship {{entity}}'
+  notes:
+    - content: An **observed_environment_view_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim.observed_environment_view,observed_environment_view}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: observed_environment_view_definition_relationship
+  domain: 'application module: Product_environment_observed_mim'
+  language_code: eng
+  annotations: []
+id: eee270c9-11da-52ef-ba5e-d19717430fb0

@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.face_shape_representation
+  localized_concepts:
+    eng: 10db9a90-1791-53e2-a591-920168f39df6
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.face_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the face shape representation {{entity}}'
+  notes:
+    - content: A **face_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents geometry defined by a portion of an associated surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: face_shape_representation
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 10db9a90-1791-53e2-a591-920168f39df6

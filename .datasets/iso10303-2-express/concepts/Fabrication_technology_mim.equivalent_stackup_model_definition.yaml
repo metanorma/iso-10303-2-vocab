@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_mim.equivalent_stackup_model_definition
+  localized_concepts:
+    eng: b60773c0-736c-5f1b-808e-55ba0adb373d
+  domains:
+    - concept_id: section-Fabrication_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+      ref_type: section
+id: Fabrication_technology_mim.equivalent_stackup_model_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the equivalent stackup model definition {{entity}}'
+  notes:
+    - content: An **equivalent_stackup_model_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Equivalent_stackup_model_definition,Equivalent_stackup_model_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: equivalent_stackup_model_definition
+  domain: 'application module: Fabrication_technology_mim'
+  language_code: eng
+  annotations: []
+id: b60773c0-736c-5f1b-808e-55ba0adb373d

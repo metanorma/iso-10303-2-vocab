@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_mim.rational_representation_item
+  localized_concepts:
+    eng: e19a7ac3-5267-5206-8570-3bf3b6bfdca0
+  domains:
+    - concept_id: section-Basic_data_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+      ref_type: section
+id: Basic_data_representation_mim.rational_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rational representation item {{entity}}'
+  notes:
+    - content: A **rational_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.slash_expression,slash_expression}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Rational_representation_item,Rational_representation_item}} A **rational_representation_item** value is a rational number.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rational_representation_item
+  domain: 'application module: Basic_data_representation_mim'
+  language_code: eng
+  annotations: []
+id: e19a7ac3-5267-5206-8570-3bf3b6bfdca0

@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_date_arm.Date
+  localized_concepts:
+    eng: 5f71d002-6499-5d95-9bca-8ab807e75afc
+  domains:
+    - concept_id: section-Extended_date_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+      ref_type: section
+id: Extended_date_arm.Date
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date {{entity}}'
+  notes:
+    - content: A **Date** is an identification of a calendar year.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+          version: '2'
+      type: authoritative
+      id: Extended_date_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Date
+  domain: 'application module: Extended_date_arm'
+  language_code: eng
+  annotations: []
+id: 5f71d002-6499-5d95-9bca-8ab807e75afc

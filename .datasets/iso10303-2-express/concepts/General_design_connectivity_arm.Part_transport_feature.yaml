@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Part_transport_feature
+  localized_concepts:
+    eng: 7dff126e-dd1a-5441-86d9-b9741a40b13c
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Part_transport_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that represents the part transport feature {{entity}}'
+  notes:
+    - content: A **Part_transport_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that can transport information, energy, or matter within the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_transport_feature
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 7dff126e-dd1a-5441-86d9-b9741a40b13c

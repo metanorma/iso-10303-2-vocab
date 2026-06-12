@@ -1,0 +1,31 @@
+data:
+  identifier: shape_data_quality_criteria_schema.geometry_with_local_irregularity
+  localized_concepts:
+    eng: a04c21f3-d86b-58e5-9af8-9da3be6b1bf5
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.geometry_with_local_irregularity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}} that represents the geometry with local irregularity {{entity}}'
+  notes:
+    - content: A **geometry_with_local_irregularity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}} that is a supertype of criteria for detecting geometry data that have local inappropriate characteristics.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometry_with_local_irregularity
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: a04c21f3-d86b-58e5-9af8-9da3be6b1bf5

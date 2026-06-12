@@ -1,0 +1,31 @@
+data:
+  identifier: Product_version_arm.Product_version
+  localized_concepts:
+    eng: 09d6b165-3e2b-5311-90bd-ea92958ab92d
+  domains:
+    - concept_id: section-Product_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm
+      ref_type: section
+id: Product_version_arm.Product_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product version {{entity}}'
+  notes:
+    - content: A **Product_version** is a revision of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm
+          version: '1'
+      type: authoritative
+      id: Product_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_version
+  domain: 'application module: Product_version_arm'
+  language_code: eng
+  annotations: []
+id: 09d6b165-3e2b-5311-90bd-ea92958ab92d

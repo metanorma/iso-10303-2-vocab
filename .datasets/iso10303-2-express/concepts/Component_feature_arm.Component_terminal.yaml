@@ -1,0 +1,30 @@
+data:
+  identifier: Component_feature_arm.Component_terminal
+  localized_concepts:
+    eng: f91339ea-0cb1-5507-ab7f-d63a52cfa9cb
+  domains:
+    - concept_id: section-Component_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+      ref_type: section
+id: Component_feature_arm.Component_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}} that represents the component terminal {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+          version: '5'
+      type: authoritative
+      id: Component_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_terminal
+  domain: 'application module: Component_feature_arm'
+  language_code: eng
+  annotations: []
+id: f91339ea-0cb1-5507-ab7f-d63a52cfa9cb

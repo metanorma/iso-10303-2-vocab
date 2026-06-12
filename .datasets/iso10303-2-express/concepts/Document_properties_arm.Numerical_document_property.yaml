@@ -1,0 +1,31 @@
+data:
+  identifier: Document_properties_arm.Numerical_document_property
+  localized_concepts:
+    eng: 82f69d0f-226b-5cd8-8673-416634b1d241
+  domains:
+    - concept_id: section-Document_properties_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+      ref_type: section
+id: Document_properties_arm.Numerical_document_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} that represents the numerical document property {{entity}}'
+  notes:
+    - content: A **Numerical_document_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} that specifies a numerical characteristic of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}} or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+          version: '5'
+      type: authoritative
+      id: Document_properties_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Numerical_document_property
+  domain: 'application module: Document_properties_arm'
+  language_code: eng
+  annotations: []
+id: 82f69d0f-226b-5cd8-8673-416634b1d241

@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_schema.action_resource_requirement
+  localized_concepts:
+    eng: d949cca7-391f-5f56-b3a0-eb7ce029f725
+  domains:
+    - concept_id: section-process_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+      ref_type: section
+id: process_property_schema.action_resource_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action resource requirement {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action_resource_requirement,action_resource_requirement}} is a requirement of a resource for the performance of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+          version: '1'
+      type: authoritative
+      id: process_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_resource_requirement
+  domain: 'resource: process_property_schema'
+  language_code: eng
+  annotations: []
+id: d949cca7-391f-5f56-b3a0-eb7ce029f725

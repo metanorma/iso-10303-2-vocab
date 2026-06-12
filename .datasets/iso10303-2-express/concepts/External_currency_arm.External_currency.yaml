@@ -1,0 +1,31 @@
+data:
+  identifier: External_currency_arm.External_currency
+  localized_concepts:
+    eng: e141aa89-a269-5f2e-b412-125d00628900
+  domains:
+    - concept_id: section-External_currency_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_currency_arm
+      ref_type: section
+id: External_currency_arm.External_currency
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external currency {{entity}}'
+  notes:
+    - content: A **External_currency** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm.Currency,Currency}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm.External_context_dependent_unit,External_context_dependent_unit}} that is a currency defined outside of ISO 10303.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_currency_arm
+          version: '1'
+      type: authoritative
+      id: External_currency_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_currency
+  domain: 'application module: External_currency_arm'
+  language_code: eng
+  annotations: []
+id: e141aa89-a269-5f2e-b412-125d00628900

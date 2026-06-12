@@ -1,0 +1,31 @@
+data:
+  identifier: Numerical_interface_mim.expression_extension_to_select
+  localized_concepts:
+    eng: 3e450b1a-3370-52bf-8f00-eb2eba555acf
+  domains:
+    - concept_id: section-Numerical_interface_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+      ref_type: section
+id: Numerical_interface_mim.expression_extension_to_select
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the expression extension to select {{entity}}'
+  notes:
+    - content: An **expression_extension_to_select** is a kind of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_expression,generic_expression}} and trought the type of expression associated gives the possibility to select which type of expression to represent in order to support string and numeric representations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+          version: '2'
+      type: authoritative
+      id: Numerical_interface_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: expression_extension_to_select
+  domain: 'application module: Numerical_interface_mim'
+  language_code: eng
+  annotations: []
+id: 3e450b1a-3370-52bf-8f00-eb2eba555acf

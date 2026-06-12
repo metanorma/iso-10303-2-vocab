@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Instance_report_item_with_extreme_instances
+  localized_concepts:
+    eng: 5bd21050-1d5a-5f29-a9a1-d1e02f2fc5cc
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Instance_report_item_with_extreme_instances
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_instance_report_item,Shape_data_quality_inspection_instance_report_item}} that represents the instance report item with extreme instances {{entity}}'
+  notes:
+    - content: An **Instance_report_item_with_extreme_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_instance_report_item,Shape_data_quality_inspection_instance_report_item}} and has the information on pairs of extreme value and its location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Instance_report_item_with_extreme_instances
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 5bd21050-1d5a-5f29-a9a1-d1e02f2fc5cc

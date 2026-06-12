@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.ellipsoid_volume
+  localized_concepts:
+    eng: d1569439-fc1f-5e0c-99fc-bf8bf9311128
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.ellipsoid_volume
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} that represents the ellipsoid volume {{entity}}'
+  notes:
+    - content: A **ellipsoid_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} in the form of a solid ellipsoid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ellipsoid_volume
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: d1569439-fc1f-5e0c-99fc-bf8bf9311128

@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_pattern_circular
+  localized_concepts:
+    eng: 7fe5103e-8e81-509a-a3fc-d16d16afce2c
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_pattern_circular
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_pattern_element,sketch_create_pattern_element}} that represents the create pattern circular {{entity}}'
+  notes:
+    - content: A *create_pattern_circular* is a type of *sketch_create_pattern_element* that generates multiple copies of a selected set of sketch elements in locations defined by a specified circular pattern.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_pattern_circular
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 7fe5103e-8e81-509a-a3fc-d16d16afce2c

@@ -1,0 +1,34 @@
+---
+data:
+  identifier: general.Euclidean_distance
+  localized_concepts:
+    eng: bdc8614a-740a-51b2-b7b3-47fc2958e0a1
+  domains:
+  - concept_id: section-general
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 061c2b87-c3d5-52d7-846f-09766ecd71a2
+schema_version: v3
+---
+data:
+  definition:
+  - content: |
+      distance that measures how far apart are the two points, with
+      dimensionality stem:[n], stem:[A] and stem:[B] in:
+
+      [stem%unnumbered]
+      ++++
+      d(A,B) = sqrt(sum_(i=1)^n (B_i - A_i)^2)
+      ++++
+
+      [%key]
+      stem:[A]:: stem:[{ a_{1}, ..., a_{n} }]
+      stem:[B]:: stem:[{ b_{1}, ..., b_{n} }]
+      stem:[n]:: is the number of dimensions in points stem:[A] and stem:[B]
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Euclidean distance
+  language_code: eng
+  annotations: []
+id: bdc8614a-740a-51b2-b7b3-47fc2958e0a1

@@ -1,0 +1,31 @@
+data:
+  identifier: Procedural_shape_model_arm.Procedural_shape_representation_sequence
+  localized_concepts:
+    eng: 156e83fb-d5e2-5309-be08-aa9e8154fa11
+  domains:
+    - concept_id: section-Procedural_shape_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+      ref_type: section
+id: Procedural_shape_model_arm.Procedural_shape_representation_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the procedural shape representation sequence {{entity}}'
+  notes:
+    - content: A **Procedural_shape_representation_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies a sequence of shape modification operations to create a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Procedural_shape_representation,Procedural_shape_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+          version: '2'
+      type: authoritative
+      id: Procedural_shape_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Procedural_shape_representation_sequence
+  domain: 'application module: Procedural_shape_model_arm'
+  language_code: eng
+  annotations: []
+id: 156e83fb-d5e2-5309-be08-aa9e8154fa11

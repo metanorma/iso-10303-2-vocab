@@ -1,0 +1,31 @@
+data:
+  identifier: Elementary_function_arm.Unary_function_call
+  localized_concepts:
+    eng: f0132410-6389-50e1-bb04-73f164ea5545
+  domains:
+    - concept_id: section-Elementary_function_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+      ref_type: section
+id: Elementary_function_arm.Unary_function_call
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Unary_numeric_expression,Unary_numeric_expression}} that represents the unary function call {{entity}}'
+  notes:
+    - content: A **Unary_function_call** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Unary_numeric_expression,Unary_numeric_expression}} and is an unary operator on NUMBER data type defined in ISO 10303-11.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+          version: '2'
+      type: authoritative
+      id: Elementary_function_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Unary_function_call
+  domain: 'application module: Elementary_function_arm'
+  language_code: eng
+  annotations: []
+id: f0132410-6389-50e1-bb04-73f164ea5545

@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.binary_literal
+  localized_concepts:
+    eng: 078ac9be-8a4d-5603-83a9-ff8ee3f4d6c6
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.binary_literal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} that represents the binary literal {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents EXPRESS type `BINARY` constants in expressions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: binary_literal
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 078ac9be-8a4d-5603-83a9-ff8ee3f4d6c6

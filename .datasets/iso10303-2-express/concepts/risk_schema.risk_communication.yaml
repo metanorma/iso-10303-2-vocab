@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_communication
+  localized_concepts:
+    eng: 209a17d7-d5ff-5b2c-b5f2-f40b1b2ebd32
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_communication
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the risk communication {{entity}}'
+  notes:
+    - content: A **risk_communication** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that is the exchange or sharing of information about risk between the stakeholders.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_communication
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: 209a17d7-d5ff-5b2c-b5f2-f40b1b2ebd32

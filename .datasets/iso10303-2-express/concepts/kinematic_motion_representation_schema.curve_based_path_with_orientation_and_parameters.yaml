@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_motion_representation_schema.curve_based_path_with_orientation_and_parameters
+  localized_concepts:
+    eng: cdcd6678-046d-5025-bbf3-51f0c5cc105a
+  domains:
+    - concept_id: section-kinematic_motion_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+      ref_type: section
+id: kinematic_motion_representation_schema.curve_based_path_with_orientation_and_parameters
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.curve_based_path_with_orientation,curve_based_path_with_orientation}} that represents the curve based path with orientation and parameters {{entity}}'
+  notes:
+    - content: A **curve_based_path_with_orientation_and_parameters** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.curve_based_path_with_orientation,curve_based_path_with_orientation}} that adds additional parameter curves in addition to the position and orientation curves that follow the same parametrisation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+          version: '5'
+      type: authoritative
+      id: kinematic_motion_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: curve_based_path_with_orientation_and_parameters
+  domain: 'resource: kinematic_motion_representation_schema'
+  language_code: eng
+  annotations: []
+id: cdcd6678-046d-5025-bbf3-51f0c5cc105a

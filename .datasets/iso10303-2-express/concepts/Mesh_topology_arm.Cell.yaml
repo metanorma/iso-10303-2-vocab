@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Cell
+  localized_concepts:
+    eng: 49b0d5f9-d701-5df3-8ff9-792b2db1f42e
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Cell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the cell {{entity}}'
+  notes:
+    - content: A **Cell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that is a manifold with a boundary.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cell
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: 49b0d5f9-d701-5df3-8ff9-792b2db1f42e

@@ -1,0 +1,31 @@
+data:
+  identifier: Ap239_part_definition_information_arm.Product_as_individual_effectivity
+  localized_concepts:
+    eng: f2e03bfb-09f2-5227-bfcf-9dd534fd1de4
+  domains:
+    - concept_id: section-Ap239_part_definition_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_arm
+      ref_type: section
+id: Ap239_part_definition_information_arm.Product_as_individual_effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} that represents the product as individual effectivity {{entity}}'
+  notes:
+    - content: A **Product_as_individual_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} for which the domain of applicability is defined as a set of instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual,Product_as_individual}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_arm
+          version: '5'
+      type: authoritative
+      id: Ap239_part_definition_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_as_individual_effectivity
+  domain: 'application module: Ap239_part_definition_information_arm'
+  language_code: eng
+  annotations: []
+id: f2e03bfb-09f2-5227-bfcf-9dd534fd1de4

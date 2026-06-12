@@ -1,0 +1,31 @@
+data:
+  identifier: Form_feature_in_panel_mim.joggle_termination
+  localized_concepts:
+    eng: 30d38e5f-46c5-5070-b291-892488a272eb
+  domains:
+    - concept_id: section-Form_feature_in_panel_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+      ref_type: section
+id: Form_feature_in_panel_mim.joggle_termination
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the joggle termination {{entity}}'
+  notes:
+    - content: A **joggle_termination** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Face_termination,Face_termination}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Joggle_termination,Joggle_termination}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Value_termination,Value_termination}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+          version: '4'
+      type: authoritative
+      id: Form_feature_in_panel_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: joggle_termination
+  domain: 'application module: Form_feature_in_panel_mim'
+  language_code: eng
+  annotations: []
+id: 30d38e5f-46c5-5070-b291-892488a272eb

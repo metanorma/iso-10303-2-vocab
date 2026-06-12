@@ -1,0 +1,31 @@
+data:
+  identifier: Mechanical_design_features_and_requirements_arm.Basic_round_hole
+  localized_concepts:
+    eng: f8a8b60c-c161-59f5-959c-c0971ce3c625
+  domains:
+    - concept_id: section-Mechanical_design_features_and_requirements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+      ref_type: section
+id: Mechanical_design_features_and_requirements_arm.Basic_round_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Hole,Hole}} that represents the basic round hole {{entity}}'
+  notes:
+    - content: A **Basic_round_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Hole,Hole}} that defines a template structure that provides the parametric requirements for a hole in a design context.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+          version: '3'
+      type: authoritative
+      id: Mechanical_design_features_and_requirements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Basic_round_hole
+  domain: 'application module: Mechanical_design_features_and_requirements_arm'
+  language_code: eng
+  annotations: []
+id: f8a8b60c-c161-59f5-959c-c0971ce3c625

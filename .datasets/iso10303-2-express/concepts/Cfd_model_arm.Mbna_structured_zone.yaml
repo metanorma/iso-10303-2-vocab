@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_model_arm.Mbna_structured_zone
+  localized_concepts:
+    eng: bfc5f10e-b50d-5e48-83f0-5de31db3efc2
+  domains:
+    - concept_id: section-Cfd_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+      ref_type: section
+id: Cfd_model_arm.Mbna_structured_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}} that represents the mbna structured zone {{entity}}'
+  notes:
+    - content: A **Mbna_structured_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}} that contains the information pertinent to an individual structured multiblock zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_structured_zone
+  domain: 'application module: Cfd_model_arm'
+  language_code: eng
+  annotations: []
+id: bfc5f10e-b50d-5e48-83f0-5de31db3efc2

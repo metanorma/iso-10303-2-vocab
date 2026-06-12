@@ -1,0 +1,30 @@
+data:
+  identifier: Production_rule_arm.Rule_justification
+  localized_concepts:
+    eng: 6cb54e5f-fa93-59a3-8d0d-853326a39e1f
+  domains:
+    - concept_id: section-Production_rule_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+      ref_type: section
+id: Production_rule_arm.Rule_justification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_action,Rule_action}} that represents the rule justification {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+          version: '5'
+      type: authoritative
+      id: Production_rule_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rule_justification
+  domain: 'application module: Production_rule_arm'
+  language_code: eng
+  annotations: []
+id: 6cb54e5f-fa93-59a3-8d0d-853326a39e1f

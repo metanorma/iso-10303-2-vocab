@@ -1,0 +1,31 @@
+data:
+  identifier: Numeric_expression_arm.Interval_expression
+  localized_concepts:
+    eng: ddc4cff2-639d-5087-a524-9345e89cdc2f
+  domains:
+    - concept_id: section-Numeric_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+      ref_type: section
+id: Numeric_expression_arm.Interval_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interval expression {{entity}}'
+  notes:
+    - content: An **Interval_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Boolean_expression,Boolean_expression}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Multiple_arity_generic_expression,Multiple_arity_generic_expression}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+          version: '2'
+      type: authoritative
+      id: Numeric_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interval_expression
+  domain: 'application module: Numeric_expression_arm'
+  language_code: eng
+  annotations: []
+id: ddc4cff2-639d-5087-a524-9345e89cdc2f

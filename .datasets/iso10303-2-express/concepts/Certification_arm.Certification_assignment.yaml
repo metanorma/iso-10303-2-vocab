@@ -1,0 +1,31 @@
+data:
+  identifier: Certification_arm.Certification_assignment
+  localized_concepts:
+    eng: 5fd97a49-9cbb-5165-a29d-cae25be2422a
+  domains:
+    - concept_id: section-Certification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_arm
+      ref_type: section
+id: Certification_arm.Certification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the certification assignment {{entity}}'
+  notes:
+    - content: A **Certification_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_arm.Certification,Certification}} with activity or product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_arm
+          version: '1'
+      type: authoritative
+      id: Certification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Certification_assignment
+  domain: 'application module: Certification_arm'
+  language_code: eng
+  annotations: []
+id: 5fd97a49-9cbb-5165-a29d-cae25be2422a

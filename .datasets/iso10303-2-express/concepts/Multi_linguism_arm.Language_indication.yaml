@@ -1,0 +1,31 @@
+data:
+  identifier: Multi_linguism_arm.Language_indication
+  localized_concepts:
+    eng: cbd27ec1-1ab0-5ac4-aba6-0d94ac4ac8f0
+  domains:
+    - concept_id: section-Multi_linguism_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
+      ref_type: section
+id: Multi_linguism_arm.Language_indication
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the language indication {{entity}}'
+  notes:
+    - content: A **Language_indication** is the identification of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm.Language,Language}} in which a text attribute of one or more instances has been specified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
+          version: '2'
+      type: authoritative
+      id: Multi_linguism_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Language_indication
+  domain: 'application module: Multi_linguism_arm'
+  language_code: eng
+  annotations: []
+id: cbd27ec1-1ab0-5ac4-aba6-0d94ac4ac8f0

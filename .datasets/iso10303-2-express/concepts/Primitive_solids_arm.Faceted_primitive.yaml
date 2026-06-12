@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Faceted_primitive
+  localized_concepts:
+    eng: 70646be9-f42d-5354-a7c6-fb31e747b3d1
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Faceted_primitive
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the faceted primitive {{entity}}'
+  notes:
+    - content: A **Faceted_primitive** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} which is a type of CSG primitive with planar faces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Faceted_primitive
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: 70646be9-f42d-5354-a7c6-fb31e747b3d1

@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_conditions_arm.Elements_bc
+  localized_concepts:
+    eng: d8bbf76d-080f-5a63-8db8-c33e9cbb3af9
+  domains:
+    - concept_id: section-Cfd_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+      ref_type: section
+id: Cfd_conditions_arm.Elements_bc
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc,Mbna_bc}} that represents the elements bc {{entity}}'
+  notes:
+    - content: A n **Elements_bc** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc,Mbna_bc}} containing boundary-condition information for a group of elements in an unstructured mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Elements_bc
+  domain: 'application module: Cfd_conditions_arm'
+  language_code: eng
+  annotations: []
+id: d8bbf76d-080f-5a63-8db8-c33e9cbb3af9

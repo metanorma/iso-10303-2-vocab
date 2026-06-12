@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_mim.layered_assembly_module_design_view
+  localized_concepts:
+    eng: 212e3a6b-d5bd-50a7-bb78-538defbde8dc
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+      ref_type: section
+id: Assembly_module_with_interconnect_component_mim.layered_assembly_module_design_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_mim.assembly_module_design_view,assembly_module_design_view}} that represents the layered assembly module design view {{entity}}'
+  notes:
+    - content: A **layered_assembly_module_design_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_mim.assembly_module_design_view,assembly_module_design_view}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: layered_assembly_module_design_view
+  domain: 'application module: Assembly_module_with_interconnect_component_mim'
+  language_code: eng
+  annotations: []
+id: 212e3a6b-d5bd-50a7-bb78-538defbde8dc

@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.plus_minus_tolerance
+  localized_concepts:
+    eng: 2c83b84b-b3ec-5543-967a-10033948332a
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.plus_minus_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the plus minus tolerance {{entity}}'
+  notes:
+    - content: A **plus_minus_tolerance** is the specification of the limits within which the value of a dimension may vary.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: plus_minus_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 2c83b84b-b3ec-5543-967a-10033948332a

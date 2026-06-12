@@ -1,0 +1,31 @@
+data:
+  identifier: Type_of_person_arm.Type_of_person_definition_relationship
+  localized_concepts:
+    eng: 4434ad9b-ac0b-5743-ac97-f4f5f46dc2ef
+  domains:
+    - concept_id: section-Type_of_person_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+      ref_type: section
+id: Type_of_person_arm.Type_of_person_definition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the type of person definition relationship {{entity}}'
+  notes:
+    - content: A **Type_of_person_definition_relationship** is a relationship between two definitions of a type of person ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm.Type_of_person_definition,Type_of_person_definition}}).
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_arm
+          version: '1'
+      type: authoritative
+      id: Type_of_person_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Type_of_person_definition_relationship
+  domain: 'application module: Type_of_person_arm'
+  language_code: eng
+  annotations: []
+id: 4434ad9b-ac0b-5743-ac97-f4f5f46dc2ef

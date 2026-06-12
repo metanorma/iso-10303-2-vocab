@@ -1,0 +1,31 @@
+data:
+  identifier: Effectivity_arm.Effectivity_relationship
+  localized_concepts:
+    eng: 41afc459-c68d-5e8a-8b6b-e9fcd2c77983
+  domains:
+    - concept_id: section-Effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+      ref_type: section
+id: Effectivity_arm.Effectivity_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the effectivity relationship {{entity}}'
+  notes:
+    - content: An **Effectivity_relationship** is an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+          version: '2'
+      type: authoritative
+      id: Effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Effectivity_relationship
+  domain: 'application module: Effectivity_arm'
+  language_code: eng
+  annotations: []
+id: 41afc459-c68d-5e8a-8b6b-e9fcd2c77983

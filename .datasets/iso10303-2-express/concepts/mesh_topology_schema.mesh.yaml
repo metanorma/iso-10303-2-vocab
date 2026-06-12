@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.mesh
+  localized_concepts:
+    eng: 37ffd191-a69a-55f7-9909-1e055a004f8c
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the mesh {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} consisting of one or more cells.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 37ffd191-a69a-55f7-9909-1e055a004f8c

@@ -1,0 +1,31 @@
+data:
+  identifier: Task_element_arm.Task_step
+  localized_concepts:
+    eng: e91da800-7e81-5854-b0fc-5323f83cf0de
+  domains:
+    - concept_id: section-Task_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+      ref_type: section
+id: Task_element_arm.Task_step
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}} that represents the task step {{entity}}'
+  notes:
+    - content: A **Task_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}} that is not further sub-divided.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+          version: '1'
+      type: authoritative
+      id: Task_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Task_step
+  domain: 'application module: Task_element_arm'
+  language_code: eng
+  annotations: []
+id: e91da800-7e81-5854-b0fc-5323f83cf0de

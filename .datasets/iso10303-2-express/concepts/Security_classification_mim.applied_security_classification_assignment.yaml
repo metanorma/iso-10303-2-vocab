@@ -1,0 +1,31 @@
+data:
+  identifier: Security_classification_mim.applied_security_classification_assignment
+  localized_concepts:
+    eng: 60d7f7c0-070e-55ab-bef5-a961bb609def
+  domains:
+    - concept_id: section-Security_classification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Security_classification_mim
+      ref_type: section
+id: Security_classification_mim.applied_security_classification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.security_classification_assignment,security_classification_assignment}} that represents the applied security classification assignment {{entity}}'
+  notes:
+    - content: An **applied_security_classification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.security_classification_assignment,security_classification_assignment}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:security_classification_schema.security_classification,security_classification}} with a set of instances of the entity types listed in {{security_classification_item,security_classification_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Security_classification_mim
+          version: '1'
+      type: authoritative
+      id: Security_classification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_security_classification_assignment
+  domain: 'application module: Security_classification_mim'
+  language_code: eng
+  annotations: []
+id: 60d7f7c0-070e-55ab-bef5-a961bb609def

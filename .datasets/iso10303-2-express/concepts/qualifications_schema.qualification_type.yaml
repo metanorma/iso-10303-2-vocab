@@ -1,0 +1,31 @@
+data:
+  identifier: qualifications_schema.qualification_type
+  localized_concepts:
+    eng: 532a0dc4-9275-5a6a-8c4e-9716cec0d1d5
+  domains:
+    - concept_id: section-qualifications_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+      ref_type: section
+id: qualifications_schema.qualification_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualification type {{entity}}'
+  notes:
+    - content: An **qualification_type** is the formal identification of a capability or aptitude.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+          version: '6'
+      type: authoritative
+      id: qualifications_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: qualification_type
+  domain: 'resource: qualifications_schema'
+  language_code: eng
+  annotations: []
+id: 532a0dc4-9275-5a6a-8c4e-9716cec0d1d5

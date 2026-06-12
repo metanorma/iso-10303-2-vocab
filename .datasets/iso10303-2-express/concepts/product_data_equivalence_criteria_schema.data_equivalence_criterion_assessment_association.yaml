@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_equivalence_criteria_schema.data_equivalence_criterion_assessment_association
+  localized_concepts:
+    eng: 3f951021-9b8f-53d9-9b36-73b942249099
+  domains:
+    - concept_id: section-product_data_equivalence_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+      ref_type: section
+id: product_data_equivalence_criteria_schema.data_equivalence_criterion_assessment_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data equivalence criterion assessment association {{entity}}'
+  notes:
+    - content: A **data_equivalence_criterion_assessment_association** is a relationship between a criterion and an assessment specification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+          version: '1'
+      type: authoritative
+      id: product_data_equivalence_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_equivalence_criterion_assessment_association
+  domain: 'resource: product_data_equivalence_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 3f951021-9b8f-53d9-9b36-73b942249099

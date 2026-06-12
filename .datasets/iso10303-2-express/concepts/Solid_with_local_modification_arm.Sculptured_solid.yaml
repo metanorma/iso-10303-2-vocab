@@ -1,0 +1,31 @@
+data:
+  identifier: Solid_with_local_modification_arm.Sculptured_solid
+  localized_concepts:
+    eng: e8bea58a-2a27-55f4-8a0a-b3d4e4fed46f
+  domains:
+    - concept_id: section-Solid_with_local_modification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+      ref_type: section
+id: Solid_with_local_modification_arm.Sculptured_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm.Modified_solid,Modified_solid}} that represents the sculptured solid {{entity}}'
+  notes:
+    - content: A **Sculptured_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm.Modified_solid,Modified_solid}} in which a solid is cut by a surface, face or shell to remove part of the material leaving a smaller solid model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+          version: '3'
+      type: authoritative
+      id: Solid_with_local_modification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Sculptured_solid
+  domain: 'application module: Solid_with_local_modification_arm'
+  language_code: eng
+  annotations: []
+id: e8bea58a-2a27-55f4-8a0a-b3d4e4fed46f

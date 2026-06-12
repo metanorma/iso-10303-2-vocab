@@ -1,0 +1,30 @@
+data:
+  identifier: Product_occurrence_arm.Product_occurrence_with_quantity
+  localized_concepts:
+    eng: d44ff978-0fc1-59cb-a3ad-299393c9934b
+  domains:
+    - concept_id: section-Product_occurrence_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+      ref_type: section
+id: Product_occurrence_arm.Product_occurrence_with_quantity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that represents the product occurrence with quantity {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+          version: '5'
+      type: authoritative
+      id: Product_occurrence_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_occurrence_with_quantity
+  domain: 'application module: Product_occurrence_arm'
+  language_code: eng
+  annotations: []
+id: d44ff978-0fc1-59cb-a3ad-299393c9934b

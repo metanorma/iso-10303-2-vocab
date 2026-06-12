@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.explicit_table_function
+  localized_concepts:
+    eng: 538af950-c148-55aa-92a2-b40592960ba5
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.explicit_table_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} that represents the explicit table function {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} is a supertype carrying some common attributes of a family of types explicitly representing table functions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: explicit_table_function
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 538af950-c148-55aa-92a2-b40592960ba5

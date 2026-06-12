@@ -1,0 +1,35 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_single_offset_chamfer
+  localized_concepts:
+    eng: 3da347bf-2de6-5ff2-bc08-56705f8efee5
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_single_offset_chamfer
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}} that represents the solid with single offset chamfer {{entity}}'
+  notes:
+    - content: |-
+        A *solid_with_single_offset_chamfer* is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}} in which the chamfers are created as follows:
+
+        * offset curves are defined on the two faces adjoining at each edge concerned, at equal specified distances from the edge;
+        * a ruled surface is constructed between the offset curves, and is used as the underlying surface of the new chamfer face.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_single_offset_chamfer
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: 3da347bf-2de6-5ff2-bc08-56705f8efee5

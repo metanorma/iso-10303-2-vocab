@@ -1,0 +1,31 @@
+data:
+  identifier: Package_mim.wire_terminal
+  localized_concepts:
+    eng: ee74d1c3-dc31-5d95-a6b0-b162182590ab
+  domains:
+    - concept_id: section-Package_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+      ref_type: section
+id: Package_mim.wire_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal,package_terminal}} that represents the wire terminal {{entity}}'
+  notes:
+    - content: A **wire_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal,package_terminal}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Wire_terminal,Wire_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+          version: '7'
+      type: authoritative
+      id: Package_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: wire_terminal
+  domain: 'application module: Package_mim'
+  language_code: eng
+  annotations: []
+id: ee74d1c3-dc31-5d95-a6b0-b162182590ab

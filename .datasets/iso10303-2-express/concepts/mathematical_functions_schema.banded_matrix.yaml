@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.banded_matrix
+  localized_concepts:
+    eng: 0065c852-fd58-51e0-bd47-d879541f19ce
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.banded_matrix
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} that represents the banded matrix {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} represents banded matrices.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: banded_matrix
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 0065c852-fd58-51e0-bd47-d879541f19ce

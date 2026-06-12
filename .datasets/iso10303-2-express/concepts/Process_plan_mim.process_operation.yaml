@@ -1,0 +1,31 @@
+data:
+  identifier: Process_plan_mim.process_operation
+  localized_concepts:
+    eng: 241406be-a725-5708-a2db-4c039096c748
+  domains:
+    - concept_id: section-Process_plan_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+      ref_type: section
+id: Process_plan_mim.process_operation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that represents the process operation {{entity}}'
+  notes:
+    - content: A **process_operation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+          version: '4'
+      type: authoritative
+      id: Process_plan_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: process_operation
+  domain: 'application module: Process_plan_mim'
+  language_code: eng
+  annotations: []
+id: 241406be-a725-5708-a2db-4c039096c748

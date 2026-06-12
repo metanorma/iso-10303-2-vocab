@@ -1,0 +1,31 @@
+data:
+  identifier: Incomplete_data_reference_mechanism_arm.Incomplete_reference_marking
+  localized_concepts:
+    eng: e0be36cc-0d79-5883-a780-7572d4944965
+  domains:
+    - concept_id: section-Incomplete_data_reference_mechanism_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Incomplete_data_reference_mechanism_arm
+      ref_type: section
+id: Incomplete_data_reference_mechanism_arm.Incomplete_reference_marking
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm.Classification_assignment,Classification_assignment}} that represents the incomplete reference marking {{entity}}'
+  notes:
+    - content: An **Incomplete_reference_marking** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm.Classification_assignment,Classification_assignment}} that assigns a particular marking to instances of an entity type selected in the {{idrm_marked_item,idrm_marked_item}} select type.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Incomplete_data_reference_mechanism_arm
+          version: '5'
+      type: authoritative
+      id: Incomplete_data_reference_mechanism_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Incomplete_reference_marking
+  domain: 'application module: Incomplete_data_reference_mechanism_arm'
+  language_code: eng
+  annotations: []
+id: e0be36cc-0d79-5883-a780-7572d4944965

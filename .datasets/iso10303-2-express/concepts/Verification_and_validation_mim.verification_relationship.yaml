@@ -1,0 +1,31 @@
+data:
+  identifier: Verification_and_validation_mim.verification_relationship
+  localized_concepts:
+    eng: b832f6b0-d827-5370-9aa3-70a9895f33b3
+  domains:
+    - concept_id: section-Verification_and_validation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_mim
+      ref_type: section
+id: Verification_and_validation_mim.verification_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that represents the verification relationship {{entity}}'
+  notes:
+    - content: A **verification_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that identifies a relationship between two verifications.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_mim
+          version: '3'
+      type: authoritative
+      id: Verification_and_validation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: verification_relationship
+  domain: 'application module: Verification_and_validation_mim'
+  language_code: eng
+  annotations: []
+id: b832f6b0-d827-5370-9aa3-70a9895f33b3

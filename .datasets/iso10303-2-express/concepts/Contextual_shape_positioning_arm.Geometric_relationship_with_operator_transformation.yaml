@@ -1,0 +1,31 @@
+data:
+  identifier: Contextual_shape_positioning_arm.Geometric_relationship_with_operator_transformation
+  localized_concepts:
+    eng: 968d1d3e-d05c-53a2-a0e7-054124af0fd8
+  domains:
+    - concept_id: section-Contextual_shape_positioning_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+      ref_type: section
+id: Contextual_shape_positioning_arm.Geometric_relationship_with_operator_transformation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}} that represents the geometric relationship with operator transformation {{entity}}'
+  notes:
+    - content: A **Geometric_relationship_with_operator_transformation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}} where the transformation is explicitly defined by a {{cartesian_transformation,cartesian_transformation}} either in 2D or in 3D.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+          version: '9'
+      type: authoritative
+      id: Contextual_shape_positioning_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Geometric_relationship_with_operator_transformation
+  domain: 'application module: Contextual_shape_positioning_arm'
+  language_code: eng
+  annotations: []
+id: 968d1d3e-d05c-53a2-a0e7-054124af0fd8

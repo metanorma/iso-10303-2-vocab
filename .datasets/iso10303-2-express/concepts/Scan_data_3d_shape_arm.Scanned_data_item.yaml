@@ -1,0 +1,31 @@
+data:
+  identifier: Scan_data_3d_shape_arm.Scanned_data_item
+  localized_concepts:
+    eng: c262801a-1920-5f18-8fb2-c68e101509ba
+  domains:
+    - concept_id: section-Scan_data_3d_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+      ref_type: section
+id: Scan_data_3d_shape_arm.Scanned_data_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the scanned data item {{entity}}'
+  notes:
+    - content: A **Scanned_data_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents an element of geometric data produced by a scanner.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+          version: '2'
+      type: authoritative
+      id: Scan_data_3d_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Scanned_data_item
+  domain: 'application module: Scan_data_3d_shape_arm'
+  language_code: eng
+  annotations: []
+id: c262801a-1920-5f18-8fb2-c68e101509ba

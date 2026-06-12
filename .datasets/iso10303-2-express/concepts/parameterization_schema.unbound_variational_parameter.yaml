@@ -1,0 +1,31 @@
+data:
+  identifier: parameterization_schema.unbound_variational_parameter
+  localized_concepts:
+    eng: 509c7a62-f627-58d0-89d1-17fa238e1ebb
+  domains:
+    - concept_id: section-parameterization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+      ref_type: section
+id: parameterization_schema.unbound_variational_parameter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.variational_parameter,variational_parameter}} that represents the unbound variational parameter {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.unbound_variational_parameter,unbound_variational_parameter}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.variational_parameter,variational_parameter}} representing a variable that is not bound to an attribute of any entity instance in the model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+          version: '4'
+      type: authoritative
+      id: parameterization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unbound_variational_parameter
+  domain: 'resource: parameterization_schema'
+  language_code: eng
+  annotations: []
+id: 509c7a62-f627-58d0-89d1-17fa238e1ebb

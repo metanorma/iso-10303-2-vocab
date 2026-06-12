@@ -1,0 +1,31 @@
+data:
+  identifier: Appearance_assignment_arm.Planar_box
+  localized_concepts:
+    eng: ea6ed9de-2ec3-5a9b-b633-acdf9499199b
+  domains:
+    - concept_id: section-Appearance_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+      ref_type: section
+id: Appearance_assignment_arm.Planar_box
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the planar box {{entity}}'
+  notes:
+    - content: A **Planar_box** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies an arbitrary rectangular box and its location in a two-dimensional Cartesian coordinate system.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+          version: '9'
+      type: authoritative
+      id: Appearance_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Planar_box
+  domain: 'application module: Appearance_assignment_arm'
+  language_code: eng
+  annotations: []
+id: ea6ed9de-2ec3-5a9b-b633-acdf9499199b

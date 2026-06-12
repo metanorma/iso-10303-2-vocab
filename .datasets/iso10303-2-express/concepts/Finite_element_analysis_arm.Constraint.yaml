@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_element_analysis_arm.Constraint
+  localized_concepts:
+    eng: 7b3ecac0-ffc0-56ec-b302-be4d7f3ff04e
+  domains:
+    - concept_id: section-Finite_element_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+      ref_type: section
+id: Finite_element_analysis_arm.Constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the constraint {{entity}}'
+  notes:
+    - content: A **Constraint** is a specified value of a degree of freedom at a node or a relationship between freedoms at many nodes for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_control_step,Fe_analysis_control_step}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Finite_element_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Constraint
+  domain: 'application module: Finite_element_analysis_arm'
+  language_code: eng
+  annotations: []
+id: 7b3ecac0-ffc0-56ec-b302-be4d7f3ff04e

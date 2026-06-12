@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Stratum_stack_model
+  localized_concepts:
+    eng: cb69075f-9372-5784-96bf-bc94972257a5
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Stratum_stack_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the stratum stack model {{entity}}'
+  notes:
+    - content: A **Stratum_stack_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that is included to define the sequence of materials in an interconnect.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Stratum_stack_model
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: cb69075f-9372-5784-96bf-bc94972257a5

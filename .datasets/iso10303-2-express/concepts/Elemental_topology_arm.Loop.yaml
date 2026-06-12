@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_topology_arm.Loop
+  localized_concepts:
+    eng: 94373de4-3b4a-53e1-a56c-b2a85573939d
+  domains:
+    - concept_id: section-Elemental_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+      ref_type: section
+id: Elemental_topology_arm.Loop
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the loop {{entity}}'
+  notes:
+    - content: A **Loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} constructed from a single {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Vertex,Vertex}}, or by stringing together connected edges beginning and ending at the same {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Vertex,Vertex}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+          version: '7'
+      type: authoritative
+      id: Elemental_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Loop
+  domain: 'application module: Elemental_topology_arm'
+  language_code: eng
+  annotations: []
+id: 94373de4-3b4a-53e1-a56c-b2a85573939d

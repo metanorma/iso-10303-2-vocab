@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_complex_template_mim.stratum_specific_template_location
+  localized_concepts:
+    eng: a2eac2ed-af8b-5430-99b1-e7e6eb2dc6a5
+  domains:
+    - concept_id: section-Layered_interconnect_complex_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+      ref_type: section
+id: Layered_interconnect_complex_template_mim.stratum_specific_template_location
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the stratum specific template location {{entity}}'
+  notes:
+    - content: A **stratum_specific_template_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Stratum_specific_template_location,Stratum_specific_template_location}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+          version: '5'
+      type: authoritative
+      id: Layered_interconnect_complex_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: stratum_specific_template_location
+  domain: 'application module: Layered_interconnect_complex_template_mim'
+  language_code: eng
+  annotations: []
+id: a2eac2ed-af8b-5430-99b1-e7e6eb2dc6a5

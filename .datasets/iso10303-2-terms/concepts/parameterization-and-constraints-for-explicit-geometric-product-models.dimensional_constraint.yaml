@@ -1,0 +1,36 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.dimensional_constraint
+  localized_concepts:
+    eng: 27bc09eb-b410-57b6-876e-dcb9e8356ad5
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: c2e10849-6891-5513-97e1-55723fde4b38
+schema_version: v3
+---
+data:
+  definition:
+  - content: constraint on the value of a dimension in a shape model
+  examples:
+  - content: In two dimensions, the specification of a distance between two lines
+      only makes sense if the lines are parallel. If this distance is formulated as
+      a dimensional constraint, then any change in the value of the distance requires
+      that the underlying logical relationship of parallelism between the lines is
+      maintained.
+  notes:
+  - content: There is a semantic difference between a and a . A dimension specifies
+      a fixed quantitative relationship between elements in a shape model. It captures
+      a static characteristic of the model, and has no behavioural semantics. A dimensional
+      constraint also specifies a quantitative relationship between model elements,
+      in this case not necessarily a fixed one, with the additional significance that
+      A dimensional constraint may specify a numerical value, or a mathematical relationship
+      from which a numerical value may be calculated.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: dimensional constraint
+  language_code: eng
+  annotations: []
+id: 27bc09eb-b410-57b6-876e-dcb9e8356ad5

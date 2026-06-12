@@ -1,0 +1,31 @@
+data:
+  identifier: Document_properties_arm.Descriptive_document_property
+  localized_concepts:
+    eng: cf482df5-54fe-5ecd-a43c-5ce444cdfe5f
+  domains:
+    - concept_id: section-Document_properties_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+      ref_type: section
+id: Document_properties_arm.Descriptive_document_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that represents the descriptive document property {{entity}}'
+  notes:
+    - content: A **Descriptive_document_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that specifies a text based characteristics of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}} or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+          version: '5'
+      type: authoritative
+      id: Document_properties_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Descriptive_document_property
+  domain: 'application module: Document_properties_arm'
+  language_code: eng
+  annotations: []
+id: cf482df5-54fe-5ecd-a43c-5ce444cdfe5f

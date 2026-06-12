@@ -1,0 +1,30 @@
+data:
+  identifier: Currency_arm.Iso4217_currency
+  localized_concepts:
+    eng: 5a015807-97a3-56cf-9c6b-bfdb66023d9d
+  domains:
+    - concept_id: section-Currency_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+      ref_type: section
+id: Currency_arm.Iso4217_currency
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm.Currency,Currency}} that represents the iso4217 currency {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+          version: '1'
+      type: authoritative
+      id: Currency_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Iso4217_currency
+  domain: 'application module: Currency_arm'
+  language_code: eng
+  annotations: []
+id: 5a015807-97a3-56cf-9c6b-bfdb66023d9d

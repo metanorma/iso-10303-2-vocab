@@ -1,0 +1,31 @@
+data:
+  identifier: Ap239_product_life_cycle_support_mim.characterized_action_resource
+  localized_concepts:
+    eng: acfd572a-c4d0-518d-b801-f0fa3facff97
+  domains:
+    - concept_id: section-Ap239_product_life_cycle_support_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
+      ref_type: section
+id: Ap239_product_life_cycle_support_mim.characterized_action_resource
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized action resource {{entity}}'
+  notes:
+    - content: A **characterized_action_resource** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_resource,action_resource}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
+          version: '5'
+      type: authoritative
+      id: Ap239_product_life_cycle_support_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_action_resource
+  domain: 'application module: Ap239_product_life_cycle_support_mim'
+  language_code: eng
+  annotations: []
+id: acfd572a-c4d0-518d-b801-f0fa3facff97

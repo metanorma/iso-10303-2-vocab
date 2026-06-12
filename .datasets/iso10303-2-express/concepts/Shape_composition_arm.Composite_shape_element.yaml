@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_composition_arm.Composite_shape_element
+  localized_concepts:
+    eng: 230b8ac7-bf7d-5657-b5c0-2204d86a089d
+  domains:
+    - concept_id: section-Shape_composition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
+      ref_type: section
+id: Shape_composition_arm.Composite_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the composite shape element {{entity}}'
+  notes:
+    - content: A **Composite_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that is composed of two or more constituent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
+          version: '2'
+      type: authoritative
+      id: Shape_composition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Composite_shape_element
+  domain: 'application module: Shape_composition_arm'
+  language_code: eng
+  annotations: []
+id: 230b8ac7-bf7d-5657-b5c0-2204d86a089d

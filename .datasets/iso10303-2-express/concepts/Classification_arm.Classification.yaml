@@ -1,0 +1,30 @@
+data:
+  identifier: Classification_arm.Classification
+  localized_concepts:
+    eng: 07d40eb9-003e-5a78-b69d-21dff68e815e
+  domains:
+    - concept_id: section-Classification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_arm
+      ref_type: section
+id: Classification_arm.Classification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the classification {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_arm
+          version: '1'
+      type: authoritative
+      id: Classification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Classification
+  domain: 'application module: Classification_arm'
+  language_code: eng
+  annotations: []
+id: 07d40eb9-003e-5a78-b69d-21dff68e815e

@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Coordinates_list
+  localized_concepts:
+    eng: d2387ea9-b7d1-51fc-9d06-8721cb35aa68
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Coordinates_list
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that represents the coordinates list {{entity}}'
+  notes:
+    - content: A **Coordinates_list** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that defines the coordinate values for points used in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_shape_representation,Tessellated_shape_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Coordinates_list
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: d2387ea9-b7d1-51fc-9d06-8721cb35aa68

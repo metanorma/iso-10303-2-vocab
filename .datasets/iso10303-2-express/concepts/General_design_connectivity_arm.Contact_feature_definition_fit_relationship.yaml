@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Contact_feature_definition_fit_relationship
+  localized_concepts:
+    eng: f20b14f0-7ab6-5bff-a8b0-ae8ee3b17783
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Contact_feature_definition_fit_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Shape_feature_definition_fit_relationship,Shape_feature_definition_fit_relationship}} that represents the contact feature definition fit relationship {{entity}}'
+  notes:
+    - content: A **Contact_feature_definition_fit_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Shape_feature_definition_fit_relationship,Shape_feature_definition_fit_relationship}} that is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Contact_feature_definition,Contact_feature_definition}} that fit together.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Contact_feature_definition_fit_relationship
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: f20b14f0-7ab6-5bff-a8b0-ae8ee3b17783

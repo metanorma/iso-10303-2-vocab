@@ -1,0 +1,31 @@
+data:
+  identifier: Product_analysis_arm.Temporal_decomposition_of_action_domain
+  localized_concepts:
+    eng: 3d67f6e2-463d-5f34-b13f-a6cdd4058a87
+  domains:
+    - concept_id: section-Product_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+      ref_type: section
+id: Product_analysis_arm.Temporal_decomposition_of_action_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the temporal decomposition of action domain {{entity}}'
+  notes:
+    - content: A **Temporal_decomposition_of_action_domain** is a decomposition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Physical_action_domain,Physical_action_domain}} into specifications for different times.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Product_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Temporal_decomposition_of_action_domain
+  domain: 'application module: Product_analysis_arm'
+  language_code: eng
+  annotations: []
+id: 3d67f6e2-463d-5f34-b13f-a6cdd4058a87

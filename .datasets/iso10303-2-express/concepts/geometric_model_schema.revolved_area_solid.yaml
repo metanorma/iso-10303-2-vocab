@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.revolved_area_solid
+  localized_concepts:
+    eng: 86aee5a8-ab64-588b-9165-505c714fa0ae
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.revolved_area_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_area_solid,swept_area_solid}} that represents the revolved area solid {{entity}}'
+  notes:
+    - content: A **revolved_area_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_area_solid,swept_area_solid}} which is a solid formed by revolving a planar bounded surface about an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: revolved_area_solid
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 86aee5a8-ab64-588b-9165-505c714fa0ae

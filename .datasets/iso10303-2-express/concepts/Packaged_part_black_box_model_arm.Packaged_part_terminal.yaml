@@ -1,0 +1,31 @@
+data:
+  identifier: Packaged_part_black_box_model_arm.Packaged_part_terminal
+  localized_concepts:
+    eng: 2792cecb-11bd-51ea-b475-1a4fea70d90d
+  domains:
+    - concept_id: section-Packaged_part_black_box_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm
+      ref_type: section
+id: Packaged_part_black_box_model_arm.Packaged_part_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} that represents the packaged part terminal {{entity}}'
+  notes:
+    - content: A **Packaged_part_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} that describes a terminal of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm
+          version: '4'
+      type: authoritative
+      id: Packaged_part_black_box_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Packaged_part_terminal
+  domain: 'application module: Packaged_part_black_box_model_arm'
+  language_code: eng
+  annotations: []
+id: 2792cecb-11bd-51ea-b475-1a4fea70d90d

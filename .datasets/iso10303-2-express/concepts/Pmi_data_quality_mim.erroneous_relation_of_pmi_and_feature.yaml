@@ -1,0 +1,31 @@
+data:
+  identifier: Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature
+  localized_concepts:
+    eng: 32949099-2358-5a2e-b4a0-6ed2b588432a
+  domains:
+    - concept_id: section-Pmi_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+      ref_type: section
+id: Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_erroneous_pmi_data,a3m_erroneous_pmi_data}} that represents the erroneous relation of pmi and feature {{entity}}'
+  notes:
+    - content: An **erroneous_relation_of_pmi_and_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_erroneous_pmi_data,a3m_erroneous_pmi_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Pmi_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: erroneous_relation_of_pmi_and_feature
+  domain: 'application module: Pmi_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 32949099-2358-5a2e-b4a0-6ed2b588432a

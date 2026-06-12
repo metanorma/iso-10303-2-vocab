@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.thickened_face_solid
+  localized_concepts:
+    eng: a65b4c73-bd05-56ba-b49d-d1316aa52d52
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.thickened_face_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}} that represents the thickened face solid {{entity}}'
+  notes:
+    - content: A *thickened_face_solid* is a type of *solid_model* created by adding thickness to a specified *face_surface*, *bounded_surface* or *surfaced_open_shell*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thickened_face_solid
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: a65b4c73-bd05-56ba-b49d-d1316aa52d52

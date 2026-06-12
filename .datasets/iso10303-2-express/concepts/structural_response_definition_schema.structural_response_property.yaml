@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_definition_schema.structural_response_property
+  localized_concepts:
+    eng: 1782bf95-bf7a-5893-b8a6-483f75159edd
+  domains:
+    - concept_id: section-structural_response_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_definition_schema
+      ref_type: section
+id: structural_response_definition_schema.structural_response_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the structural response property {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_definition_schema.structural_response_property,structural_response_property}} relates the response of a finite element model representation of a product to the properties characterizing the product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_definition_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: structural_response_property
+  domain: 'resource: structural_response_definition_schema'
+  language_code: eng
+  annotations: []
+id: 1782bf95-bf7a-5893-b8a6-483f75159edd

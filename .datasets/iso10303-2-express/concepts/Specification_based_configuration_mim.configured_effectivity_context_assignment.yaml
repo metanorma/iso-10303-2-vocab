@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_based_configuration_mim.configured_effectivity_context_assignment
+  localized_concepts:
+    eng: 8d329270-26f9-5ca4-854a-22093077f606
+  domains:
+    - concept_id: section-Specification_based_configuration_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_mim
+      ref_type: section
+id: Specification_based_configuration_mim.configured_effectivity_context_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that represents the configured effectivity context assignment {{entity}}'
+  notes:
+    - content: A **configured_effectivity_context_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} that identifies a context for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_mim.configured_effectivity_assignment,configured_effectivity_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_mim
+          version: '3'
+      type: authoritative
+      id: Specification_based_configuration_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: configured_effectivity_context_assignment
+  domain: 'application module: Specification_based_configuration_mim'
+  language_code: eng
+  annotations: []
+id: 8d329270-26f9-5ca4-854a-22093077f606

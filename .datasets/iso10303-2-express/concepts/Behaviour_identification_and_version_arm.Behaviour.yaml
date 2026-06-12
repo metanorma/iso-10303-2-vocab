@@ -1,0 +1,31 @@
+data:
+  identifier: Behaviour_identification_and_version_arm.Behaviour
+  localized_concepts:
+    eng: 84ba37a8-9748-5cf1-a5e0-f6dad3fb7331
+  domains:
+    - concept_id: section-Behaviour_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_identification_and_version_arm
+      ref_type: section
+id: Behaviour_identification_and_version_arm.Behaviour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the behaviour {{entity}}'
+  notes:
+    - content: A **Behaviour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that collects the definitional information of the versions of behaviour.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_identification_and_version_arm
+          version: '1'
+      type: authoritative
+      id: Behaviour_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Behaviour
+  domain: 'application module: Behaviour_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 84ba37a8-9748-5cf1-a5e0-f6dad3fb7331

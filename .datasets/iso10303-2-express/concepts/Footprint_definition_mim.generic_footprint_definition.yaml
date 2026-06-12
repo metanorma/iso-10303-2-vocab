@@ -1,0 +1,31 @@
+data:
+  identifier: Footprint_definition_mim.generic_footprint_definition
+  localized_concepts:
+    eng: 216155a0-0e9a-5a07-af69-c2dd036e097e
+  domains:
+    - concept_id: section-Footprint_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+      ref_type: section
+id: Footprint_definition_mim.generic_footprint_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.multi_stratum_structured_template,multi_stratum_structured_template}} that represents the generic footprint definition {{entity}}'
+  notes:
+    - content: A **generic_footprint_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.multi_stratum_structured_template,multi_stratum_structured_template}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Generic_footprint_definition,Generic_footprint_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+          version: '6'
+      type: authoritative
+      id: Footprint_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: generic_footprint_definition
+  domain: 'application module: Footprint_definition_mim'
+  language_code: eng
+  annotations: []
+id: 216155a0-0e9a-5a07-af69-c2dd036e097e

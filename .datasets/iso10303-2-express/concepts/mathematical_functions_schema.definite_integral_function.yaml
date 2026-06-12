@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.definite_integral_function
+  localized_concepts:
+    eng: e7f2433c-6b9e-5890-b268-1ad2d0346c8a
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.definite_integral_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the definite integral function {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} represents functions defined by a definite integral of another function over a real interval.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: definite_integral_function
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: e7f2433c-6b9e-5890-b268-1ad2d0346c8a

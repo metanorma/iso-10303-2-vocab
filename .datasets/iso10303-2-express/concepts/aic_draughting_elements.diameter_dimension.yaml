@@ -1,0 +1,31 @@
+data:
+  identifier: aic_draughting_elements.diameter_dimension
+  localized_concepts:
+    eng: da0b136f-c910-500d-96de-d8189115c21c
+  domains:
+    - concept_id: section-aic_draughting_elements
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+      ref_type: section
+id: aic_draughting_elements.diameter_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} that represents the diameter dimension {{entity}}'
+  notes:
+    - content: A **diameter_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} directed by a dimension curve that presents a value of the diametrical size of a circular element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+          version: '2'
+      type: authoritative
+      id: aic_draughting_elements
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: diameter_dimension
+  domain: 'resource: aic_draughting_elements'
+  language_code: eng
+  annotations: []
+id: da0b136f-c910-500d-96de-d8189115c21c

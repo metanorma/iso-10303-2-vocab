@@ -1,0 +1,31 @@
+data:
+  identifier: Envelope_mim.envelope_relationship
+  localized_concepts:
+    eng: 0e26bf22-8e65-5c7f-93d9-43504a4f9cdb
+  domains:
+    - concept_id: section-Envelope_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
+      ref_type: section
+id: Envelope_mim.envelope_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} that represents the envelope relationship {{entity}}'
+  notes:
+    - content: An **envelope_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} which relates two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim.envelope,envelope}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
+          version: '2'
+      type: authoritative
+      id: Envelope_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: envelope_relationship
+  domain: 'application module: Envelope_mim'
+  language_code: eng
+  annotations: []
+id: 0e26bf22-8e65-5c7f-93d9-43504a4f9cdb

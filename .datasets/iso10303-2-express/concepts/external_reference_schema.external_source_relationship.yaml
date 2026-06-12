@@ -1,0 +1,31 @@
+data:
+  identifier: external_reference_schema.external_source_relationship
+  localized_concepts:
+    eng: db79a259-12f5-5313-9a4b-01f21687ab8d
+  domains:
+    - concept_id: section-external_reference_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+      ref_type: section
+id: external_reference_schema.external_source_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external source relationship {{entity}}'
+  notes:
+    - content: An **external_source_relationship** is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.external_source,external_source}} with a description of their relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+          version: '7'
+      type: authoritative
+      id: external_reference_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: external_source_relationship
+  domain: 'resource: external_reference_schema'
+  language_code: eng
+  annotations: []
+id: db79a259-12f5-5313-9a4b-01f21687ab8d

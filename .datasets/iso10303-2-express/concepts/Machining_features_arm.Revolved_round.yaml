@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Revolved_round
+  localized_concepts:
+    eng: 16dd0351-2493-55c0-8392-17e17ed61366
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Revolved_round
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Revolved_feature,Revolved_feature}} that represents the revolved round {{entity}}'
+  notes:
+    - content: A **Revolved_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Revolved_feature,Revolved_feature}} that is the sweeping of an arc about an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Revolved_round
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 16dd0351-2493-55c0-8392-17e17ed61366

@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.illuminance_measure_with_unit
+  localized_concepts:
+    eng: 6c475d7b-fdf0-5810-b053-dc1082bb0aa8
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.illuminance_measure_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that represents the illuminance measure with unit {{entity}}'
+  notes:
+    - content: An **illuminance_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} in which the quantity measured is an illuminance as defined in ISO/IEC 80000 series.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: illuminance_measure_with_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 6c475d7b-fdf0-5810-b053-dc1082bb0aa8

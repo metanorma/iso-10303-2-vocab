@@ -1,0 +1,30 @@
+data:
+  identifier: Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation
+  localized_concepts:
+    eng: b12f39b5-b689-58cc-91bb-909d639d7c8d
+  domains:
+    - concept_id: section-Assembly_physical_requirement_allocation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+      ref_type: section
+id: Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the assembly requirement allocation {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_requirement_allocation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_requirement_allocation
+  domain: 'application module: Assembly_physical_requirement_allocation_arm'
+  language_code: eng
+  annotations: []
+id: b12f39b5-b689-58cc-91bb-909d639d7c8d

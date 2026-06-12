@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.string_defined_function
+  localized_concepts:
+    eng: cbbeba7d-a27d-5443-ad2d-7483cb5c96f3
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.string_defined_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the string defined function {{entity}}'
+  notes:
+    - content: A *string_defined_function* is any application-defined operator of which the range is the STRING data type defined in ISO 10303-11.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: string_defined_function
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: cbbeba7d-a27d-5443-ad2d-7483cb5c96f3

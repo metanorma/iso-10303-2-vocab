@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.Nearly_degenerate_geometry
+  localized_concepts:
+    eng: 1040de8d-f275-5786-a8f0-cb5ef1dc7123
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.Nearly_degenerate_geometry
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}} that represents the nearly degenerate geometry {{entity}}'
+  notes:
+    - content: A **Nearly_degenerate_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}} that is a supertype of criteria for detecting nearly degenerate geometry data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Nearly_degenerate_geometry
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 1040de8d-f275-5786-a8f0-cb5ef1dc7123

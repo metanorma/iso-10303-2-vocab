@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.gear
+  localized_concepts:
+    eng: 9683f459-4996-532c-922e-4cc2b8dadf4b
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.gear
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the gear {{entity}}'
+  notes:
+    - content: A **gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that is the representation of a gear shape that is applied to all or a portion of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: gear
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 9683f459-4996-532c-922e-4cc2b8dadf4b

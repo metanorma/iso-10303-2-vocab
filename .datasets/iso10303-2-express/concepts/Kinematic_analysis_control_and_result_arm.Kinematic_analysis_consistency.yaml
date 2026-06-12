@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_analysis_control_and_result_arm.Kinematic_analysis_consistency
+  localized_concepts:
+    eng: 6f9dedeb-bc5d-5f7e-b828-1f8e37e5238e
+  domains:
+    - concept_id: section-Kinematic_analysis_control_and_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_analysis_control_and_result_arm
+      ref_type: section
+id: Kinematic_analysis_control_and_result_arm.Kinematic_analysis_consistency
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the kinematic analysis consistency {{entity}}'
+  notes:
+    - content: A **Kinematic_analysis_consistency** is a relationship of the result of a kinematic analysis to its input.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_analysis_control_and_result_arm
+          version: '1'
+      type: authoritative
+      id: Kinematic_analysis_control_and_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Kinematic_analysis_consistency
+  domain: 'application module: Kinematic_analysis_control_and_result_arm'
+  language_code: eng
+  annotations: []
+id: 6f9dedeb-bc5d-5f7e-b828-1f8e37e5238e

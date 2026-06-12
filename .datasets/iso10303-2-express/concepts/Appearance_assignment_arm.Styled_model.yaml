@@ -1,0 +1,31 @@
+data:
+  identifier: Appearance_assignment_arm.Styled_model
+  localized_concepts:
+    eng: eb4442e3-2192-5e82-9a88-8173b089c546
+  domains:
+    - concept_id: section-Appearance_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+      ref_type: section
+id: Appearance_assignment_arm.Styled_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the styled model {{entity}}'
+  notes:
+    - content: A **Styled_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that contains a set of geometric or annotation elements for which visual characteristics are specified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+          version: '9'
+      type: authoritative
+      id: Appearance_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Styled_model
+  domain: 'application module: Appearance_assignment_arm'
+  language_code: eng
+  annotations: []
+id: eb4442e3-2192-5e82-9a88-8173b089c546

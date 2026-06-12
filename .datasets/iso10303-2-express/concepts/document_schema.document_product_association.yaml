@@ -1,0 +1,31 @@
+data:
+  identifier: document_schema.document_product_association
+  localized_concepts:
+    eng: 5fc1e889-38f2-5607-9679-f8782be10950
+  domains:
+    - concept_id: section-document_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+      ref_type: section
+id: document_schema.document_product_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document product association {{entity}}'
+  notes:
+    - content: A **document_product_association** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}, between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}, or between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+          version: '4'
+      type: authoritative
+      id: document_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: document_product_association
+  domain: 'resource: document_schema'
+  language_code: eng
+  annotations: []
+id: 5fc1e889-38f2-5607-9679-f8782be10950

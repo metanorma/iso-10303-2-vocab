@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.externally_defined_character_glyph
+  localized_concepts:
+    eng: 25f06a6a-b6f1-5611-8a4c-130d4fb2406f
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.externally_defined_character_glyph
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that represents the externally defined character glyph {{entity}}'
+  notes:
+    - content: An **externally_defined_character_glyph** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that makes an external reference to a character glyph.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_character_glyph
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: 25f06a6a-b6f1-5611-8a4c-130d4fb2406f

@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.solid_with_hole
+  localized_concepts:
+    eng: cb0d549b-e3f9-5fd3-9f85-180b082f38eb
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.solid_with_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_depression,solid_with_depression}} that represents the solid with hole {{entity}}'
+  notes:
+    - content: A *solid_with_hole* is a type of *solid_with_depression* in which the base solid has been modified by the creation of a hole.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: solid_with_hole
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: cb0d549b-e3f9-5fd3-9f85-180b082f38eb

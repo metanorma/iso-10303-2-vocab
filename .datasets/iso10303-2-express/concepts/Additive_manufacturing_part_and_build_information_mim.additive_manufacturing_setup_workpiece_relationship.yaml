@@ -1,0 +1,31 @@
+data:
+  identifier: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_workpiece_relationship
+  localized_concepts:
+    eng: bc03f838-4a8f-507e-8cd8-2d7298466a50
+  domains:
+    - concept_id: section-Additive_manufacturing_part_and_build_information_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+      ref_type: section
+id: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_workpiece_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}} that represents the additive manufacturing setup workpiece relationship {{entity}}'
+  notes:
+    - content: An **additive_manufacturing_setup_workpiece_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}} that specifies the usage of a workpiece in the setup.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+          version: '2'
+      type: authoritative
+      id: Additive_manufacturing_part_and_build_information_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: additive_manufacturing_setup_workpiece_relationship
+  domain: 'application module: Additive_manufacturing_part_and_build_information_mim'
+  language_code: eng
+  annotations: []
+id: bc03f838-4a8f-507e-8cd8-2d7298466a50

@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_person_organization_arm.Address_component
+  localized_concepts:
+    eng: 6549191d-8849-5ec9-b75a-f8a2a3fd794a
+  domains:
+    - concept_id: section-Extended_person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+      ref_type: section
+id: Extended_person_organization_arm.Address_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the address component {{entity}}'
+  notes:
+    - content: An **Address_component** is an element of a real-world or an online address.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Extended_person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Address_component
+  domain: 'application module: Extended_person_organization_arm'
+  language_code: eng
+  annotations: []
+id: 6549191d-8849-5ec9-b75a-f8a2a3fd794a

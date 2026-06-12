@@ -1,0 +1,31 @@
+data:
+  identifier: Condition_arm.Condition_relationship
+  localized_concepts:
+    eng: 61e3d697-c577-5816-9fdf-f837237faa31
+  domains:
+    - concept_id: section-Condition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+      ref_type: section
+id: Condition_arm.Condition_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition relationship {{entity}}'
+  notes:
+    - content: A **Condition_relationship** is a relation between two conditions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+          version: '4'
+      type: authoritative
+      id: Condition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Condition_relationship
+  domain: 'application module: Condition_arm'
+  language_code: eng
+  annotations: []
+id: 61e3d697-c577-5816-9fdf-f837237faa31

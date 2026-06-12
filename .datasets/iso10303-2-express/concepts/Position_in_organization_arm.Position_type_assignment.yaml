@@ -1,0 +1,31 @@
+data:
+  identifier: Position_in_organization_arm.Position_type_assignment
+  localized_concepts:
+    eng: 2ef6ba66-7926-5f25-92ff-dd3cda11153c
+  domains:
+    - concept_id: section-Position_in_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+      ref_type: section
+id: Position_in_organization_arm.Position_type_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position type assignment {{entity}}'
+  notes:
+    - content: A **Position_type_assignment** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position_type,Position_type}} with activity or product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+          version: '1'
+      type: authoritative
+      id: Position_in_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Position_type_assignment
+  domain: 'application module: Position_in_organization_arm'
+  language_code: eng
+  annotations: []
+id: 2ef6ba66-7926-5f25-92ff-dd3cda11153c

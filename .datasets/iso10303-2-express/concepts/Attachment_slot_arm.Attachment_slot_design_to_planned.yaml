@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_arm.Attachment_slot_design_to_planned
+  localized_concepts:
+    eng: d6502790-53d9-53ca-8598-636e1fde8f70
+  domains:
+    - concept_id: section-Attachment_slot_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+      ref_type: section
+id: Attachment_slot_arm.Attachment_slot_design_to_planned
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the attachment slot design to planned {{entity}}'
+  notes:
+    - content: An **Attachment_slot_design_to_planned** is a relationship between a design version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot,Attachment_slot}} and a planned individual that conforms to the design.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Attachment_slot_design_to_planned
+  domain: 'application module: Attachment_slot_arm'
+  language_code: eng
+  annotations: []
+id: d6502790-53d9-53ca-8598-636e1fde8f70

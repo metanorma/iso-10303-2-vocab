@@ -1,0 +1,31 @@
+data:
+  identifier: Ap242_managed_model_based_3d_engineering_mim.design_context
+  localized_concepts:
+    eng: df18c984-e0cf-59fc-8314-0c414b8b03d0
+  domains:
+    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+      ref_type: section
+id: Ap242_managed_model_based_3d_engineering_mim.design_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.product_definition_context,product_definition_context}} that represents the design context {{entity}}'
+  notes:
+    - content: A **design_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.product_definition_context,product_definition_context}} that defines a life-cycle stage of design as the frame of reference for {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} entities.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+          version: '5'
+      type: authoritative
+      id: Ap242_managed_model_based_3d_engineering_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: design_context
+  domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
+  language_code: eng
+  annotations: []
+id: df18c984-e0cf-59fc-8314-0c414b8b03d0

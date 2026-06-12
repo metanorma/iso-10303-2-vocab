@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_feature_mim.placed_feature
+  localized_concepts:
+    eng: 677e34ff-25db-5204-b48c-00e01a4e3eb6
+  domains:
+    - concept_id: section-Shape_feature_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim
+      ref_type: section
+id: Shape_feature_mim.placed_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the placed feature {{entity}}'
+  notes:
+    - content: A **placed_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Placed_feature,Placed_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim
+          version: '5'
+      type: authoritative
+      id: Shape_feature_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: placed_feature
+  domain: 'application module: Shape_feature_mim'
+  language_code: eng
+  annotations: []
+id: 677e34ff-25db-5204-b48c-00e01a4e3eb6

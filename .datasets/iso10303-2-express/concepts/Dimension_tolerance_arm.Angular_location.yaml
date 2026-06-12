@@ -1,0 +1,30 @@
+data:
+  identifier: Dimension_tolerance_arm.Angular_location
+  localized_concepts:
+    eng: 78154e25-ee2a-554c-a81a-25ec92fb8f0b
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Angular_location
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_location,Dimensional_location}} that represents the angular location {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Angular_location
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 78154e25-ee2a-554c-a81a-25ec92fb8f0b

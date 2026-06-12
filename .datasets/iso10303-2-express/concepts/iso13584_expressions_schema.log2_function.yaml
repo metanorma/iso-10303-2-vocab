@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.log2_function
+  localized_concepts:
+    eng: 7530cca8-27bb-5248-aeb4-f4e443a48a18
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.log2_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_function_call,unary_function_call}} that represents the log2 function {{entity}}'
+  notes:
+    - content: The *log2_function* entity carries the semantics of the EXPRESS 'LOG2' function defined in ISO 10303-11.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: log2_function
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: 7530cca8-27bb-5248-aeb4-f4e443a48a18

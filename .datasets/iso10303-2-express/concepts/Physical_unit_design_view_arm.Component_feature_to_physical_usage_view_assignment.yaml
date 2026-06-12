@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_design_view_arm.Component_feature_to_physical_usage_view_assignment
+  localized_concepts:
+    eng: a07dd9b1-306f-59b5-bcc6-7c78928fde26
+  domains:
+    - concept_id: section-Physical_unit_design_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+      ref_type: section
+id: Physical_unit_design_view_arm.Component_feature_to_physical_usage_view_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component feature to physical usage view assignment {{entity}}'
+  notes:
+    - content: A **Component_feature_to_physical_usage_view_assignment** is the association between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+          version: '5'
+      type: authoritative
+      id: Physical_unit_design_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_feature_to_physical_usage_view_assignment
+  domain: 'application module: Physical_unit_design_view_arm'
+  language_code: eng
+  annotations: []
+id: a07dd9b1-306f-59b5-bcc6-7c78928fde26

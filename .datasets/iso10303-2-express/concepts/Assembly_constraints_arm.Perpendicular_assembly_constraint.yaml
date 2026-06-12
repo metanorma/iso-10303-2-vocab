@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_constraints_arm.Perpendicular_assembly_constraint
+  localized_concepts:
+    eng: dca2e57c-1139-50cb-890e-1de56a632e40
+  domains:
+    - concept_id: section-Assembly_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+      ref_type: section
+id: Assembly_constraints_arm.Perpendicular_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the perpendicular assembly constraint {{entity}}'
+  notes:
+    - content: A **Perpendicular_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm.Binary_assembly_constraint,Binary_assembly_constraint}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Perpendicular_geometric_constraint,Perpendicular_geometric_constraint}} specifying that two {{linear_geometry_element,linear_geometry_element}} instances belonging to different constituents be constrained to be mutually perpendicular.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+          version: '1'
+      type: authoritative
+      id: Assembly_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Perpendicular_assembly_constraint
+  domain: 'application module: Assembly_constraints_arm'
+  language_code: eng
+  annotations: []
+id: dca2e57c-1139-50cb-890e-1de56a632e40

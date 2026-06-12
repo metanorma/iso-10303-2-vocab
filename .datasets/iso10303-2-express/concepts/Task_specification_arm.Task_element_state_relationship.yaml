@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Task_element_state_relationship
+  localized_concepts:
+    eng: 0b85e19a-d40e-5c65-8a4a-6077b3c9edca
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Task_element_state_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the task element state relationship {{entity}}'
+  notes:
+    - content: A **Task_element_state_relationship** is an type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Task_element_state_relationship
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 0b85e19a-d40e-5c65-8a4a-6077b3c9edca

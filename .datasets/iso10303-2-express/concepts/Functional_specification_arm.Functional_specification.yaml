@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_specification_arm.Functional_specification
+  localized_concepts:
+    eng: 4a16c559-f766-5f37-89c1-a2a57eed554a
+  domains:
+    - concept_id: section-Functional_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
+      ref_type: section
+id: Functional_specification_arm.Functional_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the functional specification {{entity}}'
+  notes:
+    - content: A **Functional_specification** is the information that characterizes the behaviour of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}} under controlled circumstances using stimulus-response test methods.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
+          version: '3'
+      type: authoritative
+      id: Functional_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_specification
+  domain: 'application module: Functional_specification_arm'
+  language_code: eng
+  annotations: []
+id: 4a16c559-f766-5f37-89c1-a2a57eed554a

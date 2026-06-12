@@ -1,0 +1,30 @@
+data:
+  identifier: Certification_mim.applied_certification_assignment
+  localized_concepts:
+    eng: ac713d11-34cc-5947-a0f8-696d1dbc3a79
+  domains:
+    - concept_id: section-Certification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_mim
+      ref_type: section
+id: Certification_mim.applied_certification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.certification_assignment,certification_assignment}} that represents the applied certification assignment {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Certification_mim
+          version: '1'
+      type: authoritative
+      id: Certification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_certification_assignment
+  domain: 'application module: Certification_mim'
+  language_code: eng
+  annotations: []
+id: ac713d11-34cc-5947-a0f8-696d1dbc3a79

@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.taper
+  localized_concepts:
+    eng: b6fe2a50-7067-5a33-8c6c-97d8fcce5afa
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.taper
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the taper {{entity}}'
+  notes:
+    - content: A **taper** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} which represents a linear change applied to a machining feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: taper
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: b6fe2a50-7067-5a33-8c6c-97d8fcce5afa

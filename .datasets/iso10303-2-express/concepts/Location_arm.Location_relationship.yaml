@@ -1,0 +1,31 @@
+data:
+  identifier: Location_arm.Location_relationship
+  localized_concepts:
+    eng: 604e4b05-596f-583c-932f-b61cb07a06a6
+  domains:
+    - concept_id: section-Location_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+      ref_type: section
+id: Location_arm.Location_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location relationship {{entity}}'
+  notes:
+    - content: A **Location_relationship** is a relationship between two locations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+          version: '2'
+      type: authoritative
+      id: Location_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Location_relationship
+  domain: 'application module: Location_arm'
+  language_code: eng
+  annotations: []
+id: 604e4b05-596f-583c-932f-b61cb07a06a6

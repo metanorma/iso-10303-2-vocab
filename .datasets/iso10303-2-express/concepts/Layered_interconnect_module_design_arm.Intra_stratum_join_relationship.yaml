@@ -1,0 +1,31 @@
+data:
+  identifier: Layered_interconnect_module_design_arm.Intra_stratum_join_relationship
+  localized_concepts:
+    eng: e30cf1f5-e107-51c7-9c4c-07806e032470
+  domains:
+    - concept_id: section-Layered_interconnect_module_design_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+      ref_type: section
+id: Layered_interconnect_module_design_arm.Intra_stratum_join_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Routed_join_relationship,Routed_join_relationship}} that represents the intra stratum join relationship {{entity}}'
+  notes:
+    - content: An **Intra_stratum_join_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Routed_join_relationship,Routed_join_relationship}} in which all joins occur on one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+          version: '6'
+      type: authoritative
+      id: Layered_interconnect_module_design_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Intra_stratum_join_relationship
+  domain: 'application module: Layered_interconnect_module_design_arm'
+  language_code: eng
+  annotations: []
+id: e30cf1f5-e107-51c7-9c4c-07806e032470

@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.position_in_organization_type
+  localized_concepts:
+    eng: c994724d-66be-5c9c-b8bb-b6dca48b1733
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.position_in_organization_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position in organization type {{entity}}'
+  notes:
+    - content: A **position_in_organization_type** is a generic function or job that is performed in organizations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: position_in_organization_type
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: c994724d-66be-5c9c-b8bb-b6dca48b1733

@@ -1,0 +1,33 @@
+data:
+  identifier: geometric_model_schema.non_manifold_surface_shape_representation
+  localized_concepts:
+    eng: 0c02d578-6d6d-5533-bcc2-913280fb3487
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.non_manifold_surface_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the non manifold surface shape representation {{entity}}'
+  notes:
+    - content: |-
+        A **non_manifold_surface_shape_representation** is a type of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that describes the shape or portions of the shape of a product using non-manifolds with boundaries.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: non_manifold_surface_shape_representation
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 0c02d578-6d6d-5533-bcc2-913280fb3487

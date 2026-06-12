@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_representation_schema.context_dependent_shape_representation
+  localized_concepts:
+    eng: ef10c131-b565-579d-b0e6-8aab48335842
+  domains:
+    - concept_id: section-product_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+      ref_type: section
+id: product_property_representation_schema.context_dependent_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the context dependent shape representation {{entity}}'
+  notes:
+    - content: A **context_dependent_shape_representation** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+          version: '10'
+      type: authoritative
+      id: product_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: context_dependent_shape_representation
+  domain: 'resource: product_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: ef10c131-b565-579d-b0e6-8aab48335842

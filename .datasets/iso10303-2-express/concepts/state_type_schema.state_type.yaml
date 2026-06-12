@@ -1,0 +1,31 @@
+data:
+  identifier: state_type_schema.state_type
+  localized_concepts:
+    eng: 04c8b81f-514d-5f1a-8174-26056863008a
+  domains:
+    - concept_id: section-state_type_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+      ref_type: section
+id: state_type_schema.state_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state type {{entity}}'
+  notes:
+    - content: A **state_type** is a mode of being.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+          version: '1'
+      type: authoritative
+      id: state_type_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_type
+  domain: 'resource: state_type_schema'
+  language_code: eng
+  annotations: []
+id: 04c8b81f-514d-5f1a-8174-26056863008a

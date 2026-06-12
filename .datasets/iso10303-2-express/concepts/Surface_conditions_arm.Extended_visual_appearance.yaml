@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Extended_visual_appearance
+  localized_concepts:
+    eng: 37a75963-ef21-5e57-b293-413a5ecf8397
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Extended_visual_appearance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Visual_appearance,Visual_appearance}} that represents the extended visual appearance {{entity}}'
+  notes:
+    - content: An **Extended_visual_appearance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Visual_appearance,Visual_appearance}} that specifies attributes regarding the quality visual appearance of the products and parts represented in an external geometric model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Extended_visual_appearance
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 37a75963-ef21-5e57-b293-413a5ecf8397

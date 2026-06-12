@@ -1,0 +1,31 @@
+data:
+  identifier: assembly_constraint_schema.perpendicular_assembly_constraint
+  localized_concepts:
+    eng: 08db45ab-aa37-580e-b155-37240644e94e
+  domains:
+    - concept_id: section-assembly_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+      ref_type: section
+id: assembly_constraint_schema.perpendicular_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the perpendicular assembly constraint {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.perpendicular_assembly_constraint,perpendicular_assembly_constraint}} specifies that two *linear_geometry_constraint_element* instances belonging to different constituents be constrained to be mutually perpendicular.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+          version: '3'
+      type: authoritative
+      id: assembly_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: perpendicular_assembly_constraint
+  domain: 'resource: assembly_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 08db45ab-aa37-580e-b155-37240644e94e

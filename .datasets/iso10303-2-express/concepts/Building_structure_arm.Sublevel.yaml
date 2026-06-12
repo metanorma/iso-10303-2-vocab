@@ -1,0 +1,31 @@
+data:
+  identifier: Building_structure_arm.Sublevel
+  localized_concepts:
+    eng: 3818d928-eb01-5c2c-92d0-976f43541308
+  domains:
+    - concept_id: section-Building_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+      ref_type: section
+id: Building_structure_arm.Sublevel
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Building_level,Building_level}} that represents the sublevel {{entity}}'
+  notes:
+    - content: A **Sublevel** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Building_level,Building_level}} that is a constituent of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Building_level,Building_level}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+          version: '1'
+      type: authoritative
+      id: Building_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Sublevel
+  domain: 'application module: Building_structure_arm'
+  language_code: eng
+  annotations: []
+id: 3818d928-eb01-5c2c-92d0-976f43541308

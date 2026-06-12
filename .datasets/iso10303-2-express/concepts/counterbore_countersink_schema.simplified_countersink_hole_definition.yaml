@@ -1,0 +1,31 @@
+data:
+  identifier: counterbore_countersink_schema.simplified_countersink_hole_definition
+  localized_concepts:
+    eng: d7d0d182-3617-5b6f-8024-fa87bba30e2a
+  domains:
+    - concept_id: section-counterbore_countersink_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+      ref_type: section
+id: counterbore_countersink_schema.simplified_countersink_hole_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_definition,countersink_hole_definition}} that represents the simplified countersink hole definition {{entity}}'
+  notes:
+    - content: A **simplified_countersink_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_definition,countersink_hole_definition}} that defines the location and direction of a hole from the drilled surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+          version: '3'
+      type: authoritative
+      id: counterbore_countersink_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: simplified_countersink_hole_definition
+  domain: 'resource: counterbore_countersink_schema'
+  language_code: eng
+  annotations: []
+id: d7d0d182-3617-5b6f-8024-fa87bba30e2a

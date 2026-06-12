@@ -1,0 +1,31 @@
+data:
+  identifier: General_model_parameter_mim.constrained_general_parameter_relationship
+  localized_concepts:
+    eng: cba290ce-8caa-5a9b-8b9d-c8e33a527b97
+  domains:
+    - concept_id: section-General_model_parameter_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_mim
+      ref_type: section
+id: General_model_parameter_mim.constrained_general_parameter_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_relationship,general_property_relationship}} that represents the constrained general parameter relationship {{entity}}'
+  notes:
+    - content: A **constrained_general_parameter_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_relationship,general_property_relationship}} that constrains the properties involved to be of a particular type or classified using a particular class.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_mim
+          version: '1'
+      type: authoritative
+      id: General_model_parameter_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: constrained_general_parameter_relationship
+  domain: 'application module: General_model_parameter_mim'
+  language_code: eng
+  annotations: []
+id: cba290ce-8caa-5a9b-8b9d-c8e33a527b97

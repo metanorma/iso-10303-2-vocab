@@ -1,0 +1,41 @@
+---
+data:
+  identifier: general.STEPlib
+  localized_concepts:
+    eng: 54fc7f2f-5b15-5ca7-b244-a80fadfa1cc8
+  domains:
+  - concept_id: section-general
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 14b909dc-034c-5262-95ee-a4887bd19f4f
+schema_version: v3
+---
+data:
+  definition:
+  - content: data and tools needed for the development and publication of the components
+      of the STEP extended architecture
+  notes:
+  - content: |-
+      STEPlib allows users to:
+
+      * manage the SysML models during the development of the models;
+      * prepare content to be fed into STEPmod: AntPub;
+      * implement the SysML to XSD binding: AntImp;
+      * transform the ARM EXPRESS model into the ARM-in-SysML model to build the SysML mappings from SysML models to EXPRESS models: Reeper;
+      * check the quality of the SysML source content: CheckXMI.
+
+      STEPlib does not deprecate STEPmod. This document assumes that STEPmod is a stable development and publication environment.
+
+      STEPlib has the sole purpose of managing the development of the models and producing the associated documentation subsets which will be assembled in STEPmod for ISO publication.
+
+      STEPlib is also the name of the top-level model of the SysML model tree used for all the STEP APs.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: STEPlib
+  - type: expression
+    normative_status: admitted
+    designation: STEP library
+  language_code: eng
+  annotations: []
+id: 54fc7f2f-5b15-5ca7-b244-a80fadfa1cc8

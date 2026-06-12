@@ -1,0 +1,31 @@
+data:
+  identifier: Footprint_definition_arm.Package_footprint_relationship_definition
+  localized_concepts:
+    eng: efffaa00-3ec3-5325-89c4-d904d31dcde4
+  domains:
+    - concept_id: section-Footprint_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+      ref_type: section
+id: Footprint_definition_arm.Package_footprint_relationship_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the package footprint relationship definition {{entity}}'
+  notes:
+    - content: A **Package_footprint_relationship_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} provided to explicitly define the geometric relationship between a planar shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Footprint_definition,Footprint_definition}} and a planar shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package,Package}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+          version: '6'
+      type: authoritative
+      id: Footprint_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Package_footprint_relationship_definition
+  domain: 'application module: Footprint_definition_arm'
+  language_code: eng
+  annotations: []
+id: efffaa00-3ec3-5325-89c4-d904d31dcde4

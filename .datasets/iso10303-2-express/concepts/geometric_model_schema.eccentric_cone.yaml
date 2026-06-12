@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.eccentric_cone
+  localized_concepts:
+    eng: bde99c6b-b30b-5c81-abf8-c4a4e37b9844
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.eccentric_cone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the eccentric cone {{entity}}'
+  notes:
+    - content: A **eccentric_cone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} which is a CSG primitive which is a generalisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.right_circular_cone,right_circular_cone}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: eccentric_cone
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: bde99c6b-b30b-5c81-abf8-c4a4e37b9844

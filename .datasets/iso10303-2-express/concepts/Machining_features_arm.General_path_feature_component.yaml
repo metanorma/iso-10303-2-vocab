@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.General_path_feature_component
+  localized_concepts:
+    eng: 865bce81-d6e4-5e8f-ba4f-03865a4b5622
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.General_path_feature_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Path_feature_component,Path_feature_component}} that represents the general path feature component {{entity}}'
+  notes:
+    - content: A **General_path_feature_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Path_feature_component,Path_feature_component}} that is a direction of travel along an arbitrary curve.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_path_feature_component
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 865bce81-d6e4-5e8f-ba4f-03865a4b5622

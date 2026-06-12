@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.common_datum
+  localized_concepts:
+    eng: 61e7b284-aaeb-5e9d-b028-39b362200db8
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.common_datum
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the common datum {{entity}}'
+  notes:
+    - content: A **common_datum** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.composite_shape_aspect,composite_shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum,datum}} that is established by two other {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum,datum}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: common_datum
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: 61e7b284-aaeb-5e9d-b028-39b362200db8

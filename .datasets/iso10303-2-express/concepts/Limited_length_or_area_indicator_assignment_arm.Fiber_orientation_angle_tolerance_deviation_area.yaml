@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_arm.Fiber_orientation_angle_tolerance_deviation_area
+  localized_concepts:
+    eng: 001cb5fe-2d29-503f-b79c-0fe834d5e21c
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_arm.Fiber_orientation_angle_tolerance_deviation_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the fiber orientation angle tolerance deviation area {{entity}}'
+  notes:
+    - content: A **Fiber_orientation_angle_tolerance_deviation_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that defines a specific region of a part, where the angular deviation requirements for the fiber directions may be larger or smaller than the default the process specification or general tolerance for the part.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fiber_orientation_angle_tolerance_deviation_area
+  domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 001cb5fe-2d29-503f-b79c-0fe834d5e21c

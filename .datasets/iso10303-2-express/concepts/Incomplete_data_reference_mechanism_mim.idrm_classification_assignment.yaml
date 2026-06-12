@@ -1,0 +1,31 @@
+data:
+  identifier: Incomplete_data_reference_mechanism_mim.idrm_classification_assignment
+  localized_concepts:
+    eng: 565d1a49-6586-596f-bc52-15d9a3000125
+  domains:
+    - concept_id: section-Incomplete_data_reference_mechanism_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Incomplete_data_reference_mechanism_mim
+      ref_type: section
+id: Incomplete_data_reference_mechanism_mim.idrm_classification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that represents the idrm classification assignment {{entity}}'
+  notes:
+    - content: An **idrm_classification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that enables the specification of partially exchanged items in an exchange structure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Incomplete_data_reference_mechanism_mim
+          version: '5'
+      type: authoritative
+      id: Incomplete_data_reference_mechanism_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: idrm_classification_assignment
+  domain: 'application module: Incomplete_data_reference_mechanism_mim'
+  language_code: eng
+  annotations: []
+id: 565d1a49-6586-596f-bc52-15d9a3000125

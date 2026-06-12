@@ -1,0 +1,31 @@
+data:
+  identifier: Surface_conditions_arm.Standard_surface_texture_parameter
+  localized_concepts:
+    eng: 0cf05e2d-fee9-561c-a76c-825e6066401f
+  domains:
+    - concept_id: section-Surface_conditions_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+      ref_type: section
+id: Surface_conditions_arm.Standard_surface_texture_parameter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_texture_parameter,Surface_texture_parameter}} that represents the standard surface texture parameter {{entity}}'
+  notes:
+    - content: A **Standard_surface_texture_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_texture_parameter,Surface_texture_parameter}} that represents a surface texture requirement as defined in ISO 1302:2002, Clause 6.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+          version: '7'
+      type: authoritative
+      id: Surface_conditions_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Standard_surface_texture_parameter
+  domain: 'application module: Surface_conditions_arm'
+  language_code: eng
+  annotations: []
+id: 0cf05e2d-fee9-561c-a76c-825e6066401f

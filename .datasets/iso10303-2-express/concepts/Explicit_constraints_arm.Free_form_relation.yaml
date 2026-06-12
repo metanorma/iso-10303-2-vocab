@@ -1,0 +1,31 @@
+data:
+  identifier: Explicit_constraints_arm.Free_form_relation
+  localized_concepts:
+    eng: 42e08745-0d36-54ac-b843-bd8b5a844ab4
+  domains:
+    - concept_id: section-Explicit_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+      ref_type: section
+id: Explicit_constraints_arm.Free_form_relation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}} that represents the free form relation {{entity}}'
+  notes:
+    - content: A **Free_form_relation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}} representing a BOOLEAN-valued relation between the values of model parameter instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Explicit_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Free_form_relation
+  domain: 'application module: Explicit_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 42e08745-0d36-54ac-b843-bd8b5a844ab4

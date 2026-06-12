@@ -1,0 +1,31 @@
+data:
+  identifier: Building_component_mim.element_component_classification_group
+  localized_concepts:
+    eng: 01458a18-1f69-5d60-aece-c54fc85d62e8
+  domains:
+    - concept_id: section-Building_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+      ref_type: section
+id: Building_component_mim.element_component_classification_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the element component classification group {{entity}}'
+  notes:
+    - content: An **element_component_classification_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} for the classification of instances of the entities listed in the {{element_component_classification_item,element_component_classification_item}} type.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+          version: '1'
+      type: authoritative
+      id: Building_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: element_component_classification_group
+  domain: 'application module: Building_component_mim'
+  language_code: eng
+  annotations: []
+id: 01458a18-1f69-5d60-aece-c54fc85d62e8

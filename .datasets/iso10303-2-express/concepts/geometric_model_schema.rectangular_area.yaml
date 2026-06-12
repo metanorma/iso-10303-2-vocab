@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.rectangular_area
+  localized_concepts:
+    eng: 6c31d305-7ce9-5a4a-9498-675321f48a23
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.rectangular_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.primitive_2d,primitive_2d}} that represents the rectangular area {{entity}}'
+  notes:
+    - content: A **rectangular_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.primitive_2d,primitive_2d}} with a rectangular shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rectangular_area
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 6c31d305-7ce9-5a4a-9498-675321f48a23

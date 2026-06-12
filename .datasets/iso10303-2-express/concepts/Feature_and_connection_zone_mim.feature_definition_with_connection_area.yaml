@@ -1,0 +1,31 @@
+data:
+  identifier: Feature_and_connection_zone_mim.feature_definition_with_connection_area
+  localized_concepts:
+    eng: e98128e0-96df-5446-95d5-67e40cb2204c
+  domains:
+    - concept_id: section-Feature_and_connection_zone_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_mim
+      ref_type: section
+id: Feature_and_connection_zone_mim.feature_definition_with_connection_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.shape_feature_definition,shape_feature_definition}} that represents the feature definition with connection area {{entity}}'
+  notes:
+    - content: A **feature_definition_with_connection_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.shape_feature_definition,shape_feature_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Feature_definition_with_connection_area,Feature_definition_with_connection_area}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_mim
+          version: '5'
+      type: authoritative
+      id: Feature_and_connection_zone_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: feature_definition_with_connection_area
+  domain: 'application module: Feature_and_connection_zone_mim'
+  language_code: eng
+  annotations: []
+id: e98128e0-96df-5446-95d5-67e40cb2204c

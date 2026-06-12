@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_arm.Bare_die_terminal_surface_constituent_relationship
+  localized_concepts:
+    eng: de340edd-24b9-5fdf-b5a8-4e1560f23a35
+  domains:
+    - concept_id: section-Bare_die_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+      ref_type: section
+id: Bare_die_arm.Bare_die_terminal_surface_constituent_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the bare die terminal surface constituent relationship {{entity}}'
+  notes:
+    - content: A **Bare_die_terminal_surface_constituent_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that identifies the surface on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die,Bare_die}} in which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_terminal,Bare_die_terminal}} is located.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+          version: '5'
+      type: authoritative
+      id: Bare_die_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Bare_die_terminal_surface_constituent_relationship
+  domain: 'application module: Bare_die_arm'
+  language_code: eng
+  annotations: []
+id: de340edd-24b9-5fdf-b5a8-4e1560f23a35

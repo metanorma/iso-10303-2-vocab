@@ -1,0 +1,31 @@
+data:
+  identifier: Aec_service_life_arm.Actual_service_life
+  localized_concepts:
+    eng: d516e08e-d848-5f07-88c9-2f8b745621ac
+  domains:
+    - concept_id: section-Aec_service_life_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+      ref_type: section
+id: Aec_service_life_arm.Actual_service_life
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that represents the actual service life {{entity}}'
+  notes:
+    - content: A **Actual_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that has taken place.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+          version: '1'
+      type: authoritative
+      id: Aec_service_life_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Actual_service_life
+  domain: 'application module: Aec_service_life_arm'
+  language_code: eng
+  annotations: []
+id: d516e08e-d848-5f07-88c9-2f8b745621ac

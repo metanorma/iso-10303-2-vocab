@@ -1,0 +1,33 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Triangle_edge_in_free_edge_loop
+  localized_concepts:
+    eng: f238d8b6-49ca-51b4-8652-dbdc22257274
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Triangle_edge_in_free_edge_loop
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that represents the triangle edge in free edge loop {{entity}}'
+  notes:
+    - content: |-
+        A **Triangle_edge_in_free_edge_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that asserts that the inspected
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Triangle_edge,Triangle_edge}} belongs to a free-edge loop, which represents a hole of triangles.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Triangle_edge_in_free_edge_loop
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: f238d8b6-49ca-51b4-8652-dbdc22257274

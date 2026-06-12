@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_arm.Change_element_sequence
+  localized_concepts:
+    eng: 9261cdfe-7fa3-5d53-8d2d-d0772a80ad4f
+  domains:
+    - concept_id: section-Change_management_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+      ref_type: section
+id: Change_management_arm.Change_element_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the change element sequence {{entity}}'
+  notes:
+    - content: A **Change_element_sequence** is the specification of the sequence between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+          version: '3'
+      type: authoritative
+      id: Change_management_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Change_element_sequence
+  domain: 'application module: Change_management_arm'
+  language_code: eng
+  annotations: []
+id: 9261cdfe-7fa3-5d53-8d2d-d0772a80ad4f

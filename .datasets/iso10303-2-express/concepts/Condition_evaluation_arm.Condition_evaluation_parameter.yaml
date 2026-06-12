@@ -1,0 +1,31 @@
+data:
+  identifier: Condition_evaluation_arm.Condition_evaluation_parameter
+  localized_concepts:
+    eng: 49a1a269-a91e-50a9-94ec-c84a53f2f838
+  domains:
+    - concept_id: section-Condition_evaluation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+      ref_type: section
+id: Condition_evaluation_arm.Condition_evaluation_parameter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition evaluation parameter {{entity}}'
+  notes:
+    - content: A **Condition_evaluation_parameter** is an identification of the product or activity data used in the evaluation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm.Condition,Condition}} identified by the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm.Condition_evaluation,Condition_evaluation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+          version: '2'
+      type: authoritative
+      id: Condition_evaluation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Condition_evaluation_parameter
+  domain: 'application module: Condition_evaluation_arm'
+  language_code: eng
+  annotations: []
+id: 49a1a269-a91e-50a9-94ec-c84a53f2f838

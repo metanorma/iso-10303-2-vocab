@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_element_analysis_arm.Calculated_state
+  localized_concepts:
+    eng: 31038f7e-5bc1-5b5f-8a9d-30dd680269c1
+  domains:
+    - concept_id: section-Finite_element_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+      ref_type: section
+id: Finite_element_analysis_arm.Calculated_state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}} that represents the calculated state {{entity}}'
+  notes:
+    - content: A **Calculated_state** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}} representing information that has been calculated by an analysis step.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Finite_element_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Calculated_state
+  domain: 'application module: Finite_element_analysis_arm'
+  language_code: eng
+  annotations: []
+id: 31038f7e-5bc1-5b5f-8a9d-30dd680269c1

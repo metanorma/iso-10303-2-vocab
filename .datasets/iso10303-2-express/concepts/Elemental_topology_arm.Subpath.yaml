@@ -1,0 +1,31 @@
+data:
+  identifier: Elemental_topology_arm.Subpath
+  localized_concepts:
+    eng: f75aae83-2417-5e65-921c-223521ac91f6
+  domains:
+    - concept_id: section-Elemental_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+      ref_type: section
+id: Elemental_topology_arm.Subpath
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Path,Path}} that represents the subpath {{entity}}'
+  notes:
+    - content: A **Subpath** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Path,Path}}, whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Path,Path}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+          version: '7'
+      type: authoritative
+      id: Elemental_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Subpath
+  domain: 'application module: Elemental_topology_arm'
+  language_code: eng
+  annotations: []
+id: f75aae83-2417-5e65-921c-223521ac91f6

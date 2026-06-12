@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.mass_unit
+  localized_concepts:
+    eng: 5aa0df9f-8959-5d35-8821-b1e939282fd0
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.mass_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that represents the mass unit {{entity}}'
+  notes:
+    - content: A **mass_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} in which the amount of matter that a body contains is expressed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mass_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 5aa0df9f-8959-5d35-8821-b1e939282fd0

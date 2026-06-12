@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.cartesian_complex_number_region
+  localized_concepts:
+    eng: 7bbc0452-d257-512d-8836-7ca6d4b2cd94
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.cartesian_complex_number_region
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the cartesian complex number region {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents subsets of the complex numbers defined by restricting the real parts to a specified, non-trivial, real interval and the imaginary parts to another such interval.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cartesian_complex_number_region
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 7bbc0452-d257-512d-8836-7ca6d4b2cd94

@@ -1,0 +1,31 @@
+data:
+  identifier: Sketch_arm.Implicit_planar_intersection_point
+  localized_concepts:
+    eng: 474796ab-51e0-58fb-a5ae-57c9e9d98d09
+  domains:
+    - concept_id: section-Sketch_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+      ref_type: section
+id: Sketch_arm.Implicit_planar_intersection_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item,Auxiliary_geometric_representation_item}} that represents the implicit planar intersection point {{entity}}'
+  notes:
+    - content: A **Implicit_planar_intersection_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item,Auxiliary_geometric_representation_item}} that is an implicit representation for an imported intersection point in the plane of a positioned sketch instance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+          version: '3'
+      type: authoritative
+      id: Sketch_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Implicit_planar_intersection_point
+  domain: 'application module: Sketch_arm'
+  language_code: eng
+  annotations: []
+id: 474796ab-51e0-58fb-a5ae-57c9e9d98d09

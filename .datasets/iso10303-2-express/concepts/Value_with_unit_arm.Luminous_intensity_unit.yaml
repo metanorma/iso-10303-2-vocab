@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Luminous_intensity_unit
+  localized_concepts:
+    eng: f201b66f-854e-515f-a8ef-f814be62091f
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Luminous_intensity_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the luminous intensity unit {{entity}}'
+  notes:
+    - content: A **Luminous_intensity_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} in which the brightness of a body is expressed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Luminous_intensity_unit
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: f201b66f-854e-515f-a8ef-f814be62091f

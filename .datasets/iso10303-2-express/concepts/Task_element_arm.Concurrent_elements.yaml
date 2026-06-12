@@ -1,0 +1,31 @@
+data:
+  identifier: Task_element_arm.Concurrent_elements
+  localized_concepts:
+    eng: f42cc54f-0592-57db-b249-6a89ecb068f0
+  domains:
+    - concept_id: section-Task_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+      ref_type: section
+id: Task_element_arm.Concurrent_elements
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Structured_task_element,Structured_task_element}} that represents the concurrent elements {{entity}}'
+  notes:
+    - content: A **Concurrent_elements** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Structured_task_element,Structured_task_element}} that comprises a set of actions to be performed during the time required for the longest task.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+          version: '1'
+      type: authoritative
+      id: Task_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Concurrent_elements
+  domain: 'application module: Task_element_arm'
+  language_code: eng
+  annotations: []
+id: f42cc54f-0592-57db-b249-6a89ecb068f0

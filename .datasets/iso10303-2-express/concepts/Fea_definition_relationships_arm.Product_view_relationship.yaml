@@ -1,0 +1,37 @@
+data:
+  identifier: Fea_definition_relationships_arm.Product_view_relationship
+  localized_concepts:
+    eng: 60c80e76-7f70-5816-a8fb-f6c5a49fc123
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Product_view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product view relationship {{entity}}'
+  notes:
+    - content: |-
+        A **Product_view_relationship** is a relationship between:
+
+        * an idealisation of a product for analysis; and
+        * a discretised analysis model,
+
+        that indicates the discretised analysis model is a model of the idealised product created for the purpose of numerical analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_view_relationship
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 60c80e76-7f70-5816-a8fb-f6c5a49fc123

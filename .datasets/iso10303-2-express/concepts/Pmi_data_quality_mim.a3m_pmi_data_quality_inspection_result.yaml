@@ -1,0 +1,31 @@
+data:
+  identifier: Pmi_data_quality_mim.a3m_pmi_data_quality_inspection_result
+  localized_concepts:
+    eng: 8a29dd6c-d66b-5461-ace4-30eb12b48086
+  domains:
+    - concept_id: section-Pmi_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+      ref_type: section
+id: Pmi_data_quality_mim.a3m_pmi_data_quality_inspection_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.a3m_data_quality_inspection_result,a3m_data_quality_inspection_result}} that represents the a3m pmi data quality inspection result {{entity}}'
+  notes:
+    - content: An **a3m_pmi_data_quality_inspection_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.a3m_data_quality_inspection_result,a3m_data_quality_inspection_result}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_pmi_data_quality_inspection_result,A3m_pmi_data_quality_inspection_result}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Pmi_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_pmi_data_quality_inspection_result
+  domain: 'application module: Pmi_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 8a29dd6c-d66b-5461-ace4-30eb12b48086

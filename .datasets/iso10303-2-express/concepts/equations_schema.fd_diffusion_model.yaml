@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.fd_diffusion_model
+  localized_concepts:
+    eng: 808cfd84-c6cb-5e34-832e-f57baccb283a
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.fd_diffusion_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fd diffusion model {{entity}}'
+  notes:
+    - content: An *fd_diffusion_model* is the viscous diffusion terms modelled in the flow equations, and is applicable only to Navier-Stokes equations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fd_diffusion_model
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: 808cfd84-c6cb-5e34-832e-f57baccb283a

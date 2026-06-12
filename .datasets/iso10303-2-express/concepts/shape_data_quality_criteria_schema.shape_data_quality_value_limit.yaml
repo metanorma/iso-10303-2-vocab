@@ -1,0 +1,31 @@
+data:
+  identifier: shape_data_quality_criteria_schema.shape_data_quality_value_limit
+  localized_concepts:
+    eng: f3c00a60-e7b0-5cbd-aa39-5b8dafdfffd8
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.shape_data_quality_value_limit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape data quality value limit {{entity}}'
+  notes:
+    - content: A **shape_data_quality_value_limit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.measure_representation_item,measure_representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.qualified_representation_item,qualified_representation_item}} that specifies a qualified numerical value representing either the lower limit or the upper limit of a particular quantifiable characteristic.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_data_quality_value_limit
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: f3c00a60-e7b0-5cbd-aa39-5b8dafdfffd8

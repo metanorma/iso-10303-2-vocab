@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.cell_with_explicit_boundary
+  localized_concepts:
+    eng: 98022751-2f5e-5597-aa01-d996f3d69d38
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.cell_with_explicit_boundary
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.cell,cell}} that represents the cell with explicit boundary {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.cell_with_explicit_boundary,cell_with_explicit_boundary}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.cell,cell}} that has a specified boundary.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cell_with_explicit_boundary
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 98022751-2f5e-5597-aa01-d996f3d69d38

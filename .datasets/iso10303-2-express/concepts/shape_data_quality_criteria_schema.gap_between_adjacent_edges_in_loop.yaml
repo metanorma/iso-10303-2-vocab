@@ -1,0 +1,30 @@
+data:
+  identifier: shape_data_quality_criteria_schema.gap_between_adjacent_edges_in_loop
+  localized_concepts:
+    eng: 603a5dd6-0430-52ad-b705-c886f514e5f4
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.gap_between_adjacent_edges_in_loop
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometric_gap_in_topology,geometric_gap_in_topology}} that represents the gap between adjacent edges in loop {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: gap_between_adjacent_edges_in_loop
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 603a5dd6-0430-52ad-b705-c886f514e5f4

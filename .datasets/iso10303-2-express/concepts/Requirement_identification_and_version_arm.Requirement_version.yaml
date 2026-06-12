@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_identification_and_version_arm.Requirement_version
+  localized_concepts:
+    eng: c22867a9-66bc-5a46-9500-aabb5cd0fbd0
+  domains:
+    - concept_id: section-Requirement_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_identification_and_version_arm
+      ref_type: section
+id: Requirement_identification_and_version_arm.Requirement_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the requirement version {{entity}}'
+  notes:
+    - content: A **Requirement_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a particular version of a requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_identification_and_version_arm
+          version: '2'
+      type: authoritative
+      id: Requirement_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement_version
+  domain: 'application module: Requirement_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: c22867a9-66bc-5a46-9500-aabb5cd0fbd0

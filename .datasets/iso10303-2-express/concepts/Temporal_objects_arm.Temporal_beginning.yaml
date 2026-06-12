@@ -1,0 +1,31 @@
+data:
+  identifier: Temporal_objects_arm.Temporal_beginning
+  localized_concepts:
+    eng: e50cbc53-a7ef-566d-a286-31bbed48e84a
+  domains:
+    - concept_id: section-Temporal_objects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+      ref_type: section
+id: Temporal_objects_arm.Temporal_beginning
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that represents the temporal beginning {{entity}}'
+  notes:
+    - content: A **Temporal_beginning** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that specifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_at_instant,Temporal_object_at_instant}} is the beginning of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_in_period,Temporal_object_in_period}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+          version: '1'
+      type: authoritative
+      id: Temporal_objects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Temporal_beginning
+  domain: 'application module: Temporal_objects_arm'
+  language_code: eng
+  annotations: []
+id: e50cbc53-a7ef-566d-a286-31bbed48e84a

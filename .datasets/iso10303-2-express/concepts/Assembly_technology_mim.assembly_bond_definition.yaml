@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_mim.assembly_bond_definition
+  localized_concepts:
+    eng: f24a4d80-0329-5e58-bbaf-0ed229944d0f
+  domains:
+    - concept_id: section-Assembly_technology_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+      ref_type: section
+id: Assembly_technology_mim.assembly_bond_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the assembly bond definition {{entity}}'
+  notes:
+    - content: An **assembly_bond_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_bond_definition,Assembly_bond_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_bond_definition
+  domain: 'application module: Assembly_technology_mim'
+  language_code: eng
+  annotations: []
+id: f24a4d80-0329-5e58-bbaf-0ed229944d0f

@@ -1,0 +1,31 @@
+data:
+  identifier: Explicit_constraints_arm.Simultaneous_constraint_group
+  localized_concepts:
+    eng: 15b98e5d-40dc-5aa5-bd82-10920f9e7c31
+  domains:
+    - concept_id: section-Explicit_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+      ref_type: section
+id: Explicit_constraints_arm.Simultaneous_constraint_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}} that represents the simultaneous constraint group {{entity}}'
+  notes:
+    - content: A **Simultaneous_constraint_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}} defining a set of constraints that are required to hold simultaneously.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Explicit_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Simultaneous_constraint_group
+  domain: 'application module: Explicit_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 15b98e5d-40dc-5aa5-bd82-10920f9e7c31

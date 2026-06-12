@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_date_arm.Ordinal_date
+  localized_concepts:
+    eng: b091cc49-3120-5288-bdb6-9ae416158065
+  domains:
+    - concept_id: section-Extended_date_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+      ref_type: section
+id: Extended_date_arm.Ordinal_date
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ordinal date {{entity}}'
+  notes:
+    - content: An **Ordinal_date** is an identification of an ordinal day in a calendar year.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_date_arm
+          version: '2'
+      type: authoritative
+      id: Extended_date_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Ordinal_date
+  domain: 'application module: Extended_date_arm'
+  language_code: eng
+  annotations: []
+id: b091cc49-3120-5288-bdb6-9ae416158065

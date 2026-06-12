@@ -1,0 +1,31 @@
+data:
+  identifier: Sketch_arm.Implicit_explicit_sketch_relationship
+  localized_concepts:
+    eng: 4c754bc0-4c91-5874-9d2e-e2b40d222360
+  domains:
+    - concept_id: section-Sketch_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+      ref_type: section
+id: Sketch_arm.Implicit_explicit_sketch_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the implicit explicit sketch relationship {{entity}}'
+  notes:
+    - content: An **Implicit_explicit_sketch_relationship** is a relationship between the implicit and explicit representations of a positioned sketch.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+          version: '3'
+      type: authoritative
+      id: Sketch_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Implicit_explicit_sketch_relationship
+  domain: 'application module: Sketch_arm'
+  language_code: eng
+  annotations: []
+id: 4c754bc0-4c91-5874-9d2e-e2b40d222360

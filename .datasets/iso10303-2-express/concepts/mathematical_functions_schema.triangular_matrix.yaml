@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.triangular_matrix
+  localized_concepts:
+    eng: 33e7d5c8-88c4-5411-bcee-3a9390fa80ec
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.triangular_matrix
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} that represents the triangular matrix {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} represents triangular matrices in a compact manner.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: triangular_matrix
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 33e7d5c8-88c4-5411-bcee-3a9390fa80ec

@@ -1,0 +1,31 @@
+data:
+  identifier: Work_control_arm.Disapprove_work
+  localized_concepts:
+    eng: 1738f58b-c8b8-52f4-9ed6-f840b8f73109
+  domains:
+    - concept_id: section-Work_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+      ref_type: section
+id: Work_control_arm.Disapprove_work
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Monitor_work,Monitor_work}} that represents the disapprove work {{entity}}'
+  notes:
+    - content: A **Disapprove_work** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Monitor_work,Monitor_work}} that disapproves of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+          version: '1'
+      type: authoritative
+      id: Work_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Disapprove_work
+  domain: 'application module: Work_control_arm'
+  language_code: eng
+  annotations: []
+id: 1738f58b-c8b8-52f4-9ed6-f840b8f73109

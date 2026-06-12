@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.brep_with_voids
+  localized_concepts:
+    eng: e8c69ebc-d150-507c-b787-d3b3414aaeed
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.brep_with_voids
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.manifold_solid_brep,manifold_solid_brep}} that represents the brep with voids {{entity}}'
+  notes:
+    - content: A **brep_with_voids** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.manifold_solid_brep,manifold_solid_brep}} which contains one or more voids in its interior.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: brep_with_voids
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: e8c69ebc-d150-507c-b787-d3b3414aaeed

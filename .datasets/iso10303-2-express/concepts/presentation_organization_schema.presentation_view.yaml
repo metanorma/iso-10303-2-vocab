@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_organization_schema.presentation_view
+  localized_concepts:
+    eng: ac9ab3de-de7a-577f-8278-f6a514affeb5
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.presentation_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_representation,presentation_representation}} that represents the presentation view {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: presentation_view
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: ac9ab3de-de7a-577f-8278-f6a514affeb5

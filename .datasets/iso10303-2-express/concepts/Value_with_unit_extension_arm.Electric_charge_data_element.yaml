@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_arm.Electric_charge_data_element
+  localized_concepts:
+    eng: f1127af5-db2d-5be9-b93b-46ca0d29a4b6
+  domains:
+    - concept_id: section-Value_with_unit_extension_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+      ref_type: section
+id: Value_with_unit_extension_arm.Electric_charge_data_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the electric charge data element {{entity}}'
+  notes:
+    - content: An **Electric_charge_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} where the measurement is of electrical charge.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Electric_charge_data_element
+  domain: 'application module: Value_with_unit_extension_arm'
+  language_code: eng
+  annotations: []
+id: f1127af5-db2d-5be9-b93b-46ca0d29a4b6

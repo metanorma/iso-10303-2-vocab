@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_topology_schema.kinematic_topology_substructure
+  localized_concepts:
+    eng: 1465f70a-21d3-5bc5-a151-67cce93c25d3
+  domains:
+    - concept_id: section-kinematic_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+      ref_type: section
+id: kinematic_topology_schema.kinematic_topology_substructure
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.kinematic_topology_structure,kinematic_topology_structure}} that represents the kinematic topology substructure {{entity}}'
+  notes:
+    - content: A **kinematic_topology_substructure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.kinematic_topology_structure,kinematic_topology_structure}} that specifies the topological characteristics of a mechanism in terms of tree or network structures.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: kinematic_topology_substructure
+  domain: 'resource: kinematic_topology_schema'
+  language_code: eng
+  annotations: []
+id: 1465f70a-21d3-5bc5-a151-67cce93c25d3

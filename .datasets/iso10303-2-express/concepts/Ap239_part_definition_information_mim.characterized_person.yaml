@@ -1,0 +1,31 @@
+data:
+  identifier: Ap239_part_definition_information_mim.characterized_person
+  localized_concepts:
+    eng: 5302dc2d-9cf4-5173-80e0-138cb76f9c02
+  domains:
+    - concept_id: section-Ap239_part_definition_information_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+      ref_type: section
+id: Ap239_part_definition_information_mim.characterized_person
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized person {{entity}}'
+  notes:
+    - content: A **characterized_person** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person,person}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim.characterized_person,characterized_person}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+          version: '5'
+      type: authoritative
+      id: Ap239_part_definition_information_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_person
+  domain: 'application module: Ap239_part_definition_information_mim'
+  language_code: eng
+  annotations: []
+id: 5302dc2d-9cf4-5173-80e0-138cb76f9c02

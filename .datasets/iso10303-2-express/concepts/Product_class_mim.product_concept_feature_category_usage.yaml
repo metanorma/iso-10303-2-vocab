@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_mim.product_concept_feature_category_usage
+  localized_concepts:
+    eng: 9a6eba5f-89fe-5186-936e-263609c992f7
+  domains:
+    - concept_id: section-Product_class_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+      ref_type: section
+id: Product_class_mim.product_concept_feature_category_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the product concept feature category usage {{entity}}'
+  notes:
+    - content: A **product_concept_feature_category_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim.product_concept_feature_category,product_concept_feature_category}} with one or more instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim.product_class,product_class}}, referred to by the inherited attribute items.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+          version: '6'
+      type: authoritative
+      id: Product_class_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_concept_feature_category_usage
+  domain: 'application module: Product_class_mim'
+  language_code: eng
+  annotations: []
+id: 9a6eba5f-89fe-5186-936e-263609c992f7

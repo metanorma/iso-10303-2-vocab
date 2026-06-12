@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_person_organization_arm.Compound_address_assignment
+  localized_concepts:
+    eng: e8a8a1c1-b362-5414-ab4c-8751cf69af00
+  domains:
+    - concept_id: section-Extended_person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+      ref_type: section
+id: Extended_person_organization_arm.Compound_address_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the compound address assignment {{entity}}'
+  notes:
+    - content: A **Compound_address_assignment** is a characterized association that assign a **Compound_address** to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person_in_organization,Person_in_organization}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Extended_person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Compound_address_assignment
+  domain: 'application module: Extended_person_organization_arm'
+  language_code: eng
+  annotations: []
+id: e8a8a1c1-b362-5414-ab4c-8751cf69af00

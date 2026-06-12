@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.definite_integral_expression
+  localized_concepts:
+    eng: a2972963-6523-57c3-aaf5-4c71cd27bd95
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.definite_integral_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.quantifier_expression,quantifier_expression}} that represents the definite integral expression {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.quantifier_expression,quantifier_expression}} represents a definite integral of another expression over a real interval.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: definite_integral_expression
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: a2972963-6523-57c3-aaf5-4c71cd27bd95

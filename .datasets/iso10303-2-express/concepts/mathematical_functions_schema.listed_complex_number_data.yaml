@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.listed_complex_number_data
+  localized_concepts:
+    eng: b9e7c754-1123-5565-9eda-825a6a3523c9
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.listed_complex_number_data
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the listed complex number data {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.explicit_table_function,explicit_table_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents mathematical functions which take a single integer as input and output the complex number formed from two real numbers at a corresponding pair of consecutive positions in a list.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: listed_complex_number_data
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: b9e7c754-1123-5565-9eda-825a6a3523c9

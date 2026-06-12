@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_topology_arm.Extraction_of_submesh_by_vertices
+  localized_concepts:
+    eng: 6ca90dd9-5319-5918-b089-fd069cd7e81c
+  domains:
+    - concept_id: section-Mesh_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+      ref_type: section
+id: Mesh_topology_arm.Extraction_of_submesh_by_vertices
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Extraction_of_submesh,Extraction_of_submesh}} that represents the extraction of submesh by vertices {{entity}}'
+  notes:
+    - content: An **Extraction_of_submesh_by_vertices** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Extraction_of_submesh,Extraction_of_submesh}} that extracts a submesh by listing the vertices.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+          version: '2'
+      type: authoritative
+      id: Mesh_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Extraction_of_submesh_by_vertices
+  domain: 'application module: Mesh_topology_arm'
+  language_code: eng
+  annotations: []
+id: 6ca90dd9-5319-5918-b089-fd069cd7e81c

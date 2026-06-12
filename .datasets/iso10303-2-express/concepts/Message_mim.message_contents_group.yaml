@@ -1,0 +1,31 @@
+data:
+  identifier: Message_mim.message_contents_group
+  localized_concepts:
+    eng: eaa65cb4-6ca4-5c45-bad0-5d928bfb1337
+  domains:
+    - concept_id: section-Message_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+      ref_type: section
+id: Message_mim.message_contents_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the message contents group {{entity}}'
+  notes:
+    - content: A **message_contents_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that provides the mechanism to link a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}} with its contents.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+          version: '2'
+      type: authoritative
+      id: Message_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: message_contents_group
+  domain: 'application module: Message_mim'
+  language_code: eng
+  annotations: []
+id: eaa65cb4-6ca4-5c45-bad0-5d928bfb1337

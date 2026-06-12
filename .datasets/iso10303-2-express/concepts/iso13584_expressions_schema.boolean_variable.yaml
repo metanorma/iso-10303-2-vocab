@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.boolean_variable
+  localized_concepts:
+    eng: 8c97bc2f-941b-5942-8797-8ca44d1f6e73
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.boolean_variable
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boolean variable {{entity}}'
+  notes:
+    - content: A *boolean_variable* is a variable that stands for a Boolean value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: boolean_variable
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: 8c97bc2f-941b-5942-8797-8ca44d1f6e73

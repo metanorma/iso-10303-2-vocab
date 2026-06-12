@@ -1,0 +1,30 @@
+data:
+  identifier: State_definition_arm.Or_state_cause_effect_definition
+  localized_concepts:
+    eng: b34215e8-d529-5e77-8c15-3235b0cdfa4b
+  domains:
+    - concept_id: section-State_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+      ref_type: section
+id: State_definition_arm.Or_state_cause_effect_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm.State_cause_effect_definition,State_cause_effect_definition}} that represents the or state cause effect definition {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+          version: '3'
+      type: authoritative
+      id: State_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Or_state_cause_effect_definition
+  domain: 'application module: State_definition_arm'
+  language_code: eng
+  annotations: []
+id: b34215e8-d529-5e77-8c15-3235b0cdfa4b

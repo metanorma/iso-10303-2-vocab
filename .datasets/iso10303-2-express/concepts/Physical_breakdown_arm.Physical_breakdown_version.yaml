@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_breakdown_arm.Physical_breakdown_version
+  localized_concepts:
+    eng: 62de37c3-ab41-5bb1-97aa-a61a466d7541
+  domains:
+    - concept_id: section-Physical_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+      ref_type: section
+id: Physical_breakdown_arm.Physical_breakdown_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_version,Breakdown_version}} that represents the physical breakdown version {{entity}}'
+  notes:
+    - content: A **Physical_breakdown_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_version,Breakdown_version}} that identifies a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_breakdown,Physical_breakdown}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+          version: '2'
+      type: authoritative
+      id: Physical_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_breakdown_version
+  domain: 'application module: Physical_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 62de37c3-ab41-5bb1-97aa-a61a466d7541

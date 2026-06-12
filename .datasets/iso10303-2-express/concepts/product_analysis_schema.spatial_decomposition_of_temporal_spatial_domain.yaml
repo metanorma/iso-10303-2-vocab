@@ -1,0 +1,31 @@
+data:
+  identifier: product_analysis_schema.spatial_decomposition_of_temporal_spatial_domain
+  localized_concepts:
+    eng: 8585931d-5b7a-5227-9e8b-2dbf0ad25ca6
+  domains:
+    - concept_id: section-product_analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+      ref_type: section
+id: product_analysis_schema.spatial_decomposition_of_temporal_spatial_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the spatial decomposition of temporal spatial domain {{entity}}'
+  notes:
+    - content: A **spatial_decomposition_of_temporal_spatial_domain** is a decomposition of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}} into specifications for different spatial regions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+          version: '1'
+      type: authoritative
+      id: product_analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: spatial_decomposition_of_temporal_spatial_domain
+  domain: 'resource: product_analysis_schema'
+  language_code: eng
+  annotations: []
+id: 8585931d-5b7a-5227-9e8b-2dbf0ad25ca6

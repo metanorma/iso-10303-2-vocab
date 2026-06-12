@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_arm.Observed_environment_to_definition
+  localized_concepts:
+    eng: 3ea16794-7acd-53f0-9901-949f432f9323
+  domains:
+    - concept_id: section-Product_environment_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+      ref_type: section
+id: Product_environment_observed_arm.Observed_environment_to_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the observed environment to definition {{entity}}'
+  notes:
+    - content: An **Observed_environment_to_definition** is a relationship between an observed environment, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Observed_environment,Observed_environment}}, and a typical environment, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm.Environment_definition,Environment_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Observed_environment_to_definition
+  domain: 'application module: Product_environment_observed_arm'
+  language_code: eng
+  annotations: []
+id: 3ea16794-7acd-53f0-9901-949f432f9323

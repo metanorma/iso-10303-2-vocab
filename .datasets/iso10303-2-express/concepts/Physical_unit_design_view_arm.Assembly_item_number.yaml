@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_design_view_arm.Assembly_item_number
+  localized_concepts:
+    eng: cc351316-2cdf-57f0-8aa1-c554e8355aa5
+  domains:
+    - concept_id: section-Physical_unit_design_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+      ref_type: section
+id: Physical_unit_design_view_arm.Assembly_item_number
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly item number {{entity}}'
+  notes:
+    - content: An **Assembly_item_number** is an association of a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}} with an identifier in the context of a physical design.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+          version: '5'
+      type: authoritative
+      id: Physical_unit_design_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_item_number
+  domain: 'application module: Physical_unit_design_view_arm'
+  language_code: eng
+  annotations: []
+id: cc351316-2cdf-57f0-8aa1-c554e8355aa5

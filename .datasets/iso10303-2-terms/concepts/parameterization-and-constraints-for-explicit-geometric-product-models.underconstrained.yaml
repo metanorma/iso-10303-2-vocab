@@ -1,0 +1,37 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.underconstrained
+  localized_concepts:
+    eng: b715e565-a436-5a92-b7de-f735e1b5a3a5
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 7b5322df-463d-55b0-9c47-dd808162276c
+schema_version: v3
+---
+data:
+  definition:
+  - content: containing insufficiently many constraints to allow the determination
+      of a specific constraint solution for a model
+  examples:
+  - content: The designer may create a design that (although fully constrained to
+      meet functional requirements) leaves certain detail shape elements underconstrained.
+      A manufacturing engineer can then use the remaining degrees of freedom to derive
+      a final evaluated model by incorporating manufacturing constraints to minimize
+      production costs.
+  notes:
+  - content: Essentially, one or more degrees of freedom still remain in an underconstrained
+      model. This is a natural situation in the early stages of design where some
+      decisions have been made and embodied in constraints, but not others. <<ISO_10303-108_2005>>
+      is designed to allow the exchange of underconstrained models (together with
+      a current result as a representative example). The remaining flexibility may
+      then be used in the receiving system, following a model exchange, to optimize
+      the model for its intended purpose.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: underconstrained
+  language_code: eng
+  annotations: []
+id: b715e565-a436-5a92-b7de-f735e1b5a3a5

@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Value_format_type_qualifier
+  localized_concepts:
+    eng: f6a8d0c8-1e55-5f8d-91fe-d7513cff10f7
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Value_format_type_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the value format type qualifier {{entity}}'
+  notes:
+    - content: A **Value_format_type_qualifier** is a specification of the format, including length and pattern, of the presentation of a value in an exchange or storage medium.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Value_format_type_qualifier
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: f6a8d0c8-1e55-5f8d-91fe-d7513cff10f7

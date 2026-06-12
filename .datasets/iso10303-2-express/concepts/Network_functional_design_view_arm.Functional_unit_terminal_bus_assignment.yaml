@@ -1,0 +1,31 @@
+data:
+  identifier: Network_functional_design_view_arm.Functional_unit_terminal_bus_assignment
+  localized_concepts:
+    eng: 91f231fb-06af-5241-a937-5f3b5600c4c1
+  domains:
+    - concept_id: section-Network_functional_design_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
+      ref_type: section
+id: Network_functional_design_view_arm.Functional_unit_terminal_bus_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the functional unit terminal bus assignment {{entity}}'
+  notes:
+    - content: A **Functional_unit_terminal_bus_assignment** is the relationship between the structural definition of a bus and a terminal that is assigned to the bus.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
+          version: '4'
+      type: authoritative
+      id: Network_functional_design_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_unit_terminal_bus_assignment
+  domain: 'application module: Network_functional_design_view_arm'
+  language_code: eng
+  annotations: []
+id: 91f231fb-06af-5241-a937-5f3b5600c4c1

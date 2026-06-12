@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_geometric_constraint_schema.pogc_with_dimension
+  localized_concepts:
+    eng: 64875f0d-2b79-5564-b7a3-e0feabab71d7
+  domains:
+    - concept_id: section-explicit_geometric_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+      ref_type: section
+id: explicit_geometric_constraint_schema.pogc_with_dimension
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.parallel_offset_geometric_constraint,parallel_offset_geometric_constraint}} that represents the pogc with dimension {{entity}}'
+  notes:
+    - content: The *pogc_with_dimension* entity data type is a type of *parallel_offset_geometric_constraint* asserting that two elements are parallel offsets of each other at a specified distance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_geometric_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pogc_with_dimension
+  domain: 'resource: explicit_geometric_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 64875f0d-2b79-5564-b7a3-e0feabab71d7

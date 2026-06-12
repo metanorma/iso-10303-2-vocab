@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Flat_with_taper_hole_bottom
+  localized_concepts:
+    eng: 7e099c2d-7904-578f-89a8-9f66197c7343
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Flat_with_taper_hole_bottom
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that represents the flat with taper hole bottom {{entity}}'
+  notes:
+    - content: A **Flat_with_taper_hole_bottom** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}} is flat and has a planar taper from the sides of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Flat_with_taper_hole_bottom
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 7e099c2d-7904-578f-89a8-9f66197c7343

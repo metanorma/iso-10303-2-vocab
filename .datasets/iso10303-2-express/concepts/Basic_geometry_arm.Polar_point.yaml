@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Polar_point
+  localized_concepts:
+    eng: b04f9ff4-4b7f-50d7-ae45-52a24a4d7f73
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Polar_point
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Cartesian_point,Cartesian_point}} that represents the polar point {{entity}}'
+  notes:
+    - content: A **Polar_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Cartesian_point,Cartesian_point}} which uses a two dimensional polar coordinate system, centred at the origin of the corresponding Cartesian coordinate system, to define its location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Polar_point
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: b04f9ff4-4b7f-50d7-ae45-52a24a4d7f73

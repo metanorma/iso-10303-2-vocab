@@ -1,0 +1,31 @@
+data:
+  identifier: Work_control_arm.Control_document
+  localized_concepts:
+    eng: 52f2b9e8-bd1c-51c4-b27f-f3db400f7d26
+  domains:
+    - concept_id: section-Work_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+      ref_type: section
+id: Work_control_arm.Control_document
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}} that represents the control document {{entity}}'
+  notes:
+    - content: A **Control_document** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}} that specifies how a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Perform_work_as_directed_by_work_order,Perform_work_as_directed_by_work_order}} should be carried out, but that is not the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Work_order_document,Work_order_document}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+          version: '1'
+      type: authoritative
+      id: Work_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Control_document
+  domain: 'application module: Work_control_arm'
+  language_code: eng
+  annotations: []
+id: 52f2b9e8-bd1c-51c4-b27f-f3db400f7d26

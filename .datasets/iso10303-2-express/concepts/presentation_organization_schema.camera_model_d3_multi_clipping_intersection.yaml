@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_organization_schema.camera_model_d3_multi_clipping_intersection
+  localized_concepts:
+    eng: 4270622f-1bff-5745-91c1-31998077d2fe
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.camera_model_d3_multi_clipping_intersection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the camera model d3 multi clipping intersection {{entity}}'
+  notes:
+    - content: A **camera_model_d3_multi_clipping_intersection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that defines an intermediate acceptance region for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d3_multi_clipping_union,camera_model_d3_multi_clipping_union}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: camera_model_d3_multi_clipping_intersection
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: 4270622f-1bff-5745-91c1-31998077d2fe

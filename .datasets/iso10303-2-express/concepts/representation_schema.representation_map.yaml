@@ -1,0 +1,31 @@
+data:
+  identifier: representation_schema.representation_map
+  localized_concepts:
+    eng: 9dd422e2-401d-5801-809b-2cae8f6b15e6
+  domains:
+    - concept_id: section-representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+      ref_type: section
+id: representation_schema.representation_map
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation map {{entity}}'
+  notes:
+    - content: A **representation_map** is the identification of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}, and of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that is an element within the context of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}, for the purpose of mapping.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+          version: '8'
+      type: authoritative
+      id: representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: representation_map
+  domain: 'resource: representation_schema'
+  language_code: eng
+  annotations: []
+id: 9dd422e2-401d-5801-809b-2cae8f6b15e6

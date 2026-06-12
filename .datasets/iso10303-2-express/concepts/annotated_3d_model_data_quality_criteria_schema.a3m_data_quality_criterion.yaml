@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion
+  localized_concepts:
+    eng: a26eb834-ee0a-5dee-9f02-a3207084060d
+  domains:
+    - concept_id: section-annotated_3d_model_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+      ref_type: section
+id: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the a3m data quality criterion {{entity}}'
+  notes:
+    - content: An **a3m_data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_criterion,data_quality_criterion}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_measurement_requirement,data_quality_measurement_requirement}} that represents a criterion for annotated 3d model data quality of the target product data together with the necessary conditions for appropriate measurement(s) of the target product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+          version: '3'
+      type: authoritative
+      id: annotated_3d_model_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_data_quality_criterion
+  domain: 'resource: annotated_3d_model_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: a26eb834-ee0a-5dee-9f02-a3207084060d

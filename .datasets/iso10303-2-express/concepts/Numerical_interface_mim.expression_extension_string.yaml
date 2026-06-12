@@ -1,0 +1,31 @@
+data:
+  identifier: Numerical_interface_mim.expression_extension_string
+  localized_concepts:
+    eng: ccaf7e9d-6b67-52c6-8527-85f0b149836b
+  domains:
+    - concept_id: section-Numerical_interface_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+      ref_type: section
+id: Numerical_interface_mim.expression_extension_string
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the expression extension string {{entity}}'
+  notes:
+    - content: An **expression_extension_string** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.string_expression,string_expression}} and is the conceptual representation of an expression in the string format.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+          version: '2'
+      type: authoritative
+      id: Numerical_interface_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: expression_extension_string
+  domain: 'application module: Numerical_interface_mim'
+  language_code: eng
+  annotations: []
+id: ccaf7e9d-6b67-52c6-8527-85f0b149836b

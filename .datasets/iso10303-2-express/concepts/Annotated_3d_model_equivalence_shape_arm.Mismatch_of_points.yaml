@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_points
+  localized_concepts:
+    eng: c780a0c6-f99d-5b42-b82d-e7e2361516bc
+  domains:
+    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+      ref_type: section
+id: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_points
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_detailed_shape_data_content,A3m_equivalence_criterion_of_detailed_shape_data_content}} that represents the mismatch of points {{entity}}'
+  notes:
+    - content: A **Mismatch_of_points** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_detailed_shape_data_content,A3m_equivalence_criterion_of_detailed_shape_data_content}} which detects the different location between two compared {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Vertex_point,Vertex_point}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_equivalence_shape_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mismatch_of_points
+  domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
+  language_code: eng
+  annotations: []
+id: c780a0c6-f99d-5b42-b82d-e7e2361516bc

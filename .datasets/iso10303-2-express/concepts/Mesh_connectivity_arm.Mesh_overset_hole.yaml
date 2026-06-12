@@ -1,0 +1,31 @@
+data:
+  identifier: Mesh_connectivity_arm.Mesh_overset_hole
+  localized_concepts:
+    eng: 6c40a409-87ac-515b-9263-6ee027542745
+  domains:
+    - concept_id: section-Mesh_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+      ref_type: section
+id: Mesh_connectivity_arm.Mesh_overset_hole
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_mesh_connection,Mismatched_mesh_connection}} that represents the mesh overset hole {{entity}}'
+  notes:
+    - content: A **Mesh_overset_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_mesh_connection,Mismatched_mesh_connection}} that is a hole, or holes, in an overset mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+          version: '1'
+      type: authoritative
+      id: Mesh_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mesh_overset_hole
+  domain: 'application module: Mesh_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 6c40a409-87ac-515b-9263-6ee027542745

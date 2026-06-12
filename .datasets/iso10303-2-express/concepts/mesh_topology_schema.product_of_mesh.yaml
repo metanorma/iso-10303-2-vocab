@@ -1,0 +1,38 @@
+data:
+  identifier: mesh_topology_schema.product_of_mesh
+  localized_concepts:
+    eng: ecb3060c-c9b9-5e68-bfb0-e7cd11b06d78
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.product_of_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product of mesh {{entity}}'
+  notes:
+    - content: |-
+        A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.product_of_mesh,product_of_mesh}} is a relationship that is between:
+
+        * two operands that are a 1-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} and an stem:[n]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}; and
+
+        * a product that is an stem:[(n + 1)]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}},
+
+        that indicates the stem:[(n + 1)]-dimensional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} is the Cartesian product of the operands.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_of_mesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: ecb3060c-c9b9-5e68-bfb0-e7cd11b06d78

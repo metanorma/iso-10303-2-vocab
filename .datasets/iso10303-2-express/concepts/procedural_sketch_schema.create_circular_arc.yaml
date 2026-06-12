@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_circular_arc
+  localized_concepts:
+    eng: 33b153e6-2173-5403-b325-abdf4388c3be
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_circular_arc
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_curve_element,sketch_create_curve_element}} that represents the create circular arc {{entity}}'
+  notes:
+    - content: A *create_circular_arc* is a type of *sketch_create_curve_element* that specifies types of circular arc creation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_circular_arc
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: 33b153e6-2173-5403-b325-abdf4388c3be

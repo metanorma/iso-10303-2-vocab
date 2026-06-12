@@ -1,0 +1,33 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Rectangular_composite_surface_transition_locator
+  localized_concepts:
+    eng: a0c0b4ee-288b-5e71-b285-d36d3996595a
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Rectangular_composite_surface_transition_locator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rectangular composite surface transition locator {{entity}}'
+  notes:
+    - content: |-
+        A **Rectangular_composite_surface_transition_locator** is the representation of
+        a location by specifying an index of connecting segments between two patches in the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm.Rectangular_composite_surface,Rectangular_composite_surface}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rectangular_composite_surface_transition_locator
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: a0c0b4ee-288b-5e71-b285-d36d3996595a

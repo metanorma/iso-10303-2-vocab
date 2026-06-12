@@ -1,0 +1,37 @@
+data:
+  identifier: property_distribution_and_model_relationships_schema.distribution_view_relationship
+  localized_concepts:
+    eng: e9b9d89e-a4d0-5dc0-91f3-a82e4167ae3b
+  domains:
+    - concept_id: section-property_distribution_and_model_relationships_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
+      ref_type: section
+id: property_distribution_and_model_relationships_schema.distribution_view_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the distribution view relationship {{entity}}'
+  notes:
+    - content: |-
+        A **distribution_view_relationship** is a relationship between:
+
+        * a property distribution over an idealisation of a product, action or state for analysis; and
+        * a discretised model of a property distribution obtained by analysis
+
+        which indicates that the discretised model is a model of the property distribution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
+          version: '1'
+      type: authoritative
+      id: property_distribution_and_model_relationships_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: distribution_view_relationship
+  domain: 'resource: property_distribution_and_model_relationships_schema'
+  language_code: eng
+  annotations: []
+id: e9b9d89e-a4d0-5dc0-91f3-a82e4167ae3b

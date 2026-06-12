@@ -1,0 +1,31 @@
+data:
+  identifier: Point_direction_model_mim.point_placement_shape_representation
+  localized_concepts:
+    eng: 59bae797-982e-50b8-a1e9-bc44ce915a2d
+  domains:
+    - concept_id: section-Point_direction_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_mim
+      ref_type: section
+id: Point_direction_model_mim.point_placement_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the point placement shape representation {{entity}}'
+  notes:
+    - content: A **point_placement_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that consists of sequences of pairs of points and directions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_mim
+          version: '2'
+      type: authoritative
+      id: Point_direction_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: point_placement_shape_representation
+  domain: 'application module: Point_direction_model_mim'
+  language_code: eng
+  annotations: []
+id: 59bae797-982e-50b8-a1e9-bc44ce915a2d

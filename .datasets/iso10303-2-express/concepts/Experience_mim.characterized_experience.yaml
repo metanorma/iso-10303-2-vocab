@@ -1,0 +1,31 @@
+data:
+  identifier: Experience_mim.characterized_experience
+  localized_concepts:
+    eng: 9ae86845-9349-5f28-a713-bf497c9db2be
+  domains:
+    - concept_id: section-Experience_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_mim
+      ref_type: section
+id: Experience_mim.characterized_experience
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized experience {{entity}}'
+  notes:
+    - content: A **characterized_experience** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema.experience,experience}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema.experience,experience}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_mim
+          version: '1'
+      type: authoritative
+      id: Experience_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_experience
+  domain: 'application module: Experience_mim'
+  language_code: eng
+  annotations: []
+id: 9ae86845-9349-5f28-a713-bf497c9db2be

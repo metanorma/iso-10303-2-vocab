@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Package_terminal
+  localized_concepts:
+    eng: 1a811e00-6ff4-5c4c-b8c0-3740518a81e3
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Package_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the package terminal {{entity}}'
+  notes:
+    - content: A **Package_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Placed_feature,Placed_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Package_terminal
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: 1a811e00-6ff4-5c4c-b8c0-3740518a81e3

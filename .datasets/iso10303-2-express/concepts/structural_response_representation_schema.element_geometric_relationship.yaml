@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.element_geometric_relationship
+  localized_concepts:
+    eng: 38904c18-6fc0-58a7-8cb5-ea982c3685bb
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.element_geometric_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element geometric relationship {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_geometric_relationship,element_geometric_relationship}} is the association of an aspect (edge, face, or entire volume) of an element or set of elements with an appropriate type of geometric representation item.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: element_geometric_relationship
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: 38904c18-6fc0-58a7-8cb5-ea982c3685bb

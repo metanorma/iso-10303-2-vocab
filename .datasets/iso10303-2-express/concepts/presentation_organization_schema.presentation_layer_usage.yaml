@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_organization_schema.presentation_layer_usage
+  localized_concepts:
+    eng: 2d99c93d-192e-5ffe-82c1-fd0b0f01dc87
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.presentation_layer_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presentation layer usage {{entity}}'
+  notes:
+    - content: A **presentation_layer_usage** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_layer_assignment,presentation_layer_assignment}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_representation,presentation_representation}} in order to provide a context for the assignment of style and visibility to items assigned to a layer.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: presentation_layer_usage
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: 2d99c93d-192e-5ffe-82c1-fd0b0f01dc87

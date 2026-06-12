@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_motion_representation_arm.Kinematic_path_defined_by_curves
+  localized_concepts:
+    eng: a47dff65-36af-5c65-8095-560de97e2952
+  domains:
+    - concept_id: section-Kinematic_motion_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+      ref_type: section
+id: Kinematic_motion_representation_arm.Kinematic_path_defined_by_curves
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path,Kinematic_path}} that represents the kinematic path defined by curves {{entity}}'
+  notes:
+    - content: A **Kinematic_path_defined_by_curves** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path,Kinematic_path}} whose segments are defined by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Curve_based_path_with_orientation,Curve_based_path_with_orientation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+          version: '3'
+      type: authoritative
+      id: Kinematic_motion_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Kinematic_path_defined_by_curves
+  domain: 'application module: Kinematic_motion_representation_arm'
+  language_code: eng
+  annotations: []
+id: a47dff65-36af-5c65-8095-560de97e2952

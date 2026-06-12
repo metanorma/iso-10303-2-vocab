@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.outer_boundary_curve
+  localized_concepts:
+    eng: 23d9cc5d-f7e3-51c0-8e21-20cdcca82f0c
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.outer_boundary_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.boundary_curve,boundary_curve}} that represents the outer boundary curve {{entity}}'
+  notes:
+    - content: An **outer_boundary_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.boundary_curve,boundary_curve}} which has the additional semantics of defining an outer boundary of a surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: outer_boundary_curve
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 23d9cc5d-f7e3-51c0-8e21-20cdcca82f0c

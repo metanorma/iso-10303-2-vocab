@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_arm.Bare_die_component_terminal
+  localized_concepts:
+    eng: 9a9bfbcf-2d4a-5b82-b4b5-4f7d34bc11bd
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+      ref_type: section
+id: Assembly_module_with_interconnect_component_arm.Bare_die_component_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that represents the bare die component terminal {{entity}}'
+  notes:
+    - content: A **Bare_die_component_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that is an instance of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_terminal,Bare_die_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Bare_die_component_terminal
+  domain: 'application module: Assembly_module_with_interconnect_component_arm'
+  language_code: eng
+  annotations: []
+id: 9a9bfbcf-2d4a-5b82-b4b5-4f7d34bc11bd

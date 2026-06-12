@@ -1,0 +1,30 @@
+data:
+  identifier: Time_interval_arm.Time_interval_with_bounds
+  localized_concepts:
+    eng: 6e3317e0-81c3-5824-9a39-dbec4f9f8f91
+  domains:
+    - concept_id: section-Time_interval_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
+      ref_type: section
+id: Time_interval_arm.Time_interval_with_bounds
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm.Time_interval,Time_interval}} that represents the time interval with bounds {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
+          version: '1'
+      type: authoritative
+      id: Time_interval_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Time_interval_with_bounds
+  domain: 'application module: Time_interval_arm'
+  language_code: eng
+  annotations: []
+id: 6e3317e0-81c3-5824-9a39-dbec4f9f8f91

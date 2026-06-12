@@ -1,0 +1,37 @@
+data:
+  identifier: set_theory_schema.union
+  localized_concepts:
+    eng: 15ac4489-4c4f-58ac-aba8-4d8405da1138
+  domains:
+    - concept_id: section-set_theory_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+      ref_type: section
+id: set_theory_schema.union
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the union {{entity}}'
+  notes:
+    - content: |-
+        A **union** is a relationship that is between:
+
+        * set R and
+        * set of sets {Si},
+
+        that indicates set R consists of each thing that is a member of a set within {Si}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+          version: '1'
+      type: authoritative
+      id: set_theory_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: union
+  domain: 'resource: set_theory_schema'
+  language_code: eng
+  annotations: []
+id: 15ac4489-4c4f-58ac-aba8-4d8405da1138

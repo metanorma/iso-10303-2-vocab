@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Fea_model
+  localized_concepts:
+    eng: 015fe289-9d1c-5bb4-8697-4a921c4352e6
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Fea_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea model {{entity}}'
+  notes:
+    - content: An **Fea_model** is a collection of information that represents the finite element analysis of a product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fea_model
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: 015fe289-9d1c-5bb4-8697-4a921c4352e6

@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_mim.collection_version
+  localized_concepts:
+    eng: 50800408-43d5-5ff6-a810-c178fe7d1b8e
+  domains:
+    - concept_id: section-Collection_identification_and_version_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+      ref_type: section
+id: Collection_identification_and_version_mim.collection_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the collection version {{entity}}'
+  notes:
+    - content: A **collection_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents a revision of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection,collection}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: collection_version
+  domain: 'application module: Collection_identification_and_version_mim'
+  language_code: eng
+  annotations: []
+id: 50800408-43d5-5ff6-a810-c178fe7d1b8e

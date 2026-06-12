@@ -1,0 +1,31 @@
+data:
+  identifier: Alternative_solution_arm.Final_solution
+  localized_concepts:
+    eng: fa566521-0e0e-5011-a044-18c49797ed82
+  domains:
+    - concept_id: section-Alternative_solution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+      ref_type: section
+id: Alternative_solution_arm.Final_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}} that represents the final solution {{entity}}'
+  notes:
+    - content: A **Final_solution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}} and is a set of additional sensual characteristics that can be applied to an Occurrence that represents a neutral part to complete its definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+          version: '4'
+      type: authoritative
+      id: Alternative_solution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Final_solution
+  domain: 'application module: Alternative_solution_arm'
+  language_code: eng
+  annotations: []
+id: fa566521-0e0e-5011-a044-18c49797ed82

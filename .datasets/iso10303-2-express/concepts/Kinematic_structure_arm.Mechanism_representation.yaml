@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Mechanism_representation
+  localized_concepts:
+    eng: d5bfabc5-f939-5b14-806a-5400e18526a0
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Mechanism_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the mechanism representation {{entity}}'
+  notes:
+    - content: A **Mechanism_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that specifies the capabilities of relative motion of its links under the constraints imposed by its joints.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mechanism_representation
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: d5bfabc5-f939-5b14-806a-5400e18526a0

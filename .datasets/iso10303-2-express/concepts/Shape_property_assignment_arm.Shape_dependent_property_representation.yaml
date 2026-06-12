@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_property_assignment_arm.Shape_dependent_property_representation
+  localized_concepts:
+    eng: e09855ee-3735-5458-b5d9-f0236df2a5a3
+  domains:
+    - concept_id: section-Shape_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm
+      ref_type: section
+id: Shape_property_assignment_arm.Shape_dependent_property_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that represents the shape dependent property representation {{entity}}'
+  notes:
+    - content: A **Shape_dependent_property_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that is the representation of a characteristic derived from or imposed to a {{shapeable_item,shapeable_item}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm
+          version: '10'
+      type: authoritative
+      id: Shape_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_dependent_property_representation
+  domain: 'application module: Shape_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: e09855ee-3735-5458-b5d9-f0236df2a5a3

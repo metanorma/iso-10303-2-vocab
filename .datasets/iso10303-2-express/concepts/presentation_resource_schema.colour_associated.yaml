@@ -1,0 +1,30 @@
+data:
+  identifier: presentation_resource_schema.colour_associated
+  localized_concepts:
+    eng: cc932679-8355-59e6-abf4-b974a58fdc5e
+  domains:
+    - concept_id: section-presentation_resource_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+      ref_type: section
+id: presentation_resource_schema.colour_associated
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour,colour}} that represents the colour associated {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+          version: '6'
+      type: authoritative
+      id: presentation_resource_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: colour_associated
+  domain: 'resource: presentation_resource_schema'
+  language_code: eng
+  annotations: []
+id: cc932679-8355-59e6-abf4-b974a58fdc5e

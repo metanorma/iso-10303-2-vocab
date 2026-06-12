@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Runout_zone_definition
+  localized_concepts:
+    eng: cea02e95-bec4-5a54-a604-66658d085023
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Runout_zone_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_definition,Tolerance_zone_definition}} that represents the runout zone definition {{entity}}'
+  notes:
+    - content: A **Runout_zone_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_definition,Tolerance_zone_definition}} that is defined by the orientation of the measurement of the toleranced {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Centre_of_symmetry,Centre_of_symmetry}} of a datum feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Runout_zone_definition
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: cea02e95-bec4-5a54-a604-66658d085023

@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_connectivity_schema.unstructured_donor_mesh
+  localized_concepts:
+    eng: 3a217580-88e0-5bb3-9379-4174ed877fc3
+  domains:
+    - concept_id: section-mesh_connectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+      ref_type: section
+id: mesh_connectivity_schema.unstructured_donor_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_donor_mesh,mismatched_donor_mesh}} that represents the unstructured donor mesh {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.unstructured_donor_mesh,unstructured_donor_mesh}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_donor_mesh,mismatched_donor_mesh}} that is unstructured.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+          version: '3'
+      type: authoritative
+      id: mesh_connectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unstructured_donor_mesh
+  domain: 'resource: mesh_connectivity_schema'
+  language_code: eng
+  annotations: []
+id: 3a217580-88e0-5bb3-9379-4174ed877fc3

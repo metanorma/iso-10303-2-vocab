@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Linear_flexible_and_pinion_pair
+  localized_concepts:
+    eng: e9b25d16-97c7-5a20-8911-7751a530aa06
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Linear_flexible_and_pinion_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Low_order_kinematic_pair_with_motion_coupling,Low_order_kinematic_pair_with_motion_coupling}} that represents the linear flexible and pinion pair {{entity}}'
+  notes:
+    - content: A **Linear_flexible_and_pinion_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Low_order_kinematic_pair_with_motion_coupling,Low_order_kinematic_pair_with_motion_coupling}} that describes a linear flexible link that moves around a rolling pinion where the rotation axis of the pinion is perpendicular to the direction of the linear flexible link.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Linear_flexible_and_pinion_pair
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: e9b25d16-97c7-5a20-8911-7751a530aa06

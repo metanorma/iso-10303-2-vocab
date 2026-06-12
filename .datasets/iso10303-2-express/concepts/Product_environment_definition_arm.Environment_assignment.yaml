@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_definition_arm.Environment_assignment
+  localized_concepts:
+    eng: 140a07c0-8650-523f-bf5c-004fc9f3c5d6
+  domains:
+    - concept_id: section-Product_environment_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+      ref_type: section
+id: Product_environment_definition_arm.Environment_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the environment assignment {{entity}}'
+  notes:
+    - content: An **Environment_assignment** is an assignment of a product to the environment in which it operates or is supported.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+          version: '4'
+      type: authoritative
+      id: Product_environment_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Environment_assignment
+  domain: 'application module: Product_environment_definition_arm'
+  language_code: eng
+  annotations: []
+id: 140a07c0-8650-523f-bf5c-004fc9f3c5d6

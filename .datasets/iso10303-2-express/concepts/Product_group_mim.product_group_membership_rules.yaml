@@ -1,0 +1,31 @@
+data:
+  identifier: Product_group_mim.product_group_membership_rules
+  localized_concepts:
+    eng: ec78412d-cfe8-55b1-bde7-e03b0caa440d
+  domains:
+    - concept_id: section-Product_group_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+      ref_type: section
+id: Product_group_mim.product_group_membership_rules
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the product group membership rules {{entity}}'
+  notes:
+    - content: A **product_group_membership_rules** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies the criteria for membership of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim.product_group,product_group}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+          version: '3'
+      type: authoritative
+      id: Product_group_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_group_membership_rules
+  domain: 'application module: Product_group_mim'
+  language_code: eng
+  annotations: []
+id: ec78412d-cfe8-55b1-bde7-e03b0caa440d

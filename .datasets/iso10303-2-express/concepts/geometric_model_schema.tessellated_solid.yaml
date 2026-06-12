@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.tessellated_solid
+  localized_concepts:
+    eng: 965b4e47-904c-5274-9709-e2f1d137b2aa
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.tessellated_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_item,tessellated_item}} that represents the tessellated solid {{entity}}'
+  notes:
+    - content: A **tessellated_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_item,tessellated_item}} that is a tessellated representation of a solid model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_solid
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 965b4e47-904c-5274-9709-e2f1d137b2aa

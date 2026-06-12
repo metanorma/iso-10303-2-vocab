@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_mim.port_variable
+  localized_concepts:
+    eng: 55a0d343-efa9-55d7-bc22-4986895ccdb2
+  domains:
+    - concept_id: section-Analytical_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+      ref_type: section
+id: Analytical_model_mim.port_variable
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the port variable {{entity}}'
+  notes:
+    - content: A **port_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Port_variable,Port_variable}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+          version: '5'
+      type: authoritative
+      id: Analytical_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: port_variable
+  domain: 'application module: Analytical_model_mim'
+  language_code: eng
+  annotations: []
+id: 55a0d343-efa9-55d7-bc22-4986895ccdb2

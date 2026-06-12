@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_design_view_arm.Connection_zone_in_design_view
+  localized_concepts:
+    eng: 19c3852b-2f5c-58c5-a303-f096d9944cea
+  domains:
+    - concept_id: section-Physical_unit_design_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+      ref_type: section
+id: Physical_unit_design_view_arm.Connection_zone_in_design_view
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Connection_zone,Connection_zone}} that represents the connection zone in design view {{entity}}'
+  notes:
+    - content: A **Connection_zone_in_design_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Feature_and_connection_zone_arm.Connection_zone,Connection_zone}} that is created to support design specific connection areas.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+          version: '5'
+      type: authoritative
+      id: Physical_unit_design_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Connection_zone_in_design_view
+  domain: 'application module: Physical_unit_design_view_arm'
+  language_code: eng
+  annotations: []
+id: 19c3852b-2f5c-58c5-a303-f096d9944cea

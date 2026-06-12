@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_port_make_from_relationship
+  localized_concepts:
+    eng: 6b09902b-6846-51ab-ac01-a2b04f841f79
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_port_make_from_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analytical model port make from relationship {{entity}}'
+  notes:
+    - content: An **Analytical_model_port_make_from_relationship** is a make from relationship between a reused port and a resultant port that supports the reuse of a model definition in a different context where it is useful to have traceability to the source model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_port_make_from_relationship
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: 6b09902b-6846-51ab-ac01-a2b04f841f79

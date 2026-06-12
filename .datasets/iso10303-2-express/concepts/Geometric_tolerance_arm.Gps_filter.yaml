@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_tolerance_arm.Gps_filter
+  localized_concepts:
+    eng: e20aca8d-aabd-5408-8faa-6a0c4b4d1d94
+  domains:
+    - concept_id: section-Geometric_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+      ref_type: section
+id: Geometric_tolerance_arm.Gps_filter
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the gps filter {{entity}}'
+  notes:
+    - content: A **Gps_filter** is a specification of a filtering element of the toleranced feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+          version: '10'
+      type: authoritative
+      id: Geometric_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Gps_filter
+  domain: 'application module: Geometric_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: e20aca8d-aabd-5408-8faa-6a0c4b4d1d94

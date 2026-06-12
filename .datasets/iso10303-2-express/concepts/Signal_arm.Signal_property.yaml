@@ -1,0 +1,31 @@
+data:
+  identifier: Signal_arm.Signal_property
+  localized_concepts:
+    eng: 6f2d4974-ed2f-51ef-9768-492df601f7b9
+  domains:
+    - concept_id: section-Signal_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+      ref_type: section
+id: Signal_arm.Signal_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the signal property {{entity}}'
+  notes:
+    - content: A **Signal_property** is a data set that characterizes a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm.Signal,Signal}} and each element of which has units that are traceable to an ISO or IEC standard.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+          version: '1'
+      type: authoritative
+      id: Signal_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Signal_property
+  domain: 'application module: Signal_arm'
+  language_code: eng
+  annotations: []
+id: 6f2d4974-ed2f-51ef-9768-492df601f7b9

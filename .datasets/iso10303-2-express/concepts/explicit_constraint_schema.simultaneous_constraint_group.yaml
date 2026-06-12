@@ -1,0 +1,31 @@
+data:
+  identifier: explicit_constraint_schema.simultaneous_constraint_group
+  localized_concepts:
+    eng: a4953790-c1d4-53f3-8f4a-e8cec3295257
+  domains:
+    - concept_id: section-explicit_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+      ref_type: section
+id: explicit_constraint_schema.simultaneous_constraint_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}} that represents the simultaneous constraint group {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.simultaneous_constraint_group,simultaneous_constraint_group}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}, defining a set of constraints that are required to hold simultaneously.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema
+          version: '4'
+      type: authoritative
+      id: explicit_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: simultaneous_constraint_group
+  domain: 'resource: explicit_constraint_schema'
+  language_code: eng
+  annotations: []
+id: a4953790-c1d4-53f3-8f4a-e8cec3295257

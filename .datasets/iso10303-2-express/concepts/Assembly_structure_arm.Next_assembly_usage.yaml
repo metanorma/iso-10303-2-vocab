@@ -1,0 +1,30 @@
+data:
+  identifier: Assembly_structure_arm.Next_assembly_usage
+  localized_concepts:
+    eng: 3421728a-e7a6-5c25-ad0d-51cac8490c0b
+  domains:
+    - concept_id: section-Assembly_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm
+      ref_type: section
+id: Assembly_structure_arm.Next_assembly_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}} that represents the next assembly usage {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm
+          version: '7'
+      type: authoritative
+      id: Assembly_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Next_assembly_usage
+  domain: 'application module: Assembly_structure_arm'
+  language_code: eng
+  annotations: []
+id: 3421728a-e7a6-5c25-ad0d-51cac8490c0b

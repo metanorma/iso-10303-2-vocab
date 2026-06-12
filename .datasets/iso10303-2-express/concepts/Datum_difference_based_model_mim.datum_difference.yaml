@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_difference_based_model_mim.datum_difference
+  localized_concepts:
+    eng: 0e133d66-4a68-5436-be05-49536ba64165
+  domains:
+    - concept_id: section-Datum_difference_based_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
+      ref_type: section
+id: Datum_difference_based_model_mim.datum_difference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the datum difference {{entity}}'
+  notes:
+    - content: A **datum_difference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm.Datum_difference,Datum_difference}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
+          version: '5'
+      type: authoritative
+      id: Datum_difference_based_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: datum_difference
+  domain: 'application module: Datum_difference_based_model_mim'
+  language_code: eng
+  annotations: []
+id: 0e133d66-4a68-5436-be05-49536ba64165

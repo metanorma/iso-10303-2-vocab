@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.oriented_tolerance_zone
+  localized_concepts:
+    eng: 72af439f-f435-5d9f-bc2d-eaa768c88bfb
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.oriented_tolerance_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone_with_datum,tolerance_zone_with_datum}} that represents the oriented tolerance zone {{entity}}'
+  notes:
+    - content: A **oriented_tolerance_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone_with_datum,tolerance_zone_with_datum}} that represents an "orientation plane" for a geometric tolerance as defined in ISO 1101.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: oriented_tolerance_zone
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 72af439f-f435-5d9f-bc2d-eaa768c88bfb

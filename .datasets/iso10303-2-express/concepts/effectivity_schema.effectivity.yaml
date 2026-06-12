@@ -1,0 +1,31 @@
+data:
+  identifier: effectivity_schema.effectivity
+  localized_concepts:
+    eng: 86e10ea1-a060-5316-8ec5-2cb446171ccb
+  domains:
+    - concept_id: section-effectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+      ref_type: section
+id: effectivity_schema.effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the effectivity {{entity}}'
+  notes:
+    - content: An **effectivity** is the identification of a domain of applicability for product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+          version: '8'
+      type: authoritative
+      id: effectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: effectivity
+  domain: 'resource: effectivity_schema'
+  language_code: eng
+  annotations: []
+id: 86e10ea1-a060-5316-8ec5-2cb446171ccb

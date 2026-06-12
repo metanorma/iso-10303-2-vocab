@@ -1,0 +1,31 @@
+data:
+  identifier: Layer_assignment_arm.Structuring_method_hierarchy
+  localized_concepts:
+    eng: 9b360584-e036-503b-ae7a-38fcddefad7e
+  domains:
+    - concept_id: section-Layer_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm
+      ref_type: section
+id: Layer_assignment_arm.Structuring_method_hierarchy
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the structuring method hierarchy {{entity}}'
+  notes:
+    - content: A **Structuring_method_hierarchy** is a mechanism to build up a nesting of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm.Group,Group}} objects within {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm.Group,Group}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm.Layer,Layer}} objects in structuring methods.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm
+          version: '3'
+      type: authoritative
+      id: Layer_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Structuring_method_hierarchy
+  domain: 'application module: Layer_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 9b360584-e036-503b-ae7a-38fcddefad7e

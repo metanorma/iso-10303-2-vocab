@@ -1,0 +1,31 @@
+data:
+  identifier: Required_resource_arm.Required_resource
+  localized_concepts:
+    eng: 9affe283-2adf-53a8-aba0-c7afb04abc0c
+  domains:
+    - concept_id: section-Required_resource_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+      ref_type: section
+id: Required_resource_arm.Required_resource
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the required resource {{entity}}'
+  notes:
+    - content: A **Required_resource** is an identified need for resource.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+          version: '3'
+      type: authoritative
+      id: Required_resource_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Required_resource
+  domain: 'application module: Required_resource_arm'
+  language_code: eng
+  annotations: []
+id: 9affe283-2adf-53a8-aba0-c7afb04abc0c

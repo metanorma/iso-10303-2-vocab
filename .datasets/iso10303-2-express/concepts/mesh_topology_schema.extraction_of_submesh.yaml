@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.extraction_of_submesh
+  localized_concepts:
+    eng: 440e1554-0b9a-53cd-8a92-f9a157ef199c
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.extraction_of_submesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the extraction of submesh {{entity}}'
+  notes:
+    - content: An *extracrtion_of_submesh* is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.submesh,submesh}} that defines the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.submesh,submesh}} as being part of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extraction_of_submesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 440e1554-0b9a-53cd-8a92-f9a157ef199c

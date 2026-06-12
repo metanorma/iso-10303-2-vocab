@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_mim.non_homogeneous_triangle_size
+  localized_concepts:
+    eng: 11210ade-10c0-5189-9737-e4d8cffe52a9
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+      ref_type: section
+id: Triangulated_shape_data_quality_mim.non_homogeneous_triangle_size
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that represents the non homogeneous triangle size {{entity}}'
+  notes:
+    - content: A **non_homogeneous_triangle_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Non_homogeneous_triangle_size,Non_homogeneous_triangle_size}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: non_homogeneous_triangle_size
+  domain: 'application module: Triangulated_shape_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 11210ade-10c0-5189-9737-e4d8cffe52a9

@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_criteria_arm.Shape_data_quality_criterion
+  localized_concepts:
+    eng: 66df3199-f541-59a6-bd0a-6dba7d8ba93f
+  domains:
+    - concept_id: section-Shape_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+      ref_type: section
+id: Shape_data_quality_criteria_arm.Shape_data_quality_criterion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape data quality criterion {{entity}}'
+  notes:
+    - content: A **Shape_data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_criterion,Data_quality_criterion}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_measurement_requirement,Data_quality_measurement_requirement}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+          version: '3'
+      type: authoritative
+      id: Shape_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_data_quality_criterion
+  domain: 'application module: Shape_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: 66df3199-f541-59a6-bd0a-6dba7d8ba93f

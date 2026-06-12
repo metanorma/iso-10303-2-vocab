@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_mim.assembly_component
+  localized_concepts:
+    eng: f6673f33-1e54-5bd5-922f-6ca318112e20
+  domains:
+    - concept_id: section-Assembly_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim
+      ref_type: section
+id: Assembly_component_mim.assembly_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly component {{entity}}'
+  notes:
+    - content: An **assembly_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.component_definition,component_definition}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim
+          version: '2'
+      type: authoritative
+      id: Assembly_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_component
+  domain: 'application module: Assembly_component_mim'
+  language_code: eng
+  annotations: []
+id: f6673f33-1e54-5bd5-922f-6ca318112e20

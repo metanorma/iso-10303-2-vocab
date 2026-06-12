@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_assignment_mim.applied_classification_assignment
+  localized_concepts:
+    eng: 0729cb8f-0820-50d7-9d94-fd90fb0727d2
+  domains:
+    - concept_id: section-Classification_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim
+      ref_type: section
+id: Classification_assignment_mim.applied_classification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that represents the applied classification assignment {{entity}}'
+  notes:
+    - content: An **applied_classification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that associates an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} or of one of its specializations with one or more {{classification_item,classification_item}} instances for classification purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim
+          version: '3'
+      type: authoritative
+      id: Classification_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_classification_assignment
+  domain: 'application module: Classification_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 0729cb8f-0820-50d7-9d94-fd90fb0727d2

@@ -1,0 +1,35 @@
+---
+data:
+  identifier: general.module_interpreted_model
+  localized_concepts:
+    eng: cb840c84-d56e-5241-916b-f8e0a88e7323
+  domains:
+  - concept_id: section-general
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 0f4231f6-9c53-5f67-b913-4f059f7d4a5c
+schema_version: v3
+---
+data:
+  definition:
+  - content: information model that uses the common resources necessary to satisfy
+      the information requirements and constraints of an application reference model,
+      within an application module
+  examples:
+  - content: Three-dimensional geometry information models are common resources used
+      in many MIMs. However, an application module describing colour will not use
+      three-dimensional geometry information models as a resource.
+  notes:
+  - content: The term common resources is not meant to imply that all such information
+      models are required to be used in a module interpreted model regardless of domain
+      or application.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: module interpreted model
+  - type: expression
+    normative_status: admitted
+    designation: MIM
+  language_code: eng
+  annotations: []
+id: cb840c84-d56e-5241-916b-f8e0a88e7323

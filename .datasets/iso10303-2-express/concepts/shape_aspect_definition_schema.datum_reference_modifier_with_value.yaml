@@ -1,0 +1,31 @@
+data:
+  identifier: shape_aspect_definition_schema.datum_reference_modifier_with_value
+  localized_concepts:
+    eng: e345f9ec-0af8-5cfd-a32a-5eed5b8e867f
+  domains:
+    - concept_id: section-shape_aspect_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+      ref_type: section
+id: shape_aspect_definition_schema.datum_reference_modifier_with_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the datum reference modifier with value {{entity}}'
+  notes:
+    - content: A **datum_reference_modifier_with_value** is an association between a **modifier_type** and a **modifier_value** that defines the specific boundary size of the associated feature for establishing a datum.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+          version: '7'
+      type: authoritative
+      id: shape_aspect_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: datum_reference_modifier_with_value
+  domain: 'resource: shape_aspect_definition_schema'
+  language_code: eng
+  annotations: []
+id: e345f9ec-0af8-5cfd-a32a-5eed5b8e867f

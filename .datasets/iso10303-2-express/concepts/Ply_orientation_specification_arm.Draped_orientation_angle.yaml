@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_arm.Draped_orientation_angle
+  localized_concepts:
+    eng: eaf01e16-66f3-58e7-b455-e9a4c206583a
+  domains:
+    - concept_id: section-Ply_orientation_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+      ref_type: section
+id: Ply_orientation_specification_arm.Draped_orientation_angle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Ply_orientation_angle,Ply_orientation_angle}} that represents the draped orientation angle {{entity}}'
+  notes:
+    - content: A **Draped_orientation_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Ply_orientation_angle,Ply_orientation_angle}} that specifies that the laminate table ply orientations were derived from a draping analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+          version: '5'
+      type: authoritative
+      id: Ply_orientation_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Draped_orientation_angle
+  domain: 'application module: Ply_orientation_specification_arm'
+  language_code: eng
+  annotations: []
+id: eaf01e16-66f3-58e7-b455-e9a4c206583a

@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_topology_arm.Kinematic_loop
+  localized_concepts:
+    eng: 7112f0eb-61a0-5631-befc-f0a0f0d252f4
+  domains:
+    - concept_id: section-Kinematic_topology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+      ref_type: section
+id: Kinematic_topology_arm.Kinematic_loop
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge_loop,Edge_loop}} that represents the kinematic loop {{entity}}'
+  notes:
+    - content: A **Kinematic_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge_loop,Edge_loop}} that is a cycle in the subgraph.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+          version: '1'
+      type: authoritative
+      id: Kinematic_topology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Kinematic_loop
+  domain: 'application module: Kinematic_topology_arm'
+  language_code: eng
+  annotations: []
+id: 7112f0eb-61a0-5631-befc-f0a0f0d252f4

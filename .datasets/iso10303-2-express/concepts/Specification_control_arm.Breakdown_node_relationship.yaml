@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_arm.Breakdown_node_relationship
+  localized_concepts:
+    eng: e512a869-dbea-50c0-881f-e13e1725bd0b
+  domains:
+    - concept_id: section-Specification_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+      ref_type: section
+id: Specification_control_arm.Breakdown_node_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the breakdown node relationship {{entity}}'
+  notes:
+    - content: A **Breakdown_node_relationship** is a relationship between an alternative solution or a definition of a breakdown element and a definition of a breakdown element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+          version: '5'
+      type: authoritative
+      id: Specification_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Breakdown_node_relationship
+  domain: 'application module: Specification_control_arm'
+  language_code: eng
+  annotations: []
+id: e512a869-dbea-50c0-881f-e13e1725bd0b

@@ -1,0 +1,31 @@
+data:
+  identifier: drawing_definition_schema.drawing_revision_sequence
+  localized_concepts:
+    eng: 6c054658-802f-56de-8cb7-ca4671ceca4e
+  domains:
+    - concept_id: section-drawing_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+      ref_type: section
+id: drawing_definition_schema.drawing_revision_sequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the drawing revision sequence {{entity}}'
+  notes:
+    - content: A **drawing_revision_sequence** is the successive relationship of one version to another for the same drawing.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+          version: '6'
+      type: authoritative
+      id: drawing_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: drawing_revision_sequence
+  domain: 'resource: drawing_definition_schema'
+  language_code: eng
+  annotations: []
+id: 6c054658-802f-56de-8cb7-ca4671ceca4e

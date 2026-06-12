@@ -1,0 +1,33 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.B_spline_curve_segment
+  localized_concepts:
+    eng: 59d4a3c5-494b-579b-9491-91ad9b16654d
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.B_spline_curve_segment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the b spline curve segment {{entity}}'
+  notes:
+    - content: |-
+        A **B_spline_curve_segment** is the representation of
+        a location by specifying a knot span of the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_curve,B_spline_curve}} where parameter is larger than or equal to ({{start_knot_index,start_knot_index}})th knot and less or equal to ({{start_knot_index,start_knot_index}}+1)th knot.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: B_spline_curve_segment
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 59d4a3c5-494b-579b-9491-91ad9b16654d

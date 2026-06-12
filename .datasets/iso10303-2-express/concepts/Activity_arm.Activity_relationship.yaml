@@ -1,0 +1,31 @@
+data:
+  identifier: Activity_arm.Activity_relationship
+  localized_concepts:
+    eng: a6491010-362a-5e11-9d99-e6ff44ed86f1
+  domains:
+    - concept_id: section-Activity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm
+      ref_type: section
+id: Activity_arm.Activity_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the activity relationship {{entity}}'
+  notes:
+    - content: An **Activity_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm
+          version: '3'
+      type: authoritative
+      id: Activity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Activity_relationship
+  domain: 'application module: Activity_arm'
+  language_code: eng
+  annotations: []
+id: a6491010-362a-5e11-9d99-e6ff44ed86f1

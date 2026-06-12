@@ -1,0 +1,31 @@
+data:
+  identifier: Text_representation_arm.Text_font
+  localized_concepts:
+    eng: baa5ad96-b5c8-525a-8383-ac21ae5f17f9
+  domains:
+    - concept_id: section-Text_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+      ref_type: section
+id: Text_representation_arm.Text_font
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the text font {{entity}}'
+  notes:
+    - content: A **Text_font** is the identification of a specific character font.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+          version: '5'
+      type: authoritative
+      id: Text_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Text_font
+  domain: 'application module: Text_representation_arm'
+  language_code: eng
+  annotations: []
+id: baa5ad96-b5c8-525a-8383-ac21ae5f17f9

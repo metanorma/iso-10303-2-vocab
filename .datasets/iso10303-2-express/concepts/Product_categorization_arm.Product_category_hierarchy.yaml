@@ -1,0 +1,31 @@
+data:
+  identifier: Product_categorization_arm.Product_category_hierarchy
+  localized_concepts:
+    eng: da19e9de-688f-5c90-a480-da7a815fcf88
+  domains:
+    - concept_id: section-Product_categorization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+      ref_type: section
+id: Product_categorization_arm.Product_category_hierarchy
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product category hierarchy {{entity}}'
+  notes:
+    - content: A **Product_category_hierarchy** is a hierarchical relationship between one instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm.Product_category,Product_category}} and another.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_categorization_arm
+          version: '3'
+      type: authoritative
+      id: Product_categorization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_category_hierarchy
+  domain: 'application module: Product_categorization_arm'
+  language_code: eng
+  annotations: []
+id: da19e9de-688f-5c90-a480-da7a815fcf88

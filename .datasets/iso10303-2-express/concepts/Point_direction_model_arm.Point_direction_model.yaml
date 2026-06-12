@@ -1,0 +1,31 @@
+data:
+  identifier: Point_direction_model_arm.Point_direction_model
+  localized_concepts:
+    eng: 293e495f-2465-5eb2-ba9b-cbae2d5d8661
+  domains:
+    - concept_id: section-Point_direction_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+      ref_type: section
+id: Point_direction_model_arm.Point_direction_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the point direction model {{entity}}'
+  notes:
+    - content: A **Point_direction_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is a model in three-dimensional space consisting only of ordered sequences of points or of points with associated directions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Point_direction_model_arm
+          version: '2'
+      type: authoritative
+      id: Point_direction_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Point_direction_model
+  domain: 'application module: Point_direction_model_arm'
+  language_code: eng
+  annotations: []
+id: 293e495f-2465-5eb2-ba9b-cbae2d5d8661

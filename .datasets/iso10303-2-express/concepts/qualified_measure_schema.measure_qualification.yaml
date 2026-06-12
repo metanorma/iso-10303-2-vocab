@@ -1,0 +1,31 @@
+data:
+  identifier: qualified_measure_schema.measure_qualification
+  localized_concepts:
+    eng: a5c5c2c9-c349-5bc0-a8e5-f9e797d7a358
+  domains:
+    - concept_id: section-qualified_measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+      ref_type: section
+id: qualified_measure_schema.measure_qualification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the measure qualification {{entity}}'
+  notes:
+    - content: A **measure_qualification** is an association of one or more qualifiers with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+          version: '4'
+      type: authoritative
+      id: qualified_measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: measure_qualification
+  domain: 'resource: qualified_measure_schema'
+  language_code: eng
+  annotations: []
+id: a5c5c2c9-c349-5bc0-a8e5-f9e797d7a358

@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_mim.transport_feature
+  localized_concepts:
+    eng: 9353985b-4d08-5470-9e84-0e154f8ac63b
+  domains:
+    - concept_id: section-General_design_connectivity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+      ref_type: section
+id: General_design_connectivity_mim.transport_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the transport feature {{entity}}'
+  notes:
+    - content: A **transport_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_transport_feature,Occurrence_transport_feature}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_transport_feature,Part_transport_feature}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: transport_feature
+  domain: 'application module: General_design_connectivity_mim'
+  language_code: eng
+  annotations: []
+id: 9353985b-4d08-5470-9e84-0e154f8ac63b

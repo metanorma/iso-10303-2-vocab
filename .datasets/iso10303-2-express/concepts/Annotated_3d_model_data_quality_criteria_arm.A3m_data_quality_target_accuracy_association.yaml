@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_target_accuracy_association
+  localized_concepts:
+    eng: ad7128e8-c82a-5a81-b3cd-73d6ba6dc5cd
+  domains:
+    - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+      ref_type: section
+id: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_target_accuracy_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the a3m data quality target accuracy association {{entity}}'
+  notes:
+    - content: An **A3m_data_quality_target_accuracy_association** is provided to associate a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_inspection_accuracy,A3m_data_quality_inspection_accuracy}} to an {{a3m_accuracy_associated_target_select,a3m_accuracy_associated_target_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_data_quality_criteria_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: A3m_data_quality_target_accuracy_association
+  domain: 'application module: Annotated_3d_model_data_quality_criteria_arm'
+  language_code: eng
+  annotations: []
+id: ad7128e8-c82a-5a81-b3cd-73d6ba6dc5cd

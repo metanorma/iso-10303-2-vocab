@@ -1,0 +1,31 @@
+data:
+  identifier: Sketch_arm.Rigid_subsketch
+  localized_concepts:
+    eng: cf565230-2e13-53f7-bee7-354ff2cf3fbe
+  domains:
+    - concept_id: section-Sketch_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+      ref_type: section
+id: Sketch_arm.Rigid_subsketch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Subsketch,Subsketch}} that represents the rigid subsketch {{entity}}'
+  notes:
+    - content: A **Rigid_subsketch** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Subsketch,Subsketch}} with additional constraints.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+          version: '3'
+      type: authoritative
+      id: Sketch_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rigid_subsketch
+  domain: 'application module: Sketch_arm'
+  language_code: eng
+  annotations: []
+id: cf565230-2e13-53f7-bee7-354ff2cf3fbe

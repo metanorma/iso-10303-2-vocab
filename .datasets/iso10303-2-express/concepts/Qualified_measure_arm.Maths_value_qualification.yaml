@@ -1,0 +1,31 @@
+data:
+  identifier: Qualified_measure_arm.Maths_value_qualification
+  localized_concepts:
+    eng: 52feab48-314c-5b0f-ae81-c5499eaa9f95
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Maths_value_qualification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value qualification {{entity}}'
+  notes:
+    - content: A **Maths_value_qualification** is a means to provide information about measurements in which there is an associated uncertainty.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Maths_value_qualification
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: 52feab48-314c-5b0f-ae81-c5499eaa9f95

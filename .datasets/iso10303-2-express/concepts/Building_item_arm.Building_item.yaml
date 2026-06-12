@@ -1,0 +1,30 @@
+data:
+  identifier: Building_item_arm.Building_item
+  localized_concepts:
+    eng: 776c15dc-34cd-50fd-a237-6f40b3b35cfc
+  domains:
+    - concept_id: section-Building_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+      ref_type: section
+id: Building_item_arm.Building_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the building item {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+          version: '1'
+      type: authoritative
+      id: Building_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Building_item
+  domain: 'application module: Building_item_arm'
+  language_code: eng
+  annotations: []
+id: 776c15dc-34cd-50fd-a237-6f40b3b35cfc

@@ -1,0 +1,30 @@
+---
+data:
+  identifier: mesh-based-computational-fluid-dynamics.rind
+  localized_concepts:
+    eng: edab8310-4e3c-587b-9ee2-b6f9deb27e65
+  domains:
+  - concept_id: section-mesh-based-computational-fluid-dynamics
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: d2d5b1e3-b1f2-5dc8-8f35-61c08741560e
+schema_version: v3
+---
+data:
+  definition:
+  - content: one or more layers of cells on the boundary of a mesh
+  notes:
+  - content: Each cell in a rind has a thickness much less than a typical dimension
+      within the mesh. The topology of the cells in a rind is defined by the topology
+      of the boundary edges or faces of the mesh and by the layers of the rind. The
+      geometry of the cells in a rind is defined by the positions of the vertices
+      on the boundary and by cell properties.
+  - content: A rind is associated with external flow solution data in a fluid dynamics
+      calculation.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: rind
+  language_code: eng
+  annotations: []
+id: edab8310-4e3c-587b-9ee2-b6f9deb27e65

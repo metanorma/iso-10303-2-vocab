@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Circular_cylinder
+  localized_concepts:
+    eng: 1e92fd68-3230-5e2b-b594-c2f5428c8cf6
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Circular_cylinder
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the circular cylinder {{entity}}'
+  notes:
+    - content: A **Circular_cylinder** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is a solid in the form of a cylinder of finite height.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Circular_cylinder
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: 1e92fd68-3230-5e2b-b594-c2f5428c8cf6

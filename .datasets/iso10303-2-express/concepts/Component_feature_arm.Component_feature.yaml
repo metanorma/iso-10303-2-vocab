@@ -1,0 +1,31 @@
+data:
+  identifier: Component_feature_arm.Component_feature
+  localized_concepts:
+    eng: bdcab6a6-77b0-5aa5-9b10-3a7e036c6f9a
+  domains:
+    - concept_id: section-Component_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+      ref_type: section
+id: Component_feature_arm.Component_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the component feature {{entity}}'
+  notes:
+    - content: A **Component_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} The location of the **Component_feature** in the assembly model is derived from the placement of the **associated_definition** in the assembly model and the placement of the **definition** model in the {{derived_from,derived_from}} model of that **associated_definition**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+          version: '5'
+      type: authoritative
+      id: Component_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_feature
+  domain: 'application module: Component_feature_arm'
+  language_code: eng
+  annotations: []
+id: bdcab6a6-77b0-5aa5-9b10-3a7e036c6f9a

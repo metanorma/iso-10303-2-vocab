@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.product_definition_usage_relationship
+  localized_concepts:
+    eng: b3096ae6-c84e-5a0a-bdeb-050dcb4eb096
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.product_definition_usage_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship_relationship,product_definition_relationship_relationship}} that represents the product definition usage relationship {{entity}}'
+  notes:
+    - content: A **product_definition_usage_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship_relationship,product_definition_relationship_relationship}} that is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_usage,product_definition_usage}} with the same {{relating_product_definition,relating_product_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_usage_relationship
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: b3096ae6-c84e-5a0a-bdeb-050dcb4eb096

@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.action_request_solution
+  localized_concepts:
+    eng: 2462467e-606d-50ec-a84a-8cc0d78f9eeb
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.action_request_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action request solution {{entity}}'
+  notes:
+    - content: An **action_request_solution** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.versioned_action_request,versioned_action_request}} and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that is a potential solution for the request.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_request_solution
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 2462467e-606d-50ec-a84a-8cc0d78f9eeb

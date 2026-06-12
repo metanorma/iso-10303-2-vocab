@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.circular_pattern
+  localized_concepts:
+    eng: 6289158b-a994-5165-aaa4-4c2bfab0bba4
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.circular_pattern
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.replicate_feature,replicate_feature}} that represents the circular pattern {{entity}}'
+  notes:
+    - content: A **circular_pattern** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.replicate_feature,replicate_feature}} that relates a base feature and one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} which are the placement of the base feature at a specified circular location on the base part.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: circular_pattern
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: 6289158b-a994-5165-aaa4-4c2bfab0bba4

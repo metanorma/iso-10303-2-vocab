@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_inspection_result_arm.Data_quality_inspection_instance_report
+  localized_concepts:
+    eng: 1265aa2c-b983-5f18-ac0e-04d518a0427b
+  domains:
+    - concept_id: section-Product_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+      ref_type: section
+id: Product_data_quality_inspection_result_arm.Data_quality_inspection_instance_report
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_report,Data_quality_inspection_report}} that represents the data quality inspection instance report {{entity}}'
+  notes:
+    - content: A **Data_quality_inspection_instance_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_report,Data_quality_inspection_report}} that represents detailed information of inspection result in entity instance level for one specific criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_quality_inspection_instance_report
+  domain: 'application module: Product_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 1265aa2c-b983-5f18-ac0e-04d518a0427b

@@ -1,0 +1,31 @@
+data:
+  identifier: Data_creation_and_maintenance_activity_arm.data_status
+  localized_concepts:
+    eng: 9078cdcd-f9d8-58c4-b6f2-8c652f551d2a
+  domains:
+    - concept_id: section-Data_creation_and_maintenance_activity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+      ref_type: section
+id: Data_creation_and_maintenance_activity_arm.data_status
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Class_under_root,Class_under_root}} that represents the data status {{entity}}'
+  notes:
+    - content: A **Data_status** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Class_under_root,Class_under_root}} that is the status of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+          version: '1'
+      type: authoritative
+      id: Data_creation_and_maintenance_activity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_status
+  domain: 'application module: Data_creation_and_maintenance_activity_arm'
+  language_code: eng
+  annotations: []
+id: 9078cdcd-f9d8-58c4-b6f2-8c652f551d2a

@@ -1,0 +1,31 @@
+data:
+  identifier: Curve_appearance_mim.externally_defined_marker
+  localized_concepts:
+    eng: 990bb719-6d29-5fef-ba7d-6ff9f41e2861
+  domains:
+    - concept_id: section-Curve_appearance_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+      ref_type: section
+id: Curve_appearance_mim.externally_defined_marker
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined marker {{entity}}'
+  notes:
+    - content: An **externally_defined_marker** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.externally_defined_symbol,externally_defined_symbol}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.pre_defined_marker,pre_defined_marker}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Externally_defined_marker,Externally_defined_marker}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+          version: '6'
+      type: authoritative
+      id: Curve_appearance_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_marker
+  domain: 'application module: Curve_appearance_mim'
+  language_code: eng
+  annotations: []
+id: 990bb719-6d29-5fef-ba7d-6ff9f41e2861

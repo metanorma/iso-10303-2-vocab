@@ -1,0 +1,31 @@
+data:
+  identifier: Pre_defined_product_data_management_specializations_arm.Externally_defined_organization_or_person_in_organization_assignment
+  localized_concepts:
+    eng: d669bc38-acf1-5c26-b152-f3f73bbcd6e3
+  domains:
+    - concept_id: section-Pre_defined_product_data_management_specializations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+      ref_type: section
+id: Pre_defined_product_data_management_specializations_arm.Externally_defined_organization_or_person_in_organization_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm.Organization_or_person_in_organization_assignment,Organization_or_person_in_organization_assignment}} that represents the externally defined organization or person in organization assignment {{entity}}'
+  notes:
+    - content: A **Externally_defined_organization_or_person_in_organization_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm.Organization_or_person_in_organization_assignment,Organization_or_person_in_organization_assignment}} whose meaning is defined outside of this standard in an external source.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+          version: '4'
+      type: authoritative
+      id: Pre_defined_product_data_management_specializations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_organization_or_person_in_organization_assignment
+  domain: 'application module: Pre_defined_product_data_management_specializations_arm'
+  language_code: eng
+  annotations: []
+id: d669bc38-acf1-5c26-b152-f3f73bbcd6e3

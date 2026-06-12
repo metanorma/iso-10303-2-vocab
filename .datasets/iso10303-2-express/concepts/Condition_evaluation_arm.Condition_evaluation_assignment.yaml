@@ -1,0 +1,31 @@
+data:
+  identifier: Condition_evaluation_arm.Condition_evaluation_assignment
+  localized_concepts:
+    eng: 11c73d33-22fa-5a84-b043-317438b9fbfc
+  domains:
+    - concept_id: section-Condition_evaluation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+      ref_type: section
+id: Condition_evaluation_arm.Condition_evaluation_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition evaluation assignment {{entity}}'
+  notes:
+    - content: A **Condition_evaluation_assignment** is a relationship that identifies the statement or relationship to which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm.Condition_evaluation,Condition_evaluation}} applies.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+          version: '2'
+      type: authoritative
+      id: Condition_evaluation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Condition_evaluation_assignment
+  domain: 'application module: Condition_evaluation_arm'
+  language_code: eng
+  annotations: []
+id: 11c73d33-22fa-5a84-b043-317438b9fbfc

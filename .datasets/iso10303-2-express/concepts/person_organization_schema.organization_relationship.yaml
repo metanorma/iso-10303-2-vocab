@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.organization_relationship
+  localized_concepts:
+    eng: f72ab05c-813e-5ef5-b816-b8020945e87d
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.organization_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization relationship {{entity}}'
+  notes:
+    - content: An **organization_relationship** is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organization,organization}} with a description of their relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: organization_relationship
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: f72ab05c-813e-5ef5-b816-b8020945e87d

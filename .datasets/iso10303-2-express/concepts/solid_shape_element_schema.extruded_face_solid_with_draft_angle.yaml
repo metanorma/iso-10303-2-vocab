@@ -1,0 +1,31 @@
+data:
+  identifier: solid_shape_element_schema.extruded_face_solid_with_draft_angle
+  localized_concepts:
+    eng: c95d510e-c6e2-5527-8d0e-b0f36e3d50fc
+  domains:
+    - concept_id: section-solid_shape_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+      ref_type: section
+id: solid_shape_element_schema.extruded_face_solid_with_draft_angle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.extruded_face_solid_with_trim_conditions,extruded_face_solid_with_trim_conditions}} that represents the extruded face solid with draft angle {{entity}}'
+  notes:
+    - content: An *extruded_face_solid_with_draft_angle* is a type of *extruded_face_solid_with_trim_conditions* in which a draft angle is applied along the length of the extrusion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+          version: '3'
+      type: authoritative
+      id: solid_shape_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extruded_face_solid_with_draft_angle
+  domain: 'resource: solid_shape_element_schema'
+  language_code: eng
+  annotations: []
+id: c95d510e-c6e2-5527-8d0e-b0f36e3d50fc

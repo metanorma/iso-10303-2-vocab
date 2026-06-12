@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_arm.Area_based_llai
+  localized_concepts:
+    eng: f3030190-49c1-5b01-a4b9-db0aa93998b6
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_arm.Area_based_llai
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Limited_length_area_indicator,Limited_length_area_indicator}} that represents the area based llai {{entity}}'
+  notes:
+    - content: An **Area_based_llai** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Limited_length_area_indicator,Limited_length_area_indicator}} that may be a butt slice_area, darting area, fiber_orientation angle tolerance deviation area, manufacturing edge of part, manufacturing edge of ply, no splice area, overlap splice area, ply drop off stay out area, ply wrinkle area, plotting area, stitching area, surface porosity allowance area or surface preparation area.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Area_based_llai
+  domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
+  language_code: eng
+  annotations: []
+id: f3030190-49c1-5b01-a4b9-db0aa93998b6

@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.action_directive_relationship
+  localized_concepts:
+    eng: 9ce738fe-7b4c-5556-8f2d-56496d50f51e
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.action_directive_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action directive relationship {{entity}}'
+  notes:
+    - content: An **action_directive_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_directive,action_directive}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_directive_relationship
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: 9ce738fe-7b4c-5556-8f2d-56496d50f51e

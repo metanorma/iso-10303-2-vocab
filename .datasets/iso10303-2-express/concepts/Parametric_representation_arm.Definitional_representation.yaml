@@ -1,0 +1,31 @@
+data:
+  identifier: Parametric_representation_arm.Definitional_representation
+  localized_concepts:
+    eng: 3c7dc05b-6c4e-5664-a8b8-965719836512
+  domains:
+    - concept_id: section-Parametric_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parametric_representation_arm
+      ref_type: section
+id: Parametric_representation_arm.Definitional_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the definitional representation {{entity}}'
+  notes:
+    - content: A **Definitional_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} relating the items that describe the conditions for the parametric representation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parametric_representation_arm
+          version: '2'
+      type: authoritative
+      id: Parametric_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Definitional_representation
+  domain: 'application module: Parametric_representation_arm'
+  language_code: eng
+  annotations: []
+id: 3c7dc05b-6c4e-5664-a8b8-965719836512

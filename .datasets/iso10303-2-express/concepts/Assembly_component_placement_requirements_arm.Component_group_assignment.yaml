@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_placement_requirements_arm.Component_group_assignment
+  localized_concepts:
+    eng: 7b9f4c6e-77a6-5721-9465-99b526df031f
+  domains:
+    - concept_id: section-Assembly_component_placement_requirements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+      ref_type: section
+id: Assembly_component_placement_requirements_arm.Component_group_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component group assignment {{entity}}'
+  notes:
+    - content: A **Component_group_assignment** is the relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}} and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Placement_group_requirement_definition,Placement_group_requirement_definition}} to which it is assigned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+          version: '6'
+      type: authoritative
+      id: Assembly_component_placement_requirements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_group_assignment
+  domain: 'application module: Assembly_component_placement_requirements_arm'
+  language_code: eng
+  annotations: []
+id: 7b9f4c6e-77a6-5721-9465-99b526df031f

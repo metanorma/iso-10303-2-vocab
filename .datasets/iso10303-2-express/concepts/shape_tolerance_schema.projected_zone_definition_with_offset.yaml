@@ -1,0 +1,30 @@
+data:
+  identifier: shape_tolerance_schema.projected_zone_definition_with_offset
+  localized_concepts:
+    eng: c7bb35c3-6c66-5588-9d10-9f1876080a76
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.projected_zone_definition_with_offset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.projected_zone_definition,projected_zone_definition}} that represents the projected zone definition with offset {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: projected_zone_definition_with_offset
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: c7bb35c3-6c66-5588-9d10-9f1876080a76

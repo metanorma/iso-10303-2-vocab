@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_arm.Hierarchical_interface_connection
+  localized_concepts:
+    eng: 679f3d95-e8cb-5180-a334-b45ff79b2068
+  domains:
+    - concept_id: section-Interface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+      ref_type: section
+id: Interface_arm.Hierarchical_interface_connection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connection,Interface_connection}} that represents the hierarchical interface connection {{entity}}'
+  notes:
+    - content: A **Hierarchical_interface_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connection,Interface_connection}} that provides an interconnection between components at different levels in an assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+          version: '5'
+      type: authoritative
+      id: Interface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Hierarchical_interface_connection
+  domain: 'application module: Interface_arm'
+  language_code: eng
+  annotations: []
+id: 679f3d95-e8cb-5180-a334-b45ff79b2068

@@ -1,0 +1,111 @@
+= ISO 10303-2 STEP Vocabulary
+
+This repository hosts the ISO 10303-2 Vocabulary website, built with the
+https://github.com/geolexista/glossarist-vocabulary-browser[Glossarist Concept Browser].
+
+image:https://github.com/metanorma/iso-10303-2/actions/workflows/deploy.yml/badge.svg["Deploy Status", link="https://github.com/metanorma/iso-10303-2/actions/workflows/deploy.yml"]
+
+
+== Structure
+
+[horizontal]
+`.datasets/`:: Committed concept datasets (YAML)
+`site-config.yml`:: Concept browser site configuration
+`logos/`:: Site logos
+`about.md`:: About page content
+`Rakefile`:: Concept extraction and site build tasks
+`.github/workflows/`:: CI/CD pipelines
+
+
+== Datasets
+
+iso10303-2-terms:: 685 terms and definitions from Clause 3 of ISO 10303-2
+iso10303-2-express:: 7,362 EXPRESS entity concepts from application modules and integrated resources
+
+
+== Local Development
+
+=== Prerequisites
+
+* Node.js 20+
+* Ruby 3.1+ with suma gem (for concept regeneration only)
+
+=== Quick Start
+
+[source,sh]
+----
+npm install
+npm run dev
+----
+
+This generates concept data, starts a Vite dev server, and opens the site at
+http://localhost:5173.
+
+
+== Regenerating Concepts
+
+Concepts are extracted from the private `iso-10303` source repository using
+the `suma` tool. Set `ISO_10303_SRC` to point to your local clone:
+
+[source,sh]
+----
+# One-time setup
+gem install suma
+
+# Extract EXPRESS concepts (requires access to iso-10303 repo)
+ISO_10303_SRC=/path/to/iso-10303 rake concepts:express
+
+# Copy term definitions
+ISO_10303_SRC=/path/to/iso-10303 rake concepts:terms
+
+# Or do both at once
+ISO_10303_SRC=/path/to/iso-10303 rake concepts:all
+----
+
+=== Using Docker
+
+If you have Docker, you can use the suma-docker image:
+
+[source,sh]
+----
+docker run --rm -v /path/to/iso-10303:/src ghcr.io/metanorma/suma-docker:latest \
+  suma extract-terms /src/schemas-smrl-part-2.yml /output --urn urn:iso:std:iso:10303:-2:ed-1:en
+----
+
+
+== Building the Site
+
+[source,sh]
+----
+# Full build pipeline
+rake site:build
+
+# Or individual steps
+npx concept-browser generate
+npx concept-browser edges
+SITE_TITLE="ISO 10303-2 Vocabulary" npx vite build \
+  --config node_modules/@glossarist/concept-browser/vite.config.ts
+----
+
+The built site is output to `dist/`.
+
+
+== CI/CD
+
+* **deploy.yml** — Builds and deploys the site to GitHub Pages on push to `main`.
+  Uses the committed `.datasets/` data (no private repo access needed).
+
+* **regenerate-concepts.yml** — Extracts fresh concepts from the private
+  `iso-10303` source repo and creates a PR with updated `.datasets/`.
+  Runs weekly on Mondays or on manual trigger.
+
+
+== Legacy Content
+
+The repository previously contained the ISO 10303-2 document source (Adoc + STEPmod).
+That content has been superseded by the vocabulary website.
+Old document sources are preserved in the `sources/` directory.
+
+== License
+
+Copyright ISO/TC 184/SC 4. All rights reserved.

@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_joint_mim.passage_terminal_based_fabrication_joint_link
+  localized_concepts:
+    eng: aec29015-e16c-5ce1-9e83-c459a16c6638
+  domains:
+    - concept_id: section-Fabrication_joint_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
+      ref_type: section
+id: Fabrication_joint_mim.passage_terminal_based_fabrication_joint_link
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the passage terminal based fabrication joint link {{entity}}'
+  notes:
+    - content: A **passage_terminal_based_fabrication_joint_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Passage_terminal_based_fabrication_joint_link,Passage_terminal_based_fabrication_joint_link}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
+          version: '5'
+      type: authoritative
+      id: Fabrication_joint_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: passage_terminal_based_fabrication_joint_link
+  domain: 'application module: Fabrication_joint_mim'
+  language_code: eng
+  annotations: []
+id: aec29015-e16c-5ce1-9e83-c459a16c6638

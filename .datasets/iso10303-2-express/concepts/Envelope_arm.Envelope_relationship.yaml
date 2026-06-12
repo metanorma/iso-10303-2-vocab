@@ -1,0 +1,31 @@
+data:
+  identifier: Envelope_arm.Envelope_relationship
+  localized_concepts:
+    eng: f123a5b1-4aab-5b0a-96cf-8398b7d9dea9
+  domains:
+    - concept_id: section-Envelope_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
+      ref_type: section
+id: Envelope_arm.Envelope_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the envelope relationship {{entity}}'
+  notes:
+    - content: An **Envelope_relationship** is an association of one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm.Envelope,Envelope}} with another.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
+          version: '2'
+      type: authoritative
+      id: Envelope_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Envelope_relationship
+  domain: 'application module: Envelope_arm'
+  language_code: eng
+  annotations: []
+id: f123a5b1-4aab-5b0a-96cf-8398b7d9dea9

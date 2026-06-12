@@ -1,0 +1,31 @@
+data:
+  identifier: B_spline_geometry_arm.B_spline_curve
+  localized_concepts:
+    eng: 1993fea4-1eff-5767-8118-2dd4980551fa
+  domains:
+    - concept_id: section-B_spline_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+      ref_type: section
+id: B_spline_geometry_arm.B_spline_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_curve,Bounded_curve}} that represents the b spline curve {{entity}}'
+  notes:
+    - content: A **B_spline_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_curve,Bounded_curve}} that is a piecewise parametric polynomial or rational curve described in terms of control points and basis functions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+          version: '1'
+      type: authoritative
+      id: B_spline_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: B_spline_curve
+  domain: 'application module: B_spline_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 1993fea4-1eff-5767-8118-2dd4980551fa

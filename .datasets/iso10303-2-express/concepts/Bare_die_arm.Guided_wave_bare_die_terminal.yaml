@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_arm.Guided_wave_bare_die_terminal
+  localized_concepts:
+    eng: 12509de9-f240-5938-933a-ae457cb9f49a
+  domains:
+    - concept_id: section-Bare_die_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+      ref_type: section
+id: Bare_die_arm.Guided_wave_bare_die_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Minimally_defined_bare_die_terminal,Minimally_defined_bare_die_terminal}} that represents the guided wave bare die terminal {{entity}}'
+  notes:
+    - content: A **Guided_wave_bare_die_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Minimally_defined_bare_die_terminal,Minimally_defined_bare_die_terminal}} used with guided waves in high frequency or fiber-optic applications.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm
+          version: '5'
+      type: authoritative
+      id: Bare_die_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Guided_wave_bare_die_terminal
+  domain: 'application module: Bare_die_arm'
+  language_code: eng
+  annotations: []
+id: 12509de9-f240-5938-933a-ae457cb9f49a

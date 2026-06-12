@@ -1,0 +1,31 @@
+data:
+  identifier: Currency_mim.currency
+  localized_concepts:
+    eng: 2953f75f-c36f-5fe2-8e6d-9fd3943a0ec4
+  domains:
+    - concept_id: section-Currency_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_mim
+      ref_type: section
+id: Currency_mim.currency
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.context_dependent_unit,context_dependent_unit}} that represents the currency {{entity}}'
+  notes:
+    - content: A **currency** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.context_dependent_unit,context_dependent_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm.Currency,Currency}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_mim
+          version: '1'
+      type: authoritative
+      id: Currency_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: currency
+  domain: 'application module: Currency_mim'
+  language_code: eng
+  annotations: []
+id: 2953f75f-c36f-5fe2-8e6d-9fd3943a0ec4

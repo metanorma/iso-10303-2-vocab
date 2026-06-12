@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.symbol_representation
+  localized_concepts:
+    eng: efdff15a-703f-54c0-943f-5008599ac9de
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.symbol_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the symbol representation {{entity}}'
+  notes:
+    - content: A **symbol_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} used in the assembly of a symbol.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: symbol_representation
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: efdff15a-703f-54c0-943f-5008599ac9de

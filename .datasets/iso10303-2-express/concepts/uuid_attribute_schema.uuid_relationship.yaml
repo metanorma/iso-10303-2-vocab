@@ -1,0 +1,33 @@
+data:
+  identifier: uuid_attribute_schema.uuid_relationship
+  localized_concepts:
+    eng: bdd8303b-9c50-5e76-8541-aa7c6a3003d7
+  domains:
+    - concept_id: section-uuid_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+      ref_type: section
+id: uuid_attribute_schema.uuid_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the uuid relationship {{entity}}'
+  notes:
+    - content: |-
+        A **uuid_relationship** provides the capability to relate two
+        {{uuid,uuid}} instances for a purpose.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+          version: '1'
+      type: authoritative
+      id: uuid_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uuid_relationship
+  domain: 'resource: uuid_attribute_schema'
+  language_code: eng
+  annotations: []
+id: bdd8303b-9c50-5e76-8541-aa7c6a3003d7

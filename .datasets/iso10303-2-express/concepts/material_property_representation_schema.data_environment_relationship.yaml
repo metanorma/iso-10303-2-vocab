@@ -1,0 +1,31 @@
+data:
+  identifier: material_property_representation_schema.data_environment_relationship
+  localized_concepts:
+    eng: fef19d68-2a46-57dc-b3f4-c3f3317df45c
+  domains:
+    - concept_id: section-material_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+      ref_type: section
+id: material_property_representation_schema.data_environment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data environment relationship {{entity}}'
+  notes:
+    - content: A **data_environment_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema.data_environment,data_environment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+          version: '2'
+      type: authoritative
+      id: material_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_environment_relationship
+  domain: 'resource: material_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: fef19d68-2a46-57dc-b3f4-c3f3317df45c

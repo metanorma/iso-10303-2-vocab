@@ -1,0 +1,31 @@
+data:
+  identifier: Decision_support_mim.ds_characterizable_product_definition_formation_relationship
+  localized_concepts:
+    eng: f6b91456-f055-5b99-959f-16d173fc5a33
+  domains:
+    - concept_id: section-Decision_support_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+      ref_type: section
+id: Decision_support_mim.ds_characterizable_product_definition_formation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ds characterizable product definition formation relationship {{entity}}'
+  notes:
+    - content: A **ds_characterizable_product_definition_formation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Decision_support_mim
+          version: '2'
+      type: authoritative
+      id: Decision_support_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ds_characterizable_product_definition_formation_relationship
+  domain: 'application module: Decision_support_mim'
+  language_code: eng
+  annotations: []
+id: f6b91456-f055-5b99-959f-16d173fc5a33

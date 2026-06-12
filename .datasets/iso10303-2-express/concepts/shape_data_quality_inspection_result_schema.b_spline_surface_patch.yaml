@@ -1,0 +1,33 @@
+data:
+  identifier: shape_data_quality_inspection_result_schema.b_spline_surface_patch
+  localized_concepts:
+    eng: 8e165912-2743-5950-b08e-52690719e1ee
+  domains:
+    - concept_id: section-shape_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+      ref_type: section
+id: shape_data_quality_inspection_result_schema.b_spline_surface_patch
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the b spline surface patch {{entity}}'
+  notes:
+    - content: |-
+        A **b_spline_surface_patch**
+        is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents a location by specifying a patch with stem:[u] and stem:[v] knot indices on the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_surface,b_spline_surface}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: b_spline_surface_patch
+  domain: 'resource: shape_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 8e165912-2743-5950-b08e-52690719e1ee

@@ -1,0 +1,30 @@
+data:
+  identifier: Assembly_physical_requirement_allocation_arm.Assembly_separation_requirement_allocation
+  localized_concepts:
+    eng: aa3d69cc-0fe3-5765-b519-cd2a7f994451
+  domains:
+    - concept_id: section-Assembly_physical_requirement_allocation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+      ref_type: section
+id: Assembly_physical_requirement_allocation_arm.Assembly_separation_requirement_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation,Assembly_requirement_allocation}} that represents the assembly separation requirement allocation {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_requirement_allocation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Assembly_separation_requirement_allocation
+  domain: 'application module: Assembly_physical_requirement_allocation_arm'
+  language_code: eng
+  annotations: []
+id: aa3d69cc-0fe3-5765-b519-cd2a7f994451

@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.thermal_conductivity_model
+  localized_concepts:
+    eng: ea4168f4-9795-527c-b1c6-7f9e186eff68
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.thermal_conductivity_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}} that represents the thermal conductivity model {{entity}}'
+  notes:
+    - content: A *thermal_conductivity_model* is the model for relating the thermal-conductivity coefficient (stem:[k]) to temperature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thermal_conductivity_model
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: ea4168f4-9795-527c-b1c6-7f9e186eff68

@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.product_definition_formation
+  localized_concepts:
+    eng: bd289841-2a6c-541c-b60c-48d3e1ec79c6
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.product_definition_formation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition formation {{entity}}'
+  notes:
+    - content: A **product_definition_formation** is a collector of definitions of a product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_formation
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: bd289841-2a6c-541c-b60c-48d3e1ec79c6

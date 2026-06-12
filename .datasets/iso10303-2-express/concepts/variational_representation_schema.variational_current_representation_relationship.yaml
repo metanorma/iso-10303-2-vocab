@@ -1,0 +1,31 @@
+data:
+  identifier: variational_representation_schema.variational_current_representation_relationship
+  localized_concepts:
+    eng: f27f611f-f117-5d9d-a8e6-7d7ba2eabbb2
+  domains:
+    - concept_id: section-variational_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+      ref_type: section
+id: variational_representation_schema.variational_current_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the variational current representation relationship {{entity}}'
+  notes:
+    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_current_representation_relationship,variational_current_representation_relationship}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that defines the relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation,variational_representation}} and its embedded non-variational 'current result' representation.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+          version: '4'
+      type: authoritative
+      id: variational_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: variational_current_representation_relationship
+  domain: 'resource: variational_representation_schema'
+  language_code: eng
+  annotations: []
+id: f27f611f-f117-5d9d-a8e6-7d7ba2eabbb2

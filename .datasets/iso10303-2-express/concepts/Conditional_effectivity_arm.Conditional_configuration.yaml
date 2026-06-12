@@ -1,0 +1,31 @@
+data:
+  identifier: Conditional_effectivity_arm.Conditional_configuration
+  localized_concepts:
+    eng: 359c42bc-0fd1-5944-bd70-a4faa36ea593
+  domains:
+    - concept_id: section-Conditional_effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
+      ref_type: section
+id: Conditional_effectivity_arm.Conditional_configuration
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm.Conditional_effectivity,Conditional_effectivity}} that represents the conditional configuration {{entity}}'
+  notes:
+    - content: A **Conditional_configuration** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm.Conditional_effectivity,Conditional_effectivity}} and represents an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_condition_association,Class_condition_association}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_specification_association,Class_specification_association}} object with a design or process to define a valid usage of it in the context of a certain {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Product_class,Product_class}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
+          version: '3'
+      type: authoritative
+      id: Conditional_effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Conditional_configuration
+  domain: 'application module: Conditional_effectivity_arm'
+  language_code: eng
+  annotations: []
+id: 359c42bc-0fd1-5944-bd70-a4faa36ea593

@@ -1,0 +1,31 @@
+data:
+  identifier: Part_feature_function_arm.Part_mounting_feature
+  localized_concepts:
+    eng: ca496676-0857-51b7-ab96-d77b836547eb
+  domains:
+    - concept_id: section-Part_feature_function_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+      ref_type: section
+id: Part_feature_function_arm.Part_mounting_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the part mounting feature {{entity}}'
+  notes:
+    - content: A **Part_mounting_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that is identified to facilitate tolerance specification when an occurrence of the associated part is used in an assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+          version: '4'
+      type: authoritative
+      id: Part_feature_function_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_mounting_feature
+  domain: 'application module: Part_feature_function_arm'
+  language_code: eng
+  annotations: []
+id: ca496676-0857-51b7-ab96-d77b836547eb

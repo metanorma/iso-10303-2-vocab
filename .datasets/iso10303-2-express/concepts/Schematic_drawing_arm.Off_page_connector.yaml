@@ -1,0 +1,30 @@
+data:
+  identifier: Schematic_drawing_arm.Off_page_connector
+  localized_concepts:
+    eng: fbc48f2c-043e-56b3-ac65-f2b4e3614c4c
+  domains:
+    - concept_id: section-Schematic_drawing_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
+      ref_type: section
+id: Schematic_drawing_arm.Off_page_connector
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm.Page_connector,Page_connector}} that represents the off page connector {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
+          version: '1'
+      type: authoritative
+      id: Schematic_drawing_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Off_page_connector
+  domain: 'application module: Schematic_drawing_arm'
+  language_code: eng
+  annotations: []
+id: fbc48f2c-043e-56b3-ac65-f2b4e3614c4c

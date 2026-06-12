@@ -1,0 +1,31 @@
+data:
+  identifier: Interconnect_module_with_macros_mim.interconnect_module_macro_component
+  localized_concepts:
+    eng: 1bd16203-4f4e-50e5-8da7-050515031d43
+  domains:
+    - concept_id: section-Interconnect_module_with_macros_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_mim
+      ref_type: section
+id: Interconnect_module_with_macros_mim.interconnect_module_macro_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that represents the interconnect module macro component {{entity}}'
+  notes:
+    - content: An **interconnect_module_macro_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm.Interconnect_module_macro_component,Interconnect_module_macro_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_mim
+          version: '4'
+      type: authoritative
+      id: Interconnect_module_with_macros_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interconnect_module_macro_component
+  domain: 'application module: Interconnect_module_with_macros_mim'
+  language_code: eng
+  annotations: []
+id: 1bd16203-4f4e-50e5-8da7-050515031d43

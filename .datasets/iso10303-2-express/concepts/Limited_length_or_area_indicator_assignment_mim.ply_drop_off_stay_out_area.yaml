@@ -1,0 +1,31 @@
+data:
+  identifier: Limited_length_or_area_indicator_assignment_mim.ply_drop_off_stay_out_area
+  localized_concepts:
+    eng: 77c9e43e-b3c6-5ad9-a656-10860286e67c
+  domains:
+    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+      ref_type: section
+id: Limited_length_or_area_indicator_assignment_mim.ply_drop_off_stay_out_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.area_based_llai,area_based_llai}} that represents the ply drop off stay out area {{entity}}'
+  notes:
+    - content: A **ply_drop_off_stay_out_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.area_based_llai,area_based_llai}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Ply_drop_off_stay_out_area,Ply_drop_off_stay_out_area}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Limited_length_or_area_indicator_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ply_drop_off_stay_out_area
+  domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 77c9e43e-b3c6-5ad9-a656-10860286e67c

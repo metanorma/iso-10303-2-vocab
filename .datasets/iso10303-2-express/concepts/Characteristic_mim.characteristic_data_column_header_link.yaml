@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_mim.characteristic_data_column_header_link
+  localized_concepts:
+    eng: 842f94b5-5529-56b2-9014-153880cbd8ce
+  domains:
+    - concept_id: section-Characteristic_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+      ref_type: section
+id: Characteristic_mim.characteristic_data_column_header_link
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_relationship,general_property_relationship}} that represents the characteristic data column header link {{entity}}'
+  notes:
+    - content: A **characteristic_data_column_header_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_relationship,general_property_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Characteristic_data_column_header_link,Characteristic_data_column_header_link}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+          version: '6'
+      type: authoritative
+      id: Characteristic_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characteristic_data_column_header_link
+  domain: 'application module: Characteristic_mim'
+  language_code: eng
+  annotations: []
+id: 842f94b5-5529-56b2-9014-153880cbd8ce

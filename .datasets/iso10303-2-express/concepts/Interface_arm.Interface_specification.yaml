@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_arm.Interface_specification
+  localized_concepts:
+    eng: 6d0b60ce-8d3c-5be9-a95f-45c6d5c043eb
+  domains:
+    - concept_id: section-Interface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+      ref_type: section
+id: Interface_arm.Interface_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the interface specification {{entity}}'
+  notes:
+    - content: An **Interface_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that provides a definition of necessary attributes for one or more items that participate in an interface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+          version: '5'
+      type: authoritative
+      id: Interface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_specification
+  domain: 'application module: Interface_arm'
+  language_code: eng
+  annotations: []
+id: 6d0b60ce-8d3c-5be9-a95f-45c6d5c043eb

@@ -1,0 +1,31 @@
+data:
+  identifier: System_breakdown_arm.System_element_version
+  localized_concepts:
+    eng: 98bd32bd-36f0-5b05-ac3e-0d158e586491
+  domains:
+    - concept_id: section-System_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+      ref_type: section
+id: System_breakdown_arm.System_element_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_version,Breakdown_element_version}} that represents the system element version {{entity}}'
+  notes:
+    - content: A **System_element_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_version,Breakdown_element_version}} that identifies a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element,System_element}} .
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: System_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: System_element_version
+  domain: 'application module: System_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 98bd32bd-36f0-5b05-ac3e-0d158e586491

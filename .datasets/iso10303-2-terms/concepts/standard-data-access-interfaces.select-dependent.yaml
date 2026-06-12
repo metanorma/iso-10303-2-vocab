@@ -1,0 +1,26 @@
+---
+data:
+  identifier: standard-data-access-interfaces.select-dependent
+  localized_concepts:
+    eng: c4233513-2f50-5caa-9fc4-827c240a49a7
+  domains:
+  - concept_id: section-standard-data-access-interfaces
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: c9d02576-54e1-51dc-9f84-19306943c006
+schema_version: v3
+---
+data:
+  definition:
+  - content: base type of an entity attribute or an aggregation type is *select-dependent*
+      if the aggregate value, returned by the EXPRESS *`TypeOf`* function for this
+      base type contains the name of a defined type whose underlying type is a `SELECT`data
+      type
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: select-dependent
+  domain: Standard data access interface Java binding
+  language_code: eng
+  annotations: []
+id: c4233513-2f50-5caa-9fc4-827c240a49a7

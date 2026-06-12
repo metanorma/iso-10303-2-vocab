@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Chamfer
+  localized_concepts:
+    eng: 718dec69-b8f0-5cc3-b9ab-99b909c5909c
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Chamfer
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that represents the chamfer {{entity}}'
+  notes:
+    - content: A **Chamfer** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that is a transition between corresponding edges of two joining non-coplanar surfaces, having a flat cross section.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Chamfer
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 718dec69-b8f0-5cc3-b9ab-99b909c5909c

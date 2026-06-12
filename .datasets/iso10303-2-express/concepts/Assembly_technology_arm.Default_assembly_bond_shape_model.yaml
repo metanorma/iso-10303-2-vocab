@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_arm.Default_assembly_bond_shape_model
+  localized_concepts:
+    eng: fe5e8b61-d9f1-5086-91c7-e17092185f81
+  domains:
+    - concept_id: section-Assembly_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+      ref_type: section
+id: Assembly_technology_arm.Default_assembly_bond_shape_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the default assembly bond shape model {{entity}}'
+  notes:
+    - content: A **Default_assembly_bond_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is the shape of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_bond_definition,Assembly_bond_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Default_assembly_bond_shape_model
+  domain: 'application module: Assembly_technology_arm'
+  language_code: eng
+  annotations: []
+id: fe5e8b61-d9f1-5086-91c7-e17092185f81

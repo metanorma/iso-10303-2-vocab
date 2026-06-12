@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.alternate_product_relationship
+  localized_concepts:
+    eng: cf73efe1-c1b4-50a1-a004-9e5d9419536f
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.alternate_product_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the alternate product relationship {{entity}}'
+  notes:
+    - content: An **alternate_product_relationship** is an association between two products whereby one product, the alternate product, may be used in place of another product, the base product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: alternate_product_relationship
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: cf73efe1-c1b4-50a1-a004-9e5d9419536f

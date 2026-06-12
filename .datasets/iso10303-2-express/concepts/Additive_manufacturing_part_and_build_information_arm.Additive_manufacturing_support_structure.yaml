@@ -1,0 +1,31 @@
+data:
+  identifier: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_support_structure
+  localized_concepts:
+    eng: 04702ed0-9f04-58b7-901c-08606bbf2191
+  domains:
+    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+      ref_type: section
+id: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_support_structure
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} that represents the additive manufacturing support structure {{entity}}'
+  notes:
+    - content: An **Additive_manufacturing_support_structure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} that defines the optional support structures of the parts specified in the setup.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+          version: '2'
+      type: authoritative
+      id: Additive_manufacturing_part_and_build_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Additive_manufacturing_support_structure
+  domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
+  language_code: eng
+  annotations: []
+id: 04702ed0-9f04-58b7-901c-08606bbf2191

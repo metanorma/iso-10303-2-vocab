@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_element_analysis_arm.Fe_analysis_state
+  localized_concepts:
+    eng: d7a76529-fb68-5511-bff0-db7f0fb4705a
+  domains:
+    - concept_id: section-Finite_element_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+      ref_type: section
+id: Finite_element_analysis_arm.Fe_analysis_state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fe analysis state {{entity}}'
+  notes:
+    - content: An **Fe_analysis_state** is a state that represents the values of information defining the node and element variables within a finite element model at an instant in time.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Finite_element_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fe_analysis_state
+  domain: 'application module: Finite_element_analysis_arm'
+  language_code: eng
+  annotations: []
+id: d7a76529-fb68-5511-bff0-db7f0fb4705a

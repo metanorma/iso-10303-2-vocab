@@ -1,0 +1,31 @@
+data:
+  identifier: Extruded_structure_cross_section_arm.Cross_sectional_part_shape_element
+  localized_concepts:
+    eng: 56e24ef6-2ff8-5ebe-b59a-8a9abfb0a651
+  domains:
+    - concept_id: section-Extruded_structure_cross_section_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+      ref_type: section
+id: Extruded_structure_cross_section_arm.Cross_sectional_part_shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that represents the cross sectional part shape element {{entity}}'
+  notes:
+    - content: A **Cross_sectional_part_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that defines the cross sectional shape or a part of it of a group of extruded objects perpendicular to the local centre line.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+          version: '2'
+      type: authoritative
+      id: Extruded_structure_cross_section_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cross_sectional_part_shape_element
+  domain: 'application module: Extruded_structure_cross_section_arm'
+  language_code: eng
+  annotations: []
+id: 56e24ef6-2ff8-5ebe-b59a-8a9abfb0a651

@@ -1,0 +1,30 @@
+data:
+  identifier: Possession_of_property_arm.Possession_of_property
+  localized_concepts:
+    eng: 45d1cf81-8b8c-5843-b24b-70833d7f2b46
+  domains:
+    - concept_id: section-Possession_of_property_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_arm
+      ref_type: section
+id: Possession_of_property_arm.Possession_of_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Applied_independent_property,Applied_independent_property}} that represents the possession of property {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_arm
+          version: '1'
+      type: authoritative
+      id: Possession_of_property_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Possession_of_property
+  domain: 'application module: Possession_of_property_arm'
+  language_code: eng
+  annotations: []
+id: 45d1cf81-8b8c-5843-b24b-70833d7f2b46

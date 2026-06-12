@@ -1,0 +1,31 @@
+data:
+  identifier: Wire_and_cable_design_connectivity_arm.Wire_occurrence
+  localized_concepts:
+    eng: 3fbee5ac-a79d-57c8-aa4b-33bc692b11d6
+  domains:
+    - concept_id: section-Wire_and_cable_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+      ref_type: section
+id: Wire_and_cable_design_connectivity_arm.Wire_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}} that represents the wire occurrence {{entity}}'
+  notes:
+    - content: A **Wire_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}} that is an occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} having a specified length.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+          version: '3'
+      type: authoritative
+      id: Wire_and_cable_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Wire_occurrence
+  domain: 'application module: Wire_and_cable_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 3fbee5ac-a79d-57c8-aa4b-33bc692b11d6

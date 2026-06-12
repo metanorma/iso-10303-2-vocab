@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_mim.forward_chaining_rule_premise
+  localized_concepts:
+    eng: 217ecb4b-bf81-5e93-847b-d764f9ececae
+  domains:
+    - concept_id: section-Production_rule_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+      ref_type: section
+id: Production_rule_mim.forward_chaining_rule_premise
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the forward chaining rule premise {{entity}}'
+  notes:
+    - content: An **forward_chaining_rule_premise** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+          version: '5'
+      type: authoritative
+      id: Production_rule_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: forward_chaining_rule_premise
+  domain: 'application module: Production_rule_mim'
+  language_code: eng
+  annotations: []
+id: 217ecb4b-bf81-5e93-847b-d764f9ececae

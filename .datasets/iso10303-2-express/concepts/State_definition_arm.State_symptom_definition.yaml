@@ -1,0 +1,30 @@
+data:
+  identifier: State_definition_arm.State_symptom_definition
+  localized_concepts:
+    eng: 4ecf9cd2-bf2c-56ea-84e3-bc4233e81eac
+  domains:
+    - concept_id: section-State_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+      ref_type: section
+id: State_definition_arm.State_symptom_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition_relationship,State_definition_relationship}} that represents the state symptom definition {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+          version: '3'
+      type: authoritative
+      id: State_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: State_symptom_definition
+  domain: 'application module: State_definition_arm'
+  language_code: eng
+  annotations: []
+id: 4ecf9cd2-bf2c-56ea-84e3-bc4233e81eac

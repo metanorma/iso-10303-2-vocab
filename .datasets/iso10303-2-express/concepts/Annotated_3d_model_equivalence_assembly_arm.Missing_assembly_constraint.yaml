@@ -1,0 +1,31 @@
+data:
+  identifier: Annotated_3d_model_equivalence_assembly_arm.Missing_assembly_constraint
+  localized_concepts:
+    eng: c7c3e06d-c222-51cd-94b1-1453c124496c
+  domains:
+    - concept_id: section-Annotated_3d_model_equivalence_assembly_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+      ref_type: section
+id: Annotated_3d_model_equivalence_assembly_arm.Missing_assembly_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_assembly_data_structure,A3m_equivalence_criterion_of_assembly_data_structure}} that represents the missing assembly constraint {{entity}}'
+  notes:
+    - content: A **Missing_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_assembly_data_structure,A3m_equivalence_criterion_of_assembly_data_structure}} that asserts that one or more assembly constraints between a component and its connected component in the comparing assembly data set do not have a corresponding constraint between the corresponding component and its connected component in the compared assembly data set.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+          version: '1'
+      type: authoritative
+      id: Annotated_3d_model_equivalence_assembly_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Missing_assembly_constraint
+  domain: 'application module: Annotated_3d_model_equivalence_assembly_arm'
+  language_code: eng
+  annotations: []
+id: c7c3e06d-c222-51cd-94b1-1453c124496c

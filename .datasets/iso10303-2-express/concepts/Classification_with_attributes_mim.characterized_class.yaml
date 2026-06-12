@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_with_attributes_mim.characterized_class
+  localized_concepts:
+    eng: 81f2fa2c-06ff-5398-987e-430832fa69e9
+  domains:
+    - concept_id: section-Classification_with_attributes_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
+      ref_type: section
+id: Classification_with_attributes_mim.characterized_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized class {{entity}}'
+  notes:
+    - content: A **characterized_class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} to which valued characteristics may be assigned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
+          version: '7'
+      type: authoritative
+      id: Classification_with_attributes_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_class
+  domain: 'application module: Classification_with_attributes_mim'
+  language_code: eng
+  annotations: []
+id: 81f2fa2c-06ff-5398-987e-430832fa69e9

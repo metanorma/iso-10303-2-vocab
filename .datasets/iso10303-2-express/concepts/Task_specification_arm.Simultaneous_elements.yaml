@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Simultaneous_elements
+  localized_concepts:
+    eng: 941f2095-df78-559c-8471-48a43cbb2693
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Simultaneous_elements
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Concurrent_elements,Concurrent_elements}} that represents the simultaneous elements {{entity}}'
+  notes:
+    - content: A **Simultaneous_elements** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Concurrent_elements,Concurrent_elements}} that represents two or more actions to be performed together.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Simultaneous_elements
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 941f2095-df78-559c-8471-48a43cbb2693

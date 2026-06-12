@@ -1,0 +1,31 @@
+data:
+  identifier: Characteristic_arm.Correlated_property
+  localized_concepts:
+    eng: 9fbd3603-4c81-5c54-ac10-f9898ec0206e
+  domains:
+    - concept_id: section-Characteristic_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+      ref_type: section
+id: Characteristic_arm.Correlated_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that represents the correlated property {{entity}}'
+  notes:
+    - content: A **Correlated_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that identifies a set of other correlated {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+          version: '6'
+      type: authoritative
+      id: Characteristic_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Correlated_property
+  domain: 'application module: Characteristic_arm'
+  language_code: eng
+  annotations: []
+id: 9fbd3603-4c81-5c54-ac10-f9898ec0206e

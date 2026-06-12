@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.dependent_variable_definition
+  localized_concepts:
+    eng: ecc0a71a-719a-5379-a604-35821b1ab150
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.dependent_variable_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} that represents the dependent variable definition {{entity}}'
+  notes:
+    - content: This subtype of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.unary_generic_expression,unary_generic_expression}} defines a dependent variable.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dependent_variable_definition
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: ecc0a71a-719a-5379-a604-35821b1ab150

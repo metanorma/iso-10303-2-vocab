@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_lifecycle_arm.Interface_connector_design_to_realized
+  localized_concepts:
+    eng: a62213ea-baac-5065-9298-e34d7c066918
+  domains:
+    - concept_id: section-Interface_lifecycle_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+      ref_type: section
+id: Interface_lifecycle_arm.Interface_connector_design_to_realized
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface connector design to realized {{entity}}'
+  notes:
+    - content: An **Interface_connector_design_to_realized** is a relationship between a design version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector,Interface_connector}} and a realized individual that conforms to the design.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+          version: '1'
+      type: authoritative
+      id: Interface_lifecycle_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_connector_design_to_realized
+  domain: 'application module: Interface_lifecycle_arm'
+  language_code: eng
+  annotations: []
+id: a62213ea-baac-5065-9298-e34d7c066918

@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_organization_schema.presentation_layer_assignment
+  localized_concepts:
+    eng: 14ed05fc-d88f-56b6-bb3e-72cb98f4fc87
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.presentation_layer_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presentation layer assignment {{entity}}'
+  notes:
+    - content: A **presentation_layer_assignment** is assignment of an identifier to a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_representation,presentation_representation}}s or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: presentation_layer_assignment
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: 14ed05fc-d88f-56b6-bb3e-72cb98f4fc87

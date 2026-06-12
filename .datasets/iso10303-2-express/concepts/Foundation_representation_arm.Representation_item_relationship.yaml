@@ -1,0 +1,31 @@
+data:
+  identifier: Foundation_representation_arm.Representation_item_relationship
+  localized_concepts:
+    eng: a6b8fd56-3311-5b88-ae44-435c454d1834
+  domains:
+    - concept_id: section-Foundation_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+      ref_type: section
+id: Foundation_representation_arm.Representation_item_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation item relationship {{entity}}'
+  notes:
+    - content: A **Representation_item_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+          version: '6'
+      type: authoritative
+      id: Foundation_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Representation_item_relationship
+  domain: 'application module: Foundation_representation_arm'
+  language_code: eng
+  annotations: []
+id: a6b8fd56-3311-5b88-ae44-435c454d1834

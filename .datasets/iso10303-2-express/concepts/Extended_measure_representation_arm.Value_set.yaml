@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_measure_representation_arm.Value_set
+  localized_concepts:
+    eng: ea481066-a092-5b66-92e4-804bb25eb642
+  domains:
+    - concept_id: section-Extended_measure_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
+      ref_type: section
+id: Extended_measure_representation_arm.Value_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}} that represents the value set {{entity}}'
+  notes:
+    - content: A **Value_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}} that is an unordered collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}}s.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
+          version: '4'
+      type: authoritative
+      id: Extended_measure_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Value_set
+  domain: 'application module: Extended_measure_representation_arm'
+  language_code: eng
+  annotations: []
+id: ea481066-a092-5b66-92e4-804bb25eb642

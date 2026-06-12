@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_data_quality_criteria_schema.a3m_summary_report_request_with_representative_value
+  localized_concepts:
+    eng: 6f7ae096-3c9d-531f-85cf-df220f64f56c
+  domains:
+    - concept_id: section-annotated_3d_model_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+      ref_type: section
+id: annotated_3d_model_data_quality_criteria_schema.a3m_summary_report_request_with_representative_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.summary_report_request,summary_report_request}} that represents the a3m summary report request with representative value {{entity}}'
+  notes:
+    - content: An **a3m_summary_report_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.summary_report_request,summary_report_request}} that requests a summary report including a representative value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+          version: '3'
+      type: authoritative
+      id: annotated_3d_model_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_summary_report_request_with_representative_value
+  domain: 'resource: annotated_3d_model_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: 6f7ae096-3c9d-531f-85cf-df220f64f56c

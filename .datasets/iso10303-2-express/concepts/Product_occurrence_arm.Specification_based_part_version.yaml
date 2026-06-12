@@ -1,0 +1,31 @@
+data:
+  identifier: Product_occurrence_arm.Specification_based_part_version
+  localized_concepts:
+    eng: 2919f986-8e0d-5896-9b51-ecd0a1d408c3
+  domains:
+    - concept_id: section-Product_occurrence_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+      ref_type: section
+id: Product_occurrence_arm.Specification_based_part_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the specification based part version {{entity}}'
+  notes:
+    - content: A **Specification_based_part_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Specification_based_product_version,Specification_based_product_version}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_version_identification_arm.Part_version,Part_version}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+          version: '5'
+      type: authoritative
+      id: Product_occurrence_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Specification_based_part_version
+  domain: 'application module: Product_occurrence_arm'
+  language_code: eng
+  annotations: []
+id: 2919f986-8e0d-5896-9b51-ecd0a1d408c3

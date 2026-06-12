@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Fillet
+  localized_concepts:
+    eng: 0d5625e7-cba8-5b22-8a3c-03b57a81d1cf
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Fillet
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that represents the fillet {{entity}}'
+  notes:
+    - content: A **Fillet** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that is a concave circular arc transition between two intersecting surfaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Fillet
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 0d5625e7-cba8-5b22-8a3c-03b57a81d1cf

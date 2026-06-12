@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_arm.Printed_part_template_material_link
+  localized_concepts:
+    eng: 8bb2a207-e37f-5bf4-82b8-809fd86cad30
+  domains:
+    - concept_id: section-Printed_physical_layout_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+      ref_type: section
+id: Printed_physical_layout_template_arm.Printed_part_template_material_link
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the printed part template material link {{entity}}'
+  notes:
+    - content: A **Printed_part_template_material_link** is a link that establishes an adjacency relationship between two material boundaries in the cross section view of a template.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Printed_part_template_material_link
+  domain: 'application module: Printed_physical_layout_template_arm'
+  language_code: eng
+  annotations: []
+id: 8bb2a207-e37f-5bf4-82b8-809fd86cad30

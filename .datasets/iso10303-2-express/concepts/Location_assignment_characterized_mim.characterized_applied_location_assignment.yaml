@@ -1,0 +1,31 @@
+data:
+  identifier: Location_assignment_characterized_mim.characterized_applied_location_assignment
+  localized_concepts:
+    eng: 4de06d98-b62c-503a-861a-80cf98ef1221
+  domains:
+    - concept_id: section-Location_assignment_characterized_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_characterized_mim
+      ref_type: section
+id: Location_assignment_characterized_mim.characterized_applied_location_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized applied location assignment {{entity}}'
+  notes:
+    - content: A **characterized_applied_location_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim.applied_location_assignment,applied_location_assignment}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim.applied_location_assignment,applied_location_assignment}} instances.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_characterized_mim
+          version: '1'
+      type: authoritative
+      id: Location_assignment_characterized_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: characterized_applied_location_assignment
+  domain: 'application module: Location_assignment_characterized_mim'
+  language_code: eng
+  annotations: []
+id: 4de06d98-b62c-503a-861a-80cf98ef1221

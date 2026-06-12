@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_schema.model_state_domain
+  localized_concepts:
+    eng: a0b09c5c-5384-58e1-ba2a-2b00d729aadb
+  domains:
+    - concept_id: section-analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+      ref_type: section
+id: analysis_schema.model_state_domain
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that represents the model state domain {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_state_domain,model_state_domain}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that has no time dimension.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+          version: '1'
+      type: authoritative
+      id: analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: model_state_domain
+  domain: 'resource: analysis_schema'
+  language_code: eng
+  annotations: []
+id: a0b09c5c-5384-58e1-ba2a-2b00d729aadb

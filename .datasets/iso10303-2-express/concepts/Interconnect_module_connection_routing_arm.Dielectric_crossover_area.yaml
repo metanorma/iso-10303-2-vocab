@@ -1,0 +1,31 @@
+data:
+  identifier: Interconnect_module_connection_routing_arm.Dielectric_crossover_area
+  localized_concepts:
+    eng: 8fcd8012-1d72-512e-8146-e9704860cd9b
+  domains:
+    - concept_id: section-Interconnect_module_connection_routing_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+      ref_type: section
+id: Interconnect_module_connection_routing_arm.Dielectric_crossover_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dielectric crossover area {{entity}}'
+  notes:
+    - content: A **Dielectric_crossover_area** is a relationship that relates one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}} with another that results in the creation of a dielectric crossover feature in a dielectric {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+          version: '2'
+      type: authoritative
+      id: Interconnect_module_connection_routing_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dielectric_crossover_area
+  domain: 'application module: Interconnect_module_connection_routing_arm'
+  language_code: eng
+  annotations: []
+id: 8fcd8012-1d72-512e-8146-e9704860cd9b

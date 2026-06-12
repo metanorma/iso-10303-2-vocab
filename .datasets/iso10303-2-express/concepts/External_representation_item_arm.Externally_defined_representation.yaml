@@ -1,0 +1,31 @@
+data:
+  identifier: External_representation_item_arm.Externally_defined_representation
+  localized_concepts:
+    eng: 6beb0c28-711a-5166-87a0-7a811a19c5db
+  domains:
+    - concept_id: section-External_representation_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+      ref_type: section
+id: External_representation_item_arm.Externally_defined_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the externally defined representation {{entity}}'
+  notes:
+    - content: An **Externally_defined_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents a representation that is defined in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_source_arm.External_source,External_source}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm
+          version: '2'
+      type: authoritative
+      id: External_representation_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_representation
+  domain: 'application module: External_representation_item_arm'
+  language_code: eng
+  annotations: []
+id: 6beb0c28-711a-5166-87a0-7a811a19c5db

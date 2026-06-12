@@ -1,0 +1,31 @@
+data:
+  identifier: Verification_and_validation_arm.Verification
+  localized_concepts:
+    eng: 78f9581e-9c8a-5d28-bccd-d29473b9b618
+  domains:
+    - concept_id: section-Verification_and_validation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+      ref_type: section
+id: Verification_and_validation_arm.Verification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the verification {{entity}}'
+  notes:
+    - content: A **Verification** is an objective assertion of a claim that requirement is satisfied by a particular item represented in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_satisfied_by,Requirement_satisfied_by}} has been verified.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+          version: '3'
+      type: authoritative
+      id: Verification_and_validation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Verification
+  domain: 'application module: Verification_and_validation_arm'
+  language_code: eng
+  annotations: []
+id: 78f9581e-9c8a-5d28-bccd-d29473b9b618

@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_macro_definition_mim.assembly_module_macro_terminal
+  localized_concepts:
+    eng: e4f11821-2cd6-5b1d-8286-85df3dbe615b
+  domains:
+    - concept_id: section-Assembly_module_macro_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_macro_definition_mim
+      ref_type: section
+id: Assembly_module_macro_definition_mim.assembly_module_macro_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim.assembly_module_terminal,assembly_module_terminal}} that represents the assembly module macro terminal {{entity}}'
+  notes:
+    - content: An **assembly_module_macro_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim.assembly_module_terminal,assembly_module_terminal}} that implement the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_macro_definition_arm.Assembly_module_macro_terminal,Assembly_module_macro_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_macro_definition_mim
+          version: '3'
+      type: authoritative
+      id: Assembly_module_macro_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_module_macro_terminal
+  domain: 'application module: Assembly_module_macro_definition_mim'
+  language_code: eng
+  annotations: []
+id: e4f11821-2cd6-5b1d-8286-85df3dbe615b

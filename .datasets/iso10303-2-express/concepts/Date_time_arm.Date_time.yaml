@@ -1,0 +1,31 @@
+data:
+  identifier: Date_time_arm.Date_time
+  localized_concepts:
+    eng: 0f8d292e-91d1-538d-bc26-f9c07b1cec58
+  domains:
+    - concept_id: section-Date_time_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm
+      ref_type: section
+id: Date_time_arm.Date_time
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date time {{entity}}'
+  notes:
+    - content: A **Date_time** is a time on a particular day.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_arm
+          version: '2'
+      type: authoritative
+      id: Date_time_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Date_time
+  domain: 'application module: Date_time_arm'
+  language_code: eng
+  annotations: []
+id: 0f8d292e-91d1-538d-bc26-f9c07b1cec58

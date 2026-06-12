@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Tee_profile
+  localized_concepts:
+    eng: e9ae3527-df9c-597e-9ab6-9375331df8c7
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Tee_profile
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} that represents the tee profile {{entity}}'
+  notes:
+    - content: A **Tee_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} the cross-section of which has the shape of the twentieth letter of the English alphabet in capital form.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tee_profile
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: e9ae3527-df9c-597e-9ab6-9375331df8c7

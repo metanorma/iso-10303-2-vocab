@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_scalar_port
+  localized_concepts:
+    eng: cb54bc2e-c68f-5bbe-9040-3c3efae78d9b
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_scalar_port
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_vector_port,Analytical_model_vector_port}} that represents the analytical model scalar port {{entity}}'
+  notes:
+    - content: An **Analytical_model_scalar_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_vector_port,Analytical_model_vector_port}} that has a size of exactly one.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_scalar_port
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: cb54bc2e-c68f-5bbe-9040-3c3efae78d9b

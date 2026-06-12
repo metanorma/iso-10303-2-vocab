@@ -1,0 +1,31 @@
+data:
+  identifier: Component_grouping_mim.assembly_group_component
+  localized_concepts:
+    eng: 749e6e1a-d4af-56c7-b204-3a4ab903185b
+  domains:
+    - concept_id: section-Component_grouping_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+      ref_type: section
+id: Component_grouping_mim.assembly_group_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.assembly_component,assembly_component}} that represents the assembly group component {{entity}}'
+  notes:
+    - content: An **assembly_group_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.assembly_component,assembly_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_group_component,Assembly_group_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+          version: '6'
+      type: authoritative
+      id: Component_grouping_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_group_component
+  domain: 'application module: Component_grouping_mim'
+  language_code: eng
+  annotations: []
+id: 749e6e1a-d4af-56c7-b204-3a4ab903185b

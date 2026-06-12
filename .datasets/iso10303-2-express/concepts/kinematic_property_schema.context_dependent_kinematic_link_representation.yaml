@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_property_schema.context_dependent_kinematic_link_representation
+  localized_concepts:
+    eng: 25818941-0f58-5de8-9d3c-340baff37807
+  domains:
+    - concept_id: section-kinematic_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+      ref_type: section
+id: kinematic_property_schema.context_dependent_kinematic_link_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the context dependent kinematic link representation {{entity}}'
+  notes:
+    - content: A **context_dependent_kinematic_link_representation** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_link_representation_association,kinematic_link_representation_association}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema.product_definition_relationship_kinematics,product_definition_relationship_kinematics}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_property_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: context_dependent_kinematic_link_representation
+  domain: 'resource: kinematic_property_schema'
+  language_code: eng
+  annotations: []
+id: 25818941-0f58-5de8-9d3c-340baff37807

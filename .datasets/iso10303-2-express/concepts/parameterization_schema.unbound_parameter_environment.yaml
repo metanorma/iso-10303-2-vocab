@@ -1,0 +1,30 @@
+data:
+  identifier: parameterization_schema.unbound_parameter_environment
+  localized_concepts:
+    eng: a1a1dfc5-ded9-5593-bd2b-c75a77dc7973
+  domains:
+    - concept_id: section-parameterization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+      ref_type: section
+id: parameterization_schema.unbound_parameter_environment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.environment,environment}} that represents the unbound parameter environment {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+          version: '4'
+      type: authoritative
+      id: parameterization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unbound_parameter_environment
+  domain: 'resource: parameterization_schema'
+  language_code: eng
+  annotations: []
+id: a1a1dfc5-ded9-5593-bd2b-c75a77dc7973

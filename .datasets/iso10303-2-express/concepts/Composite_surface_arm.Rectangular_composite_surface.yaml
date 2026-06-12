@@ -1,0 +1,31 @@
+data:
+  identifier: Composite_surface_arm.Rectangular_composite_surface
+  localized_concepts:
+    eng: 51e57f65-d5cd-5cd4-ba2d-35644afde181
+  domains:
+    - concept_id: section-Composite_surface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+      ref_type: section
+id: Composite_surface_arm.Rectangular_composite_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} that represents the rectangular composite surface {{entity}}'
+  notes:
+    - content: A **Rectangular_composite_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} composed of a rectangular array of **n_u** by **n_v** segments or patches.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+          version: '2'
+      type: authoritative
+      id: Composite_surface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Rectangular_composite_surface
+  domain: 'application module: Composite_surface_arm'
+  language_code: eng
+  annotations: []
+id: 51e57f65-d5cd-5cd4-ba2d-35644afde181

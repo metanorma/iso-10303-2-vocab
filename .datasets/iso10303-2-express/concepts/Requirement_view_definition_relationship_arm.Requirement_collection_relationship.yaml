@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_view_definition_relationship_arm.Requirement_collection_relationship
+  localized_concepts:
+    eng: d06e6a83-d7a0-50e2-873d-b8f646a5604c
+  domains:
+    - concept_id: section-Requirement_view_definition_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+      ref_type: section
+id: Requirement_view_definition_relationship_arm.Requirement_collection_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} that represents the requirement collection relationship {{entity}}'
+  notes:
+    - content: A **Requirement_collection_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} that is used to relate a parent (collection) requirement to its member requirements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+          version: '4'
+      type: authoritative
+      id: Requirement_view_definition_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Requirement_collection_relationship
+  domain: 'application module: Requirement_view_definition_relationship_arm'
+  language_code: eng
+  annotations: []
+id: d06e6a83-d7a0-50e2-873d-b8f646a5604c

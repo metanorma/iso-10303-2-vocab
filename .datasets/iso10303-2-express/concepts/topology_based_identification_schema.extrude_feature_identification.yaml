@@ -1,0 +1,31 @@
+data:
+  identifier: topology_based_identification_schema.extrude_feature_identification
+  localized_concepts:
+    eng: c7d5263e-3288-5391-a8cc-e1c34f781d35
+  domains:
+    - concept_id: section-topology_based_identification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+      ref_type: section
+id: topology_based_identification_schema.extrude_feature_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.profile_based_feature_identification,profile_based_feature_identification}} that represents the extrude feature identification {{entity}}'
+  notes:
+    - content: An **extrude_feature_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.profile_based_feature_identification,profile_based_feature_identification}} that specifies a face relating to an extrude feature such as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.extruded_face_solid,extruded_face_solid}} in ISO 10303-42, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_general_pocket,solid_with_general_pocket}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_general_protrusion,solid_with_general_protrusion}} in ISO 10303-111.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+          version: '1'
+      type: authoritative
+      id: topology_based_identification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: extrude_feature_identification
+  domain: 'resource: topology_based_identification_schema'
+  language_code: eng
+  annotations: []
+id: c7d5263e-3288-5391-a8cc-e1c34f781d35

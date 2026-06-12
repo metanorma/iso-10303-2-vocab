@@ -1,0 +1,31 @@
+data:
+  identifier: Drawing_definition_mim.draughting_specification_reference
+  localized_concepts:
+    eng: 5d473789-6dcb-5cb4-a19e-05bb585b2b7a
+  domains:
+    - concept_id: section-Drawing_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_mim
+      ref_type: section
+id: Drawing_definition_mim.draughting_specification_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.document_reference,document_reference}} that represents the draughting specification reference {{entity}}'
+  notes:
+    - content: A **draughting_specification_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.document_reference,document_reference}} that is the designation of an external draughting specification for a drawing revision.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_mim
+          version: '4'
+      type: authoritative
+      id: Drawing_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_specification_reference
+  domain: 'application module: Drawing_definition_mim'
+  language_code: eng
+  annotations: []
+id: 5d473789-6dcb-5cb4-a19e-05bb585b2b7a

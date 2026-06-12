@@ -1,0 +1,31 @@
+data:
+  identifier: Product_version_relationship_arm.Supplied_part_relationship
+  localized_concepts:
+    eng: a6484178-1567-5721-aad3-ab3e96e404d7
+  domains:
+    - concept_id: section-Product_version_relationship_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm
+      ref_type: section
+id: Product_version_relationship_arm.Supplied_part_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm.Product_version_relationship,Product_version_relationship}} that represents the supplied part relationship {{entity}}'
+  notes:
+    - content: A **Supplied_part_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm.Product_version_relationship,Product_version_relationship}} that relates two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represent the same object in different organizational contexts.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm
+          version: '2'
+      type: authoritative
+      id: Product_version_relationship_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Supplied_part_relationship
+  domain: 'application module: Product_version_relationship_arm'
+  language_code: eng
+  annotations: []
+id: a6484178-1567-5721-aad3-ab3e96e404d7

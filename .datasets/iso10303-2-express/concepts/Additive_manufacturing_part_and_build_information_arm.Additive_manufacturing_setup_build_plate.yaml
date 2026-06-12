@@ -1,0 +1,31 @@
+data:
+  identifier: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_setup_build_plate
+  localized_concepts:
+    eng: 283991e0-859a-5faf-929b-48a7f66d1c23
+  domains:
+    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+      ref_type: section
+id: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_setup_build_plate
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}} that represents the additive manufacturing setup build plate {{entity}}'
+  notes:
+    - content: An **Additive_manufacturing_setup_build_plate** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}} that specifies the usage of a build plate in the setup.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+          version: '2'
+      type: authoritative
+      id: Additive_manufacturing_part_and_build_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Additive_manufacturing_setup_build_plate
+  domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
+  language_code: eng
+  annotations: []
+id: 283991e0-859a-5faf-929b-48a7f66d1c23

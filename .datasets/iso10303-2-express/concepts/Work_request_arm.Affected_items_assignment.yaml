@@ -1,0 +1,31 @@
+data:
+  identifier: Work_request_arm.Affected_items_assignment
+  localized_concepts:
+    eng: da461e4d-f3e2-55f0-902f-1da3052ea88f
+  domains:
+    - concept_id: section-Work_request_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm
+      ref_type: section
+id: Work_request_arm.Affected_items_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the affected items assignment {{entity}}'
+  notes:
+    - content: An **Affected_items_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request,Work_request}} with the product or activity data that are subjects of this {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request,Work_request}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm
+          version: '3'
+      type: authoritative
+      id: Work_request_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Affected_items_assignment
+  domain: 'application module: Work_request_arm'
+  language_code: eng
+  annotations: []
+id: da461e4d-f3e2-55f0-902f-1da3052ea88f

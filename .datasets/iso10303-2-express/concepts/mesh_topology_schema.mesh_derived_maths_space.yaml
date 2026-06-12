@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.mesh_derived_maths_space
+  localized_concepts:
+    eng: 6bb9789e-b2d5-5151-a4f3-6f5a53da36af
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.mesh_derived_maths_space
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}} that represents the mesh derived maths space {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh_derived_maths_space,mesh_derived_maths_space}} associates data values and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mesh_derived_maths_space
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 6bb9789e-b2d5-5151-a4f3-6f5a53da36af

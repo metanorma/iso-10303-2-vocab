@@ -1,0 +1,31 @@
+data:
+  identifier: Associative_text_arm.Text_style
+  localized_concepts:
+    eng: 7ab78468-7351-5fe5-bfe1-b6c905c5b9ce
+  domains:
+    - concept_id: section-Associative_text_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+      ref_type: section
+id: Associative_text_arm.Text_style
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the text style {{entity}}'
+  notes:
+    - content: A **Text_style** is the definition of the visual presentation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm.Text_literal,Text_literal}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm.Composite_presentable_text,Composite_presentable_text}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_text,Annotation_text}}, or an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Annotation_text_character,Annotation_text_character}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+          version: '4'
+      type: authoritative
+      id: Associative_text_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Text_style
+  domain: 'application module: Associative_text_arm'
+  language_code: eng
+  annotations: []
+id: 7ab78468-7351-5fe5-bfe1-b6c905c5b9ce

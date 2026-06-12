@@ -1,0 +1,31 @@
+data:
+  identifier: action_schema.action_resource_type
+  localized_concepts:
+    eng: bdbed415-5230-5af0-bb4e-bc78e6030472
+  domains:
+    - concept_id: section-action_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+      ref_type: section
+id: action_schema.action_resource_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action resource type {{entity}}'
+  notes:
+    - content: An **action_resource_type** is the identification of the kind of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_resource,action_resource}} needed to carry out an action.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+          version: '9'
+      type: authoritative
+      id: action_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: action_resource_type
+  domain: 'resource: action_schema'
+  language_code: eng
+  annotations: []
+id: bdbed415-5230-5af0-bb4e-bc78e6030472

@@ -1,0 +1,31 @@
+data:
+  identifier: External_item_identification_assignment_mim.applied_external_identification_assignment
+  localized_concepts:
+    eng: 7ed21625-92dc-5a96-bf49-0209db6b0f68
+  domains:
+    - concept_id: section-External_item_identification_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_mim
+      ref_type: section
+id: External_item_identification_assignment_mim.applied_external_identification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.external_identification_assignment,external_identification_assignment}} that represents the applied external identification assignment {{entity}}'
+  notes:
+    - content: An **applied_external_identification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.external_identification_assignment,external_identification_assignment}} that assigns an external identifier and an external source to a set of {{external_identification_item,external_identification_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_mim
+          version: '2'
+      type: authoritative
+      id: External_item_identification_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_external_identification_assignment
+  domain: 'application module: External_item_identification_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 7ed21625-92dc-5a96-bf49-0209db6b0f68

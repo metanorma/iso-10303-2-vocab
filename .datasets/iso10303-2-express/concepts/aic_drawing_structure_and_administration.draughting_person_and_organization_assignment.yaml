@@ -1,0 +1,31 @@
+data:
+  identifier: aic_drawing_structure_and_administration.draughting_person_and_organization_assignment
+  localized_concepts:
+    eng: 8e596c94-d5c0-5ca1-b134-cc582f0ca453
+  domains:
+    - concept_id: section-aic_drawing_structure_and_administration
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+      ref_type: section
+id: aic_drawing_structure_and_administration.draughting_person_and_organization_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}} that represents the draughting person and organization assignment {{entity}}'
+  notes:
+    - content: A *draughting_person_and_organization_assignment* relates a *person_and_organization* to a *product_definition_formation*, a *drawing_revision*, or a *drawing_sheet_revision*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+          version: '1'
+      type: authoritative
+      id: aic_drawing_structure_and_administration
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_person_and_organization_assignment
+  domain: 'resource: aic_drawing_structure_and_administration'
+  language_code: eng
+  annotations: []
+id: 8e596c94-d5c0-5ca1-b134-cc582f0ca453

@@ -1,0 +1,31 @@
+data:
+  identifier: Activity_mim.applied_action_assignment
+  localized_concepts:
+    eng: ff16de25-98d7-5b38-a6fe-6f94419a3a76
+  domains:
+    - concept_id: section-Activity_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim
+      ref_type: section
+id: Activity_mim.applied_action_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that represents the applied action assignment {{entity}}'
+  notes:
+    - content: An **applied_action_assignment** is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} related to the data that are affected by the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim
+          version: '3'
+      type: authoritative
+      id: Activity_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_action_assignment
+  domain: 'application module: Activity_mim'
+  language_code: eng
+  annotations: []
+id: ff16de25-98d7-5b38-a6fe-6f94419a3a76

@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_quality_criteria_schema.data_quality_criterion
+  localized_concepts:
+    eng: d7c1a09c-cb5a-593b-b939-e1a37aeace6e
+  domains:
+    - concept_id: section-product_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+      ref_type: section
+id: product_data_quality_criteria_schema.data_quality_criterion
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the data quality criterion {{entity}}'
+  notes:
+    - content: A **data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents a criterion that is an aspect of a requirement on product data quality.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: product_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_quality_criterion
+  domain: 'resource: product_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: d7c1a09c-cb5a-593b-b939-e1a37aeace6e

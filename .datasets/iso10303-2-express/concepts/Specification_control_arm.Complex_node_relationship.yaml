@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_arm.Complex_node_relationship
+  localized_concepts:
+    eng: 865b40db-bb0e-5e40-a03c-857c8f48218e
+  domains:
+    - concept_id: section-Specification_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+      ref_type: section
+id: Specification_control_arm.Complex_node_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the complex node relationship {{entity}}'
+  notes:
+    - content: A **Complex_node_relationship** is a relationship between two instances of the same kind of entities listed in {{complex_product_select,complex_product_select}} type.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+          version: '5'
+      type: authoritative
+      id: Specification_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Complex_node_relationship
+  domain: 'application module: Specification_control_arm'
+  language_code: eng
+  annotations: []
+id: 865b40db-bb0e-5e40-a03c-857c8f48218e

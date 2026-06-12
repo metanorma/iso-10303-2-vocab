@@ -1,0 +1,31 @@
+data:
+  identifier: Attachment_slot_arm.Attachment_slot_design
+  localized_concepts:
+    eng: 26cd669c-0603-516e-81c3-30a9949f58dc
+  domains:
+    - concept_id: section-Attachment_slot_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+      ref_type: section
+id: Attachment_slot_arm.Attachment_slot_design
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot_version,Attachment_slot_version}} that represents the attachment slot design {{entity}}'
+  notes:
+    - content: An **Attachment_slot_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm.Attachment_slot_version,Attachment_slot_version}} that identifies the design version of an attachment slot.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_arm
+          version: '2'
+      type: authoritative
+      id: Attachment_slot_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Attachment_slot_design
+  domain: 'application module: Attachment_slot_arm'
+  language_code: eng
+  annotations: []
+id: 26cd669c-0603-516e-81c3-30a9949f58dc

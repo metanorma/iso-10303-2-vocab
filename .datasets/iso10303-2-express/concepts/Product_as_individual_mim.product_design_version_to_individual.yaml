@@ -1,0 +1,31 @@
+data:
+  identifier: Product_as_individual_mim.product_design_version_to_individual
+  localized_concepts:
+    eng: 1109af12-4f1d-5030-b233-d9cd3fc66600
+  domains:
+    - concept_id: section-Product_as_individual_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+      ref_type: section
+id: Product_as_individual_mim.product_design_version_to_individual
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the product design version to individual {{entity}}'
+  notes:
+    - content: A **product_design_version_to_individual** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that identifies a relationship between a version of a product design, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}, and the product that is planned to be made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim.product_as_planned,product_as_planned}}) or has been made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}) from the design.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+          version: '5'
+      type: authoritative
+      id: Product_as_individual_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_design_version_to_individual
+  domain: 'application module: Product_as_individual_mim'
+  language_code: eng
+  annotations: []
+id: 1109af12-4f1d-5030-b233-d9cd3fc66600

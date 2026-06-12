@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_physical_requirement_allocation_mim.electromagnetic_compatibility_requirement_allocation
+  localized_concepts:
+    eng: e63fc4af-4d7b-5a83-8790-29bdc3edb2be
+  domains:
+    - concept_id: section-Assembly_physical_requirement_allocation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_mim
+      ref_type: section
+id: Assembly_physical_requirement_allocation_mim.electromagnetic_compatibility_requirement_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that represents the electromagnetic compatibility requirement allocation {{entity}}'
+  notes:
+    - content: An **electromagnetic_compatibility_requirement_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Electromagnetic_compatibility_requirement_allocation,Electromagnetic_compatibility_requirement_allocation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_mim
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_requirement_allocation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: electromagnetic_compatibility_requirement_allocation
+  domain: 'application module: Assembly_physical_requirement_allocation_mim'
+  language_code: eng
+  annotations: []
+id: e63fc4af-4d7b-5a83-8790-29bdc3edb2be

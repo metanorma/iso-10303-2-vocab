@@ -1,0 +1,31 @@
+data:
+  identifier: Justification_mim.justification_item_group_assignment
+  localized_concepts:
+    eng: c660400b-0424-5537-9ef6-dfee4a43b9f5
+  domains:
+    - concept_id: section-Justification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+      ref_type: section
+id: Justification_mim.justification_item_group_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the justification item group assignment {{entity}}'
+  notes:
+    - content: A **justification_item_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies the assignment of a {{justification_item,justification_item}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.justification_assignment,justification_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+          version: '2'
+      type: authoritative
+      id: Justification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: justification_item_group_assignment
+  domain: 'application module: Justification_mim'
+  language_code: eng
+  annotations: []
+id: c660400b-0424-5537-9ef6-dfee4a43b9f5

@@ -1,0 +1,31 @@
+data:
+  identifier: Land_arm.Plated_passage_dependent_land
+  localized_concepts:
+    eng: 9c53bb07-584c-5518-8b26-d9736a70dc47
+  domains:
+    - concept_id: section-Land_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+      ref_type: section
+id: Land_arm.Plated_passage_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Inter_stratum_feature_dependent_land,Inter_stratum_feature_dependent_land}} that represents the plated passage dependent land {{entity}}'
+  notes:
+    - content: A **Plated_passage_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Inter_stratum_feature_dependent_land,Inter_stratum_feature_dependent_land}} whose shape is dependent only on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Plated_passage,Plated_passage}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+          version: '5'
+      type: authoritative
+      id: Land_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plated_passage_dependent_land
+  domain: 'application module: Land_arm'
+  language_code: eng
+  annotations: []
+id: 9c53bb07-584c-5518-8b26-d9736a70dc47

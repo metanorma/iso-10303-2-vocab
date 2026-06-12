@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_connectivity_definition_arm.Physical_connectivity_make_from_relationship
+  localized_concepts:
+    eng: c425bf5a-727a-53ef-a0a0-ba7a7ec42a5b
+  domains:
+    - concept_id: section-Physical_connectivity_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+      ref_type: section
+id: Physical_connectivity_definition_arm.Physical_connectivity_make_from_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity make from relationship {{entity}}'
+  notes:
+    - content: A **Physical_connectivity_make_from_relationship** is an association between one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition,Physical_connectivity_definition}} that is used as a basis for modification into another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition,Physical_connectivity_definition}} and the modified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition,Physical_connectivity_definition}} that results from the modification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+          version: '5'
+      type: authoritative
+      id: Physical_connectivity_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_connectivity_make_from_relationship
+  domain: 'application module: Physical_connectivity_definition_arm'
+  language_code: eng
+  annotations: []
+id: c425bf5a-727a-53ef-a0a0-ba7a7ec42a5b

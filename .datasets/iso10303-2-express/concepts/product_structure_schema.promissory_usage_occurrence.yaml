@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.promissory_usage_occurrence
+  localized_concepts:
+    eng: 818c8ad5-fa89-54d3-b624-ce32958093aa
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.promissory_usage_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} that represents the promissory usage occurrence {{entity}}'
+  notes:
+    - content: A **promissory_usage_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} in which the {{related_product_definition,related_product_definition}} is in the assembly tree of the {{relating_product_definition,relating_product_definition}} regardless of the number of intermediate levels between them.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: promissory_usage_occurrence
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: 818c8ad5-fa89-54d3-b624-ce32958093aa

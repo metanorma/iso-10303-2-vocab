@@ -1,0 +1,31 @@
+data:
+  identifier: Time_interval_assignment_arm.Time_interval_assignment
+  localized_concepts:
+    eng: f04fd231-c615-57ad-807d-ec44b59c6fac
+  domains:
+    - concept_id: section-Time_interval_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_arm
+      ref_type: section
+id: Time_interval_assignment_arm.Time_interval_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the time interval assignment {{entity}}'
+  notes:
+    - content: A **Time_interval_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm.Time_interval,Time_interval}} with product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_assignment_arm
+          version: '1'
+      type: authoritative
+      id: Time_interval_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Time_interval_assignment
+  domain: 'application module: Time_interval_assignment_arm'
+  language_code: eng
+  annotations: []
+id: f04fd231-c615-57ad-807d-ec44b59c6fac

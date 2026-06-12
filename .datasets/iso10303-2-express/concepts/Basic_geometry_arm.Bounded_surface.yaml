@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Bounded_surface
+  localized_concepts:
+    eng: d684cc35-012c-5a5e-9fd2-650f214b06a5
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Bounded_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Surface,Surface}} that represents the bounded surface {{entity}}'
+  notes:
+    - content: A **Bounded_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Surface,Surface}} which has finite area and identifiable boundaries.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Bounded_surface
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: d684cc35-012c-5a5e-9fd2-650f214b06a5

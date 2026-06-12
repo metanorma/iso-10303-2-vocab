@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_context_schema.normalized_maths_space_context
+  localized_concepts:
+    eng: f105a4cf-aed0-5f31-ade8-fe2b4314770c
+  domains:
+    - concept_id: section-mathematical_context_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+      ref_type: section
+id: mathematical_context_schema.normalized_maths_space_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.defined_maths_space_context,defined_maths_space_context}} that represents the normalized maths space context {{entity}}'
+  notes:
+    - content: A **normalized_maths_space_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.defined_maths_space_context,defined_maths_space_context}} that is defined by a reference physical value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+          version: '1'
+      type: authoritative
+      id: mathematical_context_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: normalized_maths_space_context
+  domain: 'resource: mathematical_context_schema'
+  language_code: eng
+  annotations: []
+id: f105a4cf-aed0-5f31-ade8-fe2b4314770c

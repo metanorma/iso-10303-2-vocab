@@ -1,0 +1,31 @@
+data:
+  identifier: Colour_arm.Externally_defined_colour
+  localized_concepts:
+    eng: 93edee0f-ba99-556b-99f9-a68db47baa51
+  domains:
+    - concept_id: section-Colour_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+      ref_type: section
+id: Colour_arm.Externally_defined_colour
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}} that represents the externally defined colour {{entity}}'
+  notes:
+    - content: An **Externally_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}} that has its definition established and maintained by a source outside of ISO 10303.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+          version: '3'
+      type: authoritative
+      id: Colour_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_colour
+  domain: 'application module: Colour_arm'
+  language_code: eng
+  annotations: []
+id: 93edee0f-ba99-556b-99f9-a68db47baa51

@@ -1,0 +1,31 @@
+data:
+  identifier: Tessellated_geometry_arm.Tessellated_annotation
+  localized_concepts:
+    eng: 0445c4c2-e805-5fbd-b024-f9e36ba69c1c
+  domains:
+    - concept_id: section-Tessellated_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+      ref_type: section
+id: Tessellated_geometry_arm.Tessellated_annotation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} that represents the tessellated annotation {{entity}}'
+  notes:
+    - content: A **Tessellated_annotation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} where the annotation geometry is provided as an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+          version: '3'
+      type: authoritative
+      id: Tessellated_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Tessellated_annotation
+  domain: 'application module: Tessellated_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 0445c4c2-e805-5fbd-b024-f9e36ba69c1c

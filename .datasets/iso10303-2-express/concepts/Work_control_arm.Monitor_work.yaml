@@ -1,0 +1,31 @@
+data:
+  identifier: Work_control_arm.Monitor_work
+  localized_concepts:
+    eng: 573614fd-4682-50c0-9509-ced38601f952
+  domains:
+    - concept_id: section-Work_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+      ref_type: section
+id: Work_control_arm.Monitor_work
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that represents the monitor work {{entity}}'
+  notes:
+    - content: A **Monitor_work** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that is the monitoring of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+          version: '1'
+      type: authoritative
+      id: Work_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Monitor_work
+  domain: 'application module: Work_control_arm'
+  language_code: eng
+  annotations: []
+id: 573614fd-4682-50c0-9509-ced38601f952

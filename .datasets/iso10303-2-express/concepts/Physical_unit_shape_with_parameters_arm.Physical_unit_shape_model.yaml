@@ -1,0 +1,30 @@
+data:
+  identifier: Physical_unit_shape_with_parameters_arm.Physical_unit_shape_model
+  localized_concepts:
+    eng: 5b25b034-6c4a-5d60-91f1-865e085ea120
+  domains:
+    - concept_id: section-Physical_unit_shape_with_parameters_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_shape_with_parameters_arm
+      ref_type: section
+id: Physical_unit_shape_with_parameters_arm.Physical_unit_shape_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the physical unit shape model {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_shape_with_parameters_arm
+          version: '4'
+      type: authoritative
+      id: Physical_unit_shape_with_parameters_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_unit_shape_model
+  domain: 'application module: Physical_unit_shape_with_parameters_arm'
+  language_code: eng
+  annotations: []
+id: 5b25b034-6c4a-5d60-91f1-865e085ea120

@@ -1,0 +1,31 @@
+data:
+  identifier: Land_arm.Unsupported_passage_dependent_land
+  localized_concepts:
+    eng: b7da72a4-07b1-5773-8b94-a3975f0b75d9
+  domains:
+    - concept_id: section-Land_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+      ref_type: section
+id: Land_arm.Unsupported_passage_dependent_land
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Inter_stratum_feature_dependent_land,Inter_stratum_feature_dependent_land}} that represents the unsupported passage dependent land {{entity}}'
+  notes:
+    - content: An **Unsupported_passage_dependent_land** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Inter_stratum_feature_dependent_land,Inter_stratum_feature_dependent_land}} whose shape is dependent upon the shape of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Unsupported_passage,Unsupported_passage}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+          version: '5'
+      type: authoritative
+      id: Land_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Unsupported_passage_dependent_land
+  domain: 'application module: Land_arm'
+  language_code: eng
+  annotations: []
+id: b7da72a4-07b1-5773-8b94-a3975f0b75d9

@@ -1,0 +1,35 @@
+data:
+  identifier: Physical_connectivity_definition_mim.physical_connectivity_definition
+  localized_concepts:
+    eng: bfab4687-270c-5748-891c-c714fa936e26
+  domains:
+    - concept_id: section-Physical_connectivity_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+      ref_type: section
+id: Physical_connectivity_definition_mim.physical_connectivity_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the physical connectivity definition {{entity}}'
+  notes:
+    - content: |-
+        A **physical_connectivity_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition,Physical_connectivity_definition}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_structure_definition,Physical_connectivity_structure_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+          version: '5'
+      type: authoritative
+      id: Physical_connectivity_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_connectivity_definition
+  domain: 'application module: Physical_connectivity_definition_mim'
+  language_code: eng
+  annotations: []
+id: bfab4687-270c-5748-891c-c714fa936e26

@@ -1,0 +1,31 @@
+data:
+  identifier: Organization_structure_mim.os_characterizable_person_and_organization
+  localized_concepts:
+    eng: 78f5d268-488a-5fab-85dd-faae23aa6616
+  domains:
+    - concept_id: section-Organization_structure_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
+      ref_type: section
+id: Organization_structure_mim.os_characterizable_person_and_organization
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the os characterizable person and organization {{entity}}'
+  notes:
+    - content: A **os_characterizable_person_and_organization** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
+          version: '2'
+      type: authoritative
+      id: Organization_structure_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: os_characterizable_person_and_organization
+  domain: 'application module: Organization_structure_mim'
+  language_code: eng
+  annotations: []
+id: 78f5d268-488a-5fab-85dd-faae23aa6616

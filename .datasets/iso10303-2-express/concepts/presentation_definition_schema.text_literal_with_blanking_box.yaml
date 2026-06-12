@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_definition_schema.text_literal_with_blanking_box
+  localized_concepts:
+    eng: f366beea-f859-5c64-ba9a-b160c0a22f9d
+  domains:
+    - concept_id: section-presentation_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+      ref_type: section
+id: presentation_definition_schema.text_literal_with_blanking_box
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.text_literal,text_literal}} that represents the text literal with blanking box {{entity}}'
+  notes:
+    - content: A **text_literal_with_blanking_box** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.text_literal,text_literal}} that contains a blanking box.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+          version: '8'
+      type: authoritative
+      id: presentation_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: text_literal_with_blanking_box
+  domain: 'resource: presentation_definition_schema'
+  language_code: eng
+  annotations: []
+id: f366beea-f859-5c64-ba9a-b160c0a22f9d

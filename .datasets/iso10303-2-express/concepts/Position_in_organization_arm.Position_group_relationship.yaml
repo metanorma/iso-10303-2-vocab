@@ -1,0 +1,31 @@
+data:
+  identifier: Position_in_organization_arm.Position_group_relationship
+  localized_concepts:
+    eng: 079e2866-5acc-5c44-baa7-f74ad8bf10c4
+  domains:
+    - concept_id: section-Position_in_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+      ref_type: section
+id: Position_in_organization_arm.Position_group_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position group relationship {{entity}}'
+  notes:
+    - content: A **Position_group_relationship** is a relationship that specifies the participation of a position in a group.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+          version: '1'
+      type: authoritative
+      id: Position_in_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Position_group_relationship
+  domain: 'application module: Position_in_organization_arm'
+  language_code: eng
+  annotations: []
+id: 079e2866-5acc-5c44-baa7-f74ad8bf10c4

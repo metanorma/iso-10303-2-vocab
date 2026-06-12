@@ -1,0 +1,30 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.overconstrained
+  localized_concepts:
+    eng: 78b4cd08-f9c7-52f9-a834-5177d1d23555
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 35ec6e59-d1fc-590e-9646-03c072af58ef
+schema_version: v3
+---
+data:
+  definition:
+  - content: defined in terms of more constraints than are needed to determine a constraint
+      solution
+  notes:
+  - content: In an overconstrained model, one or more of the constraints will be either
+      redundant (i.e. consistent with all the others but not further limiting possible
+      solutions) or inconsistent (i.e. not compatible with the others). An inconsistent
+      constraint system has no solution. A designer may intentionally create redundant
+      constraints in a model, but then care is necessary when editing the model to
+      avoid introducing inconsistency.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: overconstrained
+  language_code: eng
+  annotations: []
+id: 78b4cd08-f9c7-52f9-a834-5177d1d23555

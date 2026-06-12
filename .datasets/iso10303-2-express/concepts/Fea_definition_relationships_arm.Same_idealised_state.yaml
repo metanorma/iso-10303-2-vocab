@@ -1,0 +1,31 @@
+data:
+  identifier: Fea_definition_relationships_arm.Same_idealised_state
+  localized_concepts:
+    eng: 763ec897-26ac-5090-a3c5-3230ca464f08
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Same_idealised_state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same idealised state {{entity}}'
+  notes:
+    - content: A **Same_idealised_state** is a relationship is between records of an idealisation of state for analysis, and that states they each have the same meaning.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Same_idealised_state
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 763ec897-26ac-5090-a3c5-3230ca464f08

@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_mim.digital_analytical_model_vector_port
+  localized_concepts:
+    eng: b01bd775-d794-5e5a-9fd9-7945b6cd488e
+  domains:
+    - concept_id: section-Analytical_model_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+      ref_type: section
+id: Analytical_model_mim.digital_analytical_model_vector_port
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_vector_port,analytical_model_vector_port}} that represents the digital analytical model vector port {{entity}}'
+  notes:
+    - content: A **digital_analytical_model_vector_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_vector_port,analytical_model_vector_port}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Digital_analytical_model_vector_port,Digital_analytical_model_vector_port}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+          version: '5'
+      type: authoritative
+      id: Analytical_model_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: digital_analytical_model_vector_port
+  domain: 'application module: Analytical_model_mim'
+  language_code: eng
+  annotations: []
+id: b01bd775-d794-5e5a-9fd9-7945b6cd488e

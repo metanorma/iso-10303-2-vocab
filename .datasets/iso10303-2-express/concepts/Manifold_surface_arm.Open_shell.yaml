@@ -1,0 +1,31 @@
+data:
+  identifier: Manifold_surface_arm.Open_shell
+  localized_concepts:
+    eng: 9e39cb60-ce1d-5e21-bab6-7609d0dfbe92
+  domains:
+    - concept_id: section-Manifold_surface_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm
+      ref_type: section
+id: Manifold_surface_arm.Open_shell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}} that represents the open shell {{entity}}'
+  notes:
+    - content: An **Open_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}} that is a shell defined by a collection of faces and containing at least one hole.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_surface_arm
+          version: '6'
+      type: authoritative
+      id: Manifold_surface_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Open_shell
+  domain: 'application module: Manifold_surface_arm'
+  language_code: eng
+  annotations: []
+id: 9e39cb60-ce1d-5e21-bab6-7609d0dfbe92

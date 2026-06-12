@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_mim.satisfying_item
+  localized_concepts:
+    eng: bac79c74-2931-53c6-8edf-3a73fc0507f5
+  domains:
+    - concept_id: section-Requirement_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+      ref_type: section
+id: Requirement_assignment_mim.satisfying_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the satisfying item {{entity}}'
+  notes:
+    - content: A **satisfying_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies a relationship between a satisfies requirement and the the object which satisfies the requirement.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: satisfying_item
+  domain: 'application module: Requirement_assignment_mim'
+  language_code: eng
+  annotations: []
+id: bac79c74-2931-53c6-8edf-3a73fc0507f5

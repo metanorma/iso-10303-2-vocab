@@ -1,0 +1,31 @@
+data:
+  identifier: Compound_shape_representation_mim.compound_shape_representation
+  localized_concepts:
+    eng: 0530f605-ef41-561a-96d5-126cae70216a
+  domains:
+    - concept_id: section-Compound_shape_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_mim
+      ref_type: section
+id: Compound_shape_representation_mim.compound_shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the compound shape representation {{entity}}'
+  notes:
+    - content: A **compound_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm.Compound_shape_representation,Compound_shape_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_mim
+          version: '2'
+      type: authoritative
+      id: Compound_shape_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: compound_shape_representation
+  domain: 'application module: Compound_shape_representation_mim'
+  language_code: eng
+  annotations: []
+id: 0530f605-ef41-561a-96d5-126cae70216a

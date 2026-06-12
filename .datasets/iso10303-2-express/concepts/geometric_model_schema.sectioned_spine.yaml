@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.sectioned_spine
+  localized_concepts:
+    eng: c1644b7f-d6b4-5ebb-9fe8-1fdcc3dc5299
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.sectioned_spine
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_curve_set,geometric_curve_set}} that represents the sectioned spine {{entity}}'
+  notes:
+    - content: An **sectioned_spine** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_curve_set,geometric_curve_set}} which is a representation of the shape of a three dimensional object composed of a spine curve and a number of planar **cross_sections**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: sectioned_spine
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: c1644b7f-d6b4-5ebb-9fe8-1fdcc3dc5299

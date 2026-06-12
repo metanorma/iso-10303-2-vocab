@@ -1,0 +1,31 @@
+data:
+  identifier: Pre_defined_product_data_management_specializations_arm.Pre_defined_work_request_status
+  localized_concepts:
+    eng: f92e7be7-e536-5651-b851-e9936af390e9
+  domains:
+    - concept_id: section-Pre_defined_product_data_management_specializations_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+      ref_type: section
+id: Pre_defined_product_data_management_specializations_arm.Pre_defined_work_request_status
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request_status,Work_request_status}} that represents the pre defined work request status {{entity}}'
+  notes:
+    - content: A **Pre_defined_work_request_status** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.Work_request_status,Work_request_status}} whose meaning is defined by one of the {{Pre_defined_work_request_status_types,Pre_defined_work_request_status_types}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+          version: '4'
+      type: authoritative
+      id: Pre_defined_product_data_management_specializations_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Pre_defined_work_request_status
+  domain: 'application module: Pre_defined_product_data_management_specializations_arm'
+  language_code: eng
+  annotations: []
+id: f92e7be7-e536-5651-b851-e9936af390e9

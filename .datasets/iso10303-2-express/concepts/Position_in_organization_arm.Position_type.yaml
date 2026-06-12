@@ -1,0 +1,31 @@
+data:
+  identifier: Position_in_organization_arm.Position_type
+  localized_concepts:
+    eng: 61b95ee5-edea-54f7-9ac9-636623a9f580
+  domains:
+    - concept_id: section-Position_in_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+      ref_type: section
+id: Position_in_organization_arm.Position_type
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position type {{entity}}'
+  notes:
+    - content: A **Position_type** is a recognized kind of position.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+          version: '1'
+      type: authoritative
+      id: Position_in_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Position_type
+  domain: 'application module: Position_in_organization_arm'
+  language_code: eng
+  annotations: []
+id: 61b95ee5-edea-54f7-9ac9-636623a9f580

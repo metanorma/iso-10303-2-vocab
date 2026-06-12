@@ -1,0 +1,37 @@
+data:
+  identifier: Set_theory_arm.Power_set
+  localized_concepts:
+    eng: 13af77fa-2b66-5708-be52-d7d40d9b1ef1
+  domains:
+    - concept_id: section-Set_theory_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+      ref_type: section
+id: Set_theory_arm.Power_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the power set {{entity}}'
+  notes:
+    - content: |-
+        A **Power_set** is a relationship that is between:
+
+        * set stem:[S]; and
+        * set stem:[S^**],
+
+        that indicates stem:[S^**] is the set of all subsets of S.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+          version: '1'
+      type: authoritative
+      id: Set_theory_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Power_set
+  domain: 'application module: Set_theory_arm'
+  language_code: eng
+  annotations: []
+id: 13af77fa-2b66-5708-be52-d7d40d9b1ef1

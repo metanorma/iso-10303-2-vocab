@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.cell_of_structured_mesh
+  localized_concepts:
+    eng: 47063711-40da-5e9d-b331-89bf751c61b1
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.cell_of_structured_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.cell,cell}} that represents the cell of structured mesh {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.cell_of_structured_mesh,cell_of_structured_mesh}} is an identified cell of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.structured_mesh,structured_mesh}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cell_of_structured_mesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: 47063711-40da-5e9d-b331-89bf751c61b1

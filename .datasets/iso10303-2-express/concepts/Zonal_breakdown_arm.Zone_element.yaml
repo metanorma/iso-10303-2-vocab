@@ -1,0 +1,31 @@
+data:
+  identifier: Zonal_breakdown_arm.Zone_element
+  localized_concepts:
+    eng: 17394e8c-6c1d-5662-82d8-cc93ed81ae47
+  domains:
+    - concept_id: section-Zonal_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+      ref_type: section
+id: Zonal_breakdown_arm.Zone_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}} that represents the zone element {{entity}}'
+  notes:
+    - content: A **Zone_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}} that identifies the elements in one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm.Zone_breakdown,Zone_breakdown}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: Zonal_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Zone_element
+  domain: 'application module: Zonal_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 17394e8c-6c1d-5662-82d8-cc93ed81ae47

@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_interconnect_component_mim.routed_physical_component
+  localized_concepts:
+    eng: b108cbb0-7051-572e-965d-03e8763112b3
+  domains:
+    - concept_id: section-Assembly_module_with_interconnect_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+      ref_type: section
+id: Assembly_module_with_interconnect_component_mim.routed_physical_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the routed physical component {{entity}}'
+  notes:
+    - content: A **routed_physical_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.item_identified_representation_usage,item_identified_representation_usage}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Routed_physical_component,Routed_physical_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_module_with_interconnect_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: routed_physical_component
+  domain: 'application module: Assembly_module_with_interconnect_component_mim'
+  language_code: eng
+  annotations: []
+id: b108cbb0-7051-572e-965d-03e8763112b3

@@ -1,0 +1,31 @@
+data:
+  identifier: Package_arm.Wire_terminal_template_definition
+  localized_concepts:
+    eng: e7698a59-3c6f-5c3c-8172-c66936cf5c83
+  domains:
+    - concept_id: section-Package_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+      ref_type: section
+id: Package_arm.Wire_terminal_template_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal_template_definition,Package_terminal_template_definition}} that represents the wire terminal template definition {{entity}}'
+  notes:
+    - content: A **Wire_terminal_template_definition** is a type of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal_template_definition,Package_terminal_template_definition}} which {{feature_shape,feature_shape}} is inherently flexible and ready for installation to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}} without prior formal preparation by shape modification.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+          version: '7'
+      type: authoritative
+      id: Package_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Wire_terminal_template_definition
+  domain: 'application module: Package_arm'
+  language_code: eng
+  annotations: []
+id: e7698a59-3c6f-5c3c-8172-c66936cf5c83

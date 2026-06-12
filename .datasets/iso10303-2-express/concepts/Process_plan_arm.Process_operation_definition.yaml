@@ -1,0 +1,31 @@
+data:
+  identifier: Process_plan_arm.Process_operation_definition
+  localized_concepts:
+    eng: 704aad37-8e82-5daa-9b45-4c76fe26bd3e
+  domains:
+    - concept_id: section-Process_plan_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+      ref_type: section
+id: Process_plan_arm.Process_operation_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process operation definition {{entity}}'
+  notes:
+    - content: A **Process_operation_definition** is a specification of an activity that may be included in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_plan,Process_plan}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+          version: '4'
+      type: authoritative
+      id: Process_plan_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Process_operation_definition
+  domain: 'application module: Process_plan_arm'
+  language_code: eng
+  annotations: []
+id: 704aad37-8e82-5daa-9b45-4c76fe26bd3e

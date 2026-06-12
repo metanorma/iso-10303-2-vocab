@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Actuated_kinematic_pair
+  localized_concepts:
+    eng: 7946fd4c-f533-588b-b934-12e8baae82e0
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Actuated_kinematic_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} that represents the actuated kinematic pair {{entity}}'
+  notes:
+    - content: An **Actuated_kinematic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} that is actuated in one or more degrees of freedom.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Actuated_kinematic_pair
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: 7946fd4c-f533-588b-b934-12e8baae82e0

@@ -1,0 +1,31 @@
+data:
+  identifier: Property_assignment_arm.Applied_independent_property_relationship
+  localized_concepts:
+    eng: ad4be53a-a9ea-538e-9b3e-9d7d881d6164
+  domains:
+    - concept_id: section-Property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+      ref_type: section
+id: Property_assignment_arm.Applied_independent_property_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the applied independent property relationship {{entity}}'
+  notes:
+    - content: An **Applied_independent_property_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Applied_independent_property,Applied_independent_property}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+          version: '4'
+      type: authoritative
+      id: Property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Applied_independent_property_relationship
+  domain: 'application module: Property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: ad4be53a-a9ea-538e-9b3e-9d7d881d6164

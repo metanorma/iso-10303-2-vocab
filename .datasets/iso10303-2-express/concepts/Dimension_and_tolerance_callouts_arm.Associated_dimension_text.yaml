@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_and_tolerance_callouts_arm.Associated_dimension_text
+  localized_concepts:
+    eng: fa4ea715-217e-5c2e-9907-39595550b160
+  domains:
+    - concept_id: section-Dimension_and_tolerance_callouts_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
+      ref_type: section
+id: Dimension_and_tolerance_callouts_arm.Associated_dimension_text
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Dimension_text,Dimension_text}} that represents the associated dimension text {{entity}}'
+  notes:
+    - content: An **Associated_dimension_text** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Dimension_text,Dimension_text}} that relates graphical text presentation to a dimension tolerance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
+          version: '5'
+      type: authoritative
+      id: Dimension_and_tolerance_callouts_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Associated_dimension_text
+  domain: 'application module: Dimension_and_tolerance_callouts_arm'
+  language_code: eng
+  annotations: []
+id: fa4ea715-217e-5c2e-9907-39595550b160

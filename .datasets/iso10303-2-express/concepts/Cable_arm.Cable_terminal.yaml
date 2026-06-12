@@ -1,0 +1,30 @@
+data:
+  identifier: Cable_arm.Cable_terminal
+  localized_concepts:
+    eng: b0c75e91-0e61-5e4b-9919-14c527a79028
+  domains:
+    - concept_id: section-Cable_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_arm
+      ref_type: section
+id: Cable_arm.Cable_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} that represents the cable terminal {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_arm
+          version: '4'
+      type: authoritative
+      id: Cable_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cable_terminal
+  domain: 'application module: Cable_arm'
+  language_code: eng
+  annotations: []
+id: b0c75e91-0e61-5e4b-9919-14c527a79028

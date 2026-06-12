@@ -1,0 +1,31 @@
+data:
+  identifier: Approval_arm.Approval_relationship
+  localized_concepts:
+    eng: f2c1aa6a-9b14-5e72-a56b-ee2e957c7d85
+  domains:
+    - concept_id: section-Approval_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+      ref_type: section
+id: Approval_arm.Approval_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval relationship {{entity}}'
+  notes:
+    - content: An **Approval_relationship** is a typed association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm.Approval,Approval}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+          version: '5'
+      type: authoritative
+      id: Approval_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Approval_relationship
+  domain: 'application module: Approval_arm'
+  language_code: eng
+  annotations: []
+id: f2c1aa6a-9b14-5e72-a56b-ee2e957c7d85

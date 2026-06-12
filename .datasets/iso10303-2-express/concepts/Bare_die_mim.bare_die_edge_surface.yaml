@@ -1,0 +1,31 @@
+data:
+  identifier: Bare_die_mim.bare_die_edge_surface
+  localized_concepts:
+    eng: 15c0e5f6-b6c1-5742-a701-bd0d82291357
+  domains:
+    - concept_id: section-Bare_die_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+      ref_type: section
+id: Bare_die_mim.bare_die_edge_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim.bare_die_surface,bare_die_surface}} that represents the bare die edge surface {{entity}}'
+  notes:
+    - content: A **bare_die_edge_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim.bare_die_surface,bare_die_surface}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die_edge_surface,Bare_die_edge_surface}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_mim
+          version: '5'
+      type: authoritative
+      id: Bare_die_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: bare_die_edge_surface
+  domain: 'application module: Bare_die_mim'
+  language_code: eng
+  annotations: []
+id: 15c0e5f6-b6c1-5742-a701-bd0d82291357

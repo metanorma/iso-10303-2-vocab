@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.unstructured_mesh
+  localized_concepts:
+    eng: ec3a116f-e989-59f7-ae38-9760810c9ee1
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.unstructured_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} that represents the unstructured mesh {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.unstructured_mesh,unstructured_mesh}} is composed of cells, where the cells do not form a regular pattern and the shape of the cells is not uniform throughout the mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: unstructured_mesh
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: ec3a116f-e989-59f7-ae38-9760810c9ee1

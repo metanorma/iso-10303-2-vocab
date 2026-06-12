@@ -1,0 +1,31 @@
+data:
+  identifier: Behaviour_identification_and_version_arm.Behaviour_version
+  localized_concepts:
+    eng: 47990f24-828f-5939-9107-551f2934a2dd
+  domains:
+    - concept_id: section-Behaviour_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_identification_and_version_arm
+      ref_type: section
+id: Behaviour_identification_and_version_arm.Behaviour_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the behaviour version {{entity}}'
+  notes:
+    - content: A **Behaviour_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a version of a behaviour.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Behaviour_identification_and_version_arm
+          version: '1'
+      type: authoritative
+      id: Behaviour_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Behaviour_version
+  domain: 'application module: Behaviour_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 47990f24-828f-5939-9107-551f2934a2dd

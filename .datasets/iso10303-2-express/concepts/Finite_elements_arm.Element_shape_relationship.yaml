@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_elements_arm.Element_shape_relationship
+  localized_concepts:
+    eng: 16cc9762-1e87-5f30-9bd4-cdd44490946c
+  domains:
+    - concept_id: section-Finite_elements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+      ref_type: section
+id: Finite_elements_arm.Element_shape_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element shape relationship {{entity}}'
+  notes:
+    - content: An **Element_shape_relationship** is the association of an aspect of a finite element (an edge, face, or volume) to a corresponding type of geometry.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+          version: '2'
+      type: authoritative
+      id: Finite_elements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Element_shape_relationship
+  domain: 'application module: Finite_elements_arm'
+  language_code: eng
+  annotations: []
+id: 16cc9762-1e87-5f30-9bd4-cdd44490946c

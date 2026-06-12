@@ -1,0 +1,31 @@
+data:
+  identifier: location_schema.location
+  localized_concepts:
+    eng: ad183ae1-7275-5b39-a67d-ee0a789f2328
+  domains:
+    - concept_id: section-location_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema
+      ref_type: section
+id: location_schema.location
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location {{entity}}'
+  notes:
+    - content: A **location** is a place or position in space at which something can take place or exist.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema
+          version: '4'
+      type: authoritative
+      id: location_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: location
+  domain: 'resource: location_schema'
+  language_code: eng
+  annotations: []
+id: ad183ae1-7275-5b39-a67d-ee0a789f2328

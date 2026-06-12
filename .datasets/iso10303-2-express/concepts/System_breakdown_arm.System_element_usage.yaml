@@ -1,0 +1,31 @@
+data:
+  identifier: System_breakdown_arm.System_element_usage
+  localized_concepts:
+    eng: 0955a4f1-5bd1-53c7-a50d-300a15b9cc02
+  domains:
+    - concept_id: section-System_breakdown_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+      ref_type: section
+id: System_breakdown_arm.System_element_usage
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} that represents the system element usage {{entity}}'
+  notes:
+    - content: A **System_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} that is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element_definition,System_element_definition}} and another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element_definition,System_element_definition}} that is a constituent.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+          version: '1'
+      type: authoritative
+      id: System_breakdown_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: System_element_usage
+  domain: 'application module: System_breakdown_arm'
+  language_code: eng
+  annotations: []
+id: 0955a4f1-5bd1-53c7-a50d-300a15b9cc02

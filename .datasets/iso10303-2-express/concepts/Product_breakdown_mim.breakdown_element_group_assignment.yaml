@@ -1,0 +1,31 @@
+data:
+  identifier: Product_breakdown_mim.breakdown_element_group_assignment
+  localized_concepts:
+    eng: 97b1285e-7daf-50e0-ae50-a52f64e0a72e
+  domains:
+    - concept_id: section-Product_breakdown_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+      ref_type: section
+id: Product_breakdown_mim.breakdown_element_group_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the breakdown element group assignment {{entity}}'
+  notes:
+    - content: A **breakdown_element_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+          version: '4'
+      type: authoritative
+      id: Product_breakdown_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: breakdown_element_group_assignment
+  domain: 'application module: Product_breakdown_mim'
+  language_code: eng
+  annotations: []
+id: 97b1285e-7daf-50e0-ae50-a52f64e0a72e

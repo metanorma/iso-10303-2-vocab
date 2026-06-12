@@ -1,0 +1,31 @@
+data:
+  identifier: Currency_mim.currency_measure_with_unit
+  localized_concepts:
+    eng: ec8ff5ff-1ee5-5752-a620-ef77566eca32
+  domains:
+    - concept_id: section-Currency_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_mim
+      ref_type: section
+id: Currency_mim.currency_measure_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that represents the currency measure with unit {{entity}}'
+  notes:
+    - content: A **currency_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm.Currency_value,Currency_value}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_mim
+          version: '1'
+      type: authoritative
+      id: Currency_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: currency_measure_with_unit
+  domain: 'application module: Currency_mim'
+  language_code: eng
+  annotations: []
+id: ec8ff5ff-1ee5-5752-a620-ef77566eca32

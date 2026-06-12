@@ -1,0 +1,31 @@
+data:
+  identifier: Physical_unit_usage_view_arm.Part_feature
+  localized_concepts:
+    eng: d7210e20-b77b-5689-bd32-7beec63588af
+  domains:
+    - concept_id: section-Physical_unit_usage_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm
+      ref_type: section
+id: Physical_unit_usage_view_arm.Part_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that represents the part feature {{entity}}'
+  notes:
+    - content: A **Part_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that is in the context of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_usage_view,Part_usage_view}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm
+          version: '6'
+      type: authoritative
+      id: Physical_unit_usage_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_feature
+  domain: 'application module: Physical_unit_usage_view_arm'
+  language_code: eng
+  annotations: []
+id: d7210e20-b77b-5689-bd32-7beec63588af

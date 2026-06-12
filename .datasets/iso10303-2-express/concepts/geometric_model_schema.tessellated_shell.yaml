@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.tessellated_shell
+  localized_concepts:
+    eng: 9c44b39e-f8f2-5094-9e72-1b8b78673938
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.tessellated_shell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_item,tessellated_item}} that represents the tessellated shell {{entity}}'
+  notes:
+    - content: A **tessellated_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_item,tessellated_item}} that is a tessellated representation of a shell.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_shell
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 9c44b39e-f8f2-5094-9e72-1b8b78673938

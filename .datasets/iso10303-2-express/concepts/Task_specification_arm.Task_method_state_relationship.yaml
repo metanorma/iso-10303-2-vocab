@@ -1,0 +1,31 @@
+data:
+  identifier: Task_specification_arm.Task_method_state_relationship
+  localized_concepts:
+    eng: 53c629f6-24fe-5c52-a095-3850fd235ed5
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Task_method_state_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the task method state relationship {{entity}}'
+  notes:
+    - content: A **Task_method_state_relationship** is a relationship between a state and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm.Task_method,Task_method}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Task_method_state_relationship
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 53c629f6-24fe-5c52-a095-3850fd235ed5

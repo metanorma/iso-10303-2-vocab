@@ -1,0 +1,31 @@
+data:
+  identifier: Constructive_solid_geometry_2d_arm.Csg_2d_model
+  localized_concepts:
+    eng: c29dcfc3-738c-5e39-8a9e-d08429d2322a
+  domains:
+    - concept_id: section-Constructive_solid_geometry_2d_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+      ref_type: section
+id: Constructive_solid_geometry_2d_arm.Csg_2d_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the csg 2d model {{entity}}'
+  notes:
+    - content: A **Csg_2d_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} defined by a collection of solid models, each of which can be composed of two or more primitive solids combined using regularised Boolean operations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+          version: '6'
+      type: authoritative
+      id: Constructive_solid_geometry_2d_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Csg_2d_model
+  domain: 'application module: Constructive_solid_geometry_2d_arm'
+  language_code: eng
+  annotations: []
+id: c29dcfc3-738c-5e39-8a9e-d08429d2322a

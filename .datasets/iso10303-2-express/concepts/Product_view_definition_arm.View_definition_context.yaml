@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_arm.View_definition_context
+  localized_concepts:
+    eng: 46616540-db76-56eb-8ebc-d829ec9d9355
+  domains:
+    - concept_id: section-Product_view_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+      ref_type: section
+id: Product_view_definition_arm.View_definition_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the view definition context {{entity}}'
+  notes:
+    - content: A **View_definition_context** is the grouping of an application domain and a life-cycle stage.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+          version: '5'
+      type: authoritative
+      id: Product_view_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: View_definition_context
+  domain: 'application module: Product_view_definition_arm'
+  language_code: eng
+  annotations: []
+id: 46616540-db76-56eb-8ebc-d829ec9d9355

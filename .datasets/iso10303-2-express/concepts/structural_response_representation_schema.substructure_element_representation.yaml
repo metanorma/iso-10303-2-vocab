@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.substructure_element_representation
+  localized_concepts:
+    eng: df595766-e5a9-5571-8870-c8b4f7c4c706
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.substructure_element_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_representation,element_representation}} that represents the substructure element representation {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.substructure_element_representation,substructure_element_representation}} is a model that may have reduced degrees of freedom and is assembled into another model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: substructure_element_representation
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: df595766-e5a9-5571-8870-c8b4f7c4c706

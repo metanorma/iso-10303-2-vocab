@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.oriented_edge
+  localized_concepts:
+    eng: b14cff04-351d-5053-b93b-04bf57f56778
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.oriented_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} that represents the oriented edge {{entity}}'
+  notes:
+    - content: An **oriented_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}, constructed from another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} and contains a BOOLEAN orientation flag to indicate whether or not the orientation of the constructed {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} agrees with the orientation of the original {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: oriented_edge
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: b14cff04-351d-5053-b93b-04bf57f56778

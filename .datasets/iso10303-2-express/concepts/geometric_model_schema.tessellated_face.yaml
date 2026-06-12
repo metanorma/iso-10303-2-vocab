@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.tessellated_face
+  localized_concepts:
+    eng: deb59108-d486-537d-a342-eb0bbd9c75f8
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.tessellated_face
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_structured_item,tessellated_structured_item}} that represents the tessellated face {{entity}}'
+  notes:
+    - content: A **tessellated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_structured_item,tessellated_structured_item}} that represents a face of a tessellated model.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_face
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: deb59108-d486-537d-a342-eb0bbd9c75f8

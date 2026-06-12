@@ -1,0 +1,31 @@
+data:
+  identifier: Construction_geometry_mim.constructive_geometry_representation_relationship
+  localized_concepts:
+    eng: de379498-f117-5862-b294-6f9d65465950
+  domains:
+    - concept_id: section-Construction_geometry_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_mim
+      ref_type: section
+id: Construction_geometry_mim.constructive_geometry_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the constructive geometry representation relationship {{entity}}'
+  notes:
+    - content: A **constructive_geometry_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm.Constructive_geometry_association,Constructive_geometry_association}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_mim
+          version: '7'
+      type: authoritative
+      id: Construction_geometry_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: constructive_geometry_representation_relationship
+  domain: 'application module: Construction_geometry_mim'
+  language_code: eng
+  annotations: []
+id: de379498-f117-5862-b294-6f9d65465950

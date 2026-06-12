@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_functional_interface_requirement_mim.minimally_defined_connector
+  localized_concepts:
+    eng: 8a22bfc1-65b9-53df-a683-aec7982c2c5b
+  domains:
+    - concept_id: section-Assembly_functional_interface_requirement_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_functional_interface_requirement_mim
+      ref_type: section
+id: Assembly_functional_interface_requirement_mim.minimally_defined_connector
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim.packaged_part,packaged_part}} that represents the minimally defined connector {{entity}}'
+  notes:
+    - content: A **minimally_defined_connector** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim.packaged_part,packaged_part}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_functional_interface_requirement_arm.Minimally_defined_connector,Minimally_defined_connector}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_functional_interface_requirement_mim
+          version: '4'
+      type: authoritative
+      id: Assembly_functional_interface_requirement_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: minimally_defined_connector
+  domain: 'application module: Assembly_functional_interface_requirement_mim'
+  language_code: eng
+  annotations: []
+id: 8a22bfc1-65b9-53df-a683-aec7982c2c5b

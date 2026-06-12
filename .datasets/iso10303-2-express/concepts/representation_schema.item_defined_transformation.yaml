@@ -1,0 +1,31 @@
+data:
+  identifier: representation_schema.item_defined_transformation
+  localized_concepts:
+    eng: df49ed36-4ae2-5bd5-bea3-e7662639f4aa
+  domains:
+    - concept_id: section-representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+      ref_type: section
+id: representation_schema.item_defined_transformation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the item defined transformation {{entity}}'
+  notes:
+    - content: An **item_defined_transformation** has two interpretations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+          version: '8'
+      type: authoritative
+      id: representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: item_defined_transformation
+  domain: 'resource: representation_schema'
+  language_code: eng
+  annotations: []
+id: df49ed36-4ae2-5bd5-bea3-e7662639f4aa

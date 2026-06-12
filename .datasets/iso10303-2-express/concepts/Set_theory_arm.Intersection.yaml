@@ -1,0 +1,37 @@
+data:
+  identifier: Set_theory_arm.Intersection
+  localized_concepts:
+    eng: 410a65b9-1c22-59d8-8703-f9f53b690035
+  domains:
+    - concept_id: section-Set_theory_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+      ref_type: section
+id: Set_theory_arm.Intersection
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the intersection {{entity}}'
+  notes:
+    - content: |-
+        An **Intersection** is a relationship that is between:
+
+        * set R;
+        * and set of sets {stem:[S_i]},
+
+        that indicates set R consists of each thing that is a member of each set within {stem:[S_i]}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+          version: '1'
+      type: authoritative
+      id: Set_theory_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Intersection
+  domain: 'application module: Set_theory_arm'
+  language_code: eng
+  annotations: []
+id: 410a65b9-1c22-59d8-8703-f9f53b690035

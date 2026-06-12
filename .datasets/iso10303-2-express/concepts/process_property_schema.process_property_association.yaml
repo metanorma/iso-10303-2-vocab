@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_schema.process_property_association
+  localized_concepts:
+    eng: 7bf7a4bb-ec0a-57c3-af2d-3b349ddf6a2f
+  domains:
+    - concept_id: section-process_property_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+      ref_type: section
+id: process_property_schema.process_property_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process property association {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.process_property_association,process_property_association}} associates a specific {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.property_process,property_process}} to a given {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} or {{shape_definition,shape_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+          version: '1'
+      type: authoritative
+      id: process_property_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: process_property_association
+  domain: 'resource: process_property_schema'
+  language_code: eng
+  annotations: []
+id: 7bf7a4bb-ec0a-57c3-af2d-3b349ddf6a2f

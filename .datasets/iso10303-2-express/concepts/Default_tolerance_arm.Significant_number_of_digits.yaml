@@ -1,0 +1,31 @@
+data:
+  identifier: Default_tolerance_arm.Significant_number_of_digits
+  localized_concepts:
+    eng: 74b87f69-692a-5e0f-b032-474c7197e847
+  domains:
+    - concept_id: section-Default_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+      ref_type: section
+id: Default_tolerance_arm.Significant_number_of_digits
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the significant number of digits {{entity}}'
+  notes:
+    - content: A **Significant_number_of_digits** is an entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.Tolerance_table_cell,Tolerance_table_cell}} representing the range of applicability of a tolerance value by specifying the presented number of digits.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+          version: '3'
+      type: authoritative
+      id: Default_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Significant_number_of_digits
+  domain: 'application module: Default_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 74b87f69-692a-5e0f-b032-474c7197e847

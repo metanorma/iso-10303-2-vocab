@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Shape_inspection_result_representation_with_accuracy
+  localized_concepts:
+    eng: 9019845b-5270-5a14-a608-31da17a42fff
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Shape_inspection_result_representation_with_accuracy
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_result_representation,Shape_data_quality_inspection_result_representation}} that represents the shape inspection result representation with accuracy {{entity}}'
+  notes:
+    - content: A **Shape_inspection_result_representation_with_accuracy** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_result_representation,Shape_data_quality_inspection_result_representation}} and has the information of common accuracy applied to all the measurements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_inspection_result_representation_with_accuracy
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 9019845b-5270-5a14-a608-31da17a42fff

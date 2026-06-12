@@ -1,0 +1,31 @@
+data:
+  identifier: Characterized_representation_arm.Characterized_item_within_representation
+  localized_concepts:
+    eng: 78d30c42-4d1e-5848-9f3b-3c05003fde1d
+  domains:
+    - concept_id: section-Characterized_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
+      ref_type: section
+id: Characterized_representation_arm.Characterized_item_within_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} that represents the characterized item within representation {{entity}}'
+  notes:
+    - content: A **Characterized_item_within_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} for the characterization of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that is used within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
+          version: '1'
+      type: authoritative
+      id: Characterized_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Characterized_item_within_representation
+  domain: 'application module: Characterized_representation_arm'
+  language_code: eng
+  annotations: []
+id: 78d30c42-4d1e-5848-9f3b-3c05003fde1d

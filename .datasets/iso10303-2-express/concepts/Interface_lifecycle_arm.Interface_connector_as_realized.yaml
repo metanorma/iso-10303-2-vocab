@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_lifecycle_arm.Interface_connector_as_realized
+  localized_concepts:
+    eng: d41daa98-686b-586e-8425-ce655d1579f1
+  domains:
+    - concept_id: section-Interface_lifecycle_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+      ref_type: section
+id: Interface_lifecycle_arm.Interface_connector_as_realized
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_version,Interface_connector_version}} that represents the interface connector as realized {{entity}}'
+  notes:
+    - content: An **Interface_connector_as_realized** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_version,Interface_connector_version}} that identifies an individual that is a realized {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector,Interface_connector}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+          version: '1'
+      type: authoritative
+      id: Interface_lifecycle_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_connector_as_realized
+  domain: 'application module: Interface_lifecycle_arm'
+  language_code: eng
+  annotations: []
+id: d41daa98-686b-586e-8425-ce655d1579f1

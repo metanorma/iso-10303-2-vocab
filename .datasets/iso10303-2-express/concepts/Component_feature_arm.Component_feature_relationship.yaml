@@ -1,0 +1,30 @@
+data:
+  identifier: Component_feature_arm.Component_feature_relationship
+  localized_concepts:
+    eng: f85ef58c-7ec8-5b85-8b4c-089e7029c111
+  domains:
+    - concept_id: section-Component_feature_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+      ref_type: section
+id: Component_feature_arm.Component_feature_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the component feature relationship {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+          version: '5'
+      type: authoritative
+      id: Component_feature_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_feature_relationship
+  domain: 'application module: Component_feature_arm'
+  language_code: eng
+  annotations: []
+id: f85ef58c-7ec8-5b85-8b4c-089e7029c111

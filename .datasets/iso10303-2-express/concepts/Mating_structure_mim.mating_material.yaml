@@ -1,0 +1,31 @@
+data:
+  identifier: Mating_structure_mim.mating_material
+  localized_concepts:
+    eng: 4f6b7812-28ce-56ab-a5a0-e7f68c76256f
+  domains:
+    - concept_id: section-Mating_structure_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
+      ref_type: section
+id: Mating_structure_mim.mating_material
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mating material {{entity}}'
+  notes:
+    - content: A **mating_material** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that implement parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm.Mated_assembly_occurrence_relationship,Mated_assembly_occurrence_relationship}} for the attribute {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim.mating_material,mating_material}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
+          version: '4'
+      type: authoritative
+      id: Mating_structure_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mating_material
+  domain: 'application module: Mating_structure_mim'
+  language_code: eng
+  annotations: []
+id: 4f6b7812-28ce-56ab-a5a0-e7f68c76256f

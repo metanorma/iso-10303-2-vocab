@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.geometric_set_replica
+  localized_concepts:
+    eng: ff2fd668-de23-5aa7-9c52-97969c78262b
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.geometric_set_replica
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_set,geometric_set}} that represents the geometric set replica {{entity}}'
+  notes:
+    - content: An **geometric_set_replica** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_set,geometric_set}} which defines a replica of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_set,geometric_set}} in a different location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: geometric_set_replica
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: ff2fd668-de23-5aa7-9c52-97969c78262b

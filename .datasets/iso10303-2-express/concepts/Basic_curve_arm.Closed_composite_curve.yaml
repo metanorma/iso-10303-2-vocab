@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_curve_arm.Closed_composite_curve
+  localized_concepts:
+    eng: b25d2205-4bc4-56e1-8d1f-db50b99b1f00
+  domains:
+    - concept_id: section-Basic_curve_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm
+      ref_type: section
+id: Basic_curve_arm.Closed_composite_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Composite_curve,Composite_curve}} that represents the closed composite curve {{entity}}'
+  notes:
+    - content: A **Closed_composite_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Composite_curve,Composite_curve}} that is closed.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm
+          version: '5'
+      type: authoritative
+      id: Basic_curve_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Closed_composite_curve
+  domain: 'application module: Basic_curve_arm'
+  language_code: eng
+  annotations: []
+id: b25d2205-4bc4-56e1-8d1f-db50b99b1f00

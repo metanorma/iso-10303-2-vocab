@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_mim.tsdq_location_of_extreme_value
+  localized_concepts:
+    eng: 4cde340a-8c5e-5bb5-b920-d559de4c8b83
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+      ref_type: section
+id: Triangulated_shape_data_quality_mim.tsdq_location_of_extreme_value
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the tsdq location of extreme value {{entity}}'
+  notes:
+    - content: A **tsdq_location_of_extreme_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that is used in the function **tsdq_get_type_name_for_location_of_extreme_value**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tsdq_location_of_extreme_value
+  domain: 'application module: Triangulated_shape_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: 4cde340a-8c5e-5bb5-b920-d559de4c8b83

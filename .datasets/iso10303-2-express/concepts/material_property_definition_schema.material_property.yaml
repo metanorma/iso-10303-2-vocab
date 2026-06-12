@@ -1,0 +1,31 @@
+data:
+  identifier: material_property_definition_schema.material_property
+  localized_concepts:
+    eng: 3247894a-34eb-52df-9698-f176126bc591
+  domains:
+    - concept_id: section-material_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+      ref_type: section
+id: material_property_definition_schema.material_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the material property {{entity}}'
+  notes:
+    - content: A **material_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} which shall have conditions that determine its validity when it specifies a property of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}, or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+          version: '4'
+      type: authoritative
+      id: material_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: material_property
+  domain: 'resource: material_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 3247894a-34eb-52df-9698-f176126bc591

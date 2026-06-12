@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Boolean_result
+  localized_concepts:
+    eng: 013b92cf-efd5-583b-b8b1-07f38ee7e55e
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Boolean_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the boolean result {{entity}}'
+  notes:
+    - content: A **Boolean_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} which is the result of a regularised operation on two solids to create a new solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Boolean_result
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: 013b92cf-efd5-583b-b8b1-07f38ee7e55e

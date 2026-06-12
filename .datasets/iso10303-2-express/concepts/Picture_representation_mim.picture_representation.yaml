@@ -1,0 +1,31 @@
+data:
+  identifier: Picture_representation_mim.picture_representation
+  localized_concepts:
+    eng: 8a48a547-2a2c-50d0-b79a-c3b37ccd15e6
+  domains:
+    - concept_id: section-Picture_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
+      ref_type: section
+id: Picture_representation_mim.picture_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_view,presentation_view}} that represents the picture representation {{entity}}'
+  notes:
+    - content: A **picture_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_view,presentation_view}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm.Picture_representation,Picture_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
+          version: '2'
+      type: authoritative
+      id: Picture_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: picture_representation
+  domain: 'application module: Picture_representation_mim'
+  language_code: eng
+  annotations: []
+id: 8a48a547-2a2c-50d0-b79a-c3b37ccd15e6

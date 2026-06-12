@@ -1,0 +1,31 @@
+data:
+  identifier: Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal
+  localized_concepts:
+    eng: f133a9a5-7e84-5fc2-8c21-49dffda0f095
+  domains:
+    - concept_id: section-Wire_and_cable_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+      ref_type: section
+id: Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}} that represents the cable occurrence terminal {{entity}}'
+  notes:
+    - content: A **Cable_occurrence_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}} that identifies a terminal of a wire on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Cable_occurrence,Cable_occurrence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+          version: '3'
+      type: authoritative
+      id: Wire_and_cable_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Cable_occurrence_terminal
+  domain: 'application module: Wire_and_cable_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: f133a9a5-7e84-5fc2-8c21-49dffda0f095

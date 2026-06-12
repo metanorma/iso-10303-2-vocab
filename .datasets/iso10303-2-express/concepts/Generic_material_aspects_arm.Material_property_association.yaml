@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_material_aspects_arm.Material_property_association
+  localized_concepts:
+    eng: 304a50f5-3fe9-55d7-a0d5-3df93f56b6d3
+  domains:
+    - concept_id: section-Generic_material_aspects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+      ref_type: section
+id: Generic_material_aspects_arm.Material_property_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the material property association {{entity}}'
+  notes:
+    - content: A **Material_property_association** is an instance that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} instance with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_property_value_representation,Material_property_value_representation}} instance.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+          version: '4'
+      type: authoritative
+      id: Generic_material_aspects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Material_property_association
+  domain: 'application module: Generic_material_aspects_arm'
+  language_code: eng
+  annotations: []
+id: 304a50f5-3fe9-55d7-a0d5-3df93f56b6d3

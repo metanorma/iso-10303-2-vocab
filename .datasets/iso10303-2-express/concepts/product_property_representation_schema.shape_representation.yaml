@@ -1,0 +1,31 @@
+data:
+  identifier: product_property_representation_schema.shape_representation
+  localized_concepts:
+    eng: 304a840f-35bd-500a-ac04-026321fb84ca
+  domains:
+    - concept_id: section-product_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+      ref_type: section
+id: product_property_representation_schema.shape_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the shape representation {{entity}}'
+  notes:
+    - content: A **shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents a shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+          version: '10'
+      type: authoritative
+      id: product_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_representation
+  domain: 'resource: product_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: 304a840f-35bd-500a-ac04-026321fb84ca

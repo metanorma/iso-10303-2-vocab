@@ -1,0 +1,31 @@
+data:
+  identifier: Manufacturing_configuration_effectivity_arm.Manufacturing_configuration
+  localized_concepts:
+    eng: 46acabe2-de5c-5d95-b212-13651ea6cef0
+  domains:
+    - concept_id: section-Manufacturing_configuration_effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manufacturing_configuration_effectivity_arm
+      ref_type: section
+id: Manufacturing_configuration_effectivity_arm.Manufacturing_configuration
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm.Item_usage_effectivity,Item_usage_effectivity}} that represents the manufacturing configuration {{entity}}'
+  notes:
+    - content: A **Manufacturing_configuration** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm.Item_usage_effectivity,Item_usage_effectivity}} that specifies a condition for the use of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} in a product represented by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Product_specification,Product_specification}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Manufacturing_configuration_effectivity_arm
+          version: '4'
+      type: authoritative
+      id: Manufacturing_configuration_effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Manufacturing_configuration
+  domain: 'application module: Manufacturing_configuration_effectivity_arm'
+  language_code: eng
+  annotations: []
+id: 46acabe2-de5c-5d95-b212-13651ea6cef0

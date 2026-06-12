@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_perception
+  localized_concepts:
+    eng: 4b02ee8c-1c3d-5737-9239-5a438c90c87f
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_perception
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the risk perception {{entity}}'
+  notes:
+    - content: A **risk_perception** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that is used to identify a collection of values or concerns that a stakeholder views a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk,risk}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_perception
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: 4b02ee8c-1c3d-5737-9239-5a438c90c87f

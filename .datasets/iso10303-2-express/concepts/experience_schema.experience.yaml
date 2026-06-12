@@ -1,0 +1,31 @@
+data:
+  identifier: experience_schema.experience
+  localized_concepts:
+    eng: ac12fce7-ecb2-5f0d-b539-6787ea77f73b
+  domains:
+    - concept_id: section-experience_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema
+      ref_type: section
+id: experience_schema.experience
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience {{entity}}'
+  notes:
+    - content: An **experience** is an episode of practice, undertaken by a person or organization, that contributes to the accumulation of knowledge or a skill.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:experience_schema
+          version: '4'
+      type: authoritative
+      id: experience_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: experience
+  domain: 'resource: experience_schema'
+  language_code: eng
+  annotations: []
+id: ac12fce7-ecb2-5f0d-b539-6787ea77f73b

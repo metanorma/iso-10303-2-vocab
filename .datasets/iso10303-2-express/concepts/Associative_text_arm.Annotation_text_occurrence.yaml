@@ -1,0 +1,31 @@
+data:
+  identifier: Associative_text_arm.Annotation_text_occurrence
+  localized_concepts:
+    eng: 30e83a2c-8b06-54cf-8cde-4de471516fd4
+  domains:
+    - concept_id: section-Associative_text_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+      ref_type: section
+id: Associative_text_arm.Annotation_text_occurrence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} that represents the annotation text occurrence {{entity}}'
+  notes:
+    - content: A **Annotation_text_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} that presents a text.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+          version: '4'
+      type: authoritative
+      id: Associative_text_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Annotation_text_occurrence
+  domain: 'application module: Associative_text_arm'
+  language_code: eng
+  annotations: []
+id: 30e83a2c-8b06-54cf-8cde-4de471516fd4

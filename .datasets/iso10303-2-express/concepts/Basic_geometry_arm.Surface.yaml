@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Surface
+  localized_concepts:
+    eng: 3703acf8-569e-5fd6-9aab-ec2e886c155e
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the surface {{entity}}'
+  notes:
+    - content: A **Surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is a continuous 2D subspace of a 3D space.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Surface
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 3703acf8-569e-5fd6-9aab-ec2e886c155e

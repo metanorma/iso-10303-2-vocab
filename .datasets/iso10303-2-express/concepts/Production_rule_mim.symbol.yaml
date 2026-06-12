@@ -1,0 +1,31 @@
+data:
+  identifier: Production_rule_mim.symbol
+  localized_concepts:
+    eng: 9fc87ce3-960c-5e67-9d93-fa63b134cf5c
+  domains:
+    - concept_id: section-Production_rule_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+      ref_type: section
+id: Production_rule_mim.symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the symbol {{entity}}'
+  notes:
+    - content: A **symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Symbol,Symbol}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+          version: '5'
+      type: authoritative
+      id: Production_rule_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: symbol
+  domain: 'application module: Production_rule_mim'
+  language_code: eng
+  annotations: []
+id: 9fc87ce3-960c-5e67-9d93-fa63b134cf5c

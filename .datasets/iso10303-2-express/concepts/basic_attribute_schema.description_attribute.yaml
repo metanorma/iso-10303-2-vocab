@@ -1,0 +1,31 @@
+data:
+  identifier: basic_attribute_schema.description_attribute
+  localized_concepts:
+    eng: 3cba45b1-d2a4-5fbf-8b20-c9c6a6c40b10
+  domains:
+    - concept_id: section-basic_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+      ref_type: section
+id: basic_attribute_schema.description_attribute
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the description attribute {{entity}}'
+  notes:
+    - content: A **description_attribute** is the assignment of a descriptive text string to product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema
+          version: '9'
+      type: authoritative
+      id: basic_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: description_attribute
+  domain: 'resource: basic_attribute_schema'
+  language_code: eng
+  annotations: []
+id: 3cba45b1-d2a4-5fbf-8b20-c9c6a6c40b10

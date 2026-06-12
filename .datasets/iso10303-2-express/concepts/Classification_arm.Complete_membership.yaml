@@ -1,0 +1,30 @@
+data:
+  identifier: Classification_arm.Complete_membership
+  localized_concepts:
+    eng: 8a64d591-1908-59e8-bca2-ac0331083f0e
+  domains:
+    - concept_id: section-Classification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_arm
+      ref_type: section
+id: Classification_arm.Complete_membership
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the complete membership {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_arm
+          version: '1'
+      type: authoritative
+      id: Classification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Complete_membership
+  domain: 'application module: Classification_arm'
+  language_code: eng
+  annotations: []
+id: 8a64d591-1908-59e8-bca2-ac0331083f0e

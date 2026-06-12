@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_self_intersecting_triangulated_shell_or_solid
+  localized_concepts:
+    eng: fe0080c3-537f-5572-9ac5-0ee77ebcc76a
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+      ref_type: section
+id: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_self_intersecting_triangulated_shell_or_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the tsdq positive length measure for self intersecting triangulated shell or solid {{entity}}'
+  notes:
+    - content: A **tsdq_positive_length_measure_for_self_intersecting_triangulated_shell_or_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.approximation_tolerance,approximation_tolerance}} for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.self_intersecting_triangulated_shell_or_solid,self_intersecting_triangulated_shell_or_solid}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tsdq_positive_length_measure_for_self_intersecting_triangulated_shell_or_solid
+  domain: 'application module: Triangulated_shape_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: fe0080c3-537f-5572-9ac5-0ee77ebcc76a

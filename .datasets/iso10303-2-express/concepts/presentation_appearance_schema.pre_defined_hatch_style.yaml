@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.pre_defined_hatch_style
+  localized_concepts:
+    eng: 9f6f06f8-ed79-5b7e-9719-830666344bb6
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.pre_defined_hatch_style
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the pre defined hatch style {{entity}}'
+  notes:
+    - content: A **pre_defined_hatch_style** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.pre_defined_item,pre_defined_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pre_defined_hatch_style
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 9f6f06f8-ed79-5b7e-9719-830666344bb6

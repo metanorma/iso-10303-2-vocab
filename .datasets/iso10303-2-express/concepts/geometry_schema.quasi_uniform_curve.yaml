@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.quasi_uniform_curve
+  localized_concepts:
+    eng: bda89b04-1f33-5109-ac57-9f623d112369
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.quasi_uniform_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_curve,b_spline_curve}} that represents the quasi uniform curve {{entity}}'
+  notes:
+    - content: A **quasi_uniform_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.b_spline_curve,b_spline_curve}}, in which the knots are evenly spaced, and except for the first and last, have multiplicity 1.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: quasi_uniform_curve
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: bda89b04-1f33-5109-ac57-9f623d112369

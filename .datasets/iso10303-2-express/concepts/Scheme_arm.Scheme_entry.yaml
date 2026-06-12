@@ -1,0 +1,31 @@
+data:
+  identifier: Scheme_arm.Scheme_entry
+  localized_concepts:
+    eng: e73afb15-cd8d-5d91-9a3a-36093c2652cb
+  domains:
+    - concept_id: section-Scheme_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+      ref_type: section
+id: Scheme_arm.Scheme_entry
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}} that represents the scheme entry {{entity}}'
+  notes:
+    - content: A **Scheme_entry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}} that provides the identification and description of a single entry in a specific {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Scheme,Scheme}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+          version: '2'
+      type: authoritative
+      id: Scheme_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Scheme_entry
+  domain: 'application module: Scheme_arm'
+  language_code: eng
+  annotations: []
+id: e73afb15-cd8d-5d91-9a3a-36093c2652cb

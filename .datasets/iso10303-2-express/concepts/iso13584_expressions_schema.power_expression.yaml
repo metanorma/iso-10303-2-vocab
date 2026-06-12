@@ -1,0 +1,31 @@
+data:
+  identifier: iso13584_expressions_schema.power_expression
+  localized_concepts:
+    eng: b5f305f1-fe1a-5dcd-bc18-f1a3bc092046
+  domains:
+    - concept_id: section-iso13584_expressions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+      ref_type: section
+id: iso13584_expressions_schema.power_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.binary_numeric_expression,binary_numeric_expression}} that represents the power expression {{entity}}'
+  notes:
+    - content: The *power_expression* entity carries the semantics of the EXPRESS '**' operator, defined in ISO 10303-11, on NUMBER data type.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+          version: '1'
+      type: authoritative
+      id: iso13584_expressions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: power_expression
+  domain: 'resource: iso13584_expressions_schema'
+  language_code: eng
+  annotations: []
+id: b5f305f1-fe1a-5dcd-bc18-f1a3bc092046

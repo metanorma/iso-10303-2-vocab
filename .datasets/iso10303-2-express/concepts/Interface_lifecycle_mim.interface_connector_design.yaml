@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_lifecycle_mim.interface_connector_design
+  localized_concepts:
+    eng: e65aa949-64bf-57d6-b7de-8e34be9da66d
+  domains:
+    - concept_id: section-Interface_lifecycle_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
+      ref_type: section
+id: Interface_lifecycle_mim.interface_connector_design
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the interface connector design {{entity}}'
+  notes:
+    - content: An **interface_connector_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies a design version of an interface connector.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
+          version: '1'
+      type: authoritative
+      id: Interface_lifecycle_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interface_connector_design
+  domain: 'application module: Interface_lifecycle_mim'
+  language_code: eng
+  annotations: []
+id: e65aa949-64bf-57d6-b7de-8e34be9da66d

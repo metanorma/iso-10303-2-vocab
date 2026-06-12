@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_perception_source_assignment
+  localized_concepts:
+    eng: b4aea72b-0623-5589-b188-c2e15b745f9b
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_perception_source_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the risk perception source assignment {{entity}}'
+  notes:
+    - content: A **risk_perception_source_assignment** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}} and the items used to identify it.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_perception_source_assignment
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: b4aea72b-0623-5589-b188-c2e15b745f9b

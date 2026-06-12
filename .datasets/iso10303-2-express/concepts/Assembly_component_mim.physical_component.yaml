@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_mim.physical_component
+  localized_concepts:
+    eng: 00ba4ae3-0e79-507c-8cb9-dac5f09051c6
+  domains:
+    - concept_id: section-Assembly_component_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim
+      ref_type: section
+id: Assembly_component_mim.physical_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.assembly_component,assembly_component}} that represents the physical component {{entity}}'
+  notes:
+    - content: A **physical_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.assembly_component,assembly_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim
+          version: '2'
+      type: authoritative
+      id: Assembly_component_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: physical_component
+  domain: 'application module: Assembly_component_mim'
+  language_code: eng
+  annotations: []
+id: 00ba4ae3-0e79-507c-8cb9-dac5f09051c6

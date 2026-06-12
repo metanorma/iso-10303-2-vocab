@@ -1,0 +1,31 @@
+data:
+  identifier: Fea_definition_relationships_arm.Same_idealised_action
+  localized_concepts:
+    eng: 00fc8045-2c38-5f7c-834a-7c95cab4a7f8
+  domains:
+    - concept_id: section-Fea_definition_relationships_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+      ref_type: section
+id: Fea_definition_relationships_arm.Same_idealised_action
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same idealised action {{entity}}'
+  notes:
+    - content: A **Same_idealised_action** is a relationship between records of an idealisation of action for analysis, and that states they each have the same meaning.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+          version: '2'
+      type: authoritative
+      id: Fea_definition_relationships_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Same_idealised_action
+  domain: 'application module: Fea_definition_relationships_arm'
+  language_code: eng
+  annotations: []
+id: 00fc8045-2c38-5f7c-834a-7c95cab4a7f8

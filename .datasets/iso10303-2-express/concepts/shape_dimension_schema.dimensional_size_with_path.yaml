@@ -1,0 +1,30 @@
+data:
+  identifier: shape_dimension_schema.dimensional_size_with_path
+  localized_concepts:
+    eng: 84ca74e3-0586-58ee-943d-c513087a7dd8
+  domains:
+    - concept_id: section-shape_dimension_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+      ref_type: section
+id: shape_dimension_schema.dimensional_size_with_path
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_size,dimensional_size}} that represents the dimensional size with path {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+          version: '5'
+      type: authoritative
+      id: shape_dimension_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: dimensional_size_with_path
+  domain: 'resource: shape_dimension_schema'
+  language_code: eng
+  annotations: []
+id: 84ca74e3-0586-58ee-943d-c513087a7dd8

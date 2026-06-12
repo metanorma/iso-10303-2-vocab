@@ -1,0 +1,31 @@
+data:
+  identifier: Packaged_connector_model_arm.Mating_connector_relationship
+  localized_concepts:
+    eng: 526aa655-88bc-547a-9a7c-dacaed436270
+  domains:
+    - concept_id: section-Packaged_connector_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm
+      ref_type: section
+id: Packaged_connector_model_arm.Mating_connector_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that represents the mating connector relationship {{entity}}'
+  notes:
+    - content: A **Mating_connector_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that relates two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm.Packaged_connector,Packaged_connector}} which are possible to join.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm
+          version: '3'
+      type: authoritative
+      id: Packaged_connector_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mating_connector_relationship
+  domain: 'application module: Packaged_connector_model_arm'
+  language_code: eng
+  annotations: []
+id: 526aa655-88bc-547a-9a7c-dacaed436270

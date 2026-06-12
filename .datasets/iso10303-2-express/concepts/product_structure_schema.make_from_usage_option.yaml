@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.make_from_usage_option
+  localized_concepts:
+    eng: e985a37c-ec7d-5592-a87e-a875a7bbbcd1
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.make_from_usage_option
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_usage,product_definition_usage}} that represents the make from usage option {{entity}}'
+  notes:
+    - content: A **make_from_usage_option** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_usage,product_definition_usage}} in which one product is the result of applying a process to another product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: make_from_usage_option
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: e985a37c-ec7d-5592-a87e-a875a7bbbcd1

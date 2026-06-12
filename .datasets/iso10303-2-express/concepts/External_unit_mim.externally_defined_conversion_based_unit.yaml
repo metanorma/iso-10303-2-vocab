@@ -1,0 +1,31 @@
+data:
+  identifier: External_unit_mim.externally_defined_conversion_based_unit
+  localized_concepts:
+    eng: fd5795a3-f6b8-5d61-b86d-37525d07c871
+  domains:
+    - concept_id: section-External_unit_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_mim
+      ref_type: section
+id: External_unit_mim.externally_defined_conversion_based_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined conversion based unit {{entity}}'
+  notes:
+    - content: An **externally_defined_conversion_based_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.conversion_based_unit,conversion_based_unit}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm.External_conversion_based_unit,External_conversion_based_unit}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_mim
+          version: '2'
+      type: authoritative
+      id: External_unit_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: externally_defined_conversion_based_unit
+  domain: 'application module: External_unit_mim'
+  language_code: eng
+  annotations: []
+id: fd5795a3-f6b8-5d61-b86d-37525d07c871

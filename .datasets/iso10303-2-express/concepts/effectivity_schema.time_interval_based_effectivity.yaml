@@ -1,0 +1,31 @@
+data:
+  identifier: effectivity_schema.time_interval_based_effectivity
+  localized_concepts:
+    eng: de07733a-c975-5658-b7e8-6aeec32f146b
+  domains:
+    - concept_id: section-effectivity_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+      ref_type: section
+id: effectivity_schema.time_interval_based_effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the time interval based effectivity {{entity}}'
+  notes:
+    - content: A **time_interval_based_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} for which the domain of applicability is defined as a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.time_interval,time_interval}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+          version: '8'
+      type: authoritative
+      id: effectivity_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: time_interval_based_effectivity
+  domain: 'resource: effectivity_schema'
+  language_code: eng
+  annotations: []
+id: de07733a-c975-5658-b7e8-6aeec32f146b

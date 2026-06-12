@@ -1,0 +1,31 @@
+data:
+  identifier: equations_schema.mbna_equation_set
+  localized_concepts:
+    eng: 8c932aac-ca52-53f3-a8cc-95ebc4edb5c2
+  domains:
+    - concept_id: section-equations_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+      ref_type: section
+id: equations_schema.mbna_equation_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation,mbna_equation}} that represents the mbna equation set {{entity}}'
+  notes:
+    - content: An *mbna_equation_set* is a *mbna_equation* that gives a general description of governing equations.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+          version: '1'
+      type: authoritative
+      id: equations_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_equation_set
+  domain: 'resource: equations_schema'
+  language_code: eng
+  annotations: []
+id: 8c932aac-ca52-53f3-a8cc-95ebc4edb5c2

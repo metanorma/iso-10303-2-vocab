@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.group_geometric_tolerance_with_datum_system_reference
+  localized_concepts:
+    eng: edbcb264-f50a-5616-9b9c-974d4b1836fa
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.group_geometric_tolerance_with_datum_system_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the group geometric tolerance with datum system reference {{entity}}'
+  notes:
+    - content: A **group_geometric_tolerance_with_datum_system_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that provides an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.axis2_placement_3d,axis2_placement_3d}} for specification of a coordinate system specific to each member of the group specified by the **toleranced_shape_aspect**.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: group_geometric_tolerance_with_datum_system_reference
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: edbcb264-f50a-5616-9b9c-974d4b1836fa

@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Footprint_library_stratum_technology
+  localized_concepts:
+    eng: 1c0f3771-d9a8-5445-86fd-73fda23d36dc
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Footprint_library_stratum_technology
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}} that represents the footprint library stratum technology {{entity}}'
+  notes:
+    - content: A **Footprint_library_stratum_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}} for use where generic footprint patterns are defined and where the {{stratum_thickness,stratum_thickness}} is not applicable.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Footprint_library_stratum_technology
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 1c0f3771-d9a8-5445-86fd-73fda23d36dc

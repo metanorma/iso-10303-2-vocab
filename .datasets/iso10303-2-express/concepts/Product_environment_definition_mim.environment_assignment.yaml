@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_definition_mim.environment_assignment
+  localized_concepts:
+    eng: 5de3099e-3e99-547c-98aa-890cb8865efd
+  domains:
+    - concept_id: section-Product_environment_definition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+      ref_type: section
+id: Product_environment_definition_mim.environment_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the environment assignment {{entity}}'
+  notes:
+    - content: An **environment_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that assigns a product to the environment in which it operates or it is supported.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+          version: '4'
+      type: authoritative
+      id: Product_environment_definition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: environment_assignment
+  domain: 'application module: Product_environment_definition_mim'
+  language_code: eng
+  annotations: []
+id: 5de3099e-3e99-547c-98aa-890cb8865efd

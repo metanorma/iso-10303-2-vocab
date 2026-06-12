@@ -1,0 +1,31 @@
+data:
+  identifier: scan_data_3d_shape_model_schema.scan_3d_model
+  localized_concepts:
+    eng: d302f822-9dcb-515b-b502-fe47a1edd853
+  domains:
+    - concept_id: section-scan_data_3d_shape_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+      ref_type: section
+id: scan_data_3d_shape_model_schema.scan_3d_model
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.scanned_data_item,scanned_data_item}} that represents the scan 3d model {{entity}}'
+  notes:
+    - content: A **scan_3d_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.scanned_data_item,scanned_data_item}}, which represents the data produced by scanning a 3D shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+          version: '2'
+      type: authoritative
+      id: scan_data_3d_shape_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: scan_3d_model
+  domain: 'resource: scan_data_3d_shape_model_schema'
+  language_code: eng
+  annotations: []
+id: d302f822-9dcb-515b-b502-fe47a1edd853

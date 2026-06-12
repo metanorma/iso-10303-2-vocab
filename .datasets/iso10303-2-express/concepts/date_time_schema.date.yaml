@@ -1,0 +1,31 @@
+data:
+  identifier: date_time_schema.date
+  localized_concepts:
+    eng: 3c9a94c0-a879-5205-a304-12749d0e2102
+  domains:
+    - concept_id: section-date_time_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+      ref_type: section
+id: date_time_schema.date
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date {{entity}}'
+  notes:
+    - content: A **date** is the identification of a day or week or month in a year.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+          version: '8'
+      type: authoritative
+      id: date_time_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: date
+  domain: 'resource: date_time_schema'
+  language_code: eng
+  annotations: []
+id: 3c9a94c0-a879-5205-a304-12749d0e2102

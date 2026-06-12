@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.tolerance_with_statistical_distribution
+  localized_concepts:
+    eng: c73aae3c-2958-51a7-9f0c-e70da290b5ce
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.tolerance_with_statistical_distribution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tolerance with statistical distribution {{entity}}'
+  notes:
+    - content: A **tolerance_with_statistical_distribution** is the allocation of a tolerance in terms of a probability distribution.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tolerance_with_statistical_distribution
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: c73aae3c-2958-51a7-9f0c-e70da290b5ce

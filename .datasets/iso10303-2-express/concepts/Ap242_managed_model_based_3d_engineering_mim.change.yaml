@@ -1,0 +1,31 @@
+data:
+  identifier: Ap242_managed_model_based_3d_engineering_mim.change
+  localized_concepts:
+    eng: cb742fa9-364d-5687-a120-9737ca6235bb
+  domains:
+    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+      ref_type: section
+id: Ap242_managed_model_based_3d_engineering_mim.change
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that represents the change {{entity}}'
+  notes:
+    - content: A **change** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that identifies the {{work_item,work_item}} that have been incorporated into the design and, as a result, have established a new version of the product.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+          version: '5'
+      type: authoritative
+      id: Ap242_managed_model_based_3d_engineering_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: change
+  domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
+  language_code: eng
+  annotations: []
+id: cb742fa9-364d-5687-a120-9737ca6235bb

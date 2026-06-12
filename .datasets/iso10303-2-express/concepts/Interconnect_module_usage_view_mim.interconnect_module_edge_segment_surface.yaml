@@ -1,0 +1,31 @@
+data:
+  identifier: Interconnect_module_usage_view_mim.interconnect_module_edge_segment_surface
+  localized_concepts:
+    eng: f61fa2f0-2ea0-5a68-8e0e-733d3c25302f
+  domains:
+    - concept_id: section-Interconnect_module_usage_view_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_mim
+      ref_type: section
+id: Interconnect_module_usage_view_mim.interconnect_module_edge_segment_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interconnect module edge segment surface {{entity}}'
+  notes:
+    - content: A **interconnect_module_edge_segment_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Interconnect_module_edge_segment_surface,Interconnect_module_edge_segment_surface}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_mim
+          version: '5'
+      type: authoritative
+      id: Interconnect_module_usage_view_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interconnect_module_edge_segment_surface
+  domain: 'application module: Interconnect_module_usage_view_mim'
+  language_code: eng
+  annotations: []
+id: f61fa2f0-2ea0-5a68-8e0e-733d3c25302f

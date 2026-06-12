@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_analysis_control_and_result_arm.Kinematic_control
+  localized_concepts:
+    eng: b674f8aa-46d6-5c8e-8ba8-60330293aef5
+  domains:
+    - concept_id: section-Kinematic_analysis_control_and_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_analysis_control_and_result_arm
+      ref_type: section
+id: Kinematic_analysis_control_and_result_arm.Kinematic_control
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the kinematic control {{entity}}'
+  notes:
+    - content: A **Kinematic_control** is an identification of the control information necessary for a forward or a backward analysis of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_analysis_control_and_result_arm
+          version: '1'
+      type: authoritative
+      id: Kinematic_analysis_control_and_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Kinematic_control
+  domain: 'application module: Kinematic_analysis_control_and_result_arm'
+  language_code: eng
+  annotations: []
+id: b674f8aa-46d6-5c8e-8ba8-60330293aef5

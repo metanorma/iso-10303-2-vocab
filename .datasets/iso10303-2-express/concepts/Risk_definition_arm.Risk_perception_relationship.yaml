@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_perception_relationship
+  localized_concepts:
+    eng: 47d93f94-8a8c-5ff5-8519-2688250361bc
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_perception_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the risk perception relationship {{entity}}'
+  notes:
+    - content: A **Risk_perception_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} and defines an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk_perception,Risk_perception}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_perception_relationship
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 47d93f94-8a8c-5ff5-8519-2688250361bc

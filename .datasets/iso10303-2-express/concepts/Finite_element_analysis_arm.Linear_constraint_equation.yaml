@@ -1,0 +1,31 @@
+data:
+  identifier: Finite_element_analysis_arm.Linear_constraint_equation
+  localized_concepts:
+    eng: ac59f161-9c28-5d57-8f0f-9539080fffd1
+  domains:
+    - concept_id: section-Finite_element_analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+      ref_type: section
+id: Finite_element_analysis_arm.Linear_constraint_equation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that represents the linear constraint equation {{entity}}'
+  notes:
+    - content: A **Linear_constraint_equation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that is a linear multi-point constraint equation that specifies the nodal freedoms and their coefficients.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+          version: '1'
+      type: authoritative
+      id: Finite_element_analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Linear_constraint_equation
+  domain: 'application module: Finite_element_analysis_arm'
+  language_code: eng
+  annotations: []
+id: ac59f161-9c28-5d57-8f0f-9539080fffd1

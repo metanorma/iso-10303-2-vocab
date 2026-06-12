@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Edge_round
+  localized_concepts:
+    eng: 90a36049-c1d8-5d85-a81b-386fa90944ca
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Edge_round
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that represents the edge round {{entity}}'
+  notes:
+    - content: An **Edge_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} that is a convex circular arc transition between two intersecting surfaces.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Edge_round
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 90a36049-c1d8-5d85-a81b-386fa90944ca

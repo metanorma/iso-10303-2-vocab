@@ -1,0 +1,50 @@
+data:
+  identifier: Part_template_mim.part_template_definition
+  localized_concepts:
+    eng: b16e4209-2d01-59ae-9901-aede50eaec04
+  domains:
+    - concept_id: section-Part_template_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim
+      ref_type: section
+id: Part_template_mim.part_template_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part template definition {{entity}}'
+  notes:
+    - content: |-
+        A **part_template_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Blind_passage_template,Blind_passage_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Component_termination_passage_template,Component_termination_passage_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Counterbore_passage_template,Counterbore_passage_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Countersunk_passage_template,Countersunk_passage_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Default_trace_template,Default_trace_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Inter_stratum_feature_template,Inter_stratum_feature_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Material_removal_feature_template,Material_removal_feature_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Non_conductive_cross_section_template,Non_conductive_cross_section_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Part_text_template,Part_text_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template,Printed_connector_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_cross_section_template,Printed_part_cross_section_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Stratum_feature_template,Stratum_feature_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Trace_template,Trace_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Unsupported_passage_template,Unsupported_passage_template}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Via_template,Via_template}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim
+          version: '5'
+      type: authoritative
+      id: Part_template_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: part_template_definition
+  domain: 'application module: Part_template_mim'
+  language_code: eng
+  annotations: []
+id: b16e4209-2d01-59ae-9901-aede50eaec04

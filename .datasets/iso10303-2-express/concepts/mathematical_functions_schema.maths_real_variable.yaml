@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.maths_real_variable
+  localized_concepts:
+    eng: ac1c3ba3-12c3-516a-99ba-fe1c70841cce
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.maths_real_variable
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths real variable {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_variable,maths_variable}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.real_numeric_variable,real_numeric_variable}} makes a convenient representation for variables ranging over the real numbers.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maths_real_variable
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: ac1c3ba3-12c3-516a-99ba-fe1c70841cce

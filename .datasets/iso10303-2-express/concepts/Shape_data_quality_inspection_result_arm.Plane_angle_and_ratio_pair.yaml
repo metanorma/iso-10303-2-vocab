@@ -1,0 +1,33 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Plane_angle_and_ratio_pair
+  localized_concepts:
+    eng: a0846656-5855-5a19-be83-c9ca66dcaeb4
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Plane_angle_and_ratio_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the plane angle and ratio pair {{entity}}'
+  notes:
+    - content: |-
+        A **Plane_angle_and_ratio_pair** is the representation of
+        the measured value that consists of a {{plane_angle_measure,plane_angle_measure}} and a ratio of curvature radius change.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Plane_angle_and_ratio_pair
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: a0846656-5855-5a19-be83-c9ca66dcaeb4

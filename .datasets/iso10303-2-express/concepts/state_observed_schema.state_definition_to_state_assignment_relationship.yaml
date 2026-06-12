@@ -1,0 +1,31 @@
+data:
+  identifier: state_observed_schema.state_definition_to_state_assignment_relationship
+  localized_concepts:
+    eng: 792f464c-5f00-5a5f-8a76-591f8bfd440c
+  domains:
+    - concept_id: section-state_observed_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+      ref_type: section
+id: state_observed_schema.state_definition_to_state_assignment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.ascribable_state_relationship,ascribable_state_relationship}} that represents the state definition to state assignment relationship {{entity}}'
+  notes:
+    - content: A **state_definition_to_state_assignment_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.ascribable_state_relationship,ascribable_state_relationship}} that describes a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.ascribable_state,ascribable_state}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+          version: '3'
+      type: authoritative
+      id: state_observed_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state_definition_to_state_assignment_relationship
+  domain: 'resource: state_observed_schema'
+  language_code: eng
+  annotations: []
+id: 792f464c-5f00-5a5f-8a76-591f8bfd440c

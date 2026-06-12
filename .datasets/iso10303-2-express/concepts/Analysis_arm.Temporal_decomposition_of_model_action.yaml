@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_arm.Temporal_decomposition_of_model_action
+  localized_concepts:
+    eng: 9a27525e-029f-5340-932f-5f7091a690ce
+  domains:
+    - concept_id: section-Analysis_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+      ref_type: section
+id: Analysis_arm.Temporal_decomposition_of_model_action
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the temporal decomposition of model action {{entity}}'
+  notes:
+    - content: A **Temporal_decomposition_of_model_action** is a decomposition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_action_domain,Model_action_domain}} into different time instants.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+          version: '1'
+      type: authoritative
+      id: Analysis_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Temporal_decomposition_of_model_action
+  domain: 'application module: Analysis_arm'
+  language_code: eng
+  annotations: []
+id: 9a27525e-029f-5340-932f-5f7091a690ce

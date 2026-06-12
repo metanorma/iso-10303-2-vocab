@@ -1,0 +1,31 @@
+data:
+  identifier: Signal_arm.Composite_signal_property_relationship
+  localized_concepts:
+    eng: 6157ac51-b308-555c-ad1f-dd21a1df77da
+  domains:
+    - concept_id: section-Signal_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+      ref_type: section
+id: Signal_arm.Composite_signal_property_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the composite signal property relationship {{entity}}'
+  notes:
+    - content: A **Composite_signal_property_relationship** is the aggregation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm.Signal_property,Signal_property}} that compose the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm.Composite_signal_property,Composite_signal_property}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Signal_arm
+          version: '1'
+      type: authoritative
+      id: Signal_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Composite_signal_property_relationship
+  domain: 'application module: Signal_arm'
+  language_code: eng
+  annotations: []
+id: 6157ac51-b308-555c-ad1f-dd21a1df77da

@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_organization_schema.presented_item_representation
+  localized_concepts:
+    eng: b8eb5cd0-efe6-561d-8958-c5dbac5fe7c3
+  domains:
+    - concept_id: section-presentation_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+      ref_type: section
+id: presentation_organization_schema.presented_item_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presented item representation {{entity}}'
+  notes:
+    - content: A **presented_item_representation** is the association of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_representation,presentation_representation}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_set,presentation_set}} with the item for which it is a picture.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+          version: '6'
+      type: authoritative
+      id: presentation_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: presented_item_representation
+  domain: 'resource: presentation_organization_schema'
+  language_code: eng
+  annotations: []
+id: b8eb5cd0-efe6-561d-8958-c5dbac5fe7c3

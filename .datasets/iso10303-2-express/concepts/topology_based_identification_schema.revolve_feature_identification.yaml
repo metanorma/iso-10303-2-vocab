@@ -1,0 +1,31 @@
+data:
+  identifier: topology_based_identification_schema.revolve_feature_identification
+  localized_concepts:
+    eng: 71b339e0-b740-53e6-865c-0aaed0c403a1
+  domains:
+    - concept_id: section-topology_based_identification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+      ref_type: section
+id: topology_based_identification_schema.revolve_feature_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.profile_based_feature_identification,profile_based_feature_identification}} that represents the revolve feature identification {{entity}}'
+  notes:
+    - content: A **revolve_feature_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.profile_based_feature_identification,profile_based_feature_identification}} that specifies a face relating to a revolve feature such as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.revolved_face_solid,revolved_face_solid}} in ISO 10303-42.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+          version: '1'
+      type: authoritative
+      id: topology_based_identification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: revolve_feature_identification
+  domain: 'resource: topology_based_identification_schema'
+  language_code: eng
+  annotations: []
+id: 71b339e0-b740-53e6-865c-0aaed0c403a1

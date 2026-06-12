@@ -1,0 +1,31 @@
+data:
+  identifier: Configuration_item_arm.Product_configuration_hierarchical_relationship
+  localized_concepts:
+    eng: c03fa0c6-7af0-520c-92fa-69cb239ee94a
+  domains:
+    - concept_id: section-Configuration_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm
+      ref_type: section
+id: Configuration_item_arm.Product_configuration_hierarchical_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration_relationship,Product_configuration_relationship}} that represents the product configuration hierarchical relationship {{entity}}'
+  notes:
+    - content: A **Product_configuration_hierarchical_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration_relationship,Product_configuration_relationship}} that is used to represent a hierarchical relationship between a parent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}} and a child {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm
+          version: '2'
+      type: authoritative
+      id: Configuration_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_configuration_hierarchical_relationship
+  domain: 'application module: Configuration_item_arm'
+  language_code: eng
+  annotations: []
+id: c03fa0c6-7af0-520c-92fa-69cb239ee94a

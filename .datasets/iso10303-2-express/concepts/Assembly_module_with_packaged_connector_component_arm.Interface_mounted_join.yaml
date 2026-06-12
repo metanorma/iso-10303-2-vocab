@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_module_with_packaged_connector_component_arm.Interface_mounted_join
+  localized_concepts:
+    eng: a0e35cf3-bd6f-55b2-b644-da5fbf2ebb1e
+  domains:
+    - concept_id: section-Assembly_module_with_packaged_connector_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm
+      ref_type: section
+id: Assembly_module_with_packaged_connector_component_arm.Interface_mounted_join
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface mounted join {{entity}}'
+  notes:
+    - content: An **Interface_mounted_join** is the relationship that specifies the connectivity between a terminal on a component and the terminal on a socket in the assembly that directly mates with that component terminal.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm
+          version: '4'
+      type: authoritative
+      id: Assembly_module_with_packaged_connector_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Interface_mounted_join
+  domain: 'application module: Assembly_module_with_packaged_connector_component_arm'
+  language_code: eng
+  annotations: []
+id: a0e35cf3-bd6f-55b2-b644-da5fbf2ebb1e

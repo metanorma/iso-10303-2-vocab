@@ -1,0 +1,31 @@
+data:
+  identifier: geometric_model_schema.boolean_result
+  localized_concepts:
+    eng: 32da0950-6325-5fa2-92d1-0ad1288196c4
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.boolean_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the boolean result {{entity}}'
+  notes:
+    - content: A **boolean_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} which is the result of a regularised operation on two solids to create a new solid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: boolean_result
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 32da0950-6325-5fa2-92d1-0ad1288196c4

@@ -1,0 +1,31 @@
+data:
+  identifier: Document_properties_arm.Document_property_representation
+  localized_concepts:
+    eng: 568c2984-56fb-563b-be77-f06a22984ea7
+  domains:
+    - concept_id: section-Document_properties_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+      ref_type: section
+id: Document_properties_arm.Document_property_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the document property representation {{entity}}'
+  notes:
+    - content: A **Document_property_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that conveys the parameters of a particular aspect of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm.Assigned_document_property,Assigned_document_property}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+          version: '5'
+      type: authoritative
+      id: Document_properties_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Document_property_representation
+  domain: 'application module: Document_properties_arm'
+  language_code: eng
+  annotations: []
+id: 568c2984-56fb-563b-be77-f06a22984ea7

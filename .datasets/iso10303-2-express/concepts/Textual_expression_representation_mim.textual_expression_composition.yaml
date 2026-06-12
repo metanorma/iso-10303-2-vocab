@@ -1,0 +1,31 @@
+data:
+  identifier: Textual_expression_representation_mim.textual_expression_composition
+  localized_concepts:
+    eng: f706be7e-dfc7-587a-9a89-5c5a8977cfa4
+  domains:
+    - concept_id: section-Textual_expression_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+      ref_type: section
+id: Textual_expression_representation_mim.textual_expression_composition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the textual expression composition {{entity}}'
+  notes:
+    - content: A **textual_expression_composition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} where the elements of the composition are text.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+          version: '1'
+      type: authoritative
+      id: Textual_expression_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: textual_expression_composition
+  domain: 'application module: Textual_expression_representation_mim'
+  language_code: eng
+  annotations: []
+id: f706be7e-dfc7-587a-9a89-5c5a8977cfa4

@@ -1,0 +1,31 @@
+data:
+  identifier: Product_as_individual_mim.product_planned_to_realized
+  localized_concepts:
+    eng: 80e53159-b3d5-508a-8933-4699f7d48496
+  domains:
+    - concept_id: section-Product_as_individual_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+      ref_type: section
+id: Product_as_individual_mim.product_planned_to_realized
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the product planned to realized {{entity}}'
+  notes:
+    - content: A **product_planned_to_realized** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that identifies a relationship that establishes that the planned artefact represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim.product_as_planned,product_as_planned}} has been realized as the actual artefact {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_mim
+          version: '5'
+      type: authoritative
+      id: Product_as_individual_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_planned_to_realized
+  domain: 'application module: Product_as_individual_mim'
+  language_code: eng
+  annotations: []
+id: 80e53159-b3d5-508a-8933-4699f7d48496

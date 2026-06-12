@@ -1,0 +1,30 @@
+data:
+  identifier: Interface_component_arm.Physical_component_interface_terminal
+  localized_concepts:
+    eng: 42ec17af-15c1-5072-afc5-db4a2d143e9e
+  domains:
+    - concept_id: section-Interface_component_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_arm
+      ref_type: section
+id: Interface_component_arm.Physical_component_interface_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_feature,Physical_component_feature}} that represents the physical component interface terminal {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_component_arm
+          version: '4'
+      type: authoritative
+      id: Interface_component_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Physical_component_interface_terminal
+  domain: 'application module: Interface_component_arm'
+  language_code: eng
+  annotations: []
+id: 42ec17af-15c1-5072-afc5-db4a2d143e9e

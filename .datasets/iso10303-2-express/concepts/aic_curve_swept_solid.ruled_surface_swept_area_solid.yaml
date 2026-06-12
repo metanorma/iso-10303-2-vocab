@@ -1,0 +1,31 @@
+data:
+  identifier: aic_curve_swept_solid.ruled_surface_swept_area_solid
+  localized_concepts:
+    eng: 55cc4a3a-4e03-5db3-9fac-b63d7488298e
+  domains:
+    - concept_id: section-aic_curve_swept_solid
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
+      ref_type: section
+id: aic_curve_swept_solid.ruled_surface_swept_area_solid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.surface_curve_swept_area_solid,surface_curve_swept_area_solid}} that represents the ruled surface swept area solid {{entity}}'
+  notes:
+    - content: A **ruled_surface_swept_area_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.surface_curve_swept_area_solid,surface_curve_swept_area_solid}} in which the surface used to control the orientation of the {{swept_area,swept_area}} as it is swept along the {{directrix,directrix}} is a ruled surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
+          version: '2'
+      type: authoritative
+      id: aic_curve_swept_solid
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ruled_surface_swept_area_solid
+  domain: 'resource: aic_curve_swept_solid'
+  language_code: eng
+  annotations: []
+id: 55cc4a3a-4e03-5db3-9fac-b63d7488298e

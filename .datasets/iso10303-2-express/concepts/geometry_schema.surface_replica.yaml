@@ -1,0 +1,31 @@
+data:
+  identifier: geometry_schema.surface_replica
+  localized_concepts:
+    eng: 5a0a3408-4b2f-5cf0-9521-2b08d8939aa7
+  domains:
+    - concept_id: section-geometry_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+      ref_type: section
+id: geometry_schema.surface_replica
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} that represents the surface replica {{entity}}'
+  notes:
+    - content: A **surface_replica** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} which defines a replica of an existing surface in a different location.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+          version: '13'
+      type: authoritative
+      id: geometry_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_replica
+  domain: 'resource: geometry_schema'
+  language_code: eng
+  annotations: []
+id: 5a0a3408-4b2f-5cf0-9521-2b08d8939aa7

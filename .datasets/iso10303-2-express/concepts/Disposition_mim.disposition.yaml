@@ -1,0 +1,31 @@
+data:
+  identifier: Disposition_mim.disposition
+  localized_concepts:
+    eng: 57a86194-953e-5fae-8bf3-688a4e73424e
+  domains:
+    - concept_id: section-Disposition_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Disposition_mim
+      ref_type: section
+id: Disposition_mim.disposition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}} that represents the disposition {{entity}}'
+  notes:
+    - content: A **disposition** is a type of approval which is reords the approvied disposition on an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm.Issue,Issue}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Disposition_mim
+          version: '1'
+      type: authoritative
+      id: Disposition_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: disposition
+  domain: 'application module: Disposition_mim'
+  language_code: eng
+  annotations: []
+id: 57a86194-953e-5fae-8bf3-688a4e73424e

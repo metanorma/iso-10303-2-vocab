@@ -1,0 +1,31 @@
+data:
+  identifier: Person_organization_arm.Address_assignment
+  localized_concepts:
+    eng: f670478c-206b-5467-9fd0-31993b8e1894
+  domains:
+    - concept_id: section-Person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+      ref_type: section
+id: Person_organization_arm.Address_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the address assignment {{entity}}'
+  notes:
+    - content: An **Address_assignment** is the association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person_in_organization,Person_in_organization}} with an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Address,Address}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Address_assignment
+  domain: 'application module: Person_organization_arm'
+  language_code: eng
+  annotations: []
+id: f670478c-206b-5467-9fd0-31993b8e1894

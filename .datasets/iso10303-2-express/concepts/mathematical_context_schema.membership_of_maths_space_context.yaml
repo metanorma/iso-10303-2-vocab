@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_context_schema.membership_of_maths_space_context
+  localized_concepts:
+    eng: 8223c095-13b0-58fe-96d3-87ea64677478
+  domains:
+    - concept_id: section-mathematical_context_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+      ref_type: section
+id: mathematical_context_schema.membership_of_maths_space_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the membership of maths space context {{entity}}'
+  notes:
+    - content: A **membership_of_maths_space_context** is an association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_value_context,maths_value_context}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}} that indicates the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_value_context,maths_value_context}} is a member of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+          version: '1'
+      type: authoritative
+      id: mathematical_context_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: membership_of_maths_space_context
+  domain: 'resource: mathematical_context_schema'
+  language_code: eng
+  annotations: []
+id: 8223c095-13b0-58fe-96d3-87ea64677478

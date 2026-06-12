@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Homokinetic_pair
+  localized_concepts:
+    eng: c8070474-e768-5df6-931f-456f7f86827a
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Homokinetic_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Universal_pair,Universal_pair}} that represents the homokinetic pair {{entity}}'
+  notes:
+    - content: A **Homokinetic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Universal_pair,Universal_pair}}, where the rotation of input axis and output axis are uniform.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Homokinetic_pair
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: c8070474-e768-5df6-931f-456f7f86827a

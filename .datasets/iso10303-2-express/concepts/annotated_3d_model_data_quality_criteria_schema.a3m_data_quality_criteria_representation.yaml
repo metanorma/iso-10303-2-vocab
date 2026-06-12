@@ -1,0 +1,31 @@
+data:
+  identifier: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criteria_representation
+  localized_concepts:
+    eng: c69245f2-b89a-5cd2-b093-7b29d00b7020
+  domains:
+    - concept_id: section-annotated_3d_model_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+      ref_type: section
+id: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criteria_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_criteria_representation,data_quality_criteria_representation}} that represents the a3m data quality criteria representation {{entity}}'
+  notes:
+    - content: An **a3m_data_quality_criteria_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_criteria_representation,data_quality_criteria_representation}} that represents requirements on the quality of annotated 3d model data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+          version: '3'
+      type: authoritative
+      id: annotated_3d_model_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: a3m_data_quality_criteria_representation
+  domain: 'resource: annotated_3d_model_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: c69245f2-b89a-5cd2-b093-7b29d00b7020

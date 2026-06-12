@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_event_probability
+  localized_concepts:
+    eng: 1b73ee63-326d-545c-a533-f6aae14f1ac0
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_event_probability
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} that represents the risk event probability {{entity}}'
+  notes:
+    - content: An **Risk_event_probability** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} that describes the probability of the activity method identified as the risk event occurring.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_event_probability
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 1b73ee63-326d-545c-a533-f6aae14f1ac0

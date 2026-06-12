@@ -1,0 +1,30 @@
+data:
+  identifier: Default_tolerance_arm.General_tolerances
+  localized_concepts:
+    eng: 792f9fe5-d629-5469-bbf7-d11427529f34
+  domains:
+    - concept_id: section-Default_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+      ref_type: section
+id: Default_tolerance_arm.General_tolerances
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm.Default_shape_property,Default_shape_property}} that represents the general tolerances {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+          version: '3'
+      type: authoritative
+      id: Default_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_tolerances
+  domain: 'application module: Default_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 792f9fe5-d629-5469-bbf7-d11427529f34

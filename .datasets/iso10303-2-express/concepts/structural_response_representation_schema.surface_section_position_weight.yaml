@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.surface_section_position_weight
+  localized_concepts:
+    eng: 146dc767-76e1-5266-acca-b3885f3787a9
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.surface_section_position_weight
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface section position weight {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.surface_section_position_weight,surface_section_position_weight}} is the integration weight and position in a surface element section.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: surface_section_position_weight
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: 146dc767-76e1-5266-acca-b3885f3787a9

@@ -1,0 +1,31 @@
+data:
+  identifier: Product_environment_observed_arm.Observed_environment
+  localized_concepts:
+    eng: 6ca9796f-becc-5556-af68-e815542c2253
+  domains:
+    - concept_id: section-Product_environment_observed_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+      ref_type: section
+id: Product_environment_observed_arm.Observed_environment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the observed environment {{entity}}'
+  notes:
+    - content: An **Observed_environment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents with observations about the environment in which a product (or product related items) is, has or may in the future be operating.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+          version: '4'
+      type: authoritative
+      id: Product_environment_observed_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Observed_environment
+  domain: 'application module: Product_environment_observed_arm'
+  language_code: eng
+  annotations: []
+id: 6ca9796f-becc-5556-af68-e815542c2253

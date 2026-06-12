@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_perception_source_assignment
+  localized_concepts:
+    eng: f51184b3-478a-5a52-a512-07999d87064b
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_perception_source_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the risk perception source assignment {{entity}}'
+  notes:
+    - content: A **Risk_perception_source_assignment** is an assignment of the set of items that are the source to the risk.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_perception_source_assignment
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: f51184b3-478a-5a52-a512-07999d87064b

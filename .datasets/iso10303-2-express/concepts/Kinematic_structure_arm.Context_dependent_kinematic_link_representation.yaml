@@ -1,0 +1,31 @@
+data:
+  identifier: Kinematic_structure_arm.Context_dependent_kinematic_link_representation
+  localized_concepts:
+    eng: 40ceeeac-ae74-5e48-a981-01ea2dbaf1b7
+  domains:
+    - concept_id: section-Kinematic_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+      ref_type: section
+id: Kinematic_structure_arm.Context_dependent_kinematic_link_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the context dependent kinematic link representation {{entity}}'
+  notes:
+    - content: A **Context_dependent_kinematic_link_representation** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_link_representation_association,Kinematic_link_representation_association}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Product_definition_relationship_kinematics,Product_definition_relationship_kinematics}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+          version: '2'
+      type: authoritative
+      id: Kinematic_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Context_dependent_kinematic_link_representation
+  domain: 'application module: Kinematic_structure_arm'
+  language_code: eng
+  annotations: []
+id: 40ceeeac-ae74-5e48-a981-01ea2dbaf1b7

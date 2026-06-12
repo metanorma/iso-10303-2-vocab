@@ -1,0 +1,31 @@
+data:
+  identifier: Resource_as_realized_arm.Resource_as_realized_relationship
+  localized_concepts:
+    eng: efba9fa5-c079-512d-86e2-24cb51db76df
+  domains:
+    - concept_id: section-Resource_as_realized_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
+      ref_type: section
+id: Resource_as_realized_arm.Resource_as_realized_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource as realized relationship {{entity}}'
+  notes:
+    - content: A **Resource_as_realized_relationship** is a relationship between the record of used or consumed resources and the corresponding statement of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
+          version: '2'
+      type: authoritative
+      id: Resource_as_realized_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Resource_as_realized_relationship
+  domain: 'application module: Resource_as_realized_arm'
+  language_code: eng
+  annotations: []
+id: efba9fa5-c079-512d-86e2-24cb51db76df

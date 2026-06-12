@@ -1,0 +1,31 @@
+data:
+  identifier: Part_template_arm.Template_version
+  localized_concepts:
+    eng: 9ac33bbc-cdf7-54de-aa14-f412f1d6dd8a
+  domains:
+    - concept_id: section-Part_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm
+      ref_type: section
+id: Part_template_arm.Template_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_version_identification_arm.Part_version,Part_version}} that represents the template version {{entity}}'
+  notes:
+    - content: A **Template_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_version_identification_arm.Part_version,Part_version}} that identifies a version of a template.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm
+          version: '5'
+      type: authoritative
+      id: Part_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Template_version
+  domain: 'application module: Part_template_arm'
+  language_code: eng
+  annotations: []
+id: 9ac33bbc-cdf7-54de-aa14-f412f1d6dd8a

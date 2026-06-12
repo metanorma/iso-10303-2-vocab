@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.General_revolution
+  localized_concepts:
+    eng: 90eb6e44-473c-53fb-81f3-3b705d8a5719
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.General_revolution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Revolved_feature,Revolved_feature}} that represents the general revolution {{entity}}'
+  notes:
+    - content: A **General_revolution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Revolved_feature,Revolved_feature}} that is an arbitrary planar shape swept one complete revolution about an axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_revolution
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 90eb6e44-473c-53fb-81f3-3b705d8a5719

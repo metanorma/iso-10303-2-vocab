@@ -1,0 +1,31 @@
+data:
+  identifier: Land_mim.thermal_isolation_removal_component
+  localized_concepts:
+    eng: 1a146b45-289d-5ee2-beba-6cc434e65bf6
+  domains:
+    - concept_id: section-Land_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+      ref_type: section
+id: Land_mim.thermal_isolation_removal_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_structured_component,material_removal_structured_component}} that represents the thermal isolation removal component {{entity}}'
+  notes:
+    - content: A **thermal_isolation_removal_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_structured_component,material_removal_structured_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Thermal_isolation_removal_component,Thermal_isolation_removal_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_mim
+          version: '5'
+      type: authoritative
+      id: Land_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thermal_isolation_removal_component
+  domain: 'application module: Land_mim'
+  language_code: eng
+  annotations: []
+id: 1a146b45-289d-5ee2-beba-6cc434e65bf6

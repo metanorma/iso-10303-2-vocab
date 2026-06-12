@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_and_datum_systems_arm.Target_area
+  localized_concepts:
+    eng: 46aa4bb5-e62f-5bb3-980f-91c62f125e7d
+  domains:
+    - concept_id: section-Datum_and_datum_systems_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+      ref_type: section
+id: Datum_and_datum_systems_arm.Target_area
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_target,Datum_target}} that represents the target area {{entity}}'
+  notes:
+    - content: A **Target_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_target,Datum_target}} that specifies an area bounded by a closed {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+          version: '1'
+      type: authoritative
+      id: Datum_and_datum_systems_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Target_area
+  domain: 'application module: Datum_and_datum_systems_arm'
+  language_code: eng
+  annotations: []
+id: 46aa4bb5-e62f-5bb3-980f-91c62f125e7d

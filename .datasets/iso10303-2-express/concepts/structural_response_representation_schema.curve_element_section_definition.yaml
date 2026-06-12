@@ -1,0 +1,31 @@
+data:
+  identifier: structural_response_representation_schema.curve_element_section_definition
+  localized_concepts:
+    eng: 510a6248-a01a-5e0d-89a2-94417c31dfca
+  domains:
+    - concept_id: section-structural_response_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+      ref_type: section
+id: structural_response_representation_schema.curve_element_section_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve element section definition {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_section_definition,curve_element_section_definition}} is the section at a point on the curve element.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+          version: '3'
+      type: authoritative
+      id: structural_response_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: curve_element_section_definition
+  domain: 'resource: structural_response_representation_schema'
+  language_code: eng
+  annotations: []
+id: 510a6248-a01a-5e0d-89a2-94417c31dfca

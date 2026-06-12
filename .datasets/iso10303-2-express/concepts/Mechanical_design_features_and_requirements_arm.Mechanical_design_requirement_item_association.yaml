@@ -1,0 +1,31 @@
+data:
+  identifier: Mechanical_design_features_and_requirements_arm.Mechanical_design_requirement_item_association
+  localized_concepts:
+    eng: fe3a2239-ba71-5570-9dcc-b902c7711b86
+  domains:
+    - concept_id: section-Mechanical_design_features_and_requirements_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+      ref_type: section
+id: Mechanical_design_features_and_requirements_arm.Mechanical_design_requirement_item_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Item_identified_representation_usage,Item_identified_representation_usage}} that represents the mechanical design requirement item association {{entity}}'
+  notes:
+    - content: A **Mechanical_design_requirement_item_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Item_identified_representation_usage,Item_identified_representation_usage}} that assigns a requirement to the product manufacturing information.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+          version: '3'
+      type: authoritative
+      id: Mechanical_design_features_and_requirements_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mechanical_design_requirement_item_association
+  domain: 'application module: Mechanical_design_features_and_requirements_arm'
+  language_code: eng
+  annotations: []
+id: fe3a2239-ba71-5570-9dcc-b902c7711b86

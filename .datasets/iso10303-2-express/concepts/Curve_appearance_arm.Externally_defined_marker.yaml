@@ -1,0 +1,31 @@
+data:
+  identifier: Curve_appearance_arm.Externally_defined_marker
+  localized_concepts:
+    eng: 9ad0d109-9cc2-5205-989e-f55f18af6711
+  domains:
+    - concept_id: section-Curve_appearance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+      ref_type: section
+id: Curve_appearance_arm.Externally_defined_marker
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Marker,Marker}} that represents the externally defined marker {{entity}}'
+  notes:
+    - content: An **Externally_defined_marker** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.Marker,Marker}} defined by an outside source.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+          version: '6'
+      type: authoritative
+      id: Curve_appearance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Externally_defined_marker
+  domain: 'application module: Curve_appearance_arm'
+  language_code: eng
+  annotations: []
+id: 9ad0d109-9cc2-5205-989e-f55f18af6711

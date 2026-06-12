@@ -1,0 +1,31 @@
+data:
+  identifier: classification_schema.complete_membership_of_non_empty_set
+  localized_concepts:
+    eng: 65851c3e-30bc-5632-a9e7-d75c704c3350
+  domains:
+    - concept_id: section-classification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+      ref_type: section
+id: classification_schema.complete_membership_of_non_empty_set
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.complete_membership,complete_membership}} that represents the complete membership of non empty set {{entity}}'
+  notes:
+    - content: A **complete_membership_of_non_empty_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.complete_membership,complete_membership}} for which the {{containing_set,containing_set}} is not the empty set.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+          version: '1'
+      type: authoritative
+      id: classification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: complete_membership_of_non_empty_set
+  domain: 'resource: classification_schema'
+  language_code: eng
+  annotations: []
+id: 65851c3e-30bc-5632-a9e7-d75c704c3350

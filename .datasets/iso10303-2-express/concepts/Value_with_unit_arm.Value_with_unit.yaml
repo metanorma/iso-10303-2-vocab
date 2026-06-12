@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_arm.Value_with_unit
+  localized_concepts:
+    eng: 62505c93-70ef-5e33-b792-c69f02cf1468
+  domains:
+    - concept_id: section-Value_with_unit_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+      ref_type: section
+id: Value_with_unit_arm.Value_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the value with unit {{entity}}'
+  notes:
+    - content: A **Value_with_unit** is the specification of a physical quantity by its value and its unit.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Value_with_unit
+  domain: 'application module: Value_with_unit_arm'
+  language_code: eng
+  annotations: []
+id: 62505c93-70ef-5e33-b792-c69f02cf1468

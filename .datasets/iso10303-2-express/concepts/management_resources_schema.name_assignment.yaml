@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.name_assignment
+  localized_concepts:
+    eng: d2a59757-14e7-5243-af1e-a2653654cbc6
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.name_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the name assignment {{entity}}'
+  notes:
+    - content: A **name_assignment** is an identification of a name used to designate product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: name_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: d2a59757-14e7-5243-af1e-a2653654cbc6

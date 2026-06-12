@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analog_analytical_model_port
+  localized_concepts:
+    eng: bf6e45fe-3f9a-54ac-894d-d711fb84ffaf
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analog_analytical_model_port
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_port,Analytical_model_port}} that represents the analog analytical model port {{entity}}'
+  notes:
+    - content: An **Analog_analytical_model_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_port,Analytical_model_port}} that defines an analog context.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analog_analytical_model_port
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: bf6e45fe-3f9a-54ac-894d-d711fb84ffaf

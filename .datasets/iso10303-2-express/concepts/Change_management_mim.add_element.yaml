@@ -1,0 +1,31 @@
+data:
+  identifier: Change_management_mim.add_element
+  localized_concepts:
+    eng: 976b773d-ad8a-503b-9fab-f5c0474665e5
+  domains:
+    - concept_id: section-Change_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+      ref_type: section
+id: Change_management_mim.add_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}} that represents the add element {{entity}}'
+  notes:
+    - content: An **add_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Add_element,Add_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+          version: '3'
+      type: authoritative
+      id: Change_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: add_element
+  domain: 'application module: Change_management_mim'
+  language_code: eng
+  annotations: []
+id: 976b773d-ad8a-503b-9fab-f5c0474665e5

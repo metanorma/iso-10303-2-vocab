@@ -1,0 +1,31 @@
+data:
+  identifier: shape_data_quality_criteria_schema.shape_data_quality_value_range
+  localized_concepts:
+    eng: ee3c4cdc-4de6-5020-b311-387c14f134b9
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.shape_data_quality_value_range
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the shape data quality value range {{entity}}'
+  notes:
+    - content: A **shape_data_quality_value_range** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that is a pair of numbers representing the range in which the value shall lie for use in specifying thresholds of criteria or accuracies for measurements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: shape_data_quality_value_range
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: ee3c4cdc-4de6-5020-b311-387c14f134b9

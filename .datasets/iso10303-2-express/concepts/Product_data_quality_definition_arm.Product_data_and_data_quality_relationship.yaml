@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_definition_arm.Product_data_and_data_quality_relationship
+  localized_concepts:
+    eng: 86fa4d98-f1c0-5d10-a590-fed7aa97296a
+  domains:
+    - concept_id: section-Product_data_quality_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+      ref_type: section
+id: Product_data_quality_definition_arm.Product_data_and_data_quality_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product data and data quality relationship {{entity}}'
+  notes:
+    - content: A **Product_data_and_data_quality_relationship** is a relationship from a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm.Data_quality_definition,Data_quality_definition}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_definition_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_data_and_data_quality_relationship
+  domain: 'application module: Product_data_quality_definition_arm'
+  language_code: eng
+  annotations: []
+id: 86fa4d98-f1c0-5d10-a590-fed7aa97296a

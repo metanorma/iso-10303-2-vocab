@@ -1,0 +1,31 @@
+data:
+  identifier: Expression_assignment_mim.applied_expression_assignment
+  localized_concepts:
+    eng: c0a289ff-1899-5e89-af18-548b3467730e
+  domains:
+    - concept_id: section-Expression_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_assignment_mim
+      ref_type: section
+id: Expression_assignment_mim.applied_expression_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.expression_assignment,expression_assignment}} that represents the applied expression assignment {{entity}}'
+  notes:
+    - content: An **applied_expression_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.expression_assignment,expression_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.expression,expression}} to instances of entity data types listed in {{expression_assignment_item,expression_assignment_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_assignment_mim
+          version: '2'
+      type: authoritative
+      id: Expression_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_expression_assignment
+  domain: 'application module: Expression_assignment_mim'
+  language_code: eng
+  annotations: []
+id: c0a289ff-1899-5e89-af18-548b3467730e

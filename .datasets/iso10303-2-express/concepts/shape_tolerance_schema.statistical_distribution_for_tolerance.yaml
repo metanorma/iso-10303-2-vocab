@@ -1,0 +1,31 @@
+data:
+  identifier: shape_tolerance_schema.statistical_distribution_for_tolerance
+  localized_concepts:
+    eng: 5e6398a7-a16f-550d-83b0-321b63d7cab6
+  domains:
+    - concept_id: section-shape_tolerance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+      ref_type: section
+id: shape_tolerance_schema.statistical_distribution_for_tolerance
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the statistical distribution for tolerance {{entity}}'
+  notes:
+    - content: A **statistical_distribution_for_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that is defined by a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.measure_representation_item,measure_representation_item}} that provide the set of distribution parameters.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+          version: '8'
+      type: authoritative
+      id: shape_tolerance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: statistical_distribution_for_tolerance
+  domain: 'resource: shape_tolerance_schema'
+  language_code: eng
+  annotations: []
+id: 5e6398a7-a16f-550d-83b0-321b63d7cab6

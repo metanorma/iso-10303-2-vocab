@@ -1,0 +1,31 @@
+data:
+  identifier: Triangulated_shape_data_quality_mim.short_triangle_edge
+  localized_concepts:
+    eng: dd7be079-d511-584d-a23b-d062fd3e0ec3
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+      ref_type: section
+id: Triangulated_shape_data_quality_mim.short_triangle_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that represents the short triangle edge {{entity}}'
+  notes:
+    - content: A **short_triangle_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Short_triangle_edge,Short_triangle_edge}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: short_triangle_edge
+  domain: 'application module: Triangulated_shape_data_quality_mim'
+  language_code: eng
+  annotations: []
+id: dd7be079-d511-584d-a23b-d062fd3e0ec3

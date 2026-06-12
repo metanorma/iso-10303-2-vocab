@@ -1,0 +1,40 @@
+---
+data:
+  identifier: parameterization-and-constraints-for-explicit-geometric-product-models.directed_constraint
+  localized_concepts:
+    eng: 440cfaf6-f8d2-5289-97dd-ea6b80a1d7a8
+  domains:
+  - concept_id: section-parameterization-and-constraints-for-explicit-geometric-product-models
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: ed613f8f-c7bf-52d1-83e7-d57b7489d96d
+schema_version: v3
+---
+data:
+  definition:
+  - content: constraint defined with respect to one or more reference elements, which
+      are not changed by the action of the constraint if it is invoked during the
+      modification of a model
+  examples:
+  - content: Suppose that Line 2 is constrained to be parallel to the reference element
+      Line 1. However, Line 1 may be a constrained element in some other constraint.
+      If the action of the second constraint causes a change in the direction of Line
+      1 then the first constraint should ensure that Line 2 changes correspondingly.
+  - content: The undirected constraint corresponding to the first of the constraints
+      in the previous example would simply assert that "Line 1 and Line 2 are parallel".
+  notes:
+  - content: Following a model transfer, a directed constraint only allows the constrained
+      elements to be modified in such a way that their specified relationship to the
+      reference elements is maintained. On the other hand, modification of one or
+      more reference elements (from the context of the constraint concerned) will
+      lead to compatible changes in all the constrained elements it controls.
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: directed constraint
+  - type: expression
+    normative_status: admitted
+    designation: asymmetrical constraint
+  language_code: eng
+  annotations: []
+id: 440cfaf6-f8d2-5289-97dd-ea6b80a1d7a8

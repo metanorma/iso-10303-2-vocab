@@ -1,0 +1,31 @@
+data:
+  identifier: Cfd_results_arm.Mbna_discrete_data
+  localized_concepts:
+    eng: a07b4c73-0d1d-58b2-8de3-8402a6c61f05
+  domains:
+    - concept_id: section-Cfd_results_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+      ref_type: section
+id: Cfd_results_arm.Mbna_discrete_data
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that represents the mbna discrete data {{entity}}'
+  notes:
+    - content: A **Mbna_discrete_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_result,Mbna_result}} that is generic discrete data (i.e., data defined on a computational grid).
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+          version: '1'
+      type: authoritative
+      id: Cfd_results_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Mbna_discrete_data
+  domain: 'application module: Cfd_results_arm'
+  language_code: eng
+  annotations: []
+id: a07b4c73-0d1d-58b2-8de3-8402a6c61f05

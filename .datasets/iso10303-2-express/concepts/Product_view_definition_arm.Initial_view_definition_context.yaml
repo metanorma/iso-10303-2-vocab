@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_arm.Initial_view_definition_context
+  localized_concepts:
+    eng: ccca1b00-61ca-52c5-8f20-e2dabd1b6ee4
+  domains:
+    - concept_id: section-Product_view_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+      ref_type: section
+id: Product_view_definition_arm.Initial_view_definition_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.View_definition_context,View_definition_context}} that represents the initial view definition context {{entity}}'
+  notes:
+    - content: An **Initial_view_definition_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.View_definition_context,View_definition_context}} that is used as initial context for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+          version: '5'
+      type: authoritative
+      id: Product_view_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Initial_view_definition_context
+  domain: 'application module: Product_view_definition_arm'
+  language_code: eng
+  annotations: []
+id: ccca1b00-61ca-52c5-8f20-e2dabd1b6ee4

@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.General_removal_volume
+  localized_concepts:
+    eng: d138b3a0-f030-5229-b712-0fd1465f064d
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.General_removal_volume
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that represents the general removal volume {{entity}}'
+  notes:
+    - content: A **General_removal_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that is an enclosed volume of arbitrary shape that shall be removed from the part.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: General_removal_volume
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: d138b3a0-f030-5229-b712-0fd1465f064d

@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_quality_inspection_result_schema.data_quality_inspection_criterion_report
+  localized_concepts:
+    eng: 7c2dc99b-a3ab-5304-9f63-8a2d265b124a
+  domains:
+    - concept_id: section-product_data_quality_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema
+      ref_type: section
+id: product_data_quality_inspection_result_schema.data_quality_inspection_criterion_report
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_report,data_quality_inspection_report}} that represents the data quality inspection criterion report {{entity}}'
+  notes:
+    - content: A **data_quality_inspection_criterion_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_report,data_quality_inspection_report}} that represents summary information of the inspection results for one specific criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: product_data_quality_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_quality_inspection_criterion_report
+  domain: 'resource: product_data_quality_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 7c2dc99b-a3ab-5304-9f63-8a2d265b124a

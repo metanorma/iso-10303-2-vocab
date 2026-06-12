@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_arm.Date_time_representation_item
+  localized_concepts:
+    eng: dbbe5dc8-412b-53a3-b62b-19ae5d18f641
+  domains:
+    - concept_id: section-Basic_data_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+      ref_type: section
+id: Basic_data_representation_arm.Date_time_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the date time representation item {{entity}}'
+  notes:
+    - content: A **Date_time_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} whose value is {{date_or_date_time_select,date_or_date_time_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Date_time_representation_item
+  domain: 'application module: Basic_data_representation_arm'
+  language_code: eng
+  annotations: []
+id: dbbe5dc8-412b-53a3-b62b-19ae5d18f641

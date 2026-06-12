@@ -1,0 +1,31 @@
+data:
+  identifier: qualified_measure_schema.value_format_type_qualifier
+  localized_concepts:
+    eng: e3b63ada-99f1-51f4-87ac-b58eafc826d7
+  domains:
+    - concept_id: section-qualified_measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+      ref_type: section
+id: qualified_measure_schema.value_format_type_qualifier
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the value format type qualifier {{entity}}'
+  notes:
+    - content: A **value_format_type_qualifier** is the specification of the length and pattern of the recommended presentation on media of a value, including exchange data explicit format.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+          version: '4'
+      type: authoritative
+      id: qualified_measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: value_format_type_qualifier
+  domain: 'resource: qualified_measure_schema'
+  language_code: eng
+  annotations: []
+id: e3b63ada-99f1-51f4-87ac-b58eafc826d7

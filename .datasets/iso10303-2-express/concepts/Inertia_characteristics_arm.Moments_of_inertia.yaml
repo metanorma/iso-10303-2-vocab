@@ -1,0 +1,31 @@
+data:
+  identifier: Inertia_characteristics_arm.Moments_of_inertia
+  localized_concepts:
+    eng: 36da2859-4a80-5074-a249-271f9fb92382
+  domains:
+    - concept_id: section-Inertia_characteristics_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_arm
+      ref_type: section
+id: Inertia_characteristics_arm.Moments_of_inertia
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_dependent_property_representation,Shape_dependent_property_representation}} that represents the moments of inertia {{entity}}'
+  notes:
+    - content: A **Moments_of_inertia** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_dependent_property_representation,Shape_dependent_property_representation}} which measures the solid's ability to resist changes in rotational speed about a specific axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Inertia_characteristics_arm
+          version: '3'
+      type: authoritative
+      id: Inertia_characteristics_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Moments_of_inertia
+  domain: 'application module: Inertia_characteristics_arm'
+  language_code: eng
+  annotations: []
+id: 36da2859-4a80-5074-a249-271f9fb92382

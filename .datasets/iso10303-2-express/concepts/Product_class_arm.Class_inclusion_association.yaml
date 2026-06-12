@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_arm.Class_inclusion_association
+  localized_concepts:
+    eng: e708c55f-2cd1-5f2b-bea9-55de81d30136
+  domains:
+    - concept_id: section-Product_class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+      ref_type: section
+id: Product_class_arm.Class_inclusion_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class inclusion association {{entity}}'
+  notes:
+    - content: A **Class_inclusion_association** is the assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification_inclusion,Specification_inclusion}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Product_class,Product_class}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+          version: '6'
+      type: authoritative
+      id: Product_class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Class_inclusion_association
+  domain: 'application module: Product_class_arm'
+  language_code: eng
+  annotations: []
+id: e708c55f-2cd1-5f2b-bea9-55de81d30136

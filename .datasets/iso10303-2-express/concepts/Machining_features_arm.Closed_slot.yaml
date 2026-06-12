@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Closed_slot
+  localized_concepts:
+    eng: 453af9e5-01af-5257-9d0c-6477f50a48e1
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Closed_slot
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot,Slot}} that represents the closed slot {{entity}}'
+  notes:
+    - content: A **Closed_slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot,Slot}} that has a course of travel defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Path_feature_component,Path_feature_component}} that is closed and has no opening.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Closed_slot
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 453af9e5-01af-5257-9d0c-6477f50a48e1

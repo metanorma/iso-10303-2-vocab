@@ -1,0 +1,31 @@
+data:
+  identifier: Electrical_network_definition_arm.Electrical_network_definition
+  localized_concepts:
+    eng: 4283a3af-2533-5e28-b2e3-3a90e3157fc0
+  domains:
+    - concept_id: section-Electrical_network_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_arm
+      ref_type: section
+id: Electrical_network_definition_arm.Electrical_network_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}} that represents the electrical network definition {{entity}}'
+  notes:
+    - content: An **Electrical_network_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}} that identifes that the nodes in the network definition default to voltage as the nodal property.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_arm
+          version: '1'
+      type: authoritative
+      id: Electrical_network_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Electrical_network_definition
+  domain: 'application module: Electrical_network_definition_arm'
+  language_code: eng
+  annotations: []
+id: 4283a3af-2533-5e28-b2e3-3a90e3157fc0

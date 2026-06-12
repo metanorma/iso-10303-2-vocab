@@ -1,0 +1,31 @@
+data:
+  identifier: Contract_mim.applied_contract_assignment
+  localized_concepts:
+    eng: e6862480-8304-519e-b733-09de223f70d3
+  domains:
+    - concept_id: section-Contract_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contract_mim
+      ref_type: section
+id: Contract_mim.applied_contract_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that represents the applied contract assignment {{entity}}'
+  notes:
+    - content: An **applied_contract_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema.contract,contract}} with activity or product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contract_mim
+          version: '3'
+      type: authoritative
+      id: Contract_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_contract_assignment
+  domain: 'application module: Contract_mim'
+  language_code: eng
+  annotations: []
+id: e6862480-8304-519e-b733-09de223f70d3

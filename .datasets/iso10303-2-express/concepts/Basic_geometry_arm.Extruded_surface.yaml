@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Extruded_surface
+  localized_concepts:
+    eng: 9775600d-9949-5773-b8ea-46d83e5f9d3f
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Extruded_surface
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Swept_surface,Swept_surface}} that represents the extruded surface {{entity}}'
+  notes:
+    - content: An **Extruded_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Swept_surface,Swept_surface}} that is the result of sweeping the {{swept_curve,swept_curve}} in the direction of the {{extrusion_axis,extrusion_axis}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Extruded_surface
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 9775600d-9949-5773-b8ea-46d83e5f9d3f

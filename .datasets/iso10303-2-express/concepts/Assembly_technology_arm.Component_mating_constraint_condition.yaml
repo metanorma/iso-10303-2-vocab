@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_technology_arm.Component_mating_constraint_condition
+  localized_concepts:
+    eng: 665e6422-28bb-5a83-941d-feb76ff124c3
+  domains:
+    - concept_id: section-Assembly_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+      ref_type: section
+id: Assembly_technology_arm.Component_mating_constraint_condition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component mating constraint condition {{entity}}'
+  notes:
+    - content: A **Component_mating_constraint_condition** is a means to identify the degrees of freedom that have been constrained by a set of members of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+          version: '5'
+      type: authoritative
+      id: Assembly_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Component_mating_constraint_condition
+  domain: 'application module: Assembly_technology_arm'
+  language_code: eng
+  annotations: []
+id: 665e6422-28bb-5a83-941d-feb76ff124c3

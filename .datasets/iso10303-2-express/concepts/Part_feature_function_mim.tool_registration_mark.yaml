@@ -1,0 +1,31 @@
+data:
+  identifier: Part_feature_function_mim.tool_registration_mark
+  localized_concepts:
+    eng: 2ae7bfb0-75e8-5c7a-a97f-9a598d133658
+  domains:
+    - concept_id: section-Part_feature_function_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_mim
+      ref_type: section
+id: Part_feature_function_mim.tool_registration_mark
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_mim.part_tooling_feature,part_tooling_feature}} that represents the tool registration mark {{entity}}'
+  notes:
+    - content: A **tool_registration_mark** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_mim.part_tooling_feature,part_tooling_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm.Tool_registration_mark,Tool_registration_mark}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_mim
+          version: '4'
+      type: authoritative
+      id: Part_feature_function_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tool_registration_mark
+  domain: 'application module: Part_feature_function_mim'
+  language_code: eng
+  annotations: []
+id: 2ae7bfb0-75e8-5c7a-a97f-9a598d133658

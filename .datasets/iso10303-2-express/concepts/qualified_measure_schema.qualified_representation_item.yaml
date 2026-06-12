@@ -1,0 +1,31 @@
+data:
+  identifier: qualified_measure_schema.qualified_representation_item
+  localized_concepts:
+    eng: b818e703-3d52-5b25-afb6-b5b1c152cd6c
+  domains:
+    - concept_id: section-qualified_measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+      ref_type: section
+id: qualified_measure_schema.qualified_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the qualified representation item {{entity}}'
+  notes:
+    - content: A **qualified_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} for which qualifiers are defined to describe its reliability and/or uncertainty.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+          version: '4'
+      type: authoritative
+      id: qualified_measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: qualified_representation_item
+  domain: 'resource: qualified_measure_schema'
+  language_code: eng
+  annotations: []
+id: b818e703-3d52-5b25-afb6-b5b1c152cd6c

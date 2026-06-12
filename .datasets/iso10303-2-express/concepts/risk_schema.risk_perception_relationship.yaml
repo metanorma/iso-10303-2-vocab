@@ -1,0 +1,31 @@
+data:
+  identifier: risk_schema.risk_perception_relationship
+  localized_concepts:
+    eng: 5b97a482-f0fb-51a3-8416-04ea61d33c5e
+  domains:
+    - concept_id: section-risk_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+      ref_type: section
+id: risk_schema.risk_perception_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the risk perception relationship {{entity}}'
+  notes:
+    - content: A **risk_perception_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that relates two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}} and provides an identification and description of their relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+          version: '1'
+      type: authoritative
+      id: risk_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: risk_perception_relationship
+  domain: 'resource: risk_schema'
+  language_code: eng
+  annotations: []
+id: 5b97a482-f0fb-51a3-8416-04ea61d33c5e

@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_geometry_arm.Hyperbola
+  localized_concepts:
+    eng: 11b4057a-44dc-5dd2-a180-751f9c7b5739
+  domains:
+    - concept_id: section-Basic_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+      ref_type: section
+id: Basic_geometry_arm.Hyperbola
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} that represents the hyperbola {{entity}}'
+  notes:
+    - content: An **Hyperbola** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} which is a curve with two branches produced by intersecting a double cone with a plane at an acute angle to its central axis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Basic_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Hyperbola
+  domain: 'application module: Basic_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 11b4057a-44dc-5dd2-a180-751f9c7b5739

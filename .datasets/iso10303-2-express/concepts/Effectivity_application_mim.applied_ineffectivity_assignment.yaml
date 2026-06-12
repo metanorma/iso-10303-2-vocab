@@ -1,0 +1,31 @@
+data:
+  identifier: Effectivity_application_mim.applied_ineffectivity_assignment
+  localized_concepts:
+    eng: 2ee793f2-51dd-5b6c-947c-6fb99d837429
+  domains:
+    - concept_id: section-Effectivity_application_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_application_mim
+      ref_type: section
+id: Effectivity_application_mim.applied_ineffectivity_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_assignment,effectivity_assignment}} that represents the applied ineffectivity assignment {{entity}}'
+  notes:
+    - content: An **applied_ineffectivity_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_assignment,effectivity_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_application_arm.Ineffectivity_assignment,Ineffectivity_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_application_mim
+          version: '2'
+      type: authoritative
+      id: Effectivity_application_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_ineffectivity_assignment
+  domain: 'application module: Effectivity_application_mim'
+  language_code: eng
+  annotations: []
+id: 2ee793f2-51dd-5b6c-947c-6fb99d837429

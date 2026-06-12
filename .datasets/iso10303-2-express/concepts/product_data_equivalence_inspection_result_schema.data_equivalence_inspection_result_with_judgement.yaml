@@ -1,0 +1,31 @@
+data:
+  identifier: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_with_judgement
+  localized_concepts:
+    eng: 86485b57-53ce-5ec2-8826-835a59c173cb
+  domains:
+    - concept_id: section-product_data_equivalence_inspection_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+      ref_type: section
+id: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_with_judgement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result,data_equivalence_inspection_result}} that represents the data equivalence inspection result with judgement {{entity}}'
+  notes:
+    - content: A **data_equivalence_inspection_result_with_judgement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result,data_equivalence_inspection_result}} that contains information on whether the data inspected has passed or failed the test for the criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+          version: '2'
+      type: authoritative
+      id: product_data_equivalence_inspection_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: data_equivalence_inspection_result_with_judgement
+  domain: 'resource: product_data_equivalence_inspection_result_schema'
+  language_code: eng
+  annotations: []
+id: 86485b57-53ce-5ec2-8826-835a59c173cb

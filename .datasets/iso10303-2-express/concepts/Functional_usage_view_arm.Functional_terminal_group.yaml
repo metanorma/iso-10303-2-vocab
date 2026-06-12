@@ -1,0 +1,31 @@
+data:
+  identifier: Functional_usage_view_arm.Functional_terminal_group
+  localized_concepts:
+    eng: 1cc77b2f-e20f-56d1-9046-cb00c9e4f9ef
+  domains:
+    - concept_id: section-Functional_usage_view_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+      ref_type: section
+id: Functional_usage_view_arm.Functional_terminal_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the functional terminal group {{entity}}'
+  notes:
+    - content: A **Functional_terminal_group** is a group of terminals that have common characteristics and can be acted upon as a group.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+          version: '5'
+      type: authoritative
+      id: Functional_usage_view_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Functional_terminal_group
+  domain: 'application module: Functional_usage_view_arm'
+  language_code: eng
+  annotations: []
+id: 1cc77b2f-e20f-56d1-9046-cb00c9e4f9ef

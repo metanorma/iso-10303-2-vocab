@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Explicit_geometric_constraint
+  localized_concepts:
+    eng: d26a6e23-c87f-5388-ad1b-9497bd705ba9
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Explicit_geometric_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the explicit geometric constraint {{entity}}'
+  notes:
+    - content: An **Explicit_geometric_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Defined_constraint,Defined_constraint}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} is the generic supertype of all explicit geometric constraints.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Explicit_geometric_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: d26a6e23-c87f-5388-ad1b-9497bd705ba9

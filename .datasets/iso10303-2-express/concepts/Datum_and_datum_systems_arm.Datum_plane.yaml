@@ -1,0 +1,31 @@
+data:
+  identifier: Datum_and_datum_systems_arm.Datum_plane
+  localized_concepts:
+    eng: b93c63a3-2fa5-5563-92c5-5b9d50544695
+  domains:
+    - concept_id: section-Datum_and_datum_systems_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+      ref_type: section
+id: Datum_and_datum_systems_arm.Datum_plane
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum,Datum}} that represents the datum plane {{entity}}'
+  notes:
+    - content: A **Datum_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum,Datum}} that is also a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+          version: '1'
+      type: authoritative
+      id: Datum_and_datum_systems_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Datum_plane
+  domain: 'application module: Datum_and_datum_systems_arm'
+  language_code: eng
+  annotations: []
+id: b93c63a3-2fa5-5563-92c5-5b9d50544695

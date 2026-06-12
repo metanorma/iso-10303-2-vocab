@@ -1,0 +1,31 @@
+data:
+  identifier: Textual_expression_representation_arm.Included_text_based_representation
+  localized_concepts:
+    eng: e39f8fb0-c5cc-5fe1-be55-777ab9fe3148
+  domains:
+    - concept_id: section-Textual_expression_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
+      ref_type: section
+id: Textual_expression_representation_arm.Included_text_based_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the included text based representation {{entity}}'
+  notes:
+    - content: A **Included_text_based_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} where one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm.Text_based_representation,Text_based_representation}} is included as a constituent of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
+          version: '1'
+      type: authoritative
+      id: Textual_expression_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Included_text_based_representation
+  domain: 'application module: Textual_expression_representation_arm'
+  language_code: eng
+  annotations: []
+id: e39f8fb0-c5cc-5fe1-be55-777ab9fe3148

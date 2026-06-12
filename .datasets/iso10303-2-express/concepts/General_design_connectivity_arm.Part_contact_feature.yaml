@@ -1,0 +1,31 @@
+data:
+  identifier: General_design_connectivity_arm.Part_contact_feature
+  localized_concepts:
+    eng: 493b4744-63eb-5043-a873-fbe2bc02ace1
+  domains:
+    - concept_id: section-General_design_connectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+      ref_type: section
+id: General_design_connectivity_arm.Part_contact_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that represents the part contact feature {{entity}}'
+  notes:
+    - content: A **Part_contact_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that is intended to be joined with another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} when used in an assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+          version: '4'
+      type: authoritative
+      id: General_design_connectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_contact_feature
+  domain: 'application module: General_design_connectivity_arm'
+  language_code: eng
+  annotations: []
+id: 493b4744-63eb-5043-a873-fbe2bc02ace1

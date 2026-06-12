@@ -1,0 +1,31 @@
+data:
+  identifier: Primitive_solids_arm.Ellipsoid
+  localized_concepts:
+    eng: c4fe4fce-b44e-5880-b24e-326b9f71a4ac
+  domains:
+    - concept_id: section-Primitive_solids_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+      ref_type: section
+id: Primitive_solids_arm.Ellipsoid
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the ellipsoid {{entity}}'
+  notes:
+    - content: An **Ellipsoid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} which is a type of CSG primitive in the form of a solid ellipsoid.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+          version: '4'
+      type: authoritative
+      id: Primitive_solids_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Ellipsoid
+  domain: 'application module: Primitive_solids_arm'
+  language_code: eng
+  annotations: []
+id: c4fe4fce-b44e-5880-b24e-326b9f71a4ac

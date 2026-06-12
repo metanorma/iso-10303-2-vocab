@@ -1,0 +1,31 @@
+data:
+  identifier: Project_management_mim.prjm_characterizable_product_concept
+  localized_concepts:
+    eng: 48adb305-3fb3-53a0-a368-c0d52992db28
+  domains:
+    - concept_id: section-Project_management_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+      ref_type: section
+id: Project_management_mim.prjm_characterizable_product_concept
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the prjm characterizable product concept {{entity}}'
+  notes:
+    - content: A **prjm_characterizable_product_concept** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+          version: '2'
+      type: authoritative
+      id: Project_management_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: prjm_characterizable_product_concept
+  domain: 'application module: Project_management_mim'
+  language_code: eng
+  annotations: []
+id: 48adb305-3fb3-53a0-a368-c0d52992db28

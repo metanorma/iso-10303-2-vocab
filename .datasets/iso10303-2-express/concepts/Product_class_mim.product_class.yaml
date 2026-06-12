@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_mim.product_class
+  localized_concepts:
+    eng: 3b5f4752-0101-560d-ae06-c8eed9e3bfb8
+  domains:
+    - concept_id: section-Product_class_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+      ref_type: section
+id: Product_class_mim.product_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product class {{entity}}'
+  notes:
+    - content: A **product_class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that is the identification of a set of similar products to be offered to the market.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+          version: '6'
+      type: authoritative
+      id: Product_class_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_class
+  domain: 'application module: Product_class_mim'
+  language_code: eng
+  annotations: []
+id: 3b5f4752-0101-560d-ae06-c8eed9e3bfb8

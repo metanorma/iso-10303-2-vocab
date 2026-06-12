@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.named_unit
+  localized_concepts:
+    eng: a8d1dece-1f41-5243-95d6-5853da5eb909
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.named_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the named unit {{entity}}'
+  notes:
+    - content: A **named_unit** is a unit quantity.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: named_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: a8d1dece-1f41-5243-95d6-5853da5eb909

@@ -1,0 +1,30 @@
+data:
+  identifier: geometric_model_schema.tessellated_connecting_edge
+  localized_concepts:
+    eng: ecc8e69c-7c91-5b48-9a32-4af18d86e9e8
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.tessellated_connecting_edge
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_edge,tessellated_edge}} that represents the tessellated connecting edge {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: tessellated_connecting_edge
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: ecc8e69c-7c91-5b48-9a32-4af18d86e9e8

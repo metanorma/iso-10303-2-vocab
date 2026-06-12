@@ -1,0 +1,31 @@
+data:
+  identifier: Ply_orientation_specification_mim.ply_orientation_angle
+  localized_concepts:
+    eng: f46b13b6-72b2-56fa-8317-d913489a7bdd
+  domains:
+    - concept_id: section-Ply_orientation_specification_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+      ref_type: section
+id: Ply_orientation_specification_mim.ply_orientation_angle
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the ply orientation angle {{entity}}'
+  notes:
+    - content: A **ply_orientation_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} for the purpose of specifying a ply orientation angle.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+          version: '4'
+      type: authoritative
+      id: Ply_orientation_specification_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ply_orientation_angle
+  domain: 'application module: Ply_orientation_specification_mim'
+  language_code: eng
+  annotations: []
+id: f46b13b6-72b2-56fa-8317-d913489a7bdd

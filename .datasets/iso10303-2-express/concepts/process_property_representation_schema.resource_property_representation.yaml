@@ -1,0 +1,31 @@
+data:
+  identifier: process_property_representation_schema.resource_property_representation
+  localized_concepts:
+    eng: 85209e57-2172-5374-9c93-b32e8e810679
+  domains:
+    - concept_id: section-process_property_representation_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_representation_schema
+      ref_type: section
+id: process_property_representation_schema.resource_property_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource property representation {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_representation_schema.resource_property_representation,resource_property_representation}} is the representation of the property of a resource.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_representation_schema
+          version: '1'
+      type: authoritative
+      id: process_property_representation_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: resource_property_representation
+  domain: 'resource: process_property_representation_schema'
+  language_code: eng
+  annotations: []
+id: 85209e57-2172-5374-9c93-b32e8e810679

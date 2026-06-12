@@ -1,0 +1,26 @@
+---
+data:
+  identifier: standard-data-access-interfaces.aggregate-dependent
+  localized_concepts:
+    eng: 1d2c192f-4c41-56a5-9045-d992db998915
+  domains:
+  - concept_id: section-standard-data-access-interfaces
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: 2495ef68-6195-5185-8e3e-0f20649ddb41
+schema_version: v3
+---
+data:
+  definition:
+  - content: base type of an entity attribute or an aggregation type is aggregate-dependent
+      if the aggregate value, returned by the EXPRESS `TypeOf` function for this base
+      type contains the name of a defined type whose underlying type is an aggregation
+      data type or if the base type is directly an aggregation type
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: aggregate-dependent
+  domain: Standard data access interface Java binding
+  language_code: eng
+  annotations: []
+id: 1d2c192f-4c41-56a5-9045-d992db998915

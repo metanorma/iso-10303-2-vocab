@@ -1,0 +1,31 @@
+data:
+  identifier: Component_grouping_mim.linear_array_placement_group_component
+  localized_concepts:
+    eng: ddd23a78-ecfe-5fec-b912-3d03d7f1e49e
+  domains:
+    - concept_id: section-Component_grouping_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+      ref_type: section
+id: Component_grouping_mim.linear_array_placement_group_component
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.array_placement_group,array_placement_group}} that represents the linear array placement group component {{entity}}'
+  notes:
+    - content: A **linear_array_placement_group_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.array_placement_group,array_placement_group}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Linear_array_placement_group_component,Linear_array_placement_group_component}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+          version: '6'
+      type: authoritative
+      id: Component_grouping_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: linear_array_placement_group_component
+  domain: 'application module: Component_grouping_mim'
+  language_code: eng
+  annotations: []
+id: ddd23a78-ecfe-5fec-b912-3d03d7f1e49e

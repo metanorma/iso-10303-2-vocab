@@ -1,0 +1,31 @@
+data:
+  identifier: Stock_material_arm.Isotropic_material
+  localized_concepts:
+    eng: c19f7050-ff0f-5688-9423-7a5bd82dc0fc
+  domains:
+    - concept_id: section-Stock_material_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+      ref_type: section
+id: Stock_material_arm.Isotropic_material
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that represents the isotropic material {{entity}}'
+  notes:
+    - content: A **Isotropic_material** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that is made up of a single uniform internal structure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+          version: '3'
+      type: authoritative
+      id: Stock_material_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Isotropic_material
+  domain: 'application module: Stock_material_arm'
+  language_code: eng
+  annotations: []
+id: c19f7050-ff0f-5688-9423-7a5bd82dc0fc

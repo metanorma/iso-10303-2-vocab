@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_assignment_arm.Classification_assignment_relationship
+  localized_concepts:
+    eng: 5bf0d32d-304a-5747-9a73-9e83c143d0e1
+  domains:
+    - concept_id: section-Classification_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm
+      ref_type: section
+id: Classification_assignment_arm.Classification_assignment_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the classification assignment relationship {{entity}}'
+  notes:
+    - content: A **Classification_assignment_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm.Classification_assignment,Classification_assignment}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm
+          version: '3'
+      type: authoritative
+      id: Classification_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Classification_assignment_relationship
+  domain: 'application module: Classification_assignment_arm'
+  language_code: eng
+  annotations: []
+id: 5bf0d32d-304a-5747-9a73-9e83c143d0e1

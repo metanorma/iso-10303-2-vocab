@@ -1,0 +1,31 @@
+data:
+  identifier: kinematic_structure_schema.high_order_kinematic_pair
+  localized_concepts:
+    eng: d8b9911a-ea25-5950-90d3-b5e8d8bce035
+  domains:
+    - concept_id: section-kinematic_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+      ref_type: section
+id: kinematic_structure_schema.high_order_kinematic_pair
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}} that represents the high order kinematic pair {{entity}}'
+  notes:
+    - content: A **high_order_kinematic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}} that requires references to one or more surfaces or curves in order to be defined kinematically.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+          version: '4'
+      type: authoritative
+      id: kinematic_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: high_order_kinematic_pair
+  domain: 'resource: kinematic_structure_schema'
+  language_code: eng
+  annotations: []
+id: d8b9911a-ea25-5950-90d3-b5e8d8bce035

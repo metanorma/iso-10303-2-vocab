@@ -1,0 +1,30 @@
+data:
+  identifier: Cardinality_of_relationship_mim.cardinality_of_relating_class
+  localized_concepts:
+    eng: 42f447c1-71af-5836-814d-d2f7d8dc30aa
+  domains:
+    - concept_id: section-Cardinality_of_relationship_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_mim
+      ref_type: section
+id: Cardinality_of_relationship_mim.cardinality_of_relating_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}} that represents the cardinality of relating class {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_mim
+          version: '1'
+      type: authoritative
+      id: Cardinality_of_relationship_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: cardinality_of_relating_class
+  domain: 'application module: Cardinality_of_relationship_mim'
+  language_code: eng
+  annotations: []
+id: 42f447c1-71af-5836-814d-d2f7d8dc30aa

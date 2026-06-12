@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.First_chamfer_offset
+  localized_concepts:
+    eng: ff9315a8-92a7-5721-bd59-07202987b77d
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.First_chamfer_offset
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the first chamfer offset {{entity}}'
+  notes:
+    - content: A **First_chamfer_offset** is an amount of length offset from a face for creating a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Chamfer,Chamfer}} feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: First_chamfer_offset
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: ff9315a8-92a7-5721-bd59-07202987b77d

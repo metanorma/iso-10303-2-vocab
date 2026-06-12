@@ -1,0 +1,30 @@
+data:
+  identifier: Task_specification_arm.Task_method
+  localized_concepts:
+    eng: 50b8c216-f37f-532f-a8e2-9fea1ae4f292
+  domains:
+    - concept_id: section-Task_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+      ref_type: section
+id: Task_specification_arm.Task_method
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}} that represents the task method {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+          version: '2'
+      type: authoritative
+      id: Task_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Task_method
+  domain: 'application module: Task_specification_arm'
+  language_code: eng
+  annotations: []
+id: 50b8c216-f37f-532f-a8e2-9fea1ae4f292

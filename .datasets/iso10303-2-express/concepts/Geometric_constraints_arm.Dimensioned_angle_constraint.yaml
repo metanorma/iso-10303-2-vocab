@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Dimensioned_angle_constraint
+  localized_concepts:
+    eng: b6b6b2ee-1ef8-5458-83cf-05ad5851018f
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Dimensioned_angle_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Angle_geometric_constraint,Angle_geometric_constraint}} that represents the dimensioned angle constraint {{entity}}'
+  notes:
+    - content: A **Dimensioned_angle_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Angle_geometric_constraint,Angle_geometric_constraint}} that specifies a dimensional value for an angular constraint relationship.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensioned_angle_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: b6b6b2ee-1ef8-5458-83cf-05ad5851018f

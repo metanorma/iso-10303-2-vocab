@@ -1,0 +1,31 @@
+data:
+  identifier: Geometric_constraints_arm.Swept_point_curve_constraint
+  localized_concepts:
+    eng: 715eb425-2866-579b-aa7b-950bd7d994a6
+  domains:
+    - concept_id: section-Geometric_constraints_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+      ref_type: section
+id: Geometric_constraints_arm.Swept_point_curve_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that represents the swept point curve constraint {{entity}}'
+  notes:
+    - content: A **Swept_point_curve_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} intended for application in the exchange of a computed explicit configuration corresponding to any subtype of data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Swept_solid,Swept_solid}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+          version: '2'
+      type: authoritative
+      id: Geometric_constraints_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Swept_point_curve_constraint
+  domain: 'application module: Geometric_constraints_arm'
+  language_code: eng
+  annotations: []
+id: 715eb425-2866-579b-aa7b-950bd7d994a6

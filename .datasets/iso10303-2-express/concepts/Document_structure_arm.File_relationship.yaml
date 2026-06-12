@@ -1,0 +1,31 @@
+data:
+  identifier: Document_structure_arm.File_relationship
+  localized_concepts:
+    eng: b53d663a-95b6-5d85-812c-6a38662ee3ed
+  domains:
+    - concept_id: section-Document_structure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
+      ref_type: section
+id: Document_structure_arm.File_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the file relationship {{entity}}'
+  notes:
+    - content: A **File_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
+          version: '1'
+      type: authoritative
+      id: Document_structure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: File_relationship
+  domain: 'application module: Document_structure_arm'
+  language_code: eng
+  annotations: []
+id: b53d663a-95b6-5d85-812c-6a38662ee3ed

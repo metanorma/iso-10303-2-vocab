@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.final_solution
+  localized_concepts:
+    eng: f17b1a30-32ba-59a9-b1ea-df124d957260
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.final_solution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the final solution {{entity}}'
+  notes:
+    - content: A **final_solution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} and is a set of additional sensual characteristics that can be applied to an occurrence that represents a neutral part in order to complete its definition.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: final_solution
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: f17b1a30-32ba-59a9-b1ea-df124d957260

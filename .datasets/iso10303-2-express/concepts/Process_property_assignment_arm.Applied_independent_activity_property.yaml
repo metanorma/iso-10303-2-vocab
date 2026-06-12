@@ -1,0 +1,31 @@
+data:
+  identifier: Process_property_assignment_arm.Applied_independent_activity_property
+  localized_concepts:
+    eng: db8a4196-6800-572e-9ac9-19e0a86d5a1e
+  domains:
+    - concept_id: section-Process_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+      ref_type: section
+id: Process_property_assignment_arm.Applied_independent_activity_property
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} that represents the applied independent activity property {{entity}}'
+  notes:
+    - content: An **Applied_independent_activity_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} that is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm.Activity_property,Activity_property}} with an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_property_assignment_arm
+          version: '2'
+      type: authoritative
+      id: Process_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Applied_independent_activity_property
+  domain: 'application module: Process_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: db8a4196-6800-572e-9ac9-19e0a86d5a1e

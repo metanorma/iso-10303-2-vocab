@@ -1,0 +1,30 @@
+data:
+  identifier: draughting_element_schema.draughting_model_item_association
+  localized_concepts:
+    eng: 189971e9-b5aa-5c43-b704-907c4a70a7dc
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.draughting_model_item_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.item_identified_representation_usage,item_identified_representation_usage}} that represents the draughting model item association {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: draughting_model_item_association
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: 189971e9-b5aa-5c43-b704-907c4a70a7dc

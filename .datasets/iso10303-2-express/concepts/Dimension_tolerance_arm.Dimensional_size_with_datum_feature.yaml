@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Dimensional_size_with_datum_feature
+  localized_concepts:
+    eng: 2c42f53f-6c37-520f-9e08-3252f213970a
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Dimensional_size_with_datum_feature
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimensional size with datum feature {{entity}}'
+  notes:
+    - content: A **Dimensional_size_with_datum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_feature,Datum_feature}} and type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensional_size_with_datum_feature
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 2c42f53f-6c37-520f-9e08-3252f213970a

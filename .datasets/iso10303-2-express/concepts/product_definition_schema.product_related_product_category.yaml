@@ -1,0 +1,31 @@
+data:
+  identifier: product_definition_schema.product_related_product_category
+  localized_concepts:
+    eng: 098c0e7a-a369-52f0-a485-401543d2396b
+  domains:
+    - concept_id: section-product_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+      ref_type: section
+id: product_definition_schema.product_related_product_category
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_category,product_category}} that represents the product related product category {{entity}}'
+  notes:
+    - content: A **product_related_product_category** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_category,product_category}} that identifies products that satisfy the type identified by the category.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_related_product_category
+  domain: 'resource: product_definition_schema'
+  language_code: eng
+  annotations: []
+id: 098c0e7a-a369-52f0-a485-401543d2396b

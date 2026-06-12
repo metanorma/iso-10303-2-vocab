@@ -1,0 +1,31 @@
+data:
+  identifier: topology_based_identification_schema.ambiguity_resolution
+  localized_concepts:
+    eng: 2412f987-9155-51ab-a36c-857050fc3d85
+  domains:
+    - concept_id: section-topology_based_identification_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+      ref_type: section
+id: topology_based_identification_schema.ambiguity_resolution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the ambiguity resolution {{entity}}'
+  notes:
+    - content: An **ambiguity_resolution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that specifies the information needed to resolve the ambiguity between the topological entities having the same basic identification in the old model (pre-edit model) and new model (post-edit model).
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+          version: '1'
+      type: authoritative
+      id: topology_based_identification_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: ambiguity_resolution
+  domain: 'resource: topology_based_identification_schema'
+  language_code: eng
+  annotations: []
+id: 2412f987-9155-51ab-a36c-857050fc3d85

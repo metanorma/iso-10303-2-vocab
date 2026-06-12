@@ -1,0 +1,33 @@
+data:
+  identifier: Shape_data_quality_inspection_result_arm.Composite_curve_transition_locator
+  localized_concepts:
+    eng: 7deee644-c40e-57a5-bb7c-04683efd3b47
+  domains:
+    - concept_id: section-Shape_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+      ref_type: section
+id: Shape_data_quality_inspection_result_arm.Composite_curve_transition_locator
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the composite curve transition locator {{entity}}'
+  notes:
+    - content: |-
+        A **Composite_curve_transition_locator** is the representation of
+        a location by specifying an index of connecting point between two segments in the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Composite_curve,Composite_curve}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Shape_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Composite_curve_transition_locator
+  domain: 'application module: Shape_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 7deee644-c40e-57a5-bb7c-04683efd3b47

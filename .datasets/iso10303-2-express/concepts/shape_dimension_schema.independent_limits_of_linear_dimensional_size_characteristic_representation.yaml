@@ -1,0 +1,31 @@
+data:
+  identifier: shape_dimension_schema.independent_limits_of_linear_dimensional_size_characteristic_representation
+  localized_concepts:
+    eng: 06001749-780e-5f50-b9b3-62b4e5bfaa2d
+  domains:
+    - concept_id: section-shape_dimension_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+      ref_type: section
+id: shape_dimension_schema.independent_limits_of_linear_dimensional_size_characteristic_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_characteristic_representation,dimensional_characteristic_representation}} that represents the independent limits of linear dimensional size characteristic representation {{entity}}'
+  notes:
+    - content: An **independent_limits_of_linear_dimensional_size_characteristic_representation** is a type of **dimensional_characteristic_representation** that suppors size dimensions and that provides independent properties of a sequence of limits of size to support use cases where predefined explicit data structure is infeasible.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+          version: '5'
+      type: authoritative
+      id: shape_dimension_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: independent_limits_of_linear_dimensional_size_characteristic_representation
+  domain: 'resource: shape_dimension_schema'
+  language_code: eng
+  annotations: []
+id: 06001749-780e-5f50-b9b3-62b4e5bfaa2d

@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_context_schema.maths_value_context
+  localized_concepts:
+    eng: ee97a225-f014-5d68-a7fa-59df45192d2b
+  domains:
+    - concept_id: section-mathematical_context_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+      ref_type: section
+id: mathematical_context_schema.maths_value_context
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value context {{entity}}'
+  notes:
+    - content: A **maths_value_context** is an association between a physical value and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+          version: '1'
+      type: authoritative
+      id: mathematical_context_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: maths_value_context
+  domain: 'resource: mathematical_context_schema'
+  language_code: eng
+  annotations: []
+id: ee97a225-f014-5d68-a7fa-59df45192d2b

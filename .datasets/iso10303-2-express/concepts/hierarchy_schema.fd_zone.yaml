@@ -1,0 +1,31 @@
+data:
+  identifier: hierarchy_schema.fd_zone
+  localized_concepts:
+    eng: 914affc3-543b-53c5-920f-a1067006630c
+  domains:
+    - concept_id: section-hierarchy_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+      ref_type: section
+id: hierarchy_schema.fd_zone
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema.mbna_zone,mbna_zone}} that represents the fd zone {{entity}}'
+  notes:
+    - content: An *fd_zone* is a kind of *mbna_zone* specifically for a CFD analysis.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+          version: '1'
+      type: authoritative
+      id: hierarchy_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fd_zone
+  domain: 'resource: hierarchy_schema'
+  language_code: eng
+  annotations: []
+id: 914affc3-543b-53c5-920f-a1067006630c

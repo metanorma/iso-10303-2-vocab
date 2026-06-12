@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_physical_requirement_allocation_mim.thermal_requirement_allocation
+  localized_concepts:
+    eng: 481d569b-d1f1-5f38-a2bd-97a8f9ffe51f
+  domains:
+    - concept_id: section-Assembly_physical_requirement_allocation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_mim
+      ref_type: section
+id: Assembly_physical_requirement_allocation_mim.thermal_requirement_allocation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that represents the thermal requirement allocation {{entity}}'
+  notes:
+    - content: A **thermal_requirement_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Thermal_requirement_allocation,Thermal_requirement_allocation}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_mim
+          version: '4'
+      type: authoritative
+      id: Assembly_physical_requirement_allocation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thermal_requirement_allocation
+  domain: 'application module: Assembly_physical_requirement_allocation_mim'
+  language_code: eng
+  annotations: []
+id: 481d569b-d1f1-5f38-a2bd-97a8f9ffe51f

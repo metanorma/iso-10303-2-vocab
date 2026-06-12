@@ -1,0 +1,31 @@
+data:
+  identifier: person_organization_schema.personal_address
+  localized_concepts:
+    eng: 0be44844-2b3f-55d4-8ec4-5df4c0e9b7f0
+  domains:
+    - concept_id: section-person_organization_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+      ref_type: section
+id: person_organization_schema.personal_address
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.address,address}} that represents the personal address {{entity}}'
+  notes:
+    - content: A **personal_address** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.address,address}}, which is an address for one or more persons.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+          version: '8'
+      type: authoritative
+      id: person_organization_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: personal_address
+  domain: 'resource: person_organization_schema'
+  language_code: eng
+  annotations: []
+id: 0be44844-2b3f-55d4-8ec4-5df4c0e9b7f0

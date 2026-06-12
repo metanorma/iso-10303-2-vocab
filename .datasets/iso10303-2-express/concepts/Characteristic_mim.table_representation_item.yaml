@@ -1,0 +1,30 @@
+data:
+  identifier: Characteristic_mim.table_representation_item
+  localized_concepts:
+    eng: b6b0b53d-94dc-5ec8-9d45-4f0a2fa69a49
+  domains:
+    - concept_id: section-Characteristic_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+      ref_type: section
+id: Characteristic_mim.table_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the table representation item {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_mim
+          version: '6'
+      type: authoritative
+      id: Characteristic_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: table_representation_item
+  domain: 'application module: Characteristic_mim'
+  language_code: eng
+  annotations: []
+id: b6b0b53d-94dc-5ec8-9d45-4f0a2fa69a49

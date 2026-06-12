@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.pocket
+  localized_concepts:
+    eng: b695ca27-ed71-5c68-ab22-bfe2efa00ad5
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.pocket
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the pocket {{entity}}'
+  notes:
+    - content: A **pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that is the representation of a volume that is removed from the base shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: pocket
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: b695ca27-ed71-5c68-ab22-bfe2efa00ad5

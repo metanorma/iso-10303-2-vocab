@@ -1,0 +1,31 @@
+data:
+  identifier: Location_assignment_mim.applied_location_assignment
+  localized_concepts:
+    eng: ce5c9b83-bb61-5076-8e78-1f19b01f56cc
+  domains:
+    - concept_id: section-Location_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim
+      ref_type: section
+id: Location_assignment_mim.applied_location_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.location_assignment,location_assignment}} that represents the applied location assignment {{entity}}'
+  notes:
+    - content: An **applied_location_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.location_assignment,location_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:location_schema.location,location}} to instances of entity data types listed in {{location_item,location_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Location_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: applied_location_assignment
+  domain: 'application module: Location_assignment_mim'
+  language_code: eng
+  annotations: []
+id: ce5c9b83-bb61-5076-8e78-1f19b01f56cc

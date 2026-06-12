@@ -1,0 +1,31 @@
+data:
+  identifier: Description_assignment_arm.Description_text
+  localized_concepts:
+    eng: dc29373e-1810-5e76-9e53-431d1e636801
+  domains:
+    - concept_id: section-Description_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
+      ref_type: section
+id: Description_assignment_arm.Description_text
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the description text {{entity}}'
+  notes:
+    - content: A **Description_text** is a set of words that describe something.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
+          version: '4'
+      type: authoritative
+      id: Description_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Description_text
+  domain: 'application module: Description_assignment_arm'
+  language_code: eng
+  annotations: []
+id: dc29373e-1810-5e76-9e53-431d1e636801

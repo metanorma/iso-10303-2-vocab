@@ -1,0 +1,31 @@
+data:
+  identifier: Analytical_model_arm.Analytical_model_version
+  localized_concepts:
+    eng: 0bc219a5-e72f-5659-a31f-4230e0596abd
+  domains:
+    - concept_id: section-Analytical_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+      ref_type: section
+id: Analytical_model_arm.Analytical_model_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_version,Information_version}} that represents the analytical model version {{entity}}'
+  notes:
+    - content: An **Analytical_model_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_version,Information_version}} that provides a string indicating the revision of the analytical model for configuration control purposes.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+          version: '5'
+      type: authoritative
+      id: Analytical_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Analytical_model_version
+  domain: 'application module: Analytical_model_arm'
+  language_code: eng
+  annotations: []
+id: 0bc219a5-e72f-5659-a31f-4230e0596abd

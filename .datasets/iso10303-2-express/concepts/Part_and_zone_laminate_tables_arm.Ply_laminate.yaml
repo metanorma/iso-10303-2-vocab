@@ -1,0 +1,31 @@
+data:
+  identifier: Part_and_zone_laminate_tables_arm.Ply_laminate
+  localized_concepts:
+    eng: 9d6b1863-e381-5d02-8469-7e0cbab89230
+  domains:
+    - concept_id: section-Part_and_zone_laminate_tables_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+      ref_type: section
+id: Part_and_zone_laminate_tables_arm.Ply_laminate
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}} that represents the ply laminate {{entity}}'
+  notes:
+    - content: A **Ply_laminate** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}} that is formed by two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply,Ply}} objects that mate with each other.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+          version: '6'
+      type: authoritative
+      id: Part_and_zone_laminate_tables_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Ply_laminate
+  domain: 'application module: Part_and_zone_laminate_tables_arm'
+  language_code: eng
+  annotations: []
+id: 9d6b1863-e381-5d02-8469-7e0cbab89230

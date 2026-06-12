@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Radial_size
+  localized_concepts:
+    eng: 2fcf923a-2dc9-56bc-885a-2a40eb1fce12
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Radial_size
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}} that represents the radial size {{entity}}'
+  notes:
+    - content: A **Radial_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}} that is a radius of a circular, cylindrical, spherical, or toroidal feature.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Radial_size
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: 2fcf923a-2dc9-56bc-885a-2a40eb1fce12

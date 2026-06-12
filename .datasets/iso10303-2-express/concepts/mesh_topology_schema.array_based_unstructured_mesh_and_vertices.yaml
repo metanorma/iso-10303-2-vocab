@@ -1,0 +1,31 @@
+data:
+  identifier: mesh_topology_schema.array_based_unstructured_mesh_and_vertices
+  localized_concepts:
+    eng: e01e3700-7383-5445-bc9d-71cfd163b9cc
+  domains:
+    - concept_id: section-mesh_topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+      ref_type: section
+id: mesh_topology_schema.array_based_unstructured_mesh_and_vertices
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.array_based_unstructured_mesh,array_based_unstructured_mesh}} that represents the array based unstructured mesh and vertices {{entity}}'
+  notes:
+    - content: An *array_based_structured_mesh_and_vertices* is a kind of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.array_based_unstructured_mesh,array_based_unstructured_mesh}} where the vertices of the mesh are explicity identified and ordered.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+          version: '5'
+      type: authoritative
+      id: mesh_topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: array_based_unstructured_mesh_and_vertices
+  domain: 'resource: mesh_topology_schema'
+  language_code: eng
+  annotations: []
+id: e01e3700-7383-5445-bc9d-71cfd163b9cc

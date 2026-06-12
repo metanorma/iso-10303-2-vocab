@@ -1,0 +1,31 @@
+data:
+  identifier: Interconnect_physical_requirement_allocation_arm.Electrical_isolation_requirement
+  localized_concepts:
+    eng: 8b3b5ddf-15a6-5cac-9789-f35121301934
+  domains:
+    - concept_id: section-Interconnect_physical_requirement_allocation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+      ref_type: section
+id: Interconnect_physical_requirement_allocation_arm.Electrical_isolation_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} that represents the electrical isolation requirement {{entity}}'
+  notes:
+    - content: A **Electrical_isolation_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} included to specify source or derived requirements for electric potential isolation between design elements.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+          version: '5'
+      type: authoritative
+      id: Interconnect_physical_requirement_allocation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Electrical_isolation_requirement
+  domain: 'application module: Interconnect_physical_requirement_allocation_arm'
+  language_code: eng
+  annotations: []
+id: 8b3b5ddf-15a6-5cac-9789-f35121301934

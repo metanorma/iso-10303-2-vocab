@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_mim.thermal_resistance_measure_with_unit
+  localized_concepts:
+    eng: 876cc871-6d21-5271-807e-92b72fa41116
+  domains:
+    - concept_id: section-Value_with_unit_extension_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+      ref_type: section
+id: Value_with_unit_extension_mim.thermal_resistance_measure_with_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that represents the thermal resistance measure with unit {{entity}}'
+  notes:
+    - content: A **thermal_resistance_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Thermal_resistance_data_element,Thermal_resistance_data_element}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: thermal_resistance_measure_with_unit
+  domain: 'application module: Value_with_unit_extension_mim'
+  language_code: eng
+  annotations: []
+id: 876cc871-6d21-5271-807e-92b72fa41116

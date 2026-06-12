@@ -1,0 +1,31 @@
+data:
+  identifier: Shape_property_assignment_arm.Shape_element
+  localized_concepts:
+    eng: bdf24ff1-29ae-5019-9fab-b7df689ac37f
+  domains:
+    - concept_id: section-Shape_property_assignment_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm
+      ref_type: section
+id: Shape_property_assignment_arm.Shape_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape element {{entity}}'
+  notes:
+    - content: A **Shape_element** is a portion of a shape property of product data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm
+          version: '10'
+      type: authoritative
+      id: Shape_property_assignment_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Shape_element
+  domain: 'application module: Shape_property_assignment_arm'
+  language_code: eng
+  annotations: []
+id: bdf24ff1-29ae-5019-9fab-b7df689ac37f

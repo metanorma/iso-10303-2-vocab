@@ -1,0 +1,30 @@
+data:
+  identifier: qualified_measure_schema.expanded_uncertainty
+  localized_concepts:
+    eng: d2c7ae7e-0b6e-59c8-bc84-9034d07dfda7
+  domains:
+    - concept_id: section-qualified_measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+      ref_type: section
+id: qualified_measure_schema.expanded_uncertainty
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.standard_uncertainty,standard_uncertainty}} that represents the expanded uncertainty {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+          version: '4'
+      type: authoritative
+      id: qualified_measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: expanded_uncertainty
+  domain: 'resource: qualified_measure_schema'
+  language_code: eng
+  annotations: []
+id: d2c7ae7e-0b6e-59c8-bc84-9034d07dfda7

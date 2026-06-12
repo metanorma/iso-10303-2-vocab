@@ -1,0 +1,30 @@
+data:
+  identifier: draughting_element_schema.projection_curve
+  localized_concepts:
+    eng: 5930132c-00ef-5a1f-850f-b0871905888c
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.projection_curve
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_curve_occurrence,annotation_curve_occurrence}} that represents the projection curve {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: projection_curve
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: 5930132c-00ef-5a1f-850f-b0871905888c

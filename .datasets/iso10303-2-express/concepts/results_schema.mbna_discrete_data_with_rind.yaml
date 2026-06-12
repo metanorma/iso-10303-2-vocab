@@ -1,0 +1,31 @@
+data:
+  identifier: results_schema.mbna_discrete_data_with_rind
+  localized_concepts:
+    eng: aa586553-97cb-5911-be86-ae30c5e22f9a
+  domains:
+    - concept_id: section-results_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+      ref_type: section
+id: results_schema.mbna_discrete_data_with_rind
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema.mbna_discrete_data,mbna_discrete_data}} that represents the mbna discrete data with rind {{entity}}'
+  notes:
+    - content: An *mbna_discrete_data_with_rind* is an *mbna_discrete_data* with rind point data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+          version: '1'
+      type: authoritative
+      id: results_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: mbna_discrete_data_with_rind
+  domain: 'resource: results_schema'
+  language_code: eng
+  annotations: []
+id: aa586553-97cb-5911-be86-ae30c5e22f9a

@@ -1,0 +1,31 @@
+data:
+  identifier: presentation_appearance_schema.styled_item
+  localized_concepts:
+    eng: 2bbaf6ed-e005-5850-8408-c36d07910e0e
+  domains:
+    - concept_id: section-presentation_appearance_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+      ref_type: section
+id: presentation_appearance_schema.styled_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the styled item {{entity}}'
+  notes:
+    - content: A **styled_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} with associated presentation style.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+          version: '8'
+      type: authoritative
+      id: presentation_appearance_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: styled_item
+  domain: 'resource: presentation_appearance_schema'
+  language_code: eng
+  annotations: []
+id: 2bbaf6ed-e005-5850-8408-c36d07910e0e

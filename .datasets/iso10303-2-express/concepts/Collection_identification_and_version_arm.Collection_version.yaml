@@ -1,0 +1,31 @@
+data:
+  identifier: Collection_identification_and_version_arm.Collection_version
+  localized_concepts:
+    eng: 0cfd2eb2-4770-5bfe-9aa8-f8e4dae861d4
+  domains:
+    - concept_id: section-Collection_identification_and_version_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+      ref_type: section
+id: Collection_identification_and_version_arm.Collection_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the collection version {{entity}}'
+  notes:
+    - content: An **Collection_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents a revision of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection,Collection}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+          version: '1'
+      type: authoritative
+      id: Collection_identification_and_version_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Collection_version
+  domain: 'application module: Collection_identification_and_version_arm'
+  language_code: eng
+  annotations: []
+id: 0cfd2eb2-4770-5bfe-9aa8-f8e4dae861d4

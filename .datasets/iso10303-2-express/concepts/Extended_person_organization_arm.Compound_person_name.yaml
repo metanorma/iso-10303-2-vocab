@@ -1,0 +1,31 @@
+data:
+  identifier: Extended_person_organization_arm.Compound_person_name
+  localized_concepts:
+    eng: 80ce46ad-becb-552e-95fd-76223ce7ee30
+  domains:
+    - concept_id: section-Extended_person_organization_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+      ref_type: section
+id: Extended_person_organization_arm.Compound_person_name
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the compound person name {{entity}}'
+  notes:
+    - content: A **Compound_person_name** is a name by which a named_person is known and that is made up of one or more components.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+          version: '1'
+      type: authoritative
+      id: Extended_person_organization_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Compound_person_name
+  domain: 'application module: Extended_person_organization_arm'
+  language_code: eng
+  annotations: []
+id: 80ce46ad-becb-552e-95fd-76223ce7ee30

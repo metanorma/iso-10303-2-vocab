@@ -1,0 +1,31 @@
+data:
+  identifier: analysis_schema.model_product_domain_with_mesh
+  localized_concepts:
+    eng: d12cf2db-bc24-554a-9ea1-b686fcbca573
+  domains:
+    - concept_id: section-analysis_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+      ref_type: section
+id: analysis_schema.model_product_domain_with_mesh
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain,model_product_domain}} that represents the model product domain with mesh {{entity}}'
+  notes:
+    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain_with_mesh,model_product_domain_with_mesh}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_product_domain,model_product_domain}} that has a mesh.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+          version: '1'
+      type: authoritative
+      id: analysis_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: model_product_domain_with_mesh
+  domain: 'resource: analysis_schema'
+  language_code: eng
+  annotations: []
+id: d12cf2db-bc24-554a-9ea1-b686fcbca573

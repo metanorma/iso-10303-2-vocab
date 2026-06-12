@@ -1,0 +1,31 @@
+data:
+  identifier: Probability_distribution_arm.Parameterized_distribution
+  localized_concepts:
+    eng: 8dab826c-347e-5cdc-b438-3cec6f281fd0
+  domains:
+    - concept_id: section-Probability_distribution_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+      ref_type: section
+id: Probability_distribution_arm.Parameterized_distribution
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm.Probability_distribution,Probability_distribution}} that represents the parameterized distribution {{entity}}'
+  notes:
+    - content: A **Parameterized_distribution** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm.Probability_distribution,Probability_distribution}} that is used to link a named probability distribution to the parameters that define it.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+          version: '3'
+      type: authoritative
+      id: Probability_distribution_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Parameterized_distribution
+  domain: 'application module: Probability_distribution_arm'
+  language_code: eng
+  annotations: []
+id: 8dab826c-347e-5cdc-b438-3cec6f281fd0

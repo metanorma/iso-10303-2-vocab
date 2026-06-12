@@ -1,0 +1,31 @@
+data:
+  identifier: Draughting_element_arm.Dimension_curve_directed_callout
+  localized_concepts:
+    eng: 890543bb-a106-5e99-a6bf-20a4dcad9930
+  domains:
+    - concept_id: section-Draughting_element_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+      ref_type: section
+id: Draughting_element_arm.Dimension_curve_directed_callout
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}} that represents the dimension curve directed callout {{entity}}'
+  notes:
+    - content: A **Dimension_curve_directed_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}} directed by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Dimension_curve,Dimension_curve}} to a presented element of the product shape.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+          version: '6'
+      type: authoritative
+      id: Draughting_element_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimension_curve_directed_callout
+  domain: 'application module: Draughting_element_arm'
+  language_code: eng
+  annotations: []
+id: 890543bb-a106-5e99-a6bf-20a4dcad9930

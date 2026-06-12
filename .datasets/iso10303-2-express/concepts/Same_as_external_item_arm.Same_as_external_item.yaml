@@ -1,0 +1,31 @@
+data:
+  identifier: Same_as_external_item_arm.Same_as_external_item
+  localized_concepts:
+    eng: 63c1aad7-528b-5a3f-a9e2-a28de8bf0179
+  domains:
+    - concept_id: section-Same_as_external_item_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Same_as_external_item_arm
+      ref_type: section
+id: Same_as_external_item_arm.Same_as_external_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same as external item {{entity}}'
+  notes:
+    - content: A **Same_as_external_item** is a statement that one or more data instances are the same as an item external to the dataset.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Same_as_external_item_arm
+          version: '2'
+      type: authoritative
+      id: Same_as_external_item_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Same_as_external_item
+  domain: 'application module: Same_as_external_item_arm'
+  language_code: eng
+  annotations: []
+id: 63c1aad7-528b-5a3f-a9e2-a28de8bf0179

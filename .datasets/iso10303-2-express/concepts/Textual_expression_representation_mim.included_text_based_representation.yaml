@@ -1,0 +1,31 @@
+data:
+  identifier: Textual_expression_representation_mim.included_text_based_representation
+  localized_concepts:
+    eng: 867213fc-ccb1-5812-bf62-bee4da5de0ad
+  domains:
+    - concept_id: section-Textual_expression_representation_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+      ref_type: section
+id: Textual_expression_representation_mim.included_text_based_representation
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the included text based representation {{entity}}'
+  notes:
+    - content: A **included_text_based_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} where a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim.text_based_representation,text_based_representation}} is included as a constituent of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+          version: '1'
+      type: authoritative
+      id: Textual_expression_representation_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: included_text_based_representation
+  domain: 'application module: Textual_expression_representation_mim'
+  language_code: eng
+  annotations: []
+id: 867213fc-ccb1-5812-bf62-bee4da5de0ad

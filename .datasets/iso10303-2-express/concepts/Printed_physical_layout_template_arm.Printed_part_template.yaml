@@ -1,0 +1,31 @@
+data:
+  identifier: Printed_physical_layout_template_arm.Printed_part_template
+  localized_concepts:
+    eng: b7fd0833-b778-51f8-a94c-c764c7e949fb
+  domains:
+    - concept_id: section-Printed_physical_layout_template_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+      ref_type: section
+id: Printed_physical_layout_template_arm.Printed_part_template
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the printed part template {{entity}}'
+  notes:
+    - content: A **Printed_part_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that has a specified function.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+          version: '6'
+      type: authoritative
+      id: Printed_physical_layout_template_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Printed_part_template
+  domain: 'application module: Printed_physical_layout_template_arm'
+  language_code: eng
+  annotations: []
+id: b7fd0833-b778-51f8-a94c-c764c7e949fb

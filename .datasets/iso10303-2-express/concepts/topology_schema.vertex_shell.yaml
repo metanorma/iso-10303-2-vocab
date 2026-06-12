@@ -1,0 +1,31 @@
+data:
+  identifier: topology_schema.vertex_shell
+  localized_concepts:
+    eng: 96272bef-74bc-5f9e-8ce3-b85f6050c0cf
+  domains:
+    - concept_id: section-topology_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+      ref_type: section
+id: topology_schema.vertex_shell
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the vertex shell {{entity}}'
+  notes:
+    - content: A **vertex_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}, which is a {{shell,shell}} consisting of a single {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_loop,vertex_loop}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+          version: '12'
+      type: authoritative
+      id: topology_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: vertex_shell
+  domain: 'resource: topology_schema'
+  language_code: eng
+  annotations: []
+id: 96272bef-74bc-5f9e-8ce3-b85f6050c0cf

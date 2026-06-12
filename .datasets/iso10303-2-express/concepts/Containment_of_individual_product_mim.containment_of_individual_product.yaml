@@ -1,0 +1,30 @@
+data:
+  identifier: Containment_of_individual_product_mim.containment_of_individual_product
+  localized_concepts:
+    eng: 1045e5ff-8ea4-58c9-a961-fe3cb267d49c
+  domains:
+    - concept_id: section-Containment_of_individual_product_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Containment_of_individual_product_mim
+      ref_type: section
+id: Containment_of_individual_product_mim.containment_of_individual_product
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the containment of individual product {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Containment_of_individual_product_mim
+          version: '1'
+      type: authoritative
+      id: Containment_of_individual_product_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: containment_of_individual_product
+  domain: 'application module: Containment_of_individual_product_mim'
+  language_code: eng
+  annotations: []
+id: 1045e5ff-8ea4-58c9-a961-fe3cb267d49c

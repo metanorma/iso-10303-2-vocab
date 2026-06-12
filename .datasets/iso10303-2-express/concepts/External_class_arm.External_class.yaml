@@ -1,0 +1,31 @@
+data:
+  identifier: External_class_arm.External_class
+  localized_concepts:
+    eng: 34e7685e-38c8-53e9-bd13-c274cfbfbd58
+  domains:
+    - concept_id: section-External_class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_class_arm
+      ref_type: section
+id: External_class_arm.External_class
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents the external class {{entity}}'
+  notes:
+    - content: An **External_class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents a reference to a class that is not included in the data exchange file and is defined in an external class library.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_class_arm
+          version: '3'
+      type: authoritative
+      id: External_class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: External_class
+  domain: 'application module: External_class_arm'
+  language_code: eng
+  annotations: []
+id: 34e7685e-38c8-53e9-bd13-c274cfbfbd58

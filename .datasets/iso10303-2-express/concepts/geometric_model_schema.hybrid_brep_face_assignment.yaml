@@ -1,0 +1,33 @@
+data:
+  identifier: geometric_model_schema.hybrid_brep_face_assignment
+  localized_concepts:
+    eng: 8dd16ec5-ecd2-5cbf-8d24-bd97938fe124
+  domains:
+    - concept_id: section-geometric_model_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+      ref_type: section
+id: geometric_model_schema.hybrid_brep_face_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the hybrid brep face assignment {{entity}}'
+  notes:
+    - content: |-
+        A **hybrid_brep_face_assignment** is a type of
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that associates a topological form of a face with a geometric surface.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+          version: '12'
+      type: authoritative
+      id: geometric_model_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: hybrid_brep_face_assignment
+  domain: 'resource: geometric_model_schema'
+  language_code: eng
+  annotations: []
+id: 8dd16ec5-ecd2-5cbf-8d24-bd97938fe124

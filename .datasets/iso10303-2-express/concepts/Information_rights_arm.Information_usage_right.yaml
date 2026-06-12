@@ -1,0 +1,31 @@
+data:
+  identifier: Information_rights_arm.Information_usage_right
+  localized_concepts:
+    eng: 616de21e-5d87-59e4-9cf1-fd89b41e2f29
+  domains:
+    - concept_id: section-Information_rights_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
+      ref_type: section
+id: Information_rights_arm.Information_usage_right
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the information usage right {{entity}}'
+  notes:
+    - content: An **Information_usage_right** is an application an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm.Information_right,Information_right}} to a specific usage context.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
+          version: '4'
+      type: authoritative
+      id: Information_rights_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Information_usage_right
+  domain: 'application module: Information_rights_arm'
+  language_code: eng
+  annotations: []
+id: 616de21e-5d87-59e4-9cf1-fd89b41e2f29

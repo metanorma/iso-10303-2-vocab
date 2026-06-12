@@ -1,0 +1,33 @@
+data:
+  identifier: Triangulated_shape_data_quality_arm.Triangle_vertex
+  localized_concepts:
+    eng: b80cb402-6157-5714-9ddd-ae62ea44f03a
+  domains:
+    - concept_id: section-Triangulated_shape_data_quality_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+      ref_type: section
+id: Triangulated_shape_data_quality_arm.Triangle_vertex
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Triangulated_face_element,Triangulated_face_element}} that represents the triangle vertex {{entity}}'
+  notes:
+    - content: |-
+        A **Triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Triangulated_face_element,Triangulated_face_element}} that specifies a vertex of a triangle in the
+        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Triangulated_face,Triangulated_face}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+          version: '1'
+      type: authoritative
+      id: Triangulated_shape_data_quality_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Triangle_vertex
+  domain: 'application module: Triangulated_shape_data_quality_arm'
+  language_code: eng
+  annotations: []
+id: b80cb402-6157-5714-9ddd-ae62ea44f03a

@@ -1,0 +1,31 @@
+data:
+  identifier: Requirement_assignment_mim.satisfies_requirement
+  localized_concepts:
+    eng: a8b3291b-ef92-51d4-908e-798eb5a6958a
+  domains:
+    - concept_id: section-Requirement_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+      ref_type: section
+id: Requirement_assignment_mim.satisfies_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the satisfies requirement {{entity}}'
+  notes:
+    - content: A **satisfies_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that provides a link between a requirement and its satisfying object.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim
+          version: '4'
+      type: authoritative
+      id: Requirement_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: satisfies_requirement
+  domain: 'application module: Requirement_assignment_mim'
+  language_code: eng
+  annotations: []
+id: a8b3291b-ef92-51d4-908e-798eb5a6958a

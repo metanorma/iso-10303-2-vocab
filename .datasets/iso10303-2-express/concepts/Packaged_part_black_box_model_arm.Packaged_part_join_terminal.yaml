@@ -1,0 +1,31 @@
+data:
+  identifier: Packaged_part_black_box_model_arm.Packaged_part_join_terminal
+  localized_concepts:
+    eng: 3bd10446-c58a-5e04-b4e0-5ef9998ed772
+  domains:
+    - concept_id: section-Packaged_part_black_box_model_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm
+      ref_type: section
+id: Packaged_part_black_box_model_arm.Packaged_part_join_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part_terminal,Packaged_part_terminal}} that represents the packaged part join terminal {{entity}}'
+  notes:
+    - content: A **Packaged_part_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part_terminal,Packaged_part_terminal}} such that an occurrence of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part_terminal,Packaged_part_terminal}} shall not be in the role of an external interface when the occurrence of the associated {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm.Packaged_connector,Packaged_connector}} is a component in an assembly.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm
+          version: '4'
+      type: authoritative
+      id: Packaged_part_black_box_model_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Packaged_part_join_terminal
+  domain: 'application module: Packaged_part_black_box_model_arm'
+  language_code: eng
+  annotations: []
+id: 3bd10446-c58a-5e04-b4e0-5ef9998ed772

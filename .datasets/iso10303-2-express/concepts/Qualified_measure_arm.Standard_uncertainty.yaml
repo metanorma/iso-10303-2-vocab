@@ -1,0 +1,30 @@
+data:
+  identifier: Qualified_measure_arm.Standard_uncertainty
+  localized_concepts:
+    eng: d5e437ca-05b6-5275-a56c-d45e18ff2b26
+  domains:
+    - concept_id: section-Qualified_measure_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+      ref_type: section
+id: Qualified_measure_arm.Standard_uncertainty
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Uncertainty_qualifier,Uncertainty_qualifier}} that represents the standard uncertainty {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+          version: '4'
+      type: authoritative
+      id: Qualified_measure_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Standard_uncertainty
+  domain: 'application module: Qualified_measure_arm'
+  language_code: eng
+  annotations: []
+id: d5e437ca-05b6-5275-a56c-d45e18ff2b26

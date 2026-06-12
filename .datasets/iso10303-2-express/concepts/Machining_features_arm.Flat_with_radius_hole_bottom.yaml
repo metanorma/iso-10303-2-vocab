@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Flat_with_radius_hole_bottom
+  localized_concepts:
+    eng: 234aa1aa-7ced-5f01-a22d-2a510ae6646a
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Flat_with_radius_hole_bottom
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that represents the flat with radius hole bottom {{entity}}'
+  notes:
+    - content: A **Flat_with_radius_hole_bottom** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}} is flat and has corner radius that are smaller than the diameter of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Flat_with_radius_hole_bottom
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: 234aa1aa-7ced-5f01-a22d-2a510ae6646a

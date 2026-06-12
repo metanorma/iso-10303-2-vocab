@@ -1,0 +1,31 @@
+data:
+  identifier: Dimension_tolerance_arm.Dimensional_size
+  localized_concepts:
+    eng: e24e6907-0e67-5e7f-b06f-bd6b9c79b4dc
+  domains:
+    - concept_id: section-Dimension_tolerance_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+      ref_type: section
+id: Dimension_tolerance_arm.Dimensional_size
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}} that represents the dimensional size {{entity}}'
+  notes:
+    - content: A **Dimensional_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}} that is a spatial characteristic of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that is represented by a measure.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+          version: '8'
+      type: authoritative
+      id: Dimension_tolerance_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dimensional_size
+  domain: 'application module: Dimension_tolerance_arm'
+  language_code: eng
+  annotations: []
+id: e24e6907-0e67-5e7f-b06f-bd6b9c79b4dc

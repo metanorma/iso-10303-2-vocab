@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.imported_curve_function
+  localized_concepts:
+    eng: 5d26fa4e-2ac2-59d5-8e05-472b2bf3679e
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.imported_curve_function
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the imported curve function {{entity}}'
+  notes:
+    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents the parametric function defined for a curve instance from the *geometry_schema*.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: imported_curve_function
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 5d26fa4e-2ac2-59d5-8e05-472b2bf3679e

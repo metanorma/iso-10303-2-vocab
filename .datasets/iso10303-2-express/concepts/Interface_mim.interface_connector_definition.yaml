@@ -1,0 +1,31 @@
+data:
+  identifier: Interface_mim.interface_connector_definition
+  localized_concepts:
+    eng: 1f5f065d-4088-51b2-8063-05e00ed0fcba
+  domains:
+    - concept_id: section-Interface_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+      ref_type: section
+id: Interface_mim.interface_connector_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the interface connector definition {{entity}}'
+  notes:
+    - content: An **interface_connector_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that identifies a view of an interface connector.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+          version: '5'
+      type: authoritative
+      id: Interface_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: interface_connector_definition
+  domain: 'application module: Interface_mim'
+  language_code: eng
+  annotations: []
+id: 1f5f065d-4088-51b2-8063-05e00ed0fcba

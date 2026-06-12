@@ -1,0 +1,31 @@
+data:
+  identifier: Component_grouping_arm.Linear_array_placement_group_component_link
+  localized_concepts:
+    eng: b60124c7-1710-5e1c-9765-f6bcf6b38140
+  domains:
+    - concept_id: section-Component_grouping_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+      ref_type: section
+id: Component_grouping_arm.Linear_array_placement_group_component_link
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the linear array placement group component link {{entity}}'
+  notes:
+    - content: A **Linear_array_placement_group_component_link** is a directed relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Linear_array_placement_group_component,Linear_array_placement_group_component}} included to support establishing an array of placed components.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+          version: '6'
+      type: authoritative
+      id: Component_grouping_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Linear_array_placement_group_component_link
+  domain: 'application module: Component_grouping_arm'
+  language_code: eng
+  annotations: []
+id: b60124c7-1710-5e1c-9765-f6bcf6b38140

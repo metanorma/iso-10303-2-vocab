@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_arm.Constant_radius_edge_round
+  localized_concepts:
+    eng: f1ddf043-78b7-56d0-b380-72006cfe92e0
+  domains:
+    - concept_id: section-Machining_features_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+      ref_type: section
+id: Machining_features_arm.Constant_radius_edge_round
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Edge_round,Edge_round}} that represents the constant radius edge round {{entity}}'
+  notes:
+    - content: A **Constant_radius_edge_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Edge_round,Edge_round}} that is defined with a constant radius value.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+          version: '4'
+      type: authoritative
+      id: Machining_features_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Constant_radius_edge_round
+  domain: 'application module: Machining_features_arm'
+  language_code: eng
+  annotations: []
+id: f1ddf043-78b7-56d0-b380-72006cfe92e0

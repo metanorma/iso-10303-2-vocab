@@ -1,0 +1,31 @@
+data:
+  identifier: assembly_constraint_schema.assembly_geometric_constraint
+  localized_concepts:
+    eng: 46fe2db5-ed46-5444-9658-2c35f136fed0
+  domains:
+    - concept_id: section-assembly_constraint_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+      ref_type: section
+id: assembly_constraint_schema.assembly_geometric_constraint
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_constraint_schema.explicit_constraint,explicit_constraint}} that represents the assembly geometric constraint {{entity}}'
+  notes:
+    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.assembly_geometric_constraint,assembly_geometric_constraint}} is the supertype of all geometric assembly constraints.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+          version: '3'
+      type: authoritative
+      id: assembly_constraint_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_geometric_constraint
+  domain: 'resource: assembly_constraint_schema'
+  language_code: eng
+  annotations: []
+id: 46fe2db5-ed46-5444-9658-2c35f136fed0

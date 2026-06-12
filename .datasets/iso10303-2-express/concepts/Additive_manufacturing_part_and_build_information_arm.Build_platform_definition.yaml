@@ -1,0 +1,31 @@
+data:
+  identifier: Additive_manufacturing_part_and_build_information_arm.Build_platform_definition
+  localized_concepts:
+    eng: 49863799-6ba7-5fdc-b9d3-474eb27f6f36
+  domains:
+    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+      ref_type: section
+id: Additive_manufacturing_part_and_build_information_arm.Build_platform_definition
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the build platform definition {{entity}}'
+  notes:
+    - content: A **Build_platform_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that defines a build platform.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+          version: '2'
+      type: authoritative
+      id: Additive_manufacturing_part_and_build_information_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Build_platform_definition
+  domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
+  language_code: eng
+  annotations: []
+id: 49863799-6ba7-5fdc-b9d3-474eb27f6f36

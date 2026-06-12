@@ -1,0 +1,31 @@
+data:
+  identifier: Machining_features_mim.face_shape_representation_relationship
+  localized_concepts:
+    eng: e6e3b295-934b-5d23-8fec-798d0d5a2e6f
+  domains:
+    - concept_id: section-Machining_features_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_mim
+      ref_type: section
+id: Machining_features_mim.face_shape_representation_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the face shape representation relationship {{entity}}'
+  notes:
+    - content: A **face_shape_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that is the representation of several {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.face_shape_representation,face_shape_representation}} and their relationship to one another.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_mim
+          version: '3'
+      type: authoritative
+      id: Machining_features_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: face_shape_representation_relationship
+  domain: 'application module: Machining_features_mim'
+  language_code: eng
+  annotations: []
+id: e6e3b295-934b-5d23-8fec-798d0d5a2e6f

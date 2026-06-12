@@ -1,0 +1,31 @@
+data:
+  identifier: mathematical_functions_schema.quantifier_expression
+  localized_concepts:
+    eng: 1567332d-2438-588a-8dc3-228140a68970
+  domains:
+    - concept_id: section-mathematical_functions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+      ref_type: section
+id: mathematical_functions_schema.quantifier_expression
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.multiple_arity_generic_expression,multiple_arity_generic_expression}} that represents the quantifier expression {{entity}}'
+  notes:
+    - content: This abstract type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.multiple_arity_generic_expression,multiple_arity_generic_expression}} distinguishes those expressions which are quantifier expressions.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+          version: '4'
+      type: authoritative
+      id: mathematical_functions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: quantifier_expression
+  domain: 'resource: mathematical_functions_schema'
+  language_code: eng
+  annotations: []
+id: 1567332d-2438-588a-8dc3-228140a68970

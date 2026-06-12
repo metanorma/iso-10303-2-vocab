@@ -1,0 +1,31 @@
+data:
+  identifier: Basic_data_representation_arm.Set_representation_item
+  localized_concepts:
+    eng: 5d533268-83a6-5ef2-b711-3633c5d0925b
+  domains:
+    - concept_id: section-Basic_data_representation_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+      ref_type: section
+id: Basic_data_representation_arm.Set_representation_item
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Compound_representation_item,Compound_representation_item}} that represents the set representation item {{entity}}'
+  notes:
+    - content: A **Set_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Compound_representation_item,Compound_representation_item}} whose value is a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} objects.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+          version: '3'
+      type: authoritative
+      id: Basic_data_representation_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Set_representation_item
+  domain: 'application module: Basic_data_representation_arm'
+  language_code: eng
+  annotations: []
+id: 5d533268-83a6-5ef2-b711-3633c5d0925b

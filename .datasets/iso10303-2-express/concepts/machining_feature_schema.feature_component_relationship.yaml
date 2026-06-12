@@ -1,0 +1,31 @@
+data:
+  identifier: machining_feature_schema.feature_component_relationship
+  localized_concepts:
+    eng: bd7254f7-1619-5caa-91ad-20fc75d91d82
+  domains:
+    - concept_id: section-machining_feature_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+      ref_type: section
+id: machining_feature_schema.feature_component_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the feature component relationship {{entity}}'
+  notes:
+    - content: A **feature_component_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} in which the {{related_shape_aspect,related_shape_aspect}} is an implicitly represented component, such as a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.taper,taper}}, of the {{relating_shape_aspect,relating_shape_aspect}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+          version: '1'
+      type: authoritative
+      id: machining_feature_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: feature_component_relationship
+  domain: 'resource: machining_feature_schema'
+  language_code: eng
+  annotations: []
+id: bd7254f7-1619-5caa-91ad-20fc75d91d82

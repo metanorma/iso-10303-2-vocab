@@ -1,0 +1,31 @@
+data:
+  identifier: conditions_schema.fd_bc
+  localized_concepts:
+    eng: 050065f8-b0f8-5e59-ad36-0bf64273e3ae
+  domains:
+    - concept_id: section-conditions_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+      ref_type: section
+id: conditions_schema.fd_bc
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_bc,mbna_bc}} that represents the fd bc {{entity}}'
+  notes:
+    - content: An *fd_bc* is an *mbna_bc* containing boundary-condition information for a single BC surface patch of a CFD zone.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+          version: '1'
+      type: authoritative
+      id: conditions_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: fd_bc
+  domain: 'resource: conditions_schema'
+  language_code: eng
+  annotations: []
+id: 050065f8-b0f8-5e59-ad36-0bf64273e3ae

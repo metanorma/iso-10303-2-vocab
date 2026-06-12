@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_control_arm.Part_occurrence_relationship
+  localized_concepts:
+    eng: 87124063-04d5-5caa-9957-d9d59afe18ab
+  domains:
+    - concept_id: section-Specification_control_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+      ref_type: section
+id: Specification_control_arm.Part_occurrence_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the part occurrence relationship {{entity}}'
+  notes:
+    - content: A **Part_occurrence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that relates two part occurrences.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm
+          version: '5'
+      type: authoritative
+      id: Specification_control_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Part_occurrence_relationship
+  domain: 'application module: Specification_control_arm'
+  language_code: eng
+  annotations: []
+id: 87124063-04d5-5caa-9957-d9d59afe18ab

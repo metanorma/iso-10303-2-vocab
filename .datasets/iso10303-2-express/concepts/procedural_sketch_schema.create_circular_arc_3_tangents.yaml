@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_circular_arc_3_tangents
+  localized_concepts:
+    eng: d7e88690-4c91-5df2-ab7d-810fc0fd2db4
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_circular_arc_3_tangents
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circular_arc,create_circular_arc}} that represents the create circular arc 3 tangents {{entity}}'
+  notes:
+    - content: A *create_circular_arc_3_tangents* is a type of *create_circular_arc* that creates a circular arc tangential to 3 given curves.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_circular_arc_3_tangents
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: d7e88690-4c91-5df2-ab7d-810fc0fd2db4

@@ -1,0 +1,31 @@
+data:
+  identifier: Assembly_component_placement_requirements_mim.item_restricted_requirement
+  localized_concepts:
+    eng: cadfbf26-0bfe-5d5a-9eb7-dd7686c1dd61
+  domains:
+    - concept_id: section-Assembly_component_placement_requirements_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+      ref_type: section
+id: Assembly_component_placement_requirements_mim.item_restricted_requirement
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the item restricted requirement {{entity}}'
+  notes:
+    - content: A **item_restricted_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Item_restricted_requirement,Item_restricted_requirement}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+          version: '6'
+      type: authoritative
+      id: Assembly_component_placement_requirements_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: item_restricted_requirement
+  domain: 'application module: Assembly_component_placement_requirements_mim'
+  language_code: eng
+  annotations: []
+id: cadfbf26-0bfe-5d5a-9eb7-dd7686c1dd61

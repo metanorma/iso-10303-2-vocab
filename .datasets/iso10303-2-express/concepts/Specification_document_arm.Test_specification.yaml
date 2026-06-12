@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_document_arm.Test_specification
+  localized_concepts:
+    eng: 350eb9ce-1826-5aaf-b840-ab1aae6c614e
+  domains:
+    - concept_id: section-Specification_document_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+      ref_type: section
+id: Specification_document_arm.Test_specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that represents the test specification {{entity}}'
+  notes:
+    - content: A **Test_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that provides information about the physical or functional testing of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+          version: '4'
+      type: authoritative
+      id: Specification_document_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Test_specification
+  domain: 'application module: Specification_document_arm'
+  language_code: eng
+  annotations: []
+id: 350eb9ce-1826-5aaf-b840-ab1aae6c614e

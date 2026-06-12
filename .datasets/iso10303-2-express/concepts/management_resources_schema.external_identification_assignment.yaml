@@ -1,0 +1,31 @@
+data:
+  identifier: management_resources_schema.external_identification_assignment
+  localized_concepts:
+    eng: 25b69d64-1cf6-54ed-93cc-beedc25f04dd
+  domains:
+    - concept_id: section-management_resources_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+      ref_type: section
+id: management_resources_schema.external_identification_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.identification_assignment,identification_assignment}} that represents the external identification assignment {{entity}}'
+  notes:
+    - content: An **external_identification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.identification_assignment,identification_assignment}} that is defined in the context of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.external_source,external_source}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+          version: '8'
+      type: authoritative
+      id: management_resources_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: external_identification_assignment
+  domain: 'resource: management_resources_schema'
+  language_code: eng
+  annotations: []
+id: 25b69d64-1cf6-54ed-93cc-beedc25f04dd

@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Risk_level
+  localized_concepts:
+    eng: 052f23d8-95b2-5e84-8da4-d069152aa927
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Risk_level
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that represents the risk level {{entity}}'
+  notes:
+    - content: A **Risk_level** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that defines an identifiable goal or objective for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk_perception,Risk_perception}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Risk_level
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 052f23d8-95b2-5e84-8da4-d069152aa927

@@ -1,0 +1,31 @@
+data:
+  identifier: Effectivity_arm.Dated_effectivity
+  localized_concepts:
+    eng: c1002ed8-20e4-5822-83bf-74040e8c3e4a
+  domains:
+    - concept_id: section-Effectivity_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+      ref_type: section
+id: Effectivity_arm.Dated_effectivity
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} that represents the dated effectivity {{entity}}'
+  notes:
+    - content: A **Dated_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} for which the domain of applicability is defined as an interval of time bounded by dates or events.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm
+          version: '2'
+      type: authoritative
+      id: Effectivity_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dated_effectivity
+  domain: 'application module: Effectivity_arm'
+  language_code: eng
+  annotations: []
+id: c1002ed8-20e4-5822-83bf-74040e8c3e4a

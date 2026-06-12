@@ -1,0 +1,44 @@
+data:
+  identifier: Production_rule_mim.rule_action
+  localized_concepts:
+    eng: 9ce34934-4a64-50f3-91b9-49f8e9570deb
+  domains:
+    - concept_id: section-Production_rule_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+      ref_type: section
+id: Production_rule_mim.rule_action
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the rule action {{entity}}'
+  notes:
+    - content: |-
+        A **rule_action** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that implements the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_action,Rule_action}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_adoption,Rule_adoption}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_change_request,Rule_change_request}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_creation,Rule_creation}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_expiration,Rule_expiration}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_justification,Rule_justification}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_modification,Rule_modification}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_rejection,Rule_rejection}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_request,Rule_request}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_submission,Rule_submission}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_supersedence,Rule_supersedence}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+          version: '5'
+      type: authoritative
+      id: Production_rule_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: rule_action
+  domain: 'application module: Production_rule_mim'
+  language_code: eng
+  annotations: []
+id: 9ce34934-4a64-50f3-91b9-49f8e9570deb

@@ -1,0 +1,31 @@
+data:
+  identifier: Construction_geometry_arm.Constructive_geometry_association
+  localized_concepts:
+    eng: 5c689e2a-8813-5906-aa9f-67d1cd7a78db
+  domains:
+    - concept_id: section-Construction_geometry_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
+      ref_type: section
+id: Construction_geometry_arm.Constructive_geometry_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the constructive geometry association {{entity}}'
+  notes:
+    - content: A **Constructive_geometry_association** is the association of an auxiliary {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm.Constructive_geometry,Constructive_geometry}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} or another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm.Constructive_geometry,Constructive_geometry}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
+          version: '7'
+      type: authoritative
+      id: Construction_geometry_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Constructive_geometry_association
+  domain: 'application module: Construction_geometry_arm'
+  language_code: eng
+  annotations: []
+id: 5c689e2a-8813-5906-aa9f-67d1cd7a78db

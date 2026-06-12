@@ -1,0 +1,31 @@
+data:
+  identifier: Externally_conditioned_data_quality_criteria_mim.inconsistent_element_reference
+  localized_concepts:
+    eng: c086fddb-36bc-5131-b6ae-1ae49dce51a6
+  domains:
+    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+      ref_type: section
+id: Externally_conditioned_data_quality_criteria_mim.inconsistent_element_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents the inconsistent element reference {{entity}}'
+  notes:
+    - content: A **inconsistent_element_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Inconsistent_element_reference,Inconsistent_element_reference}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+          version: '1'
+      type: authoritative
+      id: Externally_conditioned_data_quality_criteria_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: inconsistent_element_reference
+  domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
+  language_code: eng
+  annotations: []
+id: c086fddb-36bc-5131-b6ae-1ae49dce51a6

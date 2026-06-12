@@ -1,0 +1,30 @@
+data:
+  identifier: product_property_definition_schema.product_definition_shape
+  localized_concepts:
+    eng: 2cb2e931-e088-5aae-9650-03c9a01308f6
+  domains:
+    - concept_id: section-product_property_definition_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+      ref_type: section
+id: product_property_definition_schema.product_definition_shape
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the product definition shape {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+          version: '10'
+      type: authoritative
+      id: product_property_definition_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: product_definition_shape
+  domain: 'resource: product_property_definition_schema'
+  language_code: eng
+  annotations: []
+id: 2cb2e931-e088-5aae-9650-03c9a01308f6

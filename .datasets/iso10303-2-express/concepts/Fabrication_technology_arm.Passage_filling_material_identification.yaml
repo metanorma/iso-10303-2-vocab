@@ -1,0 +1,31 @@
+data:
+  identifier: Fabrication_technology_arm.Passage_filling_material_identification
+  localized_concepts:
+    eng: 97cf7abe-b83c-535a-b4b5-6a00dd9901b0
+  domains:
+    - concept_id: section-Fabrication_technology_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+      ref_type: section
+id: Fabrication_technology_arm.Passage_filling_material_identification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} that represents the passage filling material identification {{entity}}'
+  notes:
+    - content: A **Passage_filling_material_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} used to identify material that fills a passage.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+          version: '5'
+      type: authoritative
+      id: Fabrication_technology_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Passage_filling_material_identification
+  domain: 'application module: Fabrication_technology_arm'
+  language_code: eng
+  annotations: []
+id: 97cf7abe-b83c-535a-b4b5-6a00dd9901b0

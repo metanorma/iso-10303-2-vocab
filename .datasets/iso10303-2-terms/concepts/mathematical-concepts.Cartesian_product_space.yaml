@@ -1,0 +1,32 @@
+---
+data:
+  identifier: mathematical-concepts.Cartesian_product_space
+  localized_concepts:
+    eng: 36bb0001-32fc-55d5-b1d2-71da19ad95c9
+  domains:
+  - concept_id: section-mathematical-concepts
+    source: urn:iso:std:iso:10303:-2:ed-1:en
+    ref_type: section
+id: a5e2e86c-b2ab-5e21-9573-bd34c0ba4a80
+schema_version: v3
+---
+data:
+  definition:
+  - content: mathematical space consisting of all ordered tuples whose components
+      are members of the corresponding factor spaces of the product
+  notes:
+  - content: Some care must be taken to be explicit about which spaces are the factors
+      entering into the Cartesian product. For example, stem:[R^3 xx R^3] is the space
+      of ordered pairs of ordered triples from space stem:[R], not the space of ordered
+      sextuples from space stem:[R]. When the factor spaces of the explicit factors
+      are to be treated as the factor spaces of the Cartesian product, that is, the
+      member tuples are to be concatenated rather than entupled, a subscript 'stem:[a]'
+      (indicating the "associative" product) is appended to the Cartesian product
+      symbol. Thus, stem:[R^3 xx_a R^3 -= R^6].
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cartesian product space
+  language_code: eng
+  annotations: []
+id: 36bb0001-32fc-55d5-b1d2-71da19ad95c9

@@ -1,0 +1,31 @@
+data:
+  identifier: Parameter_value_specification_arm.Named_variable_semantics
+  localized_concepts:
+    eng: 1cc2cbb3-5da9-54e3-8659-5bd20f0ecc7a
+  domains:
+    - concept_id: section-Parameter_value_specification_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameter_value_specification_arm
+      ref_type: section
+id: Parameter_value_specification_arm.Named_variable_semantics
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Variable_semantics,Variable_semantics}} that represents the named variable semantics {{entity}}'
+  notes:
+    - content: A **Named_variable_semantics** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Variable_semantics,Variable_semantics}} that is the definition of the context and name for a variable in an expression.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameter_value_specification_arm
+          version: '3'
+      type: authoritative
+      id: Parameter_value_specification_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Named_variable_semantics
+  domain: 'application module: Parameter_value_specification_arm'
+  language_code: eng
+  annotations: []
+id: 1cc2cbb3-5da9-54e3-8659-5bd20f0ecc7a

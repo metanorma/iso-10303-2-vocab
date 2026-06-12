@@ -1,0 +1,31 @@
+data:
+  identifier: procedural_sketch_schema.create_polyline
+  localized_concepts:
+    eng: c593b568-9a33-5609-b946-c9ebd98fa2d2
+  domains:
+    - concept_id: section-procedural_sketch_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+      ref_type: section
+id: procedural_sketch_schema.create_polyline
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_curve_element,sketch_create_curve_element}} that represents the create polyline {{entity}}'
+  notes:
+    - content: A *create_polyline* is a type of *sketch_create_curve_element* that creates a polyline connecting a sequence of points on a plane.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+          version: '1'
+      type: authoritative
+      id: procedural_sketch_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: create_polyline
+  domain: 'resource: procedural_sketch_schema'
+  language_code: eng
+  annotations: []
+id: c593b568-9a33-5609-b946-c9ebd98fa2d2

@@ -1,0 +1,31 @@
+data:
+  identifier: measure_schema.si_unit
+  localized_concepts:
+    eng: 5cfa2907-88c7-58ee-a3e6-b7771e7cd247
+  domains:
+    - concept_id: section-measure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+      ref_type: section
+id: measure_schema.si_unit
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that represents the si unit {{entity}}'
+  notes:
+    - content: An **si_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that defines a unit with respect to the system of units defined in the ISO/IEC 80000 series.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+          version: '8'
+      type: authoritative
+      id: measure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: si_unit
+  domain: 'resource: measure_schema'
+  language_code: eng
+  annotations: []
+id: 5cfa2907-88c7-58ee-a3e6-b7771e7cd247

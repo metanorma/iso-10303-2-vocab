@@ -1,0 +1,31 @@
+data:
+  identifier: Part_external_reference_mim.part_terminal_external_reference
+  localized_concepts:
+    eng: 073b16c0-0bed-5b85-934c-548baa01aa83
+  domains:
+    - concept_id: section-Part_external_reference_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_mim
+      ref_type: section
+id: Part_external_reference_mim.part_terminal_external_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the part terminal external reference {{entity}}'
+  notes:
+    - content: A **part_terminal_external_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm.Part_terminal_external_reference,Part_terminal_external_reference}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_mim
+          version: '4'
+      type: authoritative
+      id: Part_external_reference_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: part_terminal_external_reference
+  domain: 'application module: Part_external_reference_mim'
+  language_code: eng
+  annotations: []
+id: 073b16c0-0bed-5b85-934c-548baa01aa83

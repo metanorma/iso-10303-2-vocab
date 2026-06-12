@@ -1,0 +1,31 @@
+data:
+  identifier: Specification_document_mim.partial_document_with_structured_text_representation_assignment
+  localized_concepts:
+    eng: 86a3e977-e1cb-5818-82c7-e2989b30c90f
+  domains:
+    - concept_id: section-Specification_document_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+      ref_type: section
+id: Specification_document_mim.partial_document_with_structured_text_representation_assignment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the partial document with structured text representation assignment {{entity}}'
+  notes:
+    - content: A **partial_document_with_structured_text_representation_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim.applied_document_usage_constraint_assignment,applied_document_usage_constraint_assignment}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Partial_document_with_structured_text_representation_assignment,Partial_document_with_structured_text_representation_assignment}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+          version: '4'
+      type: authoritative
+      id: Specification_document_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: partial_document_with_structured_text_representation_assignment
+  domain: 'application module: Specification_document_mim'
+  language_code: eng
+  annotations: []
+id: 86a3e977-e1cb-5818-82c7-e2989b30c90f

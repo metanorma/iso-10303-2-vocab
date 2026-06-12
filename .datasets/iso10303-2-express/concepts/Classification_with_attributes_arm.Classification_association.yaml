@@ -1,0 +1,31 @@
+data:
+  identifier: Classification_with_attributes_arm.Classification_association
+  localized_concepts:
+    eng: 15a57ab2-c5bd-5230-9ca1-cbe80ce7b6db
+  domains:
+    - concept_id: section-Classification_with_attributes_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+      ref_type: section
+id: Classification_with_attributes_arm.Classification_association
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm.Classification_assignment,Classification_assignment}} that represents the classification association {{entity}}'
+  notes:
+    - content: A **Classification_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_arm.Classification_assignment,Classification_assignment}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class_with_attributes,Class_with_attributes}} with product or activity data.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+          version: '7'
+      type: authoritative
+      id: Classification_with_attributes_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Classification_association
+  domain: 'application module: Classification_with_attributes_arm'
+  language_code: eng
+  annotations: []
+id: 15a57ab2-c5bd-5230-9ca1-cbe80ce7b6db

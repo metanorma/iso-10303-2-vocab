@@ -1,0 +1,31 @@
+data:
+  identifier: Product_view_definition_reference_arm.Product_view_definition_reference
+  localized_concepts:
+    eng: 4c54bb31-2dab-5934-b2e1-249fe4a62785
+  domains:
+    - concept_id: section-Product_view_definition_reference_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+      ref_type: section
+id: Product_view_definition_reference_arm.Product_view_definition_reference
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm.Generic_product_view_definition_reference,Generic_product_view_definition_reference}} that represents the product view definition reference {{entity}}'
+  notes:
+    - content: A **Product_view_definition_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm.Generic_product_view_definition_reference,Generic_product_view_definition_reference}} that identifies the externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} by providing the key attributes necessary to unambiguously identify it and the associated {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}} that owns the product id.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+          version: '2'
+      type: authoritative
+      id: Product_view_definition_reference_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_view_definition_reference
+  domain: 'application module: Product_view_definition_reference_arm'
+  language_code: eng
+  annotations: []
+id: 4c54bb31-2dab-5934-b2e1-249fe4a62785

@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_arm.Product_class_relationship
+  localized_concepts:
+    eng: df6693b2-34bc-561d-971e-3b1a59b3fe9c
+  domains:
+    - concept_id: section-Product_class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+      ref_type: section
+id: Product_class_arm.Product_class_relationship
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product class relationship {{entity}}'
+  notes:
+    - content: A **Product_class_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Product_class,Product_class}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+          version: '6'
+      type: authoritative
+      id: Product_class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Product_class_relationship
+  domain: 'application module: Product_class_arm'
+  language_code: eng
+  annotations: []
+id: df6693b2-34bc-561d-971e-3b1a59b3fe9c

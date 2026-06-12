@@ -1,0 +1,31 @@
+data:
+  identifier: Temporal_objects_arm.Temporal_containment
+  localized_concepts:
+    eng: f4ecafbd-a74e-51bc-b487-2e1c1127741d
+  domains:
+    - concept_id: section-Temporal_objects_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+      ref_type: section
+id: Temporal_objects_arm.Temporal_containment
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that represents the temporal containment {{entity}}'
+  notes:
+    - content: A **Temporal_containment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_relationship,Root_relationship}} that specifies one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}} exists both before and after another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+          version: '1'
+      type: authoritative
+      id: Temporal_objects_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Temporal_containment
+  domain: 'application module: Temporal_objects_arm'
+  language_code: eng
+  annotations: []
+id: f4ecafbd-a74e-51bc-b487-2e1c1127741d

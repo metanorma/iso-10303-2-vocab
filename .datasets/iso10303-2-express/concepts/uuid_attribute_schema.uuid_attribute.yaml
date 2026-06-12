@@ -1,0 +1,33 @@
+data:
+  identifier: uuid_attribute_schema.uuid_attribute
+  localized_concepts:
+    eng: c5d7c980-a116-5628-82b3-90449126fde7
+  domains:
+    - concept_id: section-uuid_attribute_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+      ref_type: section
+id: uuid_attribute_schema.uuid_attribute
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the uuid attribute {{entity}}'
+  notes:
+    - content: |-
+        A **uuid_attribute** associates a
+        {{uuid,uuid}} with a collection of product data items of type {{uuid_attribute_select,uuid_attribute_select}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+          version: '1'
+      type: authoritative
+      id: uuid_attribute_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: uuid_attribute
+  domain: 'resource: uuid_attribute_schema'
+  language_code: eng
+  annotations: []
+id: c5d7c980-a116-5628-82b3-90449126fde7

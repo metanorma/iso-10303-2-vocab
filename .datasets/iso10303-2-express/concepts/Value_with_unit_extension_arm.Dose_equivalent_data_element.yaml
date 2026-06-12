@@ -1,0 +1,31 @@
+data:
+  identifier: Value_with_unit_extension_arm.Dose_equivalent_data_element
+  localized_concepts:
+    eng: d5c626ee-1acd-5848-b0bf-3a64cdafbd96
+  domains:
+    - concept_id: section-Value_with_unit_extension_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+      ref_type: section
+id: Value_with_unit_extension_arm.Dose_equivalent_data_element
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the dose equivalent data element {{entity}}'
+  notes:
+    - content: A **Dose_equivalent_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that specifies quantitative measures of Dose equivalence.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+          version: '4'
+      type: authoritative
+      id: Value_with_unit_extension_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Dose_equivalent_data_element
+  domain: 'application module: Value_with_unit_extension_arm'
+  language_code: eng
+  annotations: []
+id: d5c626ee-1acd-5848-b0bf-3a64cdafbd96

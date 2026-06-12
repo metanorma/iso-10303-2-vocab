@@ -1,0 +1,31 @@
+data:
+  identifier: Generic_expression_arm.Variable_semantics
+  localized_concepts:
+    eng: 9823c187-e54f-5a54-9cb4-ad4cdc031787
+  domains:
+    - concept_id: section-Generic_expression_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+      ref_type: section
+id: Generic_expression_arm.Variable_semantics
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the variable semantics {{entity}}'
+  notes:
+    - content: A **Variable_semantics** is used to represent the meaning of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_variable,Generic_variable}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+          version: '3'
+      type: authoritative
+      id: Generic_expression_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Variable_semantics
+  domain: 'application module: Generic_expression_arm'
+  language_code: eng
+  annotations: []
+id: 9823c187-e54f-5a54-9cb4-ad4cdc031787

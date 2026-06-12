@@ -1,0 +1,36 @@
+data:
+  identifier: Assembly_module_usage_view_mim.assembly_module_terminal
+  localized_concepts:
+    eng: 86cb852e-2ed1-51c3-81f9-1ed7bebed196
+  domains:
+    - concept_id: section-Assembly_module_usage_view_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
+      ref_type: section
+id: Assembly_module_usage_view_mim.assembly_module_terminal
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the assembly module terminal {{entity}}'
+  notes:
+    - content: |-
+        An **assembly_module_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implement the ARM concepts of:
+
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}};
+        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_terminal,Layered_assembly_module_terminal}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
+          version: '5'
+      type: authoritative
+      id: Assembly_module_usage_view_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assembly_module_terminal
+  domain: 'application module: Assembly_module_usage_view_mim'
+  language_code: eng
+  annotations: []
+id: 86cb852e-2ed1-51c3-81f9-1ed7bebed196

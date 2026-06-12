@@ -1,0 +1,35 @@
+data:
+  identifier: finite_element_analysis_control_and_result_schema.state
+  localized_concepts:
+    eng: e6b000d9-4ebe-56e4-a1f7-cf37eb6934c1
+  domains:
+    - concept_id: section-finite_element_analysis_control_and_result_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+      ref_type: section
+id: finite_element_analysis_control_and_result_schema.state
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state {{entity}}'
+  notes:
+    - content: |-
+        A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}} is an aggregation of state definitions that describe the model at an instant as follows:
+
+        * the attributes of the entity provide administrative information for the state;
+        * details of the state are supplied by the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state_definition,state_definition}} entities that reference it.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+          version: '3'
+      type: authoritative
+      id: finite_element_analysis_control_and_result_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: state
+  domain: 'resource: finite_element_analysis_control_and_result_schema'
+  language_code: eng
+  annotations: []
+id: e6b000d9-4ebe-56e4-a1f7-cf37eb6934c1

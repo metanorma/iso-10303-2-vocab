@@ -1,0 +1,30 @@
+data:
+  identifier: Scheme_arm.Scheme_version
+  localized_concepts:
+    eng: 74dccafa-0f62-5ddd-ab1b-b6d5a37f1394
+  domains:
+    - concept_id: section-Scheme_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+      ref_type: section
+id: Scheme_arm.Scheme_version
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}} that represents the scheme version {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+          version: '2'
+      type: authoritative
+      id: Scheme_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Scheme_version
+  domain: 'application module: Scheme_arm'
+  language_code: eng
+  annotations: []
+id: 74dccafa-0f62-5ddd-ab1b-b6d5a37f1394

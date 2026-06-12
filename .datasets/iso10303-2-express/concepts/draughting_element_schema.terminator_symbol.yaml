@@ -1,0 +1,30 @@
+data:
+  identifier: draughting_element_schema.terminator_symbol
+  localized_concepts:
+    eng: adbdaf5a-2ef0-5880-b55c-b3f13cc6adaf
+  domains:
+    - concept_id: section-draughting_element_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+      ref_type: section
+id: draughting_element_schema.terminator_symbol
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}} that represents the terminator symbol {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+          version: '7'
+      type: authoritative
+      id: draughting_element_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: terminator_symbol
+  domain: 'resource: draughting_element_schema'
+  language_code: eng
+  annotations: []
+id: adbdaf5a-2ef0-5880-b55c-b3f13cc6adaf

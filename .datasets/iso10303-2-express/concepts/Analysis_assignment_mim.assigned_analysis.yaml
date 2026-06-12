@@ -1,0 +1,31 @@
+data:
+  identifier: Analysis_assignment_mim.assigned_analysis
+  localized_concepts:
+    eng: 0668120e-0a69-5c5b-9e88-59133169c190
+  domains:
+    - concept_id: section-Analysis_assignment_mim
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+      ref_type: section
+id: Analysis_assignment_mim.assigned_analysis
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the assigned analysis {{entity}}'
+  notes:
+    - content: A **assigned_analysis** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} which identifies the analysis which is being assigned.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+          version: '1'
+      type: authoritative
+      id: Analysis_assignment_mim
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: assigned_analysis
+  domain: 'application module: Analysis_assignment_mim'
+  language_code: eng
+  annotations: []
+id: 0668120e-0a69-5c5b-9e88-59133169c190

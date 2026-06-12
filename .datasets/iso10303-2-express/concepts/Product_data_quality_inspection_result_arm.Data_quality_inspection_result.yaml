@@ -1,0 +1,31 @@
+data:
+  identifier: Product_data_quality_inspection_result_arm.Data_quality_inspection_result
+  localized_concepts:
+    eng: 980289cc-c864-59fa-a65a-d530a7b0d0b4
+  domains:
+    - concept_id: section-Product_data_quality_inspection_result_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+      ref_type: section
+id: Product_data_quality_inspection_result_arm.Data_quality_inspection_result
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the data quality inspection result {{entity}}'
+  notes:
+    - content: A **Data_quality_inspection_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the result of inspection regarding a single specified criterion.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+          version: '2'
+      type: authoritative
+      id: Product_data_quality_inspection_result_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Data_quality_inspection_result
+  domain: 'application module: Product_data_quality_inspection_result_arm'
+  language_code: eng
+  annotations: []
+id: 980289cc-c864-59fa-a65a-d530a7b0d0b4

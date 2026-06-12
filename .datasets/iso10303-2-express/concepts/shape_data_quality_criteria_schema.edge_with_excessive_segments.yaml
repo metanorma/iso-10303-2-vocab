@@ -1,0 +1,30 @@
+data:
+  identifier: shape_data_quality_criteria_schema.edge_with_excessive_segments
+  localized_concepts:
+    eng: a95b5b7b-6bb9-51b8-8fb3-0409695a515d
+  domains:
+    - concept_id: section-shape_data_quality_criteria_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+      ref_type: section
+id: shape_data_quality_criteria_schema.edge_with_excessive_segments
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.overcomplex_topology_and_geometry_relationship,overcomplex_topology_and_geometry_relationship}} that represents the edge with excessive segments {{entity}}'
+  notes: []
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+          version: '2'
+      type: authoritative
+      id: shape_data_quality_criteria_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: edge_with_excessive_segments
+  domain: 'resource: shape_data_quality_criteria_schema'
+  language_code: eng
+  annotations: []
+id: a95b5b7b-6bb9-51b8-8fb3-0409695a515d

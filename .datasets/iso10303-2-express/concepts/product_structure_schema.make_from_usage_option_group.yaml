@@ -1,0 +1,31 @@
+data:
+  identifier: product_structure_schema.make_from_usage_option_group
+  localized_concepts:
+    eng: 8bfadf05-9479-5682-ab9e-3e2fc5db4834
+  domains:
+    - concept_id: section-product_structure_schema
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+      ref_type: section
+id: product_structure_schema.make_from_usage_option_group
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the make from usage option group {{entity}}'
+  notes:
+    - content: A **make_from_usage_option_group** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.make_from_usage_option,make_from_usage_option}} instances that defines one possible combination of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that can be made from another single {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+          version: '6'
+      type: authoritative
+      id: product_structure_schema
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: make_from_usage_option_group
+  domain: 'resource: product_structure_schema'
+  language_code: eng
+  annotations: []
+id: 8bfadf05-9479-5682-ab9e-3e2fc5db4834

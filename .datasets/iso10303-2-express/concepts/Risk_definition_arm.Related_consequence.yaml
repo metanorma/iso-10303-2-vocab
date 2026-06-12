@@ -1,0 +1,31 @@
+data:
+  identifier: Risk_definition_arm.Related_consequence
+  localized_concepts:
+    eng: 9fef0fda-74cb-512d-81bd-499c8b33836a
+  domains:
+    - concept_id: section-Risk_definition_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+      ref_type: section
+id: Risk_definition_arm.Related_consequence
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the related consequence {{entity}}'
+  notes:
+    - content: A **Related_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} describing the expected consequences of a specific perception of a risk.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+          version: '3'
+      type: authoritative
+      id: Risk_definition_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Related_consequence
+  domain: 'application module: Risk_definition_arm'
+  language_code: eng
+  annotations: []
+id: 9fef0fda-74cb-512d-81bd-499c8b33836a

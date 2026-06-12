@@ -1,0 +1,31 @@
+data:
+  identifier: Product_class_arm.Specification
+  localized_concepts:
+    eng: 99145510-209a-50c9-bdff-8c8c1c8f799a
+  domains:
+    - concept_id: section-Product_class_arm
+      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+      ref_type: section
+id: Product_class_arm.Specification
+schema_version: v3
+---
+data:
+  definition:
+    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the specification {{entity}}'
+  notes:
+    - content: A **Specification** is a characteristic of products to be proposed to customers or users.
+  sources:
+    - origin:
+        ref:
+          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+          version: '6'
+      type: authoritative
+      id: Product_class_arm
+  terms:
+    - type: expression
+      normative_status: preferred
+      designation: Specification
+  domain: 'application module: Product_class_arm'
+  language_code: eng
+  annotations: []
+id: 99145510-209a-50c9-bdff-8c8c1c8f799a
