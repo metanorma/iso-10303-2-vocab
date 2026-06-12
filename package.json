@@ -5,8 +5,8 @@
     "generate": "concept-browser generate",
     "edges": "concept-browser edges",
     "build": "concept-browser build",
-    "dev": "npm run generate && vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
-    "preview": "vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts"
+    "dev": "npm run generate && npx vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
+    "preview": "npx vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts"
   },
   "dependencies": {
     "@glossarist/concept-browser": "^0.7.35"
