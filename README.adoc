@@ -1,26 +1,22 @@
 = ISO 10303-2 STEP Vocabulary
 
-This repository hosts the ISO 10303-2 Vocabulary website, built with the
-https://github.com/geolexista/glossarist-vocabulary-browser[Glossarist Concept Browser].
+This repository hosts the https://metanorma.github.io/iso-10303-2-vocab/[ISO 10303-2 Vocabulary] website, built with the https://github.com/geolexista/glossarist-vocabulary-browser[Glossarist Concept Browser].
 
-image:https://github.com/metanorma/iso-10303-2/actions/workflows/deploy.yml/badge.svg["Deploy Status", link="https://github.com/metanorma/iso-10303-2/actions/workflows/deploy.yml"]
+image:https://github.com/metanorma/iso-10303-2-vocab/actions/workflows/deploy.yml/badge.svg["Deploy Status", link="https://github.com/metanorma/iso-10303-2-vocab/actions/workflows/deploy.yml"]
 
 
-== Structure
+== About
 
-[horizontal]
-`.datasets/`:: Committed concept datasets (YAML)
-`site-config.yml`:: Concept browser site configuration
-`logos/`:: Site logos
-`about.md`:: About page content
-`Rakefile`:: Concept extraction and site build tasks
-`.github/workflows/`:: CI/CD pipelines
+This information service is provided by **ISO/TC 184/SC 4/TF 1**, the task force responsible for managing the ISO 10303-2 vocabulary under https://www.iso.org/committee/54858.html[ISO Technical Committee 184, Subcommittee 4] (Industrial data).
+
+ISO 10303 specifies the computer-interpretable representation and exchange of product data (STEP — STandard for the Exchange of Product model data). **ISO 10303-2** provides the vocabulary used throughout the ISO 10303 series, including terms, definitions, and EXPRESS entity type definitions.
 
 
 == Datasets
 
-iso10303-2-terms:: 685 terms and definitions from Clause 3 of ISO 10303-2
-iso10303-2-express:: 7,362 EXPRESS entity concepts from application modules and integrated resources
+iso10303-2-terms:: 685 terms and definitions from Clause 3 of ISO 10303-2, covering the vocabulary of product data representation and exchange across 32 thematic sections.
+
+iso10303-2-express:: 7,363 EXPRESS entity concepts from Clauses 4 and 5 of ISO 10303-2, extracted from the integrated resources and application modules of the ISO 10303 STEP Library.
 
 
 == Local Development
@@ -77,14 +73,7 @@ docker run --rm -v /path/to/iso-10303:/src ghcr.io/metanorma/suma-docker:latest 
 
 [source,sh]
 ----
-# Full build pipeline
-rake site:build
-
-# Or individual steps
-npx concept-browser generate
-npx concept-browser edges
-SITE_TITLE="ISO 10303-2 Vocabulary" npx vite build \
-  --config node_modules/@glossarist/concept-browser/vite.config.ts
+npm run build
 ----
 
 The built site is output to `dist/`.
@@ -99,12 +88,6 @@ The built site is output to `dist/`.
   `iso-10303` source repo and creates a PR with updated `.datasets/`.
   Runs weekly on Mondays or on manual trigger.
 
-
-== Legacy Content
-
-The repository previously contained the ISO 10303-2 document source (Adoc + STEPmod).
-That content has been superseded by the vocabulary website.
-Old document sources are preserved in the `sources/` directory.
 
 == License
 
