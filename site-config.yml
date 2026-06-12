@@ -7,6 +7,7 @@ description: Vocabulary for industrial automation systems and integration from I
 
 datasets:
   - id: iso10303-2-terms
+    localPath: datasets/iso10303-2-terms
     uri: "urn:iso:std:iso:10303:-2:ed-1:en:term:*"
     sourceRepo: https://github.com/iso-10303/iso-10303
     title: "Terms and Definitions"
@@ -15,6 +16,7 @@ datasets:
     color: "#00629B"
 
   - id: iso10303-2-express
+    localPath: datasets/iso10303-2-express
     uri: "urn:iso:std:iso:10303:-2:ed-1:en:tech:*"
     sourceRepo: https://github.com/iso-10303/iso-10303
     title: "EXPRESS Concepts"
@@ -41,7 +43,7 @@ branding:
     alt: "ISO"
     localPath: logos/iso-red.svg
   ownerName: "ISO/TC 184/SC 4"
-  ownerUrl: https://iso-10303-2.ise
+  ownerUrl: https://metanorma.github.io/iso-10303-2-vocab/
 
 features:
   news: false

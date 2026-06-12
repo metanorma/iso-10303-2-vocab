@@ -1,33 +1,28 @@
----
-title: About
----
-
 # About the ISO 10303-2 Vocabulary
 
 ## ISO 10303 — Industrial Automation Systems and Integration — Product Data Representation and Exchange
 
-ISO 10303 is a multipart International Standard for the computer-interpretable representation and exchange of product data. The objective is to provide a neutral mechanism capable of describing product data throughout the life cycle of a product, independent from any particular system.
-
-The nature of this description makes it suitable not only for neutral file exchange, but also as a basis for implementing and sharing product databases, and as a basis for retention and archiving.
+ISO 10303 is a multipart International Standard for the computer-interpretable representation and exchange of product data. The objective is to provide a neutral mechanism capable of describing products throughout their life cycle. This mechanism is suitable not only for neutral file exchange, but also as a basis for implementing and sharing product databases, and as a basis for archiving.
 
 ## ISO 10303-2 — Vocabulary
 
-**ISO 10303-2** defines the vocabulary used throughout the ISO 10303 series. It provides authoritative definitions for terms used in product data representation and exchange, including concepts from:
+**ISO 10303-2** provides a single source of vocabulary for the ISO 10303 series. It lists concepts — including terms, definitions, and EXPRESS entity type definitions — required to understand the ISO 10303 series. When a concept is used in more than one industrial domain, each usage includes a domain-specific definition.
 
-- **Application modules** — modular schemas for specific product data domains
-- **Application protocols** — complete information exchange requirements for specific applications
-- **Integrated resources** — generic product data constructs
-- **Implementation methods** — techniques for data exchange and sharing
-- **Conformance testing** — methodology and framework for testing implementations
+By providing a single source of concepts across the ISO 10303 series, ISO 10303-2 facilitates concept reference and encourages standards developers, including those outside the ISO 10303 series or outside ISO/TC 184/SC 4, to reuse existing EXPRESS entity types.
 
-### Why Terminology Matters
+## The Two Datasets
 
-ISO 10303 spans numerous engineering and manufacturing domains — from geometric modeling and structural analysis to additive manufacturing and systems engineering. Precise, standardized terminology is essential to:
+This site presents two complementary datasets:
 
-- Ensure unambiguous interpretation of product data specifications
-- Provide a common language for international standards development
-- Support interoperability between CAD, CAM, CAE, and PDM systems
-- Enable consistent conformance testing and certification
+- **Terms and Definitions** — 685 terms organized into 32 thematic sections covering the vocabulary of product data representation and exchange: general concepts, the EXPRESS language, geometric and topological representation, product structure, material properties, finite element analysis, and more.
+
+- **EXPRESS Concepts** — 7,363 entity type definitions extracted from the EXPRESS schemas of ISO 10303 application modules and integrated resources. These are the machine-readable data types that form the backbone of STEP data exchange.
+
+Together, these datasets provide the complete terminology needed to develop, implement, and interpret standards in the ISO 10303 series.
+
+## Governance
+
+This vocabulary collection is managed by **ISO/TC 184/SC 4/TF 1**, the task force responsible for the ISO 10303-2 vocabulary under ISO Technical Committee 184, Subcommittee 4 (Industrial data).
 
 ## Source
 
