@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.General_cutout
   localized_concepts:
     eng: dab66976-15aa-5f73-a00d-0fa358f1b428
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.General_cutout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Cutout_feature,Cutout_feature}} that represents the general cutout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Cutout_feature,Cutout_feature}}
+      that represents the general cutout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **General_cutout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Cutout_feature,Cutout_feature}} that is a volume of arbitrary shape removed from the part and shall pass through two faces of the part.
+  - content: A **General_cutout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Cutout_feature,Cutout_feature}}
+      that is a volume of arbitrary shape removed from the part and shall pass through
+      two faces of the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: General_cutout
+  - type: expression
+    normative_status: preferred
+    designation: General_cutout
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

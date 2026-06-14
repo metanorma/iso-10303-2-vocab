@@ -1,30 +1,35 @@
+---
 data:
   identifier: Ap239_part_definition_information_mim.characterized_person_and_organization
   localized_concepts:
     eng: e12192f7-1359-511d-9b39-5a5afd61a45d
   domains:
-    - concept_id: section-Ap239_part_definition_information_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
-      ref_type: section
+  - concept_id: section-Ap239_part_definition_information_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+    ref_type: section
 id: Ap239_part_definition_information_mim.characterized_person_and_organization
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized person and organization {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized person and organization {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_person_and_organization** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim.characterized_person_and_organization,characterized_person_and_organization}} instances.
+  - content: A **characterized_person_and_organization** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}}
+      that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim.characterized_person_and_organization,characterized_person_and_organization}}
+      instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
-          version: '5'
-      type: authoritative
-      id: Ap239_part_definition_information_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_person_and_organization
+  - type: expression
+    normative_status: preferred
+    designation: characterized_person_and_organization
   domain: 'application module: Ap239_part_definition_information_mim'
   language_code: eng
   annotations: []

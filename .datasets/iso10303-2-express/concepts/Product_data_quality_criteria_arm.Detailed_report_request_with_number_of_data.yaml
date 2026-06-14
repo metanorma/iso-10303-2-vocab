@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_data_quality_criteria_arm.Detailed_report_request_with_number_of_data
   localized_concepts:
     eng: 7a2ae3a8-b0ec-5394-98d3-6f224e61d161
   domains:
-    - concept_id: section-Product_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Product_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+    ref_type: section
 id: Product_data_quality_criteria_arm.Detailed_report_request_with_number_of_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.detailed_report_request,detailed_report_request}} that represents the detailed report request with number of data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.detailed_report_request,detailed_report_request}}
+      that represents the detailed report request with number of data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Detailed_report_request_with_number_of_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Detailed_report_request,Detailed_report_request}} that controls maximum number of instances reported.
+  - content: A **Detailed_report_request_with_number_of_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Detailed_report_request,Detailed_report_request}}
+      that controls maximum number of instances reported.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
-          version: '2'
-      type: authoritative
-      id: Product_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Detailed_report_request_with_number_of_data
+  - type: expression
+    normative_status: preferred
+    designation: Detailed_report_request_with_number_of_data
   domain: 'application module: Product_data_quality_criteria_arm'
   language_code: eng
   annotations: []

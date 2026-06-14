@@ -1,30 +1,34 @@
+---
 data:
   identifier: Draughting_element_specialisations_arm.Surface_condition_callout
   localized_concepts:
     eng: 2e9c2b6d-4516-5dc8-8d1a-f29f5058f3fa
   domains:
-    - concept_id: section-Draughting_element_specialisations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_specialisations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+    ref_type: section
 id: Draughting_element_specialisations_arm.Surface_condition_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}} that represents the surface condition callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}}
+      that represents the surface condition callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_condition_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}} that is a combination of annotation elements that represents information about a surface condition.
+  - content: A **Surface_condition_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}}
+      that is a combination of annotation elements that represents information about
+      a surface condition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_element_specialisations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_condition_callout
+  - type: expression
+    normative_status: preferred
+    designation: Surface_condition_callout
   domain: 'application module: Draughting_element_specialisations_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Conditional_effectivity_arm.Conditional_effectivity
   localized_concepts:
     eng: 25dbf356-d3f1-5417-9f4d-ad271e8e707a
   domains:
-    - concept_id: section-Conditional_effectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
-      ref_type: section
+  - concept_id: section-Conditional_effectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
+    ref_type: section
 id: Conditional_effectivity_arm.Conditional_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} that represents the conditional effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm.Effectivity,Effectivity}}
+      that represents the conditional effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Conditional_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}} for which the domain of applicability is defined by an explicit condition.
+  - content: A **Conditional_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Effectivity_arm.Effectivity,Effectivity}}
+      for which the domain of applicability is defined by an explicit condition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
-          version: '3'
-      type: authoritative
-      id: Conditional_effectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conditional_effectivity_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Conditional_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: Conditional_effectivity
   domain: 'application module: Conditional_effectivity_arm'
   language_code: eng
   annotations: []

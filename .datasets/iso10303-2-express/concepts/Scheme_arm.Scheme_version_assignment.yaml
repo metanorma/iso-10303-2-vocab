@@ -1,29 +1,31 @@
+---
 data:
   identifier: Scheme_arm.Scheme_version_assignment
   localized_concepts:
     eng: 3c53def4-af5c-5eec-a6b9-df09cb053ef3
   domains:
-    - concept_id: section-Scheme_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
-      ref_type: section
+  - concept_id: section-Scheme_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+    ref_type: section
 id: Scheme_arm.Scheme_version_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Applied_activity_method_assignment,Applied_activity_method_assignment}} that represents the scheme version assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Applied_activity_method_assignment,Applied_activity_method_assignment}}
+      that represents the scheme version assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
-          version: '2'
-      type: authoritative
-      id: Scheme_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Scheme_version_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Scheme_version_assignment
   domain: 'application module: Scheme_arm'
   language_code: eng
   annotations: []

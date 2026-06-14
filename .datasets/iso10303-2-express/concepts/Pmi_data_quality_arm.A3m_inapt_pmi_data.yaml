@@ -1,30 +1,34 @@
+---
 data:
   identifier: Pmi_data_quality_arm.A3m_inapt_pmi_data
   localized_concepts:
     eng: ec494beb-f8b7-5a2a-b437-4049038b66ae
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.A3m_inapt_pmi_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_pmi_data_quality_criterion,A3m_pmi_data_quality_criterion}} that represents the a3m inapt pmi data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_pmi_data_quality_criterion,A3m_pmi_data_quality_criterion}}
+      that represents the a3m inapt pmi data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_inapt_pmi_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_pmi_data_quality_criterion,A3m_pmi_data_quality_criterion}} that is a supertype of criteria for detecting problematic PMI data inappropriate in a specific context or data in conflict with preferable practices.
+  - content: An **A3m_inapt_pmi_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_pmi_data_quality_criterion,A3m_pmi_data_quality_criterion}}
+      that is a supertype of criteria for detecting problematic PMI data inappropriate
+      in a specific context or data in conflict with preferable practices.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_inapt_pmi_data
+  - type: expression
+    normative_status: preferred
+    designation: A3m_inapt_pmi_data
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

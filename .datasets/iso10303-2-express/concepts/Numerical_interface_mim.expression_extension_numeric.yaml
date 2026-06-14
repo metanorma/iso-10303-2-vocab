@@ -1,30 +1,33 @@
+---
 data:
   identifier: Numerical_interface_mim.expression_extension_numeric
   localized_concepts:
     eng: 8804f28b-4efe-57f0-87fa-b76af194dcb9
   domains:
-    - concept_id: section-Numerical_interface_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
-      ref_type: section
+  - concept_id: section-Numerical_interface_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+    ref_type: section
 id: Numerical_interface_mim.expression_extension_numeric
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the expression extension numeric {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the expression extension numeric {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **expression_extension_numeric** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.numeric_expression,numeric_expression}} and is the conceptual representation of an expression in the numeric format.
+  - content: An **expression_extension_numeric** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.numeric_expression,numeric_expression}}
+      and is the conceptual representation of an expression in the numeric format.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
-          version: '2'
-      type: authoritative
-      id: Numerical_interface_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: expression_extension_numeric
+  - type: expression
+    normative_status: preferred
+    designation: expression_extension_numeric
   domain: 'application module: Numerical_interface_mim'
   language_code: eng
   annotations: []

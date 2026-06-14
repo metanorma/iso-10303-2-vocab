@@ -1,30 +1,34 @@
+---
 data:
   identifier: structural_response_representation_schema.node_with_solution_coordinate_system
   localized_concepts:
     eng: 3b59e13f-84ab-5af3-bff3-81b2401e11d8
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.node_with_solution_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node,node}} that represents the node with solution coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node,node}}
+      that represents the node with solution coordinate system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_with_solution_coordinate_system,node_with_solution_coordinate_system}} is a discretisation point with a solution coordinate system for the field variables of elements in a finite element analysis model.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_with_solution_coordinate_system,node_with_solution_coordinate_system}}
+      is a discretisation point with a solution coordinate system for the field variables
+      of elements in a finite element analysis model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: node_with_solution_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: node_with_solution_coordinate_system
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

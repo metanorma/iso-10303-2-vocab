@@ -1,30 +1,34 @@
+---
 data:
   identifier: Event_arm.Relative_event
   localized_concepts:
     eng: 7a0394fb-53be-5d99-a910-f534970c998d
   domains:
-    - concept_id: section-Event_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-      ref_type: section
+  - concept_id: section-Event_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+    ref_type: section
 id: Event_arm.Relative_event
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}} that represents the relative event {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}
+      that represents the relative event {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Relative_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}} the start of which will occur, respectively has occurred, with a time offset from the start of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}.
+  - content: A **Relative_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}
+      the start of which will occur, respectively has occurred, with a time offset
+      from the start of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-          version: '2'
-      type: authoritative
-      id: Event_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Relative_event
+  - type: expression
+    normative_status: preferred
+    designation: Relative_event
   domain: 'application module: Event_arm'
   language_code: eng
   annotations: []

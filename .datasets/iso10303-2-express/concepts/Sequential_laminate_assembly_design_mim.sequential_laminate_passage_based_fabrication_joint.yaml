@@ -1,30 +1,34 @@
+---
 data:
   identifier: Sequential_laminate_assembly_design_mim.sequential_laminate_passage_based_fabrication_joint
   localized_concepts:
     eng: 732cf9dd-469d-5e87-a624-43ba6841e322
   domains:
-    - concept_id: section-Sequential_laminate_assembly_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
-      ref_type: section
+  - concept_id: section-Sequential_laminate_assembly_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
+    ref_type: section
 id: Sequential_laminate_assembly_design_mim.sequential_laminate_passage_based_fabrication_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the sequential laminate passage based fabrication joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim.shape_aspect,shape_aspect}}
+      that represents the sequential laminate passage based fabrication joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **sequential_laminate_passage_based_fabrication_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Interconnect_module_product_assembly_view_fabrication_joint,Interconnect_module_product_assembly_view_fabrication_joint}}.
+  - content: A **sequential_laminate_passage_based_fabrication_joint** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Interconnect_module_product_assembly_view_fabrication_joint,Interconnect_module_product_assembly_view_fabrication_joint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
-          version: '5'
-      type: authoritative
-      id: Sequential_laminate_assembly_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sequential_laminate_passage_based_fabrication_joint
+  - type: expression
+    normative_status: preferred
+    designation: sequential_laminate_passage_based_fabrication_joint
   domain: 'application module: Sequential_laminate_assembly_design_mim'
   language_code: eng
   annotations: []

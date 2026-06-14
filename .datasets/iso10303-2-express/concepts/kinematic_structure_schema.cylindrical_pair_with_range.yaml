@@ -1,30 +1,32 @@
+---
 data:
   identifier: kinematic_structure_schema.cylindrical_pair_with_range
   localized_concepts:
-    eng: 0861cf31-0e57-5e40-a5b2-b01ed1d299cd
+    eng: '0861cf31-0e57-5e40-a5b2-b01ed1d299cd'
   domains:
-    - concept_id: section-kinematic_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-      ref_type: section
+  - concept_id: section-kinematic_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+    ref_type: section
 id: kinematic_structure_schema.cylindrical_pair_with_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.cylindrical_pair,cylindrical_pair}} that represents the cylindrical pair with range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.cylindrical_pair,cylindrical_pair}}
+      that represents the cylindrical pair with range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cylindrical_pair_with_range
+  - type: expression
+    normative_status: preferred
+    designation: cylindrical_pair_with_range
   domain: 'resource: kinematic_structure_schema'
   language_code: eng
   annotations: []
-id: 0861cf31-0e57-5e40-a5b2-b01ed1d299cd
+id: '0861cf31-0e57-5e40-a5b2-b01ed1d299cd'

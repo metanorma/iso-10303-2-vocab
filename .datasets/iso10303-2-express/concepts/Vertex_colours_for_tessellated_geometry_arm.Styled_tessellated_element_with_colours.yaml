@@ -1,30 +1,33 @@
+---
 data:
   identifier: Vertex_colours_for_tessellated_geometry_arm.Styled_tessellated_element_with_colours
   localized_concepts:
     eng: 531ffdec-2e2d-5d39-a735-67dffba44287
   domains:
-    - concept_id: section-Vertex_colours_for_tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Vertex_colours_for_tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Vertex_colours_for_tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Vertex_colours_for_tessellated_geometry_arm
+    ref_type: section
 id: Vertex_colours_for_tessellated_geometry_arm.Styled_tessellated_element_with_colours
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}} that represents the styled tessellated element with colours {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Vertex_colours_for_tessellated_geometry_arm.Styled_element,Styled_element}}
+      that represents the styled tessellated element with colours {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Styled_tessellated_element_with_colours** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}} that assigns colour values to the vertices of tessellated surfaces.
+  - content: A **Styled_tessellated_element_with_colours** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}}
+      that assigns colour values to the vertices of tessellated surfaces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Vertex_colours_for_tessellated_geometry_arm
-          version: '2'
-      type: authoritative
-      id: Vertex_colours_for_tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Vertex_colours_for_tessellated_geometry_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Styled_tessellated_element_with_colours
+  - type: expression
+    normative_status: preferred
+    designation: Styled_tessellated_element_with_colours
   domain: 'application module: Vertex_colours_for_tessellated_geometry_arm'
   language_code: eng
   annotations: []

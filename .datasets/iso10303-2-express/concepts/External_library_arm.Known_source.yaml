@@ -1,29 +1,31 @@
+---
 data:
   identifier: External_library_arm.Known_source
   localized_concepts:
     eng: 7d652801-8014-576f-aeee-8b8f224b38d2
   domains:
-    - concept_id: section-External_library_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
-      ref_type: section
+  - concept_id: section-External_library_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+    ref_type: section
 id: External_library_arm.Known_source
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_source_arm.External_source,External_source}} that represents the known source {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.External_source,External_source}}
+      that represents the known source {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
-          version: '3'
-      type: authoritative
-      id: External_library_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Known_source
+  - type: expression
+    normative_status: preferred
+    designation: Known_source
   domain: 'application module: External_library_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Printed_part_cross_section_template
   localized_concepts:
     eng: b422df0c-59ed-5ff8-94db-c52282d128aa
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Printed_part_cross_section_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}} that represents the printed part cross section template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}}
+      that represents the printed part cross section template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Printed_part_cross_section_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}} that describes a cross-sectional view of a transmission line unit element including dielectric, metallic and geometric properties.
+  - content: A **Printed_part_cross_section_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}}
+      that describes a cross-sectional view of a transmission line unit element including
+      dielectric, metallic and geometric properties.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Printed_part_cross_section_template
+  - type: expression
+    normative_status: preferred
+    designation: Printed_part_cross_section_template
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []

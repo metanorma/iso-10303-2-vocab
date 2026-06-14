@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_dimension_schema.directed_dimensional_location
   localized_concepts:
     eng: d1b06090-4e5b-592d-836a-f9a4ae52836b
   domains:
-    - concept_id: section-shape_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-      ref_type: section
+  - concept_id: section-shape_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+    ref_type: section
 id: shape_dimension_schema.directed_dimensional_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}} that represents the directed dimensional location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}}
+      that represents the directed dimensional location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **directed_dimensional_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}} that shall be measured from the origin, given by {{relating_shape_aspect,relating_shape_aspect}}, to the target, given by {{related_shape_aspect,related_shape_aspect}}.
+  - content: A **directed_dimensional_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}}
+      that shall be measured from the origin, given by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship.relating_shape_aspect,relating_shape_aspect}},
+      to the target, given by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship.related_shape_aspect,related_shape_aspect}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-          version: '5'
-      type: authoritative
-      id: shape_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: directed_dimensional_location
+  - type: expression
+    normative_status: preferred
+    designation: directed_dimensional_location
   domain: 'resource: shape_dimension_schema'
   language_code: eng
   annotations: []

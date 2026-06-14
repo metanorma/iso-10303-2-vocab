@@ -1,30 +1,34 @@
+---
 data:
   identifier: presentation_definition_schema.text_string_representation
   localized_concepts:
     eng: 8bb4617a-739f-535a-b837-7654aa3a4a43
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.text_string_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the text string representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.representation,representation}}
+      that represents the text string representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **text_string_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} which has a collection of text strings and characters to be mapped to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text,annotation_text}} entity.
+  - content: A **text_string_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      which has a collection of text strings and characters to be mapped to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text,annotation_text}}
+      entity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: text_string_representation
+  - type: expression
+    normative_status: preferred
+    designation: text_string_representation
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

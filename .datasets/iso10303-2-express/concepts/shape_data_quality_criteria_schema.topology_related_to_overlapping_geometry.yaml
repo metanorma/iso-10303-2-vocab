@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.topology_related_to_overlapping_geometry
   localized_concepts:
     eng: 6fa1100b-b2ed-5064-8c09-852b228ea670
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.topology_related_to_overlapping_geometry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} that represents the topology related to overlapping geometry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      that represents the topology related to overlapping geometry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **topology_related_to_overlapping_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} and is a supertype of criteria for detecting topological entities whose underlying geometry partially overlaps.
+  - content: A **topology_related_to_overlapping_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      and is a supertype of criteria for detecting topological entities whose underlying
+      geometry partially overlaps.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: topology_related_to_overlapping_geometry
+  - type: expression
+    normative_status: preferred
+    designation: topology_related_to_overlapping_geometry
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Edge_based_topological_representation_with_length_constraint_arm.Bounded_curve_with_length
   localized_concepts:
     eng: 8cb39b07-2e7f-5cc5-93b8-2190cc99ea5a
   domains:
-    - concept_id: section-Edge_based_topological_representation_with_length_constraint_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
-      ref_type: section
+  - concept_id: section-Edge_based_topological_representation_with_length_constraint_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
+    ref_type: section
 id: Edge_based_topological_representation_with_length_constraint_arm.Bounded_curve_with_length
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bounded curve with length {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bounded curve with length {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_curve,Bounded_curve}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Dimensioned_curve_length_constraint,Dimensioned_curve_length_constraint}} that is not bounded to specified coordinate values but is constrained to a specific {{curve_length,curve_length}}.
+  - content: A **Bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_curve,Bounded_curve}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Dimensioned_curve_length_constraint,Dimensioned_curve_length_constraint}}
+      that is not bounded to specified coordinate values but is constrained to a specific
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Dimensioned_curve_length_constraint.curve_length,curve_length}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
-          version: '4'
-      type: authoritative
-      id: Edge_based_topological_representation_with_length_constraint_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bounded_curve_with_length
+  - type: expression
+    normative_status: preferred
+    designation: Bounded_curve_with_length
   domain: 'application module: Edge_based_topological_representation_with_length_constraint_arm'
   language_code: eng
   annotations: []

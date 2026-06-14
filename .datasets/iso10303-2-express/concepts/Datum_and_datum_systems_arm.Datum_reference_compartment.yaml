@@ -1,30 +1,34 @@
+---
 data:
   identifier: Datum_and_datum_systems_arm.Datum_reference_compartment
   localized_concepts:
     eng: 9a900565-5d6b-5029-9f38-e94ad057a33f
   domains:
-    - concept_id: section-Datum_and_datum_systems_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+    ref_type: section
 id: Datum_and_datum_systems_arm.Datum_reference_compartment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.General_datum_reference,General_datum_reference}} that represents the datum reference compartment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.General_datum_reference,General_datum_reference}}
+      that represents the datum reference compartment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Datum_reference_compartment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.General_datum_reference,General_datum_reference}} that represents the compartment of either the primary, secondary or tertiary datum in a feature control frame.
+  - content: A **Datum_reference_compartment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.General_datum_reference,General_datum_reference}}
+      that represents the compartment of either the primary, secondary or tertiary
+      datum in a feature control frame.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_reference_compartment
+  - type: expression
+    normative_status: preferred
+    designation: Datum_reference_compartment
   domain: 'application module: Datum_and_datum_systems_arm'
   language_code: eng
   annotations: []

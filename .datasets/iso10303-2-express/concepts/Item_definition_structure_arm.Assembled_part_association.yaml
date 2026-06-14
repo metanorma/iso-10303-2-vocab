@@ -1,30 +1,34 @@
+---
 data:
   identifier: Item_definition_structure_arm.Assembled_part_association
   localized_concepts:
     eng: 956ec52d-78d3-5783-9edb-bca23385f055
   domains:
-    - concept_id: section-Item_definition_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-      ref_type: section
+  - concept_id: section-Item_definition_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+    ref_type: section
 id: Item_definition_structure_arm.Assembled_part_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}} that represents the assembled part association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_component_relationship,Assembly_component_relationship}}
+      that represents the assembled part association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembled_part_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}} that relates an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} with an occurrence of one of its components.
+  - content: An **Assembled_part_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Assembly_component_relationship,Assembly_component_relationship}}
+      that relates an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}}
+      with an occurrence of one of its components.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-          version: '6'
-      type: authoritative
-      id: Item_definition_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembled_part_association
+  - type: expression
+    normative_status: preferred
+    designation: Assembled_part_association
   domain: 'application module: Item_definition_structure_arm'
   language_code: eng
   annotations: []

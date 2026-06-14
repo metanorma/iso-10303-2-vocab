@@ -1,29 +1,30 @@
+---
 data:
   identifier: Symbolization_by_schematic_element_mim.symbolization_by_schematic_element
   localized_concepts:
     eng: f109f0a8-147a-5a64-a48f-e1a7ad02b8a1
   domains:
-    - concept_id: section-Symbolization_by_schematic_element_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Symbolization_by_schematic_element_mim
-      ref_type: section
+  - concept_id: section-Symbolization_by_schematic_element_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Symbolization_by_schematic_element_mim
+    ref_type: section
 id: Symbolization_by_schematic_element_mim.symbolization_by_schematic_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the symbolization by schematic element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the symbolization by schematic element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Symbolization_by_schematic_element_mim
-          version: '1'
-      type: authoritative
-      id: Symbolization_by_schematic_element_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Symbolization_by_schematic_element_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: symbolization_by_schematic_element
+  - type: expression
+    normative_status: preferred
+    designation: symbolization_by_schematic_element
   domain: 'application module: Symbolization_by_schematic_element_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: sketch_schema.rigid_subsketch
   localized_concepts:
     eng: 2f9361ca-22c7-5c35-a921-e69802d2cf3e
   domains:
-    - concept_id: section-sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-      ref_type: section
+  - concept_id: section-sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+    ref_type: section
 id: sketch_schema.rigid_subsketch
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema.subsketch,subsketch}} that represents the rigid subsketch {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema.subsketch,subsketch}}
+      that represents the rigid subsketch {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type *rigid_subsketch* is a type of *subsketch* with specific semantics.
+  - content: The entity data type *rigid_subsketch* is a type of *subsketch* with
+      specific semantics.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-          version: '4'
-      type: authoritative
-      id: sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rigid_subsketch
+  - type: expression
+    normative_status: preferred
+    designation: rigid_subsketch
   domain: 'resource: sketch_schema'
   language_code: eng
   annotations: []

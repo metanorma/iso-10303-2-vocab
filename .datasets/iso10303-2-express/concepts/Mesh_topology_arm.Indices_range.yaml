@@ -1,30 +1,32 @@
+---
 data:
   identifier: Mesh_topology_arm.Indices_range
   localized_concepts:
     eng: c5384af0-0131-56c8-956f-f09a1c99ecf6
   domains:
-    - concept_id: section-Mesh_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-      ref_type: section
+  - concept_id: section-Mesh_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+    ref_type: section
 id: Mesh_topology_arm.Indices_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the indices range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the indices range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Indices_range** is the beginning and ending indices of a subrange in a multi-dimensional array.
+  - content: An **Indices_range** is the beginning and ending indices of a subrange
+      in a multi-dimensional array.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-          version: '2'
-      type: authoritative
-      id: Mesh_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Indices_range
+  - type: expression
+    normative_status: preferred
+    designation: Indices_range
   domain: 'application module: Mesh_topology_arm'
   language_code: eng
   annotations: []

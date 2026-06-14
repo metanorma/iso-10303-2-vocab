@@ -1,30 +1,31 @@
+---
 data:
   identifier: Foundation_state_definition_arm.State_definition
   localized_concepts:
     eng: 4e0589a0-c422-5723-b042-48ddcf4e369d
   domains:
-    - concept_id: section-Foundation_state_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
-      ref_type: section
+  - concept_id: section-Foundation_state_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+    ref_type: section
 id: Foundation_state_definition_arm.State_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **State_definition is** a mode of being.
+  - content: A **State_definition is** a mode of being.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
-          version: '2'
-      type: authoritative
-      id: Foundation_state_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: State_definition
+  - type: expression
+    normative_status: preferred
+    designation: State_definition
   domain: 'application module: Foundation_state_definition_arm'
   language_code: eng
   annotations: []

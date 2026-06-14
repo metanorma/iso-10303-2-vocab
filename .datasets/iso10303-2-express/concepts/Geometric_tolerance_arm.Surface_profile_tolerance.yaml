@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_tolerance_arm.Surface_profile_tolerance
   localized_concepts:
     eng: 3c741dee-5a84-5b03-89f2-b7fe00b028f4
   domains:
-    - concept_id: section-Geometric_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-      ref_type: section
+  - concept_id: section-Geometric_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+    ref_type: section
 id: Geometric_tolerance_arm.Surface_profile_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the surface profile tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that represents the surface profile tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_profile_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that is the definition of a uniform boundary along an ideal profile within which the elements of a surface must lie.
+  - content: A **Surface_profile_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that is the definition of a uniform boundary along an ideal profile within which
+      the elements of a surface must lie.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-          version: '10'
-      type: authoritative
-      id: Geometric_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_profile_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: Surface_profile_tolerance
   domain: 'application module: Geometric_tolerance_arm'
   language_code: eng
   annotations: []

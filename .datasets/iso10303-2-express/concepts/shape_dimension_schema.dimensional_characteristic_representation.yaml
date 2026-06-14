@@ -1,30 +1,32 @@
+---
 data:
   identifier: shape_dimension_schema.dimensional_characteristic_representation
   localized_concepts:
     eng: 5a86016c-f314-56c3-986b-2adad5306445
   domains:
-    - concept_id: section-shape_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-      ref_type: section
+  - concept_id: section-shape_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+    ref_type: section
 id: shape_dimension_schema.dimensional_characteristic_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimensional characteristic representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the dimensional characteristic representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dimensional_characteristic_representation** is an association of an implicit dimension with an explicit non-geometric representation.
+  - content: A **dimensional_characteristic_representation** is an association of
+      an implicit dimension with an explicit non-geometric representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-          version: '5'
-      type: authoritative
-      id: shape_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dimensional_characteristic_representation
+  - type: expression
+    normative_status: preferred
+    designation: dimensional_characteristic_representation
   domain: 'resource: shape_dimension_schema'
   language_code: eng
   annotations: []

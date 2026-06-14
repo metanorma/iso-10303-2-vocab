@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_data_equivalence_criteria_schema.detailed_equivalence_report_request
   localized_concepts:
     eng: e873b589-f9aa-50ae-a153-3bedc34b86b7
   domains:
-    - concept_id: section-product_data_equivalence_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+    ref_type: section
 id: product_data_equivalence_criteria_schema.detailed_equivalence_report_request
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}} that represents the detailed equivalence report request {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}}
+      that represents the detailed equivalence report request {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **detailed_equivalence_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}} that requests detailed inspection report on the criterion concerned.
+  - content: A **detailed_equivalence_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}}
+      that requests detailed inspection report on the criterion concerned.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
-          version: '1'
-      type: authoritative
-      id: product_data_equivalence_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: detailed_equivalence_report_request
+  - type: expression
+    normative_status: preferred
+    designation: detailed_equivalence_report_request
   domain: 'resource: product_data_equivalence_criteria_schema'
   language_code: eng
   annotations: []

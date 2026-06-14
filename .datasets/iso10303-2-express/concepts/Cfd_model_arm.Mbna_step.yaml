@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_model_arm.Mbna_step
   localized_concepts:
     eng: d71f9b7b-e4bf-5ecd-879d-b99a7eb85f7e
   domains:
-    - concept_id: section-Cfd_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-      ref_type: section
+  - concept_id: section-Cfd_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+    ref_type: section
 id: Cfd_model_arm.Mbna_step
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_action_domain,Model_action_domain}} that represents the mbna step {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Model_action_domain,Model_action_domain}}
+      that represents the mbna step {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_action_domain,Model_action_domain}} that is a single step, or one of a series of steps, in an analysis.
+  - content: A **Mbna_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_action_domain,Model_action_domain}}
+      that is a single step, or one of a series of steps, in an analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_step
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_step
   domain: 'application module: Cfd_model_arm'
   language_code: eng
   annotations: []

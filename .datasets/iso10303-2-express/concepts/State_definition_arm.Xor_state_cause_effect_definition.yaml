@@ -1,29 +1,31 @@
+---
 data:
   identifier: State_definition_arm.Xor_state_cause_effect_definition
   localized_concepts:
     eng: 0b35f6ad-8862-510d-9567-b859e5bfc3ab
   domains:
-    - concept_id: section-State_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
-      ref_type: section
+  - concept_id: section-State_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+    ref_type: section
 id: State_definition_arm.Xor_state_cause_effect_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm.State_cause_effect_definition,State_cause_effect_definition}} that represents the xor state cause effect definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm.State_cause_effect_definition,State_cause_effect_definition}}
+      that represents the xor state cause effect definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
-          version: '3'
-      type: authoritative
-      id: State_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_definition_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Xor_state_cause_effect_definition
+  - type: expression
+    normative_status: preferred
+    designation: Xor_state_cause_effect_definition
   domain: 'application module: State_definition_arm'
   language_code: eng
   annotations: []

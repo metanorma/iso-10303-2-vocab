@@ -1,30 +1,34 @@
+---
 data:
   identifier: Collection_identification_and_version_mim.collection_version_sequence_relationship
   localized_concepts:
     eng: 58bb7969-d6ab-5532-99b2-ce2d8482a268
   domains:
-    - concept_id: section-Collection_identification_and_version_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-      ref_type: section
+  - concept_id: section-Collection_identification_and_version_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+    ref_type: section
 id: Collection_identification_and_version_mim.collection_version_sequence_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the collection version sequence relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.product_definition_formation_relationship,product_definition_formation_relationship}}
+      that represents the collection version sequence relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **collection_version_sequence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents a sequential association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_version,collection_version}} objects.
+  - content: An **collection_version_sequence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}}
+      that represents a sequential association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_version,collection_version}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-          version: '1'
-      type: authoritative
-      id: Collection_identification_and_version_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: collection_version_sequence_relationship
+  - type: expression
+    normative_status: preferred
+    designation: collection_version_sequence_relationship
   domain: 'application module: Collection_identification_and_version_mim'
   language_code: eng
   annotations: []

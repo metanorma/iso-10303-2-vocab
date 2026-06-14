@@ -1,30 +1,34 @@
+---
 data:
   identifier: Organization_type_arm.Organization_organization_type_relationship
   localized_concepts:
     eng: 788e52ad-9cb0-5b6f-ab30-35ae87b3de2e
   domains:
-    - concept_id: section-Organization_type_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm
-      ref_type: section
+  - concept_id: section-Organization_type_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm
+    ref_type: section
 id: Organization_type_arm.Organization_organization_type_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization organization type relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the organization organization type relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Organization_organization_type_relationship** is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}} organization and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm.Organization_type,Organization_type}}.
+  - content: An **Organization_organization_type_relationship** is a relationship
+      between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}}
+      organization and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm.Organization_type,Organization_type}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm
-          version: '1'
-      type: authoritative
-      id: Organization_type_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_type_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Organization_organization_type_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Organization_organization_type_relationship
   domain: 'application module: Organization_type_arm'
   language_code: eng
   annotations: []

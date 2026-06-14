@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_elements_arm.Node_shape_relationship
   localized_concepts:
     eng: cdbba4dd-94c2-5280-bc4e-9921bc2850d6
   domains:
-    - concept_id: section-Finite_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-      ref_type: section
+  - concept_id: section-Finite_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+    ref_type: section
 id: Finite_elements_arm.Node_shape_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the node shape relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the node shape relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Node_shape_relationship** is the association of the position of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Node,Node}} to any type of geometry.
+  - content: A **Node_shape_relationship** is the association of the position of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Node,Node}} to any
+      type of geometry.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-          version: '2'
-      type: authoritative
-      id: Finite_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Node_shape_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Node_shape_relationship
   domain: 'application module: Finite_elements_arm'
   language_code: eng
   annotations: []

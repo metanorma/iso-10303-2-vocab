@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ap242_managed_model_based_3d_engineering_mim.min_and_major_ply_orientation_basis
   localized_concepts:
     eng: 2c964325-17c0-50e0-9039-b4d726f690a4
   domains:
-    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-      ref_type: section
+  - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+    ref_type: section
 id: Ap242_managed_model_based_3d_engineering_mim.min_and_major_ply_orientation_basis
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the min and major ply orientation basis {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the min and major ply orientation basis {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **min_and_major_ply_orientation_basis** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item_relationship,representation_item_relationship}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} for the purpose of specifying the major and minor ply orientation basis.
+  - content: A **min_and_major_ply_orientation_basis** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item_relationship,representation_item_relationship}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      for the purpose of specifying the major and minor ply orientation basis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-          version: '5'
-      type: authoritative
-      id: Ap242_managed_model_based_3d_engineering_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: min_and_major_ply_orientation_basis
+  - type: expression
+    normative_status: preferred
+    designation: min_and_major_ply_orientation_basis
   domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
   language_code: eng
   annotations: []

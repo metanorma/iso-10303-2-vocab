@@ -1,30 +1,32 @@
+---
 data:
   identifier: application_context_schema.application_protocol_definition
   localized_concepts:
     eng: 700b690d-6f9e-5d7b-884c-32d750e27c05
   domains:
-    - concept_id: section-application_context_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-      ref_type: section
+  - concept_id: section-application_context_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+    ref_type: section
 id: application_context_schema.application_protocol_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the application protocol definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the application protocol definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **application_protocol_definition** is the identification of an application protocol.
+  - content: An **application_protocol_definition** is the identification of an application
+      protocol.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-          version: '9'
-      type: authoritative
-      id: application_context_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: application_protocol_definition
+  - type: expression
+    normative_status: preferred
+    designation: application_protocol_definition
   domain: 'resource: application_context_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Packaged_part_white_box_model_arm.Device_terminal_map_relationship
   localized_concepts:
     eng: 14c26c9e-81ab-519f-9b5c-f6b53412aff0
   domains:
-    - concept_id: section-Packaged_part_white_box_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
-      ref_type: section
+  - concept_id: section-Packaged_part_white_box_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+    ref_type: section
 id: Packaged_part_white_box_model_arm.Device_terminal_map_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the device terminal map relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the device terminal map relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Device_terminal_map_relationship** is the association of one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Device_terminal_map,Device_terminal_map}} to another.
+  - content: A **Device_terminal_map_relationship** is the association of one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Device_terminal_map,Device_terminal_map}}
+      to another.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
-          version: '3'
-      type: authoritative
-      id: Packaged_part_white_box_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Device_terminal_map_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Device_terminal_map_relationship
   domain: 'application module: Packaged_part_white_box_model_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Derived_shape_element_arm.Centre_point
   localized_concepts:
     eng: 8ab7fc8d-aa98-5ac6-a6b4-6d7f2045b03b
   domains:
-    - concept_id: section-Derived_shape_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-      ref_type: section
+  - concept_id: section-Derived_shape_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+    ref_type: section
 id: Derived_shape_element_arm.Centre_point
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Centre_of_symmetry,Centre_of_symmetry}} that represents the centre point {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Centre_of_symmetry,Centre_of_symmetry}}
+      that represents the centre point {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Centre_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Centre_of_symmetry,Centre_of_symmetry}} the form of which is that of a point.
+  - content: A **Centre_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Centre_of_symmetry,Centre_of_symmetry}}
+      the form of which is that of a point.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-          version: '5'
-      type: authoritative
-      id: Derived_shape_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Centre_point
+  - type: expression
+    normative_status: preferred
+    designation: Centre_point
   domain: 'application module: Derived_shape_element_arm'
   language_code: eng
   annotations: []

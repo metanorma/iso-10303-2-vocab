@@ -1,31 +1,35 @@
+---
 data:
   identifier: Required_resource_arm.Required_resource_by_resource_item
   localized_concepts:
-    eng: 02833d06-c536-500c-b6f9-35756d6edbf4
+    eng: '02833d06-c536-500c-b6f9-35756d6edbf4'
   domains:
-    - concept_id: section-Required_resource_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
-      ref_type: section
+  - concept_id: section-Required_resource_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+    ref_type: section
 id: Required_resource_arm.Required_resource_by_resource_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}} that represents the required resource by resource item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}}
+      that represents the required resource by resource item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Required_resource_by_resource_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}} that is described in terms of an identifiable resource (within the application context) which will satisfy the requirement.
+  - content: A **Required_resource_by_resource_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm.Required_resource,Required_resource}}
+      that is described in terms of an identifiable resource (within the application
+      context) which will satisfy the requirement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
-          version: '3'
-      type: authoritative
-      id: Required_resource_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Required_resource_by_resource_item
+  - type: expression
+    normative_status: preferred
+    designation: Required_resource_by_resource_item
   domain: 'application module: Required_resource_arm'
   language_code: eng
   annotations: []
-id: 02833d06-c536-500c-b6f9-35756d6edbf4
+id: '02833d06-c536-500c-b6f9-35756d6edbf4'

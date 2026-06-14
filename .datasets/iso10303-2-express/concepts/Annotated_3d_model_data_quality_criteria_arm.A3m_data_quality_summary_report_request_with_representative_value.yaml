@@ -1,30 +1,35 @@
+---
 data:
   identifier: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_summary_report_request_with_representative_value
   localized_concepts:
     eng: ecedac2e-6518-5623-a92f-2496824a5da3
   domains:
-    - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+    ref_type: section
 id: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_summary_report_request_with_representative_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Summary_report_request,Summary_report_request}} that represents the a3m data quality summary report request with representative value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.Summary_report_request,Summary_report_request}}
+      that represents the a3m data quality summary report request with representative
+      value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_data_quality_summary_report_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Summary_report_request,Summary_report_request}} that requests a summary report including a representative value.
+  - content: An **A3m_data_quality_summary_report_request_with_representative_value**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Summary_report_request,Summary_report_request}}
+      that requests a summary report including a representative value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_data_quality_summary_report_request_with_representative_value
+  - type: expression
+    normative_status: preferred
+    designation: A3m_data_quality_summary_report_request_with_representative_value
   domain: 'application module: Annotated_3d_model_data_quality_criteria_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: product_data_equivalence_criteria_schema.data_equivalence_report_request
   localized_concepts:
     eng: 6f8525f7-6417-528f-9f27-877c27786b39
   domains:
-    - concept_id: section-product_data_equivalence_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+    ref_type: section
 id: product_data_equivalence_criteria_schema.data_equivalence_report_request
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data equivalence report request {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the data equivalence report request {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_equivalence_report_request** is a specification of a report to be generated for presenting the result of an inspection for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criterion,data_equivalence_criterion}}.
+  - content: A **data_equivalence_report_request** is a specification of a report
+      to be generated for presenting the result of an inspection for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criterion,data_equivalence_criterion}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
-          version: '1'
-      type: authoritative
-      id: product_data_equivalence_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_equivalence_report_request
+  - type: expression
+    normative_status: preferred
+    designation: data_equivalence_report_request
   domain: 'resource: product_data_equivalence_criteria_schema'
   language_code: eng
   annotations: []

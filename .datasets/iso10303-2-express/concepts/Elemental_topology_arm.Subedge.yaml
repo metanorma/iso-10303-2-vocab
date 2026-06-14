@@ -1,30 +1,33 @@
+---
 data:
   identifier: Elemental_topology_arm.Subedge
   localized_concepts:
     eng: 8ca93586-fe3e-5928-8cc4-9c4da9e43a2b
   domains:
-    - concept_id: section-Elemental_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-      ref_type: section
+  - concept_id: section-Elemental_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+    ref_type: section
 id: Elemental_topology_arm.Subedge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}} that represents the subedge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}}
+      that represents the subedge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Subedge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}}, whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}}.
+  - content: A **Subedge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}},
+      whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-          version: '7'
-      type: authoritative
-      id: Elemental_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Subedge
+  - type: expression
+    normative_status: preferred
+    designation: Subedge
   domain: 'application module: Elemental_topology_arm'
   language_code: eng
   annotations: []

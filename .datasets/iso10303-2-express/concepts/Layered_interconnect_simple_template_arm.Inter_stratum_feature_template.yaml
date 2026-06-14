@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_arm.Inter_stratum_feature_template
   localized_concepts:
     eng: fadbef41-d152-5d06-9236-c56efbb71967
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+    ref_type: section
 id: Layered_interconnect_simple_template_arm.Inter_stratum_feature_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm.Geometric_template,Geometric_template}} that represents the inter stratum feature template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Geometric_template,Geometric_template}}
+      that represents the inter stratum feature template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Inter_stratum_feature_template
+  - type: expression
+    normative_status: preferred
+    designation: Inter_stratum_feature_template
   domain: 'application module: Layered_interconnect_simple_template_arm'
   language_code: eng
   annotations: []

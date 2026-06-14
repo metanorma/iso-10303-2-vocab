@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_environment_definition_arm.Environment_definition_view
   localized_concepts:
     eng: e1540ce8-02a4-5486-aae5-7c931fac33cb
   domains:
-    - concept_id: section-Product_environment_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
-      ref_type: section
+  - concept_id: section-Product_environment_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+    ref_type: section
 id: Product_environment_definition_arm.Environment_definition_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the environment definition view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm.Product_view_definition,Product_view_definition}}
+      that represents the environment definition view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Environment_definition_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that provides a view of a version of an environment definition relevant for one or more application domains.
+  - content: An **Environment_definition_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that provides a view of a version of an environment definition relevant for
+      one or more application domains.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
-          version: '4'
-      type: authoritative
-      id: Product_environment_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Environment_definition_view
+  - type: expression
+    normative_status: preferred
+    designation: Environment_definition_view
   domain: 'application module: Product_environment_definition_arm'
   language_code: eng
   annotations: []

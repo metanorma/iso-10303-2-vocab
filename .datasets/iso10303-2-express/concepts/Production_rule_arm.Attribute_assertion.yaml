@@ -1,29 +1,31 @@
+---
 data:
   identifier: Production_rule_arm.Attribute_assertion
   localized_concepts:
     eng: 9bee6c59-c874-5208-a80a-11cf858822ba
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Attribute_assertion
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}} that represents the attribute assertion {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}}
+      that represents the attribute assertion {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Attribute_assertion
+  - type: expression
+    normative_status: preferred
+    designation: Attribute_assertion
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

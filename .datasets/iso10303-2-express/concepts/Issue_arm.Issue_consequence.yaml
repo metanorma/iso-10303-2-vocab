@@ -1,30 +1,33 @@
+---
 data:
   identifier: Issue_arm.Issue_consequence
   localized_concepts:
     eng: 7bb51d45-4ab1-59bf-b3dc-587aea0eafb2
   domains:
-    - concept_id: section-Issue_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
-      ref_type: section
+  - concept_id: section-Issue_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
+    ref_type: section
 id: Issue_arm.Issue_consequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation_consequence,Observation_consequence}} that represents the issue consequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm.Observation_consequence,Observation_consequence}}
+      that represents the issue consequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Issue_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation_consequence,Observation_consequence}} which links an issue to the request to resolve the issue.
+  - content: A **Issue_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation_consequence,Observation_consequence}}
+      which links an issue to the request to resolve the issue.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
-          version: '1'
-      type: authoritative
-      id: Issue_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Issue_consequence
+  - type: expression
+    normative_status: preferred
+    designation: Issue_consequence
   domain: 'application module: Issue_arm'
   language_code: eng
   annotations: []

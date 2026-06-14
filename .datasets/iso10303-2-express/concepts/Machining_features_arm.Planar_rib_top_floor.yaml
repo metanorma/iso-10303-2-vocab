@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Planar_rib_top_floor
   localized_concepts:
     eng: a1563ab9-e5ae-5e92-993a-bc0f87195408
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Planar_rib_top_floor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top_floor,Rib_top_floor}} that represents the planar rib top floor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top_floor,Rib_top_floor}}
+      that represents the planar rib top floor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Planar_rib_top_floor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top_floor,Rib_top_floor}} that is the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top,Rib_top}} which is flat.
+  - content: A **Planar_rib_top_floor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top_floor,Rib_top_floor}}
+      that is the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top,Rib_top}}
+      which is flat.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Planar_rib_top_floor
+  - type: expression
+    normative_status: preferred
+    designation: Planar_rib_top_floor
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

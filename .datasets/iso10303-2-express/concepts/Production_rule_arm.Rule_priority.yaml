@@ -1,30 +1,32 @@
+---
 data:
   identifier: Production_rule_arm.Rule_priority
   localized_concepts:
     eng: 7d2764ec-f793-542b-bce6-77ab2a72ff9a
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Rule_priority
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rule priority {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rule priority {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Rule_priority** is a statement that an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that is in the rule category has a **priority** value.
+  - content: A **Rule_priority** is a statement that an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      that is in the rule category has a **priority** value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rule_priority
+  - type: expression
+    normative_status: preferred
+    designation: Rule_priority
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

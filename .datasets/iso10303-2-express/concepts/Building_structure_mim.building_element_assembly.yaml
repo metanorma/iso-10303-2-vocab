@@ -1,30 +1,34 @@
+---
 data:
   identifier: Building_structure_mim.building_element_assembly
   localized_concepts:
     eng: e71a2051-4cb0-5e50-8121-407ce902eac9
   domains:
-    - concept_id: section-Building_structure_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
-      ref_type: section
+  - concept_id: section-Building_structure_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
+    ref_type: section
 id: Building_structure_mim.building_element_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the building element assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim.product_definition,product_definition}}
+      that represents the building element assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **building_element_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that is a collection of building elements or element assemblies that are assembled together into a larger object.
+  - content: A **building_element_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that is a collection of building elements or element assemblies that are assembled
+      together into a larger object.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
-          version: '1'
-      type: authoritative
-      id: Building_structure_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: building_element_assembly
+  - type: expression
+    normative_status: preferred
+    designation: building_element_assembly
   domain: 'application module: Building_structure_mim'
   language_code: eng
   annotations: []

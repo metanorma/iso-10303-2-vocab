@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interconnect_physical_requirement_allocation_mim.interconnect_shield_allocation
   localized_concepts:
     eng: bef976ef-0e6b-56b4-92f9-194f652cffe9
   domains:
-    - concept_id: section-Interconnect_physical_requirement_allocation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_mim
-      ref_type: section
+  - concept_id: section-Interconnect_physical_requirement_allocation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_mim
+    ref_type: section
 id: Interconnect_physical_requirement_allocation_mim.interconnect_shield_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that represents the interconnect shield allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_mim.requirement_assignment,requirement_assignment}}
+      that represents the interconnect shield allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **interconnect_shield_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm.Interconnect_shield_allocation,Interconnect_shield_allocation}}.
+  - content: A **interconnect_shield_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm.Interconnect_shield_allocation,Interconnect_shield_allocation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_mim
-          version: '5'
-      type: authoritative
-      id: Interconnect_physical_requirement_allocation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interconnect_shield_allocation
+  - type: expression
+    normative_status: preferred
+    designation: interconnect_shield_allocation
   domain: 'application module: Interconnect_physical_requirement_allocation_mim'
   language_code: eng
   annotations: []

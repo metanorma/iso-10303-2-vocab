@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.part_template_keepout_shape_allocation_to_stratum_stack
   localized_concepts:
     eng: fb224067-ec45-512b-9345-468785461e9e
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.part_template_keepout_shape_allocation_to_stratum_stack
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part template keepout shape allocation to stratum stack {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part template keepout shape allocation to stratum
+      stack {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **part_template_keepout_shape_allocation_to_stratum_stack** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Part_template_keepout_shape_allocation_to_stratum_stack,Part_template_keepout_shape_allocation_to_stratum_stack}}.
+  - content: A **part_template_keepout_shape_allocation_to_stratum_stack** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Part_template_keepout_shape_allocation_to_stratum_stack,Part_template_keepout_shape_allocation_to_stratum_stack}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: part_template_keepout_shape_allocation_to_stratum_stack
+  - type: expression
+    normative_status: preferred
+    designation: part_template_keepout_shape_allocation_to_stratum_stack
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

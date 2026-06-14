@@ -1,30 +1,32 @@
+---
 data:
   identifier: Information_rights_arm.Applied_information_usage_right
   localized_concepts:
     eng: c866e1b5-2f93-567d-9aec-ab6de494d41e
   domains:
-    - concept_id: section-Information_rights_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
-      ref_type: section
+  - concept_id: section-Information_rights_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
+    ref_type: section
 id: Information_rights_arm.Applied_information_usage_right
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the applied information usage right {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the applied information usage right {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Applied_information_usage_right** is an application of a specific usage right to a set of items.
+  - content: An **Applied_information_usage_right** is an application of a specific
+      usage right to a set of items.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
-          version: '4'
-      type: authoritative
-      id: Information_rights_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Applied_information_usage_right
+  - type: expression
+    normative_status: preferred
+    designation: Applied_information_usage_right
   domain: 'application module: Information_rights_arm'
   language_code: eng
   annotations: []

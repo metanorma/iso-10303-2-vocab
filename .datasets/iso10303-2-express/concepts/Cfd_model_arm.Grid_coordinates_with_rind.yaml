@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_model_arm.Grid_coordinates_with_rind
   localized_concepts:
     eng: 85786e37-ee70-5049-ac08-1e2e4488d0c8
   domains:
-    - concept_id: section-Cfd_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-      ref_type: section
+  - concept_id: section-Cfd_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+    ref_type: section
 id: Cfd_model_arm.Grid_coordinates_with_rind
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Grid_coordinates,Grid_coordinates}} that represents the grid coordinates with rind {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Grid_coordinates,Grid_coordinates}}
+      that represents the grid coordinates with rind {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Grid_coordinates_with_rind** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Grid_coordinates,Grid_coordinates}} that is the physical coordinates of the vertices of a grid with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Rind,Rind}}.
+  - content: A **Grid_coordinates_with_rind** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Grid_coordinates,Grid_coordinates}}
+      that is the physical coordinates of the vertices of a grid with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Rind,Rind}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Grid_coordinates_with_rind
+  - type: expression
+    normative_status: preferred
+    designation: Grid_coordinates_with_rind
   domain: 'application module: Cfd_model_arm'
   language_code: eng
   annotations: []

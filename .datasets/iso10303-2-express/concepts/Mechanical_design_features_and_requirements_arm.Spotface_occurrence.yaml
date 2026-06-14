@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mechanical_design_features_and_requirements_arm.Spotface_occurrence
   localized_concepts:
     eng: 7abd2065-008d-526c-844f-74425c393b8b
   domains:
-    - concept_id: section-Mechanical_design_features_and_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-      ref_type: section
+  - concept_id: section-Mechanical_design_features_and_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+    ref_type: section
 id: Mechanical_design_features_and_requirements_arm.Spotface_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_occurrence,Md_counterbore_hole_occurrence}} that represents the spotface occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_occurrence,Md_counterbore_hole_occurrence}}
+      that represents the spotface occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Spotface_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_occurrence,Md_counterbore_hole_occurrence}} that is an application of the definition in the design context.
+  - content: A **Spotface_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_occurrence,Md_counterbore_hole_occurrence}}
+      that is an application of the definition in the design context.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-          version: '3'
-      type: authoritative
-      id: Mechanical_design_features_and_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Spotface_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: Spotface_occurrence
   domain: 'application module: Mechanical_design_features_and_requirements_arm'
   language_code: eng
   annotations: []

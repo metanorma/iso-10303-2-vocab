@@ -1,30 +1,32 @@
+---
 data:
   identifier: management_resources_schema.date_assignment
   localized_concepts:
     eng: e704dd28-d415-58b2-9b0b-7e4a0c7c745d
   domains:
-    - concept_id: section-management_resources_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-      ref_type: section
+  - concept_id: section-management_resources_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+    ref_type: section
 id: management_resources_schema.date_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the date assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **date_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} with product data.
+  - content: A **date_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}}
+      with product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-          version: '8'
-      type: authoritative
-      id: management_resources_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: date_assignment
+  - type: expression
+    normative_status: preferred
+    designation: date_assignment
   domain: 'resource: management_resources_schema'
   language_code: eng
   annotations: []

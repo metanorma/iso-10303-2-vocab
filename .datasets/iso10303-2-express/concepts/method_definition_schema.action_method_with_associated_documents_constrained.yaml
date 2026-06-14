@@ -1,30 +1,34 @@
+---
 data:
   identifier: method_definition_schema.action_method_with_associated_documents_constrained
   localized_concepts:
     eng: 8190dec4-2859-5dbe-90e7-059f47a7b40f
   domains:
-    - concept_id: section-method_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-      ref_type: section
+  - concept_id: section-method_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+    ref_type: section
 id: method_definition_schema.action_method_with_associated_documents_constrained
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}} that represents the action method with associated documents constrained {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}}
+      that represents the action method with associated documents constrained {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents_constrained,action_method_with_associated_documents_constrained}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}} that identifies the portions of the document that are applicable.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents_constrained,action_method_with_associated_documents_constrained}}
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}}
+      that identifies the portions of the document that are applicable.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-          version: '1'
-      type: authoritative
-      id: method_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_method_with_associated_documents_constrained
+  - type: expression
+    normative_status: preferred
+    designation: action_method_with_associated_documents_constrained
   domain: 'resource: method_definition_schema'
   language_code: eng
   annotations: []

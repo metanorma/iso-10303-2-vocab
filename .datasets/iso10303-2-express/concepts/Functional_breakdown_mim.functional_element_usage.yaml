@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_breakdown_mim.functional_element_usage
   localized_concepts:
     eng: 4e2599e5-0f6d-5282-ab79-ba6c610776d5
   domains:
-    - concept_id: section-Functional_breakdown_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_mim
-      ref_type: section
+  - concept_id: section-Functional_breakdown_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_mim
+    ref_type: section
 id: Functional_breakdown_mim.functional_element_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_element_usage,breakdown_element_usage}} that represents the functional element usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_mim.breakdown_element_usage,breakdown_element_usage}}
+      that represents the functional element usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **functional_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_element_usage,breakdown_element_usage}} that identifies the relationship between a parent and child functional element.
+  - content: A **functional_element_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.breakdown_element_usage,breakdown_element_usage}}
+      that identifies the relationship between a parent and child functional element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_mim
-          version: '2'
-      type: authoritative
-      id: Functional_breakdown_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: functional_element_usage
+  - type: expression
+    normative_status: preferred
+    designation: functional_element_usage
   domain: 'application module: Functional_breakdown_mim'
   language_code: eng
   annotations: []

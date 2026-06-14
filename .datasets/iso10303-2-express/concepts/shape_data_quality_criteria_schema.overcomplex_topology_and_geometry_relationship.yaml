@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.overcomplex_topology_and_geometry_relationship
   localized_concepts:
     eng: b796c462-399a-5f5b-b9cf-07409b02a5e1
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.overcomplex_topology_and_geometry_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} that represents the overcomplex topology and geometry relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      that represents the overcomplex topology and geometry relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **overcomplex_topology_and_geometry_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} and is a supertype of criteria for detecting topology related to overcomplex geometry data.
+  - content: An **overcomplex_topology_and_geometry_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      and is a supertype of criteria for detecting topology related to overcomplex
+      geometry data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: overcomplex_topology_and_geometry_relationship
+  - type: expression
+    normative_status: preferred
+    designation: overcomplex_topology_and_geometry_relationship
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

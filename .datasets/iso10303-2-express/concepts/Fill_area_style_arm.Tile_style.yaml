@@ -1,29 +1,31 @@
+---
 data:
   identifier: Fill_area_style_arm.Tile_style
   localized_concepts:
     eng: eec92318-ec57-5173-9c14-141b6408fccb
   domains:
-    - concept_id: section-Fill_area_style_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-      ref_type: section
+  - concept_id: section-Fill_area_style_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+    ref_type: section
 id: Fill_area_style_arm.Tile_style
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the tile style {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the tile style {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-          version: '3'
-      type: authoritative
-      id: Fill_area_style_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tile_style
+  - type: expression
+    normative_status: preferred
+    designation: Tile_style
   domain: 'application module: Fill_area_style_arm'
   language_code: eng
   annotations: []

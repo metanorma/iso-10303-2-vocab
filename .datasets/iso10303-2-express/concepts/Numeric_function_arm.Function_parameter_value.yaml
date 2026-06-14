@@ -1,30 +1,32 @@
+---
 data:
   identifier: Numeric_function_arm.Function_parameter_value
   localized_concepts:
     eng: 5e389268-e017-58ba-b0f8-1cca1364f06e
   domains:
-    - concept_id: section-Numeric_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
-      ref_type: section
+  - concept_id: section-Numeric_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
+    ref_type: section
 id: Numeric_function_arm.Function_parameter_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the function parameter value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the function parameter value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Function_parameter_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Numeric_expression,Numeric_expression}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Unary_generic_expression,Unary_generic_expression}}.
+  - content: A **Function_parameter_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Numeric_expression,Numeric_expression}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Unary_generic_expression,Unary_generic_expression}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
-          version: '4'
-      type: authoritative
-      id: Numeric_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Function_parameter_value
+  - type: expression
+    normative_status: preferred
+    designation: Function_parameter_value
   domain: 'application module: Numeric_function_arm'
   language_code: eng
   annotations: []

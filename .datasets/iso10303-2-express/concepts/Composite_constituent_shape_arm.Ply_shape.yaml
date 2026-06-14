@@ -1,30 +1,32 @@
+---
 data:
   identifier: Composite_constituent_shape_arm.Ply_shape
   localized_concepts:
     eng: 5c9ec467-c7c3-5c7c-9c31-631a83a2d9ec
   domains:
-    - concept_id: section-Composite_constituent_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm
-      ref_type: section
+  - concept_id: section-Composite_constituent_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm
+    ref_type: section
 id: Composite_constituent_shape_arm.Ply_shape
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ply shape {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the ply shape {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Ply_shape** is the association of a geometric representation to define the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply,Ply}}.
+  - content: A **Ply_shape** is the association of a geometric representation to define
+      the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply,Ply}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm
-          version: '7'
-      type: authoritative
-      id: Composite_constituent_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ply_shape
+  - type: expression
+    normative_status: preferred
+    designation: Ply_shape
   domain: 'application module: Composite_constituent_shape_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Explicit_constraints_arm.Defined_constraint
   localized_concepts:
     eng: 7c550541-eaa4-5560-98b7-20fc8007f7a1
   domains:
-    - concept_id: section-Explicit_constraints_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
-      ref_type: section
+  - concept_id: section-Explicit_constraints_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+    ref_type: section
 id: Explicit_constraints_arm.Defined_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}} that represents the defined constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}}
+      that represents the defined constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Defined_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}} and is the abstract supertype of a class of constraints defined in descriptive terms, with no specification of a precise mathematical relationship between parameters and entity data type instance attributes.
+  - content: A **Defined_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}}
+      and is the abstract supertype of a class of constraints defined in descriptive
+      terms, with no specification of a precise mathematical relationship between
+      parameters and entity data type instance attributes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
-          version: '2'
-      type: authoritative
-      id: Explicit_constraints_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Defined_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Defined_constraint
   domain: 'application module: Explicit_constraints_arm'
   language_code: eng
   annotations: []

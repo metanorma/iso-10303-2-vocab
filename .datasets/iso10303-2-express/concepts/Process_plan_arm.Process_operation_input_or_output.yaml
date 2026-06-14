@@ -1,30 +1,32 @@
+---
 data:
   identifier: Process_plan_arm.Process_operation_input_or_output
   localized_concepts:
     eng: 015223db-bd1b-5b55-bb7e-917ecebd3beb
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Process_operation_input_or_output
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process operation input or output {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the process operation input or output {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Process_operation_input_or_output** is an input or expected result of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}}.
+  - content: A **Process_operation_input_or_output** is an input or expected result
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Process_operation_input_or_output
+  - type: expression
+    normative_status: preferred
+    designation: Process_operation_input_or_output
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []

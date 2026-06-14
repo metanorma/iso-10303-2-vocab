@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_analysis_schema.temporal_spatial_domain
   localized_concepts:
     eng: 0f99f68a-0f30-5328-aeb3-1c5e66fb1bf8
   domains:
-    - concept_id: section-product_analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-      ref_type: section
+  - concept_id: section-product_analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+    ref_type: section
 id: product_analysis_schema.temporal_spatial_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the temporal spatial domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the temporal spatial domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}} is a specification of a quantity of space, time or both, which may or may not contain matter.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}}
+      is a specification of a quantity of space, time or both, which may or may not
+      contain matter.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-          version: '1'
-      type: authoritative
-      id: product_analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: temporal_spatial_domain
+  - type: expression
+    normative_status: preferred
+    designation: temporal_spatial_domain
   domain: 'resource: product_analysis_schema'
   language_code: eng
   annotations: []

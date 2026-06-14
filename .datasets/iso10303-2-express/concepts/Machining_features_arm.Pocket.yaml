@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Pocket
   localized_concepts:
     eng: 1a4144b9-b772-57f1-86be-0b60b9ad7ca5
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Pocket
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that represents the pocket {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that represents the pocket {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that is a volume with a specific shape, removed from the part.
+  - content: A **Pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that is a volume with a specific shape, removed from the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pocket
+  - type: expression
+    normative_status: preferred
+    designation: Pocket
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

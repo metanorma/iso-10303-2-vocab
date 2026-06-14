@@ -1,30 +1,34 @@
+---
 data:
   identifier: Analysis_representation_arm.Analysis_representation_context
   localized_concepts:
     eng: 3096c9a4-2abf-5795-804e-f37c265faea7
   domains:
-    - concept_id: section-Analysis_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm
-      ref_type: section
+  - concept_id: section-Analysis_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm
+    ref_type: section
 id: Analysis_representation_arm.Analysis_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the analysis representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm.Representation_context,Representation_context}}
+      that represents the analysis representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Analysis_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that defines the context for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}s used in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm.Analysis_model,Analysis_model}}.
+  - content: An **Analysis_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}
+      that defines the context for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}s
+      used in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm.Analysis_model,Analysis_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm
-          version: '1'
-      type: authoritative
-      id: Analysis_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_representation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Analysis_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: Analysis_representation_context
   domain: 'application module: Analysis_representation_arm'
   language_code: eng
   annotations: []

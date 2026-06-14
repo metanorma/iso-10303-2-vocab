@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_analysis_arm.Physical_action_domain
   localized_concepts:
     eng: d0b6badc-17ac-5493-b57b-6f81540aab3c
   domains:
-    - concept_id: section-Product_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-      ref_type: section
+  - concept_id: section-Product_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+    ref_type: section
 id: Product_analysis_arm.Physical_action_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}} that represents the physical action domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}
+      that represents the physical action domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_action_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}} that has a finite time dimension.
+  - content: A **Physical_action_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}
+      that has a finite time dimension.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Product_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_action_domain
+  - type: expression
+    normative_status: preferred
+    designation: Physical_action_domain
   domain: 'application module: Product_analysis_arm'
   language_code: eng
   annotations: []

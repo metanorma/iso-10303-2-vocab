@@ -1,30 +1,32 @@
+---
 data:
   identifier: Generic_material_aspects_arm.Material_identification
   localized_concepts:
     eng: bf2a1ef5-7739-5a22-b3b7-f73cf2a4d6e2
   domains:
-    - concept_id: section-Generic_material_aspects_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
-      ref_type: section
+  - concept_id: section-Generic_material_aspects_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+    ref_type: section
 id: Generic_material_aspects_arm.Material_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the material identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the material identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Material_identification** is the identification of the substance out of which one or more items are or can be made.
+  - content: A **Material_identification** is the identification of the substance
+      out of which one or more items are or can be made.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
-          version: '4'
-      type: authoritative
-      id: Generic_material_aspects_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Material_identification
+  - type: expression
+    normative_status: preferred
+    designation: Material_identification
   domain: 'application module: Generic_material_aspects_arm'
   language_code: eng
   annotations: []

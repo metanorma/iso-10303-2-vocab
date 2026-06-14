@@ -1,29 +1,31 @@
+---
 data:
   identifier: Extended_task_element_arm.Multiple_decision_point
   localized_concepts:
     eng: ccbeb298-a212-56cc-bbc5-aa09982e693b
   domains:
-    - concept_id: section-Extended_task_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
-      ref_type: section
+  - concept_id: section-Extended_task_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
+    ref_type: section
 id: Extended_task_element_arm.Multiple_decision_point
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Structured_task_element,Structured_task_element}} that represents the multiple decision point {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm.Structured_task_element,Structured_task_element}}
+      that represents the multiple decision point {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
-          version: '1'
-      type: authoritative
-      id: Extended_task_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Multiple_decision_point
+  - type: expression
+    normative_status: preferred
+    designation: Multiple_decision_point
   domain: 'application module: Extended_task_element_arm'
   language_code: eng
   annotations: []

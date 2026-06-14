@@ -1,29 +1,31 @@
+---
 data:
   identifier: Pmi_data_quality_arm.Semantic_pmi_without_presentation
   localized_concepts:
     eng: 0bf27cd9-0c4b-5fa2-9da5-1867799fa73a
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.Semantic_pmi_without_presentation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Inapt_pmi_representation,Inapt_pmi_representation}} that represents the semantic pmi without presentation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Inapt_pmi_representation,Inapt_pmi_representation}}
+      that represents the semantic pmi without presentation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Semantic_pmi_without_presentation
+  - type: expression
+    normative_status: preferred
+    designation: Semantic_pmi_without_presentation
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

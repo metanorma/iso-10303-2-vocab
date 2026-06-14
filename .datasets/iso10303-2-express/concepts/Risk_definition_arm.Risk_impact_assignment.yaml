@@ -1,30 +1,32 @@
+---
 data:
   identifier: Risk_definition_arm.Risk_impact_assignment
   localized_concepts:
     eng: d0f53fcb-7f19-529c-9496-fb175e9b61b0
   domains:
-    - concept_id: section-Risk_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-      ref_type: section
+  - concept_id: section-Risk_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+    ref_type: section
 id: Risk_definition_arm.Risk_impact_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the risk impact assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the risk impact assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Risk_impact_assignment** is an assignment between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk_consequence,Risk_consequence}} and a set of items that might be impacted by the risk.
+  - content: A **Risk_impact_assignment** is an assignment between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk_consequence,Risk_consequence}}
+      and a set of items that might be impacted by the risk.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-          version: '3'
-      type: authoritative
-      id: Risk_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Risk_impact_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Risk_impact_assignment
   domain: 'application module: Risk_definition_arm'
   language_code: eng
   annotations: []

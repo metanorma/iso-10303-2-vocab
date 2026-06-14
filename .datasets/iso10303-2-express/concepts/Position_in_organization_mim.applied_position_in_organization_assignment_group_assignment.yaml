@@ -1,30 +1,37 @@
+---
 data:
   identifier: Position_in_organization_mim.applied_position_in_organization_assignment_group_assignment
   localized_concepts:
     eng: 520aadd7-586f-5971-bd7e-17294cdf67a0
   domains:
-    - concept_id: section-Position_in_organization_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
-      ref_type: section
+  - concept_id: section-Position_in_organization_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
+    ref_type: section
 id: Position_in_organization_mim.applied_position_in_organization_assignment_group_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the applied position in organization assignment group assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim.group_assignment,group_assignment}}
+      that represents the applied position in organization assignment group assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_position_in_organization_assignment_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that associates an instance of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} with one or more {{position_in_organization_group_assignment_item,position_in_organization_group_assignment_item}} instances.
+  - content: An **applied_position_in_organization_assignment_group_assignment** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that associates an instance of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      with one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim.position_in_organization_group_assignment_item,position_in_organization_group_assignment_item}}
+      instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
-          version: '1'
-      type: authoritative
-      id: Position_in_organization_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_position_in_organization_assignment_group_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_position_in_organization_assignment_group_assignment
   domain: 'application module: Position_in_organization_mim'
   language_code: eng
   annotations: []

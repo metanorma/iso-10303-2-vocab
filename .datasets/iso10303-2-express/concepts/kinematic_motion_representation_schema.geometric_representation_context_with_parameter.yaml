@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.geometric_representation_context_with_parameter
   localized_concepts:
     eng: 82b790c5-5048-57ca-96b1-573f8a34d08c
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.geometric_representation_context_with_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_context,geometric_representation_context}} that represents the geometric representation context with parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.geometric_representation_context,geometric_representation_context}}
+      that represents the geometric representation context with parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometric_representation_context_with_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_context,geometric_representation_context}} with an additional parameter.
+  - content: A **geometric_representation_context_with_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_context,geometric_representation_context}}
+      with an additional parameter.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometric_representation_context_with_parameter
+  - type: expression
+    normative_status: preferred
+    designation: geometric_representation_context_with_parameter
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

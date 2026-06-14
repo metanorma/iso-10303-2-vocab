@@ -1,30 +1,32 @@
+---
 data:
   identifier: Zonal_breakdown_arm.In_zone
   localized_concepts:
     eng: a39a4c6f-2720-5580-88c8-f9e9fece88a1
   domains:
-    - concept_id: section-Zonal_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
-      ref_type: section
+  - concept_id: section-Zonal_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+    ref_type: section
 id: Zonal_breakdown_arm.In_zone
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the in zone {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the in zone {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **In_zone** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm.Zone_element,Zone_element}} and an item that exists within the zone.
+  - content: An **In_zone** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm.Zone_element,Zone_element}}
+      and an item that exists within the zone.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
-          version: '1'
-      type: authoritative
-      id: Zonal_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: In_zone
+  - type: expression
+    normative_status: preferred
+    designation: In_zone
   domain: 'application module: Zonal_breakdown_arm'
   language_code: eng
   annotations: []

@@ -1,35 +1,37 @@
+---
 data:
   identifier: Assembly_technology_mim.assembly_joint
   localized_concepts:
     eng: a58b0d74-d10c-55cd-a4b0-f0c6d3c1983e
   domains:
-    - concept_id: section-Assembly_technology_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
-      ref_type: section
+  - concept_id: section-Assembly_technology_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+    ref_type: section
 id: Assembly_technology_mim.assembly_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}} that represents the assembly joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim.component_feature_joint,component_feature_joint}}
+      that represents the assembly joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **assembly_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}} that implements the ARM concepts of:
+  - content: |-
+      An **assembly_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_bonding,Assembled_with_bonding}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_fasteners,Assembled_with_fasteners}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_bonding,Assembled_with_bonding}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_fasteners,Assembled_with_fasteners}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
-          version: '5'
-      type: authoritative
-      id: Assembly_technology_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: assembly_joint
+  - type: expression
+    normative_status: preferred
+    designation: assembly_joint
   domain: 'application module: Assembly_technology_mim'
   language_code: eng
   annotations: []

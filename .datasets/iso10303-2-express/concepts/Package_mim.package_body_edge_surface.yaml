@@ -1,30 +1,33 @@
+---
 data:
   identifier: Package_mim.package_body_edge_surface
   localized_concepts:
     eng: b9aa855b-fe15-53a6-8efd-763d898d0350
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.package_body_edge_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_body_surface,package_body_surface}} that represents the package body edge surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_body_surface,package_body_surface}}
+      that represents the package body edge surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **package_body_edge_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_body_surface,package_body_surface}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_edge_surface,Package_body_edge_surface}}.
+  - content: A **package_body_edge_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_body_surface,package_body_surface}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_edge_surface,Package_body_edge_surface}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: package_body_edge_surface
+  - type: expression
+    normative_status: preferred
+    designation: package_body_edge_surface
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

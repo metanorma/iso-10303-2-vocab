@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Single_point_constraint_values
   localized_concepts:
     eng: 0bb9f158-c708-5b6b-a62a-f9db27925733
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Single_point_constraint_values
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}} that represents the single point constraint values {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}}
+      that represents the single point constraint values {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Single_point_constraint_values** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}} that defines the value of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Single_point_constraint,Single_point_constraint}}.
+  - content: A **Single_point_constraint_values** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}}
+      that defines the value of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Single_point_constraint,Single_point_constraint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Single_point_constraint_values
+  - type: expression
+    normative_status: preferred
+    designation: Single_point_constraint_values
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

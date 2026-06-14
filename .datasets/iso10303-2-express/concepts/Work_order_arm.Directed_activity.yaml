@@ -1,29 +1,31 @@
+---
 data:
   identifier: Work_order_arm.Directed_activity
   localized_concepts:
     eng: 99999470-0c55-59b7-a5cd-fcd9e4595f67
   domains:
-    - concept_id: section-Work_order_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-      ref_type: section
+  - concept_id: section-Work_order_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+    ref_type: section
 id: Work_order_arm.Directed_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}} that represents the directed activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Activity,Activity}}
+      that represents the directed activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-          version: '3'
-      type: authoritative
-      id: Work_order_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Directed_activity
+  - type: expression
+    normative_status: preferred
+    designation: Directed_activity
   domain: 'application module: Work_order_arm'
   language_code: eng
   annotations: []

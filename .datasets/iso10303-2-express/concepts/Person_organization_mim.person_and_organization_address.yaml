@@ -1,30 +1,33 @@
+---
 data:
   identifier: Person_organization_mim.person_and_organization_address
   localized_concepts:
     eng: d991be92-fd2a-580d-9f72-a4d72a6ab819
   domains:
-    - concept_id: section-Person_organization_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_mim
-      ref_type: section
+  - concept_id: section-Person_organization_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_mim
+    ref_type: section
 id: Person_organization_mim.person_and_organization_address
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person and organization address {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the person and organization address {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **person_and_organization_address** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.personal_address,personal_address}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organizational_address,organizational_address}} that defines the address of a person in the context of his activity in an organization.
+  - content: A **person_and_organization_address** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.personal_address,personal_address}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organizational_address,organizational_address}}
+      that defines the address of a person in the context of his activity in an organization.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_mim
-          version: '1'
-      type: authoritative
-      id: Person_organization_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: person_and_organization_address
+  - type: expression
+    normative_status: preferred
+    designation: person_and_organization_address
   domain: 'application module: Person_organization_mim'
   language_code: eng
   annotations: []

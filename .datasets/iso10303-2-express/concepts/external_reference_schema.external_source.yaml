@@ -1,30 +1,32 @@
+---
 data:
   identifier: external_reference_schema.external_source
   localized_concepts:
     eng: cd29dfa9-4e35-58c0-a9c7-a2397aa409ef
   domains:
-    - concept_id: section-external_reference_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
-      ref_type: section
+  - concept_id: section-external_reference_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+    ref_type: section
 id: external_reference_schema.external_source
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external source {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the external source {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **external_source** is the identification of a source of product data that is not the EXPRESS schema to which the exchange conforms.
+  - content: An **external_source** is the identification of a source of product data
+      that is not the EXPRESS schema to which the exchange conforms.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
-          version: '7'
-      type: authoritative
-      id: external_reference_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: external_source
+  - type: expression
+    normative_status: preferred
+    designation: external_source
   domain: 'resource: external_reference_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Scheme_arm.Scheme_version_relationship
   localized_concepts:
     eng: 71e78497-1a76-5d69-9f50-d5fa34336627
   domains:
-    - concept_id: section-Scheme_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
-      ref_type: section
+  - concept_id: section-Scheme_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+    ref_type: section
 id: Scheme_arm.Scheme_version_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}} that represents the scheme version relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Activity_method_relationship,Activity_method_relationship}}
+      that represents the scheme version relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Scheme_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}} relating two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Scheme_version,Scheme_version}}s.
+  - content: A **Scheme_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Activity_method_relationship,Activity_method_relationship}}
+      relating two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm.Scheme_version,Scheme_version}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
-          version: '2'
-      type: authoritative
-      id: Scheme_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scheme_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Scheme_version_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Scheme_version_relationship
   domain: 'application module: Scheme_arm'
   language_code: eng
   annotations: []

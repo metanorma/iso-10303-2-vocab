@@ -1,30 +1,35 @@
+---
 data:
   identifier: Model_parameter_mim.model_parameter
   localized_concepts:
     eng: 2a4dbbde-f2cf-5c8e-b41c-7ea4e86fe6bd
   domains:
-    - concept_id: section-Model_parameter_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
-      ref_type: section
+  - concept_id: section-Model_parameter_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+    ref_type: section
 id: Model_parameter_mim.model_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that represents the model parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.general_property,general_property}}
+      that represents the model parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}}, of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Model_parameter,Model_parameter}}.
+  - content: A **model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}},
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Model_parameter,Model_parameter}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
-          version: '5'
-      type: authoritative
-      id: Model_parameter_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: model_parameter
+  - type: expression
+    normative_status: preferred
+    designation: model_parameter
   domain: 'application module: Model_parameter_mim'
   language_code: eng
   annotations: []

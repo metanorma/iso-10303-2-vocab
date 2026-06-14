@@ -1,30 +1,32 @@
+---
 data:
   identifier: product_data_quality_definition_schema.data_quality_definition_relationship
   localized_concepts:
     eng: c50f7276-0a9f-5f2a-8d2b-b56b0e1564d1
   domains:
-    - concept_id: section-product_data_quality_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema
-      ref_type: section
+  - concept_id: section-product_data_quality_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema
+    ref_type: section
 id: product_data_quality_definition_schema.data_quality_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data quality definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the data quality definition relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_quality_definition_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema.data_quality_definition,data_quality_definition}}s.
+  - content: A **data_quality_definition_relationship** is a relationship between
+      two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema.data_quality_definition,data_quality_definition}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema
-          version: '2'
-      type: authoritative
-      id: product_data_quality_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_definition_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_quality_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: data_quality_definition_relationship
   domain: 'resource: product_data_quality_definition_schema'
   language_code: eng
   annotations: []

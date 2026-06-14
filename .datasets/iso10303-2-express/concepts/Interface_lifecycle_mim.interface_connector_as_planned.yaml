@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interface_lifecycle_mim.interface_connector_as_planned
   localized_concepts:
     eng: 1f88c470-47f7-589e-9a62-b4d3c255f197
   domains:
-    - concept_id: section-Interface_lifecycle_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
-      ref_type: section
+  - concept_id: section-Interface_lifecycle_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
+    ref_type: section
 id: Interface_lifecycle_mim.interface_connector_as_planned
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the interface connector as planned {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim.product_definition_formation,product_definition_formation}}
+      that represents the interface connector as planned {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **interface_connector_as_planned** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies an individual that is the subject of a plan to realize an interface connector.
+  - content: An **interface_connector_as_planned** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that identifies an individual that is the subject of a plan to realize an interface
+      connector.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
-          version: '1'
-      type: authoritative
-      id: Interface_lifecycle_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interface_connector_as_planned
+  - type: expression
+    normative_status: preferred
+    designation: interface_connector_as_planned
   domain: 'application module: Interface_lifecycle_mim'
   language_code: eng
   annotations: []

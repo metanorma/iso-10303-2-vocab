@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ply_orientation_specification_mim.reinforcement_orientation_basis
   localized_concepts:
     eng: 8f85e704-ed62-5f8c-8432-b2a3de997a4a
   domains:
-    - concept_id: section-Ply_orientation_specification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
-      ref_type: section
+  - concept_id: section-Ply_orientation_specification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+    ref_type: section
 id: Ply_orientation_specification_mim.reinforcement_orientation_basis
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the reinforcement orientation basis {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim.representation,representation}}
+      that represents the reinforcement orientation basis {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **reinforcement_orientation_basis** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that specifies the basis direction for a ply angle for the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Reinforcement_orientation_basis,Reinforcement_orientation_basis}}.
+  - content: A **reinforcement_orientation_basis** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that specifies the basis direction for a ply angle for the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Reinforcement_orientation_basis,Reinforcement_orientation_basis}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
-          version: '4'
-      type: authoritative
-      id: Ply_orientation_specification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: reinforcement_orientation_basis
+  - type: expression
+    normative_status: preferred
+    designation: reinforcement_orientation_basis
   domain: 'application module: Ply_orientation_specification_mim'
   language_code: eng
   annotations: []

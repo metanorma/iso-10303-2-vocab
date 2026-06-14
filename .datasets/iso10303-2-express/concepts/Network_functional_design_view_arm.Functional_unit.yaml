@@ -1,29 +1,31 @@
+---
 data:
   identifier: Network_functional_design_view_arm.Functional_unit
   localized_concepts:
     eng: cdd4d3d3-c03e-5a81-b922-1ede85f76b8f
   domains:
-    - concept_id: section-Network_functional_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
-      ref_type: section
+  - concept_id: section-Network_functional_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
+    ref_type: section
 id: Network_functional_design_view_arm.Functional_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the functional unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Product_view_definition,Product_view_definition}}
+      that represents the functional unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
-          version: '4'
-      type: authoritative
-      id: Network_functional_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_unit
+  - type: expression
+    normative_status: preferred
+    designation: Functional_unit
   domain: 'application module: Network_functional_design_view_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_template_shape_with_parameters_arm.Geometric_template
   localized_concepts:
     eng: aa98b23f-536c-50ae-b9e5-f5ef7f15ad1c
   domains:
-    - concept_id: section-Part_template_shape_with_parameters_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
-      ref_type: section
+  - concept_id: section-Part_template_shape_with_parameters_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
+    ref_type: section
 id: Part_template_shape_with_parameters_arm.Geometric_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the geometric template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm.Template_definition,Template_definition}}
+      that represents the geometric template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
-          version: '4'
-      type: authoritative
-      id: Part_template_shape_with_parameters_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_template
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_template
   domain: 'application module: Part_template_shape_with_parameters_arm'
   language_code: eng
   annotations: []

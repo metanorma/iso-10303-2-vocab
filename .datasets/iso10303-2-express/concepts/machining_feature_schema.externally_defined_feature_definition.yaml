@@ -1,30 +1,32 @@
+---
 data:
   identifier: machining_feature_schema.externally_defined_feature_definition
   localized_concepts:
     eng: 3220bae1-ec65-5386-8080-99d2328025f7
   domains:
-    - concept_id: section-machining_feature_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-      ref_type: section
+  - concept_id: section-machining_feature_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+    ref_type: section
 id: machining_feature_schema.externally_defined_feature_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined feature definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally defined feature definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **externally_defined_feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}}.
+  - content: An **externally_defined_feature_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-          version: '1'
-      type: authoritative
-      id: machining_feature_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_defined_feature_definition
+  - type: expression
+    normative_status: preferred
+    designation: externally_defined_feature_definition
   domain: 'resource: machining_feature_schema'
   language_code: eng
   annotations: []

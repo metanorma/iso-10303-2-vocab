@@ -1,30 +1,33 @@
+---
 data:
   identifier: Document_and_version_identification_arm.Document
   localized_concepts:
     eng: 3b14f353-b491-54b8-aa1b-6549ad7a03d3
   domains:
-    - concept_id: section-Document_and_version_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm
-      ref_type: section
+  - concept_id: section-Document_and_version_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm
+    ref_type: section
 id: Document_and_version_identification_arm.Document
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the document {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm.Product,Product}}
+      that represents the document {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Document** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} used to identify documentation data that is under configuration change management.
+  - content: A **Document** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      used to identify documentation data that is under configuration change management.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm
-          version: '3'
-      type: authoritative
-      id: Document_and_version_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Document
+  - type: expression
+    normative_status: preferred
+    designation: Document
   domain: 'application module: Document_and_version_identification_arm'
   language_code: eng
   annotations: []

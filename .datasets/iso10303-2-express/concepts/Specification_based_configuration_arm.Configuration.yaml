@@ -1,30 +1,34 @@
+---
 data:
   identifier: Specification_based_configuration_arm.Configuration
   localized_concepts:
     eng: d945208f-7ef1-53d0-8064-1863782e644f
   domains:
-    - concept_id: section-Specification_based_configuration_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_arm
-      ref_type: section
+  - concept_id: section-Specification_based_configuration_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_arm
+    ref_type: section
 id: Specification_based_configuration_arm.Configuration
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the configuration {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the configuration {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Configuration** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_condition_association,Class_condition_association}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_specification_association,Class_specification_association}} instance with a design or with a process in order to define a valid usage of it in the context of a certain {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Product_class,Product_class}}.
+  - content: A **Configuration** is the association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_condition_association,Class_condition_association}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Class_specification_association,Class_specification_association}}
+      instance with a design or with a process in order to define a valid usage of
+      it in the context of a certain {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Product_class,Product_class}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_arm
-          version: '3'
-      type: authoritative
-      id: Specification_based_configuration_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_based_configuration_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Configuration
+  - type: expression
+    normative_status: preferred
+    designation: Configuration
   domain: 'application module: Specification_based_configuration_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_mim.tensor_order_and_symmetry_for_physical_quantity_space
   localized_concepts:
     eng: b1fff036-e907-5922-82a9-5419ad0502af
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.tensor_order_and_symmetry_for_physical_quantity_space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_relationship,general_property_relationship}} that represents the tensor order and symmetry for physical quantity space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.general_property_relationship,general_property_relationship}}
+      that represents the tensor order and symmetry for physical quantity space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tensor_order_and_symmetry_for_physical_quantity_space
+  - type: expression
+    normative_status: preferred
+    designation: tensor_order_and_symmetry_for_physical_quantity_space
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

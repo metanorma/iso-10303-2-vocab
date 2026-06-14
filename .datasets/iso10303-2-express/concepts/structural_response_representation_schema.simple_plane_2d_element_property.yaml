@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.simple_plane_2d_element_property
   localized_concepts:
     eng: f47f7c9c-7c6f-505f-ad1b-032ef52f05f3
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.simple_plane_2d_element_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.plane_2d_element_property,plane_2d_element_property}} that represents the simple plane 2d element property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.plane_2d_element_property,plane_2d_element_property}}
+      that represents the simple plane 2d element property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.simple_plane_2d_element_property,simple_plane_2d_element_property}} has no further properties.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.simple_plane_2d_element_property,simple_plane_2d_element_property}}
+      has no further properties.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: simple_plane_2d_element_property
+  - type: expression
+    normative_status: preferred
+    designation: simple_plane_2d_element_property
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Draughting_element_arm.Generic_annotation_curve
   localized_concepts:
     eng: 0c8fddad-3f29-5eed-95b3-30a79e104775
   domains:
-    - concept_id: section-Draughting_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+    ref_type: section
 id: Draughting_element_arm.Generic_annotation_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_curve,Annotation_curve}} that represents the generic annotation curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Annotation_curve,Annotation_curve}}
+      that represents the generic annotation curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-          version: '6'
-      type: authoritative
-      id: Draughting_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Generic_annotation_curve
+  - type: expression
+    normative_status: preferred
+    designation: Generic_annotation_curve
   domain: 'application module: Draughting_element_arm'
   language_code: eng
   annotations: []

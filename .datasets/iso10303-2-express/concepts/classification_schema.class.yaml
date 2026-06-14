@@ -1,30 +1,33 @@
+---
 data:
   identifier: classification_schema.class
   localized_concepts:
     eng: 35f0f002-091c-5e46-8654-eba52190f821
   domains:
-    - concept_id: section-classification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-      ref_type: section
+  - concept_id: section-classification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+    ref_type: section
 id: classification_schema.class
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the class {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.group,group}}
+      that represents the class {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that is a set.
+  - content: A **class** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that is a set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-          version: '1'
-      type: authoritative
-      id: classification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class
+  - type: expression
+    normative_status: preferred
+    designation: class
   domain: 'resource: classification_schema'
   language_code: eng
   annotations: []

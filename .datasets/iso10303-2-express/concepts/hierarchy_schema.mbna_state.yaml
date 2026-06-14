@@ -1,30 +1,33 @@
+---
 data:
   identifier: hierarchy_schema.mbna_state
   localized_concepts:
     eng: b324fb77-b5fc-5272-81b5-9f8e100b7775
   domains:
-    - concept_id: section-hierarchy_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
-      ref_type: section
+  - concept_id: section-hierarchy_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+    ref_type: section
 id: hierarchy_schema.mbna_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_state_domain,model_state_domain}} that represents the mbna state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema.model_state_domain,model_state_domain}}
+      that represents the mbna state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_state* is a type of *model_state_domain* that defines the state of a numerical analysis model at a particular time.
+  - content: An *mbna_state* is a type of *model_state_domain* that defines the state
+      of a numerical analysis model at a particular time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
-          version: '1'
-      type: authoritative
-      id: hierarchy_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_state
+  - type: expression
+    normative_status: preferred
+    designation: mbna_state
   domain: 'resource: hierarchy_schema'
   language_code: eng
   annotations: []

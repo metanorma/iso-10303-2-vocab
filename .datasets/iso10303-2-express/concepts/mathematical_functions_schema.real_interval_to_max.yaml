@@ -1,31 +1,35 @@
+---
 data:
   identifier: mathematical_functions_schema.real_interval_to_max
   localized_concepts:
-    eng: 008d5f39-adc2-5d94-b0f0-a0c284a99e4b
+    eng: '008d5f39-adc2-5d94-b0f0-a0c284a99e4b'
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.real_interval_to_max
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the real interval to max {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the real interval to max {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents mathematical spaces which are intervals of real numbers which are bounded above but not bounded below.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_space,maths_space}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}}
+      represents mathematical spaces which are intervals of real numbers which are
+      bounded above but not bounded below.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: real_interval_to_max
+  - type: expression
+    normative_status: preferred
+    designation: real_interval_to_max
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []
-id: 008d5f39-adc2-5d94-b0f0-a0c284a99e4b
+id: '008d5f39-adc2-5d94-b0f0-a0c284a99e4b'

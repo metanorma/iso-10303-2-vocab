@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_breakdown_mim.product_definition_group_assignment
   localized_concepts:
     eng: 7fd5e543-2996-5896-bc65-6d7dcbb001e2
   domains:
-    - concept_id: section-Product_breakdown_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
-      ref_type: section
+  - concept_id: section-Product_breakdown_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+    ref_type: section
 id: Product_breakdown_mim.product_definition_group_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the product definition group assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.group_assignment,group_assignment}}
+      that represents the product definition group assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}}.
+  - content: A **product_definition_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
-          version: '4'
-      type: authoritative
-      id: Product_breakdown_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_group_assignment
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_group_assignment
   domain: 'application module: Product_breakdown_mim'
   language_code: eng
   annotations: []

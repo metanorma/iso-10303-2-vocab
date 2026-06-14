@@ -1,30 +1,33 @@
+---
 data:
   identifier: Characteristic_arm.Characteristic_data_table_header
   localized_concepts:
     eng: 1e04709b-e22c-540f-9c9b-599f95250a78
   domains:
-    - concept_id: section-Characteristic_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-      ref_type: section
+  - concept_id: section-Characteristic_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+    ref_type: section
 id: Characteristic_arm.Characteristic_data_table_header
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that represents the characteristic data table header {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Independent_property,Independent_property}}
+      that represents the characteristic data table header {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Characteristic_data_table_header** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} for specifying the header of a table for measurements.
+  - content: A **Characteristic_data_table_header** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}}
+      for specifying the header of a table for measurements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-          version: '6'
-      type: authoritative
-      id: Characteristic_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Characteristic_data_table_header
+  - type: expression
+    normative_status: preferred
+    designation: Characteristic_data_table_header
   domain: 'application module: Characteristic_arm'
   language_code: eng
   annotations: []

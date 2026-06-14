@@ -1,30 +1,33 @@
+---
 data:
   identifier: classification_schema.class_by_intension
   localized_concepts:
     eng: 23367784-4b91-568a-8fd6-35bbec23800d
   domains:
-    - concept_id: section-classification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-      ref_type: section
+  - concept_id: section-classification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+    ref_type: section
 id: classification_schema.class_by_intension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} that represents the class by intension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}
+      that represents the class by intension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **class_by_intension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} that is defined by means of criteria.
+  - content: A **class_by_intension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}
+      that is defined by means of criteria.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-          version: '1'
-      type: authoritative
-      id: classification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_by_intension
+  - type: expression
+    normative_status: preferred
+    designation: class_by_intension
   domain: 'resource: classification_schema'
   language_code: eng
   annotations: []

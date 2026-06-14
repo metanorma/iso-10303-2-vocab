@@ -1,29 +1,31 @@
+---
 data:
   identifier: Multi_linguism_mim.attribute_language_assignment
   localized_concepts:
     eng: 878063d1-ade8-53f0-b7e7-d546d5cdbf2d
   domains:
-    - concept_id: section-Multi_linguism_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_mim
-      ref_type: section
+  - concept_id: section-Multi_linguism_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_mim
+    ref_type: section
 id: Multi_linguism_mim.attribute_language_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.attribute_classification_assignment,attribute_classification_assignment}} that represents the attribute language assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_mim.attribute_classification_assignment,attribute_classification_assignment}}
+      that represents the attribute language assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_mim
-          version: '2'
-      type: authoritative
-      id: Multi_linguism_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: attribute_language_assignment
+  - type: expression
+    normative_status: preferred
+    designation: attribute_language_assignment
   domain: 'application module: Multi_linguism_mim'
   language_code: eng
   annotations: []

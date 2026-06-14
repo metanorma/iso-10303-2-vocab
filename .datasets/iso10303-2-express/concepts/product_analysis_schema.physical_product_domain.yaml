@@ -1,30 +1,34 @@
+---
 data:
   identifier: product_analysis_schema.physical_product_domain
   localized_concepts:
     eng: f44e78eb-a6a8-5113-b904-16db40a14f27
   domains:
-    - concept_id: section-product_analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-      ref_type: section
+  - concept_id: section-product_analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+    ref_type: section
 id: product_analysis_schema.physical_product_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}} that represents the physical product domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}}
+      that represents the physical product domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_product_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}} that has an indefinite time dimension and that performs a number of activities during its life.
+  - content: A **physical_product_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}}
+      that has an indefinite time dimension and that performs a number of activities
+      during its life.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-          version: '1'
-      type: authoritative
-      id: product_analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_product_domain
+  - type: expression
+    normative_status: preferred
+    designation: physical_product_domain
   domain: 'resource: product_analysis_schema'
   language_code: eng
   annotations: []

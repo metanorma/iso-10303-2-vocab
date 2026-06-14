@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_unit_interconnect_definition_mim.connector_based_interconnect_definition
   localized_concepts:
     eng: 694079c1-f15f-5cea-8cc3-c4a1fde993ef
   domains:
-    - concept_id: section-Physical_unit_interconnect_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
-      ref_type: section
+  - concept_id: section-Physical_unit_interconnect_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
+    ref_type: section
 id: Physical_unit_interconnect_definition_mim.connector_based_interconnect_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the connector based interconnect definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim.property_definition,property_definition}}
+      that represents the connector based interconnect definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **connector_based_interconnect_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm.Connector_based_interconnect_definition,Connector_based_interconnect_definition}}.
+  - content: A **connector_based_interconnect_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm.Connector_based_interconnect_definition,Connector_based_interconnect_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
-          version: '4'
-      type: authoritative
-      id: Physical_unit_interconnect_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: connector_based_interconnect_definition
+  - type: expression
+    normative_status: preferred
+    designation: connector_based_interconnect_definition
   domain: 'application module: Physical_unit_interconnect_definition_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Task_specification_arm.Advisory_task_step
   localized_concepts:
     eng: 91b1bf94-0b35-54da-8b11-bc8633c4a9da
   domains:
-    - concept_id: section-Task_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-      ref_type: section
+  - concept_id: section-Task_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+    ref_type: section
 id: Task_specification_arm.Advisory_task_step
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_step,Task_step}} that represents the advisory task step {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm.Task_step,Task_step}}
+      that represents the advisory task step {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-          version: '2'
-      type: authoritative
-      id: Task_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Advisory_task_step
+  - type: expression
+    normative_status: preferred
+    designation: Advisory_task_step
   domain: 'application module: Task_specification_arm'
   language_code: eng
   annotations: []

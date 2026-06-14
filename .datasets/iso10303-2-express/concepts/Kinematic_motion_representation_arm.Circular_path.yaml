@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_motion_representation_arm.Circular_path
   localized_concepts:
     eng: 30f4ccd7-5207-54f1-b4a0-1f62e7c9d283
   domains:
-    - concept_id: section-Kinematic_motion_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-      ref_type: section
+  - concept_id: section-Kinematic_motion_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+    ref_type: section
 id: Kinematic_motion_representation_arm.Circular_path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Path_node,Path_node}} that represents the circular path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Path_node,Path_node}}
+      that represents the circular path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-          version: '3'
-      type: authoritative
-      id: Kinematic_motion_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Circular_path
+  - type: expression
+    normative_status: preferred
+    designation: Circular_path
   domain: 'application module: Kinematic_motion_representation_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: aic_draughting_elements.curve_dimension
   localized_concepts:
     eng: 8e0c403b-2f6a-5216-8873-5459f3978c45
   domains:
-    - concept_id: section-aic_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+    ref_type: section
 id: aic_draughting_elements.curve_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} that represents the curve dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements.dimension_curve_directed_callout,dimension_curve_directed_callout}}
+      that represents the curve dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **curve_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} directed by a dimension curve that presents a value of distance between two elements, measured along a curved path, or the length of a curved element.
+  - content: A **curve_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}}
+      directed by a dimension curve that presents a value of distance between two
+      elements, measured along a curved path, or the length of a curved element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-          version: '2'
-      type: authoritative
-      id: aic_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_dimension
+  - type: expression
+    normative_status: preferred
+    designation: curve_dimension
   domain: 'resource: aic_draughting_elements'
   language_code: eng
   annotations: []

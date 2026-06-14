@@ -1,29 +1,31 @@
+---
 data:
   identifier: Picture_representation_arm.Picture_representation
   localized_concepts:
     eng: 63c2c45e-3e64-5ec0-b6be-23392642d628
   domains:
-    - concept_id: section-Picture_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm
-      ref_type: section
+  - concept_id: section-Picture_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm
+    ref_type: section
 id: Picture_representation_arm.Picture_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.View_area,View_area}} that represents the picture representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm.View_area,View_area}}
+      that represents the picture representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm
-          version: '2'
-      type: authoritative
-      id: Picture_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Picture_representation
+  - type: expression
+    normative_status: preferred
+    designation: Picture_representation
   domain: 'application module: Picture_representation_arm'
   language_code: eng
   annotations: []

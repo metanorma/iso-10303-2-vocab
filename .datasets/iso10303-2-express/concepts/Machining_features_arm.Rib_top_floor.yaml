@@ -1,30 +1,31 @@
+---
 data:
   identifier: Machining_features_arm.Rib_top_floor
   localized_concepts:
     eng: 3c4fa748-6c74-51c7-9c71-d29c21abfc67
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Rib_top_floor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rib top floor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rib top floor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Rib_top_floor** is a bottom restriction for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top,Rib_top}}.
+  - content: A **Rib_top_floor** is a bottom restriction for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Rib_top,Rib_top}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rib_top_floor
+  - type: expression
+    normative_status: preferred
+    designation: Rib_top_floor
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Tessellated_geometry_arm.Cubic_tessellated_connecting_edge
   localized_concepts:
     eng: 201dbd8c-cefb-5cb4-a12a-5435b834a0a2
   domains:
-    - concept_id: section-Tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+    ref_type: section
 id: Tessellated_geometry_arm.Cubic_tessellated_connecting_edge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_tessellated_edge,Cubic_bezier_tessellated_edge}} that represents the cubic tessellated connecting edge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_tessellated_edge,Cubic_bezier_tessellated_edge}}
+      that represents the cubic tessellated connecting edge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cubic_tessellated_connecting_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_tessellated_edge,Cubic_bezier_tessellated_edge}} which takes the form of a cubic curve and connects two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_triangulated_face,Cubic_bezier_triangulated_face}}s.
+  - content: A **Cubic_tessellated_connecting_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_tessellated_edge,Cubic_bezier_tessellated_edge}}
+      which takes the form of a cubic curve and connects two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Cubic_bezier_triangulated_face,Cubic_bezier_triangulated_face}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-          version: '3'
-      type: authoritative
-      id: Tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cubic_tessellated_connecting_edge
+  - type: expression
+    normative_status: preferred
+    designation: Cubic_tessellated_connecting_edge
   domain: 'application module: Tessellated_geometry_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_environment_observed_arm.Observed_environment_version
   localized_concepts:
     eng: b4a6902f-6608-5850-b207-77694aa1790c
   domains:
-    - concept_id: section-Product_environment_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-      ref_type: section
+  - concept_id: section-Product_environment_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+    ref_type: section
 id: Product_environment_observed_arm.Observed_environment_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the observed environment version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Product_version,Product_version}}
+      that represents the observed environment version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Observed_environment_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a particular version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Observed_environment,Observed_environment}}.
+  - content: An **Observed_environment_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}
+      that identifies a particular version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Observed_environment,Observed_environment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-          version: '4'
-      type: authoritative
-      id: Product_environment_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Observed_environment_version
+  - type: expression
+    normative_status: preferred
+    designation: Observed_environment_version
   domain: 'application module: Product_environment_observed_arm'
   language_code: eng
   annotations: []

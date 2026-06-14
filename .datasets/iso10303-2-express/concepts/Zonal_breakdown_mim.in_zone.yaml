@@ -1,30 +1,34 @@
+---
 data:
   identifier: Zonal_breakdown_mim.in_zone
   localized_concepts:
     eng: 8e3e28b3-979b-5132-be9d-536217f26611
   domains:
-    - concept_id: section-Zonal_breakdown_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
-      ref_type: section
+  - concept_id: section-Zonal_breakdown_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
+    ref_type: section
 id: Zonal_breakdown_mim.in_zone
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the in zone {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim.group,group}}
+      that represents the in zone {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **in_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that identifies a relationship between a zone and an item that exists within the zone.
+  - content: An **in_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that identifies a relationship between a zone and an item that exists within
+      the zone.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
-          version: '1'
-      type: authoritative
-      id: Zonal_breakdown_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Zonal_breakdown_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: in_zone
+  - type: expression
+    normative_status: preferred
+    designation: in_zone
   domain: 'application module: Zonal_breakdown_mim'
   language_code: eng
   annotations: []

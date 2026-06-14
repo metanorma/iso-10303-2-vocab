@@ -1,29 +1,31 @@
+---
 data:
   identifier: Individual_involvement_in_activity_arm.Individual_involvement_in_activity
   localized_concepts:
     eng: a9d9a276-4cea-522f-a59b-4e3b29610e48
   domains:
-    - concept_id: section-Individual_involvement_in_activity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_involvement_in_activity_arm
-      ref_type: section
+  - concept_id: section-Individual_involvement_in_activity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_involvement_in_activity_arm
+    ref_type: section
 id: Individual_involvement_in_activity_arm.Individual_involvement_in_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Applied_activity_assignment,Applied_activity_assignment}} that represents the individual involvement in activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_involvement_in_activity_arm.Applied_activity_assignment,Applied_activity_assignment}}
+      that represents the individual involvement in activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_involvement_in_activity_arm
-          version: '1'
-      type: authoritative
-      id: Individual_involvement_in_activity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_involvement_in_activity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Individual_involvement_in_activity
+  - type: expression
+    normative_status: preferred
+    designation: Individual_involvement_in_activity
   domain: 'application module: Individual_involvement_in_activity_arm'
   language_code: eng
   annotations: []

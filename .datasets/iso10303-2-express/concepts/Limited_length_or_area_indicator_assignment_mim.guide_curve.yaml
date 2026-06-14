@@ -1,30 +1,33 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_mim.guide_curve
   localized_concepts:
     eng: 339ac6f9-326c-5caf-adae-43ea92ebf7a2
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_mim.guide_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.line_based_llai,line_based_llai}} that represents the guide curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.line_based_llai,line_based_llai}}
+      that represents the guide curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **guide_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.line_based_llai,line_based_llai}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Guide_curve,Guide_curve}}.
+  - content: A **guide_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.line_based_llai,line_based_llai}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Guide_curve,Guide_curve}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: guide_curve
+  - type: expression
+    normative_status: preferred
+    designation: guide_curve
   domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
   language_code: eng
   annotations: []

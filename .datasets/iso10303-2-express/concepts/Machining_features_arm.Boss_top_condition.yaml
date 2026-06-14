@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Boss_top_condition
   localized_concepts:
     eng: 54150935-6a42-5fe0-a77d-49b67f485f3a
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Boss_top_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boss top condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the boss top condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Boss_top_condition** is the end shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}} that is the farthest distance away from the intersection of the face of the part and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}}.
+  - content: A **Boss_top_condition** is the end shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}}
+      that is the farthest distance away from the intersection of the face of the
+      part and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Boss,Boss}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Boss_top_condition
+  - type: expression
+    normative_status: preferred
+    designation: Boss_top_condition
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

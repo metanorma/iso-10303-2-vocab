@@ -1,30 +1,34 @@
+---
 data:
   identifier: Swept_solid_arm.Extruded_solid
   localized_concepts:
     eng: 8e17a4de-c9d3-5612-acba-5063a871b191
   domains:
-    - concept_id: section-Swept_solid_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
-      ref_type: section
+  - concept_id: section-Swept_solid_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
+    ref_type: section
 id: Swept_solid_arm.Extruded_solid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Swept_solid,Swept_solid}} that represents the extruded solid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Swept_solid,Swept_solid}}
+      that represents the extruded solid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Extruded_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Swept_solid,Swept_solid}} formed by extruding the swept face along a straight line for a distance equal to the {{depth,depth}}.
+  - content: An **Extruded_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Swept_solid,Swept_solid}}
+      formed by extruding the swept face along a straight line for a distance equal
+      to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm.Extruded_solid.depth,depth}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
-          version: '2'
-      type: authoritative
-      id: Swept_solid_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Swept_solid_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Extruded_solid
+  - type: expression
+    normative_status: preferred
+    designation: Extruded_solid
   domain: 'application module: Swept_solid_arm'
   language_code: eng
   annotations: []

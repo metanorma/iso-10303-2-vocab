@@ -1,30 +1,33 @@
+---
 data:
   identifier: Wiring_harness_assembly_design_mim.topology_to_geometry_model_association
   localized_concepts:
     eng: 3ad164c9-bb9c-5f3b-847e-49ab33d12637
   domains:
-    - concept_id: section-Wiring_harness_assembly_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_mim
-      ref_type: section
+  - concept_id: section-Wiring_harness_assembly_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_mim
+    ref_type: section
 id: Wiring_harness_assembly_design_mim.topology_to_geometry_model_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the topology to geometry model association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the topology to geometry model association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **topology_to_geometry_model_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship_with_transformation,representation_relationship_with_transformation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Topology_to_geometry_model_association,Topology_to_geometry_model_association}}.
+  - content: A **topology_to_geometry_model_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship_with_transformation,representation_relationship_with_transformation}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Topology_to_geometry_model_association,Topology_to_geometry_model_association}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_mim
-          version: '4'
-      type: authoritative
-      id: Wiring_harness_assembly_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: topology_to_geometry_model_association
+  - type: expression
+    normative_status: preferred
+    designation: topology_to_geometry_model_association
   domain: 'application module: Wiring_harness_assembly_design_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.rule_supersedence
   localized_concepts:
     eng: 51f14d82-6653-57e8-93c2-12015c23401d
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.rule_supersedence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_action,rule_action}} that represents the rule supersedence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_action,rule_action}}
+      that represents the rule supersedence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rule_supersedence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_action,rule_action}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_supersedence,Rule_supersedence}}.
+  - content: A **rule_supersedence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_action,rule_action}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_supersedence,Rule_supersedence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rule_supersedence
+  - type: expression
+    normative_status: preferred
+    designation: rule_supersedence
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

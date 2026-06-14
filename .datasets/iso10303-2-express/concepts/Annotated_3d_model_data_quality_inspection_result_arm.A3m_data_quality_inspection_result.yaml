@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_data_quality_inspection_result_arm.A3m_data_quality_inspection_result
   localized_concepts:
     eng: 1b49a342-9575-5635-8846-cfbd59e276b2
   domains:
-    - concept_id: section-Annotated_3d_model_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_inspection_result_arm
+    ref_type: section
 id: Annotated_3d_model_data_quality_inspection_result_arm.A3m_data_quality_inspection_result
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement,Data_quality_inspection_result_with_judgement}} that represents the a3m data quality inspection result {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement,Data_quality_inspection_result_with_judgement}}
+      that represents the a3m data quality inspection result {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_data_quality_inspection_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement,Data_quality_inspection_result_with_judgement}} and represents the inspection result for a specific {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}}.
+  - content: An **A3m_data_quality_inspection_result** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_with_judgement,Data_quality_inspection_result_with_judgement}}
+      and represents the inspection result for a specific {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_inspection_result_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_inspection_result_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_data_quality_inspection_result
+  - type: expression
+    normative_status: preferred
+    designation: A3m_data_quality_inspection_result
   domain: 'application module: Annotated_3d_model_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: product_property_definition_schema.property_definition
   localized_concepts:
     eng: 64762a5f-8a16-5fa7-a360-d90e256e46a7
   domains:
-    - concept_id: section-product_property_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
-      ref_type: section
+  - concept_id: section-product_property_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+    ref_type: section
 id: product_property_definition_schema.property_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the property definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the property definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **property_definition** is a property that characterizes a single object.
+  - content: A **property_definition** is a property that characterizes a single object.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
-          version: '10'
-      type: authoritative
-      id: product_property_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: property_definition
+  - type: expression
+    normative_status: preferred
+    designation: property_definition
   domain: 'resource: product_property_definition_schema'
   language_code: eng
   annotations: []

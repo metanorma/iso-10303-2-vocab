@@ -1,29 +1,31 @@
+---
 data:
   identifier: aic_mechanical_design_shaded_presentation.mechanical_design_shaded_presentation_representation
   localized_concepts:
     eng: 7f696bfc-86e2-5632-bbc6-d70ac2f30c80
   domains:
-    - concept_id: section-aic_mechanical_design_shaded_presentation
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_mechanical_design_shaded_presentation
-      ref_type: section
+  - concept_id: section-aic_mechanical_design_shaded_presentation
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_mechanical_design_shaded_presentation
+    ref_type: section
 id: aic_mechanical_design_shaded_presentation.mechanical_design_shaded_presentation_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the mechanical design shaded presentation representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_mechanical_design_shaded_presentation.representation,representation}}
+      that represents the mechanical design shaded presentation representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_mechanical_design_shaded_presentation
-          version: '2'
-      type: authoritative
-      id: aic_mechanical_design_shaded_presentation
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_mechanical_design_shaded_presentation
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mechanical_design_shaded_presentation_representation
+  - type: expression
+    normative_status: preferred
+    designation: mechanical_design_shaded_presentation_representation
   domain: 'resource: aic_mechanical_design_shaded_presentation'
   language_code: eng
   annotations: []

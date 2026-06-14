@@ -1,30 +1,32 @@
+---
 data:
   identifier: Analysis_arm.Model_property_distribution
   localized_concepts:
     eng: 38ae8379-4579-5144-b812-f8f2f28570e4
   domains:
-    - concept_id: section-Analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-      ref_type: section
+  - concept_id: section-Analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+    ref_type: section
 id: Analysis_arm.Model_property_distribution
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the model property distribution {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the model property distribution {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Model_property_distribution** is a function that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} and a property space as its range.
+  - content: A **Model_property_distribution** is a function that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}}
+      and a property space as its range.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-          version: '1'
-      type: authoritative
-      id: Analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Model_property_distribution
+  - type: expression
+    normative_status: preferred
+    designation: Model_property_distribution
   domain: 'application module: Analysis_arm'
   language_code: eng
   annotations: []

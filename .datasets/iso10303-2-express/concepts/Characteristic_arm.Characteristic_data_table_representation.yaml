@@ -1,29 +1,31 @@
+---
 data:
   identifier: Characteristic_arm.Characteristic_data_table_representation
   localized_concepts:
     eng: d7e93327-ac98-5180-bfb2-b057f3095f84
   domains:
-    - concept_id: section-Characteristic_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-      ref_type: section
+  - concept_id: section-Characteristic_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+    ref_type: section
 id: Characteristic_arm.Characteristic_data_table_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Property_value_representation,Property_value_representation}} that represents the characteristic data table representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Property_value_representation,Property_value_representation}}
+      that represents the characteristic data table representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-          version: '6'
-      type: authoritative
-      id: Characteristic_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Characteristic_data_table_representation
+  - type: expression
+    normative_status: preferred
+    designation: Characteristic_data_table_representation
   domain: 'application module: Characteristic_arm'
   language_code: eng
   annotations: []

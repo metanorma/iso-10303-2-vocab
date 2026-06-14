@@ -1,30 +1,33 @@
+---
 data:
   identifier: Envelope_mim.envelope
   localized_concepts:
     eng: 1ce9b1a5-823f-57e5-a130-a08f6255e5ac
   domains:
-    - concept_id: section-Envelope_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
-      ref_type: section
+  - concept_id: section-Envelope_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
+    ref_type: section
 id: Envelope_mim.envelope
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the envelope {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the envelope {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **envelope** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} which provides an implementation of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm.Envelope,Envelope}}.
+  - content: An **envelope** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      which provides an implementation of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm.Envelope,Envelope}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
-          version: '2'
-      type: authoritative
-      id: Envelope_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: envelope
+  - type: expression
+    normative_status: preferred
+    designation: envelope
   domain: 'application module: Envelope_mim'
   language_code: eng
   annotations: []

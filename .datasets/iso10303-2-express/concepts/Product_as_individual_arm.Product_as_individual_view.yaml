@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_as_individual_arm.Product_as_individual_view
   localized_concepts:
     eng: 9c2e7d8d-fc6d-533d-8718-45f7156e9330
   domains:
-    - concept_id: section-Product_as_individual_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-      ref_type: section
+  - concept_id: section-Product_as_individual_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+    ref_type: section
 id: Product_as_individual_arm.Product_as_individual_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the product as individual view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_view_definition,Product_view_definition}}
+      that represents the product as individual view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_as_individual_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that defines a characterization view of a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual,Product_as_individual}}.
+  - content: A **Product_as_individual_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that defines a characterization view of a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual,Product_as_individual}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-          version: '5'
-      type: authoritative
-      id: Product_as_individual_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_as_individual_view
+  - type: expression
+    normative_status: preferred
+    designation: Product_as_individual_view
   domain: 'application module: Product_as_individual_arm'
   language_code: eng
   annotations: []

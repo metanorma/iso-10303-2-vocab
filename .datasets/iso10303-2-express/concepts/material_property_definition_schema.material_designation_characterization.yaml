@@ -1,30 +1,33 @@
+---
 data:
   identifier: material_property_definition_schema.material_designation_characterization
   localized_concepts:
     eng: 9b933777-092f-5cd6-a08e-e9c6b8ecb247
   domains:
-    - concept_id: section-material_property_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-      ref_type: section
+  - concept_id: section-material_property_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+    ref_type: section
 id: material_property_definition_schema.material_designation_characterization
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the material designation characterization {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the material designation characterization {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **material_designation_characterization** is the characterization of a material designation through its association with either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema.material_property_representation,material_property_representation}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.product_material_composition_relationship,product_material_composition_relationship}}.
+  - content: A **material_designation_characterization** is the characterization of
+      a material designation through its association with either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema.material_property_representation,material_property_representation}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.product_material_composition_relationship,product_material_composition_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-          version: '4'
-      type: authoritative
-      id: material_property_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: material_designation_characterization
+  - type: expression
+    normative_status: preferred
+    designation: material_designation_characterization
   domain: 'resource: material_property_definition_schema'
   language_code: eng
   annotations: []

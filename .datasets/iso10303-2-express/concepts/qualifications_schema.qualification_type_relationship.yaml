@@ -1,30 +1,34 @@
+---
 data:
   identifier: qualifications_schema.qualification_type_relationship
   localized_concepts:
     eng: 96b04e56-55e9-528b-b3da-5d035b4caa09
   domains:
-    - concept_id: section-qualifications_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
-      ref_type: section
+  - concept_id: section-qualifications_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+    ref_type: section
 id: qualifications_schema.qualification_type_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualification type relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the qualification type relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **qualification_type_relationship** is a relationship between two instances of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema.qualification_type,qualification_type}} entity data type and provides for the identification, naming, and description of that relationship.
+  - content: A **qualification_type_relationship** is a relationship between two instances
+      of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema.qualification_type,qualification_type}}
+      entity data type and provides for the identification, naming, and description
+      of that relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
-          version: '6'
-      type: authoritative
-      id: qualifications_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: qualification_type_relationship
+  - type: expression
+    normative_status: preferred
+    designation: qualification_type_relationship
   domain: 'resource: qualifications_schema'
   language_code: eng
   annotations: []

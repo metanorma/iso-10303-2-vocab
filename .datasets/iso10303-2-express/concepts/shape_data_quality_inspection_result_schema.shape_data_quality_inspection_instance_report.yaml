@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report
   localized_concepts:
     eng: 3092aa08-be8a-593c-b136-67571173b6a2
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report,data_quality_inspection_instance_report}} that represents the shape data quality inspection instance report {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.data_quality_inspection_instance_report,data_quality_inspection_instance_report}}
+      that represents the shape data quality inspection instance report {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_data_quality_inspection_instance_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report,data_quality_inspection_instance_report}} and represents a detailed inspection report of the product shape data for a specific criterion.
+  - content: A **shape_data_quality_inspection_instance_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report,data_quality_inspection_instance_report}}
+      and represents a detailed inspection report of the product shape data for a
+      specific criterion.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_data_quality_inspection_instance_report
+  - type: expression
+    normative_status: preferred
+    designation: shape_data_quality_inspection_instance_report
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

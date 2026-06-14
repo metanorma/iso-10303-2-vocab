@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.steep_angle_between_adjacent_edges
   localized_concepts:
     eng: 375b9e3f-c162-50c5-b056-002c8a0a8999
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.steep_angle_between_adjacent_edges
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.steep_geometry_transition_across_edge,steep_geometry_transition_across_edge}} that represents the steep angle between adjacent edges {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.steep_geometry_transition_across_edge,steep_geometry_transition_across_edge}}
+      that represents the steep angle between adjacent edges {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: steep_angle_between_adjacent_edges
+  - type: expression
+    normative_status: preferred
+    designation: steep_angle_between_adjacent_edges
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Sketch_arm.Positioned_sketch
   localized_concepts:
     eng: 4cf96fb0-3054-5e8f-992f-d49a4c1cbb44
   domains:
-    - concept_id: section-Sketch_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-      ref_type: section
+  - concept_id: section-Sketch_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+    ref_type: section
 id: Sketch_arm.Positioned_sketch
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the positioned sketch {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the positioned sketch {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Positioned_sketch** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is planar sketch in 3D space.
+  - content: A **Positioned_sketch** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that is planar sketch in 3D space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-          version: '3'
-      type: authoritative
-      id: Sketch_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Positioned_sketch
+  - type: expression
+    normative_status: preferred
+    designation: Positioned_sketch
   domain: 'application module: Sketch_arm'
   language_code: eng
   annotations: []

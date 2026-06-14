@@ -1,31 +1,34 @@
+---
 data:
   identifier: parameterization_schema.instance_attribute_reference
   localized_concepts:
-    eng: 0841b3b7-7efe-51ed-aa3c-ab2352b58bb1
+    eng: '0841b3b7-7efe-51ed-aa3c-ab2352b58bb1'
   domains:
-    - concept_id: section-parameterization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-      ref_type: section
+  - concept_id: section-parameterization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+    ref_type: section
 id: parameterization_schema.instance_attribute_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} that represents the instance attribute reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.variable_semantics,variable_semantics}}
+      that represents the instance attribute reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.instance_attribute_reference,instance_attribute_reference}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}}.
+  - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.instance_attribute_reference,instance_attribute_reference}}
+      entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-          version: '4'
-      type: authoritative
-      id: parameterization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: instance_attribute_reference
+  - type: expression
+    normative_status: preferred
+    designation: instance_attribute_reference
   domain: 'resource: parameterization_schema'
   language_code: eng
   annotations: []
-id: 0841b3b7-7efe-51ed-aa3c-ab2352b58bb1
+id: '0841b3b7-7efe-51ed-aa3c-ab2352b58bb1'

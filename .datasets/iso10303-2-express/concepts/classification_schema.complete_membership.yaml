@@ -1,36 +1,38 @@
+---
 data:
   identifier: classification_schema.complete_membership
   localized_concepts:
     eng: 6f9862df-372b-5fcd-9889-48ac02275dab
   domains:
-    - concept_id: section-classification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-      ref_type: section
+  - concept_id: section-classification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+    ref_type: section
 id: classification_schema.complete_membership
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that represents the complete membership {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.classification_assignment,classification_assignment}}
+      that represents the complete membership {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **complete_membership** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that is a relationship between:
+  - content: |-
+      A **complete_membership** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.classification_assignment,classification_assignment}} that is a relationship between:
 
-        * set S and
-        * enumerated things stem:[x_i],
+      * set S and
+      * enumerated things stem:[x_i],
 
-        that indicates set S contains each of the things stem:[x_i] and nothing else.
+      that indicates set S contains each of the things stem:[x_i] and nothing else.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-          version: '1'
-      type: authoritative
-      id: classification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: complete_membership
+  - type: expression
+    normative_status: preferred
+    designation: complete_membership
   domain: 'resource: classification_schema'
   language_code: eng
   annotations: []

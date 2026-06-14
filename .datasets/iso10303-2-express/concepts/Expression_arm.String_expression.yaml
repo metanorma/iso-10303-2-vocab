@@ -1,30 +1,33 @@
+---
 data:
   identifier: Expression_arm.String_expression
   localized_concepts:
     eng: 4a2737d7-62cb-57a7-9db3-8eac7d572654
   domains:
-    - concept_id: section-Expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
-      ref_type: section
+  - concept_id: section-Expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+    ref_type: section
 id: Expression_arm.String_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Expression,Expression}} that represents the string expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm.Expression,Expression}}
+      that represents the string expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **String_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Expression,Expression}} and whose range is the EXPRESS STRING data type defined in ISO 10303-11.
+  - content: A **String_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Expression,Expression}}
+      and whose range is the EXPRESS STRING data type defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
-          version: '3'
-      type: authoritative
-      id: Expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: String_expression
+  - type: expression
+    normative_status: preferred
+    designation: String_expression
   domain: 'application module: Expression_arm'
   language_code: eng
   annotations: []

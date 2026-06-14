@@ -1,30 +1,33 @@
+---
 data:
   identifier: property_distribution_and_model_relationships_schema.same_idealised_distribution
   localized_concepts:
     eng: 3978a2d0-2014-5f18-835a-c9c51088c2a4
   domains:
-    - concept_id: section-property_distribution_and_model_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
-      ref_type: section
+  - concept_id: section-property_distribution_and_model_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
+    ref_type: section
 id: property_distribution_and_model_relationships_schema.same_idealised_distribution
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same idealised distribution {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the same idealised distribution {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **same_idealised_distribution** is a relationship between records of an property distribution over an idealisation of product, action or state for analysis, which states they each have the same meaning.
+  - content: A **same_idealised_distribution** is a relationship between records of
+      an property distribution over an idealisation of product, action or state for
+      analysis, which states they each have the same meaning.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
-          version: '1'
-      type: authoritative
-      id: property_distribution_and_model_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:property_distribution_and_model_relationships_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: same_idealised_distribution
+  - type: expression
+    normative_status: preferred
+    designation: same_idealised_distribution
   domain: 'resource: property_distribution_and_model_relationships_schema'
   language_code: eng
   annotations: []

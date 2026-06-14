@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.library_stack_model
   localized_concepts:
     eng: bc9b35e1-27d7-5126-aee9-277b413363ca
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.library_stack_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_stack_model,stratum_stack_model}} that represents the library stack model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.stratum_stack_model,stratum_stack_model}}
+      that represents the library stack model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **library_stack_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_stack_model,stratum_stack_model}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Library_stack_model,Library_stack_model}}.
+  - content: A **library_stack_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_stack_model,stratum_stack_model}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Library_stack_model,Library_stack_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: library_stack_model
+  - type: expression
+    normative_status: preferred
+    designation: library_stack_model
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

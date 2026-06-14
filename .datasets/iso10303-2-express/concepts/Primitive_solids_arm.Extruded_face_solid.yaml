@@ -1,30 +1,33 @@
+---
 data:
   identifier: Primitive_solids_arm.Extruded_face_solid
   localized_concepts:
     eng: ea339287-f51a-53e1-83a1-c972123caf08
   domains:
-    - concept_id: section-Primitive_solids_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
-      ref_type: section
+  - concept_id: section-Primitive_solids_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+    ref_type: section
 id: Primitive_solids_arm.Extruded_face_solid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the extruded face solid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the extruded face solid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Extruded_face_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is a solid defined by sweeping a planar face_surface.
+  - content: An **Extruded_face_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that is a solid defined by sweeping a planar face_surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
-          version: '4'
-      type: authoritative
-      id: Primitive_solids_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Extruded_face_solid
+  - type: expression
+    normative_status: preferred
+    designation: Extruded_face_solid
   domain: 'application module: Primitive_solids_arm'
   language_code: eng
   annotations: []

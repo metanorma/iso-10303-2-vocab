@@ -1,30 +1,32 @@
+---
 data:
   identifier: Finite_elements_arm.Node_description
   localized_concepts:
     eng: 19319ed2-b41a-5eee-b4fe-3f179979f509
   domains:
-    - concept_id: section-Finite_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-      ref_type: section
+  - concept_id: section-Finite_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+    ref_type: section
 id: Finite_elements_arm.Node_description
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the node description {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the node description {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Node_description** is the aspect of a product's shape that a node represents.
+  - content: A **Node_description** is the aspect of a product's shape that a node
+      represents.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-          version: '2'
-      type: authoritative
-      id: Finite_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Node_description
+  - type: expression
+    normative_status: preferred
+    designation: Node_description
   domain: 'application module: Finite_elements_arm'
   language_code: eng
   annotations: []

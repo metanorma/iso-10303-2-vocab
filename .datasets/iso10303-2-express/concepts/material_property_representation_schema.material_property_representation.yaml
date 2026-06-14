@@ -1,29 +1,31 @@
+---
 data:
   identifier: material_property_representation_schema.material_property_representation
   localized_concepts:
     eng: 4d13459f-d8e4-5e79-af8a-8e45297355cf
   domains:
-    - concept_id: section-material_property_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
-      ref_type: section
+  - concept_id: section-material_property_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+    ref_type: section
 id: material_property_representation_schema.material_property_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} that represents the material property representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema.property_definition_representation,property_definition_representation}}
+      that represents the material property representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
-          version: '2'
-      type: authoritative
-      id: material_property_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: material_property_representation
+  - type: expression
+    normative_status: preferred
+    designation: material_property_representation
   domain: 'resource: material_property_representation_schema'
   language_code: eng
   annotations: []

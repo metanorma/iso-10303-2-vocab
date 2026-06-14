@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Thread
   localized_concepts:
     eng: 30a1feca-f544-5ff0-97b5-9b1ed9616708
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Thread
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that represents the thread {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that represents the thread {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Thread** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that is a ridge of uniform section on the form of a helix on the external or internal surface of a cylinder.
+  - content: A **Thread** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that is a ridge of uniform section on the form of a helix on the external or
+      internal surface of a cylinder.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Thread
+  - type: expression
+    normative_status: preferred
+    designation: Thread
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Expression_arm.String_defined_function
   localized_concepts:
     eng: a103ad87-0ea8-54cd-ae31-b9e8692ea359
   domains:
-    - concept_id: section-Expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
-      ref_type: section
+  - concept_id: section-Expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+    ref_type: section
 id: Expression_arm.String_defined_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the string defined function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the string defined function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **String_defined_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Defined_function,Defined_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm.String_expression,String_expression}}.
+  - content: A **String_defined_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Defined_function,Defined_function}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm.String_expression,String_expression}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
-          version: '3'
-      type: authoritative
-      id: Expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: String_defined_function
+  - type: expression
+    normative_status: preferred
+    designation: String_defined_function
   domain: 'application module: Expression_arm'
   language_code: eng
   annotations: []

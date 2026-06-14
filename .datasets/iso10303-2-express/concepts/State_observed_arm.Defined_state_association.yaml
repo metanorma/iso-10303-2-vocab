@@ -1,30 +1,32 @@
+---
 data:
   identifier: State_observed_arm.Defined_state_association
   localized_concepts:
     eng: 66f887ae-6e29-5fc6-8cb7-f70115289201
   domains:
-    - concept_id: section-State_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-      ref_type: section
+  - concept_id: section-State_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+    ref_type: section
 id: State_observed_arm.Defined_state_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the defined state association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the defined state association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Defined_state_association** is used to associate a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition,State_definition}}.
+  - content: A **Defined_state_association** is used to associate a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}}
+      with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition,State_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-          version: '4'
-      type: authoritative
-      id: State_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Defined_state_association
+  - type: expression
+    normative_status: preferred
+    designation: Defined_state_association
   domain: 'application module: State_observed_arm'
   language_code: eng
   annotations: []

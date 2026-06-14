@@ -1,30 +1,34 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.surface_3d_element_value_and_volume_location
   localized_concepts:
     eng: fcb1c0ef-b8f5-5a97-a5aa-0644024e237d
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.surface_3d_element_value_and_volume_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface 3d element value and volume location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface 3d element value and volume location
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_3d_element_value_and_volume_location,surface_3d_element_value_and_volume_location}} is a value of a variable at a location point within the volume of a surface 3D element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_3d_element_value_and_volume_location,surface_3d_element_value_and_volume_location}}
+      is a value of a variable at a location point within the volume of a surface
+      3D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_3d_element_value_and_volume_location
+  - type: expression
+    normative_status: preferred
+    designation: surface_3d_element_value_and_volume_location
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

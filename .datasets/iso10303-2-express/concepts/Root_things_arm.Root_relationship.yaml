@@ -1,31 +1,34 @@
+---
 data:
   identifier: Root_things_arm.Root_relationship
   localized_concepts:
-    eng: 07198e6c-ebd0-574f-a54b-bc37577ab65c
+    eng: '07198e6c-ebd0-574f-a54b-bc37577ab65c'
   domains:
-    - concept_id: section-Root_things_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
-      ref_type: section
+  - concept_id: section-Root_things_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
+    ref_type: section
 id: Root_things_arm.Root_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}} that represents the root relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}
+      that represents the root relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Root_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}} that is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}.
+  - content: A **Root_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}
+      that is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
-          version: '1'
-      type: authoritative
-      id: Root_things_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Root_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Root_relationship
   domain: 'application module: Root_things_arm'
   language_code: eng
   annotations: []
-id: 07198e6c-ebd0-574f-a54b-bc37577ab65c
+id: '07198e6c-ebd0-574f-a54b-bc37577ab65c'

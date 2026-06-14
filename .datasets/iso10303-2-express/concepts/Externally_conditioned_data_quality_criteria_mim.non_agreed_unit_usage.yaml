@@ -1,30 +1,33 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_mim.non_agreed_unit_usage
   localized_concepts:
     eng: 5d413f47-619f-59d5-89b3-ef80c61f3323
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_mim.non_agreed_unit_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that represents the non agreed unit usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that represents the non agreed unit usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **non_agreed_unit_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Non_agreed_unit_usage,Non_agreed_unit_usage}}.
+  - content: A **non_agreed_unit_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Non_agreed_unit_usage,Non_agreed_unit_usage}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: non_agreed_unit_usage
+  - type: expression
+    normative_status: preferred
+    designation: non_agreed_unit_usage
   domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
   language_code: eng
   annotations: []

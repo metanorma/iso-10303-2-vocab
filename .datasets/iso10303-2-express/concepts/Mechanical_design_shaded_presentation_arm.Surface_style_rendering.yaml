@@ -1,29 +1,31 @@
+---
 data:
   identifier: Mechanical_design_shaded_presentation_arm.Surface_style_rendering
   localized_concepts:
     eng: 67214081-d071-565a-b011-3829a3f52a76
   domains:
-    - concept_id: section-Mechanical_design_shaded_presentation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_shaded_presentation_arm
-      ref_type: section
+  - concept_id: section-Mechanical_design_shaded_presentation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_shaded_presentation_arm
+    ref_type: section
 id: Mechanical_design_shaded_presentation_arm.Surface_style_rendering
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_appearance_element,Surface_appearance_element}} that represents the surface style rendering {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_shaded_presentation_arm.Surface_appearance_element,Surface_appearance_element}}
+      that represents the surface style rendering {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_shaded_presentation_arm
-          version: '1'
-      type: authoritative
-      id: Mechanical_design_shaded_presentation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_shaded_presentation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_style_rendering
+  - type: expression
+    normative_status: preferred
+    designation: Surface_style_rendering
   domain: 'application module: Mechanical_design_shaded_presentation_arm'
   language_code: eng
   annotations: []

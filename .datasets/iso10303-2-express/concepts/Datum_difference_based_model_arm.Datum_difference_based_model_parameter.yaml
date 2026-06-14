@@ -1,29 +1,31 @@
+---
 data:
   identifier: Datum_difference_based_model_arm.Datum_difference_based_model_parameter
   localized_concepts:
     eng: 374505bd-522f-5753-8c99-1b54b9a2baf1
   domains:
-    - concept_id: section-Datum_difference_based_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
-      ref_type: section
+  - concept_id: section-Datum_difference_based_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
+    ref_type: section
 id: Datum_difference_based_model_arm.Datum_difference_based_model_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Model_parameter,Model_parameter}} that represents the datum difference based model parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm.Model_parameter,Model_parameter}}
+      that represents the datum difference based model parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
-          version: '5'
-      type: authoritative
-      id: Datum_difference_based_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_difference_based_model_parameter
+  - type: expression
+    normative_status: preferred
+    designation: Datum_difference_based_model_parameter
   domain: 'application module: Datum_difference_based_model_arm'
   language_code: eng
   annotations: []

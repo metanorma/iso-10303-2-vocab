@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_dimension_schema.dimensional_location_with_normal_constraint
   localized_concepts:
     eng: 1caeb49a-b75d-5e0d-b7d7-d8e193266562
   domains:
-    - concept_id: section-shape_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-      ref_type: section
+  - concept_id: section-shape_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+    ref_type: section
 id: shape_dimension_schema.dimensional_location_with_normal_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.directed_dimensional_location,directed_dimensional_location}} that represents the dimensional location with normal constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.directed_dimensional_location,directed_dimensional_location}}
+      that represents the dimensional location with normal constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-          version: '5'
-      type: authoritative
-      id: shape_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dimensional_location_with_normal_constraint
+  - type: expression
+    normative_status: preferred
+    designation: dimensional_location_with_normal_constraint
   domain: 'resource: shape_dimension_schema'
   language_code: eng
   annotations: []

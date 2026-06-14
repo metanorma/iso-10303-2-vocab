@@ -1,29 +1,31 @@
+---
 data:
   identifier: Physical_component_feature_arm.Physical_component_feature
   localized_concepts:
     eng: d80d4998-82b4-56ec-b728-e3ea65f6df3c
   domains:
-    - concept_id: section-Physical_component_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
-      ref_type: section
+  - concept_id: section-Physical_component_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
+    ref_type: section
 id: Physical_component_feature_arm.Physical_component_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}} that represents the physical component feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Component_feature,Component_feature}}
+      that represents the physical component feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
-          version: '5'
-      type: authoritative
-      id: Physical_component_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_component_feature
+  - type: expression
+    normative_status: preferred
+    designation: Physical_component_feature
   domain: 'application module: Physical_component_feature_arm'
   language_code: eng
   annotations: []

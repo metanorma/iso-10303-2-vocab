@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.csg_solid
   localized_concepts:
     eng: 4d6d5130-ddfe-5fa5-8663-fbf76141e23f
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.csg_solid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}} that represents the csg solid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}}
+      that represents the csg solid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **csg_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}} which is a solid represented as a CSG model defined by a collection of so-called primitive solids, combined using regularised boolean operations.
+  - content: A **csg_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}}
+      which is a solid represented as a CSG model defined by a collection of so-called
+      primitive solids, combined using regularised boolean operations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: csg_solid
+  - type: expression
+    normative_status: preferred
+    designation: csg_solid
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

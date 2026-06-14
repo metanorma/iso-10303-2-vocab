@@ -1,32 +1,33 @@
+---
 data:
   identifier: Shape_data_quality_inspection_result_arm.Plane_angle_and_length_pair
   localized_concepts:
     eng: 3a971eaa-346c-53cf-a363-1c977b3cedf3
   domains:
-    - concept_id: section-Shape_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+    ref_type: section
 id: Shape_data_quality_inspection_result_arm.Plane_angle_and_length_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the plane angle and length pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the plane angle and length pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Plane_angle_and_length_pair** is the representation of
-        the measured value that consists of a {{plane_angle_measure,plane_angle_measure}} and a distance.
+  - content: |-
+      A **Plane_angle_and_length_pair** is the representation of
+      the measured value that consists of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.plane_angle_measure,plane_angle_measure}} and a distance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-          version: '2'
-      type: authoritative
-      id: Shape_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Plane_angle_and_length_pair
+  - type: expression
+    normative_status: preferred
+    designation: Plane_angle_and_length_pair
   domain: 'application module: Shape_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []

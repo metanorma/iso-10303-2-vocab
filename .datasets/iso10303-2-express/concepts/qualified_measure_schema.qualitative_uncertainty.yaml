@@ -1,29 +1,31 @@
+---
 data:
   identifier: qualified_measure_schema.qualitative_uncertainty
   localized_concepts:
     eng: 98ccc4ce-3ae9-5cde-bcd6-7657a296c48e
   domains:
-    - concept_id: section-qualified_measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-      ref_type: section
+  - concept_id: section-qualified_measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+    ref_type: section
 id: qualified_measure_schema.qualitative_uncertainty
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.uncertainty_qualifier,uncertainty_qualifier}} that represents the qualitative uncertainty {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.uncertainty_qualifier,uncertainty_qualifier}}
+      that represents the qualitative uncertainty {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-          version: '4'
-      type: authoritative
-      id: qualified_measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: qualitative_uncertainty
+  - type: expression
+    normative_status: preferred
+    designation: qualitative_uncertainty
   domain: 'resource: qualified_measure_schema'
   language_code: eng
   annotations: []

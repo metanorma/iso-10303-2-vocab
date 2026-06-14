@@ -1,30 +1,34 @@
+---
 data:
   identifier: Aec_service_life_arm.Service_life
   localized_concepts:
     eng: 04e97cfe-fb7a-5a78-994a-6b06d53f9412
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Service_life
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{Aec_whole_life_object}} that represents the service life {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Aec_whole_life_object,Aec_whole_life_object}}
+      that represents the service life {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Service_life** is a type of {{Aec_physical_object,Aec_physical_object}} that is the temporal part of a {{Aec_whole_life_object,Aec_whole_life_object}} during which it is in service.
+  - content: A **Service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_functions_and_domains_arm.Aec_physical_object,Aec_physical_object}}
+      that is the temporal part of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_functions_and_domains_arm.Aec_whole_life_object,Aec_whole_life_object}}
+      during which it is in service.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Service_life
+  - type: expression
+    normative_status: preferred
+    designation: Service_life
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,39 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_arm.Design_view_terminal_component_shape_relationship
   localized_concepts:
     eng: d05bd87f-fceb-5c8d-9998-8551014150b8
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+    ref_type: section
 id: Assembly_module_with_interconnect_component_arm.Design_view_terminal_component_shape_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design view terminal component shape relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design view terminal component shape relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: 'A **Design_view_terminal_component_shape_relationship** is the association between the following pairs where the individual relationship is a (source,target) pair: ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_join_terminal,Interconnect_component_join_terminal}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}), ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_interface_terminal,Interconnect_component_interface_terminal}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}), ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Movable_packaged_component_join_terminal,Movable_packaged_component_join_terminal}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component,Packaged_component}}).'
+  - content: 'A **Design_view_terminal_component_shape_relationship** is the association
+      between the following pairs where the individual relationship is a (source,target)
+      pair: ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_join_terminal,Interconnect_component_join_terminal}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}),
+      ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_interface_terminal,Interconnect_component_interface_terminal}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}),
+      ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Movable_packaged_component_join_terminal,Movable_packaged_component_join_terminal}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component,Packaged_component}}).'
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_view_terminal_component_shape_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Design_view_terminal_component_shape_relationship
   domain: 'application module: Assembly_module_with_interconnect_component_arm'
   language_code: eng
   annotations: []

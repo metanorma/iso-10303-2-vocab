@@ -1,30 +1,34 @@
+---
 data:
   identifier: General_design_connectivity_arm.Part_contact_feature_fit_relationship
   localized_concepts:
     eng: 780464f8-e6da-5abf-b7c2-be686fdd9f82
   domains:
-    - concept_id: section-General_design_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
-      ref_type: section
+  - concept_id: section-General_design_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+    ref_type: section
 id: General_design_connectivity_arm.Part_contact_feature_fit_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_feature_fit_relationship,Part_feature_fit_relationship}} that represents the part contact feature fit relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_feature_fit_relationship,Part_feature_fit_relationship}}
+      that represents the part contact feature fit relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_contact_feature_fit_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_feature_fit_relationship,Part_feature_fit_relationship}} that is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_contact_feature,Part_contact_feature}} stating that usages of these in an assembly can be joined with each other.
+  - content: A **Part_contact_feature_fit_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_feature_fit_relationship,Part_feature_fit_relationship}}
+      that is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_contact_feature,Part_contact_feature}}
+      stating that usages of these in an assembly can be joined with each other.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
-          version: '4'
-      type: authoritative
-      id: General_design_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_contact_feature_fit_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Part_contact_feature_fit_relationship
   domain: 'application module: General_design_connectivity_arm'
   language_code: eng
   annotations: []

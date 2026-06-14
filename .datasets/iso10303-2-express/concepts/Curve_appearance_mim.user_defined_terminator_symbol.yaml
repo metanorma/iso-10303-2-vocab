@@ -1,30 +1,33 @@
+---
 data:
   identifier: Curve_appearance_mim.user_defined_terminator_symbol
   localized_concepts:
     eng: ac929222-e32d-5be5-92be-f8e1a2d07db9
   domains:
-    - concept_id: section-Curve_appearance_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
-      ref_type: section
+  - concept_id: section-Curve_appearance_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+    ref_type: section
 id: Curve_appearance_mim.user_defined_terminator_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the user defined terminator symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the user defined terminator symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **user_defined_terminator_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.User_defined_terminator,User_defined_terminator}}.
+  - content: A **user_defined_terminator_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm.User_defined_terminator,User_defined_terminator}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
-          version: '6'
-      type: authoritative
-      id: Curve_appearance_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: user_defined_terminator_symbol
+  - type: expression
+    normative_status: preferred
+    designation: user_defined_terminator_symbol
   domain: 'application module: Curve_appearance_mim'
   language_code: eng
   annotations: []

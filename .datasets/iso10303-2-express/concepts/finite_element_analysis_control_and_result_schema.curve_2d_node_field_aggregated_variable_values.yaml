@@ -1,30 +1,34 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.curve_2d_node_field_aggregated_variable_values
   localized_concepts:
     eng: dfd463eb-1742-5c30-a078-8a38c87b1bb1
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.curve_2d_node_field_aggregated_variable_values
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_2d_node_field_variable_definition,curve_2d_node_field_variable_definition}} that represents the curve 2d node field aggregated variable values {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_2d_node_field_variable_definition,curve_2d_node_field_variable_definition}}
+      that represents the curve 2d node field aggregated variable values {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_2d_node_field_aggregated_variable_values,curve_2d_node_field_aggregated_variable_values}} is a state of the model that specifies the values of a variable aggregated through the cross-section at the nodes of a curve 2D element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_2d_node_field_aggregated_variable_values,curve_2d_node_field_aggregated_variable_values}}
+      is a state of the model that specifies the values of a variable aggregated through
+      the cross-section at the nodes of a curve 2D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_2d_node_field_aggregated_variable_values
+  - type: expression
+    normative_status: preferred
+    designation: curve_2d_node_field_aggregated_variable_values
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

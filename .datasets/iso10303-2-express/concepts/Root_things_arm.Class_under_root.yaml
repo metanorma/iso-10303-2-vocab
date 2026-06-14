@@ -1,30 +1,32 @@
+---
 data:
   identifier: Root_things_arm.Class_under_root
   localized_concepts:
     eng: a040fc16-d93e-5ec9-9440-0ec1d2635e91
   domains:
-    - concept_id: section-Root_things_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
-      ref_type: section
+  - concept_id: section-Root_things_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
+    ref_type: section
 id: Root_things_arm.Class_under_root
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class under root {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the class under root {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Class_under_root** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}.
+  - content: A **Class_under_root** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Root_object_or_relationship,Root_object_or_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
-          version: '1'
-      type: authoritative
-      id: Root_things_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Class_under_root
+  - type: expression
+    normative_status: preferred
+    designation: Class_under_root
   domain: 'application module: Root_things_arm'
   language_code: eng
   annotations: []

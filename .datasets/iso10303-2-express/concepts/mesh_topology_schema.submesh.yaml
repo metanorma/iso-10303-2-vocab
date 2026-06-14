@@ -1,30 +1,34 @@
+---
 data:
   identifier: mesh_topology_schema.submesh
   localized_concepts:
     eng: 602904c3-51a5-5bf3-8daf-c0eee6611316
   domains:
-    - concept_id: section-mesh_topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
-      ref_type: section
+  - concept_id: section-mesh_topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+    ref_type: section
 id: mesh_topology_schema.submesh
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} that represents the submesh {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}
+      that represents the submesh {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.submesh,submesh}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}} that is part of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.submesh,submesh}}
+      is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}
+      that is part of another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.mesh,mesh}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
-          version: '5'
-      type: authoritative
-      id: mesh_topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: submesh
+  - type: expression
+    normative_status: preferred
+    designation: submesh
   domain: 'resource: mesh_topology_schema'
   language_code: eng
   annotations: []

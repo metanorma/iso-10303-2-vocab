@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_tolerance_arm.Direction_feature_tolerance_zone
   localized_concepts:
     eng: c7be1560-42b2-5232-a471-1c42a570d2f3
   domains:
-    - concept_id: section-Geometric_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-      ref_type: section
+  - concept_id: section-Geometric_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+    ref_type: section
 id: Geometric_tolerance_arm.Direction_feature_tolerance_zone
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_with_datum,Tolerance_zone_with_datum}} that represents the direction feature tolerance zone {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_with_datum,Tolerance_zone_with_datum}}
+      that represents the direction feature tolerance zone {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Direction_feature_tolerance_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_with_datum,Tolerance_zone_with_datum}} that represents a "direction feature" for a geometric tolerance as defined in ISO 1101.
+  - content: A **Direction_feature_tolerance_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Tolerance_zone_with_datum,Tolerance_zone_with_datum}}
+      that represents a "direction feature" for a geometric tolerance as defined in
+      ISO 1101.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-          version: '10'
-      type: authoritative
-      id: Geometric_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Direction_feature_tolerance_zone
+  - type: expression
+    normative_status: preferred
+    designation: Direction_feature_tolerance_zone
   domain: 'application module: Geometric_tolerance_arm'
   language_code: eng
   annotations: []

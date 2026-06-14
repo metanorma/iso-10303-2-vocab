@@ -1,30 +1,34 @@
+---
 data:
   identifier: Mating_structure_mim.mating_material_items
   localized_concepts:
     eng: e274abcc-2ae6-53a5-9e18-e7b5c6a7071d
   domains:
-    - concept_id: section-Mating_structure_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
-      ref_type: section
+  - concept_id: section-Mating_structure_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
+    ref_type: section
 id: Mating_structure_mim.mating_material_items
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the mating material items {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim.group_assignment,group_assignment}}
+      that represents the mating material items {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **mating_material_items** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm.Mated_assembly_occurrence_relationship,Mated_assembly_occurrence_relationship}} for the attribute {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim.mating_material,mating_material}}.
+  - content: A **mating_material_items** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm.Mated_assembly_occurrence_relationship,Mated_assembly_occurrence_relationship}}
+      for the attribute {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_arm.Mated_assembly_occurrence_relationship.mating_material,mating_material}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
-          version: '4'
-      type: authoritative
-      id: Mating_structure_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mating_structure_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mating_material_items
+  - type: expression
+    normative_status: preferred
+    designation: mating_material_items
   domain: 'application module: Mating_structure_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_2d_design_arm.Located_2d_inter_stratum_extent
   localized_concepts:
     eng: 518beebf-74fd-5113-8682-7f98508d7645
   domains:
-    - concept_id: section-Layered_interconnect_module_2d_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_2d_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_2d_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_2d_design_arm
+    ref_type: section
 id: Layered_interconnect_module_2d_design_arm.Located_2d_inter_stratum_extent
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_extent,Inter_stratum_extent}} that represents the located 2d inter stratum extent {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_2d_design_arm.Inter_stratum_extent,Inter_stratum_extent}}
+      that represents the located 2d inter stratum extent {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Located_2d_inter_stratum_extent** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_extent,Inter_stratum_extent}} that provides the **location** where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_extent,Inter_stratum_extent}} was determined.
+  - content: A **Located_2d_inter_stratum_extent** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_extent,Inter_stratum_extent}}
+      that provides the **location** where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_extent,Inter_stratum_extent}}
+      was determined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_2d_design_arm
-          version: '2'
-      type: authoritative
-      id: Layered_interconnect_module_2d_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_2d_design_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Located_2d_inter_stratum_extent
+  - type: expression
+    normative_status: preferred
+    designation: Located_2d_inter_stratum_extent
   domain: 'application module: Layered_interconnect_module_2d_design_arm'
   language_code: eng
   annotations: []

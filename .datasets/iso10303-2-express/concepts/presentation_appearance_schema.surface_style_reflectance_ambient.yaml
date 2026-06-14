@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_appearance_schema.surface_style_reflectance_ambient
   localized_concepts:
     eng: 1ad70e90-fffd-5077-8f11-28a023860a14
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.surface_style_reflectance_ambient
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface style reflectance ambient {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface style reflectance ambient {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **surface_style_reflectance_ambient** is a specification of the ambient part of the reflectance behaviour of a surface.
+  - content: A **surface_style_reflectance_ambient** is a specification of the ambient
+      part of the reflectance behaviour of a surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_style_reflectance_ambient
+  - type: expression
+    normative_status: preferred
+    designation: surface_style_reflectance_ambient
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

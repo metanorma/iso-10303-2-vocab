@@ -1,29 +1,31 @@
+---
 data:
   identifier: Numeric_function_arm.Odd_function
   localized_concepts:
     eng: c612bcad-a82d-555b-9191-cfe602be5740
   domains:
-    - concept_id: section-Numeric_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
-      ref_type: section
+  - concept_id: section-Numeric_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
+    ref_type: section
 id: Numeric_function_arm.Odd_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Unary_boolean_expression,Unary_boolean_expression}} that represents the odd function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm.Unary_boolean_expression,Unary_boolean_expression}}
+      that represents the odd function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
-          version: '4'
-      type: authoritative
-      id: Numeric_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_function_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Odd_function
+  - type: expression
+    normative_status: preferred
+    designation: Odd_function
   domain: 'application module: Numeric_function_arm'
   language_code: eng
   annotations: []

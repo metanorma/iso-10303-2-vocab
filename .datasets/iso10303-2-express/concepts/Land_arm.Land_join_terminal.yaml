@@ -1,30 +1,35 @@
+---
 data:
   identifier: Land_arm.Land_join_terminal
   localized_concepts:
     eng: 111f40db-267f-5763-9a59-664ecbd8d9b3
   domains:
-    - concept_id: section-Land_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-      ref_type: section
+  - concept_id: section-Land_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+    ref_type: section
 id: Land_arm.Land_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}} that represents the land join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}}
+      that represents the land join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Land_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}} included in the design to mate directly with a terminal of another fabricated feature by use of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Fabrication_joint,Fabrication_joint}} internally in a layout.
+  - content: A **Land_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}}
+      included in the design to mate directly with a terminal of another fabricated
+      feature by use of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Fabrication_joint,Fabrication_joint}}
+      internally in a layout.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-          version: '5'
-      type: authoritative
-      id: Land_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Land_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Land_join_terminal
   domain: 'application module: Land_arm'
   language_code: eng
   annotations: []

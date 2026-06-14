@@ -1,30 +1,33 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_mim.strategy_point
   localized_concepts:
     eng: 6a31650a-1936-5c63-8313-c862cab61804
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_mim.strategy_point
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}} that represents the strategy point {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}}
+      that represents the strategy point {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **strategy_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Strategy_point,Strategy_point}}.
+  - content: A **strategy_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Strategy_point,Strategy_point}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: strategy_point
+  - type: expression
+    normative_status: preferred
+    designation: strategy_point
   domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
   language_code: eng
   annotations: []

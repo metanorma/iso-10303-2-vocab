@@ -1,36 +1,38 @@
+---
 data:
   identifier: Fea_definition_relationships_arm.Fea_shell_section_distribution_idealisation_relationship
   localized_concepts:
     eng: 256f4957-e524-574a-85b6-4e7a646c6f30
   domains:
-    - concept_id: section-Fea_definition_relationships_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-      ref_type: section
+  - concept_id: section-Fea_definition_relationships_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+    ref_type: section
 id: Fea_definition_relationships_arm.Fea_shell_section_distribution_idealisation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea shell section distribution idealisation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fea shell section distribution idealisation
+      relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Fea_shell_section_distribution_idealisation_relationship** is a relationship between:
+  - content: |-
+      A **Fea_shell_section_distribution_idealisation_relationship** is a relationship between:
 
-        * the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that is the variation of structural behaviour from point to point over a shell; and
-        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}};
+      * the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that is the variation of structural behaviour from point to point over a shell; and
+      * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}};
 
-        that indicates the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}} is an idealisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} for the purpose of analysis.
+      that indicates the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_property,Surface_property}} is an idealisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} for the purpose of analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-          version: '2'
-      type: authoritative
-      id: Fea_definition_relationships_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Fea_shell_section_distribution_idealisation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Fea_shell_section_distribution_idealisation_relationship
   domain: 'application module: Fea_definition_relationships_arm'
   language_code: eng
   annotations: []

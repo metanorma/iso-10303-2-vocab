@@ -1,29 +1,31 @@
+---
 data:
   identifier: Composite_material_aspects_arm.Composite_material_identification
   localized_concepts:
     eng: 44173443-bd8f-559e-81b1-463b3314271a
   domains:
-    - concept_id: section-Composite_material_aspects_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_material_aspects_arm
-      ref_type: section
+  - concept_id: section-Composite_material_aspects_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_material_aspects_arm
+    ref_type: section
 id: Composite_material_aspects_arm.Composite_material_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} that represents the composite material identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_material_aspects_arm.Material_identification,Material_identification}}
+      that represents the composite material identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_material_aspects_arm
-          version: '2'
-      type: authoritative
-      id: Composite_material_aspects_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_material_aspects_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Composite_material_identification
+  - type: expression
+    normative_status: preferred
+    designation: Composite_material_identification
   domain: 'application module: Composite_material_aspects_arm'
   language_code: eng
   annotations: []

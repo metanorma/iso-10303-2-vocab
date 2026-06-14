@@ -1,30 +1,32 @@
+---
 data:
   identifier: mesh_connectivity_schema.mesh_overset_hole
   localized_concepts:
     eng: 2841acb7-77eb-58a2-920e-3dc682623956
   domains:
-    - concept_id: section-mesh_connectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-      ref_type: section
+  - concept_id: section-mesh_connectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+    ref_type: section
 id: mesh_connectivity_schema.mesh_overset_hole
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_mesh_connection,mismatched_mesh_connection}} that represents the mesh overset hole {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mismatched_mesh_connection,mismatched_mesh_connection}}
+      that represents the mesh overset hole {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *overset_hole* is a hole, or holes, in an overset mesh.
+  - content: An *overset_hole* is a hole, or holes, in an overset mesh.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-          version: '3'
-      type: authoritative
-      id: mesh_connectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mesh_overset_hole
+  - type: expression
+    normative_status: preferred
+    designation: mesh_overset_hole
   domain: 'resource: mesh_connectivity_schema'
   language_code: eng
   annotations: []

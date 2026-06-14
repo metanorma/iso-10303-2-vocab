@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mechanical_design_features_and_requirements_arm.Md_countersink_hole_definition
   localized_concepts:
     eng: d67ee5db-5068-5767-b073-2c6b5068e547
   domains:
-    - concept_id: section-Mechanical_design_features_and_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-      ref_type: section
+  - concept_id: section-Mechanical_design_features_and_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+    ref_type: section
 id: Mechanical_design_features_and_requirements_arm.Md_countersink_hole_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Explicit_composite_hole,Explicit_composite_hole}} that represents the md countersink hole definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Explicit_composite_hole,Explicit_composite_hole}}
+      that represents the md countersink hole definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Md_countersink_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} that defines a template to structure the requirements for a countersink hole.
+  - content: An **Md_countersink_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}}
+      that defines a template to structure the requirements for a countersink hole.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-          version: '3'
-      type: authoritative
-      id: Mechanical_design_features_and_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Md_countersink_hole_definition
+  - type: expression
+    normative_status: preferred
+    designation: Md_countersink_hole_definition
   domain: 'application module: Mechanical_design_features_and_requirements_arm'
   language_code: eng
   annotations: []

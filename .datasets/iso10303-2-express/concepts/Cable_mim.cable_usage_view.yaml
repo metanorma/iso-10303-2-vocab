@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cable_mim.cable_usage_view
   localized_concepts:
     eng: a60cb57e-0adb-5b8e-97b5-14674ba6a87e
   domains:
-    - concept_id: section-Cable_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
-      ref_type: section
+  - concept_id: section-Cable_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
+    ref_type: section
 id: Cable_mim.cable_usage_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the cable usage view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim.physical_unit,physical_unit}}
+      that represents the cable usage view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cable_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_arm.Cable_usage_view,Cable_usage_view}}.
+  - content: A **cable_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_arm.Cable_usage_view,Cable_usage_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
-          version: '4'
-      type: authoritative
-      id: Cable_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cable_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cable_usage_view
+  - type: expression
+    normative_status: preferred
+    designation: cable_usage_view
   domain: 'application module: Cable_mim'
   language_code: eng
   annotations: []

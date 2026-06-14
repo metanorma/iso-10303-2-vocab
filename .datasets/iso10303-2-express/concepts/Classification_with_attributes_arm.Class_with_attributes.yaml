@@ -1,30 +1,33 @@
+---
 data:
   identifier: Classification_with_attributes_arm.Class_with_attributes
   localized_concepts:
     eng: 5f73dcac-8096-5a1d-8578-b2b4efceb5f0
   domains:
-    - concept_id: section-Classification_with_attributes_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
-      ref_type: section
+  - concept_id: section-Classification_with_attributes_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+    ref_type: section
 id: Classification_with_attributes_arm.Class_with_attributes
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents the class with attributes {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class,Class}}
+      that represents the class with attributes {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Class_with_attributes** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that may be defined with a set of valued parameters.
+  - content: A **Class_with_attributes** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}}
+      that may be defined with a set of valued parameters.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
-          version: '7'
-      type: authoritative
-      id: Classification_with_attributes_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Class_with_attributes
+  - type: expression
+    normative_status: preferred
+    designation: Class_with_attributes
   domain: 'application module: Classification_with_attributes_arm'
   language_code: eng
   annotations: []

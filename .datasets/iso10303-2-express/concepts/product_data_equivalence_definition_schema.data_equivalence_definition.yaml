@@ -1,30 +1,32 @@
+---
 data:
   identifier: product_data_equivalence_definition_schema.data_equivalence_definition
   localized_concepts:
     eng: eac4aec4-31a1-567d-af22-999613319b91
   domains:
-    - concept_id: section-product_data_equivalence_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+    ref_type: section
 id: product_data_equivalence_definition_schema.data_equivalence_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data equivalence definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the data equivalence definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_equivalence_definition** is a set of information, including criteria and inspection results, in the domain of product data equivalence.
+  - content: A **data_equivalence_definition** is a set of information, including
+      criteria and inspection results, in the domain of product data equivalence.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-          version: '2'
-      type: authoritative
-      id: product_data_equivalence_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_equivalence_definition
+  - type: expression
+    normative_status: preferred
+    designation: data_equivalence_definition
   domain: 'resource: product_data_equivalence_definition_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Elementary_function_arm.Binary_function_call
   localized_concepts:
     eng: 7e78c873-ddf0-5910-8810-2f3043a625ff
   domains:
-    - concept_id: section-Elementary_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-      ref_type: section
+  - concept_id: section-Elementary_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+    ref_type: section
 id: Elementary_function_arm.Binary_function_call
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Binary_numeric_expression,Binary_numeric_expression}} that represents the binary function call {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Binary_numeric_expression,Binary_numeric_expression}}
+      that represents the binary function call {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-          version: '2'
-      type: authoritative
-      id: Elementary_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Binary_function_call
+  - type: expression
+    normative_status: preferred
+    designation: Binary_function_call
   domain: 'application module: Elementary_function_arm'
   language_code: eng
   annotations: []

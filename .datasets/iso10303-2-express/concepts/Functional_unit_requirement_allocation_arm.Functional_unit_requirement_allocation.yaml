@@ -1,29 +1,31 @@
+---
 data:
   identifier: Functional_unit_requirement_allocation_arm.Functional_unit_requirement_allocation
   localized_concepts:
     eng: 6a8037c7-8d11-50e4-aa71-41c88b133481
   domains:
-    - concept_id: section-Functional_unit_requirement_allocation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_unit_requirement_allocation_arm
-      ref_type: section
+  - concept_id: section-Functional_unit_requirement_allocation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_unit_requirement_allocation_arm
+    ref_type: section
 id: Functional_unit_requirement_allocation_arm.Functional_unit_requirement_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the functional unit requirement allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_unit_requirement_allocation_arm.Requirement_assignment,Requirement_assignment}}
+      that represents the functional unit requirement allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_unit_requirement_allocation_arm
-          version: '1'
-      type: authoritative
-      id: Functional_unit_requirement_allocation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_unit_requirement_allocation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_unit_requirement_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Functional_unit_requirement_allocation
   domain: 'application module: Functional_unit_requirement_allocation_arm'
   language_code: eng
   annotations: []

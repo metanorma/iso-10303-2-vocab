@@ -1,30 +1,34 @@
+---
 data:
   identifier: effectivity_schema.dated_effectivity
   localized_concepts:
     eng: a8f792df-56af-560a-aaa6-efc6cb2c5d22
   domains:
-    - concept_id: section-effectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-      ref_type: section
+  - concept_id: section-effectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+    ref_type: section
 id: effectivity_schema.dated_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the dated effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      that represents the dated effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dated_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} for which the domain of applicability is defined as a possibly open-ended interval of time.
+  - content: A **dated_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      for which the domain of applicability is defined as a possibly open-ended interval
+      of time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-          version: '8'
-      type: authoritative
-      id: effectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dated_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: dated_effectivity
   domain: 'resource: effectivity_schema'
   language_code: eng
   annotations: []

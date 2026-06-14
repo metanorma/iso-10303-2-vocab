@@ -1,30 +1,34 @@
+---
 data:
   identifier: risk_schema.related_consequence
   localized_concepts:
     eng: 6332b5ce-ad4f-5f59-a55f-a7062c360a66
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.related_consequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the related consequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.product_definition_relationship,product_definition_relationship}}
+      that represents the related consequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **related_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_consequence,risk_consequence}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}}.
+  - content: A **related_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_consequence,risk_consequence}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: related_consequence
+  - type: expression
+    normative_status: preferred
+    designation: related_consequence
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

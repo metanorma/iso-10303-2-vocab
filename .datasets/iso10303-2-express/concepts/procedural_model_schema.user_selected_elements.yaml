@@ -1,30 +1,35 @@
+---
 data:
   identifier: procedural_model_schema.user_selected_elements
   localized_concepts:
     eng: 614365ee-32ac-59ae-ac6c-5a750eb27c65
   domains:
-    - concept_id: section-procedural_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-      ref_type: section
+  - concept_id: section-procedural_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+    ref_type: section
 id: procedural_model_schema.user_selected_elements
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the user selected elements {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.representation_item,representation_item}}
+      that represents the user selected elements {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}, representing a reference to one or more explicit elements that were picked from the screen of the sending system.
+  - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}}
+      entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}},
+      representing a reference to one or more explicit elements that were picked from
+      the screen of the sending system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-          version: '2'
-      type: authoritative
-      id: procedural_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: user_selected_elements
+  - type: expression
+    normative_status: preferred
+    designation: user_selected_elements
   domain: 'resource: procedural_model_schema'
   language_code: eng
   annotations: []

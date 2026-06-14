@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mesh_connectivity_arm.Mismatched_mesh_connection
   localized_concepts:
     eng: cd399686-f105-5d8c-ae15-6c0b12026627
   domains:
-    - concept_id: section-Mesh_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
-      ref_type: section
+  - concept_id: section-Mesh_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+    ref_type: section
 id: Mesh_connectivity_arm.Mismatched_mesh_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mesh_connectivity,Mesh_connectivity}} that represents the mismatched mesh connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mesh_connectivity,Mesh_connectivity}}
+      that represents the mismatched mesh connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mismatched_mesh_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mesh_connectivity,Mesh_connectivity}} that contains conectivity information for generalized mesh interfaces.
+  - content: A **Mismatched_mesh_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mesh_connectivity,Mesh_connectivity}}
+      that contains conectivity information for generalized mesh interfaces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
-          version: '1'
-      type: authoritative
-      id: Mesh_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mismatched_mesh_connection
+  - type: expression
+    normative_status: preferred
+    designation: Mismatched_mesh_connection
   domain: 'application module: Mesh_connectivity_arm'
   language_code: eng
   annotations: []

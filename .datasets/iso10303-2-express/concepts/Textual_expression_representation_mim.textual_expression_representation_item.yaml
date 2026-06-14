@@ -1,30 +1,33 @@
+---
 data:
   identifier: Textual_expression_representation_mim.textual_expression_representation_item
   localized_concepts:
     eng: 48ceb836-0755-57fe-b0cd-986561255807
   domains:
-    - concept_id: section-Textual_expression_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
-      ref_type: section
+  - concept_id: section-Textual_expression_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+    ref_type: section
 id: Textual_expression_representation_mim.textual_expression_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that represents the textual expression representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim.descriptive_representation_item,descriptive_representation_item}}
+      that represents the textual expression representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **textual_expression_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} where the item is text.
+  - content: A **textual_expression_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}}
+      where the item is text.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
-          version: '1'
-      type: authoritative
-      id: Textual_expression_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: textual_expression_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: textual_expression_representation_item
   domain: 'application module: Textual_expression_representation_mim'
   language_code: eng
   annotations: []

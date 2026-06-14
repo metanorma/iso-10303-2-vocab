@@ -1,29 +1,31 @@
+---
 data:
   identifier: Characteristic_arm.Text_representation_item
   localized_concepts:
     eng: 88c2ca3a-9f69-5644-a46e-17737da6172d
   domains:
-    - concept_id: section-Characteristic_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-      ref_type: section
+  - concept_id: section-Characteristic_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+    ref_type: section
 id: Characteristic_arm.Text_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that represents the text representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.String_representation_item,String_representation_item}}
+      that represents the text representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-          version: '6'
-      type: authoritative
-      id: Characteristic_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Text_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Text_representation_item
   domain: 'application module: Characteristic_arm'
   language_code: eng
   annotations: []

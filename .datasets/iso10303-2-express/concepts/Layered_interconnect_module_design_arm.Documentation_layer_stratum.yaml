@@ -1,30 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Documentation_layer_stratum
   localized_concepts:
     eng: 2c080dec-120e-59e7-a7ef-5da695faeaee
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Documentation_layer_stratum
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}} that represents the documentation layer stratum {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}
+      that represents the documentation layer stratum {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Documentation_layer_stratum** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}} that includes patterns and other artwork information needed to manufacture a physical layer in a printed circuit board where that layer is not implementing any {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Generic_physical_network,Generic_physical_network}} in the printed circuit board.
+  - content: A **Documentation_layer_stratum** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}
+      that includes patterns and other artwork information needed to manufacture a
+      physical layer in a printed circuit board where that layer is not implementing
+      any {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Generic_physical_network,Generic_physical_network}}
+      in the printed circuit board.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Documentation_layer_stratum
+  - type: expression
+    normative_status: preferred
+    designation: Documentation_layer_stratum
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

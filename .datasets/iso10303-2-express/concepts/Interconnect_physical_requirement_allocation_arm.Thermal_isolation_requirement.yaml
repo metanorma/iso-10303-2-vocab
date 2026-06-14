@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interconnect_physical_requirement_allocation_arm.Thermal_isolation_requirement
   localized_concepts:
     eng: 68bb77f1-211d-55e6-b13b-41f52d4154d9
   domains:
-    - concept_id: section-Interconnect_physical_requirement_allocation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
-      ref_type: section
+  - concept_id: section-Interconnect_physical_requirement_allocation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+    ref_type: section
 id: Interconnect_physical_requirement_allocation_arm.Thermal_isolation_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} that represents the thermal isolation requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm.Requirement_view_definition,Requirement_view_definition}}
+      that represents the thermal isolation requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Thermal_isolation_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} included to specify source or derived requirements for thermal potential isolation between design elements.
+  - content: A **Thermal_isolation_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}}
+      included to specify source or derived requirements for thermal potential isolation
+      between design elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_physical_requirement_allocation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Thermal_isolation_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Thermal_isolation_requirement
   domain: 'application module: Interconnect_physical_requirement_allocation_arm'
   language_code: eng
   annotations: []

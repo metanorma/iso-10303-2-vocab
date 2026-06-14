@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_extension_mim.dielectric_constant_measure_with_unit
   localized_concepts:
     eng: 7f5c95ca-f9a6-5b49-baff-b6bbaffe4853
   domains:
-    - concept_id: section-Value_with_unit_extension_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
-      ref_type: section
+  - concept_id: section-Value_with_unit_extension_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+    ref_type: section
 id: Value_with_unit_extension_mim.dielectric_constant_measure_with_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.ratio_measure_with_unit,ratio_measure_with_unit}} that represents the dielectric constant measure with unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim.ratio_measure_with_unit,ratio_measure_with_unit}}
+      that represents the dielectric constant measure with unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dielectric_constant_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.ratio_measure_with_unit,ratio_measure_with_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Dielectric_constant_data_element,Dielectric_constant_data_element}}.
+  - content: A **dielectric_constant_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.ratio_measure_with_unit,ratio_measure_with_unit}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Dielectric_constant_data_element,Dielectric_constant_data_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_extension_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dielectric_constant_measure_with_unit
+  - type: expression
+    normative_status: preferred
+    designation: dielectric_constant_measure_with_unit
   domain: 'application module: Value_with_unit_extension_mim'
   language_code: eng
   annotations: []

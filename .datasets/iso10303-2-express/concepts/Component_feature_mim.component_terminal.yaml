@@ -1,46 +1,48 @@
+---
 data:
   identifier: Component_feature_mim.component_terminal
   localized_concepts:
     eng: 4b3f4f08-df3a-5e43-8f59-2a86a0944663
   domains:
-    - concept_id: section-Component_feature_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-      ref_type: section
+  - concept_id: section-Component_feature_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+    ref_type: section
 id: Component_feature_mim.component_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}} that represents the component terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}}
+      that represents the component terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **component_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}} that implements the ARM concepts of:
+  - content: |-
+      A **component_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature,component_feature}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_arm.Assembly_module_component_terminal,Assembly_module_component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm.Assembly_module_macro_component_join_terminal,Assembly_module_macro_component_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Bare_die_component_terminal,Bare_die_component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Component_termination_passage_join_terminal,Component_termination_passage_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_join_terminal,Interconnect_component_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component_terminal,Interconnect_module_component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm.Interconnect_module_macro_component_join_terminal,Interconnect_module_macro_component_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land_join_terminal,Land_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm.Minimally_defined_component_terminal,Minimally_defined_component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component_join_terminal,Packaged_component_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_arm.Printed_component_join_terminal,Printed_component_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Via_terminal,Via_terminal}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_arm.Assembly_module_component_terminal,Assembly_module_component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm.Assembly_module_macro_component_join_terminal,Assembly_module_macro_component_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Bare_die_component_terminal,Bare_die_component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Component_termination_passage_join_terminal,Component_termination_passage_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_component_join_terminal,Interconnect_component_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component_terminal,Interconnect_module_component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm.Interconnect_module_macro_component_join_terminal,Interconnect_module_macro_component_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Land_join_terminal,Land_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm.Minimally_defined_component_terminal,Minimally_defined_component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component_join_terminal,Packaged_component_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_arm.Printed_component_join_terminal,Printed_component_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Via_terminal,Via_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-          version: '5'
-      type: authoritative
-      id: Component_feature_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: component_terminal
+  - type: expression
+    normative_status: preferred
+    designation: component_terminal
   domain: 'application module: Component_feature_mim'
   language_code: eng
   annotations: []

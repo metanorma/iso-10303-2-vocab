@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_arm.Extent
   localized_concepts:
     eng: df64a748-d32c-50a6-8ac5-bab9c1488142
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Extent
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the extent {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the extent {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Extent** is a means to provide information about the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}} by providing the **query_expression** and optional **syntax** information used to extract the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}}.
+  - content: An **Extent** is a means to provide information about the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}}
+      by providing the **query_expression** and optional **syntax** information used
+      to extract the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Fact_type,Fact_type}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Extent
+  - type: expression
+    normative_status: preferred
+    designation: Extent
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

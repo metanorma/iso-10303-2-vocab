@@ -1,30 +1,31 @@
+---
 data:
   identifier: Property_assignment_arm.Assigned_property
   localized_concepts:
     eng: 427a84ea-f46e-5a11-987f-901457dfc436
   domains:
-    - concept_id: section-Property_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
-      ref_type: section
+  - concept_id: section-Property_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+    ref_type: section
 id: Property_assignment_arm.Assigned_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assigned property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the assigned property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assigned_property** is a property that is assigned to product data.
+  - content: An **Assigned_property** is a property that is assigned to product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
-          version: '4'
-      type: authoritative
-      id: Property_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assigned_property
+  - type: expression
+    normative_status: preferred
+    designation: Assigned_property
   domain: 'application module: Property_assignment_arm'
   language_code: eng
   annotations: []

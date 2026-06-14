@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.interpolated_configuration_segment
   localized_concepts:
     eng: c2be4a8d-0a4b-5bc5-9d50-ba54c17214ac
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.interpolated_configuration_segment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the interpolated configuration segment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.founded_item,founded_item}}
+      that represents the interpolated configuration segment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **interpolated_configuration_segment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that specifies a single segment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_sequence,interpolated_configuration_sequence}}.
+  - content: An **interpolated_configuration_segment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}}
+      that specifies a single segment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_sequence,interpolated_configuration_sequence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interpolated_configuration_segment
+  - type: expression
+    normative_status: preferred
+    designation: interpolated_configuration_segment
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

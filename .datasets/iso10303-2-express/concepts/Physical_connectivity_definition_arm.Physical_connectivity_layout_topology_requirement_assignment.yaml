@@ -1,29 +1,32 @@
+---
 data:
   identifier: Physical_connectivity_definition_arm.Physical_connectivity_layout_topology_requirement_assignment
   localized_concepts:
     eng: 2c06da35-b1eb-588e-a35e-5343a8ba3402
   domains:
-    - concept_id: section-Physical_connectivity_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
-      ref_type: section
+  - concept_id: section-Physical_connectivity_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+    ref_type: section
 id: Physical_connectivity_definition_arm.Physical_connectivity_layout_topology_requirement_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the physical connectivity layout topology requirement assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Requirement_assignment,Requirement_assignment}}
+      that represents the physical connectivity layout topology requirement assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
-          version: '5'
-      type: authoritative
-      id: Physical_connectivity_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_connectivity_layout_topology_requirement_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Physical_connectivity_layout_topology_requirement_assignment
   domain: 'application module: Physical_connectivity_definition_arm'
   language_code: eng
   annotations: []

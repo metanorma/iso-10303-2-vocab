@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_dimension_schema.shape_dimension_representation
   localized_concepts:
     eng: 1135c166-1b36-5914-9d8f-a1c852f2bfa4
   domains:
-    - concept_id: section-shape_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-      ref_type: section
+  - concept_id: section-shape_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+    ref_type: section
 id: shape_dimension_schema.shape_dimension_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the shape dimension representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.shape_representation,shape_representation}}
+      that represents the shape dimension representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-          version: '5'
-      type: authoritative
-      id: shape_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_dimension_representation
+  - type: expression
+    normative_status: preferred
+    designation: shape_dimension_representation
   domain: 'resource: shape_dimension_schema'
   language_code: eng
   annotations: []

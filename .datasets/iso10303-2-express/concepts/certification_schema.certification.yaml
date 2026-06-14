@@ -1,30 +1,31 @@
+---
 data:
   identifier: certification_schema.certification
   localized_concepts:
     eng: 5411eba0-a2f1-5760-9dfe-918c8e3e0783
   domains:
-    - concept_id: section-certification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
-      ref_type: section
+  - concept_id: section-certification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
+    ref_type: section
 id: certification_schema.certification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the certification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the certification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **certification** is an assertion of facts.
+  - content: A **certification** is an assertion of facts.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
-          version: '3'
-      type: authoritative
-      id: certification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: certification
+  - type: expression
+    normative_status: preferred
+    designation: certification
   domain: 'resource: certification_schema'
   language_code: eng
   annotations: []

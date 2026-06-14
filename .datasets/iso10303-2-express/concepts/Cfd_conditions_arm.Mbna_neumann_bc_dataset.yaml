@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_conditions_arm.Mbna_neumann_bc_dataset
   localized_concepts:
     eng: c4cfe924-0200-514e-8e78-54f089831e0d
   domains:
-    - concept_id: section-Cfd_conditions_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-      ref_type: section
+  - concept_id: section-Cfd_conditions_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+    ref_type: section
 id: Cfd_conditions_arm.Mbna_neumann_bc_dataset
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}} that represents the mbna neumann bc dataset {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}}
+      that represents the mbna neumann bc dataset {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_neumann_bc_dataset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}} that contains Neumann boundary condition data.
+  - content: A **Mbna_neumann_bc_dataset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_bc_dataset,Mbna_bc_dataset}}
+      that contains Neumann boundary condition data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_conditions_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_neumann_bc_dataset
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_neumann_bc_dataset
   domain: 'application module: Cfd_conditions_arm'
   language_code: eng
   annotations: []

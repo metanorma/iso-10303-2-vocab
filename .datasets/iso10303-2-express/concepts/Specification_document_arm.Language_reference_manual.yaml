@@ -1,30 +1,33 @@
+---
 data:
   identifier: Specification_document_arm.Language_reference_manual
   localized_concepts:
     eng: cd301f02-a2d6-5bc4-b783-4e79f8a7ffe1
   domains:
-    - concept_id: section-Specification_document_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-      ref_type: section
+  - concept_id: section-Specification_document_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+    ref_type: section
 id: Specification_document_arm.Language_reference_manual
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that represents the language reference manual {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}}
+      that represents the language reference manual {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Language_reference_manual** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that defines the syntax and semantics of a computer interpretable language.
+  - content: A **Language_reference_manual** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}}
+      that defines the syntax and semantics of a computer interpretable language.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-          version: '4'
-      type: authoritative
-      id: Specification_document_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Language_reference_manual
+  - type: expression
+    normative_status: preferred
+    designation: Language_reference_manual
   domain: 'application module: Specification_document_arm'
   language_code: eng
   annotations: []

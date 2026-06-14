@@ -1,30 +1,32 @@
+---
 data:
   identifier: action_and_model_relationships_schema.same_idealised_action
   localized_concepts:
     eng: 57be5469-afc1-5d1f-8c72-47cbaa629499
   domains:
-    - concept_id: section-action_and_model_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
-      ref_type: section
+  - concept_id: section-action_and_model_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
+    ref_type: section
 id: action_and_model_relationships_schema.same_idealised_action
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same idealised action {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the same idealised action {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **same_idealised_action** is a relationship between records of an idealisation of action for analysis, which states they each have the same meaning.
+  - content: A **same_idealised_action** is a relationship between records of an idealisation
+      of action for analysis, which states they each have the same meaning.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
-          version: '1'
-      type: authoritative
-      id: action_and_model_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: same_idealised_action
+  - type: expression
+    normative_status: preferred
+    designation: same_idealised_action
   domain: 'resource: action_and_model_relationships_schema'
   language_code: eng
   annotations: []

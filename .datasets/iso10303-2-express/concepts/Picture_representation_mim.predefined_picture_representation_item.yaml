@@ -1,30 +1,33 @@
+---
 data:
   identifier: Picture_representation_mim.predefined_picture_representation_item
   localized_concepts:
     eng: c4ed9a3b-49ad-529b-8a83-1a873adba729
   domains:
-    - concept_id: section-Picture_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
-      ref_type: section
+  - concept_id: section-Picture_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
+    ref_type: section
 id: Picture_representation_mim.predefined_picture_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim.picture_representation_item,picture_representation_item}} that represents the predefined picture representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim.picture_representation_item,picture_representation_item}}
+      that represents the predefined picture representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **predefined_picture_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim.picture_representation_item,picture_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm.Predefined_picture_representation_item,Predefined_picture_representation_item}}.
+  - content: A **predefined_picture_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim.picture_representation_item,picture_representation_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_arm.Predefined_picture_representation_item,Predefined_picture_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
-          version: '2'
-      type: authoritative
-      id: Picture_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Picture_representation_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: predefined_picture_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: predefined_picture_representation_item
   domain: 'application module: Picture_representation_mim'
   language_code: eng
   annotations: []

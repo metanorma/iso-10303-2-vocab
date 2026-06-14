@@ -1,31 +1,37 @@
+---
 data:
   identifier: topology_schema.path
   localized_concepts:
-    eng: 0817097c-9084-5259-a77e-42e88a6b56a2
+    eng: '0817097c-9084-5259-a77e-42e88a6b56a2'
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}
+      that represents the path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **path** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}, consisting of an ordered collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.oriented_edge,oriented_edge}} instances, such that the {{edge_start,edge_start}} vertex of each edge coincides with the {{edge_end,edge_end}} of its predecessor.
+  - content: A **path** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}},
+      consisting of an ordered collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.oriented_edge,oriented_edge}}
+      instances, such that the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge.edge_start,edge_start}}
+      vertex of each edge coincides with the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge.edge_end,edge_end}}
+      of its predecessor.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: path
+  - type: expression
+    normative_status: preferred
+    designation: path
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []
-id: 0817097c-9084-5259-a77e-42e88a6b56a2
+id: '0817097c-9084-5259-a77e-42e88a6b56a2'

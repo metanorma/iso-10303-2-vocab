@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_criterion_report_item
   localized_concepts:
     eng: 2a3a4256-0e9d-5039-bb23-d1c3db6ac72b
   domains:
-    - concept_id: section-product_data_equivalence_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+    ref_type: section
 id: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_criterion_report_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the data equivalence inspection criterion report item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.representation_item,representation_item}}
+      that represents the data equivalence inspection criterion report item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_equivalence_inspection_criterion_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and an abstract supertype of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.criterion_report_item_with_number_of_instances,criterion_report_item_with_number_of_instances}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.criterion_report_item_with_value,criterion_report_item_with_value}}.
+  - content: A **data_equivalence_inspection_criterion_report_item** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      and an abstract supertype of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.criterion_report_item_with_number_of_instances,criterion_report_item_with_number_of_instances}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.criterion_report_item_with_value,criterion_report_item_with_value}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: product_data_equivalence_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_equivalence_inspection_criterion_report_item
+  - type: expression
+    normative_status: preferred
+    designation: data_equivalence_inspection_criterion_report_item
   domain: 'resource: product_data_equivalence_inspection_result_schema'
   language_code: eng
   annotations: []

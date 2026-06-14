@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interconnect_module_connection_routing_mim.direct_stratum_component_join_implementation
   localized_concepts:
     eng: 76bd8235-4b7b-55b3-8214-f7ea7e5b3ed5
   domains:
-    - concept_id: section-Interconnect_module_connection_routing_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
-      ref_type: section
+  - concept_id: section-Interconnect_module_connection_routing_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
+    ref_type: section
 id: Interconnect_module_connection_routing_mim.direct_stratum_component_join_implementation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the direct stratum component join implementation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim.shape_aspect_relationship,shape_aspect_relationship}}
+      that represents the direct stratum component join implementation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **direct_stratum_component_join_implementation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm.Direct_stratum_component_join_implementation,Direct_stratum_component_join_implementation}}.
+  - content: A **direct_stratum_component_join_implementation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm.Direct_stratum_component_join_implementation,Direct_stratum_component_join_implementation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
-          version: '2'
-      type: authoritative
-      id: Interconnect_module_connection_routing_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: direct_stratum_component_join_implementation
+  - type: expression
+    normative_status: preferred
+    designation: direct_stratum_component_join_implementation
   domain: 'application module: Interconnect_module_connection_routing_mim'
   language_code: eng
   annotations: []

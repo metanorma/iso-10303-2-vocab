@@ -1,29 +1,31 @@
+---
 data:
   identifier: Requirement_decomposition_arm.Predefined_requirement_view_definition
   localized_concepts:
     eng: cfe89a52-97bb-5d16-8122-c232ab4cc5a2
   domains:
-    - concept_id: section-Requirement_decomposition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
-      ref_type: section
+  - concept_id: section-Requirement_decomposition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+    ref_type: section
 id: Requirement_decomposition_arm.Predefined_requirement_view_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} that represents the predefined requirement view definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Requirement_view_definition,Requirement_view_definition}}
+      that represents the predefined requirement view definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
-          version: '4'
-      type: authoritative
-      id: Requirement_decomposition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Predefined_requirement_view_definition
+  - type: expression
+    normative_status: preferred
+    designation: Predefined_requirement_view_definition
   domain: 'application module: Requirement_decomposition_arm'
   language_code: eng
   annotations: []

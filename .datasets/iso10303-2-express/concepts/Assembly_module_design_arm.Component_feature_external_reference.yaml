@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_module_design_arm.Component_feature_external_reference
   localized_concepts:
     eng: 1b66703d-46be-5d2a-b180-c6d822749af6
   domains:
-    - concept_id: section-Assembly_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+    ref_type: section
 id: Assembly_module_design_arm.Component_feature_external_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component feature external reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component feature external reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_feature_external_reference** is an unambiguous reference to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}} in a different design.
+  - content: A **Component_feature_external_reference** is an unambiguous reference
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}}
+      in a different design.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_design_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_feature_external_reference
+  - type: expression
+    normative_status: preferred
+    designation: Component_feature_external_reference
   domain: 'application module: Assembly_module_design_arm'
   language_code: eng
   annotations: []

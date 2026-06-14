@@ -1,29 +1,31 @@
+---
 data:
   identifier: Issue_arm.Issue
   localized_concepts:
     eng: da06016e-cafd-5811-96aa-4a3bca909a07
   domains:
-    - concept_id: section-Issue_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
-      ref_type: section
+  - concept_id: section-Issue_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
+    ref_type: section
 id: Issue_arm.Issue
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation,Observation}} that represents the issue {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm.Observation,Observation}}
+      that represents the issue {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
-          version: '1'
-      type: authoritative
-      id: Issue_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Issue
+  - type: expression
+    normative_status: preferred
+    designation: Issue
   domain: 'application module: Issue_arm'
   language_code: eng
   annotations: []

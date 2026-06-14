@@ -1,30 +1,33 @@
+---
 data:
   identifier: Primitive_solids_arm.Tetrahedron
   localized_concepts:
     eng: c895b039-7b72-5c16-9d90-9b318804a85b
   domains:
-    - concept_id: section-Primitive_solids_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
-      ref_type: section
+  - concept_id: section-Primitive_solids_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+    ref_type: section
 id: Primitive_solids_arm.Tetrahedron
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the tetrahedron {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the tetrahedron {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tetrahedron** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} with 4 vertices and 4 triangular faces.
+  - content: A **Tetrahedron** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      with 4 vertices and 4 triangular faces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
-          version: '4'
-      type: authoritative
-      id: Primitive_solids_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Primitive_solids_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tetrahedron
+  - type: expression
+    normative_status: preferred
+    designation: Tetrahedron
   domain: 'application module: Primitive_solids_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: Curve_appearance_arm.Point_appearance
   localized_concepts:
     eng: 0cc81806-dafd-5704-9da4-526a8b6c9fd5
   domains:
-    - concept_id: section-Curve_appearance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
-      ref_type: section
+  - concept_id: section-Curve_appearance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+    ref_type: section
 id: Curve_appearance_arm.Point_appearance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the point appearance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the point appearance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Point_appearance** is the visual appearance of a point.
+  - content: A **Point_appearance** is the visual appearance of a point.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
-          version: '6'
-      type: authoritative
-      id: Curve_appearance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Point_appearance
+  - type: expression
+    normative_status: preferred
+    designation: Point_appearance
   domain: 'application module: Curve_appearance_arm'
   language_code: eng
   annotations: []

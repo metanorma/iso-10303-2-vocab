@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship
   localized_concepts:
     eng: 744c829c-5440-5569-bad6-ba799a695f27
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_data,inapt_data}} that represents the inapt topology and geometry relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_data,inapt_data}}
+      that represents the inapt topology and geometry relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **inapt_topology_and_geometry_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_data,inapt_data}} that is a supertype of criteria for detecting an inappropriate relationship between topology and geometry.
+  - content: An **inapt_topology_and_geometry_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_data,inapt_data}}
+      that is a supertype of criteria for detecting an inappropriate relationship
+      between topology and geometry.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: inapt_topology_and_geometry_relationship
+  - type: expression
+    normative_status: preferred
+    designation: inapt_topology_and_geometry_relationship
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

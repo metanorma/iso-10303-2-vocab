@@ -1,30 +1,32 @@
+---
 data:
   identifier: Elementary_function_arm.Numeric_defined_function
   localized_concepts:
     eng: 9d27ab5f-7874-53cf-8dfc-44e84a7ae40f
   domains:
-    - concept_id: section-Elementary_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-      ref_type: section
+  - concept_id: section-Elementary_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+    ref_type: section
 id: Elementary_function_arm.Numeric_defined_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the numeric defined function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the numeric defined function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Numeric_defined_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Numeric_expression,Numeric_expression}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Defined_function,Defined_function}}.
+  - content: A **Numeric_defined_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Numeric_expression,Numeric_expression}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Defined_function,Defined_function}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-          version: '2'
-      type: authoritative
-      id: Elementary_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Numeric_defined_function
+  - type: expression
+    normative_status: preferred
+    designation: Numeric_defined_function
   domain: 'application module: Elementary_function_arm'
   language_code: eng
   annotations: []

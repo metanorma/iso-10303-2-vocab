@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_organization_schema.camera_model_d2_shape_clipping
   localized_concepts:
     eng: 23efae9f-f11a-53ea-9204-6eae950e01ce
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.camera_model_d2_shape_clipping
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d2,camera_model_d2}} that represents the camera model d2 shape clipping {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d2,camera_model_d2}}
+      that represents the camera model d2 shape clipping {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **camera_model_d2_shape_clipping** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d2,camera_model_d2}} with additional clipping specified for the mapped representation.
+  - content: A **camera_model_d2_shape_clipping** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d2,camera_model_d2}}
+      with additional clipping specified for the mapped representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: camera_model_d2_shape_clipping
+  - type: expression
+    normative_status: preferred
+    designation: camera_model_d2_shape_clipping
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

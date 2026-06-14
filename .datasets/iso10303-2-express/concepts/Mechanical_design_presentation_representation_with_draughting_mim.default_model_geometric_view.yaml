@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mechanical_design_presentation_representation_with_draughting_mim.default_model_geometric_view
   localized_concepts:
     eng: 8bd10896-1e71-58ea-901b-3b0255e28940
   domains:
-    - concept_id: section-Mechanical_design_presentation_representation_with_draughting_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
-      ref_type: section
+  - concept_id: section-Mechanical_design_presentation_representation_with_draughting_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
+    ref_type: section
 id: Mechanical_design_presentation_representation_with_draughting_mim.default_model_geometric_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the default model geometric view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the default model geometric view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **default_model_geometric_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim.model_geometric_view,model_geometric_view}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_arm.Default_model_geometric_view,Default_model_geometric_view}}.
+  - content: A **default_model_geometric_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim.model_geometric_view,model_geometric_view}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_arm.Default_model_geometric_view,Default_model_geometric_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
-          version: '5'
-      type: authoritative
-      id: Mechanical_design_presentation_representation_with_draughting_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: default_model_geometric_view
+  - type: expression
+    normative_status: preferred
+    designation: default_model_geometric_view
   domain: 'application module: Mechanical_design_presentation_representation_with_draughting_mim'
   language_code: eng
   annotations: []

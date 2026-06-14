@@ -1,29 +1,31 @@
+---
 data:
   identifier: Text_appearance_arm.Text_literal_with_blanking_box
   localized_concepts:
     eng: a376cacb-dfb9-5e1c-b0e8-7ff48ddbcf8a
   domains:
-    - concept_id: section-Text_appearance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm
-      ref_type: section
+  - concept_id: section-Text_appearance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm
+    ref_type: section
 id: Text_appearance_arm.Text_literal_with_blanking_box
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm.Text_literal,Text_literal}} that represents the text literal with blanking box {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm.Text_literal,Text_literal}}
+      that represents the text literal with blanking box {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm
-          version: '4'
-      type: authoritative
-      id: Text_appearance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_appearance_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Text_literal_with_blanking_box
+  - type: expression
+    normative_status: preferred
+    designation: Text_literal_with_blanking_box
   domain: 'application module: Text_appearance_arm'
   language_code: eng
   annotations: []

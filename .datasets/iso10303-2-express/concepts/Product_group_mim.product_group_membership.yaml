@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_group_mim.product_group_membership
   localized_concepts:
     eng: 68ec0323-7017-5dc0-a040-25497298cafa
   domains:
-    - concept_id: section-Product_group_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
-      ref_type: section
+  - concept_id: section-Product_group_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+    ref_type: section
 id: Product_group_mim.product_group_membership
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product group membership {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product group membership {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_group_membership** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies that an instance of an entity defined in the type {{product_select,product_select}} belongs to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim.product_group,product_group}}.
+  - content: A **product_group_membership** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that identifies that an instance of an entity defined in the type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim.product_select,product_select}}
+      belongs to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim.product_group,product_group}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
-          version: '3'
-      type: authoritative
-      id: Product_group_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_group_membership
+  - type: expression
+    normative_status: preferred
+    designation: product_group_membership
   domain: 'application module: Product_group_mim'
   language_code: eng
   annotations: []

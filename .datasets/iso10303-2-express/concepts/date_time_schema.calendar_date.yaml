@@ -1,30 +1,33 @@
+---
 data:
   identifier: date_time_schema.calendar_date
   localized_concepts:
     eng: 623559fa-0b87-5648-bd76-b96e610c3d53
   domains:
-    - concept_id: section-date_time_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-      ref_type: section
+  - concept_id: section-date_time_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+    ref_type: section
 id: date_time_schema.calendar_date
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} that represents the calendar date {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}}
+      that represents the calendar date {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **calendar_date** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} defined as a day in a month of a year as defined in ISO 8601-1.
+  - content: A **calendar_date** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}}
+      defined as a day in a month of a year as defined in ISO 8601-1.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-          version: '8'
-      type: authoritative
-      id: date_time_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: calendar_date
+  - type: expression
+    normative_status: preferred
+    designation: calendar_date
   domain: 'resource: date_time_schema'
   language_code: eng
   annotations: []

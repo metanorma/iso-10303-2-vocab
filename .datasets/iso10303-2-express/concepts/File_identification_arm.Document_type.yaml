@@ -1,30 +1,31 @@
+---
 data:
   identifier: File_identification_arm.Document_type
   localized_concepts:
     eng: 3d3c3ccd-93a4-5504-91ff-453457462cdd
   domains:
-    - concept_id: section-File_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
-      ref_type: section
+  - concept_id: section-File_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
+    ref_type: section
 id: File_identification_arm.Document_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the document type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Document_type** is the kind of data that are contained in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}}.
+  - content: A **Document_type** is the kind of data that are contained in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm.File,File}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
-          version: '4'
-      type: authoritative
-      id: File_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Document_type
+  - type: expression
+    normative_status: preferred
+    designation: Document_type
   domain: 'application module: File_identification_arm'
   language_code: eng
   annotations: []

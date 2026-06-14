@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.shape_inspection_result_representation_with_accuracy
   localized_concepts:
     eng: 2b3f545a-b0a0-548b-8b9f-b447b274b48d
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.shape_inspection_result_representation_with_accuracy
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation,shape_data_quality_inspection_result_representation}} that represents the shape inspection result representation with accuracy {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation,shape_data_quality_inspection_result_representation}}
+      that represents the shape inspection result representation with accuracy {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_inspection_result_representation_with_accuracy** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation,shape_data_quality_inspection_result_representation}} and has the information of common accuracy applied to all the measurements.
+  - content: A **shape_inspection_result_representation_with_accuracy** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result_representation,shape_data_quality_inspection_result_representation}}
+      and has the information of common accuracy applied to all the measurements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_inspection_result_representation_with_accuracy
+  - type: expression
+    normative_status: preferred
+    designation: shape_inspection_result_representation_with_accuracy
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

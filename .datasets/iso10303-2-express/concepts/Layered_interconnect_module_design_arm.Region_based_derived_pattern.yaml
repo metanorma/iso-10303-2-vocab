@@ -1,30 +1,32 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Region_based_derived_pattern
   localized_concepts:
     eng: 27bb87b6-3f04-5c32-8ab8-2bbfc34f9fd1
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Region_based_derived_pattern
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the region based derived pattern {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the region based derived pattern {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Region_based_derived_pattern** is an extent of contiguous strata in a pcb.
+  - content: A **Region_based_derived_pattern** is an extent of contiguous strata
+      in a pcb.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Region_based_derived_pattern
+  - type: expression
+    normative_status: preferred
+    designation: Region_based_derived_pattern
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

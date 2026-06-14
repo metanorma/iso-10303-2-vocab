@@ -1,30 +1,32 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Fe_analysis
   localized_concepts:
     eng: c7a3fb56-7b9a-535a-88bd-acf2e842a5a9
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Fe_analysis
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fe analysis {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fe analysis {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Fe_analysis** is an analysis that describes the operations carried out upon the finite element model as a series of analysis steps.
+  - content: An **Fe_analysis** is an analysis that describes the operations carried
+      out upon the finite element model as a series of analysis steps.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Fe_analysis
+  - type: expression
+    normative_status: preferred
+    designation: Fe_analysis
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

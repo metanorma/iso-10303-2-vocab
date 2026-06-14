@@ -1,29 +1,31 @@
+---
 data:
   identifier: Numerical_interface_arm.Variable_expression
   localized_concepts:
     eng: dba59a20-0f76-56c3-93bb-8da313d31500
   domains:
-    - concept_id: section-Numerical_interface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_arm
-      ref_type: section
+  - concept_id: section-Numerical_interface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_arm
+    ref_type: section
 id: Numerical_interface_arm.Variable_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Variable_semantics,Variable_semantics}} that represents the variable expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_arm.Variable_semantics,Variable_semantics}}
+      that represents the variable expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_arm
-          version: '2'
-      type: authoritative
-      id: Numerical_interface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Variable_expression
+  - type: expression
+    normative_status: preferred
+    designation: Variable_expression
   domain: 'application module: Numerical_interface_arm'
   language_code: eng
   annotations: []

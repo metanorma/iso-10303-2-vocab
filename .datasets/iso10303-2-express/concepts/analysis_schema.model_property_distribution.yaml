@@ -1,30 +1,33 @@
+---
 data:
   identifier: analysis_schema.model_property_distribution
   localized_concepts:
     eng: d1fbb0f4-c977-5e2e-947e-f02839a97f26
   domains:
-    - concept_id: section-analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-      ref_type: section
+  - concept_id: section-analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+    ref_type: section
 id: analysis_schema.model_property_distribution
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the model property distribution {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the model property distribution {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_property_distribution,model_property_distribution}} is a function that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} and a property space as its range.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_property_distribution,model_property_distribution}}
+      is a function that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}}
+      and a property space as its range.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-          version: '1'
-      type: authoritative
-      id: analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: model_property_distribution
+  - type: expression
+    normative_status: preferred
+    designation: model_property_distribution
   domain: 'resource: analysis_schema'
   language_code: eng
   annotations: []

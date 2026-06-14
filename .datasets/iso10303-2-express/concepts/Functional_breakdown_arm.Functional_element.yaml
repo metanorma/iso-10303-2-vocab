@@ -1,30 +1,34 @@
+---
 data:
   identifier: Functional_breakdown_arm.Functional_element
   localized_concepts:
     eng: 8713e479-cd19-52dd-a541-03840f0dbfeb
   domains:
-    - concept_id: section-Functional_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
-      ref_type: section
+  - concept_id: section-Functional_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+    ref_type: section
 id: Functional_breakdown_arm.Functional_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}} that represents the functional element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Breakdown_element,Breakdown_element}}
+      that represents the functional element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Functional_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}} that identifies the elements in one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_breakdown,Functional_breakdown}} objects.
+  - content: A **Functional_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}}
+      that identifies the elements in one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_breakdown,Functional_breakdown}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
-          version: '2'
-      type: authoritative
-      id: Functional_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_element
+  - type: expression
+    normative_status: preferred
+    designation: Functional_element
   domain: 'application module: Functional_breakdown_arm'
   language_code: eng
   annotations: []

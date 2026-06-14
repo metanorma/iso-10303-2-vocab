@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_property_representation_schema.item_identified_representation_usage
   localized_concepts:
     eng: 8de5f227-e868-5c18-8d1c-a516324b03f6
   domains:
-    - concept_id: section-product_property_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
-      ref_type: section
+  - concept_id: section-product_property_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+    ref_type: section
 id: product_property_representation_schema.item_identified_representation_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the item identified representation usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the item identified representation usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **item_identified_representation_usage** is an identification of a single or a set or a list of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}(s) within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} as being the element(s) that describes a particular component or part of the property that is described by the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  - content: An **item_identified_representation_usage** is an identification of a
+      single or a set or a list of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}(s)
+      within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      as being the element(s) that describes a particular component or part of the
+      property that is described by the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
-          version: '10'
-      type: authoritative
-      id: product_property_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: item_identified_representation_usage
+  - type: expression
+    normative_status: preferred
+    designation: item_identified_representation_usage
   domain: 'resource: product_property_representation_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: mathematical_functions_schema.free_variable_semantics
   localized_concepts:
     eng: 7daeaae7-6474-58b3-9aec-af4afa59847c
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.free_variable_semantics
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} that represents the free variable semantics {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.variable_semantics,variable_semantics}}
+      that represents the free variable semantics {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} indicates that a variable has no further semantics beyond what is implied by its use in an expression.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}}
+      indicates that a variable has no further semantics beyond what is implied by
+      its use in an expression.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: free_variable_semantics
+  - type: expression
+    normative_status: preferred
+    designation: free_variable_semantics
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

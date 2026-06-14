@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_arm.Analytical_model
   localized_concepts:
     eng: 20178400-112b-558e-ba8e-d16606140806
   domains:
-    - concept_id: section-Analytical_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-      ref_type: section
+  - concept_id: section-Analytical_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+    ref_type: section
 id: Analytical_model_arm.Analytical_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_product,Information_product}} that represents the analytical model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Information_product,Information_product}}
+      that represents the analytical model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Analytical_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_product,Information_product}} that is a mathematical description of the properties of a system.
+  - content: An **Analytical_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_product,Information_product}}
+      that is a mathematical description of the properties of a system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-          version: '5'
-      type: authoritative
-      id: Analytical_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Analytical_model
+  - type: expression
+    normative_status: preferred
+    designation: Analytical_model
   domain: 'application module: Analytical_model_arm'
   language_code: eng
   annotations: []

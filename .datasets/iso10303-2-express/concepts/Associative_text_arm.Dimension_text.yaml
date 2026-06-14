@@ -1,29 +1,31 @@
+---
 data:
   identifier: Associative_text_arm.Dimension_text
   localized_concepts:
     eng: f9f2d660-b832-5175-a980-119de2807f0c
   domains:
-    - concept_id: section-Associative_text_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
-      ref_type: section
+  - concept_id: section-Associative_text_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+    ref_type: section
 id: Associative_text_arm.Dimension_text
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_text_occurrence,Annotation_text_occurrence}} that represents the dimension text {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_text_occurrence,Annotation_text_occurrence}}
+      that represents the dimension text {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
-          version: '4'
-      type: authoritative
-      id: Associative_text_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dimension_text
+  - type: expression
+    normative_status: preferred
+    designation: Dimension_text
   domain: 'application module: Associative_text_arm'
   language_code: eng
   annotations: []

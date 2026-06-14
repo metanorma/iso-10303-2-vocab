@@ -1,30 +1,32 @@
+---
 data:
   identifier: Work_output_arm.Work_output
   localized_concepts:
     eng: 9a4c0e9b-f5d2-5d61-87e5-35a6f2644bf3
   domains:
-    - concept_id: section-Work_output_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-      ref_type: section
+  - concept_id: section-Work_output_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+    ref_type: section
 id: Work_output_arm.Work_output
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work output {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the work output {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Work_output** is a statement of output resulting from an activity or a task.
+  - content: A **Work_output** is a statement of output resulting from an activity
+      or a task.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-          version: '1'
-      type: authoritative
-      id: Work_output_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Work_output
+  - type: expression
+    normative_status: preferred
+    designation: Work_output
   domain: 'application module: Work_output_arm'
   language_code: eng
   annotations: []

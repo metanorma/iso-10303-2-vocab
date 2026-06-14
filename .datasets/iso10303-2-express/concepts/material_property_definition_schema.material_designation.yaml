@@ -1,30 +1,32 @@
+---
 data:
   identifier: material_property_definition_schema.material_designation
   localized_concepts:
     eng: 7764cbec-00f1-5cf8-a4d4-5f7a085562f1
   domains:
-    - concept_id: section-material_property_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-      ref_type: section
+  - concept_id: section-material_property_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+    ref_type: section
 id: material_property_definition_schema.material_designation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the material designation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the material designation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **material_designation** is the association of a material designation with a product or a part of a product or with an unrealised product.
+  - content: A **material_designation** is the association of a material designation
+      with a product or a part of a product or with an unrealised product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-          version: '4'
-      type: authoritative
-      id: material_property_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: material_designation
+  - type: expression
+    normative_status: preferred
+    designation: material_designation
   domain: 'resource: material_property_definition_schema'
   language_code: eng
   annotations: []

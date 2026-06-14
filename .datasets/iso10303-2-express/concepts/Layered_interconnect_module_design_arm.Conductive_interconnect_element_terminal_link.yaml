@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal_link
   localized_concepts:
     eng: cd2f32d8-eaae-5324-8d12-cbaff81f710c
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal_link
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the conductive interconnect element terminal link {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the conductive interconnect element terminal link
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Conductive_interconnect_element_terminal_link** is a directed link between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}} in order to support the sequence of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}} required in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_with_pre_defined_transitions,Conductive_interconnect_element_with_pre_defined_transitions}}.
+  - content: A **Conductive_interconnect_element_terminal_link** is a directed link
+      between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}}
+      in order to support the sequence of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_terminal,Conductive_interconnect_element_terminal}}
+      required in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_interconnect_element_with_pre_defined_transitions,Conductive_interconnect_element_with_pre_defined_transitions}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Conductive_interconnect_element_terminal_link
+  - type: expression
+    normative_status: preferred
+    designation: Conductive_interconnect_element_terminal_link
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

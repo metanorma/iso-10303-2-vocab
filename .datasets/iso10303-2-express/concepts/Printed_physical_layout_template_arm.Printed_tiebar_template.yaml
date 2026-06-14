@@ -1,30 +1,34 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Printed_tiebar_template
   localized_concepts:
     eng: 0df3c302-124a-5dc7-9c58-d402f171d1d7
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Printed_tiebar_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Structured_printed_part_template,Structured_printed_part_template}} that represents the printed tiebar template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Structured_printed_part_template,Structured_printed_part_template}}
+      that represents the printed tiebar template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Printed_tiebar_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Structured_printed_part_template,Structured_printed_part_template}} included to support an implementation of a connection between otherwise disjoint networks in a layout.
+  - content: A **Printed_tiebar_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Structured_printed_part_template,Structured_printed_part_template}}
+      included to support an implementation of a connection between otherwise disjoint
+      networks in a layout.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Printed_tiebar_template
+  - type: expression
+    normative_status: preferred
+    designation: Printed_tiebar_template
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []

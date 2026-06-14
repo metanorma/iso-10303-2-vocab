@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.nearly_degenerate_surface_patch
   localized_concepts:
     eng: 550d7104-c5d0-5f88-8c97-723062491b3c
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.nearly_degenerate_surface_patch
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometry_with_local_near_degeneracy,geometry_with_local_near_degeneracy}} that represents the nearly degenerate surface patch {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometry_with_local_near_degeneracy,geometry_with_local_near_degeneracy}}
+      that represents the nearly degenerate surface patch {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: nearly_degenerate_surface_patch
+  - type: expression
+    normative_status: preferred
+    designation: nearly_degenerate_surface_patch
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

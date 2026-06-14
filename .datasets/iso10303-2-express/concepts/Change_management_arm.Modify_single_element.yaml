@@ -1,30 +1,33 @@
+---
 data:
   identifier: Change_management_arm.Modify_single_element
   localized_concepts:
     eng: 9ec19b7d-62af-5ced-a2c6-c98efac5fda9
   domains:
-    - concept_id: section-Change_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
-      ref_type: section
+  - concept_id: section-Change_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+    ref_type: section
 id: Change_management_arm.Modify_single_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}} that represents the modify single element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}}
+      that represents the modify single element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Modify_single_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}} that identifies an object that has been modified.
+  - content: A **Modify_single_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change_element,Change_element}}
+      that identifies an object that has been modified.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
-          version: '3'
-      type: authoritative
-      id: Change_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Modify_single_element
+  - type: expression
+    normative_status: preferred
+    designation: Modify_single_element
   domain: 'application module: Change_management_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Spherical_cap
   localized_concepts:
     eng: 1eda9285-16d0-5a5e-a401-e08d82900000
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Spherical_cap
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that represents the spherical cap {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that represents the spherical cap {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Spherical_cap** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that is circular about an axis of rotation.
+  - content: A **Spherical_cap** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that is circular about an axis of rotation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Spherical_cap
+  - type: expression
+    normative_status: preferred
+    designation: Spherical_cap
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

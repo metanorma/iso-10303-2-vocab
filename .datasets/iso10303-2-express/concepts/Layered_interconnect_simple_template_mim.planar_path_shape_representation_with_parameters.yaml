@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.planar_path_shape_representation_with_parameters
   localized_concepts:
     eng: 89092cbd-92f3-5039-b306-b7768a1dc9fd
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.planar_path_shape_representation_with_parameters
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim.single_area_csg_2d_shape_representation,single_area_csg_2d_shape_representation}} that represents the planar path shape representation with parameters {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.single_area_csg_2d_shape_representation,single_area_csg_2d_shape_representation}}
+      that represents the planar path shape representation with parameters {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: planar_path_shape_representation_with_parameters
+  - type: expression
+    normative_status: preferred
+    designation: planar_path_shape_representation_with_parameters
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

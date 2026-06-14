@@ -1,29 +1,31 @@
+---
 data:
   identifier: date_time_schema.time_interval_with_bounds
   localized_concepts:
     eng: 27a9cca6-9a58-5041-a980-d2f1aeaeba49
   domains:
-    - concept_id: section-date_time_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-      ref_type: section
+  - concept_id: section-date_time_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+    ref_type: section
 id: date_time_schema.time_interval_with_bounds
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.time_interval,time_interval}} that represents the time interval with bounds {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.time_interval,time_interval}}
+      that represents the time interval with bounds {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-          version: '8'
-      type: authoritative
-      id: date_time_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: time_interval_with_bounds
+  - type: expression
+    normative_status: preferred
+    designation: time_interval_with_bounds
   domain: 'resource: date_time_schema'
   language_code: eng
   annotations: []

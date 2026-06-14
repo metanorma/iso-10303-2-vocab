@@ -1,30 +1,32 @@
+---
 data:
   identifier: Finite_elements_arm.Element_shape_aspect
   localized_concepts:
     eng: f7e75f17-08df-5335-9c50-23d6b9b19054
   domains:
-    - concept_id: section-Finite_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-      ref_type: section
+  - concept_id: section-Finite_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+    ref_type: section
 id: Finite_elements_arm.Element_shape_aspect
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element shape aspect {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the element shape aspect {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Element_shape_aspect** is an aspect of a finite element, such as an element edge, face, or volume.
+  - content: An **Element_shape_aspect** is an aspect of a finite element, such as
+      an element edge, face, or volume.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-          version: '2'
-      type: authoritative
-      id: Finite_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Element_shape_aspect
+  - type: expression
+    normative_status: preferred
+    designation: Element_shape_aspect
   domain: 'application module: Finite_elements_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.curve_2d_element_coordinate_system
   localized_concepts:
     eng: 1d77a354-ba94-597e-90f5-aa6ee3d054fd
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.curve_2d_element_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}} that represents the curve 2d element coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}}
+      that represents the curve 2d element coordinate system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_2d_element_coordinate_system,curve_2d_element_coordinate_system}} is an orthogonal coordinate system for a curve 2D element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_2d_element_coordinate_system,curve_2d_element_coordinate_system}}
+      is an orthogonal coordinate system for a curve 2D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_2d_element_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: curve_2d_element_coordinate_system
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

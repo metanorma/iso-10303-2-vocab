@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_class_mim.package_product_concept_feature
   localized_concepts:
     eng: 935756b3-5ad2-5599-9a0e-5bfc93ef7cde
   domains:
-    - concept_id: section-Product_class_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-      ref_type: section
+  - concept_id: section-Product_class_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+    ref_type: section
 id: Product_class_mim.package_product_concept_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} that represents the package product concept feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim.product_concept_feature,product_concept_feature}}
+      that represents the package product concept feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **package_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} that is a collection of product features that shall be offered to the market as a set.
+  - content: A **package_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      that is a collection of product features that shall be offered to the market
+      as a set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-          version: '6'
-      type: authoritative
-      id: Product_class_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: package_product_concept_feature
+  - type: expression
+    normative_status: preferred
+    designation: package_product_concept_feature
   domain: 'application module: Product_class_mim'
   language_code: eng
   annotations: []

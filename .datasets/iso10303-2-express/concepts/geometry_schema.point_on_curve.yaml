@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometry_schema.point_on_curve
   localized_concepts:
     eng: e56987e5-bc76-58ab-816a-7ded3877a8a5
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.point_on_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}} that represents the point on curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}}
+      that represents the point on curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **point_on_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}} which lies on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.curve,curve}}.
+  - content: A **point_on_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point,point}}
+      which lies on a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.curve,curve}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_on_curve
+  - type: expression
+    normative_status: preferred
+    designation: point_on_curve
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

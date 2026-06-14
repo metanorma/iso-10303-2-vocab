@@ -1,30 +1,33 @@
+---
 data:
   identifier: Via_component_arm.Non_conductive_base_blind_via
   localized_concepts:
     eng: 01d5f650-aa9e-5c02-8858-221631343914
   domains:
-    - concept_id: section-Via_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
-      ref_type: section
+  - concept_id: section-Via_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
+    ref_type: section
 id: Via_component_arm.Non_conductive_base_blind_via
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} that represents the non conductive base blind via {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      that represents the non conductive base blind via {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Non_conductive_base_blind_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} with a floor whose material is non-conductive.
+  - content: A **Non_conductive_base_blind_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      with a floor whose material is non-conductive.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
-          version: '2'
-      type: authoritative
-      id: Via_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Non_conductive_base_blind_via
+  - type: expression
+    normative_status: preferred
+    designation: Non_conductive_base_blind_via
   domain: 'application module: Via_component_arm'
   language_code: eng
   annotations: []

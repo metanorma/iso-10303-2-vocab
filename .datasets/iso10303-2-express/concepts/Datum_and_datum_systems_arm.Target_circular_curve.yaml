@@ -1,30 +1,34 @@
+---
 data:
   identifier: Datum_and_datum_systems_arm.Target_circular_curve
   localized_concepts:
     eng: 55d0a2cb-ce7e-5c91-9305-ed126892424f
   domains:
-    - concept_id: section-Datum_and_datum_systems_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+    ref_type: section
 id: Datum_and_datum_systems_arm.Target_circular_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}} that represents the target circular curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}}
+      that represents the target circular curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Target_circular_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}} that specifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_target,Datum_target}} that is defined by an implicit circular curve.
+  - content: A **Target_circular_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Placed_target,Placed_target}}
+      that specifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_target,Datum_target}}
+      that is defined by an implicit circular curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Target_circular_curve
+  - type: expression
+    normative_status: preferred
+    designation: Target_circular_curve
   domain: 'application module: Datum_and_datum_systems_arm'
   language_code: eng
   annotations: []

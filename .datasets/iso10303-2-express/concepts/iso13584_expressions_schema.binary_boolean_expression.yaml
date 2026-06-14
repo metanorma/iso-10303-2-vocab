@@ -1,30 +1,32 @@
+---
 data:
   identifier: iso13584_expressions_schema.binary_boolean_expression
   localized_concepts:
     eng: f0176613-cff2-5325-b045-9fb125155866
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.binary_boolean_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the binary boolean expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the binary boolean expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *binary_boolean_expression* is a binary operator of which the range is the BOOLEAN data type defined in ISO 10303-11.
+  - content: A *binary_boolean_expression* is a binary operator of which the range
+      is the BOOLEAN data type defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: binary_boolean_expression
+  - type: expression
+    normative_status: preferred
+    designation: binary_boolean_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

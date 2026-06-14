@@ -1,30 +1,32 @@
+---
 data:
   identifier: Machining_features_arm.Through_bottom_condition
   localized_concepts:
     eng: 44e8129b-0db3-54ad-ae94-8896cc968fd0
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Through_bottom_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the through bottom condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the through bottom condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Through_bottom_condition** is a selection type of {{hole_bottom_condition_select,hole_bottom_condition_select}} that shall pass through two faces of a part; the depth is specified by the feature.
+  - content: A **Through_bottom_condition** is a selection type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.hole_bottom_condition_select,hole_bottom_condition_select}}
+      that shall pass through two faces of a part; the depth is specified by the feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Through_bottom_condition
+  - type: expression
+    normative_status: preferred
+    designation: Through_bottom_condition
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

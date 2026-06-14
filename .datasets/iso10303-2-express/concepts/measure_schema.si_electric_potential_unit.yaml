@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.si_electric_potential_unit
   localized_concepts:
     eng: c0fcbbd8-21fb-5fca-b2aa-cc83c02394cb
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.si_electric_potential_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the si electric potential unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the si electric potential unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **si_electric_potential_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.electric_potential_unit,electric_potential_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}} in which the electric potential is expressed in SI units.
+  - content: A **si_electric_potential_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.electric_potential_unit,electric_potential_unit}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}}
+      in which the electric potential is expressed in SI units.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: si_electric_potential_unit
+  - type: expression
+    normative_status: preferred
+    designation: si_electric_potential_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.fea_curve_section_geometric_relationship
   localized_concepts:
     eng: 82468887-f7d8-5beb-8028-b80b95bea938
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.fea_curve_section_geometric_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea curve section geometric relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fea curve section geometric relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_curve_section_geometric_relationship,fea_curve_section_geometric_relationship}} is the association of a curve section definition to a geometric shape representation item.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_curve_section_geometric_relationship,fea_curve_section_geometric_relationship}}
+      is the association of a curve section definition to a geometric shape representation
+      item.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fea_curve_section_geometric_relationship
+  - type: expression
+    normative_status: preferred
+    designation: fea_curve_section_geometric_relationship
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

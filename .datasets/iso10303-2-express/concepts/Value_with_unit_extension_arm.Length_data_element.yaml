@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_extension_arm.Length_data_element
   localized_concepts:
     eng: 647d34e3-6e05-5538-8926-9f446daaf0f4
   domains:
-    - concept_id: section-Value_with_unit_extension_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_extension_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+    ref_type: section
 id: Value_with_unit_extension_arm.Length_data_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the length data element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Value_with_unit,Value_with_unit}}
+      that represents the length data element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Length_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} where the measurement is of distance.
+  - content: A **Length_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}}
+      where the measurement is of distance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_extension_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Length_data_element
+  - type: expression
+    normative_status: preferred
+    designation: Length_data_element
   domain: 'application module: Value_with_unit_extension_arm'
   language_code: eng
   annotations: []

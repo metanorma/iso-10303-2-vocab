@@ -1,30 +1,33 @@
+---
 data:
   identifier: Risk_definition_mim.risk_event
   localized_concepts:
     eng: df0c6a36-7470-555e-92e6-325c0c0b41f1
   domains:
-    - concept_id: section-Risk_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_mim
-      ref_type: section
+  - concept_id: section-Risk_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_mim
+    ref_type: section
 id: Risk_definition_mim.risk_event
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}} that represents the risk event {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_mim.applied_action_method_assignment,applied_action_method_assignment}}
+      that represents the risk event {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **risk_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}} that identifies the type of event (action method) that is related to the risk.
+  - content: A **risk_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}}
+      that identifies the type of event (action method) that is related to the risk.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_mim
-          version: '3'
-      type: authoritative
-      id: Risk_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: risk_event
+  - type: expression
+    normative_status: preferred
+    designation: risk_event
   domain: 'application module: Risk_definition_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Interconnect_module_connection_routing_arm.Direct_stratum_component_join_implementation
   localized_concepts:
     eng: 4df50113-ed0f-5c4a-a072-7a0e3eaedc13
   domains:
-    - concept_id: section-Interconnect_module_connection_routing_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_connection_routing_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+    ref_type: section
 id: Interconnect_module_connection_routing_arm.Direct_stratum_component_join_implementation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the direct stratum component join implementation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the direct stratum component join implementation
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Direct_stratum_component_join_implementation** is a means to implement a connection between a feature on a stratum and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}}, where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}} and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}} are in intimate physical contact.
+  - content: A **Direct_stratum_component_join_implementation** is a means to implement
+      a connection between a feature on a stratum and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}},
+      where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum,Stratum}}
+      and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}}
+      are in intimate physical contact.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
-          version: '2'
-      type: authoritative
-      id: Interconnect_module_connection_routing_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Direct_stratum_component_join_implementation
+  - type: expression
+    normative_status: preferred
+    designation: Direct_stratum_component_join_implementation
   domain: 'application module: Interconnect_module_connection_routing_arm'
   language_code: eng
   annotations: []

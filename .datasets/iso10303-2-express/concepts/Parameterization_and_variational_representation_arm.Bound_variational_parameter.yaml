@@ -1,30 +1,37 @@
+---
 data:
   identifier: Parameterization_and_variational_representation_arm.Bound_variational_parameter
   localized_concepts:
     eng: 1d3d4a54-687e-5333-8dd6-97637ebb2130
   domains:
-    - concept_id: section-Parameterization_and_variational_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-      ref_type: section
+  - concept_id: section-Parameterization_and_variational_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+    ref_type: section
 id: Parameterization_and_variational_representation_arm.Bound_variational_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bound variational parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bound variational parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bound_variational_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Maths_variable,Maths_variable}} whose instances can be bound to (associated with) explicit attributes of entity instances participating in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation,Variational_representation}} The current value of any instance of bound model parameter is indeterminate during an exchange, but is required by an informal proposition to be set equal in the receiving system to the value of the attribute to which it is bound.
+  - content: A **Bound_variational_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Maths_variable,Maths_variable}}
+      whose instances can be bound to (associated with) explicit attributes of entity
+      instances participating in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation,Variational_representation}}
+      The current value of any instance of bound model parameter is indeterminate
+      during an exchange, but is required by an informal proposition to be set equal
+      in the receiving system to the value of the attribute to which it is bound.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-          version: '3'
-      type: authoritative
-      id: Parameterization_and_variational_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bound_variational_parameter
+  - type: expression
+    normative_status: preferred
+    designation: Bound_variational_parameter
   domain: 'application module: Parameterization_and_variational_representation_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: General_design_connectivity_mim.contact_feature
   localized_concepts:
     eng: 50ea8ebe-8146-5d01-9f02-7f13edbc6395
   domains:
-    - concept_id: section-General_design_connectivity_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
-      ref_type: section
+  - concept_id: section-General_design_connectivity_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+    ref_type: section
 id: General_design_connectivity_mim.contact_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the contact feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim.shape_aspect,shape_aspect}}
+      that represents the contact feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **contact_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_contact_feature,Occurrence_contact_feature}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_contact_feature,Part_contact_feature}}.
+  - content: A **contact_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements parts of the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_contact_feature,Occurrence_contact_feature}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Part_contact_feature,Part_contact_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
-          version: '4'
-      type: authoritative
-      id: General_design_connectivity_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: contact_feature
+  - type: expression
+    normative_status: preferred
+    designation: contact_feature
   domain: 'application module: General_design_connectivity_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Pmi_data_quality_mim.pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets
   localized_concepts:
     eng: 25c2b295-8938-5791-9933-dd9b5b8116dd
   domains:
-    - concept_id: section-Pmi_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+    ref_type: section
 id: Pmi_data_quality_mim.pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the pmidq length measure for incorrect spatial arrangement of datum targets {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the pmidq length measure for incorrect spatial arrangement of
+      datum targets {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{allowance,allowance}} for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.incorrect_spatial_arrangement_of_datum_targets,incorrect_spatial_arrangement_of_datum_targets}}.
+  - content: A **pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.incorrect_spatial_arrangement_of_datum_targets.allowance,allowance}}
+      for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.incorrect_spatial_arrangement_of_datum_targets,incorrect_spatial_arrangement_of_datum_targets}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets
+  - type: expression
+    normative_status: preferred
+    designation: pmidq_length_measure_for_incorrect_spatial_arrangement_of_datum_targets
   domain: 'application module: Pmi_data_quality_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Property_as_definition_arm.Single_property_is_definition
   localized_concepts:
     eng: bb17df5a-0aa5-5268-a027-cb9c2f1f747a
   domains:
-    - concept_id: section-Property_as_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_arm
-      ref_type: section
+  - concept_id: section-Property_as_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_arm
+    ref_type: section
 id: Property_as_definition_arm.Single_property_is_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that represents the single property is definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_arm.Assigned_property,Assigned_property}}
+      that represents the single property is definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Single_property_is_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that identifies this property as being the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} itself.
+  - content: A **Single_property_is_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}}
+      that identifies this property as being the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      itself.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_arm
-          version: '2'
-      type: authoritative
-      id: Property_as_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Single_property_is_definition
+  - type: expression
+    normative_status: preferred
+    designation: Single_property_is_definition
   domain: 'application module: Property_as_definition_arm'
   language_code: eng
   annotations: []

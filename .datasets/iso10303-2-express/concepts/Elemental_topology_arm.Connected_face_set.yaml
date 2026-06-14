@@ -1,30 +1,34 @@
+---
 data:
   identifier: Elemental_topology_arm.Connected_face_set
   localized_concepts:
     eng: 8f13795b-be8d-50bb-9f05-36eba58c0144
   domains:
-    - concept_id: section-Elemental_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-      ref_type: section
+  - concept_id: section-Elemental_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+    ref_type: section
 id: Elemental_topology_arm.Connected_face_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the connected face set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}}
+      that represents the connected face set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Connected_face_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that is a set of faces such that the domain of the faces together with their bounding edges and vertices is connected.
+  - content: A **Connected_face_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}}
+      that is a set of faces such that the domain of the faces together with their
+      bounding edges and vertices is connected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-          version: '7'
-      type: authoritative
-      id: Elemental_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Connected_face_set
+  - type: expression
+    normative_status: preferred
+    designation: Connected_face_set
   domain: 'application module: Elemental_topology_arm'
   language_code: eng
   annotations: []

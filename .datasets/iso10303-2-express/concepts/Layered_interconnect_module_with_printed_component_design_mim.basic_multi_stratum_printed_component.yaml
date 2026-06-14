@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_with_printed_component_design_mim.basic_multi_stratum_printed_component
   localized_concepts:
     eng: cc1a7de4-ddb1-575f-9f4b-540262e2fa05
   domains:
-    - concept_id: section-Layered_interconnect_module_with_printed_component_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_with_printed_component_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim
+    ref_type: section
 id: Layered_interconnect_module_with_printed_component_design_mim.basic_multi_stratum_printed_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}} that represents the basic multi stratum printed component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}}
+      that represents the basic multi stratum printed component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **basic_multi_stratum_printed_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_arm.Basic_multi_stratum_printed_component,Basic_multi_stratum_printed_component}}.
+  - content: A **basic_multi_stratum_printed_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim.printed_component,printed_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_arm.Basic_multi_stratum_printed_component,Basic_multi_stratum_printed_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_module_with_printed_component_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_with_printed_component_design_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: basic_multi_stratum_printed_component
+  - type: expression
+    normative_status: preferred
+    designation: basic_multi_stratum_printed_component
   domain: 'application module: Layered_interconnect_module_with_printed_component_design_mim'
   language_code: eng
   annotations: []

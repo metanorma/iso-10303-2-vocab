@@ -1,30 +1,34 @@
+---
 data:
   identifier: risk_schema.contained_evaluation
   localized_concepts:
     eng: d6b5da9e-88c1-5613-bdf9-bdf76bbea0a0
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.contained_evaluation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that represents the contained evaluation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that represents the contained evaluation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **contained_evaluation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_evaluation,risk_evaluation}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_assessment,risk_assessment}}.
+  - content: A **contained_evaluation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_evaluation,risk_evaluation}}
+      with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_assessment,risk_assessment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: contained_evaluation
+  - type: expression
+    normative_status: preferred
+    designation: contained_evaluation
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

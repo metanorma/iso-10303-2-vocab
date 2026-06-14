@@ -1,30 +1,34 @@
+---
 data:
   identifier: Ply_orientation_specification_arm.Cylindrical_11
   localized_concepts:
     eng: 3bd66869-515e-55ca-b318-6d7f9fa31db5
   domains:
-    - concept_id: section-Ply_orientation_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-      ref_type: section
+  - concept_id: section-Ply_orientation_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+    ref_type: section
 id: Ply_orientation_specification_arm.Cylindrical_11
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the cylindrical 11 {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the cylindrical 11 {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cylindrical_11** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies the orientation angle, commonly known as a Rosette, relative to a guide curve.
+  - content: A **Cylindrical_11** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that specifies the orientation angle, commonly known as a Rosette, relative
+      to a guide curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-          version: '5'
-      type: authoritative
-      id: Ply_orientation_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cylindrical_11
+  - type: expression
+    normative_status: preferred
+    designation: Cylindrical_11
   domain: 'application module: Ply_orientation_specification_arm'
   language_code: eng
   annotations: []

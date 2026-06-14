@@ -1,30 +1,33 @@
+---
 data:
   identifier: Electrical_network_definition_mim.electrical_network
   localized_concepts:
     eng: 79e939e6-f866-578e-a3cc-55b0fc39d7be
   domains:
-    - concept_id: section-Electrical_network_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_mim
-      ref_type: section
+  - concept_id: section-Electrical_network_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_mim
+    ref_type: section
 id: Electrical_network_definition_mim.electrical_network
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim.functional_unit,functional_unit}} that represents the electrical network {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_mim.functional_unit,functional_unit}}
+      that represents the electrical network {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **electrical_network** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim.functional_unit,functional_unit}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_arm.Electrical_network_definition,Electrical_network_definition}}.
+  - content: An **electrical_network** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_mim.functional_unit,functional_unit}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_arm.Electrical_network_definition,Electrical_network_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_mim
-          version: '1'
-      type: authoritative
-      id: Electrical_network_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Electrical_network_definition_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: electrical_network
+  - type: expression
+    normative_status: preferred
+    designation: electrical_network
   domain: 'application module: Electrical_network_definition_mim'
   language_code: eng
   annotations: []

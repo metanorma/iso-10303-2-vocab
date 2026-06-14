@@ -1,30 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.multiple_arity_function_call
   localized_concepts:
     eng: a1caa1d0-4275-58aa-b93f-8ad9a93ecfac
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.multiple_arity_function_call
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}} that represents the multiple arity function call {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}}
+      that represents the multiple arity function call {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *multiple_arity_function_call* is a multiple-arity operator on NUMBER data type defined in ISO 10303-11.
+  - content: A *multiple_arity_function_call* is a multiple-arity operator on NUMBER
+      data type defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: multiple_arity_function_call
+  - type: expression
+    normative_status: preferred
+    designation: multiple_arity_function_call
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

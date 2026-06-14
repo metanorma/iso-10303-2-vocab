@@ -1,30 +1,33 @@
+---
 data:
   identifier: management_resources_schema.effectivity_context_role
   localized_concepts:
     eng: 0cbdfe79-08ec-54f6-bf77-9de5a16ef1f5
   domains:
-    - concept_id: section-management_resources_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-      ref_type: section
+  - concept_id: section-management_resources_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+    ref_type: section
 id: management_resources_schema.effectivity_context_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the effectivity context role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the effectivity context role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **effectivity_context_role** is a specified purpose and the product data that is the context for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}} and a description of that purpose.
+  - content: An **effectivity_context_role** is a specified purpose and the product
+      data that is the context for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.effectivity_context_assignment,effectivity_context_assignment}}
+      and a description of that purpose.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-          version: '8'
-      type: authoritative
-      id: management_resources_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: effectivity_context_role
+  - type: expression
+    normative_status: preferred
+    designation: effectivity_context_role
   domain: 'resource: management_resources_schema'
   language_code: eng
   annotations: []

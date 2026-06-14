@@ -1,30 +1,34 @@
+---
 data:
   identifier: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_build_direction_element
   localized_concepts:
     eng: ad4d9464-a12b-523e-aee5-c62f00d9633c
   domains:
-    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
-      ref_type: section
+  - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+    ref_type: section
 id: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_build_direction_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_orientation_element,Additive_manufacturing_orientation_element}} that represents the additive manufacturing build direction element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_orientation_element,Additive_manufacturing_orientation_element}}
+      that represents the additive manufacturing build direction element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Additive_manufacturing_build_direction_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_orientation_element,Additive_manufacturing_orientation_element}} that defines the build orientation for processes employing planar layer addition of material.
+  - content: An **Additive_manufacturing_build_direction_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_orientation_element,Additive_manufacturing_orientation_element}}
+      that defines the build orientation for processes employing planar layer addition
+      of material.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
-          version: '2'
-      type: authoritative
-      id: Additive_manufacturing_part_and_build_information_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Additive_manufacturing_build_direction_element
+  - type: expression
+    normative_status: preferred
+    designation: Additive_manufacturing_build_direction_element
   domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
   language_code: eng
   annotations: []

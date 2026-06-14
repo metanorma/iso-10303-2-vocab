@@ -1,30 +1,36 @@
+---
 data:
   identifier: Shape_composition_arm.Composite_group_shape_element
   localized_concepts:
     eng: a782a6e8-00d2-5d18-b0a6-a7b2df0c2fd0
   domains:
-    - concept_id: section-Shape_composition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
-      ref_type: section
+  - concept_id: section-Shape_composition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
+    ref_type: section
 id: Shape_composition_arm.Composite_group_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}} that represents the composite group shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}}
+      that represents the composite group shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Composite_group_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}} in which the composite may be thought of as a group of individual {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} in which any property that is applied to the **Composite_group_shape_element** is applied to each of the constituent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}s on an individual basis.
+  - content: A **Composite_group_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm.Composite_shape_element,Composite_shape_element}}
+      in which the composite may be thought of as a group of individual {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}
+      in which any property that is applied to the **Composite_group_shape_element**
+      is applied to each of the constituent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}s
+      on an individual basis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
-          version: '2'
-      type: authoritative
-      id: Shape_composition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_composition_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Composite_group_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: Composite_group_shape_element
   domain: 'application module: Shape_composition_arm'
   language_code: eng
   annotations: []

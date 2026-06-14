@@ -1,30 +1,32 @@
+---
 data:
   identifier: Resource_management_arm.Resource_event
   localized_concepts:
     eng: beba0d62-03fe-55cf-a342-017e33f38fbd
   domains:
-    - concept_id: section-Resource_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
-      ref_type: section
+  - concept_id: section-Resource_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+    ref_type: section
 id: Resource_management_arm.Resource_event
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource event {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the resource event {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Resource_event** is an event or action that affects the balance or availability of a managed resource.
+  - content: A **Resource_event** is an event or action that affects the balance or
+      availability of a managed resource.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
-          version: '2'
-      type: authoritative
-      id: Resource_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Resource_event
+  - type: expression
+    normative_status: preferred
+    designation: Resource_event
   domain: 'application module: Resource_management_arm'
   language_code: eng
   annotations: []

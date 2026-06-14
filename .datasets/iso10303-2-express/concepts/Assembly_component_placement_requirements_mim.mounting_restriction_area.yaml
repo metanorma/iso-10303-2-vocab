@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_component_placement_requirements_mim.mounting_restriction_area
   localized_concepts:
     eng: f48139dc-5f9d-5071-a387-aec637e73b56
   domains:
-    - concept_id: section-Assembly_component_placement_requirements_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
-      ref_type: section
+  - concept_id: section-Assembly_component_placement_requirements_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+    ref_type: section
 id: Assembly_component_placement_requirements_mim.mounting_restriction_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the mounting restriction area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim.shape_aspect,shape_aspect}}
+      that represents the mounting restriction area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **mounting_restriction_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Mounting_restriction_area,Mounting_restriction_area}}.
+  - content: A **mounting_restriction_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Mounting_restriction_area,Mounting_restriction_area}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
-          version: '6'
-      type: authoritative
-      id: Assembly_component_placement_requirements_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mounting_restriction_area
+  - type: expression
+    normative_status: preferred
+    designation: mounting_restriction_area
   domain: 'application module: Assembly_component_placement_requirements_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Edge_based_topological_representation_with_length_constraint_mim.bounded_curve_with_length
   localized_concepts:
     eng: fe01d105-33de-57ad-aaef-fc1caae0065d
   domains:
-    - concept_id: section-Edge_based_topological_representation_with_length_constraint_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
-      ref_type: section
+  - concept_id: section-Edge_based_topological_representation_with_length_constraint_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+    ref_type: section
 id: Edge_based_topological_representation_with_length_constraint_mim.bounded_curve_with_length
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bounded curve with length {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bounded curve with length {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_curve,bounded_curve}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.clgc_with_dimension,clgc_with_dimension}} that is not bounded to specified coordinate values but is constrained to a specific {{length_value,length_value}}.
+  - content: A **bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_curve,bounded_curve}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.clgc_with_dimension,clgc_with_dimension}}
+      that is not bounded to specified coordinate values but is constrained to a specific
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.clgc_with_dimension.length_value,length_value}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
-          version: '4'
-      type: authoritative
-      id: Edge_based_topological_representation_with_length_constraint_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: bounded_curve_with_length
+  - type: expression
+    normative_status: preferred
+    designation: bounded_curve_with_length
   domain: 'application module: Edge_based_topological_representation_with_length_constraint_mim'
   language_code: eng
   annotations: []

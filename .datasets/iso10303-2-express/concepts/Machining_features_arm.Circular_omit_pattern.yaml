@@ -1,30 +1,32 @@
+---
 data:
   identifier: Machining_features_arm.Circular_omit_pattern
   localized_concepts:
     eng: e00697c2-f46e-54fb-a96f-b5c3c40b0bd0
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Circular_omit_pattern
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the circular omit pattern {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the circular omit pattern {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Circular_omit_pattern** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Circular_pattern,Circular_pattern}} with an omission of an occurrence of the base feature.
+  - content: A **Circular_omit_pattern** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Circular_pattern,Circular_pattern}}
+      with an omission of an occurrence of the base feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Circular_omit_pattern
+  - type: expression
+    normative_status: preferred
+    designation: Circular_omit_pattern
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

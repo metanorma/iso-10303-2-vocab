@@ -1,30 +1,32 @@
+---
 data:
   identifier: representation_schema.representation_context
   localized_concepts:
     eng: 5fca20f1-aa1a-5c4e-a5d9-f77a6f543043
   domains:
-    - concept_id: section-representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-      ref_type: section
+  - concept_id: section-representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+    ref_type: section
 id: representation_schema.representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **representation_context** is a context in which instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} are related.
+  - content: A **representation_context** is a context in which instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      are related.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-          version: '8'
-      type: authoritative
-      id: representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: representation_context
+  - type: expression
+    normative_status: preferred
+    designation: representation_context
   domain: 'resource: representation_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Foundation_representation_arm.Representation_context
   localized_concepts:
     eng: 4a746cd6-36c2-5c40-a334-919e968233d0
   domains:
-    - concept_id: section-Foundation_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-      ref_type: section
+  - concept_id: section-Foundation_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+    ref_type: section
 id: Foundation_representation_arm.Representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Representation_context** is a context in which instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} are related.
+  - content: A **Representation_context** is a context in which instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      are related.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-          version: '6'
-      type: authoritative
-      id: Foundation_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Representation_context
+  - type: expression
+    normative_status: preferred
+    designation: Representation_context
   domain: 'application module: Foundation_representation_arm'
   language_code: eng
   annotations: []

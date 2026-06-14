@@ -1,29 +1,31 @@
+---
 data:
   identifier: Characteristic_arm.Nominal_tolerance_characteristic
   localized_concepts:
     eng: 4d43d2a6-7b16-5ff9-90ff-3d6680ab94b1
   domains:
-    - concept_id: section-Characteristic_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-      ref_type: section
+  - concept_id: section-Characteristic_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+    ref_type: section
 id: Characteristic_arm.Nominal_tolerance_characteristic
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Tolerance_characteristic,Tolerance_characteristic}} that represents the nominal tolerance characteristic {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm.Tolerance_characteristic,Tolerance_characteristic}}
+      that represents the nominal tolerance characteristic {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
-          version: '6'
-      type: authoritative
-      id: Characteristic_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characteristic_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Nominal_tolerance_characteristic
+  - type: expression
+    normative_status: preferred
+    designation: Nominal_tolerance_characteristic
   domain: 'application module: Characteristic_arm'
   language_code: eng
   annotations: []

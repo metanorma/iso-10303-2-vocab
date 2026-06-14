@@ -1,30 +1,33 @@
+---
 data:
   identifier: Classification_with_attributes_mim.class_system
   localized_concepts:
     eng: 5d7a8b9e-14d2-538d-bb77-2b348a4c5894
   domains:
-    - concept_id: section-Classification_with_attributes_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
-      ref_type: section
+  - concept_id: section-Classification_with_attributes_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
+    ref_type: section
 id: Classification_with_attributes_mim.class_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the class system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim.group,group}}
+      that represents the class system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **class_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that defines classifications of product or activity data.
+  - content: A **class_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that defines classifications of product or activity data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
-          version: '7'
-      type: authoritative
-      id: Classification_with_attributes_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_system
+  - type: expression
+    normative_status: preferred
+    designation: class_system
   domain: 'application module: Classification_with_attributes_mim'
   language_code: eng
   annotations: []

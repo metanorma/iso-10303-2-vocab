@@ -1,30 +1,36 @@
+---
 data:
   identifier: Pmi_data_quality_mim.pmidq_length_measure_for_insufficiently_constrained_datum_system
   localized_concepts:
     eng: 7aa1f312-53ef-5749-afb8-113e0455ef8f
   domains:
-    - concept_id: section-Pmi_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+    ref_type: section
 id: Pmi_data_quality_mim.pmidq_length_measure_for_insufficiently_constrained_datum_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the pmidq length measure for insufficiently constrained datum system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the pmidq length measure for insufficiently constrained datum
+      system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **pmidq_length_measure_for_insufficiently_constrained_datum_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{allowance,allowance}} for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.insufficiently_constrained_datum_system,insufficiently_constrained_datum_system}}.
+  - content: A **pmidq_length_measure_for_insufficiently_constrained_datum_system**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.insufficiently_constrained_datum_system.allowance,allowance}}
+      for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.insufficiently_constrained_datum_system,insufficiently_constrained_datum_system}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pmidq_length_measure_for_insufficiently_constrained_datum_system
+  - type: expression
+    normative_status: preferred
+    designation: pmidq_length_measure_for_insufficiently_constrained_datum_system
   domain: 'application module: Pmi_data_quality_mim'
   language_code: eng
   annotations: []

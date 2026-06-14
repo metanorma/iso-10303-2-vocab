@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_feature_relationship_arm.Representative_geometric_model
   localized_concepts:
     eng: 120c83b3-25a2-54e5-8589-50b51ede227b
   domains:
-    - concept_id: section-Assembly_feature_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-      ref_type: section
+  - concept_id: section-Assembly_feature_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+    ref_type: section
 id: Assembly_feature_relationship_arm.Representative_geometric_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the representative geometric model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm.Geometric_model,Geometric_model}}
+      that represents the representative geometric model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Representative_geometric_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is a representative shape of a product definition or a shape aspect.
+  - content: A **Representative_geometric_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that is a representative shape of a product definition or a shape aspect.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_feature_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Representative_geometric_model
+  - type: expression
+    normative_status: preferred
+    designation: Representative_geometric_model
   domain: 'application module: Assembly_feature_relationship_arm'
   language_code: eng
   annotations: []

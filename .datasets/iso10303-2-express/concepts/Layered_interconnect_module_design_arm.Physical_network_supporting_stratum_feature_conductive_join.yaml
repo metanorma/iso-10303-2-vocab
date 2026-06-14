@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Physical_network_supporting_stratum_feature_conductive_join
   localized_concepts:
     eng: 11e374a4-7faf-5d9f-a235-a62b901e3099
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Physical_network_supporting_stratum_feature_conductive_join
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical network supporting stratum feature conductive join {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical network supporting stratum feature
+      conductive join {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_network_supporting_stratum_feature_conductive_join** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_join_implementation,Inter_stratum_join_implementation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature_conductive_join,Stratum_feature_conductive_join}}, that is included in the design for the purpose of implementing a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Generic_physical_network,Generic_physical_network}}.
+  - content: A **Physical_network_supporting_stratum_feature_conductive_join** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_join_implementation,Inter_stratum_join_implementation}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature_conductive_join,Stratum_feature_conductive_join}},
+      that is included in the design for the purpose of implementing a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Generic_physical_network,Generic_physical_network}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_network_supporting_stratum_feature_conductive_join
+  - type: expression
+    normative_status: preferred
+    designation: Physical_network_supporting_stratum_feature_conductive_join
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

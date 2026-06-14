@@ -1,30 +1,34 @@
+---
 data:
   identifier: Fabrication_requirement_arm.Layout_land_width_tolerance_requirement
   localized_concepts:
     eng: ac9c2e87-7e49-5e9c-8d68-6392b2574ff7
   domains:
-    - concept_id: section-Fabrication_requirement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
-      ref_type: section
+  - concept_id: section-Fabrication_requirement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+    ref_type: section
 id: Fabrication_requirement_arm.Layout_land_width_tolerance_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the layout land width tolerance requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the layout land width tolerance requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Layout_land_width_tolerance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that characterizes the land width range that is required to be produced for a particular terminal pitch class of mating components.
+  - content: A **Layout_land_width_tolerance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that characterizes the land width range that is required to be produced for
+      a particular terminal pitch class of mating components.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
-          version: '3'
-      type: authoritative
-      id: Fabrication_requirement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Layout_land_width_tolerance_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Layout_land_width_tolerance_requirement
   domain: 'application module: Fabrication_requirement_arm'
   language_code: eng
   annotations: []

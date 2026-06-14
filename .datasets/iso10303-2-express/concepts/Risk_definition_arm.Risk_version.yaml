@@ -1,29 +1,31 @@
+---
 data:
   identifier: Risk_definition_arm.Risk_version
   localized_concepts:
     eng: e2c66b65-3312-50e4-8b6f-2dc53ecc29d8
   domains:
-    - concept_id: section-Risk_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-      ref_type: section
+  - concept_id: section-Risk_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+    ref_type: section
 id: Risk_definition_arm.Risk_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the risk version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Product_version,Product_version}}
+      that represents the risk version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-          version: '3'
-      type: authoritative
-      id: Risk_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Risk_version
+  - type: expression
+    normative_status: preferred
+    designation: Risk_version
   domain: 'application module: Risk_definition_arm'
   language_code: eng
   annotations: []

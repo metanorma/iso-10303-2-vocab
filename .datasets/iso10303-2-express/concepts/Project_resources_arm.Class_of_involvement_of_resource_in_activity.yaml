@@ -1,30 +1,34 @@
+---
 data:
   identifier: Project_resources_arm.Class_of_involvement_of_resource_in_activity
   localized_concepts:
     eng: 04f7d282-339c-5308-aed5-3765a93cc01d
   domains:
-    - concept_id: section-Project_resources_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_resources_arm
-      ref_type: section
+  - concept_id: section-Project_resources_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_resources_arm
+    ref_type: section
 id: Project_resources_arm.Class_of_involvement_of_resource_in_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class of involvement of resource in activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the class of involvement of resource in activity
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Class_of_involvement_of_resource_in_activity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_in_activity_mim.class_of_involvement_in_activity,class_of_involvement_in_activity}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Class_under_root,Class_under_root}} that is the type of role played by a resource in an activity.
+  - content: A **Class_of_involvement_of_resource_in_activity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_in_activity_mim.class_of_involvement_in_activity,class_of_involvement_in_activity}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Class_under_root,Class_under_root}}
+      that is the type of role played by a resource in an activity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_resources_arm
-          version: '1'
-      type: authoritative
-      id: Project_resources_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_resources_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Class_of_involvement_of_resource_in_activity
+  - type: expression
+    normative_status: preferred
+    designation: Class_of_involvement_of_resource_in_activity
   domain: 'application module: Project_resources_arm'
   language_code: eng
   annotations: []

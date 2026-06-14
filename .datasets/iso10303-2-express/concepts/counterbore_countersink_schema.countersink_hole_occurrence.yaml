@@ -1,30 +1,34 @@
+---
 data:
   identifier: counterbore_countersink_schema.countersink_hole_occurrence
   localized_concepts:
     eng: da969e85-4e8b-57d7-b6ab-dba8e4d107c7
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.countersink_hole_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that represents the countersink hole occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.shape_aspect_occurrence,shape_aspect_occurrence}}
+      that represents the countersink hole occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **countersink_hole_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that is an application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_definition,countersink_hole_definition}} in a design definition.
+  - content: A **countersink_hole_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}}
+      that is an application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_definition,countersink_hole_definition}}
+      in a design definition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: countersink_hole_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: countersink_hole_occurrence
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_state_based_behaviour_model_arm.External_state_based_behaviour_model
   localized_concepts:
     eng: bca6ebd3-26e3-50d7-a4f5-9a219547afca
   domains:
-    - concept_id: section-External_state_based_behaviour_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_arm
-      ref_type: section
+  - concept_id: section-External_state_based_behaviour_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_arm
+    ref_type: section
 id: External_state_based_behaviour_model_arm.External_state_based_behaviour_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_representation_arm.State_based_behaviour_model,State_based_behaviour_model}} that represents the external state based behaviour model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_arm.State_based_behaviour_model,State_based_behaviour_model}}
+      that represents the external state based behaviour model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **External_state_based_behaviour_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_representation_arm.State_based_behaviour_model,State_based_behaviour_model}} where an external digital file contains the model.
+  - content: An **External_state_based_behaviour_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_representation_arm.State_based_behaviour_model,State_based_behaviour_model}}
+      where an external digital file contains the model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_arm
-          version: '1'
-      type: authoritative
-      id: External_state_based_behaviour_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_state_based_behaviour_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: External_state_based_behaviour_model
+  - type: expression
+    normative_status: preferred
+    designation: External_state_based_behaviour_model
   domain: 'application module: External_state_based_behaviour_model_arm'
   language_code: eng
   annotations: []

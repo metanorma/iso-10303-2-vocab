@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.geometric_gap_in_topology
   localized_concepts:
     eng: 991a293b-fc92-5737-a367-4084e2f4f170
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.geometric_gap_in_topology
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} that represents the geometric gap in topology {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      that represents the geometric gap in topology {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometric_gap_in_topology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}} that is a supertype of criteria for detecting various types of gap between geometry and topology.
+  - content: A **geometric_gap_in_topology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_topology_and_geometry_relationship,inapt_topology_and_geometry_relationship}}
+      that is a supertype of criteria for detecting various types of gap between geometry
+      and topology.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometric_gap_in_topology
+  - type: expression
+    normative_status: preferred
+    designation: geometric_gap_in_topology
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

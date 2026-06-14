@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_constraints_arm.Binary_assembly_constraint
   localized_concepts:
     eng: 974dd725-367d-5901-863c-c13397d93351
   domains:
-    - concept_id: section-Assembly_constraints_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
-      ref_type: section
+  - concept_id: section-Assembly_constraints_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+    ref_type: section
 id: Assembly_constraints_arm.Binary_assembly_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the binary assembly constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the binary assembly constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Binary_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}} controlling the relationship between precisely two constituents in an assembly.
+  - content: A **Binary_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Explicit_constraints_arm.Explicit_constraint,Explicit_constraint}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}}
+      controlling the relationship between precisely two constituents in an assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
-          version: '1'
-      type: authoritative
-      id: Assembly_constraints_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_constraints_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Binary_assembly_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Binary_assembly_constraint
   domain: 'application module: Assembly_constraints_arm'
   language_code: eng
   annotations: []

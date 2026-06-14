@@ -1,31 +1,34 @@
+---
 data:
   identifier: Elementary_function_arm.Log10_function
   localized_concepts:
-    eng: 05151318-0edf-568c-84c9-3a870f293c44
+    eng: '05151318-0edf-568c-84c9-3a870f293c44'
   domains:
-    - concept_id: section-Elementary_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-      ref_type: section
+  - concept_id: section-Elementary_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+    ref_type: section
 id: Elementary_function_arm.Log10_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Unary_function_call,Unary_function_call}} that represents the log10 function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Unary_function_call,Unary_function_call}}
+      that represents the log10 function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Log10_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Unary_function_call,Unary_function_call}}.It carries the semantics of the EXPRESS 'LOG10' function defined in ISO 10303-11.
+  - content: A **Log10_function** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Unary_function_call,Unary_function_call}}.It
+      carries the semantics of the EXPRESS 'LOG10' function defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-          version: '2'
-      type: authoritative
-      id: Elementary_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Log10_function
+  - type: expression
+    normative_status: preferred
+    designation: Log10_function
   domain: 'application module: Elementary_function_arm'
   language_code: eng
   annotations: []
-id: 05151318-0edf-568c-84c9-3a870f293c44
+id: '05151318-0edf-568c-84c9-3a870f293c44'

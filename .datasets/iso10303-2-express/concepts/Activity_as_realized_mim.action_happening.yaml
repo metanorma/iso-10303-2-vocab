@@ -1,29 +1,31 @@
+---
 data:
   identifier: Activity_as_realized_mim.action_happening
   localized_concepts:
     eng: c7b3dfbb-a359-5897-8a25-01c34fd74e05
   domains:
-    - concept_id: section-Activity_as_realized_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_mim
-      ref_type: section
+  - concept_id: section-Activity_as_realized_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_mim
+    ref_type: section
 id: Activity_as_realized_mim.action_happening
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that represents the action happening {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_mim.action_relationship,action_relationship}}
+      that represents the action happening {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_mim
-          version: '3'
-      type: authoritative
-      id: Activity_as_realized_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_happening
+  - type: expression
+    normative_status: preferred
+    designation: action_happening
   domain: 'application module: Activity_as_realized_mim'
   language_code: eng
   annotations: []

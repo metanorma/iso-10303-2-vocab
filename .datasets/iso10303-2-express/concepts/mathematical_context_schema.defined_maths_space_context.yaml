@@ -1,30 +1,34 @@
+---
 data:
   identifier: mathematical_context_schema.defined_maths_space_context
   localized_concepts:
     eng: b7a4066b-c5f3-56fc-b1ee-fc17adaff508
   domains:
-    - concept_id: section-mathematical_context_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
-      ref_type: section
+  - concept_id: section-mathematical_context_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+    ref_type: section
 id: mathematical_context_schema.defined_maths_space_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}} that represents the defined maths space context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}}
+      that represents the defined maths space context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **defined_maths_space_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}} that is defined by reference to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}, {{unit,unit}} or both.
+  - content: A **defined_maths_space_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema.maths_space_context,maths_space_context}}
+      that is defined by reference to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.unit,unit}} or both.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
-          version: '1'
-      type: authoritative
-      id: mathematical_context_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_context_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: defined_maths_space_context
+  - type: expression
+    normative_status: preferred
+    designation: defined_maths_space_context
   domain: 'resource: mathematical_context_schema'
   language_code: eng
   annotations: []

@@ -1,31 +1,34 @@
+---
 data:
   identifier: Assembly_module_usage_view_mim.assembly_module_usage_view
   localized_concepts:
-    eng: 09b933a6-b6c9-5a40-bd8e-6d53d21623df
+    eng: '09b933a6-b6c9-5a40-bd8e-6d53d21623df'
   domains:
-    - concept_id: section-Assembly_module_usage_view_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
-      ref_type: section
+  - concept_id: section-Assembly_module_usage_view_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
+    ref_type: section
 id: Assembly_module_usage_view_mim.assembly_module_usage_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the assembly module usage view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim.physical_unit,physical_unit}}
+      that represents the assembly module usage view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **assembly_module_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implement the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_usage_view,Assembly_module_usage_view}}.
+  - content: An **assembly_module_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}}
+      that implement the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_usage_view,Assembly_module_usage_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
-          version: '5'
-      type: authoritative
-      id: Assembly_module_usage_view_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: assembly_module_usage_view
+  - type: expression
+    normative_status: preferred
+    designation: assembly_module_usage_view
   domain: 'application module: Assembly_module_usage_view_mim'
   language_code: eng
   annotations: []
-id: 09b933a6-b6c9-5a40-bd8e-6d53d21623df
+id: '09b933a6-b6c9-5a40-bd8e-6d53d21623df'

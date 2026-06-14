@@ -1,32 +1,34 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.Adjacent_triangulated_face_pair
   localized_concepts:
     eng: a83f78a8-6380-553b-b82d-669650f8e347
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.Adjacent_triangulated_face_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the adjacent triangulated face pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the adjacent triangulated face pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **Adjacent_triangulated_face_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies a pair of adjacent
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Triangulated_face,Triangulated_face}}s.
+  - content: |-
+      An **Adjacent_triangulated_face_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that specifies a pair of adjacent
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Triangulated_face,Triangulated_face}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Adjacent_triangulated_face_pair
+  - type: expression
+    normative_status: preferred
+    designation: Adjacent_triangulated_face_pair
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

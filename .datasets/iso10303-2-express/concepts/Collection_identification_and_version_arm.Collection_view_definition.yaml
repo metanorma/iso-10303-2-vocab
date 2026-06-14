@@ -1,30 +1,34 @@
+---
 data:
   identifier: Collection_identification_and_version_arm.Collection_view_definition
   localized_concepts:
     eng: 139d11cf-0498-58da-b08d-55d8523c15ed
   domains:
-    - concept_id: section-Collection_identification_and_version_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
-      ref_type: section
+  - concept_id: section-Collection_identification_and_version_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+    ref_type: section
 id: Collection_identification_and_version_arm.Collection_view_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the collection view definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Product_view_definition,Product_view_definition}}
+      that represents the collection view definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Collection_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents a characterization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection_version,Collection_version}} relevant in one or more application domains and for one or more life cycle stages.
+  - content: An **Collection_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that represents a characterization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection_version,Collection_version}}
+      relevant in one or more application domains and for one or more life cycle stages.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
-          version: '1'
-      type: authoritative
-      id: Collection_identification_and_version_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Collection_view_definition
+  - type: expression
+    normative_status: preferred
+    designation: Collection_view_definition
   domain: 'application module: Collection_identification_and_version_arm'
   language_code: eng
   annotations: []

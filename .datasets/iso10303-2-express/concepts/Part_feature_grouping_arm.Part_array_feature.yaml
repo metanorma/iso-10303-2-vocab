@@ -1,30 +1,35 @@
+---
 data:
   identifier: Part_feature_grouping_arm.Part_array_feature
   localized_concepts:
     eng: 33e0a558-1cff-54eb-ab09-2dfd2c1bd0f4
   domains:
-    - concept_id: section-Part_feature_grouping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-      ref_type: section
+  - concept_id: section-Part_feature_grouping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+    ref_type: section
 id: Part_feature_grouping_arm.Part_array_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_group_feature,Part_group_feature}} that represents the part array feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_group_feature,Part_group_feature}}
+      that represents the part array feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_array_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_group_feature,Part_group_feature}} that is an array of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} whose positions are specified as members of an array, and whose tolerances are applied based upon the array nature of **Part_array_feature**.
+  - content: A **Part_array_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_group_feature,Part_group_feature}}
+      that is an array of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}}
+      whose positions are specified as members of an array, and whose tolerances are
+      applied based upon the array nature of **Part_array_feature**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-          version: '3'
-      type: authoritative
-      id: Part_feature_grouping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_array_feature
+  - type: expression
+    normative_status: preferred
+    designation: Part_array_feature
   domain: 'application module: Part_feature_grouping_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Position_in_organization_arm.Person_or_organization_or_person_in_organization_in_position
   localized_concepts:
     eng: 35c0b2f7-7d20-574d-8fb9-313e81a98b5d
   domains:
-    - concept_id: section-Position_in_organization_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-      ref_type: section
+  - concept_id: section-Position_in_organization_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+    ref_type: section
 id: Position_in_organization_arm.Person_or_organization_or_person_in_organization_in_position
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person or organization or person in organization in position {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the person or organization or person in organization
+      in position {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Person_or_organization_or_person_in_organization_in_position** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person,Person}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}}, or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person_in_organization,Person_in_organization}} that holds a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position,Position}}.
+  - content: A **Person_or_organization_or_person_in_organization_in_position** is
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person,Person}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Organization,Organization}},
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_arm.Person_in_organization,Person_in_organization}}
+      that holds a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position,Position}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-          version: '1'
-      type: authoritative
-      id: Position_in_organization_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Person_or_organization_or_person_in_organization_in_position
+  - type: expression
+    normative_status: preferred
+    designation: Person_or_organization_or_person_in_organization_in_position
   domain: 'application module: Position_in_organization_arm'
   language_code: eng
   annotations: []

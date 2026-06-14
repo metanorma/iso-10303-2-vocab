@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_organization_schema.presentation_size
   localized_concepts:
     eng: 58b70678-fece-5f5a-a4b7-49ea21ee6d72
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.presentation_size
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presentation size {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the presentation size {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **presentation_size** is used to define the size of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_view,presentation_view}}.
+  - content: A **presentation_size** is used to define the size of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_view,presentation_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: presentation_size
+  - type: expression
+    normative_status: preferred
+    designation: presentation_size
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

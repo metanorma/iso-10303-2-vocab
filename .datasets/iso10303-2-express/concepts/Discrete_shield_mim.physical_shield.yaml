@@ -1,30 +1,35 @@
+---
 data:
   identifier: Discrete_shield_mim.physical_shield
   localized_concepts:
     eng: a5433550-8487-5380-917f-b682186d2bfc
   domains:
-    - concept_id: section-Discrete_shield_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
-      ref_type: section
+  - concept_id: section-Discrete_shield_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
+    ref_type: section
 id: Discrete_shield_mim.physical_shield
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that represents the physical shield {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim.physical_component,physical_component}}
+      that represents the physical shield {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Physical_shield,Physical_shield}}, when the shield is comprised of a component or components that are manufactured separately from the interconnect component.
+  - content: A **physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Physical_shield,Physical_shield}},
+      when the shield is comprised of a component or components that are manufactured
+      separately from the interconnect component.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
-          version: '4'
-      type: authoritative
-      id: Discrete_shield_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_shield
+  - type: expression
+    normative_status: preferred
+    designation: physical_shield
   domain: 'application module: Discrete_shield_mim'
   language_code: eng
   annotations: []

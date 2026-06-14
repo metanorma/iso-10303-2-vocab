@@ -1,32 +1,35 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value
   localized_concepts:
     eng: 3e241567-18a2-5779-ab56-efb2bf3917fc
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_for_shape,A3m_equivalence_criterion_for_shape}} that represents the a3m equivalence criterion of representative shape property value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_for_shape,A3m_equivalence_criterion_for_shape}}
+      that represents the a3m equivalence criterion of representative shape property
+      value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **A3m_equivalence_criterion_of_representative_shape_property_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_for_shape,A3m_equivalence_criterion_for_shape}} and is an abstract supertype of the entities for detecting inequivalence of two models
-        using representative property values of the target models, which are obtained by global geometric calculations.
+  - content: |-
+      An **A3m_equivalence_criterion_of_representative_shape_property_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_for_shape,A3m_equivalence_criterion_for_shape}} and is an abstract supertype of the entities for detecting inequivalence of two models
+      using representative property values of the target models, which are obtained by global geometric calculations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_equivalence_criterion_of_representative_shape_property_value
+  - type: expression
+    normative_status: preferred
+    designation: A3m_equivalence_criterion_of_representative_shape_property_value
   domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
   language_code: eng
   annotations: []

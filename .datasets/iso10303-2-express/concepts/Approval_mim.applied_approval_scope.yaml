@@ -1,30 +1,34 @@
+---
 data:
   identifier: Approval_mim.applied_approval_scope
   localized_concepts:
     eng: 3629d1c8-4f18-51fb-a671-2ec2fcbbc040
   domains:
-    - concept_id: section-Approval_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_mim
-      ref_type: section
+  - concept_id: section-Approval_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_mim
+    ref_type: section
 id: Approval_mim.applied_approval_scope
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that represents the applied approval scope {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_mim.approval_assignment,approval_assignment}}
+      that represents the applied approval scope {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_approval_scope** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that allows the representation of the scope of an approval to product or activity data.
+  - content: An **applied_approval_scope** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}}
+      that allows the representation of the scope of an approval to product or activity
+      data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_mim
-          version: '5'
-      type: authoritative
-      id: Approval_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_approval_scope
+  - type: expression
+    normative_status: preferred
+    designation: applied_approval_scope
   domain: 'application module: Approval_mim'
   language_code: eng
   annotations: []
