@@ -1,30 +1,33 @@
+---
 data:
   identifier: Aec_service_life_arm.Service_life_work_excution_level_factor
   localized_concepts:
     eng: 55393a42-4804-5241-adc8-712ada06d31b
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Service_life_work_excution_level_factor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that represents the service life work excution level factor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}}
+      that represents the service life work excution level factor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Service_life_work_excution_level_factor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}} that depends upon the work execution level.
+  - content: A **Service_life_work_excution_level_factor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life_factor,Service_life_factor}}
+      that depends upon the work execution level.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Service_life_work_excution_level_factor
+  - type: expression
+    normative_status: preferred
+    designation: Service_life_work_excution_level_factor
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

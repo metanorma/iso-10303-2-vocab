@@ -1,30 +1,31 @@
+---
 data:
   identifier: group_schema.group
   localized_concepts:
     eng: 6a2812fe-1b15-59a6-ae5f-b2b7ded2a6ea
   domains:
-    - concept_id: section-group_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
-      ref_type: section
+  - concept_id: section-group_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
+    ref_type: section
 id: group_schema.group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **group** is an identification of a collection of elements.
+  - content: A **group** is an identification of a collection of elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
-          version: '7'
-      type: authoritative
-      id: group_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: group
+  - type: expression
+    normative_status: preferred
+    designation: group
   domain: 'resource: group_schema'
   language_code: eng
   annotations: []

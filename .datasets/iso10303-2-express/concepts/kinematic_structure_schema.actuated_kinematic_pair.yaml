@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_structure_schema.actuated_kinematic_pair
   localized_concepts:
     eng: 68ecf8d9-144b-5e47-8360-c12684c9a97d
   domains:
-    - concept_id: section-kinematic_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-      ref_type: section
+  - concept_id: section-kinematic_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+    ref_type: section
 id: kinematic_structure_schema.actuated_kinematic_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}} that represents the actuated kinematic pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}}
+      that represents the actuated kinematic pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **actuated_kinematic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}} that is actuated in one or more degrees of freedom.
+  - content: A **actuated_kinematic_pair** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}}
+      that is actuated in one or more degrees of freedom.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: actuated_kinematic_pair
+  - type: expression
+    normative_status: preferred
+    designation: actuated_kinematic_pair
   domain: 'resource: kinematic_structure_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.Surface_preparation_area_llai_specification
   localized_concepts:
     eng: cef2a9b4-2e24-5480-b207-169544f1d3a9
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.Surface_preparation_area_llai_specification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface preparation area llai specification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface preparation area llai specification
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_preparation_area_llai_specification** is a specification for the an area that requires surface preparation prior to the completion of another manufacturing process.
+  - content: A **Surface_preparation_area_llai_specification** is a specification
+      for the an area that requires surface preparation prior to the completion of
+      another manufacturing process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_preparation_area_llai_specification
+  - type: expression
+    normative_status: preferred
+    designation: Surface_preparation_area_llai_specification
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []

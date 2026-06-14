@@ -1,30 +1,33 @@
+---
 data:
   identifier: Integral_shield_arm.Physical_connectivity_definition_external_reference
   localized_concepts:
     eng: e97fce0d-c9bc-563e-8c94-c75617c4c763
   domains:
-    - concept_id: section-Integral_shield_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
-      ref_type: section
+  - concept_id: section-Integral_shield_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
+    ref_type: section
 id: Integral_shield_arm.Physical_connectivity_definition_external_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity definition external reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical connectivity definition external reference
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_connectivity_definition_external_reference** is an identifier and information for the physical connectivity used in the shield.
+  - content: A **Physical_connectivity_definition_external_reference** is an identifier
+      and information for the physical connectivity used in the shield.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
-          version: '2'
-      type: authoritative
-      id: Integral_shield_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_connectivity_definition_external_reference
+  - type: expression
+    normative_status: preferred
+    designation: Physical_connectivity_definition_external_reference
   domain: 'application module: Integral_shield_arm'
   language_code: eng
   annotations: []

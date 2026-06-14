@@ -1,30 +1,34 @@
+---
 data:
   identifier: solid_shape_element_schema.track_blended_solid_with_end_conditions
   localized_concepts:
     eng: a7e74e12-012d-5d2f-b287-21998da662d0
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.track_blended_solid_with_end_conditions
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.track_blended_solid,track_blended_solid}} that represents the track blended solid with end conditions {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.track_blended_solid,track_blended_solid}}
+      that represents the track blended solid with end conditions {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *track_blended_solid_with_end_conditions* is a type of *track_blended_solid* in which the blend does not both start and terminate at the end points of the specified track of edges.
+  - content: A *track_blended_solid_with_end_conditions* is a type of *track_blended_solid*
+      in which the blend does not both start and terminate at the end points of the
+      specified track of edges.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: track_blended_solid_with_end_conditions
+  - type: expression
+    normative_status: preferred
+    designation: track_blended_solid_with_end_conditions
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

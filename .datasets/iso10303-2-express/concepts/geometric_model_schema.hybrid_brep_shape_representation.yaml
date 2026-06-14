@@ -1,36 +1,38 @@
+---
 data:
   identifier: geometric_model_schema.hybrid_brep_shape_representation
   localized_concepts:
     eng: e613a870-2d6e-51b0-a0df-e760b1c841d4
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.hybrid_brep_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the hybrid brep shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.shape_representation,shape_representation}}
+      that represents the hybrid brep shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **hybrid_brep_shape_representation** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the geometry is represented by one or more of:
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_face_assignment,hybrid_brep_face_assignment}}, or
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_edge_assignment,hybrid_brep_edge_assignment}}, or
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_vertex_assignment,hybrid_brep_vertex_assignment}}, or
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}}.
+  - content: |-
+      A **hybrid_brep_shape_representation** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the geometry is represented by one or more of:
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_face_assignment,hybrid_brep_face_assignment}}, or
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_edge_assignment,hybrid_brep_edge_assignment}}, or
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.hybrid_brep_vertex_assignment,hybrid_brep_vertex_assignment}}, or
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: hybrid_brep_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: hybrid_brep_shape_representation
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

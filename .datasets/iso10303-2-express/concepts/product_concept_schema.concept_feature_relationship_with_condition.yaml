@@ -1,30 +1,34 @@
+---
 data:
   identifier: product_concept_schema.concept_feature_relationship_with_condition
   localized_concepts:
     eng: 0a45def7-c254-5846-bb8f-36e1b45fd16a
   domains:
-    - concept_id: section-product_concept_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-      ref_type: section
+  - concept_id: section-product_concept_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+    ref_type: section
 id: product_concept_schema.concept_feature_relationship_with_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship,concept_feature_relationship}} that represents the concept feature relationship with condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship,concept_feature_relationship}}
+      that represents the concept feature relationship with condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **concept_feature_relationship_with_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship,concept_feature_relationship}} in which a conditional operator characterizes the relationship between the {{related_product_concept_feature,related_product_concept_feature}} and the {{relating_product_concept_feature,relating_product_concept_feature}}.
+  - content: A **concept_feature_relationship_with_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship,concept_feature_relationship}}
+      in which a conditional operator characterizes the relationship between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship.related_product_concept_feature,related_product_concept_feature}}
+      and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.concept_feature_relationship.relating_product_concept_feature,relating_product_concept_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-          version: '2'
-      type: authoritative
-      id: product_concept_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: concept_feature_relationship_with_condition
+  - type: expression
+    normative_status: preferred
+    designation: concept_feature_relationship_with_condition
   domain: 'resource: product_concept_schema'
   language_code: eng
   annotations: []

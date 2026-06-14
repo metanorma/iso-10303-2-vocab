@@ -1,30 +1,32 @@
+---
 data:
   identifier: Envelope_arm.Acknowledgement
   localized_concepts:
     eng: 7345fe46-ba5a-5a21-b0f1-1c8a32cd553b
   domains:
-    - concept_id: section-Envelope_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
-      ref_type: section
+  - concept_id: section-Envelope_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
+    ref_type: section
 id: Envelope_arm.Acknowledgement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the acknowledgement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the acknowledgement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Acknowledgement** is the representation of the codes passed between sending and receiving systems.
+  - content: An **Acknowledgement** is the representation of the codes passed between
+      sending and receiving systems.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
-          version: '2'
-      type: authoritative
-      id: Envelope_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Envelope_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Acknowledgement
+  - type: expression
+    normative_status: preferred
+    designation: Acknowledgement
   domain: 'application module: Envelope_arm'
   language_code: eng
   annotations: []

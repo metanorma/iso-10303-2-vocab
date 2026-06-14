@@ -1,36 +1,37 @@
+---
 data:
   identifier: set_theory_schema.power_set
   localized_concepts:
     eng: b052b5d1-fbd7-5665-9e32-bfc3120183b8
   domains:
-    - concept_id: section-set_theory_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
-      ref_type: section
+  - concept_id: section-set_theory_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+    ref_type: section
 id: set_theory_schema.power_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the power set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the power set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **power_set** is a relationship that is between:
+  - content: |-
+      A **power_set** is a relationship that is between:
 
-        * set S and
-        * set S*,
+      * set S and
+      * set S*,
 
-        that indicates S* is the set of all subsets of S.
+      that indicates S* is the set of all subsets of S.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
-          version: '1'
-      type: authoritative
-      id: set_theory_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:set_theory_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: power_set
+  - type: expression
+    normative_status: preferred
+    designation: power_set
   domain: 'resource: set_theory_schema'
   language_code: eng
   annotations: []

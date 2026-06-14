@@ -1,30 +1,33 @@
+---
 data:
   identifier: Package_mim.secondary_orientation_feature
   localized_concepts:
     eng: c084ef14-c24f-52dc-8024-05b433cb1951
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.secondary_orientation_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the secondary orientation feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.shape_aspect,shape_aspect}}
+      that represents the secondary orientation feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **secondary_orientation_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Secondary_orientation_feature,Secondary_orientation_feature}}.
+  - content: A **secondary_orientation_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Secondary_orientation_feature,Secondary_orientation_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: secondary_orientation_feature
+  - type: expression
+    normative_status: preferred
+    designation: secondary_orientation_feature
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

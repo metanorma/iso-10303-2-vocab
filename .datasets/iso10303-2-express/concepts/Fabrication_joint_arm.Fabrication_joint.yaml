@@ -1,29 +1,31 @@
+---
 data:
   identifier: Fabrication_joint_arm.Fabrication_joint
   localized_concepts:
     eng: d8a7aaa7-00d2-5f97-9cff-367fe67ae80a
   domains:
-    - concept_id: section-Fabrication_joint_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm
-      ref_type: section
+  - concept_id: section-Fabrication_joint_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm
+    ref_type: section
 id: Fabrication_joint_arm.Fabrication_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_joint,Component_feature_joint}} that represents the fabrication joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Component_feature_joint,Component_feature_joint}}
+      that represents the fabrication joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_joint_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Fabrication_joint
+  - type: expression
+    normative_status: preferred
+    designation: Fabrication_joint
   domain: 'application module: Fabrication_joint_arm'
   language_code: eng
   annotations: []

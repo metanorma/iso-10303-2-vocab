@@ -1,30 +1,35 @@
+---
 data:
   identifier: Product_class_arm.Specification_inclusion
   localized_concepts:
     eng: d02d82c2-ccae-5126-a787-65419497960a
   domains:
-    - concept_id: section-Product_class_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
-      ref_type: section
+  - concept_id: section-Product_class_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+    ref_type: section
 id: Product_class_arm.Specification_inclusion
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the specification inclusion {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the specification inclusion {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Specification_inclusion** is the representation of the statement that specifies that the application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}} or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification_expression,Specification_expression}} implies the inclusion of an additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification_expression,Specification_expression}}.
+  - content: A **Specification_inclusion** is the representation of the statement
+      that specifies that the application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}}
+      or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification_expression,Specification_expression}}
+      implies the inclusion of an additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification,Specification}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm.Specification_expression,Specification_expression}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
-          version: '6'
-      type: authoritative
-      id: Product_class_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Specification_inclusion
+  - type: expression
+    normative_status: preferred
+    designation: Specification_inclusion
   domain: 'application module: Product_class_arm'
   language_code: eng
   annotations: []

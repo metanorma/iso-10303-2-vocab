@@ -1,29 +1,31 @@
+---
 data:
   identifier: material_property_representation_schema.material_dimensional_characteristic_representation
   localized_concepts:
     eng: ca4b07d8-524d-5450-8645-bcf470113d7c
   domains:
-    - concept_id: section-material_property_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
-      ref_type: section
+  - concept_id: section-material_property_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+    ref_type: section
 id: material_property_representation_schema.material_dimensional_characteristic_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_characteristic_representation,dimensional_characteristic_representation}} that represents the material dimensional characteristic representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema.dimensional_characteristic_representation,dimensional_characteristic_representation}}
+      that represents the material dimensional characteristic representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
-          version: '2'
-      type: authoritative
-      id: material_property_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_representation_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: material_dimensional_characteristic_representation
+  - type: expression
+    normative_status: preferred
+    designation: material_dimensional_characteristic_representation
   domain: 'resource: material_property_representation_schema'
   language_code: eng
   annotations: []

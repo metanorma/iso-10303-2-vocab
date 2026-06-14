@@ -1,30 +1,35 @@
+---
 data:
   identifier: presentation_definition_schema.table_text_relationship
   localized_concepts:
     eng: 8debda3d-ea8a-5e5a-9c4b-9b536304df81
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.table_text_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}} that represents the table text relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}}
+      that represents the table text relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **table_text_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}} A **table_text_relationship** establishes a relationship between a field in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_table_occurrence,annotation_table_occurrence}} and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text_occurrence,annotation_text_occurrence}}.
+  - content: A **table_text_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence_relationship,annotation_occurrence_relationship}}
+      A **table_text_relationship** establishes a relationship between a field in
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_table_occurrence,annotation_table_occurrence}}
+      and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_text_occurrence,annotation_text_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: table_text_relationship
+  - type: expression
+    normative_status: preferred
+    designation: table_text_relationship
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: approval_schema.approval_relationship
   localized_concepts:
     eng: dceac0af-335f-5383-9bd4-a274b83d2af1
   domains:
-    - concept_id: section-approval_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-      ref_type: section
+  - concept_id: section-approval_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+    ref_type: section
 id: approval_schema.approval_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the approval relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **approval_relationship** is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}} with a description of their relationship.
+  - content: An **approval_relationship** is a relationship between two instances
+      of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}}
+      with a description of their relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-          version: '7'
-      type: authoritative
-      id: approval_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: approval_relationship
+  - type: expression
+    normative_status: preferred
+    designation: approval_relationship
   domain: 'resource: approval_schema'
   language_code: eng
   annotations: []

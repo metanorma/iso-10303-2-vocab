@@ -1,30 +1,35 @@
+---
 data:
   identifier: Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item
   localized_concepts:
     eng: 7ad55730-0c69-59d8-b2ef-fa6c66a2ffe6
   domains:
-    - concept_id: section-Parameterization_and_variational_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-      ref_type: section
+  - concept_id: section-Parameterization_and_variational_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+    ref_type: section
 id: Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the auxiliary geometric representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the auxiliary geometric representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Auxiliary_geometric_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}} that is used to represent geometric elements that exist in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation,Variational_representation}} for use as reference elements in constraints that are not part of the current representation.
+  - content: An **Auxiliary_geometric_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation_item,Variational_representation_item}}
+      that is used to represent geometric elements that exist in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Variational_representation,Variational_representation}}
+      for use as reference elements in constraints that are not part of the current
+      representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-          version: '3'
-      type: authoritative
-      id: Parameterization_and_variational_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Auxiliary_geometric_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Auxiliary_geometric_representation_item
   domain: 'application module: Parameterization_and_variational_representation_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_usage_view_arm.Functional_unit_usage_view_terminal_definition
   localized_concepts:
     eng: 6cd0ad10-4d3d-5e40-a556-1d3ed93337fa
   domains:
-    - concept_id: section-Functional_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
-      ref_type: section
+  - concept_id: section-Functional_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+    ref_type: section
 id: Functional_usage_view_arm.Functional_unit_usage_view_terminal_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the functional unit usage view terminal definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the functional unit usage view terminal definition
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Functional_unit_usage_view_terminal_definition** is the defined access mechanism for dynamic properties or signals of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_usage_view,Functional_unit_usage_view}}.
+  - content: A **Functional_unit_usage_view_terminal_definition** is the defined access
+      mechanism for dynamic properties or signals of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_usage_view,Functional_unit_usage_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Functional_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_unit_usage_view_terminal_definition
+  - type: expression
+    normative_status: preferred
+    designation: Functional_unit_usage_view_terminal_definition
   domain: 'application module: Functional_usage_view_arm'
   language_code: eng
   annotations: []

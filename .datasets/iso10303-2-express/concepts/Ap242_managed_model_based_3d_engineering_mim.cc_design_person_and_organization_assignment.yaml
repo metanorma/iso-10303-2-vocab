@@ -1,30 +1,34 @@
+---
 data:
   identifier: Ap242_managed_model_based_3d_engineering_mim.cc_design_person_and_organization_assignment
   localized_concepts:
     eng: e54c5a36-d7fe-50ea-87da-ab5d4301c7ac
   domains:
-    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-      ref_type: section
+  - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+    ref_type: section
 id: Ap242_managed_model_based_3d_engineering_mim.cc_design_person_and_organization_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}} that represents the cc design person and organization assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim.person_and_organization_assignment,person_and_organization_assignment}}
+      that represents the cc design person and organization assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cc_design_person_and_organization_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}} to a particular piece of product data.
+  - content: A **cc_design_person_and_organization_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_and_organization_assignment,person_and_organization_assignment}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_and_organization,person_and_organization}}
+      to a particular piece of product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-          version: '5'
-      type: authoritative
-      id: Ap242_managed_model_based_3d_engineering_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_person_and_organization_assignment
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_person_and_organization_assignment
   domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
   language_code: eng
   annotations: []

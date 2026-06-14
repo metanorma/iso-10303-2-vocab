@@ -1,30 +1,35 @@
+---
 data:
   identifier: Functional_assignment_to_part_mim.part_connected_terminals_layout_topology_requirement_assignment
   localized_concepts:
     eng: 0f907958-40b6-54c1-91e0-778406f7be5e
   domains:
-    - concept_id: section-Functional_assignment_to_part_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+    ref_type: section
 id: Functional_assignment_to_part_mim.part_connected_terminals_layout_topology_requirement_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that represents the part connected terminals layout topology requirement assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim.requirement_assignment,requirement_assignment}}
+      that represents the part connected terminals layout topology requirement assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **part_connected_terminals_layout_topology_requirement_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_layout_topology_requirement_assignment,Part_connected_terminals_layout_topology_requirement_assignment}}.
+  - content: A **part_connected_terminals_layout_topology_requirement_assignment**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_mim.requirement_assignment,requirement_assignment}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_layout_topology_requirement_assignment,Part_connected_terminals_layout_topology_requirement_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: part_connected_terminals_layout_topology_requirement_assignment
+  - type: expression
+    normative_status: preferred
+    designation: part_connected_terminals_layout_topology_requirement_assignment
   domain: 'application module: Functional_assignment_to_part_mim'
   language_code: eng
   annotations: []

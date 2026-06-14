@@ -1,30 +1,34 @@
+---
 data:
   identifier: method_definition_schema.action_method_with_associated_documents
   localized_concepts:
     eng: 376339b3-3b7c-5f2c-b334-99f40568c67c
   domains:
-    - concept_id: section-method_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-      ref_type: section
+  - concept_id: section-method_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+    ref_type: section
 id: method_definition_schema.action_method_with_associated_documents
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that represents the action method with associated documents {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method,action_method}}
+      that represents the action method with associated documents {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that specifies one or more documents that define the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}}.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_with_associated_documents,action_method_with_associated_documents}}
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}}
+      that specifies one or more documents that define the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-          version: '1'
-      type: authoritative
-      id: method_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_method_with_associated_documents
+  - type: expression
+    normative_status: preferred
+    designation: action_method_with_associated_documents
   domain: 'resource: method_definition_schema'
   language_code: eng
   annotations: []

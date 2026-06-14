@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_arm.Ratio_unit
   localized_concepts:
     eng: 31d73a84-2443-51e5-a2dd-390ba7018cff
   domains:
-    - concept_id: section-Value_with_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+    ref_type: section
 id: Value_with_unit_arm.Ratio_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the ratio unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that represents the ratio unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Ratio_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that expresses the dimensionless ratio of two quantities of the same kind.
+  - content: A **Ratio_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that expresses the dimensionless ratio of two quantities of the same kind.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ratio_unit
+  - type: expression
+    normative_status: preferred
+    designation: Ratio_unit
   domain: 'application module: Value_with_unit_arm'
   language_code: eng
   annotations: []

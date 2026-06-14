@@ -1,30 +1,32 @@
+---
 data:
   identifier: qualified_measure_schema.maths_value_qualification
   localized_concepts:
     eng: 77108051-750e-58e4-8d53-834781711158
   domains:
-    - concept_id: section-qualified_measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-      ref_type: section
+  - concept_id: section-qualified_measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+    ref_type: section
 id: qualified_measure_schema.maths_value_qualification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value qualification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths value qualification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **maths_value_qualification** is an association of one or more qualifiers with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.maths_value_with_unit,maths_value_with_unit}}.
+  - content: A **maths_value_qualification** is an association of one or more qualifiers
+      with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.maths_value_with_unit,maths_value_with_unit}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-          version: '4'
-      type: authoritative
-      id: qualified_measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: maths_value_qualification
+  - type: expression
+    normative_status: preferred
+    designation: maths_value_qualification
   domain: 'resource: qualified_measure_schema'
   language_code: eng
   annotations: []

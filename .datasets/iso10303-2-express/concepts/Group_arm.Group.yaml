@@ -1,30 +1,32 @@
+---
 data:
   identifier: Group_arm.Group
   localized_concepts:
     eng: aa80f3b5-bea3-5f81-b17d-29b5b5a76812
   domains:
-    - concept_id: section-Group_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
-      ref_type: section
+  - concept_id: section-Group_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
+    ref_type: section
 id: Group_arm.Group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Group** is a collection of {{groupable_item,groupable_item}} instances.
+  - content: A **Group** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm.groupable_item,groupable_item}}
+      instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
-          version: '2'
-      type: authoritative
-      id: Group_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Group
+  - type: expression
+    normative_status: preferred
+    designation: Group
   domain: 'application module: Group_arm'
   language_code: eng
   annotations: []

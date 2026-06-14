@@ -1,30 +1,33 @@
+---
 data:
   identifier: Task_specification_mim.advisory_task_step
   localized_concepts:
     eng: 4a94f706-9a4d-50d1-b108-c441f8c16495
   domains:
-    - concept_id: section-Task_specification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
-      ref_type: section
+  - concept_id: section-Task_specification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+    ref_type: section
 id: Task_specification_mim.advisory_task_step
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_step,task_step}} that represents the advisory task step {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim.task_step,task_step}}
+      that represents the advisory task step {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **advisory_task_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_step,task_step}} that provides advice to those carrying out a parent task.
+  - content: An **advisory_task_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_step,task_step}}
+      that provides advice to those carrying out a parent task.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
-          version: '2'
-      type: authoritative
-      id: Task_specification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: advisory_task_step
+  - type: expression
+    normative_status: preferred
+    designation: advisory_task_step
   domain: 'application module: Task_specification_mim'
   language_code: eng
   annotations: []

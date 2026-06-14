@@ -1,30 +1,35 @@
+---
 data:
   identifier: Pre_defined_datum_symbol_mim.pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship
   localized_concepts:
     eng: 5837b1c1-72ec-5ee3-a81a-197148f64b59
   domains:
-    - concept_id: section-Pre_defined_datum_symbol_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_mim
-      ref_type: section
+  - concept_id: section-Pre_defined_datum_symbol_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_mim
+    ref_type: section
 id: Pre_defined_datum_symbol_mim.pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_mim.shape_definition_3d_intersection,shape_definition_3d_intersection}} that represents the pre defined perpendicular datum axis symbol 3d 2d relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_mim.shape_definition_3d_intersection,shape_definition_3d_intersection}}
+      that represents the pre defined perpendicular datum axis symbol 3d 2d relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_mim.shape_definition_3d_intersection,shape_definition_3d_intersection}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_arm.Pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship,Pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship}}.
+  - content: A **pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_mim.shape_definition_3d_intersection,shape_definition_3d_intersection}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_arm.Pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship,Pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_mim
-          version: '3'
-      type: authoritative
-      id: Pre_defined_datum_symbol_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_symbol_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship
+  - type: expression
+    normative_status: preferred
+    designation: pre_defined_perpendicular_datum_axis_symbol_3d_2d_relationship
   domain: 'application module: Pre_defined_datum_symbol_mim'
   language_code: eng
   annotations: []

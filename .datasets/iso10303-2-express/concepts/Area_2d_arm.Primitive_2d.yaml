@@ -1,29 +1,31 @@
+---
 data:
   identifier: Area_2d_arm.Primitive_2d
   localized_concepts:
     eng: b6b0512d-48ea-5f2b-9c54-c80e785f2b8c
   domains:
-    - concept_id: section-Area_2d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
-      ref_type: section
+  - concept_id: section-Area_2d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+    ref_type: section
 id: Area_2d_arm.Primitive_2d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the primitive 2d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the primitive 2d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
-          version: '2'
-      type: authoritative
-      id: Area_2d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Primitive_2d
+  - type: expression
+    normative_status: preferred
+    designation: Primitive_2d
   domain: 'application module: Area_2d_arm'
   language_code: eng
   annotations: []

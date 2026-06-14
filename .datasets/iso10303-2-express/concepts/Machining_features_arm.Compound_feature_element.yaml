@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Compound_feature_element
   localized_concepts:
     eng: 32dec9fd-c9bc-5825-9492-8ef65e57db2f
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Compound_feature_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the compound feature element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the compound feature element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Compound_feature_element** is a specification of the type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}} to be used for an element of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Compound_feature,Compound_feature}}.
+  - content: A **Compound_feature_element** is a specification of the type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Transition_feature,Transition_feature}}
+      to be used for an element of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Compound_feature,Compound_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Compound_feature_element
+  - type: expression
+    normative_status: preferred
+    designation: Compound_feature_element
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

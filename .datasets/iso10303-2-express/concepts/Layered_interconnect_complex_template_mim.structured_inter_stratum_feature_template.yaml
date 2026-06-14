@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.structured_inter_stratum_feature_template
   localized_concepts:
     eng: 1560aa35-176c-5318-bd29-8d041e0d2484
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.structured_inter_stratum_feature_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the structured inter stratum feature template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the structured inter stratum feature template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **structured_inter_stratum_feature_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.inter_stratum_feature_template,inter_stratum_feature_template}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.stratum_stack_dependent_template,stratum_stack_dependent_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Structured_inter_stratum_feature_template,Structured_inter_stratum_feature_template}}.
+  - content: A **structured_inter_stratum_feature_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.inter_stratum_feature_template,inter_stratum_feature_template}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.stratum_stack_dependent_template,stratum_stack_dependent_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Structured_inter_stratum_feature_template,Structured_inter_stratum_feature_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: structured_inter_stratum_feature_template
+  - type: expression
+    normative_status: preferred
+    designation: structured_inter_stratum_feature_template
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

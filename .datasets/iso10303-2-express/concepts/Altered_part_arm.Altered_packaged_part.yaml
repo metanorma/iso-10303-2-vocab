@@ -1,30 +1,35 @@
+---
 data:
   identifier: Altered_part_arm.Altered_packaged_part
   localized_concepts:
     eng: 2b94d9ff-7fac-5f71-84c5-8f3340cf4429
   domains:
-    - concept_id: section-Altered_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm
-      ref_type: section
+  - concept_id: section-Altered_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm
+    ref_type: section
 id: Altered_part_arm.Altered_packaged_part
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}} that represents the altered packaged part {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm.Packaged_part,Packaged_part}}
+      that represents the altered packaged part {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Altered_packaged_part** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}} whose {{used_package,used_package}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package,Altered_package}} or that has a different implemented function than the **base_packaged_part**.
+  - content: An **Altered_packaged_part** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}
+      whose {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part.used_package,used_package}}
+      is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package,Altered_package}}
+      or that has a different implemented function than the **base_packaged_part**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm
-          version: '1'
-      type: authoritative
-      id: Altered_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Altered_packaged_part
+  - type: expression
+    normative_status: preferred
+    designation: Altered_packaged_part
   domain: 'application module: Altered_part_arm'
   language_code: eng
   annotations: []

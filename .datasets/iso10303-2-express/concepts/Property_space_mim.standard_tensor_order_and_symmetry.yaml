@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_mim.standard_tensor_order_and_symmetry
   localized_concepts:
     eng: 53b960cb-28c0-559e-8d8b-ca96fad7095b
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.standard_tensor_order_and_symmetry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.tensor_order_and_symmetry_by_library_reference,tensor_order_and_symmetry_by_library_reference}} that represents the standard tensor order and symmetry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.tensor_order_and_symmetry_by_library_reference,tensor_order_and_symmetry_by_library_reference}}
+      that represents the standard tensor order and symmetry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: standard_tensor_order_and_symmetry
+  - type: expression
+    normative_status: preferred
+    designation: standard_tensor_order_and_symmetry
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: structural_response_representation_schema.node_set
   localized_concepts:
     eng: 38a129f6-eaeb-5ed2-97dc-6958e440e2ec
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.node_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the node set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the node set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_set,node_set}} is the aggregation of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_representation,node_representation}} entities for geometric founding in a common coordinate frame.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_set,node_set}}
+      is the aggregation of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.node_representation,node_representation}}
+      entities for geometric founding in a common coordinate frame.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: node_set
+  - type: expression
+    normative_status: preferred
+    designation: node_set
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

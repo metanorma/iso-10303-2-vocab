@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.multiply_defined_faces
   localized_concepts:
     eng: 84c90bab-c7cb-5fee-8004-bd9acc06992c
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.multiply_defined_faces
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.topology_related_to_multiply_defined_geometry,topology_related_to_multiply_defined_geometry}} that represents the multiply defined faces {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.topology_related_to_multiply_defined_geometry,topology_related_to_multiply_defined_geometry}}
+      that represents the multiply defined faces {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: multiply_defined_faces
+  - type: expression
+    normative_status: preferred
+    designation: multiply_defined_faces
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

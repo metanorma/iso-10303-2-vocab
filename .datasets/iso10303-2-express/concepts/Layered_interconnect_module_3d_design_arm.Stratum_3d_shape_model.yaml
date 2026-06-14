@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_module_3d_design_arm.Stratum_3d_shape_model
   localized_concepts:
     eng: 56c4c121-bbf1-5e46-940b-b922ad26e35d
   domains:
-    - concept_id: section-Layered_interconnect_module_3d_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_3d_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_3d_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_3d_design_arm
+    ref_type: section
 id: Layered_interconnect_module_3d_design_arm.Stratum_3d_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the stratum 3d shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_3d_design_arm.Geometric_model,Geometric_model}}
+      that represents the stratum 3d shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_3d_design_arm
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_module_3d_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_3d_design_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Stratum_3d_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Stratum_3d_shape_model
   domain: 'application module: Layered_interconnect_module_3d_design_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Component_grouping_arm.Linear_array_placement_group_component
   localized_concepts:
     eng: afba786a-de92-5dd3-bd0d-7a2d3b54f5f1
   domains:
-    - concept_id: section-Component_grouping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
-      ref_type: section
+  - concept_id: section-Component_grouping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+    ref_type: section
 id: Component_grouping_arm.Linear_array_placement_group_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Array_placement_group,Array_placement_group}} that represents the linear array placement group component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Array_placement_group,Array_placement_group}}
+      that represents the linear array placement group component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
-          version: '6'
-      type: authoritative
-      id: Component_grouping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Linear_array_placement_group_component
+  - type: expression
+    normative_status: preferred
+    designation: Linear_array_placement_group_component
   domain: 'application module: Component_grouping_arm'
   language_code: eng
   annotations: []

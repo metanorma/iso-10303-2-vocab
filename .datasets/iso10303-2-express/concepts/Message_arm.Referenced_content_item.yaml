@@ -1,30 +1,32 @@
+---
 data:
   identifier: Message_arm.Referenced_content_item
   localized_concepts:
     eng: f2431e0d-e680-5662-a2ad-d7c1ad679e52
   domains:
-    - concept_id: section-Message_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
-      ref_type: section
+  - concept_id: section-Message_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+    ref_type: section
 id: Message_arm.Referenced_content_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the referenced content item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the referenced content item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Referenced_content_item** is a means of linking to the actual content of a message.
+  - content: A **Referenced_content_item** is a means of linking to the actual content
+      of a message.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
-          version: '2'
-      type: authoritative
-      id: Message_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Referenced_content_item
+  - type: expression
+    normative_status: preferred
+    designation: Referenced_content_item
   domain: 'application module: Message_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Procedural_solid_model_arm.Procedural_solid_representation_sequence
   localized_concepts:
     eng: d327a71b-6584-5451-b15c-78e982b2ac96
   domains:
-    - concept_id: section-Procedural_solid_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
-      ref_type: section
+  - concept_id: section-Procedural_solid_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
+    ref_type: section
 id: Procedural_solid_model_arm.Procedural_solid_representation_sequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Procedural_shape_representation_sequence,Procedural_shape_representation_sequence}} that represents the procedural solid representation sequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm.Procedural_shape_representation_sequence,Procedural_shape_representation_sequence}}
+      that represents the procedural solid representation sequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Procedural_solid_representation_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Procedural_shape_representation_sequence,Procedural_shape_representation_sequence}} that specifies a sequence of shape modification operations to create a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm.Modified_solid,Modified_solid}}.
+  - content: A **Procedural_solid_representation_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Procedural_shape_representation_sequence,Procedural_shape_representation_sequence}}
+      that specifies a sequence of shape modification operations to create a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm.Modified_solid,Modified_solid}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
-          version: '2'
-      type: authoritative
-      id: Procedural_solid_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_solid_model_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Procedural_solid_representation_sequence
+  - type: expression
+    normative_status: preferred
+    designation: Procedural_solid_representation_sequence
   domain: 'application module: Procedural_solid_model_arm'
   language_code: eng
   annotations: []

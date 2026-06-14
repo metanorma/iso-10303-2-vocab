@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_breakdown_arm.Breakdown
   localized_concepts:
     eng: 3cfd2ea5-1fa3-5b9c-bf07-b6b762ce5303
   domains:
-    - concept_id: section-Product_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-      ref_type: section
+  - concept_id: section-Product_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+    ref_type: section
 id: Product_breakdown_arm.Breakdown
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the breakdown {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product,Product}}
+      that represents the breakdown {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that identifies a partitioning of a product into a set of related elements so as to form explicit, parent-child views that comprise the product elements.
+  - content: A **Breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      that identifies a partitioning of a product into a set of related elements so
+      as to form explicit, parent-child views that comprise the product elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-          version: '4'
-      type: authoritative
-      id: Product_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Breakdown
+  - type: expression
+    normative_status: preferred
+    designation: Breakdown
   domain: 'application module: Product_breakdown_arm'
   language_code: eng
   annotations: []

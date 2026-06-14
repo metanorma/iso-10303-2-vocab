@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometrically_bounded_wireframe_arm.Geometrically_bounded_wireframe_shape_representation
   localized_concepts:
     eng: be7ead01-6b74-5066-b69b-6aa9df7c4b83
   domains:
-    - concept_id: section-Geometrically_bounded_wireframe_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_wireframe_arm
-      ref_type: section
+  - concept_id: section-Geometrically_bounded_wireframe_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_wireframe_arm
+    ref_type: section
 id: Geometrically_bounded_wireframe_arm.Geometrically_bounded_wireframe_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the geometrically bounded wireframe shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_wireframe_arm.Geometric_model,Geometric_model}}
+      that represents the geometrically bounded wireframe shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometrically_bounded_wireframe_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents a shape by wireframe geometry without topology.
+  - content: A **Geometrically_bounded_wireframe_shape_representation** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that represents a shape by wireframe geometry without topology.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_wireframe_arm
-          version: '1'
-      type: authoritative
-      id: Geometrically_bounded_wireframe_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_wireframe_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometrically_bounded_wireframe_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Geometrically_bounded_wireframe_shape_representation
   domain: 'application module: Geometrically_bounded_wireframe_arm'
   language_code: eng
   annotations: []

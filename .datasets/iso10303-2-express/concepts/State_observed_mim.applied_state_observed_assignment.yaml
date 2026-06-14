@@ -1,31 +1,34 @@
+---
 data:
   identifier: State_observed_mim.applied_state_observed_assignment
   localized_concepts:
-    eng: 09199858-b3e4-5b76-9445-133e9e0f1306
+    eng: '09199858-b3e4-5b76-9445-133e9e0f1306'
   domains:
-    - concept_id: section-State_observed_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
-      ref_type: section
+  - concept_id: section-State_observed_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
+    ref_type: section
 id: State_observed_mim.applied_state_observed_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed_assignment,state_observed_assignment}} that represents the applied state observed assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim.state_observed_assignment,state_observed_assignment}}
+      that represents the applied state observed assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_state_observed_assignment** is an entity that relates product or activity data that are assigned a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}}.
+  - content: An **applied_state_observed_assignment** is an entity that relates product
+      or activity data that are assigned a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
-          version: '4'
-      type: authoritative
-      id: State_observed_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_state_observed_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_state_observed_assignment
   domain: 'application module: State_observed_mim'
   language_code: eng
   annotations: []
-id: 09199858-b3e4-5b76-9445-133e9e0f1306
+id: '09199858-b3e4-5b76-9445-133e9e0f1306'

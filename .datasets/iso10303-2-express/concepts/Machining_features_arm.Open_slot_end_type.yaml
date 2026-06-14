@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Open_slot_end_type
   localized_concepts:
     eng: bc76dd2f-0d0d-5491-84c1-c11ad4ba074c
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Open_slot_end_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot_end_type,Slot_end_type}} that represents the open slot end type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot_end_type,Slot_end_type}}
+      that represents the open slot end type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Open_slot_end_type** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot_end_type,Slot_end_type}} that is an end condition of a slot that shall pass through the end of the part.
+  - content: An **Open_slot_end_type** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Slot_end_type,Slot_end_type}}
+      that is an end condition of a slot that shall pass through the end of the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Open_slot_end_type
+  - type: expression
+    normative_status: preferred
+    designation: Open_slot_end_type
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

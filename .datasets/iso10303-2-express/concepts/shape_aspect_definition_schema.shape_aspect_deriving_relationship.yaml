@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_aspect_definition_schema.shape_aspect_deriving_relationship
   localized_concepts:
     eng: 402fd928-63b8-59fd-af43-a7f40e86a2bc
   domains:
-    - concept_id: section-shape_aspect_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-      ref_type: section
+  - concept_id: section-shape_aspect_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+    ref_type: section
 id: shape_aspect_definition_schema.shape_aspect_deriving_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the shape aspect deriving relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that represents the shape aspect deriving relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_aspect_deriving_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that defines the specific association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} and one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
+  - content: A **shape_aspect_deriving_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that defines the specific association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}}
+      and one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-          version: '7'
-      type: authoritative
-      id: shape_aspect_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_aspect_deriving_relationship
+  - type: expression
+    normative_status: preferred
+    designation: shape_aspect_deriving_relationship
   domain: 'resource: shape_aspect_definition_schema'
   language_code: eng
   annotations: []

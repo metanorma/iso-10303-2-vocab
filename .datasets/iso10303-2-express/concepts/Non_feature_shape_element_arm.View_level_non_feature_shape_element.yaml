@@ -1,29 +1,31 @@
+---
 data:
   identifier: Non_feature_shape_element_arm.View_level_non_feature_shape_element
   localized_concepts:
     eng: 6ce4ae61-057e-582f-bb7a-b47d0e3cba97
   domains:
-    - concept_id: section-Non_feature_shape_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm
-      ref_type: section
+  - concept_id: section-Non_feature_shape_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm
+    ref_type: section
 id: Non_feature_shape_element_arm.View_level_non_feature_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Non_feature_shape_element,Non_feature_shape_element}} that represents the view level non feature shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Non_feature_shape_element,Non_feature_shape_element}}
+      that represents the view level non feature shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm
-          version: '5'
-      type: authoritative
-      id: Non_feature_shape_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: View_level_non_feature_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: View_level_non_feature_shape_element
   domain: 'application module: Non_feature_shape_element_arm'
   language_code: eng
   annotations: []

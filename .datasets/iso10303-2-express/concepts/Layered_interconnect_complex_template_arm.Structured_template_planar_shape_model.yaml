@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_arm.Structured_template_planar_shape_model
   localized_concepts:
     eng: 9db82c8b-02b2-56b6-818d-f4f6d7a568e8
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+    ref_type: section
 id: Layered_interconnect_complex_template_arm.Structured_template_planar_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Part_template_planar_shape_model,Part_template_planar_shape_model}} that represents the structured template planar shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Part_template_planar_shape_model,Part_template_planar_shape_model}}
+      that represents the structured template planar shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Structured_template_planar_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Structured_template_planar_shape_model
   domain: 'application module: Layered_interconnect_complex_template_arm'
   language_code: eng
   annotations: []

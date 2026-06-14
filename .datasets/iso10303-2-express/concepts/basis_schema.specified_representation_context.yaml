@@ -1,32 +1,34 @@
+---
 data:
   identifier: basis_schema.specified_representation_context
   localized_concepts:
     eng: 8bdb32b8-bd23-5dfd-a208-b168cea42f49
   domains:
-    - concept_id: section-basis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
-      ref_type: section
+  - concept_id: section-basis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+    ref_type: section
 id: basis_schema.specified_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that represents the specified representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema.representation_context,representation_context}}
+      that represents the specified representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A *specified_representation_context* is a kind of
-        *representation_context* where the identifier is one of a pre-defined set.
+  - content: |-
+      A *specified_representation_context* is a kind of
+      *representation_context* where the identifier is one of a pre-defined set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
-          version: '2'
-      type: authoritative
-      id: basis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: specified_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: specified_representation_context
   domain: 'resource: basis_schema'
   language_code: eng
   annotations: []

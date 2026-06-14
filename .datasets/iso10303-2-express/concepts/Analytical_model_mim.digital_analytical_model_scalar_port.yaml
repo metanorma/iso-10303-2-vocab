@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_mim.digital_analytical_model_scalar_port
   localized_concepts:
     eng: e1cc3536-f25f-54e5-8e99-bdedf1972292
   domains:
-    - concept_id: section-Analytical_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-      ref_type: section
+  - concept_id: section-Analytical_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+    ref_type: section
 id: Analytical_model_mim.digital_analytical_model_scalar_port
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the digital analytical model scalar port {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the digital analytical model scalar port {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **digital_analytical_model_scalar_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.digital_analytical_model_vector_port,digital_analytical_model_vector_port}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_scalar_port,analytical_model_scalar_port}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Digital_analytical_model_scalar_port,Digital_analytical_model_scalar_port}}.
+  - content: A **digital_analytical_model_scalar_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.digital_analytical_model_vector_port,digital_analytical_model_vector_port}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_scalar_port,analytical_model_scalar_port}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Digital_analytical_model_scalar_port,Digital_analytical_model_scalar_port}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-          version: '5'
-      type: authoritative
-      id: Analytical_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: digital_analytical_model_scalar_port
+  - type: expression
+    normative_status: preferred
+    designation: digital_analytical_model_scalar_port
   domain: 'application module: Analytical_model_mim'
   language_code: eng
   annotations: []

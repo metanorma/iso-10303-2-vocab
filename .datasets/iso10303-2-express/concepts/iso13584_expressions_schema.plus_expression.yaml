@@ -1,30 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.plus_expression
   localized_concepts:
     eng: afa1c40e-4a24-5658-a56b-5c3c9ff329b3
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.plus_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}} that represents the plus expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}}
+      that represents the plus expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The *plus_expression* entity carries the semantics of the '+' operator, defined in ISO 10303-11, on NUMBER data type.
+  - content: The *plus_expression* entity carries the semantics of the '+' operator,
+      defined in ISO 10303-11, on NUMBER data type.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: plus_expression
+  - type: expression
+    normative_status: preferred
+    designation: plus_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

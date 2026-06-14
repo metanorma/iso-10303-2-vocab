@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.structured_layout_component
   localized_concepts:
     eng: 3ce697e6-e4f5-5730-9164-6cc0fe77fe10
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.structured_layout_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}} that represents the structured layout component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.assembly_group_component,assembly_group_component}}
+      that represents the structured layout component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **structured_layout_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Structured_layout_component,Structured_layout_component}}.
+  - content: A **structured_layout_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim.assembly_group_component,assembly_group_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Structured_layout_component,Structured_layout_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: structured_layout_component
+  - type: expression
+    normative_status: preferred
+    designation: structured_layout_component
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

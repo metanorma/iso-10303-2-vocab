@@ -1,30 +1,34 @@
+---
 data:
   identifier: Observation_mim.observation_relationship
   localized_concepts:
     eng: cb80a5ca-7f59-5e7a-84bb-c848f63099cb
   domains:
-    - concept_id: section-Observation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
-      ref_type: section
+  - concept_id: section-Observation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
+    ref_type: section
 id: Observation_mim.observation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that represents the observation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.action_relationship,action_relationship}}
+      that represents the observation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **observation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that links two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation,observation}} together.
+  - content: An **observation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}}
+      that links two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation,observation}}
+      together.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
-          version: '3'
-      type: authoritative
-      id: Observation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: observation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: observation_relationship
   domain: 'application module: Observation_mim'
   language_code: eng
   annotations: []

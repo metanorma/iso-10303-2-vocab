@@ -1,30 +1,33 @@
+---
 data:
   identifier: risk_schema.probability_representation
   localized_concepts:
     eng: 50b76459-1bfb-5e54-ac35-196a94d921e4
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.probability_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} that represents the probability representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.property_definition_representation,property_definition_representation}}
+      that represents the probability representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **probability_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} that represents the values resulting from the probability estimation or calculation.
+  - content: A **probability_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}}
+      that represents the values resulting from the probability estimation or calculation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: probability_representation
+  - type: expression
+    normative_status: preferred
+    designation: probability_representation
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

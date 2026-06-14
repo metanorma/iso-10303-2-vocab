@@ -1,30 +1,34 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data
   localized_concepts:
     eng: 29d876c0-bc7a-54d4-97be-a192e6919b17
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}} that represents the a3m erroneous triangulated shape data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}}
+      that represents the a3m erroneous triangulated shape data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_erroneous_triangulated_shape_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}} that is a supertype of criteria for detecting mathematically invalid triangulated shape data.
+  - content: An **A3m_erroneous_triangulated_shape_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}}
+      that is a supertype of criteria for detecting mathematically invalid triangulated
+      shape data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_erroneous_triangulated_shape_data
+  - type: expression
+    normative_status: preferred
+    designation: A3m_erroneous_triangulated_shape_data
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

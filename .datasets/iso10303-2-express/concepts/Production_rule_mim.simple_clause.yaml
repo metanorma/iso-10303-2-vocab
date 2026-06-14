@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.simple_clause
   localized_concepts:
     eng: 50b9b5ff-45d2-5fe8-ac0f-82d33f180a4b
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.simple_clause
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the simple clause {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.compound_representation_item,compound_representation_item}}
+      that represents the simple clause {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **simple_clause** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Simple_clause,Simple_clause}}.
+  - content: A **simple_clause** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Simple_clause,Simple_clause}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: simple_clause
+  - type: expression
+    normative_status: preferred
+    designation: simple_clause
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

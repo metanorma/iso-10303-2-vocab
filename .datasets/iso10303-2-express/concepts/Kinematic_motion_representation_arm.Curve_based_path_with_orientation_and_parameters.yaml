@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_motion_representation_arm.Curve_based_path_with_orientation_and_parameters
   localized_concepts:
     eng: b506573e-a065-55de-b0b4-1cf9483f962d
   domains:
-    - concept_id: section-Kinematic_motion_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-      ref_type: section
+  - concept_id: section-Kinematic_motion_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+    ref_type: section
 id: Kinematic_motion_representation_arm.Curve_based_path_with_orientation_and_parameters
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Curve_based_path_with_orientation,Curve_based_path_with_orientation}} that represents the curve based path with orientation and parameters {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Curve_based_path_with_orientation,Curve_based_path_with_orientation}}
+      that represents the curve based path with orientation and parameters {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-          version: '3'
-      type: authoritative
-      id: Kinematic_motion_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_based_path_with_orientation_and_parameters
+  - type: expression
+    normative_status: preferred
+    designation: Curve_based_path_with_orientation_and_parameters
   domain: 'application module: Kinematic_motion_representation_arm'
   language_code: eng
   annotations: []

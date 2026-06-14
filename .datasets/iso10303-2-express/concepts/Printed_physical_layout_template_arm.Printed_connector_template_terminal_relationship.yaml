@@ -1,30 +1,35 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Printed_connector_template_terminal_relationship
   localized_concepts:
     eng: 82618113-4e8f-51f6-a2e3-81f058e664b2
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Printed_connector_template_terminal_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the printed connector template terminal relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the printed connector template terminal relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Printed_connector_template_terminal_relationship** is the definition of the connection between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_interface_terminal,Printed_part_template_interface_terminal}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_join_terminal,Printed_part_template_join_terminal}} for one contact of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template,Printed_connector_template}}.
+  - content: A **Printed_connector_template_terminal_relationship** is the definition
+      of the connection between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_interface_terminal,Printed_part_template_interface_terminal}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_join_terminal,Printed_part_template_join_terminal}}
+      for one contact of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template,Printed_connector_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Printed_connector_template_terminal_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Printed_connector_template_terminal_relationship
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []

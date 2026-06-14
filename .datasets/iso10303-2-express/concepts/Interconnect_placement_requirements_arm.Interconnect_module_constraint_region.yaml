@@ -1,29 +1,31 @@
+---
 data:
   identifier: Interconnect_placement_requirements_arm.Interconnect_module_constraint_region
   localized_concepts:
     eng: 3b8eec97-83a1-5fb1-8831-aa515afe94a8
   domains:
-    - concept_id: section-Interconnect_placement_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
-      ref_type: section
+  - concept_id: section-Interconnect_placement_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
+    ref_type: section
 id: Interconnect_placement_requirements_arm.Interconnect_module_constraint_region
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Non_feature_shape_element,Non_feature_shape_element}} that represents the interconnect module constraint region {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Non_feature_shape_element,Non_feature_shape_element}}
+      that represents the interconnect module constraint region {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
-          version: '4'
-      type: authoritative
-      id: Interconnect_placement_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_constraint_region
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_constraint_region
   domain: 'application module: Interconnect_placement_requirements_arm'
   language_code: eng
   annotations: []

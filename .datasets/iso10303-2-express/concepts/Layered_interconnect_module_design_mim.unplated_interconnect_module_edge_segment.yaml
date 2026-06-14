@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.unplated_interconnect_module_edge_segment
   localized_concepts:
     eng: af6a7ba6-8bd9-50b3-9460-445b40632b4b
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.unplated_interconnect_module_edge_segment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.interconnect_module_edge_segment,interconnect_module_edge_segment}} that represents the unplated interconnect module edge segment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.interconnect_module_edge_segment,interconnect_module_edge_segment}}
+      that represents the unplated interconnect module edge segment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **unplated_interconnect_module_edge_segment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.interconnect_module_edge_segment,interconnect_module_edge_segment}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Unplated_interconnect_module_edge_segment,Unplated_interconnect_module_edge_segment}}.
+  - content: A **unplated_interconnect_module_edge_segment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.interconnect_module_edge_segment,interconnect_module_edge_segment}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Unplated_interconnect_module_edge_segment,Unplated_interconnect_module_edge_segment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: unplated_interconnect_module_edge_segment
+  - type: expression
+    normative_status: preferred
+    designation: unplated_interconnect_module_edge_segment
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

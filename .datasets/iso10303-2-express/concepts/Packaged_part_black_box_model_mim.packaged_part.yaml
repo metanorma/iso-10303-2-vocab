@@ -1,34 +1,36 @@
+---
 data:
   identifier: Packaged_part_black_box_model_mim.packaged_part
   localized_concepts:
     eng: 68b5b68f-e119-56ca-a8ba-c69d31713cad
   domains:
-    - concept_id: section-Packaged_part_black_box_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim
-      ref_type: section
+  - concept_id: section-Packaged_part_black_box_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim
+    ref_type: section
 id: Packaged_part_black_box_model_mim.packaged_part
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the packaged part {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim.physical_unit,physical_unit}}
+      that represents the packaged part {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **packaged_part** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concepts of:
+  - content: |-
+      A **packaged_part** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm.Altered_packaged_part,Altered_packaged_part}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_part_arm.Altered_packaged_part,Altered_packaged_part}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim
-          version: '4'
-      type: authoritative
-      id: Packaged_part_black_box_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: packaged_part
+  - type: expression
+    normative_status: preferred
+    designation: packaged_part
   domain: 'application module: Packaged_part_black_box_model_mim'
   language_code: eng
   annotations: []

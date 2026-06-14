@@ -1,30 +1,33 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Self_intersecting_surface
   localized_concepts:
     eng: 84494c94-b47a-54f7-bd5f-14d5d9cd0c0b
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Self_intersecting_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Self_intersecting_geometry,Self_intersecting_geometry}} that represents the self intersecting surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Self_intersecting_geometry,Self_intersecting_geometry}}
+      that represents the self intersecting surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Self_intersecting_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Self_intersecting_geometry,Self_intersecting_geometry}} This entity asserts that a surface has self-intersection within its domain.
+  - content: A **Self_intersecting_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Self_intersecting_geometry,Self_intersecting_geometry}}
+      This entity asserts that a surface has self-intersection within its domain.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Self_intersecting_surface
+  - type: expression
+    normative_status: preferred
+    designation: Self_intersecting_surface
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []

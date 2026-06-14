@@ -1,30 +1,34 @@
+---
 data:
   identifier: Probability_arm.Probability_derived
   localized_concepts:
     eng: bb186d1a-0e6d-5c01-ac87-d7c11b526ef2
   domains:
-    - concept_id: section-Probability_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
-      ref_type: section
+  - concept_id: section-Probability_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
+    ref_type: section
 id: Probability_arm.Probability_derived
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} that represents the probability derived {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm.Numerical_item_with_unit,Numerical_item_with_unit}}
+      that represents the probability derived {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Probability_derived** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}} that associates a particular value with the source from which the value is derived together with any parameters used to get the particular value.
+  - content: A **Probability_derived** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Numerical_item_with_unit,Numerical_item_with_unit}}
+      that associates a particular value with the source from which the value is derived
+      together with any parameters used to get the particular value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
-          version: '3'
-      type: authoritative
-      id: Probability_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Probability_derived
+  - type: expression
+    normative_status: preferred
+    designation: Probability_derived
   domain: 'application module: Probability_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.physical_unit_keepout_shape_allocation_to_stratum_stack
   localized_concepts:
     eng: 3d2c012d-f8cc-5454-b8d6-1583be9eb0c4
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.physical_unit_keepout_shape_allocation_to_stratum_stack
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical unit keepout shape allocation to stratum stack {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical unit keepout shape allocation to stratum
+      stack {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_unit_keepout_shape_allocation_to_stratum_stack** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Physical_unit_keepout_shape_allocation_to_stratum_stack,Physical_unit_keepout_shape_allocation_to_stratum_stack}}.
+  - content: A **physical_unit_keepout_shape_allocation_to_stratum_stack** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Physical_unit_keepout_shape_allocation_to_stratum_stack,Physical_unit_keepout_shape_allocation_to_stratum_stack}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_unit_keepout_shape_allocation_to_stratum_stack
+  - type: expression
+    normative_status: preferred
+    designation: physical_unit_keepout_shape_allocation_to_stratum_stack
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

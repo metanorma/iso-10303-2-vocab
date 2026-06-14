@@ -1,30 +1,33 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.tsdq_inspection_element
   localized_concepts:
     eng: b8dd00f5-7e48-5269-aa89-b1aff2250d52
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.tsdq_inspection_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the tsdq inspection element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.representation_item,representation_item}}
+      that represents the tsdq inspection element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tsdq_inspection_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that is used in the function **tsdq_get_inspected_element_type_name**.
+  - content: A **tsdq_inspection_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      that is used in the function **tsdq_get_inspected_element_type_name**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tsdq_inspection_element
+  - type: expression
+    normative_status: preferred
+    designation: tsdq_inspection_element
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

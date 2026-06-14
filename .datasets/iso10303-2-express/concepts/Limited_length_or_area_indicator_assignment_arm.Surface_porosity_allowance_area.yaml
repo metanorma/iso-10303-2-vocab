@@ -1,30 +1,35 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.Surface_porosity_allowance_area
   localized_concepts:
     eng: f8173c04-b88b-5c34-802b-aa2f9f235747
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.Surface_porosity_allowance_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the surface porosity allowance area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that represents the surface porosity allowance area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_porosity_allowance_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that is a specification or requirement defining a specific region of a part, where porosity requirements may vary from the default process specification porosity requirements for the part.
+  - content: A **Surface_porosity_allowance_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that is a specification or requirement defining a specific region of a part,
+      where porosity requirements may vary from the default process specification
+      porosity requirements for the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_porosity_allowance_area
+  - type: expression
+    normative_status: preferred
+    designation: Surface_porosity_allowance_area
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []

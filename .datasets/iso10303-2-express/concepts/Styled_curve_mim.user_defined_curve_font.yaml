@@ -1,30 +1,33 @@
+---
 data:
   identifier: Styled_curve_mim.user_defined_curve_font
   localized_concepts:
     eng: ca1f84aa-85b8-5c0a-88cf-2987cdddb9ee
   domains:
-    - concept_id: section-Styled_curve_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_mim
-      ref_type: section
+  - concept_id: section-Styled_curve_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_mim
+    ref_type: section
 id: Styled_curve_mim.user_defined_curve_font
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the user defined curve font {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the user defined curve font {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **user_defined_curve_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style_font,curve_style_font}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.User_defined_curve_font,User_defined_curve_font}}.
+  - content: A **user_defined_curve_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style_font,curve_style_font}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.User_defined_curve_font,User_defined_curve_font}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_mim
-          version: '4'
-      type: authoritative
-      id: Styled_curve_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: user_defined_curve_font
+  - type: expression
+    normative_status: preferred
+    designation: user_defined_curve_font
   domain: 'application module: Styled_curve_mim'
   language_code: eng
   annotations: []

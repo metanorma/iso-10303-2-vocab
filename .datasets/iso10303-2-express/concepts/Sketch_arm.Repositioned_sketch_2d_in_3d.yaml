@@ -1,30 +1,34 @@
+---
 data:
   identifier: Sketch_arm.Repositioned_sketch_2d_in_3d
   localized_concepts:
     eng: 7a177ca8-97b3-53a8-9bee-dd530c5fa6ca
   domains:
-    - concept_id: section-Sketch_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-      ref_type: section
+  - concept_id: section-Sketch_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+    ref_type: section
 id: Sketch_arm.Repositioned_sketch_2d_in_3d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the repositioned sketch 2d in 3d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the repositioned sketch 2d in 3d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Repositioned_sketch_2d_in_3d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that is the re-use of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Sketch_2d_representation,Sketch_2d_representation}} in 3D space.
+  - content: A **Repositioned_sketch_2d_in_3d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that is the re-use of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm.Sketch_2d_representation,Sketch_2d_representation}}
+      in 3D space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-          version: '3'
-      type: authoritative
-      id: Sketch_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Repositioned_sketch_2d_in_3d
+  - type: expression
+    normative_status: preferred
+    designation: Repositioned_sketch_2d_in_3d
   domain: 'application module: Sketch_arm'
   language_code: eng
   annotations: []

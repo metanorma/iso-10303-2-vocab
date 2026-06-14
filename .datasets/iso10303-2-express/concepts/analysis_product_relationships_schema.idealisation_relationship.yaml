@@ -1,30 +1,33 @@
+---
 data:
   identifier: analysis_product_relationships_schema.idealisation_relationship
   localized_concepts:
     eng: ceb12403-e861-5ad7-a38f-9ce8e552201c
   domains:
-    - concept_id: section-analysis_product_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
-      ref_type: section
+  - concept_id: section-analysis_product_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
+    ref_type: section
 id: analysis_product_relationships_schema.idealisation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the idealisation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the idealisation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema.idealisation_relationship,idealisation_relationship}} is a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}} that is an idealisation of a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema.idealisation_relationship,idealisation_relationship}}
+      is a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.temporal_spatial_domain,temporal_spatial_domain}}
+      that is an idealisation of a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
-          version: '1'
-      type: authoritative
-      id: analysis_product_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_product_relationships_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: idealisation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: idealisation_relationship
   domain: 'resource: analysis_product_relationships_schema'
   language_code: eng
   annotations: []

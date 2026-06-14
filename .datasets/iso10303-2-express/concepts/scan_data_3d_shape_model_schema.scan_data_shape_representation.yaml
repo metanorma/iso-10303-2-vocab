@@ -1,30 +1,34 @@
+---
 data:
   identifier: scan_data_3d_shape_model_schema.scan_data_shape_representation
   localized_concepts:
     eng: 79f2a3f6-ddc4-5cad-9dce-c611e299fdd8
   domains:
-    - concept_id: section-scan_data_3d_shape_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-      ref_type: section
+  - concept_id: section-scan_data_3d_shape_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+    ref_type: section
 id: scan_data_3d_shape_model_schema.scan_data_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the scan data shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.shape_representation,shape_representation}}
+      that represents the scan data shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **scan_data_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the geometry of a 3D shape is approximately represented by a set of point cloud data produced by a scanner.
+  - content: A **scan_data_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      in which the geometry of a 3D shape is approximately represented by a set of
+      point cloud data produced by a scanner.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-          version: '2'
-      type: authoritative
-      id: scan_data_3d_shape_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: scan_data_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: scan_data_shape_representation
   domain: 'resource: scan_data_3d_shape_model_schema'
   language_code: eng
   annotations: []

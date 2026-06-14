@@ -1,29 +1,31 @@
+---
 data:
   identifier: Conductivity_material_aspects_arm.Material_electrical_conductivity_class
   localized_concepts:
     eng: bb648239-cdde-53b4-8ce9-b494f5846601
   domains:
-    - concept_id: section-Conductivity_material_aspects_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm
-      ref_type: section
+  - concept_id: section-Conductivity_material_aspects_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm
+    ref_type: section
 id: Conductivity_material_aspects_arm.Material_electrical_conductivity_class
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm.Conductivity_material_property_class,Conductivity_material_property_class}} that represents the material electrical conductivity class {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm.Conductivity_material_property_class,Conductivity_material_property_class}}
+      that represents the material electrical conductivity class {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm
-          version: '2'
-      type: authoritative
-      id: Conductivity_material_aspects_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Conductivity_material_aspects_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Material_electrical_conductivity_class
+  - type: expression
+    normative_status: preferred
+    designation: Material_electrical_conductivity_class
   domain: 'application module: Conductivity_material_aspects_arm'
   language_code: eng
   annotations: []

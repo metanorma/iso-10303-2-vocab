@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.back_chaining_rule_body
   localized_concepts:
     eng: e6c32b13-18a4-56a3-8f0c-650e40d5218c
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.back_chaining_rule_body
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the back chaining rule body {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the back chaining rule body {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **back_chaining_rule_body** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  - content: An **back_chaining_rule_body** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.property_definition_representation,property_definition_representation}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: back_chaining_rule_body
+  - type: expression
+    normative_status: preferred
+    designation: back_chaining_rule_body
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

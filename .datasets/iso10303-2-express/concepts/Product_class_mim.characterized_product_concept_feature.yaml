@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_class_mim.characterized_product_concept_feature
   localized_concepts:
     eng: 2674b112-9655-52aa-94fe-9d6b50f4e357
   domains:
-    - concept_id: section-Product_class_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-      ref_type: section
+  - concept_id: section-Product_class_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+    ref_type: section
 id: Product_class_mim.characterized_product_concept_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized product concept feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized product concept feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that allows a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} to be characterized.
+  - content: A **characterized_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      that allows a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      to be characterized.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-          version: '6'
-      type: authoritative
-      id: Product_class_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_product_concept_feature
+  - type: expression
+    normative_status: preferred
+    designation: characterized_product_concept_feature
   domain: 'application module: Product_class_mim'
   language_code: eng
   annotations: []

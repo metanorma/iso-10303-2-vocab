@@ -1,30 +1,33 @@
+---
 data:
   identifier: Pre_defined_product_data_management_specializations_arm.Pre_defined_date_or_date_time_assignment
   localized_concepts:
     eng: 8e3389b8-a637-5f03-9a67-451304b187ff
   domains:
-    - concept_id: section-Pre_defined_product_data_management_specializations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
-      ref_type: section
+  - concept_id: section-Pre_defined_product_data_management_specializations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+    ref_type: section
 id: Pre_defined_product_data_management_specializations_arm.Pre_defined_date_or_date_time_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_arm.Date_or_date_time_assignment,Date_or_date_time_assignment}} that represents the pre defined date or date time assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm.Date_or_date_time_assignment,Date_or_date_time_assignment}}
+      that represents the pre defined date or date time assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Pre_defined_date_or_date_time_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_arm.Date_or_date_time_assignment,Date_or_date_time_assignment}} whose meaning is defined by one of the {{Pre_defined_date_or_date_time_assignment_types,Pre_defined_date_or_date_time_assignment_types}}.
+  - content: A **Pre_defined_date_or_date_time_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_arm.Date_or_date_time_assignment,Date_or_date_time_assignment}}
+      whose meaning is defined by one of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm.Pre_defined_date_or_date_time_assignment_types,Pre_defined_date_or_date_time_assignment_types}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
-          version: '4'
-      type: authoritative
-      id: Pre_defined_product_data_management_specializations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_product_data_management_specializations_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pre_defined_date_or_date_time_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Pre_defined_date_or_date_time_assignment
   domain: 'application module: Pre_defined_product_data_management_specializations_arm'
   language_code: eng
   annotations: []

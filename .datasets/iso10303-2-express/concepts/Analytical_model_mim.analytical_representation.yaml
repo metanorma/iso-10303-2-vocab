@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_mim.analytical_representation
   localized_concepts:
     eng: 9c264b23-0a7d-55c1-aab2-9f2eb38cf541
   domains:
-    - concept_id: section-Analytical_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-      ref_type: section
+  - concept_id: section-Analytical_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+    ref_type: section
 id: Analytical_model_mim.analytical_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the analytical representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.representation,representation}}
+      that represents the analytical representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **analytical_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_application,Analytical_model_application}}.
+  - content: An **analytical_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_application,Analytical_model_application}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-          version: '5'
-      type: authoritative
-      id: Analytical_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: analytical_representation
+  - type: expression
+    normative_status: preferred
+    designation: analytical_representation
   domain: 'application module: Analytical_model_mim'
   language_code: eng
   annotations: []

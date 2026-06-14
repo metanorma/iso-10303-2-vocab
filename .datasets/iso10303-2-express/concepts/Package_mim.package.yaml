@@ -1,34 +1,36 @@
+---
 data:
   identifier: Package_mim.package
   localized_concepts:
     eng: f829942d-0818-5a1e-8363-84a9f0990eeb
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.package
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that represents the package {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.physical_unit,physical_unit}}
+      that represents the package {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **package** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concepts of:
+  - content: |-
+      A **package** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_mim.physical_unit,physical_unit}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package,Altered_package}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package,Package}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package,Altered_package}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package,Package}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: package
+  - type: expression
+    normative_status: preferred
+    designation: package
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

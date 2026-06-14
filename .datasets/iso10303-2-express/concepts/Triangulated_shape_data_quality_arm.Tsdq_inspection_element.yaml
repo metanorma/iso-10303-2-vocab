@@ -1,30 +1,32 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.Tsdq_inspection_element
   localized_concepts:
     eng: 23aefbbb-610d-5b6d-8efe-a0354b32215b
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.Tsdq_inspection_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tsdq inspection element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tsdq inspection element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tsdq_inspection_element** is the assignment of an inspection element to a triangulate shape element.
+  - content: A **Tsdq_inspection_element** is the assignment of an inspection element
+      to a triangulate shape element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tsdq_inspection_element
+  - type: expression
+    normative_status: preferred
+    designation: Tsdq_inspection_element
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

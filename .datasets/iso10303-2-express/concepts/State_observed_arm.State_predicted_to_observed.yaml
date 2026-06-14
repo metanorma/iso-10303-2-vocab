@@ -1,30 +1,32 @@
+---
 data:
   identifier: State_observed_arm.State_predicted_to_observed
   localized_concepts:
     eng: 0a11a5d7-2964-51fd-86de-bdf60a729009
   domains:
-    - concept_id: section-State_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-      ref_type: section
+  - concept_id: section-State_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+    ref_type: section
 id: State_observed_arm.State_predicted_to_observed
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State_relationship,State_relationship}} that represents the state predicted to observed {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State_relationship,State_relationship}}
+      that represents the state predicted to observed {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **State_predicted_to_observed** is a type of state relationship.
+  - content: A **State_predicted_to_observed** is a type of state relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-          version: '4'
-      type: authoritative
-      id: State_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: State_predicted_to_observed
+  - type: expression
+    normative_status: preferred
+    designation: State_predicted_to_observed
   domain: 'application module: State_observed_arm'
   language_code: eng
   annotations: []

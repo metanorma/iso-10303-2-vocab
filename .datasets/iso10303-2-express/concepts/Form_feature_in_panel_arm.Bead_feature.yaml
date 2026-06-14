@@ -1,30 +1,34 @@
+---
 data:
   identifier: Form_feature_in_panel_arm.Bead_feature
   localized_concepts:
     eng: 50237839-c77b-5727-a055-87e4f45f5034
   domains:
-    - concept_id: section-Form_feature_in_panel_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+    ref_type: section
 id: Form_feature_in_panel_arm.Bead_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}} that represents the bead feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}}
+      that represents the bead feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bead_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}} A **Bead_feature** is a feature that is applied to panel parts to increase the stiffness of the part and for forming to control metal flow.
+  - content: A **Bead_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}}
+      A **Bead_feature** is a feature that is applied to panel parts to increase the
+      stiffness of the part and for forming to control metal flow.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bead_feature
+  - type: expression
+    normative_status: preferred
+    designation: Bead_feature
   domain: 'application module: Form_feature_in_panel_arm'
   language_code: eng
   annotations: []

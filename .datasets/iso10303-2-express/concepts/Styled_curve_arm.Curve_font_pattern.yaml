@@ -1,30 +1,32 @@
+---
 data:
   identifier: Styled_curve_arm.Curve_font_pattern
   localized_concepts:
     eng: 4c40ca8b-346e-59e6-9976-a81c5169429e
   domains:
-    - concept_id: section-Styled_curve_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
-      ref_type: section
+  - concept_id: section-Styled_curve_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
+    ref_type: section
 id: Styled_curve_arm.Curve_font_pattern
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve font pattern {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the curve font pattern {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Curve_font_pattern** is a semaphore pattern (on-off) in the appearance of a curve.
+  - content: A **Curve_font_pattern** is a semaphore pattern (on-off) in the appearance
+      of a curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
-          version: '4'
-      type: authoritative
-      id: Styled_curve_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_font_pattern
+  - type: expression
+    normative_status: preferred
+    designation: Curve_font_pattern
   domain: 'application module: Styled_curve_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_environment_observed_mim.observed_environment_version
   localized_concepts:
     eng: 1ad3c339-1713-55fc-abfa-d9c0ad064a87
   domains:
-    - concept_id: section-Product_environment_observed_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
-      ref_type: section
+  - concept_id: section-Product_environment_observed_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+    ref_type: section
 id: Product_environment_observed_mim.observed_environment_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the observed environment version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim.product_definition_formation,product_definition_formation}}
+      that represents the observed environment version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **observed_environment_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents a version of the record of observations about an environment.
+  - content: An **observed_environment_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that represents a version of the record of observations about an environment.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
-          version: '4'
-      type: authoritative
-      id: Product_environment_observed_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: observed_environment_version
+  - type: expression
+    normative_status: preferred
+    designation: observed_environment_version
   domain: 'application module: Product_environment_observed_mim'
   language_code: eng
   annotations: []

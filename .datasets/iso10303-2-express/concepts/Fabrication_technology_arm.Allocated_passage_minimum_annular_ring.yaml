@@ -1,30 +1,35 @@
+---
 data:
   identifier: Fabrication_technology_arm.Allocated_passage_minimum_annular_ring
   localized_concepts:
     eng: b4ddabff-0331-583f-872f-77a62be346da
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Allocated_passage_minimum_annular_ring
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} that represents the allocated passage minimum annular ring {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Characterizable_object,Characterizable_object}}
+      that represents the allocated passage minimum annular ring {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Allocated_passage_minimum_annular_ring** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}} included to support specification of annular ring properties for the combined technology that results from applying a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}} to a stackup model.
+  - content: An **Allocated_passage_minimum_annular_ring** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm.Characterizable_object,Characterizable_object}}
+      included to support specification of annular ring properties for the combined
+      technology that results from applying a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}}
+      to a stackup model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Allocated_passage_minimum_annular_ring
+  - type: expression
+    normative_status: preferred
+    designation: Allocated_passage_minimum_annular_ring
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

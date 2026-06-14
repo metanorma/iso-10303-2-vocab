@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_mim.analog_analytical_model_port
   localized_concepts:
     eng: bd2be362-18f5-59bf-836c-c9f7c48f7273
   domains:
-    - concept_id: section-Analytical_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-      ref_type: section
+  - concept_id: section-Analytical_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+    ref_type: section
 id: Analytical_model_mim.analog_analytical_model_port
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}} that represents the analog analytical model port {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}}
+      that represents the analog analytical model port {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **analog_analytical_model_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analog_analytical_model_port,Analog_analytical_model_port}}.
+  - content: An **analog_analytical_model_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analog_analytical_model_port,Analog_analytical_model_port}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-          version: '5'
-      type: authoritative
-      id: Analytical_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: analog_analytical_model_port
+  - type: expression
+    normative_status: preferred
+    designation: analog_analytical_model_port
   domain: 'application module: Analytical_model_mim'
   language_code: eng
   annotations: []

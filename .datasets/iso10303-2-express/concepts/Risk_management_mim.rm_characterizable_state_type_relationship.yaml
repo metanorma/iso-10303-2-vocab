@@ -1,30 +1,32 @@
+---
 data:
   identifier: Risk_management_mim.rm_characterizable_state_type_relationship
   localized_concepts:
     eng: 5203bf6f-852e-5540-82c3-a92f8bcbc344
   domains:
-    - concept_id: section-Risk_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
-      ref_type: section
+  - concept_id: section-Risk_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+    ref_type: section
 id: Risk_management_mim.rm_characterizable_state_type_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rm characterizable state type relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rm characterizable state type relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rm_characterizable_state_type_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_relationship,state_type_relationship}}.
+  - content: A **rm_characterizable_state_type_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_relationship,state_type_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
-          version: '4'
-      type: authoritative
-      id: Risk_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rm_characterizable_state_type_relationship
+  - type: expression
+    normative_status: preferred
+    designation: rm_characterizable_state_type_relationship
   domain: 'application module: Risk_management_mim'
   language_code: eng
   annotations: []

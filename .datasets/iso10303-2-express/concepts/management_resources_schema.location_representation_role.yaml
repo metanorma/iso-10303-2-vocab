@@ -1,30 +1,32 @@
+---
 data:
   identifier: management_resources_schema.location_representation_role
   localized_concepts:
     eng: 4bde8a54-ed75-5f20-a6b3-0d7cb3826959
   domains:
-    - concept_id: section-management_resources_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-      ref_type: section
+  - concept_id: section-management_resources_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+    ref_type: section
 id: management_resources_schema.location_representation_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the location representation role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the location representation role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **location_representation_role** is a purpose for a representation of a location and provides identification and description of the purpose.
+  - content: A **location_representation_role** is a purpose for a representation
+      of a location and provides identification and description of the purpose.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-          version: '8'
-      type: authoritative
-      id: management_resources_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: location_representation_role
+  - type: expression
+    normative_status: preferred
+    designation: location_representation_role
   domain: 'resource: management_resources_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.shape_measurement_accuracy
   localized_concepts:
     eng: b45c1405-c9ca-5996-a723-4a832d585251
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.shape_measurement_accuracy
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the shape measurement accuracy {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the shape measurement accuracy {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_measurement_accuracy** is a representation of the accuracy of the numerical calculation for use in the measurement.
+  - content: A **shape_measurement_accuracy** is a representation of the accuracy
+      of the numerical calculation for use in the measurement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_measurement_accuracy
+  - type: expression
+    normative_status: preferred
+    designation: shape_measurement_accuracy
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

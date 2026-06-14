@@ -1,29 +1,31 @@
+---
 data:
   identifier: Extended_basic_geometry_arm.Vector
   localized_concepts:
     eng: e94fc5e7-3d35-5011-b821-5a94e6b00c10
   domains:
-    - concept_id: section-Extended_basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Extended_basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
+    ref_type: section
 id: Extended_basic_geometry_arm.Vector
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the vector {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the vector {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
-          version: '4'
-      type: authoritative
-      id: Extended_basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Vector
+  - type: expression
+    normative_status: preferred
+    designation: Vector
   domain: 'application module: Extended_basic_geometry_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Extended_basic_geometry_arm.Geometric_model_element_relationship
   localized_concepts:
     eng: 8971341b-23f1-5bb7-94d2-481a43f78307
   domains:
-    - concept_id: section-Extended_basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Extended_basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
+    ref_type: section
 id: Extended_basic_geometry_arm.Geometric_model_element_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometric model element relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the geometric model element relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometric_model_element_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm.Detailed_geometric_model_element_relationship,Detailed_geometric_model_element_relationship}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}.
+  - content: A **Geometric_model_element_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm.Detailed_geometric_model_element_relationship,Detailed_geometric_model_element_relationship}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
-          version: '4'
-      type: authoritative
-      id: Extended_basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_basic_geometry_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_model_element_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_model_element_relationship
   domain: 'application module: Extended_basic_geometry_arm'
   language_code: eng
   annotations: []

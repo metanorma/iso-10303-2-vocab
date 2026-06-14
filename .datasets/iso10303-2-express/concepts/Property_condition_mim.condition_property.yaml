@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_condition_mim.condition_property
   localized_concepts:
     eng: bb8d9fb1-c43a-5eae-8d13-6336a2db27ef
   domains:
-    - concept_id: section-Property_condition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
-      ref_type: section
+  - concept_id: section-Property_condition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+    ref_type: section
 id: Property_condition_mim.condition_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_association,general_property_association}} that represents the condition property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim.general_property_association,general_property_association}}
+      that represents the condition property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
-          version: '1'
-      type: authoritative
-      id: Property_condition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: condition_property
+  - type: expression
+    normative_status: preferred
+    designation: condition_property
   domain: 'application module: Property_condition_mim'
   language_code: eng
   annotations: []

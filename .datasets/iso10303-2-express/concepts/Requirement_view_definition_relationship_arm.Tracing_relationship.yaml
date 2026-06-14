@@ -1,30 +1,34 @@
+---
 data:
   identifier: Requirement_view_definition_relationship_arm.Tracing_relationship
   localized_concepts:
     eng: 37ed1d13-9e3c-5088-bf7e-0cb5f75a1f8b
   domains:
-    - concept_id: section-Requirement_view_definition_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
-      ref_type: section
+  - concept_id: section-Requirement_view_definition_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+    ref_type: section
 id: Requirement_view_definition_relationship_arm.Tracing_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} that represents the tracing relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}}
+      that represents the tracing relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tracing_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}} that shows tracing from ({{traces_from,traces_from}}) one requirement to another ({{traces_to,traces_to}}).
+  - content: A **Tracing_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}}
+      that shows tracing from ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Tracing_relationship.traces_from,traces_from}})
+      one requirement to another ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Tracing_relationship.traces_to,traces_to}}).
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
-          version: '4'
-      type: authoritative
-      id: Requirement_view_definition_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tracing_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Tracing_relationship
   domain: 'application module: Requirement_view_definition_relationship_arm'
   language_code: eng
   annotations: []

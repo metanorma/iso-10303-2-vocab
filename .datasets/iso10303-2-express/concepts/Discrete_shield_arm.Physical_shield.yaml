@@ -1,29 +1,31 @@
+---
 data:
   identifier: Discrete_shield_arm.Physical_shield
   localized_concepts:
     eng: 605911af-7a40-5083-b903-cadd4c7be4bf
   domains:
-    - concept_id: section-Discrete_shield_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
-      ref_type: section
+  - concept_id: section-Discrete_shield_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
+    ref_type: section
 id: Discrete_shield_arm.Physical_shield
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}} that represents the physical shield {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Physical_component,Physical_component}}
+      that represents the physical shield {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
-          version: '4'
-      type: authoritative
-      id: Discrete_shield_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_shield
+  - type: expression
+    normative_status: preferred
+    designation: Physical_shield
   domain: 'application module: Discrete_shield_arm'
   language_code: eng
   annotations: []

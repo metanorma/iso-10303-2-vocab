@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_physical_interface_requirement_arm.Protocol_requirement_allocation_to_part_terminal
   localized_concepts:
     eng: ade69f58-cd72-55f5-b491-47bf01013481
   domains:
-    - concept_id: section-Assembly_physical_interface_requirement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-      ref_type: section
+  - concept_id: section-Assembly_physical_interface_requirement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+    ref_type: section
 id: Assembly_physical_interface_requirement_arm.Protocol_requirement_allocation_to_part_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the protocol requirement allocation to part terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Requirement_assignment,Requirement_assignment}}
+      that represents the protocol requirement allocation to part terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Protocol_requirement_allocation_to_part_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} for which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Interface_requirement,Interface_requirement}} is the allocated requirement.
+  - content: A **Protocol_requirement_allocation_to_part_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}}
+      for which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Interface_requirement,Interface_requirement}}
+      is the allocated requirement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-          version: '4'
-      type: authoritative
-      id: Assembly_physical_interface_requirement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Protocol_requirement_allocation_to_part_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Protocol_requirement_allocation_to_part_terminal
   domain: 'application module: Assembly_physical_interface_requirement_arm'
   language_code: eng
   annotations: []

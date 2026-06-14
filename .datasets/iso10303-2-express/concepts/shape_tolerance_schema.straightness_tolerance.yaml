@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_tolerance_schema.straightness_tolerance
   localized_concepts:
     eng: 1af409ef-44c4-5abc-be9c-38a49f979fb6
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.straightness_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the straightness tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}}
+      that represents the straightness tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **straightness_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that applies either to the intersection curves between the surface and the planes parallel to the reference plane, or to the extracted median curve.
+  - content: A **straightness_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}}
+      that applies either to the intersection curves between the surface and the planes
+      parallel to the reference plane, or to the extracted median curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: straightness_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: straightness_tolerance
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

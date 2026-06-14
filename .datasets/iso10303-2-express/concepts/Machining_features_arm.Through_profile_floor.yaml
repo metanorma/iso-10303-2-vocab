@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Through_profile_floor
   localized_concepts:
     eng: d18ff1c8-c6f3-5ffb-9475-ea8acf325e34
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Through_profile_floor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the through profile floor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the through profile floor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Through_profile_floor** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}} which passes through two faces of a part; the depth is specified by the size of the feature.
+  - content: A **Through_profile_floor** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}}
+      which passes through two faces of a part; the depth is specified by the size
+      of the feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Through_profile_floor
+  - type: expression
+    normative_status: preferred
+    designation: Through_profile_floor
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layout_macro_definition_mim.layout_macro_definition
   localized_concepts:
     eng: 23141070-2f7b-5e07-a2d0-5b44323cd8f5
   domains:
-    - concept_id: section-Layout_macro_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
-      ref_type: section
+  - concept_id: section-Layout_macro_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
+    ref_type: section
 id: Layout_macro_definition_mim.layout_macro_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.layered_interconnect_module_design_view,layered_interconnect_module_design_view}} that represents the layout macro definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim.layered_interconnect_module_design_view,layered_interconnect_module_design_view}}
+      that represents the layout macro definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **layout_macro_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.layered_interconnect_module_design_view,layered_interconnect_module_design_view}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_arm.Layout_macro_definition,Layout_macro_definition}}.
+  - content: An **layout_macro_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.layered_interconnect_module_design_view,layered_interconnect_module_design_view}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_arm.Layout_macro_definition,Layout_macro_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
-          version: '4'
-      type: authoritative
-      id: Layout_macro_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layout_macro_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: layout_macro_definition
+  - type: expression
+    normative_status: preferred
+    designation: layout_macro_definition
   domain: 'application module: Layout_macro_definition_mim'
   language_code: eng
   annotations: []

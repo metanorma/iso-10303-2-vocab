@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interconnect_module_usage_view_arm.Located_interconnect_module_thickness_requirement
   localized_concepts:
     eng: 700f2658-7faa-5755-b0b2-fdeee9127b93
   domains:
-    - concept_id: section-Interconnect_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+    ref_type: section
 id: Interconnect_module_usage_view_arm.Located_interconnect_module_thickness_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the located interconnect module thickness requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the located interconnect module thickness requirement
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Located_interconnect_module_thickness_requirement** is a definition that relates a specific location with a thickness requirement for an interconnect substrate.
+  - content: A **Located_interconnect_module_thickness_requirement** is a definition
+      that relates a specific location with a thickness requirement for an interconnect
+      substrate.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Located_interconnect_module_thickness_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Located_interconnect_module_thickness_requirement
   domain: 'application module: Interconnect_module_usage_view_arm'
   language_code: eng
   annotations: []

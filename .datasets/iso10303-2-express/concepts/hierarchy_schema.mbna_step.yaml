@@ -1,30 +1,33 @@
+---
 data:
   identifier: hierarchy_schema.mbna_step
   localized_concepts:
     eng: 8b44859d-708a-5a5e-9a02-45a054a650bb
   domains:
-    - concept_id: section-hierarchy_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
-      ref_type: section
+  - concept_id: section-hierarchy_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+    ref_type: section
 id: hierarchy_schema.mbna_step
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_action_domain,model_action_domain}} that represents the mbna step {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema.model_action_domain,model_action_domain}}
+      that represents the mbna step {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_action* is a single step, or one of a series of steps, in an analysis.
+  - content: An *mbna_action* is a single step, or one of a series of steps, in an
+      analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
-          version: '1'
-      type: authoritative
-      id: hierarchy_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:hierarchy_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_step
+  - type: expression
+    normative_status: preferred
+    designation: mbna_step
   domain: 'resource: hierarchy_schema'
   language_code: eng
   annotations: []

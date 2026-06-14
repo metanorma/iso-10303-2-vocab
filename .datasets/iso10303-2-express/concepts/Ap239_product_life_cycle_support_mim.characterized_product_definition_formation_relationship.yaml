@@ -1,30 +1,34 @@
+---
 data:
   identifier: Ap239_product_life_cycle_support_mim.characterized_product_definition_formation_relationship
   localized_concepts:
     eng: 3b779a71-73e6-5ad5-834c-b33c52f42543
   domains:
-    - concept_id: section-Ap239_product_life_cycle_support_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
-      ref_type: section
+  - concept_id: section-Ap239_product_life_cycle_support_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
+    ref_type: section
 id: Ap239_product_life_cycle_support_mim.characterized_product_definition_formation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized product definition formation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized product definition formation relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_product_definition_formation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}}.
+  - content: A **characterized_product_definition_formation_relationship** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
-          version: '5'
-      type: authoritative
-      id: Ap239_product_life_cycle_support_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_product_life_cycle_support_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_product_definition_formation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: characterized_product_definition_formation_relationship
   domain: 'application module: Ap239_product_life_cycle_support_mim'
   language_code: eng
   annotations: []

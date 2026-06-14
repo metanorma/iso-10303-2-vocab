@@ -1,29 +1,31 @@
+---
 data:
   identifier: Pmi_data_quality_arm.Incorrect_relation_of_geometric_tolerance_and_feature
   localized_concepts:
     eng: d4e04c7a-e8e5-5422-a54d-6545732ba520
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.Incorrect_relation_of_geometric_tolerance_and_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}} that represents the incorrect relation of geometric tolerance and feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}}
+      that represents the incorrect relation of geometric tolerance and feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Incorrect_relation_of_geometric_tolerance_and_feature
+  - type: expression
+    normative_status: preferred
+    designation: Incorrect_relation_of_geometric_tolerance_and_feature
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Process_plan_arm.Resource_requirement_type
   localized_concepts:
     eng: 6b29ae43-4132-5c30-bd69-e94eb16a7717
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Resource_requirement_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource requirement type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the resource requirement type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Resource_requirement_type** is a definition of a kind of a requirement for a resource.
+  - content: A **Resource_requirement_type** is a definition of a kind of a requirement
+      for a resource.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Resource_requirement_type
+  - type: expression
+    normative_status: preferred
+    designation: Resource_requirement_type
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []

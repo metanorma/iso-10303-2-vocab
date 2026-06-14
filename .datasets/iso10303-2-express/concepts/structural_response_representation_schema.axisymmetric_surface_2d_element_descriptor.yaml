@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.axisymmetric_surface_2d_element_descriptor
   localized_concepts:
     eng: 134787df-dbbf-5b06-b6fe-701acde77f79
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.axisymmetric_surface_2d_element_descriptor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_descriptor,element_descriptor}} that represents the axisymmetric surface 2d element descriptor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_descriptor,element_descriptor}}
+      that represents the axisymmetric surface 2d element descriptor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.axisymmetric_surface_2d_element_descriptor,axisymmetric_surface_2d_element_descriptor}} is a collection of information that specifies an axisymmetric surface 2D element.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.axisymmetric_surface_2d_element_descriptor,axisymmetric_surface_2d_element_descriptor}}
+      is a collection of information that specifies an axisymmetric surface 2D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: axisymmetric_surface_2d_element_descriptor
+  - type: expression
+    normative_status: preferred
+    designation: axisymmetric_surface_2d_element_descriptor
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

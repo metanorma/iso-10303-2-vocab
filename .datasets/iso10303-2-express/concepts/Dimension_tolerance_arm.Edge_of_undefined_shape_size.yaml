@@ -1,30 +1,33 @@
+---
 data:
   identifier: Dimension_tolerance_arm.Edge_of_undefined_shape_size
   localized_concepts:
     eng: 193fd41f-8ea8-5ff1-822d-1321c612f273
   domains:
-    - concept_id: section-Dimension_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-      ref_type: section
+  - concept_id: section-Dimension_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+    ref_type: section
 id: Dimension_tolerance_arm.Edge_of_undefined_shape_size
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}} that represents the edge of undefined shape size {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Dimensional_size,Dimensional_size}}
+      that represents the edge of undefined shape size {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Edge_of_undefined_shape_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}} that represents an "edge of undefined shape" size as defined in ISO 13715.
+  - content: An **Edge_of_undefined_shape_size** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}}
+      that represents an "edge of undefined shape" size as defined in ISO 13715.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-          version: '8'
-      type: authoritative
-      id: Dimension_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Edge_of_undefined_shape_size
+  - type: expression
+    normative_status: preferred
+    designation: Edge_of_undefined_shape_size
   domain: 'application module: Dimension_tolerance_arm'
   language_code: eng
   annotations: []

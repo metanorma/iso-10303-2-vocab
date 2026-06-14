@@ -1,30 +1,32 @@
+---
 data:
   identifier: person_organization_schema.organization_role
   localized_concepts:
     eng: 0f2b7eef-d350-59d4-8c96-4981da53d95a
   domains:
-    - concept_id: section-person_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
-      ref_type: section
+  - concept_id: section-person_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+    ref_type: section
 id: person_organization_schema.organization_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the organization role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **organization_role** is a purpose for an **organization** and provides identification and description of the purpose.
+  - content: An **organization_role** is a purpose for an **organization** and provides
+      identification and description of the purpose.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
-          version: '8'
-      type: authoritative
-      id: person_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: organization_role
+  - type: expression
+    normative_status: preferred
+    designation: organization_role
   domain: 'resource: person_organization_schema'
   language_code: eng
   annotations: []

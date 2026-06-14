@@ -1,30 +1,33 @@
+---
 data:
   identifier: General_surface_appearance_arm.Surface_colour
   localized_concepts:
     eng: 282d26d9-c740-5f9b-b857-3b4317f50f4f
   domains:
-    - concept_id: section-General_surface_appearance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
-      ref_type: section
+  - concept_id: section-General_surface_appearance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+    ref_type: section
 id: General_surface_appearance_arm.Surface_colour
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_appearance_element,Surface_appearance_element}} that represents the surface colour {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_appearance_element,Surface_appearance_element}}
+      that represents the surface colour {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_colour** is a type of is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_appearance_element,Surface_appearance_element}} that is the colour for presentation of a surface that are not shaded.
+  - content: A **Surface_colour** is a type of is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_appearance_element,Surface_appearance_element}}
+      that is the colour for presentation of a surface that are not shaded.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
-          version: '3'
-      type: authoritative
-      id: General_surface_appearance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_colour
+  - type: expression
+    normative_status: preferred
+    designation: Surface_colour
   domain: 'application module: General_surface_appearance_arm'
   language_code: eng
   annotations: []

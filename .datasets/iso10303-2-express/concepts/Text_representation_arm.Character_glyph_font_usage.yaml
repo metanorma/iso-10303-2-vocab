@@ -1,30 +1,33 @@
+---
 data:
   identifier: Text_representation_arm.Character_glyph_font_usage
   localized_concepts:
     eng: 89753b4d-8083-57a4-ac04-7fd42674b822
   domains:
-    - concept_id: section-Text_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
-      ref_type: section
+  - concept_id: section-Text_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+    ref_type: section
 id: Text_representation_arm.Character_glyph_font_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the character glyph font usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the character glyph font usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Character_glyph_font_usage** is a means to specify the participation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Character_glyph_symbol,Character_glyph_symbol}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Text_font,Text_font}}.
+  - content: A **Character_glyph_font_usage** is a means to specify the participation
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Character_glyph_symbol,Character_glyph_symbol}}
+      in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm.Text_font,Text_font}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
-          version: '5'
-      type: authoritative
-      id: Text_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Text_representation_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Character_glyph_font_usage
+  - type: expression
+    normative_status: preferred
+    designation: Character_glyph_font_usage
   domain: 'application module: Text_representation_arm'
   language_code: eng
   annotations: []

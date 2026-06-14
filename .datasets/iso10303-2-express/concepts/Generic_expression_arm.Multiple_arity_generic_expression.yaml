@@ -1,30 +1,33 @@
+---
 data:
   identifier: Generic_expression_arm.Multiple_arity_generic_expression
   localized_concepts:
     eng: 1a62f74a-f73f-50a2-a2e6-cb1294bdd87c
   domains:
-    - concept_id: section-Generic_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-      ref_type: section
+  - concept_id: section-Generic_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+    ref_type: section
 id: Generic_expression_arm.Multiple_arity_generic_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} that represents the multiple arity generic expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      that represents the multiple arity generic expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Multiple_arity_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} and is the ABSTRACT SUPERTYPE of all the multiple-arity operators.
+  - content: A **Multiple_arity_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      and is the ABSTRACT SUPERTYPE of all the multiple-arity operators.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-          version: '3'
-      type: authoritative
-      id: Generic_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Multiple_arity_generic_expression
+  - type: expression
+    normative_status: preferred
+    designation: Multiple_arity_generic_expression
   domain: 'application module: Generic_expression_arm'
   language_code: eng
   annotations: []

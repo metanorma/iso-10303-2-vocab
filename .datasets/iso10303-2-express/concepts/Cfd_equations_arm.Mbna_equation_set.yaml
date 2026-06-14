@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_equations_arm.Mbna_equation_set
   localized_concepts:
     eng: b5d8310a-5eea-5db8-b3ef-1844138ba13a
   domains:
-    - concept_id: section-Cfd_equations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-      ref_type: section
+  - concept_id: section-Cfd_equations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+    ref_type: section
 id: Cfd_equations_arm.Mbna_equation_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation,Mbna_equation}} that represents the mbna equation set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation,Mbna_equation}}
+      that represents the mbna equation set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_equation_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation,Mbna_equation}} that gives a general description of governing equations.
+  - content: A **Mbna_equation_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_equation,Mbna_equation}}
+      that gives a general description of governing equations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_equations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_equation_set
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_equation_set
   domain: 'application module: Cfd_equations_arm'
   language_code: eng
   annotations: []

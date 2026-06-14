@@ -1,30 +1,33 @@
+---
 data:
   identifier: Aec_service_life_arm.Service_life_factor
   localized_concepts:
     eng: 919ece98-4c92-5650-99fb-d24cee5cdfed
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Service_life_factor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the service life factor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Product_view_definition,Product_view_definition}}
+      that represents the service life factor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Service_life_factor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that is information about factors which determine the duration of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}.
+  - content: A **Service_life_factor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that is information about factors which determine the duration of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Service_life_factor
+  - type: expression
+    normative_status: preferred
+    designation: Service_life_factor
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

@@ -1,32 +1,34 @@
+---
 data:
   identifier: aic_geometrically_bounded_surface.geometrically_bounded_surface_shape_representation
   localized_concepts:
     eng: 69f00137-7f7f-5255-bbd7-c4d25236f477
   domains:
-    - concept_id: section-aic_geometrically_bounded_surface
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_surface
-      ref_type: section
+  - concept_id: section-aic_geometrically_bounded_surface
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_surface
+    ref_type: section
 id: aic_geometrically_bounded_surface.geometrically_bounded_surface_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the geometrically bounded surface shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_surface.shape_representation,shape_representation}}
+      that represents the geometrically bounded surface shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **geometrically_bounded_surface_shape_representation** describes the shape or portions of the shape
-        of a *product* using a surface model without topology.
+  - content: |-
+      A **geometrically_bounded_surface_shape_representation** describes the shape or portions of the shape
+      of a *product* using a surface model without topology.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_surface
-          version: '1'
-      type: authoritative
-      id: aic_geometrically_bounded_surface
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_geometrically_bounded_surface
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometrically_bounded_surface_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: geometrically_bounded_surface_shape_representation
   domain: 'resource: aic_geometrically_bounded_surface'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_arm.Conversion_based_unit
   localized_concepts:
     eng: 8b0c0368-b8aa-550a-a817-cbd85a8ec1e2
   domains:
-    - concept_id: section-Value_with_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+    ref_type: section
 id: Value_with_unit_arm.Conversion_based_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the conversion based unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that represents the conversion based unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Conversion_based_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that that is based on another and related by a conversion factor.
+  - content: A **Conversion_based_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that that is based on another and related by a conversion factor.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Conversion_based_unit
+  - type: expression
+    normative_status: preferred
+    designation: Conversion_based_unit
   domain: 'application module: Value_with_unit_arm'
   language_code: eng
   annotations: []

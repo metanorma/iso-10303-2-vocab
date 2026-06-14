@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometric_model_schema.cubic_bezier_tessellated_edge
   localized_concepts:
     eng: e6b9f433-d664-556d-b89e-700d2a8a9fb1
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.cubic_bezier_tessellated_edge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_edge,tessellated_edge}} that represents the cubic bezier tessellated edge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_edge,tessellated_edge}}
+      that represents the cubic bezier tessellated edge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cubic_bezier_tessellated_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_edge,tessellated_edge}} which takes the form of a piecewise cubic bezier curve.
+  - content: A **cubic_bezier_tessellated_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_edge,tessellated_edge}}
+      which takes the form of a piecewise cubic bezier curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cubic_bezier_tessellated_edge
+  - type: expression
+    normative_status: preferred
+    designation: cubic_bezier_tessellated_edge
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

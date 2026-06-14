@@ -1,30 +1,33 @@
+---
 data:
   identifier: Integral_shield_mim.routed_shield
   localized_concepts:
     eng: 346d4dcf-f9ee-5d9c-b141-6c3d2669ca72
   domains:
-    - concept_id: section-Integral_shield_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim
-      ref_type: section
+  - concept_id: section-Integral_shield_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim
+    ref_type: section
 id: Integral_shield_mim.routed_shield
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim.integral_shield,integral_shield}} that represents the routed shield {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim.integral_shield,integral_shield}}
+      that represents the routed shield {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **routed_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim.integral_shield,integral_shield}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm.Routed_shield,Routed_shield}}.
+  - content: An **routed_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim.integral_shield,integral_shield}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm.Routed_shield,Routed_shield}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim
-          version: '2'
-      type: authoritative
-      id: Integral_shield_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: routed_shield
+  - type: expression
+    normative_status: preferred
+    designation: routed_shield
   domain: 'application module: Integral_shield_mim'
   language_code: eng
   annotations: []

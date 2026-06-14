@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_breakdown_arm.Breakdown_context
   localized_concepts:
     eng: 124f292d-a02e-52d6-8e96-0d7729366f4d
   domains:
-    - concept_id: section-Product_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-      ref_type: section
+  - concept_id: section-Product_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+    ref_type: section
 id: Product_breakdown_arm.Breakdown_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the breakdown context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the breakdown context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Breakdown_context** is a membership relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} of which the element is a member.
+  - content: A **Breakdown_context** is a membership relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element,Breakdown_element}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}}
+      of which the element is a member.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-          version: '4'
-      type: authoritative
-      id: Product_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Breakdown_context
+  - type: expression
+    normative_status: preferred
+    designation: Breakdown_context
   domain: 'application module: Product_breakdown_arm'
   language_code: eng
   annotations: []

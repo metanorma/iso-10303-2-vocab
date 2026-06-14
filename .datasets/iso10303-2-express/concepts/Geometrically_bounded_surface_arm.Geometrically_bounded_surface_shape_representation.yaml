@@ -1,30 +1,35 @@
+---
 data:
   identifier: Geometrically_bounded_surface_arm.Geometrically_bounded_surface_shape_representation
   localized_concepts:
     eng: e79021fb-68c9-5f94-bac2-35a49b982fda
   domains:
-    - concept_id: section-Geometrically_bounded_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-      ref_type: section
+  - concept_id: section-Geometrically_bounded_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+    ref_type: section
 id: Geometrically_bounded_surface_arm.Geometrically_bounded_surface_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the geometrically bounded surface shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm.Geometric_model,Geometric_model}}
+      that represents the geometrically bounded surface shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometrically_bounded_surface_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that consists of one or many surface models defined as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm.Surface_set,Surface_set}}s, and transformations, if needed.
+  - content: A **Geometrically_bounded_surface_shape_representation** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that consists of one or many surface models defined as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm.Surface_set,Surface_set}}s,
+      and transformations, if needed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-          version: '3'
-      type: authoritative
-      id: Geometrically_bounded_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometrically_bounded_surface_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Geometrically_bounded_surface_shape_representation
   domain: 'application module: Geometrically_bounded_surface_arm'
   language_code: eng
   annotations: []

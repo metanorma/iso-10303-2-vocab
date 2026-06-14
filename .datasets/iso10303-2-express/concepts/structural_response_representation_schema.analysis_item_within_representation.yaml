@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.analysis_item_within_representation
   localized_concepts:
     eng: e59be2d7-4101-5ff7-8ff0-8d4592200842
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.analysis_item_within_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analysis item within representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the analysis item within representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.analysis_item_within_representation,analysis_item_within_representation}} is a reference to an individual {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} used in a specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.analysis_item_within_representation,analysis_item_within_representation}}
+      is a reference to an individual {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      used in a specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: analysis_item_within_representation
+  - type: expression
+    normative_status: preferred
+    designation: analysis_item_within_representation
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Extended_task_element_arm.Task_io_hierarchy
   localized_concepts:
     eng: 4c5c6fec-66a1-5d8d-875d-6e77aade67dd
   domains:
-    - concept_id: section-Extended_task_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
-      ref_type: section
+  - concept_id: section-Extended_task_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
+    ref_type: section
 id: Extended_task_element_arm.Task_io_hierarchy
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the task io hierarchy {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the task io hierarchy {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Task_io_hierarchy** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm.Task_io,Task_io}} that asserts that the **parent** task io is represented by the **child** task io at the next level of breakdown.
+  - content: A **Task_io_hierarchy** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm.Task_io,Task_io}}
+      that asserts that the **parent** task io is represented by the **child** task
+      io at the next level of breakdown.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
-          version: '1'
-      type: authoritative
-      id: Extended_task_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_task_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Task_io_hierarchy
+  - type: expression
+    normative_status: preferred
+    designation: Task_io_hierarchy
   domain: 'application module: Extended_task_element_arm'
   language_code: eng
   annotations: []

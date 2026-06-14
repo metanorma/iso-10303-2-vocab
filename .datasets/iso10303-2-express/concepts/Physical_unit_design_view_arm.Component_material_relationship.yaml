@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_unit_design_view_arm.Component_material_relationship
   localized_concepts:
     eng: b940fc74-832f-5310-ac18-638f134e77fa
   domains:
-    - concept_id: section-Physical_unit_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-      ref_type: section
+  - concept_id: section-Physical_unit_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+    ref_type: section
 id: Physical_unit_design_view_arm.Component_material_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component material relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component material relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_material_relationship** is a means to provide the ability to relate at a component level a process specific assembly requirement that bonds two items together using a third item as the bonding agent.
+  - content: A **Component_material_relationship** is a means to provide the ability
+      to relate at a component level a process specific assembly requirement that
+      bonds two items together using a third item as the bonding agent.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-          version: '5'
-      type: authoritative
-      id: Physical_unit_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_material_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Component_material_relationship
   domain: 'application module: Physical_unit_design_view_arm'
   language_code: eng
   annotations: []

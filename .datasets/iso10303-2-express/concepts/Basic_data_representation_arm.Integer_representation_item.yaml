@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_data_representation_arm.Integer_representation_item
   localized_concepts:
     eng: 5d5c7451-5250-5b7c-849a-093949a39680
   domains:
-    - concept_id: section-Basic_data_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
-      ref_type: section
+  - concept_id: section-Basic_data_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+    ref_type: section
 id: Basic_data_representation_arm.Integer_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the integer representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Representation_item,Representation_item}}
+      that represents the integer representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Integer_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} whose value is an integer.
+  - content: A **Integer_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      whose value is an integer.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
-          version: '3'
-      type: authoritative
-      id: Basic_data_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Integer_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Integer_representation_item
   domain: 'application module: Basic_data_representation_arm'
   language_code: eng
   annotations: []

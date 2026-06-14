@@ -1,31 +1,34 @@
+---
 data:
   identifier: iso13584_expressions_schema.mult_expression
   localized_concepts:
-    eng: 07183dab-b6a7-54df-9de3-ea02b4dec3a4
+    eng: '07183dab-b6a7-54df-9de3-ea02b4dec3a4'
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.mult_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}} that represents the mult expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.multiple_arity_numeric_expression,multiple_arity_numeric_expression}}
+      that represents the mult expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The *mult_expression* entity carries the semantics of the EXPRESS '*' operator, defined in ISO 10303-11, on NUMBER data type.
+  - content: The *mult_expression* entity carries the semantics of the EXPRESS '*'
+      operator, defined in ISO 10303-11, on NUMBER data type.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mult_expression
+  - type: expression
+    normative_status: preferred
+    designation: mult_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []
-id: 07183dab-b6a7-54df-9de3-ea02b4dec3a4
+id: '07183dab-b6a7-54df-9de3-ea02b4dec3a4'

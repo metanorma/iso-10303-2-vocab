@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_component_arm.Physical_component
   localized_concepts:
     eng: 73053585-e6a8-5ce0-9d6d-18d5e7f296c6
   domains:
-    - concept_id: section-Assembly_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm
+    ref_type: section
 id: Assembly_component_arm.Physical_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}} that represents the physical component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}
+      that represents the physical component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_component
+  - type: expression
+    normative_status: preferred
+    designation: Physical_component
   domain: 'application module: Assembly_component_arm'
   language_code: eng
   annotations: []

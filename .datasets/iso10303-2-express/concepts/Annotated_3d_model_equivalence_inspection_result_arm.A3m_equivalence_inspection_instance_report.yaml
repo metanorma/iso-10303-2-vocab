@@ -1,30 +1,34 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report
   localized_concepts:
     eng: f33799e0-9f0b-56e0-85ef-07ff60304055
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_report,A3m_equivalence_inspection_report}} that represents the a3m equivalence inspection instance report {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_report,A3m_equivalence_inspection_report}}
+      that represents the a3m equivalence inspection instance report {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_equivalence_inspection_instance_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_report,A3m_equivalence_inspection_report}} that represents detailed information about inspection results at the entity instance level for one specific criterion.
+  - content: An **A3m_equivalence_inspection_instance_report** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_report,A3m_equivalence_inspection_report}}
+      that represents detailed information about inspection results at the entity
+      instance level for one specific criterion.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_equivalence_inspection_instance_report
+  - type: expression
+    normative_status: preferred
+    designation: A3m_equivalence_inspection_instance_report
   domain: 'application module: Annotated_3d_model_equivalence_inspection_result_arm'
   language_code: eng
   annotations: []

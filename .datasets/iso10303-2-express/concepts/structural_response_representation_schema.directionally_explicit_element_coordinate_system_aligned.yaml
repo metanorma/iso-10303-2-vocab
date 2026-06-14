@@ -1,30 +1,35 @@
+---
 data:
   identifier: structural_response_representation_schema.directionally_explicit_element_coordinate_system_aligned
   localized_concepts:
     eng: 76878d79-85ff-5a6d-939f-b2a1704e8a93
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.directionally_explicit_element_coordinate_system_aligned
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}} that represents the directionally explicit element coordinate system aligned {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}}
+      that represents the directionally explicit element coordinate system aligned
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.directionally_explicit_element_coordinate_system_aligned,directionally_explicit_element_coordinate_system_aligned}} is an aligned orthogonal coordinate system for orienting a directionally explicit element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.directionally_explicit_element_coordinate_system_aligned,directionally_explicit_element_coordinate_system_aligned}}
+      is an aligned orthogonal coordinate system for orienting a directionally explicit
+      element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: directionally_explicit_element_coordinate_system_aligned
+  - type: expression
+    normative_status: preferred
+    designation: directionally_explicit_element_coordinate_system_aligned
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

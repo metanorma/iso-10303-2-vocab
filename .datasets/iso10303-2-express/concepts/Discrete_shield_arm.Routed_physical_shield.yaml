@@ -1,30 +1,32 @@
+---
 data:
   identifier: Discrete_shield_arm.Routed_physical_shield
   localized_concepts:
     eng: 88833230-ab91-53f0-9499-536c48f8c663
   domains:
-    - concept_id: section-Discrete_shield_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
-      ref_type: section
+  - concept_id: section-Discrete_shield_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
+    ref_type: section
 id: Discrete_shield_arm.Routed_physical_shield
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the routed physical shield {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the routed physical shield {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Routed_physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Physical_shield,Physical_shield}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Routed_physical_component,Routed_physical_component}}.
+  - content: A **Routed_physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Physical_shield,Physical_shield}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Routed_physical_component,Routed_physical_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
-          version: '4'
-      type: authoritative
-      id: Discrete_shield_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Routed_physical_shield
+  - type: expression
+    normative_status: preferred
+    designation: Routed_physical_shield
   domain: 'application module: Discrete_shield_arm'
   language_code: eng
   annotations: []

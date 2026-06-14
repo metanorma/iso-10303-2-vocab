@@ -1,29 +1,32 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_arm.Design_specific_stratum_technology_mapping_relationship
   localized_concepts:
     eng: 3be0c308-c9d4-5aa1-8924-f87adababe9d
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+    ref_type: section
 id: Layered_interconnect_complex_template_arm.Design_specific_stratum_technology_mapping_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_mapping_relationship,Stratum_technology_mapping_relationship}} that represents the design specific stratum technology mapping relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Stratum_technology_mapping_relationship,Stratum_technology_mapping_relationship}}
+      that represents the design specific stratum technology mapping relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_specific_stratum_technology_mapping_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Design_specific_stratum_technology_mapping_relationship
   domain: 'application module: Layered_interconnect_complex_template_arm'
   language_code: eng
   annotations: []

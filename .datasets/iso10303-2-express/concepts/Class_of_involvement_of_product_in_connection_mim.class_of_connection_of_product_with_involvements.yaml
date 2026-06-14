@@ -1,29 +1,31 @@
+---
 data:
   identifier: Class_of_involvement_of_product_in_connection_mim.class_of_connection_of_product_with_involvements
   localized_concepts:
     eng: 616412da-d75e-5e1f-af79-74cf4f02969d
   domains:
-    - concept_id: section-Class_of_involvement_of_product_in_connection_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_of_product_in_connection_mim
-      ref_type: section
+  - concept_id: section-Class_of_involvement_of_product_in_connection_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_of_product_in_connection_mim
+    ref_type: section
 id: Class_of_involvement_of_product_in_connection_mim.class_of_connection_of_product_with_involvements
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class of connection of product with involvements {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the class of connection of product with involvements
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_of_product_in_connection_mim
-          version: '1'
-      type: authoritative
-      id: Class_of_involvement_of_product_in_connection_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_involvement_of_product_in_connection_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_of_connection_of_product_with_involvements
+  - type: expression
+    normative_status: preferred
+    designation: class_of_connection_of_product_with_involvements
   domain: 'application module: Class_of_involvement_of_product_in_connection_mim'
   language_code: eng
   annotations: []

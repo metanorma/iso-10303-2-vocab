@@ -1,30 +1,33 @@
+---
 data:
   identifier: draughting_element_schema.annotation_plane
   localized_concepts:
     eng: d14a5f55-e7da-5884-a193-631ce4debcac
   domains:
-    - concept_id: section-draughting_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-      ref_type: section
+  - concept_id: section-draughting_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+    ref_type: section
 id: draughting_element_schema.annotation_plane
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the annotation plane {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the annotation plane {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **annotation_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} for the purpose of grouping annotation elements within a 3D coordinate space.
+  - content: An **annotation_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      for the purpose of grouping annotation elements within a 3D coordinate space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-          version: '7'
-      type: authoritative
-      id: draughting_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: annotation_plane
+  - type: expression
+    normative_status: preferred
+    designation: annotation_plane
   domain: 'resource: draughting_element_schema'
   language_code: eng
   annotations: []

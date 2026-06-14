@@ -1,30 +1,35 @@
+---
 data:
   identifier: Functional_breakdown_arm.Functional_breakdown_context
   localized_concepts:
     eng: d25e55a8-6287-56d9-82e5-81c884fe8f9c
   domains:
-    - concept_id: section-Functional_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
-      ref_type: section
+  - concept_id: section-Functional_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+    ref_type: section
 id: Functional_breakdown_arm.Functional_breakdown_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_context,Breakdown_context}} that represents the functional breakdown context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Breakdown_context,Breakdown_context}}
+      that represents the functional breakdown context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Functional_breakdown_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_context,Breakdown_context}} that is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element,Functional_element}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_breakdown,Functional_breakdown}} of which the functional element is a member.
+  - content: A **Functional_breakdown_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_context,Breakdown_context}}
+      that is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element,Functional_element}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_breakdown,Functional_breakdown}}
+      of which the functional element is a member.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
-          version: '2'
-      type: authoritative
-      id: Functional_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_breakdown_context
+  - type: expression
+    normative_status: preferred
+    designation: Functional_breakdown_context
   domain: 'application module: Functional_breakdown_arm'
   language_code: eng
   annotations: []

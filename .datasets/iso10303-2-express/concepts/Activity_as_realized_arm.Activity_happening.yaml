@@ -1,29 +1,31 @@
+---
 data:
   identifier: Activity_as_realized_arm.Activity_happening
   localized_concepts:
     eng: d7040f38-d74d-5d67-8976-acfa2b4f5606
   domains:
-    - concept_id: section-Activity_as_realized_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
-      ref_type: section
+  - concept_id: section-Activity_as_realized_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
+    ref_type: section
 id: Activity_as_realized_arm.Activity_happening
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity_relationship,Activity_relationship}} that represents the activity happening {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm.Activity_relationship,Activity_relationship}}
+      that represents the activity happening {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
-          version: '3'
-      type: authoritative
-      id: Activity_as_realized_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_as_realized_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Activity_happening
+  - type: expression
+    normative_status: preferred
+    designation: Activity_happening
   domain: 'application module: Activity_as_realized_arm'
   language_code: eng
   annotations: []

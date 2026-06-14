@@ -1,32 +1,34 @@
+---
 data:
   identifier: aic_advanced_brep.advanced_brep_shape_representation
   localized_concepts:
     eng: 51e6bc65-8f34-5ed3-b71f-d110b9c037ae
   domains:
-    - concept_id: section-aic_advanced_brep
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_advanced_brep
-      ref_type: section
+  - concept_id: section-aic_advanced_brep
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_advanced_brep
+    ref_type: section
 id: aic_advanced_brep.advanced_brep_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the advanced brep shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_advanced_brep.shape_representation,shape_representation}}
+      that represents the advanced brep shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        The *advanced_brep_shape_representation* is a type of *shape_representation* in which the
-        representation items are specialisations of *manifold_solid_brep* entities.
+  - content: |-
+      The *advanced_brep_shape_representation* is a type of *shape_representation* in which the
+      representation items are specialisations of *manifold_solid_brep* entities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_advanced_brep
-          version: '1'
-      type: authoritative
-      id: aic_advanced_brep
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_advanced_brep
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: advanced_brep_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: advanced_brep_shape_representation
   domain: 'resource: aic_advanced_brep'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Kinematic_motion_representation_arm.Path_node
   localized_concepts:
     eng: 49c68656-5ee5-544f-9168-fe91a1e69145
   domains:
-    - concept_id: section-Kinematic_motion_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-      ref_type: section
+  - concept_id: section-Kinematic_motion_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+    ref_type: section
 id: Kinematic_motion_representation_arm.Path_node
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path_segment,Kinematic_path_segment}} that represents the path node {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path_segment,Kinematic_path_segment}}
+      that represents the path node {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Path_node** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path_segment,Kinematic_path_segment}} that is a constituent of a path definition.
+  - content: A **Path_node** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path_segment,Kinematic_path_segment}}
+      that is a constituent of a path definition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-          version: '3'
-      type: authoritative
-      id: Kinematic_motion_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Path_node
+  - type: expression
+    normative_status: preferred
+    designation: Path_node
   domain: 'application module: Kinematic_motion_representation_arm'
   language_code: eng
   annotations: []

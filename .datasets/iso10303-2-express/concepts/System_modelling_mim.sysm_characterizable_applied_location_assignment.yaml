@@ -1,30 +1,33 @@
+---
 data:
   identifier: System_modelling_mim.sysm_characterizable_applied_location_assignment
   localized_concepts:
     eng: e09b532c-f1ac-543a-adc7-f95e4a45a965
   domains:
-    - concept_id: section-System_modelling_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_modelling_mim
-      ref_type: section
+  - concept_id: section-System_modelling_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_modelling_mim
+    ref_type: section
 id: System_modelling_mim.sysm_characterizable_applied_location_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the sysm characterizable applied location assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the sysm characterizable applied location assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **sysm_characterizable_applied_location_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim.applied_location_assignment,applied_location_assignment}}.
+  - content: A **sysm_characterizable_applied_location_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_assignment_mim.applied_location_assignment,applied_location_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_modelling_mim
-          version: '2'
-      type: authoritative
-      id: System_modelling_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_modelling_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sysm_characterizable_applied_location_assignment
+  - type: expression
+    normative_status: preferred
+    designation: sysm_characterizable_applied_location_assignment
   domain: 'application module: System_modelling_mim'
   language_code: eng
   annotations: []

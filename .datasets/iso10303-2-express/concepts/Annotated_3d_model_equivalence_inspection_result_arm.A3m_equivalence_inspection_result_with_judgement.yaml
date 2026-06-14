@@ -1,30 +1,35 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result_with_judgement
   localized_concepts:
     eng: 59ceed38-2f16-5861-98d8-73a9e8a7f9fa
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result_with_judgement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result,A3m_equivalence_inspection_result}} that represents the a3m equivalence inspection result with judgement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result,A3m_equivalence_inspection_result}}
+      that represents the a3m equivalence inspection result with judgement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_equivalence_inspection_result_with_judgement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result,A3m_equivalence_inspection_result}} that contains information on whether the data inspected has passed or failed the test for the criterion.
+  - content: An **A3m_equivalence_inspection_result_with_judgement** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result,A3m_equivalence_inspection_result}}
+      that contains information on whether the data inspected has passed or failed
+      the test for the criterion.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_equivalence_inspection_result_with_judgement
+  - type: expression
+    normative_status: preferred
+    designation: A3m_equivalence_inspection_result_with_judgement
   domain: 'application module: Annotated_3d_model_equivalence_inspection_result_arm'
   language_code: eng
   annotations: []

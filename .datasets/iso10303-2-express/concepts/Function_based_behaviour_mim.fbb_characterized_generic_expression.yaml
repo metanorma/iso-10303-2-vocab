@@ -1,30 +1,32 @@
+---
 data:
   identifier: Function_based_behaviour_mim.fbb_characterized_generic_expression
   localized_concepts:
     eng: 5efa1388-4e47-586c-865f-cb49b055a1fc
   domains:
-    - concept_id: section-Function_based_behaviour_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
-      ref_type: section
+  - concept_id: section-Function_based_behaviour_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
+    ref_type: section
 id: Function_based_behaviour_mim.fbb_characterized_generic_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fbb characterized generic expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fbb characterized generic expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **fbb_characterized_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_expression,generic_expression}}.
+  - content: A **fbb_characterized_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_expression,generic_expression}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
-          version: '3'
-      type: authoritative
-      id: Function_based_behaviour_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fbb_characterized_generic_expression
+  - type: expression
+    normative_status: preferred
+    designation: fbb_characterized_generic_expression
   domain: 'application module: Function_based_behaviour_mim'
   language_code: eng
   annotations: []

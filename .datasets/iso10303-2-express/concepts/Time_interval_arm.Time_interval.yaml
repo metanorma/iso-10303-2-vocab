@@ -1,30 +1,31 @@
+---
 data:
   identifier: Time_interval_arm.Time_interval
   localized_concepts:
     eng: 0ae87b83-8928-5545-bdbf-4ea3dd670f10
   domains:
-    - concept_id: section-Time_interval_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
-      ref_type: section
+  - concept_id: section-Time_interval_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
+    ref_type: section
 id: Time_interval_arm.Time_interval
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the time interval {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the time interval {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Time_interval** is the identification of an intervening time.
+  - content: A **Time_interval** is the identification of an intervening time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
-          version: '1'
-      type: authoritative
-      id: Time_interval_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Time_interval_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Time_interval
+  - type: expression
+    normative_status: preferred
+    designation: Time_interval
   domain: 'application module: Time_interval_arm'
   language_code: eng
   annotations: []

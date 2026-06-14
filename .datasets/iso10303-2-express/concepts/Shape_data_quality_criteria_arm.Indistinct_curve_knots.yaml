@@ -1,29 +1,31 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Indistinct_curve_knots
   localized_concepts:
     eng: 78993139-7da2-580f-ae16-361789d3f6ec
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Indistinct_curve_knots
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy,Geometry_with_local_near_degeneracy}} that represents the indistinct curve knots {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy,Geometry_with_local_near_degeneracy}}
+      that represents the indistinct curve knots {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Indistinct_curve_knots
+  - type: expression
+    normative_status: preferred
+    designation: Indistinct_curve_knots
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []

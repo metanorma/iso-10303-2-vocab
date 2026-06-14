@@ -1,30 +1,33 @@
+---
 data:
   identifier: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_build_plate_relationship
   localized_concepts:
     eng: 7b577c98-281c-5ab2-9286-488d1ad14218
   domains:
-    - concept_id: section-Additive_manufacturing_part_and_build_information_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-      ref_type: section
+  - concept_id: section-Additive_manufacturing_part_and_build_information_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+    ref_type: section
 id: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_build_plate_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}} that represents the additive manufacturing build plate relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}}
+      that represents the additive manufacturing build plate relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **additive_manufacturing_build_plate_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}} that specifies the usage of a build plate in the setup.
+  - content: An **additive_manufacturing_build_plate_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup_relationship,additive_manufacturing_setup_relationship}}
+      that specifies the usage of a build plate in the setup.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-          version: '2'
-      type: authoritative
-      id: Additive_manufacturing_part_and_build_information_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: additive_manufacturing_build_plate_relationship
+  - type: expression
+    normative_status: preferred
+    designation: additive_manufacturing_build_plate_relationship
   domain: 'application module: Additive_manufacturing_part_and_build_information_mim'
   language_code: eng
   annotations: []

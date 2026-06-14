@@ -1,30 +1,34 @@
+---
 data:
   identifier: Datum_and_datum_systems_mim.point_on_plane
   localized_concepts:
     eng: 949794ee-ed82-5edd-b727-4bb623a778e8
   domains:
-    - concept_id: section-Datum_and_datum_systems_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+    ref_type: section
 id: Datum_and_datum_systems_mim.point_on_plane
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_surface,point_on_surface}} that represents the point on plane {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim.point_on_surface,point_on_surface}}
+      that represents the point on plane {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **point_on_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_surface,point_on_surface}} where the {{basis_surface,basis_surface}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
+  - content: A **point_on_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_surface,point_on_surface}}
+      where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_surface.basis_surface,basis_surface}}
+      is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_on_plane
+  - type: expression
+    normative_status: preferred
+    designation: point_on_plane
   domain: 'application module: Datum_and_datum_systems_mim'
   language_code: eng
   annotations: []

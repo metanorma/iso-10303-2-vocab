@@ -1,30 +1,36 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.interpolated_configuration_sequence
   localized_concepts:
     eng: 6eb4c2a3-e17e-5c24-9570-aa174994babb
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.interpolated_configuration_sequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the interpolated configuration sequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the interpolated configuration sequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **interpolated_configuration_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represent a sequence of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_segment,interpolated_configuration_segment}}s, each consisting of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.mechanism_state_representation,mechanism_state_representation}} at a particular parameter value and an interpolation type to the next or in the case of the last one to the first {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_segment,interpolated_configuration_segment}}.
+  - content: An **interpolated_configuration_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that represent a sequence of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_segment,interpolated_configuration_segment}}s,
+      each consisting of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.mechanism_state_representation,mechanism_state_representation}}
+      at a particular parameter value and an interpolation type to the next or in
+      the case of the last one to the first {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.interpolated_configuration_segment,interpolated_configuration_segment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interpolated_configuration_sequence
+  - type: expression
+    normative_status: preferred
+    designation: interpolated_configuration_sequence
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

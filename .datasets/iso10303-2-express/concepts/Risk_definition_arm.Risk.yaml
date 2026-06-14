@@ -1,30 +1,33 @@
+---
 data:
   identifier: Risk_definition_arm.Risk
   localized_concepts:
     eng: 8f4773d0-df70-52ac-b23e-33066126a2cd
   domains:
-    - concept_id: section-Risk_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-      ref_type: section
+  - concept_id: section-Risk_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+    ref_type: section
 id: Risk_definition_arm.Risk
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the risk {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Product,Product}}
+      that represents the risk {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Risk** is a type of Product that is the potential for realization of unwanted negative consequences of an event.
+  - content: A **Risk** is a type of Product that is the potential for realization
+      of unwanted negative consequences of an event.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-          version: '3'
-      type: authoritative
-      id: Risk_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Risk
+  - type: expression
+    normative_status: preferred
+    designation: Risk
   domain: 'application module: Risk_definition_arm'
   language_code: eng
   annotations: []

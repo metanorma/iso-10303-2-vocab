@@ -1,30 +1,32 @@
+---
 data:
   identifier: Required_resource_arm.Required_resource_requirement
   localized_concepts:
     eng: 2c4e0bde-a0ce-55c5-af60-d544d49d339e
   domains:
-    - concept_id: section-Required_resource_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
-      ref_type: section
+  - concept_id: section-Required_resource_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+    ref_type: section
 id: Required_resource_arm.Required_resource_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the required resource requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the required resource requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Required_resource_requirement** is an association of a required resource with one or more requirement version entities that fulfil the resource requirement.
+  - content: A **Required_resource_requirement** is an association of a required resource
+      with one or more requirement version entities that fulfil the resource requirement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
-          version: '3'
-      type: authoritative
-      id: Required_resource_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Required_resource_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Required_resource_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Required_resource_requirement
   domain: 'application module: Required_resource_arm'
   language_code: eng
   annotations: []

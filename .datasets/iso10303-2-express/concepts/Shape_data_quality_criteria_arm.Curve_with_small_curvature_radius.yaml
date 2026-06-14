@@ -1,29 +1,31 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Curve_with_small_curvature_radius
   localized_concepts:
     eng: add0cd7d-62ee-53a3-b803-e589c0c8028e
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Curve_with_small_curvature_radius
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy,Geometry_with_local_near_degeneracy}} that represents the curve with small curvature radius {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy,Geometry_with_local_near_degeneracy}}
+      that represents the curve with small curvature radius {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_with_small_curvature_radius
+  - type: expression
+    normative_status: preferred
+    designation: Curve_with_small_curvature_radius
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []

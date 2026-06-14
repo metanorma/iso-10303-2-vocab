@@ -1,33 +1,35 @@
+---
 data:
   identifier: counterbore_countersink_schema.basic_round_hole_occurrence
   localized_concepts:
     eng: 616a5953-5cb5-5530-9477-d26104375ef6
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.basic_round_hole_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that represents the basic round hole occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.shape_aspect_occurrence,shape_aspect_occurrence}}
+      that represents the basic round hole occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **basic_round_hole_occurrence** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that is an application of a
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.basic_round_hole,basic_round_hole}} a design definition.
+  - content: |-
+      A **basic_round_hole_occurrence** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_occurrence,shape_aspect_occurrence}} that is an application of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.basic_round_hole,basic_round_hole}} a design definition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: basic_round_hole_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: basic_round_hole_occurrence
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

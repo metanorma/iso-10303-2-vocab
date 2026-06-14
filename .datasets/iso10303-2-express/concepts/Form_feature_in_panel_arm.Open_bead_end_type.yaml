@@ -1,29 +1,31 @@
+---
 data:
   identifier: Form_feature_in_panel_arm.Open_bead_end_type
   localized_concepts:
     eng: 91d754bb-b02b-594a-8b29-8cc23a7f24af
   domains:
-    - concept_id: section-Form_feature_in_panel_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+    ref_type: section
 id: Form_feature_in_panel_arm.Open_bead_end_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Bead_end_type,Bead_end_type}} that represents the open bead end type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Bead_end_type,Bead_end_type}}
+      that represents the open bead end type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Open_bead_end_type
+  - type: expression
+    normative_status: preferred
+    designation: Open_bead_end_type
   domain: 'application module: Form_feature_in_panel_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: process_property_schema.resource_requirement_type
   localized_concepts:
     eng: 6c0026a1-82d2-5d51-81d5-fe070e4803d4
   domains:
-    - concept_id: section-process_property_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-      ref_type: section
+  - concept_id: section-process_property_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+    ref_type: section
 id: process_property_schema.resource_requirement_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the resource requirement type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the resource requirement type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.resource_requirement_type,resource_requirement_type}} is a taxonomic designation that is used to distinguish requirements or characteristics of requirements as belonging to an identified group or classification.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.resource_requirement_type,resource_requirement_type}}
+      is a taxonomic designation that is used to distinguish requirements or characteristics
+      of requirements as belonging to an identified group or classification.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-          version: '1'
-      type: authoritative
-      id: process_property_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: resource_requirement_type
+  - type: expression
+    normative_status: preferred
+    designation: resource_requirement_type
   domain: 'resource: process_property_schema'
   language_code: eng
   annotations: []

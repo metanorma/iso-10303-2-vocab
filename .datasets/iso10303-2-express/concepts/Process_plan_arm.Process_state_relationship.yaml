@@ -1,29 +1,31 @@
+---
 data:
   identifier: Process_plan_arm.Process_state_relationship
   localized_concepts:
     eng: 4771bc55-f2bf-5191-8f84-dd45abc5735d
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Process_state_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that represents the process state relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Part_definition_relationship,Part_definition_relationship}}
+      that represents the process state relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Process_state_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Process_state_relationship
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Internal_stratum_access
   localized_concepts:
     eng: 4d2a9572-f983-5b8c-8a15-75310654c0f8
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Internal_stratum_access
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the internal stratum access {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the internal stratum access {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Internal_stratum_access** is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Internal_probe_access_area,Internal_probe_access_area}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Via,Via}} that provides access to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}} on an internal {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}}.
+  - content: An **Internal_stratum_access** is a relationship between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Internal_probe_access_area,Internal_probe_access_area}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Via,Via}}
+      that provides access to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}}
+      on an internal {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Internal_stratum_access
+  - type: expression
+    normative_status: preferred
+    designation: Internal_stratum_access
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

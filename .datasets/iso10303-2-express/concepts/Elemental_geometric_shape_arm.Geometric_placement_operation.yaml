@@ -1,29 +1,31 @@
+---
 data:
   identifier: Elemental_geometric_shape_arm.Geometric_placement_operation
   localized_concepts:
     eng: 96102732-af1b-5dbf-ad28-d37f95917f51
   domains:
-    - concept_id: section-Elemental_geometric_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-      ref_type: section
+  - concept_id: section-Elemental_geometric_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+    ref_type: section
 id: Elemental_geometric_shape_arm.Geometric_placement_operation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the geometric placement operation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the geometric placement operation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-          version: '12'
-      type: authoritative
-      id: Elemental_geometric_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_placement_operation
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_placement_operation
   domain: 'application module: Elemental_geometric_shape_arm'
   language_code: eng
   annotations: []

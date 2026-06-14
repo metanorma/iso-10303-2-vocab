@@ -1,30 +1,33 @@
+---
 data:
   identifier: Document_properties_arm.Assigned_document_property
   localized_concepts:
     eng: 82677d9c-23a0-5771-b875-fcd3bfd4ccdf
   domains:
-    - concept_id: section-Document_properties_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
-      ref_type: section
+  - concept_id: section-Document_properties_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+    ref_type: section
 id: Document_properties_arm.Assigned_document_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that represents the assigned document property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm.Assigned_property,Assigned_property}}
+      that represents the assigned document property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assigned_document_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}} that identifies a property assigned to a document definition or to a file.
+  - content: An **Assigned_document_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Assigned_property,Assigned_property}}
+      that identifies a property assigned to a document definition or to a file.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
-          version: '5'
-      type: authoritative
-      id: Document_properties_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_properties_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assigned_document_property
+  - type: expression
+    normative_status: preferred
+    designation: Assigned_document_property
   domain: 'application module: Document_properties_arm'
   language_code: eng
   annotations: []

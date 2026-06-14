@@ -1,30 +1,34 @@
+---
 data:
   identifier: Message_mim.message_contents_assignment
   localized_concepts:
     eng: 96ada7be-37de-5c98-8a6f-f02077ae5cfd
   domains:
-    - concept_id: section-Message_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-      ref_type: section
+  - concept_id: section-Message_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+    ref_type: section
 id: Message_mim.message_contents_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the message contents assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.group_assignment,group_assignment}}
+      that represents the message contents assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **message_contents_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that links the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} to the contents of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}}.
+  - content: A **message_contents_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that links the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      to the contents of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-          version: '2'
-      type: authoritative
-      id: Message_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: message_contents_assignment
+  - type: expression
+    normative_status: preferred
+    designation: message_contents_assignment
   domain: 'application module: Message_mim'
   language_code: eng
   annotations: []

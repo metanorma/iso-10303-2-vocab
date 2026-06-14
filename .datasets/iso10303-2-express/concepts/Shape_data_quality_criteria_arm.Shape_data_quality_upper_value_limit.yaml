@@ -1,29 +1,31 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Shape_data_quality_upper_value_limit
   localized_concepts:
     eng: 88a8524f-8f1e-502e-8a17-f2f1d669e339
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Shape_data_quality_upper_value_limit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Shape_data_quality_value_limit,Shape_data_quality_value_limit}} that represents the shape data quality upper value limit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Shape_data_quality_value_limit,Shape_data_quality_value_limit}}
+      that represents the shape data quality upper value limit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Shape_data_quality_upper_value_limit
+  - type: expression
+    normative_status: preferred
+    designation: Shape_data_quality_upper_value_limit
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_structure_arm.Low_order_kinematic_pair_with_motion_coupling
   localized_concepts:
     eng: 32941ef3-6cb7-5396-bf66-03213dd7ca4d
   domains:
-    - concept_id: section-Kinematic_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-      ref_type: section
+  - concept_id: section-Kinematic_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+    ref_type: section
 id: Kinematic_structure_arm.Low_order_kinematic_pair_with_motion_coupling
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} that represents the low order kinematic pair with motion coupling {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}}
+      that represents the low order kinematic pair with motion coupling {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Low_order_kinematic_pair_with_motion_coupling
+  - type: expression
+    normative_status: preferred
+    designation: Low_order_kinematic_pair_with_motion_coupling
   domain: 'application module: Kinematic_structure_arm'
   language_code: eng
   annotations: []

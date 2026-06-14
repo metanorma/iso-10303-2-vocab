@@ -1,30 +1,33 @@
+---
 data:
   identifier: Datum_difference_based_model_mim.datum_difference_based_model_parameter
   localized_concepts:
     eng: 4c4ef9d0-a837-52ea-958f-8c71b3dd7012
   domains:
-    - concept_id: section-Datum_difference_based_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
-      ref_type: section
+  - concept_id: section-Datum_difference_based_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
+    ref_type: section
 id: Datum_difference_based_model_mim.datum_difference_based_model_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.model_parameter,model_parameter}} that represents the datum difference based model parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim.model_parameter,model_parameter}}
+      that represents the datum difference based model parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **datum_difference_based_model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.model_parameter,model_parameter}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm.Datum_difference_based_model_parameter,Datum_difference_based_model_parameter}}.
+  - content: A **datum_difference_based_model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim.model_parameter,model_parameter}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm.Datum_difference_based_model_parameter,Datum_difference_based_model_parameter}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
-          version: '5'
-      type: authoritative
-      id: Datum_difference_based_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: datum_difference_based_model_parameter
+  - type: expression
+    normative_status: preferred
+    designation: datum_difference_based_model_parameter
   domain: 'application module: Datum_difference_based_model_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Mechanical_design_geometric_presentation_arm.Mechanical_design_view_area
   localized_concepts:
     eng: f6d9f266-05e5-543c-867c-3a54383d6df8
   domains:
-    - concept_id: section-Mechanical_design_geometric_presentation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_geometric_presentation_arm
-      ref_type: section
+  - concept_id: section-Mechanical_design_geometric_presentation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_geometric_presentation_arm
+    ref_type: section
 id: Mechanical_design_geometric_presentation_arm.Mechanical_design_view_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_arm.View_area,View_area}} that represents the mechanical design view area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_geometric_presentation_arm.View_area,View_area}}
+      that represents the mechanical design view area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_geometric_presentation_arm
-          version: '1'
-      type: authoritative
-      id: Mechanical_design_geometric_presentation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_geometric_presentation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mechanical_design_view_area
+  - type: expression
+    normative_status: preferred
+    designation: Mechanical_design_view_area
   domain: 'application module: Mechanical_design_geometric_presentation_arm'
   language_code: eng
   annotations: []

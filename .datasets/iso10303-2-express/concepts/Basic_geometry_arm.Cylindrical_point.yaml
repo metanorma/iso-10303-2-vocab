@@ -1,30 +1,35 @@
+---
 data:
   identifier: Basic_geometry_arm.Cylindrical_point
   localized_concepts:
     eng: 97829062-eeca-5b8c-97e2-5e98635a591f
   domains:
-    - concept_id: section-Basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+    ref_type: section
 id: Basic_geometry_arm.Cylindrical_point
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Cartesian_point,Cartesian_point}} that represents the cylindrical point {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Cartesian_point,Cartesian_point}}
+      that represents the cylindrical point {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cylindrical_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Cartesian_point,Cartesian_point}} which uses a three dimensional cylindrical polar coordinate system, centred at the origin of the corresponding Cartesian coordinate system, to define its location.
+  - content: A **Cylindrical_point** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Cartesian_point,Cartesian_point}}
+      which uses a three dimensional cylindrical polar coordinate system, centred
+      at the origin of the corresponding Cartesian coordinate system, to define its
+      location.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cylindrical_point
+  - type: expression
+    normative_status: preferred
+    designation: Cylindrical_point
   domain: 'application module: Basic_geometry_arm'
   language_code: eng
   annotations: []

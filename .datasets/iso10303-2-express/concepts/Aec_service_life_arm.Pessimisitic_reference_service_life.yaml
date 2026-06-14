@@ -1,30 +1,33 @@
+---
 data:
   identifier: Aec_service_life_arm.Pessimisitic_reference_service_life
   localized_concepts:
     eng: fe616952-de82-56de-b3da-f2e313946d0a
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Pessimisitic_reference_service_life
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}} that represents the pessimisitic reference service life {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}}
+      that represents the pessimisitic reference service life {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Pessimisitic_reference_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}} that is predicted to take place under pessimistic operating conditions.
+  - content: A **Pessimisitic_reference_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Reference_service_life,Reference_service_life}}
+      that is predicted to take place under pessimistic operating conditions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pessimisitic_reference_service_life
+  - type: expression
+    normative_status: preferred
+    designation: Pessimisitic_reference_service_life
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

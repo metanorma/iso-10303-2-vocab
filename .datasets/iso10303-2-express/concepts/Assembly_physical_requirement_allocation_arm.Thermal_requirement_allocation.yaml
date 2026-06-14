@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_physical_requirement_allocation_arm.Thermal_requirement_allocation
   localized_concepts:
     eng: 4b087576-e658-5276-95a4-48e5e7d2b42a
   domains:
-    - concept_id: section-Assembly_physical_requirement_allocation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
-      ref_type: section
+  - concept_id: section-Assembly_physical_requirement_allocation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+    ref_type: section
 id: Assembly_physical_requirement_allocation_arm.Thermal_requirement_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation,Assembly_requirement_allocation}} that represents the thermal requirement allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation,Assembly_requirement_allocation}}
+      that represents the thermal requirement allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Thermal_requirement_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation,Assembly_requirement_allocation}} for which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} has thermal characteristics.
+  - content: A **Thermal_requirement_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm.Assembly_requirement_allocation,Assembly_requirement_allocation}}
+      for which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      has thermal characteristics.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
-          version: '4'
-      type: authoritative
-      id: Assembly_physical_requirement_allocation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_requirement_allocation_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Thermal_requirement_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Thermal_requirement_allocation
   domain: 'application module: Assembly_physical_requirement_allocation_arm'
   language_code: eng
   annotations: []

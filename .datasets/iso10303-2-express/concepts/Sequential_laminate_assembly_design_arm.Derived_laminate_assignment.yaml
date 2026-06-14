@@ -1,30 +1,33 @@
+---
 data:
   identifier: Sequential_laminate_assembly_design_arm.Derived_laminate_assignment
   localized_concepts:
     eng: 4a55a656-256e-5f5a-a076-995c5993b33e
   domains:
-    - concept_id: section-Sequential_laminate_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Sequential_laminate_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+    ref_type: section
 id: Sequential_laminate_assembly_design_arm.Derived_laminate_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the derived laminate assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the derived laminate assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Derived_laminate_assignment** is an assignment of a {{stratum_assembly_relationship_or_stratum_technology_occurrence,stratum_assembly_relationship_or_stratum_technology_occurrence}} in an oem design view to the laminate that is implementing the set in the fabrication stackup view.
+  - content: A **Derived_laminate_assignment** is an assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.stratum_assembly_relationship_or_stratum_technology_occurrence,stratum_assembly_relationship_or_stratum_technology_occurrence}}
+      in an oem design view to the laminate that is implementing the set in the fabrication
+      stackup view.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-          version: '5'
-      type: authoritative
-      id: Sequential_laminate_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Derived_laminate_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Derived_laminate_assignment
   domain: 'application module: Sequential_laminate_assembly_design_arm'
   language_code: eng
   annotations: []

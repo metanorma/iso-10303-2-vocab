@@ -1,30 +1,33 @@
+---
 data:
   identifier: topology_schema.subedge
   localized_concepts:
     eng: bc579782-0a95-5f3e-93ed-f42d1af2fa9e
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.subedge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}} that represents the subedge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}
+      that represents the subedge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **subedge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}, whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}.
+  - content: A **subedge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}},
+      whose domain is a connected portion of the domain of an existing {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge,edge}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: subedge
+  - type: expression
+    normative_status: preferred
+    designation: subedge
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []

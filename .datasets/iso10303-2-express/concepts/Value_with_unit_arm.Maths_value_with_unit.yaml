@@ -1,31 +1,33 @@
+---
 data:
   identifier: Value_with_unit_arm.Maths_value_with_unit
   localized_concepts:
-    eng: 0399c7c1-0b8d-59af-bb30-a69126b1c9cb
+    eng: '0399c7c1-0b8d-59af-bb30-a69126b1c9cb'
   domains:
-    - concept_id: section-Value_with_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+    ref_type: section
 id: Value_with_unit_arm.Maths_value_with_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value with unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths value with unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Maths_value_with_unit** is the specification of a physical quantity by a mathematical expression and its unit.
+  - content: A **Maths_value_with_unit** is the specification of a physical quantity
+      by a mathematical expression and its unit.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Maths_value_with_unit
+  - type: expression
+    normative_status: preferred
+    designation: Maths_value_with_unit
   domain: 'application module: Value_with_unit_arm'
   language_code: eng
   annotations: []
-id: 0399c7c1-0b8d-59af-bb30-a69126b1c9cb
+id: '0399c7c1-0b8d-59af-bb30-a69126b1c9cb'

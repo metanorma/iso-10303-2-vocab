@@ -1,30 +1,33 @@
+---
 data:
   identifier: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_workplan
   localized_concepts:
     eng: b06b8529-ab7d-5473-a74f-210c32713c25
   domains:
-    - concept_id: section-Additive_manufacturing_part_and_build_information_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
-      ref_type: section
+  - concept_id: section-Additive_manufacturing_part_and_build_information_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+    ref_type: section
 id: Additive_manufacturing_part_and_build_information_arm.Additive_manufacturing_workplan
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Executable,Executable}} that represents the additive manufacturing workplan {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Executable,Executable}}
+      that represents the additive manufacturing workplan {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Additive_manufacturing_workplan** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Executable,Executable}} that defines the additive manufacturing operation.
+  - content: An **Additive_manufacturing_workplan** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm.Executable,Executable}}
+      that defines the additive manufacturing operation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
-          version: '2'
-      type: authoritative
-      id: Additive_manufacturing_part_and_build_information_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Additive_manufacturing_workplan
+  - type: expression
+    normative_status: preferred
+    designation: Additive_manufacturing_workplan
   domain: 'application module: Additive_manufacturing_part_and_build_information_arm'
   language_code: eng
   annotations: []

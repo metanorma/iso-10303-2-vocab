@@ -1,30 +1,35 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.link_motion_transformation
   localized_concepts:
     eng: b729a31b-0a03-5909-b02e-b416a6c6b0da
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.link_motion_transformation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.item_defined_transformation,item_defined_transformation}} that represents the link motion transformation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.item_defined_transformation,item_defined_transformation}}
+      that represents the link motion transformation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **link_motion_transformation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.item_defined_transformation,item_defined_transformation}} that transforms a {{rigid_placement,rigid_placement}} of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_link_representation,kinematic_link_representation}} along a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path,kinematic_path}}.
+  - content: A **link_motion_transformation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.item_defined_transformation,item_defined_transformation}}
+      that transforms a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.rigid_placement,rigid_placement}}
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_link_representation,kinematic_link_representation}}
+      along a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.kinematic_path,kinematic_path}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: link_motion_transformation
+  - type: expression
+    normative_status: preferred
+    designation: link_motion_transformation
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

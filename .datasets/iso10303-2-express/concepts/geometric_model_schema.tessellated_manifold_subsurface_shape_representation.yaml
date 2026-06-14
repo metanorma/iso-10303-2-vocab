@@ -1,33 +1,35 @@
+---
 data:
   identifier: geometric_model_schema.tessellated_manifold_subsurface_shape_representation
   localized_concepts:
     eng: 5613b3f4-1442-55c9-9ce8-67842bfd6abd
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.tessellated_manifold_subsurface_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the tessellated manifold subsurface shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.shape_representation,shape_representation}}
+      that represents the tessellated manifold subsurface shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **tessellated_manifold_subsurface_shape_representation** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the shape of a product is represented by a combination of specialisations of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_face_sub_set,connected_face_sub_set}} and tessellated entities.
+  - content: |-
+      A **tessellated_manifold_subsurface_shape_representation** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the shape of a product is represented by a combination of specialisations of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_face_sub_set,connected_face_sub_set}} and tessellated entities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tessellated_manifold_subsurface_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: tessellated_manifold_subsurface_shape_representation
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

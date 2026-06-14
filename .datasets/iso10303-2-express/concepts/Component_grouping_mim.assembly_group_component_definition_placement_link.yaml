@@ -1,30 +1,35 @@
+---
 data:
   identifier: Component_grouping_mim.assembly_group_component_definition_placement_link
   localized_concepts:
     eng: 1bc06711-0b0c-5978-8f0f-52e923f24585
   domains:
-    - concept_id: section-Component_grouping_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
-      ref_type: section
+  - concept_id: section-Component_grouping_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+    ref_type: section
 id: Component_grouping_mim.assembly_group_component_definition_placement_link
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly group component definition placement link {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the assembly group component definition placement
+      link {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **assembly_group_component_definition_placement_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_component_placement_link,Assembly_component_placement_link}}.
+  - content: An **assembly_group_component_definition_placement_link** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_component_placement_link,Assembly_component_placement_link}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
-          version: '6'
-      type: authoritative
-      id: Component_grouping_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: assembly_group_component_definition_placement_link
+  - type: expression
+    normative_status: preferred
+    designation: assembly_group_component_definition_placement_link
   domain: 'application module: Component_grouping_mim'
   language_code: eng
   annotations: []

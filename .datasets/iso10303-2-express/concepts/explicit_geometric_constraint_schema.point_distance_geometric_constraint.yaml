@@ -1,30 +1,35 @@
+---
 data:
   identifier: explicit_geometric_constraint_schema.point_distance_geometric_constraint
   localized_concepts:
     eng: 8181b6f9-aa52-5918-a3d0-dc96d25fd0ef
   domains:
-    - concept_id: section-explicit_geometric_constraint_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
-      ref_type: section
+  - concept_id: section-explicit_geometric_constraint_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+    ref_type: section
 id: explicit_geometric_constraint_schema.point_distance_geometric_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.explicit_geometric_constraint,explicit_geometric_constraint}} that represents the point distance geometric constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema.explicit_geometric_constraint,explicit_geometric_constraint}}
+      that represents the point distance geometric constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The *point_distance_geometric_constraint* entity data type is a type of *explicit_geometric_constraint* asserting a constraint on distances of points from each other, or from one or more reference elements that may be points, curves or surfaces.
+  - content: The *point_distance_geometric_constraint* entity data type is a type
+      of *explicit_geometric_constraint* asserting a constraint on distances of points
+      from each other, or from one or more reference elements that may be points,
+      curves or surfaces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
-          version: '4'
-      type: authoritative
-      id: explicit_geometric_constraint_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:explicit_geometric_constraint_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_distance_geometric_constraint
+  - type: expression
+    normative_status: preferred
+    designation: point_distance_geometric_constraint
   domain: 'resource: explicit_geometric_constraint_schema'
   language_code: eng
   annotations: []

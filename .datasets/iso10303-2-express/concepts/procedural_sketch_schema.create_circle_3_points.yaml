@@ -1,30 +1,33 @@
+---
 data:
   identifier: procedural_sketch_schema.create_circle_3_points
   localized_concepts:
     eng: 9582a602-552b-5510-ae5f-1cb1006d5b8d
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.create_circle_3_points
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circle,create_circle}} that represents the create circle 3 points {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circle,create_circle}}
+      that represents the create circle 3 points {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *create_circle_3_points* is a type of *create_circle* that creates a circle passing through three given points.
+  - content: A *create_circle_3_points* is a type of *create_circle* that creates
+      a circle passing through three given points.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: create_circle_3_points
+  - type: expression
+    normative_status: preferred
+    designation: create_circle_3_points
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

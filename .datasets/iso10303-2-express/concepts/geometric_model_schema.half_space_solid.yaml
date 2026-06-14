@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.half_space_solid
   localized_concepts:
     eng: 457bf969-6883-5a09-b2d8-9b5143fb1d8d
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.half_space_solid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the half space solid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the half space solid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **half_space_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} which is defined by the half space which is the regular subset of the domain which lies on one side of an unbounded surface.
+  - content: A **half_space_solid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      which is defined by the half space which is the regular subset of the domain
+      which lies on one side of an unbounded surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: half_space_solid
+  - type: expression
+    normative_status: preferred
+    designation: half_space_solid
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

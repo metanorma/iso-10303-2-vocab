@@ -1,30 +1,32 @@
+---
 data:
   identifier: Event_arm.Event
   localized_concepts:
     eng: 8f4d80fe-4811-5c94-9d99-2f34342195a9
   domains:
-    - concept_id: section-Event_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-      ref_type: section
+  - concept_id: section-Event_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+    ref_type: section
 id: Event_arm.Event
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the event {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Event** is the fact of the existence of a state at some point in time.
+  - content: An **Event** is the fact of the existence of a state at some point in
+      time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-          version: '2'
-      type: authoritative
-      id: Event_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Event
+  - type: expression
+    normative_status: preferred
+    designation: Event
   domain: 'application module: Event_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Tessellated_geometry_arm.Triangulated_surface_set
   localized_concepts:
     eng: 118f88dc-1216-5621-9116-bfd85effccaf
   domains:
-    - concept_id: section-Tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+    ref_type: section
 id: Tessellated_geometry_arm.Triangulated_surface_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}} that represents the triangulated surface set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}}
+      that represents the triangulated surface set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Triangulated_surface_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}} defining the geometry of the surface set as a set of triangles.
+  - content: A **Triangulated_surface_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}}
+      defining the geometry of the surface set as a set of triangles.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-          version: '3'
-      type: authoritative
-      id: Tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Triangulated_surface_set
+  - type: expression
+    normative_status: preferred
+    designation: Triangulated_surface_set
   domain: 'application module: Tessellated_geometry_arm'
   language_code: eng
   annotations: []

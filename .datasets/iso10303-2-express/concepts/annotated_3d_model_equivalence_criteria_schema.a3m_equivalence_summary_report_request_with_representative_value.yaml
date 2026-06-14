@@ -1,30 +1,35 @@
+---
 data:
   identifier: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_summary_report_request_with_representative_value
   localized_concepts:
     eng: e9e3ff81-5330-5836-9da2-83a0bbe931fa
   domains:
-    - concept_id: section-annotated_3d_model_equivalence_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-      ref_type: section
+  - concept_id: section-annotated_3d_model_equivalence_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+    ref_type: section
 id: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_summary_report_request_with_representative_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}} that represents the a3m equivalence summary report request with representative value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}}
+      that represents the a3m equivalence summary report request with representative
+      value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_equivalence_summary_report_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}} that requests a summary report including representative value.
+  - content: An **a3m_equivalence_summary_report_request_with_representative_value**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_report_request,data_equivalence_report_request}}
+      that requests a summary report including representative value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-          version: '1'
-      type: authoritative
-      id: annotated_3d_model_equivalence_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_equivalence_summary_report_request_with_representative_value
+  - type: expression
+    normative_status: preferred
+    designation: a3m_equivalence_summary_report_request_with_representative_value
   domain: 'resource: annotated_3d_model_equivalence_criteria_schema'
   language_code: eng
   annotations: []

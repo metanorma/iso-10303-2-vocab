@@ -1,30 +1,33 @@
+---
 data:
   identifier: assembly_constraint_schema.angle_assembly_constraint_with_dimension
   localized_concepts:
     eng: 75be8e13-5894-57de-968b-156b750c5508
   domains:
-    - concept_id: section-assembly_constraint_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
-      ref_type: section
+  - concept_id: section-assembly_constraint_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+    ref_type: section
 id: assembly_constraint_schema.angle_assembly_constraint_with_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the angle assembly constraint with dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the angle assembly constraint with dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.angle_assembly_constraint_with_dimension,angle_assembly_constraint_with_dimension}} specifies that an instance specified by *constrained_elements* is constrained to make a specified angle with a given instance specified by *reference_elements*.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.angle_assembly_constraint_with_dimension,angle_assembly_constraint_with_dimension}}
+      specifies that an instance specified by *constrained_elements* is constrained
+      to make a specified angle with a given instance specified by *reference_elements*.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
-          version: '3'
-      type: authoritative
-      id: assembly_constraint_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: angle_assembly_constraint_with_dimension
+  - type: expression
+    normative_status: preferred
+    designation: angle_assembly_constraint_with_dimension
   domain: 'resource: assembly_constraint_schema'
   language_code: eng
   annotations: []

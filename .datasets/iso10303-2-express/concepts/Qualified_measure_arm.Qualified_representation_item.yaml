@@ -1,30 +1,33 @@
+---
 data:
   identifier: Qualified_measure_arm.Qualified_representation_item
   localized_concepts:
     eng: 53870aef-d073-5b02-8506-20a6891a9938
   domains:
-    - concept_id: section-Qualified_measure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-      ref_type: section
+  - concept_id: section-Qualified_measure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+    ref_type: section
 id: Qualified_measure_arm.Qualified_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the qualified representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Representation_item,Representation_item}}
+      that represents the qualified representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Qualified_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} for which qualifiers are defined to describe its reliability and/or uncertainty.
+  - content: A **Qualified_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      for which qualifiers are defined to describe its reliability and/or uncertainty.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-          version: '4'
-      type: authoritative
-      id: Qualified_measure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Qualified_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Qualified_representation_item
   domain: 'application module: Qualified_measure_arm'
   language_code: eng
   annotations: []

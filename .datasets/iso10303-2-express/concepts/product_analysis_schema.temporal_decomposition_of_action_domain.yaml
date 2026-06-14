@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_analysis_schema.temporal_decomposition_of_action_domain
   localized_concepts:
     eng: 969b154d-056a-53f1-8045-05c0c25bd5c4
   domains:
-    - concept_id: section-product_analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-      ref_type: section
+  - concept_id: section-product_analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+    ref_type: section
 id: product_analysis_schema.temporal_decomposition_of_action_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the temporal decomposition of action domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the temporal decomposition of action domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **temporal_decomposition_of_action_domain** is a decomposition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.physical_action_domain,physical_action_domain}} into specifications for different times.
+  - content: A **temporal_decomposition_of_action_domain** is a decomposition of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema.physical_action_domain,physical_action_domain}}
+      into specifications for different times.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
-          version: '1'
-      type: authoritative
-      id: product_analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: temporal_decomposition_of_action_domain
+  - type: expression
+    normative_status: preferred
+    designation: temporal_decomposition_of_action_domain
   domain: 'resource: product_analysis_schema'
   language_code: eng
   annotations: []

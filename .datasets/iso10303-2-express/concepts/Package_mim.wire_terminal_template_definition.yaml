@@ -1,30 +1,33 @@
+---
 data:
   identifier: Package_mim.wire_terminal_template_definition
   localized_concepts:
     eng: 21e37510-739f-5af9-b209-a7c301bfd597
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.wire_terminal_template_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal_template_definition,package_terminal_template_definition}} that represents the wire terminal template definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal_template_definition,package_terminal_template_definition}}
+      that represents the wire terminal template definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **wire_terminal_template_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal_template_definition,package_terminal_template_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Wire_terminal_template_definition,Wire_terminal_template_definition}}.
+  - content: A **wire_terminal_template_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.package_terminal_template_definition,package_terminal_template_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Wire_terminal_template_definition,Wire_terminal_template_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: wire_terminal_template_definition
+  - type: expression
+    normative_status: preferred
+    designation: wire_terminal_template_definition
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

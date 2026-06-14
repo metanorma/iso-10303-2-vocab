@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analysis_arm.Model_state_domain
   localized_concepts:
     eng: e0b0eb5a-676f-5c24-8395-1f552b284440
   domains:
-    - concept_id: section-Analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-      ref_type: section
+  - concept_id: section-Analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+    ref_type: section
 id: Analysis_arm.Model_state_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} that represents the model state domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}}
+      that represents the model state domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Model_state_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}} that has no time dimension.
+  - content: A **Model_state_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Numerical_model,Numerical_model}}
+      that has no time dimension.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-          version: '1'
-      type: authoritative
-      id: Analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Model_state_domain
+  - type: expression
+    normative_status: preferred
+    designation: Model_state_domain
   domain: 'application module: Analysis_arm'
   language_code: eng
   annotations: []

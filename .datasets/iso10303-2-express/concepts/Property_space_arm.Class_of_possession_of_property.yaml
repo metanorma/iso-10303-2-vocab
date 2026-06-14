@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_arm.Class_of_possession_of_property
   localized_concepts:
     eng: 210272ac-8227-56c3-a9a5-43cf78ec23da
   domains:
-    - concept_id: section-Property_space_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
-      ref_type: section
+  - concept_id: section-Property_space_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
+    ref_type: section
 id: Property_space_arm.Class_of_possession_of_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Applied_independent_property,Applied_independent_property}} that represents the class of possession of property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm.Applied_independent_property,Applied_independent_property}}
+      that represents the class of possession of property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
-          version: '1'
-      type: authoritative
-      id: Property_space_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Class_of_possession_of_property
+  - type: expression
+    normative_status: preferred
+    designation: Class_of_possession_of_property
   domain: 'application module: Property_space_arm'
   language_code: eng
   annotations: []

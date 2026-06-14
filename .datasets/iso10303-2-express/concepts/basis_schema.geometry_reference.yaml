@@ -1,30 +1,32 @@
+---
 data:
   identifier: basis_schema.geometry_reference
   localized_concepts:
     eng: 30df4983-90b8-5131-87aa-ac485251258c
   domains:
-    - concept_id: section-basis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
-      ref_type: section
+  - concept_id: section-basis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+    ref_type: section
 id: basis_schema.geometry_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometry reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the geometry reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *geometry_reference* is a reference to geometric data with means of describing the purpose or meaning of the reference.
+  - content: A *geometry_reference* is a reference to geometric data with means of
+      describing the purpose or meaning of the reference.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
-          version: '2'
-      type: authoritative
-      id: basis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:basis_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometry_reference
+  - type: expression
+    normative_status: preferred
+    designation: geometry_reference
   domain: 'resource: basis_schema'
   language_code: eng
   annotations: []

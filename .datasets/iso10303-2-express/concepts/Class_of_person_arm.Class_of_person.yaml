@@ -1,29 +1,31 @@
+---
 data:
   identifier: Class_of_person_arm.Class_of_person
   localized_concepts:
     eng: f5718014-008b-55a0-88bb-79f25bcc927d
   domains:
-    - concept_id: section-Class_of_person_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_person_arm
-      ref_type: section
+  - concept_id: section-Class_of_person_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_person_arm
+    ref_type: section
 id: Class_of_person_arm.Class_of_person
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_arm.Class,Class}} that represents the class of person {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_person_arm.Class,Class}}
+      that represents the class of person {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_person_arm
-          version: '1'
-      type: authoritative
-      id: Class_of_person_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_person_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Class_of_person
+  - type: expression
+    normative_status: preferred
+    designation: Class_of_person
   domain: 'application module: Class_of_person_arm'
   language_code: eng
   annotations: []

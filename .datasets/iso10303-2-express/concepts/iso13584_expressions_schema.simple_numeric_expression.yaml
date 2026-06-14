@@ -1,30 +1,32 @@
+---
 data:
   identifier: iso13584_expressions_schema.simple_numeric_expression
   localized_concepts:
     eng: df0c745d-5670-55ae-926f-91c413d1ec2e
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.simple_numeric_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the simple numeric expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the simple numeric expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *simple_numeric_expression* is either a numeric literal or a numeric variable.
+  - content: A *simple_numeric_expression* is either a numeric literal or a numeric
+      variable.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: simple_numeric_expression
+  - type: expression
+    normative_status: preferred
+    designation: simple_numeric_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

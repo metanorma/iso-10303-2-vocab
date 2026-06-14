@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_geometry_arm.Point_on_curve
   localized_concepts:
     eng: 02b5a737-e2d0-5f7d-87ae-6110bf58e7da
   domains:
-    - concept_id: section-Basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+    ref_type: section
 id: Basic_geometry_arm.Point_on_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Point,Point}} that represents the point on curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Point,Point}}
+      that represents the point on curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Point_on_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that characterizes a point which lies on a curve.
+  - content: A **Point_on_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that characterizes a point which lies on a curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Point_on_curve
+  - type: expression
+    normative_status: preferred
+    designation: Point_on_curve
   domain: 'application module: Basic_geometry_arm'
   language_code: eng
   annotations: []

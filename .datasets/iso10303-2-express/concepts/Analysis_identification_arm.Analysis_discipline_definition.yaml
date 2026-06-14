@@ -1,29 +1,31 @@
+---
 data:
   identifier: Analysis_identification_arm.Analysis_discipline_definition
   localized_concepts:
     eng: d1560de3-b886-5143-991e-ac91d2df1e59
   domains:
-    - concept_id: section-Analysis_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
-      ref_type: section
+  - concept_id: section-Analysis_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
+    ref_type: section
 id: Analysis_identification_arm.Analysis_discipline_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the analysis discipline definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm.Product_view_definition,Product_view_definition}}
+      that represents the analysis discipline definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
-          version: '2'
-      type: authoritative
-      id: Analysis_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_identification_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Analysis_discipline_definition
+  - type: expression
+    normative_status: preferred
+    designation: Analysis_discipline_definition
   domain: 'application module: Analysis_identification_arm'
   language_code: eng
   annotations: []

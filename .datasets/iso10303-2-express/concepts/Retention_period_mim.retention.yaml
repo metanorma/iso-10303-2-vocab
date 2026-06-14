@@ -1,30 +1,33 @@
+---
 data:
   identifier: Retention_period_mim.retention
   localized_concepts:
     eng: 6430e8d3-154c-5a68-9d73-4ed19901d00b
   domains:
-    - concept_id: section-Retention_period_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_mim
-      ref_type: section
+  - concept_id: section-Retention_period_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_mim
+    ref_type: section
 id: Retention_period_mim.retention
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the retention {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_mim.action,action}}
+      that represents the retention {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **retention** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm.Retention_period,Retention_period}}.
+  - content: A **retention** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm.Retention_period,Retention_period}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_mim
-          version: '1'
-      type: authoritative
-      id: Retention_period_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: retention
+  - type: expression
+    normative_status: preferred
+    designation: retention
   domain: 'application module: Retention_period_mim'
   language_code: eng
   annotations: []

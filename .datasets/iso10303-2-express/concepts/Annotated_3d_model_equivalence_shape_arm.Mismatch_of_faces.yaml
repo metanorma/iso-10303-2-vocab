@@ -1,30 +1,35 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_faces
   localized_concepts:
     eng: af1c6f93-a45d-57fc-b4b1-48aa21990df3
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_arm.Mismatch_of_faces
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}} that represents the mismatch of faces {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}}
+      that represents the mismatch of faces {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mismatch_of_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}} for detecting non-corresponding {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}}s between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}}s at the same location.
+  - content: A **Mismatch_of_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}}
+      for detecting non-corresponding {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}}s
+      between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Connected_face_set,Connected_face_set}}s
+      at the same location.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mismatch_of_faces
+  - type: expression
+    normative_status: preferred
+    designation: Mismatch_of_faces
   domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: mathematical_functions_schema.maths_integer_variable
   localized_concepts:
     eng: 8c7ece06-8b48-56f1-b100-c5e0f9cc4811
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.maths_integer_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths integer variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths integer variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_variable,maths_variable}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.int_numeric_variable,int_numeric_variable}} makes a convenient representation for variables ranging over the integers.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_variable,maths_variable}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.int_numeric_variable,int_numeric_variable}}
+      makes a convenient representation for variables ranging over the integers.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: maths_integer_variable
+  - type: expression
+    normative_status: preferred
+    designation: maths_integer_variable
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

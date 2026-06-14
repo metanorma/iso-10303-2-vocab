@@ -1,30 +1,33 @@
+---
 data:
   identifier: Work_order_arm.Directed_activity_items_assignment
   localized_concepts:
     eng: 2dd24be8-5ac3-53ba-a327-66ab820c8682
   domains:
-    - concept_id: section-Work_order_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-      ref_type: section
+  - concept_id: section-Work_order_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+    ref_type: section
 id: Work_order_arm.Directed_activity_items_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the directed activity items assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the directed activity items assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Directed_activity_items_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}} with the product or activity data listed in {{affected_item_select,affected_item_select}} that are subjects of this {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}}.
+  - content: A **Directed_activity_items_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}}
+      with the product or activity data listed in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_request_arm.affected_item_select,affected_item_select}}
+      that are subjects of this {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-          version: '3'
-      type: authoritative
-      id: Work_order_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Directed_activity_items_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Directed_activity_items_assignment
   domain: 'application module: Work_order_arm'
   language_code: eng
   annotations: []

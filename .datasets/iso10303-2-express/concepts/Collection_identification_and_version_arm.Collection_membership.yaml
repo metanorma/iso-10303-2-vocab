@@ -1,30 +1,32 @@
+---
 data:
   identifier: Collection_identification_and_version_arm.Collection_membership
   localized_concepts:
     eng: 1f296666-70f0-575b-8c61-33ba5760f583
   domains:
-    - concept_id: section-Collection_identification_and_version_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
-      ref_type: section
+  - concept_id: section-Collection_identification_and_version_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+    ref_type: section
 id: Collection_identification_and_version_arm.Collection_membership
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the collection membership {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the collection membership {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Collection_membership** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection_view_definition,Collection_view_definition}} with an object that represents a member of the collection.
+  - content: An **Collection_membership** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm.Collection_view_definition,Collection_view_definition}}
+      with an object that represents a member of the collection.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
-          version: '1'
-      type: authoritative
-      id: Collection_identification_and_version_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Collection_membership
+  - type: expression
+    normative_status: preferred
+    designation: Collection_membership
   domain: 'application module: Collection_identification_and_version_arm'
   language_code: eng
   annotations: []

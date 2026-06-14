@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_aspect_definition_schema.shape_representation_with_parameters
   localized_concepts:
     eng: 6681bc3b-f80e-586a-8bef-b3e414de3b97
   domains:
-    - concept_id: section-shape_aspect_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-      ref_type: section
+  - concept_id: section-shape_aspect_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+    ref_type: section
 id: shape_aspect_definition_schema.shape_representation_with_parameters
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the shape representation with parameters {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.shape_representation,shape_representation}}
+      that represents the shape representation with parameters {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-          version: '7'
-      type: authoritative
-      id: shape_aspect_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_representation_with_parameters
+  - type: expression
+    normative_status: preferred
+    designation: shape_representation_with_parameters
   domain: 'resource: shape_aspect_definition_schema'
   language_code: eng
   annotations: []

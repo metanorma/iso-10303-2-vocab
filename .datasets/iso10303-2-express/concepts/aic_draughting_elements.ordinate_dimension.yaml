@@ -1,30 +1,33 @@
+---
 data:
   identifier: aic_draughting_elements.ordinate_dimension
   localized_concepts:
     eng: 3d9a4dca-21f2-598e-8cc8-7757d56d0bad
   domains:
-    - concept_id: section-aic_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+    ref_type: section
 id: aic_draughting_elements.ordinate_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_directed_callout,projection_directed_callout}} that represents the ordinate dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements.projection_directed_callout,projection_directed_callout}}
+      that represents the ordinate dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **ordinate_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_directed_callout,projection_directed_callout}} directed by a projection curve that presents a dimension value.
+  - content: An **ordinate_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_directed_callout,projection_directed_callout}}
+      directed by a projection curve that presents a dimension value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-          version: '2'
-      type: authoritative
-      id: aic_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: ordinate_dimension
+  - type: expression
+    normative_status: preferred
+    designation: ordinate_dimension
   domain: 'resource: aic_draughting_elements'
   language_code: eng
   annotations: []

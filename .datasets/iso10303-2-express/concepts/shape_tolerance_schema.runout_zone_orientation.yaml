@@ -1,30 +1,32 @@
+---
 data:
   identifier: shape_tolerance_schema.runout_zone_orientation
   localized_concepts:
     eng: c8fc68b7-34fe-51e7-9323-6aa8e12e0e3c
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.runout_zone_orientation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the runout zone orientation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the runout zone orientation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **runout_zone_orientation** is the specification of the orientation of the runout tolerance element to the centre of symmetry of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_feature,datum_feature}}.
+  - content: A **runout_zone_orientation** is the specification of the orientation
+      of the runout tolerance element to the centre of symmetry of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.datum_feature,datum_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: runout_zone_orientation
+  - type: expression
+    normative_status: preferred
+    designation: runout_zone_orientation
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

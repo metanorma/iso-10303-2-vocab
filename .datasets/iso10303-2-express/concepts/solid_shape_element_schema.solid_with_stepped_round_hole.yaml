@@ -1,30 +1,34 @@
+---
 data:
   identifier: solid_shape_element_schema.solid_with_stepped_round_hole
   localized_concepts:
     eng: b73c2d2f-ba18-5199-acf6-0f7f43493271
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.solid_with_stepped_round_hole
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_hole,solid_with_hole}} that represents the solid with stepped round hole {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_hole,solid_with_hole}}
+      that represents the solid with stepped round hole {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *solid_with_stepped_round_hole* is a type of *solid_with_hole* where the hole is made up of a sequence of coaxial cylindrical segments, each segment after the first having a different radius from its predecessor in the sequence.
+  - content: A *solid_with_stepped_round_hole* is a type of *solid_with_hole* where
+      the hole is made up of a sequence of coaxial cylindrical segments, each segment
+      after the first having a different radius from its predecessor in the sequence.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_stepped_round_hole
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_stepped_round_hole
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

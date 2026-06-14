@@ -1,30 +1,34 @@
+---
 data:
   identifier: Physical_unit_design_view_arm.Assembly_alternate_product
   localized_concepts:
     eng: 352c53c5-97a3-547a-b88d-e18f5ecb0d55
   domains:
-    - concept_id: section-Physical_unit_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-      ref_type: section
+  - concept_id: section-Physical_unit_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+    ref_type: section
 id: Physical_unit_design_view_arm.Assembly_alternate_product
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm.Alternate_product_relationship,Alternate_product_relationship}} that represents the assembly alternate product {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Alternate_product_relationship,Alternate_product_relationship}}
+      that represents the assembly alternate product {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_alternate_product** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm.Alternate_product_relationship,Alternate_product_relationship}} where the alternate relationship is limited to the scope of a specific design definition.
+  - content: An **Assembly_alternate_product** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm.Alternate_product_relationship,Alternate_product_relationship}}
+      where the alternate relationship is limited to the scope of a specific design
+      definition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-          version: '5'
-      type: authoritative
-      id: Physical_unit_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_alternate_product
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_alternate_product
   domain: 'application module: Physical_unit_design_view_arm'
   language_code: eng
   annotations: []

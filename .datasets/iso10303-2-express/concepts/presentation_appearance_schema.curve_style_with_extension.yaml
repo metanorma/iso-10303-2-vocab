@@ -1,30 +1,34 @@
+---
 data:
   identifier: presentation_appearance_schema.curve_style_with_extension
   localized_concepts:
     eng: c139f0de-ed30-5eea-abef-37030279587b
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.curve_style_with_extension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}} that represents the curve style with extension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}}
+      that represents the curve style with extension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **curve_style_with_extension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}} that indicates how the curve ends shall appear when presented, either extended or shortened.
+  - content: A **curve_style_with_extension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style,curve_style}}
+      that indicates how the curve ends shall appear when presented, either extended
+      or shortened.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_style_with_extension
+  - type: expression
+    normative_status: preferred
+    designation: curve_style_with_extension
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

@@ -1,36 +1,37 @@
+---
 data:
   identifier: fea_definition_relationships_schema.element_topological_relationship
   localized_concepts:
     eng: abb87ddb-1252-5295-9a16-25be5734b107
   domains:
-    - concept_id: section-fea_definition_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
-      ref_type: section
+  - concept_id: section-fea_definition_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
+    ref_type: section
 id: fea_definition_relationships_schema.element_topological_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the element topological relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the element topological relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **element_topological_relationship** is a relationship between:
+  - content: |-
+      An **element_topological_relationship** is a relationship between:
 
-        * an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_representation,element_representation}}; and
-        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}};
+      * an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_representation,element_representation}}; and
+      * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}};
 
-        which indicates that the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_representation,element_representation}} has the topological relationships of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}.
+      which indicates that the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.element_representation,element_representation}} has the topological relationships of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
-          version: '2'
-      type: authoritative
-      id: fea_definition_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: element_topological_relationship
+  - type: expression
+    normative_status: preferred
+    designation: element_topological_relationship
   domain: 'resource: fea_definition_relationships_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Organization_structure_mim.os_characterizable_person
   localized_concepts:
     eng: aaf458c2-9bb0-518e-8419-578ce7f288d2
   domains:
-    - concept_id: section-Organization_structure_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
-      ref_type: section
+  - concept_id: section-Organization_structure_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
+    ref_type: section
 id: Organization_structure_mim.os_characterizable_person
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the os characterizable person {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the os characterizable person {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **os_characterizable_person** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person,person}}.
+  - content: A **os_characterizable_person** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person,person}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
-          version: '2'
-      type: authoritative
-      id: Organization_structure_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Organization_structure_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: os_characterizable_person
+  - type: expression
+    normative_status: preferred
+    designation: os_characterizable_person
   domain: 'application module: Organization_structure_mim'
   language_code: eng
   annotations: []

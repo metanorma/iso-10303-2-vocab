@@ -1,32 +1,34 @@
+---
 data:
   identifier: topology_schema.advanced_face
   localized_concepts:
     eng: 589269a5-c508-5ce5-a5c4-5f39a902199e
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.advanced_face
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_surface,face_surface}} that represents the advanced face {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_surface,face_surface}}
+      that represents the advanced face {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **advanced_face** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_surface,face_surface}} that has additional constraints to ensure that the geometry is directly and completely defined.
+  - content: |-
+      An **advanced_face** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_surface,face_surface}} that has additional constraints to ensure that the geometry is directly and completely defined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: advanced_face
+  - type: expression
+    normative_status: preferred
+    designation: advanced_face
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []

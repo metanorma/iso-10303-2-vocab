@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_extension_arm.Angle_data_element
   localized_concepts:
     eng: dbf8ee9f-6feb-5394-b6cd-5afb66ddcd8d
   domains:
-    - concept_id: section-Value_with_unit_extension_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_extension_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+    ref_type: section
 id: Value_with_unit_extension_arm.Angle_data_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the angle data element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Value_with_unit,Value_with_unit}}
+      that represents the angle data element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Angle_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} where the requisite unit type is that of angular displacement.
+  - content: An **Angle_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}}
+      where the requisite unit type is that of angular displacement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_extension_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Angle_data_element
+  - type: expression
+    normative_status: preferred
+    designation: Angle_data_element
   domain: 'application module: Value_with_unit_extension_arm'
   language_code: eng
   annotations: []

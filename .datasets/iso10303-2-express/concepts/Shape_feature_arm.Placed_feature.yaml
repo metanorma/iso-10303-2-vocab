@@ -1,29 +1,31 @@
+---
 data:
   identifier: Shape_feature_arm.Placed_feature
   localized_concepts:
     eng: 6e67adb0-3467-58ef-8499-3a3e18c40102
   domains:
-    - concept_id: section-Shape_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
-      ref_type: section
+  - concept_id: section-Shape_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+    ref_type: section
 id: Shape_feature_arm.Placed_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the placed feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_element,Shape_element}}
+      that represents the placed feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
-          version: '5'
-      type: authoritative
-      id: Shape_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Placed_feature
+  - type: expression
+    normative_status: preferred
+    designation: Placed_feature
   domain: 'application module: Shape_feature_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Component_feature_mim.component_feature_joint
   localized_concepts:
     eng: fb4f3624-540f-5796-a4bc-02fa4a0275d9
   domains:
-    - concept_id: section-Component_feature_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-      ref_type: section
+  - concept_id: section-Component_feature_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+    ref_type: section
 id: Component_feature_mim.component_feature_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component feature joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component feature joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **component_feature_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_joint,Component_feature_joint}}.
+  - content: A **component_feature_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_joint,Component_feature_joint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-          version: '5'
-      type: authoritative
-      id: Component_feature_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: component_feature_joint
+  - type: expression
+    normative_status: preferred
+    designation: component_feature_joint
   domain: 'application module: Component_feature_mim'
   language_code: eng
   annotations: []

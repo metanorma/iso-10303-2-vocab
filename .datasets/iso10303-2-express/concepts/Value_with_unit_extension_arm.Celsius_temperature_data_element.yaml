@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_extension_arm.Celsius_temperature_data_element
   localized_concepts:
     eng: 80dc8696-3a80-56e8-b8e0-c623feac7fd9
   domains:
-    - concept_id: section-Value_with_unit_extension_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_extension_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+    ref_type: section
 id: Value_with_unit_extension_arm.Celsius_temperature_data_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} that represents the celsius temperature data element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm.Value_with_unit,Value_with_unit}}
+      that represents the celsius temperature data element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Celsius_temperature_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}} where the measurement is of temperature where the unit is Celsius.
+  - content: A **Celsius_temperature_data_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Value_with_unit,Value_with_unit}}
+      where the measurement is of temperature where the unit is Celsius.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_extension_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Celsius_temperature_data_element
+  - type: expression
+    normative_status: preferred
+    designation: Celsius_temperature_data_element
   domain: 'application module: Value_with_unit_extension_arm'
   language_code: eng
   annotations: []

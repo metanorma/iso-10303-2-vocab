@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_template_shape_with_parameters_arm.Part_template_keepout_shape_model
   localized_concepts:
     eng: 63d1fddc-1078-545b-9c7b-b93bfc26a47c
   domains:
-    - concept_id: section-Part_template_shape_with_parameters_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
-      ref_type: section
+  - concept_id: section-Part_template_shape_with_parameters_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
+    ref_type: section
 id: Part_template_shape_with_parameters_arm.Part_template_keepout_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the part template keepout shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm.Geometric_model,Geometric_model}}
+      that represents the part template keepout shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
-          version: '4'
-      type: authoritative
-      id: Part_template_shape_with_parameters_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_shape_with_parameters_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_template_keepout_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Part_template_keepout_shape_model
   domain: 'application module: Part_template_shape_with_parameters_arm'
   language_code: eng
   annotations: []

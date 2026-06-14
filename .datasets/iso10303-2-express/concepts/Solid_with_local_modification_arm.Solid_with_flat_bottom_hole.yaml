@@ -1,30 +1,33 @@
+---
 data:
   identifier: Solid_with_local_modification_arm.Solid_with_flat_bottom_hole
   localized_concepts:
     eng: bb6e44e2-8b69-5ef1-9f1f-c9dec6ce78ec
   domains:
-    - concept_id: section-Solid_with_local_modification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-      ref_type: section
+  - concept_id: section-Solid_with_local_modification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+    ref_type: section
 id: Solid_with_local_modification_arm.Solid_with_flat_bottom_hole
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}} that represents the solid with flat bottom hole {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}}
+      that represents the solid with flat bottom hole {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Solid_with_flat_bottom_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}} having a flat bottom.
+  - content: A **Solid_with_flat_bottom_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}}
+      having a flat bottom.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-          version: '3'
-      type: authoritative
-      id: Solid_with_local_modification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Solid_with_flat_bottom_hole
+  - type: expression
+    normative_status: preferred
+    designation: Solid_with_flat_bottom_hole
   domain: 'application module: Solid_with_local_modification_arm'
   language_code: eng
   annotations: []

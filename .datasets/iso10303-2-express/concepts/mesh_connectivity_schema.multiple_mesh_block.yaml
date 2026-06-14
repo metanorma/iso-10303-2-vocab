@@ -1,30 +1,32 @@
+---
 data:
   identifier: mesh_connectivity_schema.multiple_mesh_block
   localized_concepts:
     eng: ebb617ae-e372-536a-a5a2-4320dee44777
   domains:
-    - concept_id: section-mesh_connectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-      ref_type: section
+  - concept_id: section-mesh_connectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+    ref_type: section
 id: mesh_connectivity_schema.multiple_mesh_block
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the multiple mesh block {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the multiple mesh block {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.multiple_mesh_block,multiple_mesh_block}} is a grouping of connected meshes.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.multiple_mesh_block,multiple_mesh_block}}
+      is a grouping of connected meshes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-          version: '3'
-      type: authoritative
-      id: mesh_connectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: multiple_mesh_block
+  - type: expression
+    normative_status: preferred
+    designation: multiple_mesh_block
   domain: 'resource: mesh_connectivity_schema'
   language_code: eng
   annotations: []

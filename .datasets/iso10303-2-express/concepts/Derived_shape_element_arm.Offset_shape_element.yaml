@@ -1,29 +1,31 @@
+---
 data:
   identifier: Derived_shape_element_arm.Offset_shape_element
   localized_concepts:
     eng: 46491608-1020-55db-ae6e-8eb8bd195b83
   domains:
-    - concept_id: section-Derived_shape_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-      ref_type: section
+  - concept_id: section-Derived_shape_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+    ref_type: section
 id: Derived_shape_element_arm.Offset_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}} that represents the offset shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Derived_shape_element,Derived_shape_element}}
+      that represents the offset shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-          version: '5'
-      type: authoritative
-      id: Derived_shape_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Offset_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: Offset_shape_element
   domain: 'application module: Derived_shape_element_arm'
   language_code: eng
   annotations: []

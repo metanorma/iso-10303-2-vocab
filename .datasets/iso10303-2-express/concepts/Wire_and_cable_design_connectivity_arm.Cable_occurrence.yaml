@@ -1,30 +1,34 @@
+---
 data:
   identifier: Wire_and_cable_design_connectivity_arm.Cable_occurrence
   localized_concepts:
     eng: 5905c273-2903-5a3f-a199-121b2197e80f
   domains:
-    - concept_id: section-Wire_and_cable_design_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
-      ref_type: section
+  - concept_id: section-Wire_and_cable_design_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+    ref_type: section
 id: Wire_and_cable_design_connectivity_arm.Cable_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}} that represents the cable occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}}
+      that represents the cable occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cable_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}} that is an occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} having a specified length.
+  - content: A **Cable_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence_with_quantity,Product_occurrence_with_quantity}}
+      that is an occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}
+      having a specified length.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
-          version: '3'
-      type: authoritative
-      id: Wire_and_cable_design_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cable_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: Cable_occurrence
   domain: 'application module: Wire_and_cable_design_connectivity_arm'
   language_code: eng
   annotations: []

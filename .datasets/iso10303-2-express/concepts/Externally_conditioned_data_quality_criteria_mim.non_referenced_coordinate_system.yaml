@@ -1,30 +1,33 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_mim.non_referenced_coordinate_system
   localized_concepts:
     eng: 8019bb97-c1ed-5c19-b09a-7eef00607fee
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_mim.non_referenced_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents the non referenced coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}}
+      that represents the non referenced coordinate system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **non_referenced_coordinate_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Non_referenced_coordinate_system,Non_referenced_coordinate_system}}.
+  - content: A **non_referenced_coordinate_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Non_referenced_coordinate_system,Non_referenced_coordinate_system}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: non_referenced_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: non_referenced_coordinate_system
   domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
   language_code: eng
   annotations: []

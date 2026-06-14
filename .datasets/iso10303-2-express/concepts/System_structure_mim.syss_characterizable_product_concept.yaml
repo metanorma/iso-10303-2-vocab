@@ -1,30 +1,32 @@
+---
 data:
   identifier: System_structure_mim.syss_characterizable_product_concept
   localized_concepts:
     eng: f31206bd-606a-5542-8fc5-af6ddb94e389
   domains:
-    - concept_id: section-System_structure_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
-      ref_type: section
+  - concept_id: section-System_structure_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
+    ref_type: section
 id: System_structure_mim.syss_characterizable_product_concept
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the syss characterizable product concept {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the syss characterizable product concept {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **syss_characterizable_product_concept** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
+  - content: A **syss_characterizable_product_concept** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
-          version: '2'
-      type: authoritative
-      id: System_structure_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: syss_characterizable_product_concept
+  - type: expression
+    normative_status: preferred
+    designation: syss_characterizable_product_concept
   domain: 'application module: System_structure_mim'
   language_code: eng
   annotations: []

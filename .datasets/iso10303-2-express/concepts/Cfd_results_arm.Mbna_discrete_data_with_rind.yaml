@@ -1,30 +1,34 @@
+---
 data:
   identifier: Cfd_results_arm.Mbna_discrete_data_with_rind
   localized_concepts:
     eng: 318494e6-fd7e-52f5-879f-391e6e2b8535
   domains:
-    - concept_id: section-Cfd_results_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
-      ref_type: section
+  - concept_id: section-Cfd_results_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+    ref_type: section
 id: Cfd_results_arm.Mbna_discrete_data_with_rind
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}} that represents the mbna discrete data with rind {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}}
+      that represents the mbna discrete data with rind {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Mbna_discrete_data_with_rind** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}} that is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}} with rind point data.
+  - content: An **Mbna_discrete_data_with_rind** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}}
+      that is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm.Mbna_discrete_data,Mbna_discrete_data}}
+      with rind point data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_results_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_results_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_discrete_data_with_rind
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_discrete_data_with_rind
   domain: 'application module: Cfd_results_arm'
   language_code: eng
   annotations: []

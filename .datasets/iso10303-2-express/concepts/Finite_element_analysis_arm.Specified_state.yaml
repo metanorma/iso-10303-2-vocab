@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Specified_state
   localized_concepts:
     eng: bc94ee57-90e0-5c5d-8ced-9f9dc0de6ac9
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Specified_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}} that represents the specified state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}}
+      that represents the specified state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Specified_state** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}} representing information that is specified.
+  - content: A **Specified_state** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state,Fe_analysis_state}}
+      representing information that is specified.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Specified_state
+  - type: expression
+    normative_status: preferred
+    designation: Specified_state
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

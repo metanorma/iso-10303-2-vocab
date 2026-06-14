@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_environment_definition_mim.environment_definition_version
   localized_concepts:
     eng: 27ea3add-0403-54a1-9ae0-6cc9e9cb7856
   domains:
-    - concept_id: section-Product_environment_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
-      ref_type: section
+  - concept_id: section-Product_environment_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+    ref_type: section
 id: Product_environment_definition_mim.environment_definition_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the environment definition version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.product_definition_formation,product_definition_formation}}
+      that represents the environment definition version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **environment_definition_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies a particular version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.environment_definition,environment_definition}}.
+  - content: An **environment_definition_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that identifies a particular version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.environment_definition,environment_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
-          version: '4'
-      type: authoritative
-      id: Product_environment_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: environment_definition_version
+  - type: expression
+    normative_status: preferred
+    designation: environment_definition_version
   domain: 'application module: Product_environment_definition_mim'
   language_code: eng
   annotations: []

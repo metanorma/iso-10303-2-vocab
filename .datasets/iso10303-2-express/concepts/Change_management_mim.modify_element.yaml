@@ -1,30 +1,33 @@
+---
 data:
   identifier: Change_management_mim.modify_element
   localized_concepts:
     eng: eafd1dcc-e37b-537c-bbc5-a4cc2d22c547
   domains:
-    - concept_id: section-Change_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-      ref_type: section
+  - concept_id: section-Change_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+    ref_type: section
 id: Change_management_mim.modify_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}} that represents the modify element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}}
+      that represents the modify element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **modify_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Modify_element,Modify_element}}.
+  - content: A **modify_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.change_element,change_element}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Modify_element,Modify_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-          version: '3'
-      type: authoritative
-      id: Change_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: modify_element
+  - type: expression
+    normative_status: preferred
+    designation: modify_element
   domain: 'application module: Change_management_mim'
   language_code: eng
   annotations: []

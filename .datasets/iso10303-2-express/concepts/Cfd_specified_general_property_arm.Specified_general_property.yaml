@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_specified_general_property_arm.Specified_general_property
   localized_concepts:
     eng: 76dd87c3-d622-5720-8e6f-c822987c66df
   domains:
-    - concept_id: section-Cfd_specified_general_property_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
-      ref_type: section
+  - concept_id: section-Cfd_specified_general_property_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
+    ref_type: section
 id: Cfd_specified_general_property_arm.Specified_general_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that represents the specified general property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm.Independent_property,Independent_property}}
+      that represents the specified general property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Specified_general_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} where the identifier is one of a pre-defined set.
+  - content: A **Specified_general_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}}
+      where the identifier is one of a pre-defined set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
-          version: '2'
-      type: authoritative
-      id: Cfd_specified_general_property_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_specified_general_property_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Specified_general_property
+  - type: expression
+    normative_status: preferred
+    designation: Specified_general_property
   domain: 'application module: Cfd_specified_general_property_arm'
   language_code: eng
   annotations: []

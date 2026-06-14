@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Interface_access_material_removal_laminate_component
   localized_concepts:
     eng: 1bf99021-ad5d-51e1-a88f-615cef68d154
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Interface_access_material_removal_laminate_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Material_removal_laminate_component,Material_removal_laminate_component}} that represents the interface access material removal laminate component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Material_removal_laminate_component,Material_removal_laminate_component}}
+      that represents the interface access material removal laminate component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_access_material_removal_laminate_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Material_removal_laminate_component,Material_removal_laminate_component}} that indicates that material is to be removed in the realization of access to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}}.
+  - content: An **Interface_access_material_removal_laminate_component** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Material_removal_laminate_component,Material_removal_laminate_component}}
+      that indicates that material is to be removed in the realization of access to
+      the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_access_material_removal_laminate_component
+  - type: expression
+    normative_status: preferred
+    designation: Interface_access_material_removal_laminate_component
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

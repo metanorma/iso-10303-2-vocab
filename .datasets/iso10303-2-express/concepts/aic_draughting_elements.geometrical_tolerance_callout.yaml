@@ -1,30 +1,33 @@
+---
 data:
   identifier: aic_draughting_elements.geometrical_tolerance_callout
   localized_concepts:
     eng: ca8d3b44-ddc7-5f61-ada2-ba6e60bc9dff
   domains:
-    - concept_id: section-aic_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+    ref_type: section
 id: aic_draughting_elements.geometrical_tolerance_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that represents the geometrical tolerance callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements.draughting_callout,draughting_callout}}
+      that represents the geometrical tolerance callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometrical_tolerance_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that presents a geometrical tolerance.
+  - content: A **geometrical_tolerance_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}}
+      that presents a geometrical tolerance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-          version: '2'
-      type: authoritative
-      id: aic_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometrical_tolerance_callout
+  - type: expression
+    normative_status: preferred
+    designation: geometrical_tolerance_callout
   domain: 'resource: aic_draughting_elements'
   language_code: eng
   annotations: []

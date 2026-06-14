@@ -1,29 +1,31 @@
+---
 data:
   identifier: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_approval
   localized_concepts:
     eng: a940f2d9-177e-523d-947c-5fcd2be4f884
   domains:
-    - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      ref_type: section
+  - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    ref_type: section
 id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_approval
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.approval_assignment,approval_assignment}} that represents the cc design approval {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.approval_assignment,approval_assignment}}
+      that represents the cc design approval {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-          version: '3'
-      type: authoritative
-      id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_approval
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_approval
   domain: 'application module: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim'
   language_code: eng
   annotations: []

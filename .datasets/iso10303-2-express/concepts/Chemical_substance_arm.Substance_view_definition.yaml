@@ -1,30 +1,33 @@
+---
 data:
   identifier: Chemical_substance_arm.Substance_view_definition
   localized_concepts:
     eng: 42a1f2ef-d59f-508e-b471-4e64efa63765
   domains:
-    - concept_id: section-Chemical_substance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
-      ref_type: section
+  - concept_id: section-Chemical_substance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+    ref_type: section
 id: Chemical_substance_arm.Substance_view_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the substance view definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Product_view_definition,Product_view_definition}}
+      that represents the substance view definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Substance_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that defines a characterization view of a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}}.
+  - content: A **Substance_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that defines a characterization view of a version of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Substance,Substance}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
-          version: '4'
-      type: authoritative
-      id: Chemical_substance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Substance_view_definition
+  - type: expression
+    normative_status: preferred
+    designation: Substance_view_definition
   domain: 'application module: Chemical_substance_arm'
   language_code: eng
   annotations: []

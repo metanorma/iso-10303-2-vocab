@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_arm.Hatch_line_element
   localized_concepts:
     eng: 72d94894-19ca-563c-a23a-e48856aecf37
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+    ref_type: section
 id: Layered_interconnect_simple_template_arm.Hatch_line_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the hatch line element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the hatch line element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Hatch_line_element
+  - type: expression
+    normative_status: preferred
+    designation: Hatch_line_element
   domain: 'application module: Layered_interconnect_simple_template_arm'
   language_code: eng
   annotations: []

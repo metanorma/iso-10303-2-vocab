@@ -1,30 +1,34 @@
+---
 data:
   identifier: parameterization_schema.fixed_instance_attribute_set
   localized_concepts:
     eng: 8cfe7b05-cecf-511d-9772-63ad73f001b2
   domains:
-    - concept_id: section-parameterization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-      ref_type: section
+  - concept_id: section-parameterization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+    ref_type: section
 id: parameterization_schema.fixed_instance_attribute_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}} that represents the fixed instance attribute set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.variational_representation_item,variational_representation_item}}
+      that represents the fixed instance attribute set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.fixed_instance_attribute_set,fixed_instance_attribute_set}} entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}} as defined in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}.
+  - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.fixed_instance_attribute_set,fixed_instance_attribute_set}}
+      entity data type is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}
+      as defined in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-          version: '4'
-      type: authoritative
-      id: parameterization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fixed_instance_attribute_set
+  - type: expression
+    normative_status: preferred
+    designation: fixed_instance_attribute_set
   domain: 'resource: parameterization_schema'
   language_code: eng
   annotations: []

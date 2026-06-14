@@ -1,30 +1,33 @@
+---
 data:
   identifier: Alternative_solution_arm.Alternative_solution_relationship
   localized_concepts:
     eng: 64a0eeac-7f22-5f01-b8de-73419acd2e79
   domains:
-    - concept_id: section-Alternative_solution_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
-      ref_type: section
+  - concept_id: section-Alternative_solution_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+    ref_type: section
 id: Alternative_solution_arm.Alternative_solution_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the alternative solution relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the alternative solution relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Alternative_solution_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}} objects the meaning of which is defined by the attribute **relation_type**.
+  - content: An **Alternative_solution_relationship** is a relationship between two
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm.Alternative_solution,Alternative_solution}}
+      objects the meaning of which is defined by the attribute **relation_type**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
-          version: '4'
-      type: authoritative
-      id: Alternative_solution_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Alternative_solution_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Alternative_solution_relationship
   domain: 'application module: Alternative_solution_arm'
   language_code: eng
   annotations: []

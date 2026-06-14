@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.indistinct_surface_knots
   localized_concepts:
     eng: 90e5d5c8-a373-5e0d-8276-b918b68934a9
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.indistinct_surface_knots
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometry_with_local_near_degeneracy,geometry_with_local_near_degeneracy}} that represents the indistinct surface knots {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.geometry_with_local_near_degeneracy,geometry_with_local_near_degeneracy}}
+      that represents the indistinct surface knots {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: indistinct_surface_knots
+  - type: expression
+    normative_status: preferred
+    designation: indistinct_surface_knots
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

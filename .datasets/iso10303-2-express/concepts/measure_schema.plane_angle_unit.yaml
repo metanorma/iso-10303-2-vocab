@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.plane_angle_unit
   localized_concepts:
     eng: 52cec17a-155e-538a-bd66-24ee9acfbd6d
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.plane_angle_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that represents the plane angle unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      that represents the plane angle unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **plane_angle_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} in which angles in planes are expressed.
+  - content: A **plane_angle_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      in which angles in planes are expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: plane_angle_unit
+  - type: expression
+    normative_status: preferred
+    designation: plane_angle_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

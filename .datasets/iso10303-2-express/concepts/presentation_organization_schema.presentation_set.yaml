@@ -1,30 +1,31 @@
+---
 data:
   identifier: presentation_organization_schema.presentation_set
   localized_concepts:
     eng: 92068e4b-92d9-5b91-bb4e-68772d26088f
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.presentation_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the presentation set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the presentation set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **presentation_set** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}}s.
+  - content: A **presentation_set** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: presentation_set
+  - type: expression
+    normative_status: preferred
+    designation: presentation_set
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

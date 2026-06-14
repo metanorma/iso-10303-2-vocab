@@ -1,30 +1,33 @@
+---
 data:
   identifier: Part_definition_relationship_arm.Make_from_relationship
   localized_concepts:
     eng: a11bdd52-8c82-52b3-8f53-8c5f3f6ef1c5
   domains:
-    - concept_id: section-Part_definition_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm
-      ref_type: section
+  - concept_id: section-Part_definition_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm
+    ref_type: section
 id: Part_definition_relationship_arm.Make_from_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} that represents the make from relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm.View_definition_usage,View_definition_usage}}
+      that represents the make from relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Make_from_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} established between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}.
+  - content: A **Make_from_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}}
+      established between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm
-          version: '3'
-      type: authoritative
-      id: Part_definition_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_definition_relationship_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Make_from_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Make_from_relationship
   domain: 'application module: Part_definition_relationship_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Thermal_network_definition_arm.Thermal_network_definition
   localized_concepts:
     eng: 4e22a49e-6ef8-58d9-802f-d0409f5b218f
   domains:
-    - concept_id: section-Thermal_network_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
-      ref_type: section
+  - concept_id: section-Thermal_network_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
+    ref_type: section
 id: Thermal_network_definition_arm.Thermal_network_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}} that represents the thermal network definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm.Functional_unit_network_definition,Functional_unit_network_definition}}
+      that represents the thermal network definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Thermal_network_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}} for which the network nodal formulation is a representation of heat flow rather than current flow.
+  - content: A **Thermal_network_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}}
+      for which the network nodal formulation is a representation of heat flow rather
+      than current flow.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
-          version: '5'
-      type: authoritative
-      id: Thermal_network_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Thermal_network_definition
+  - type: expression
+    normative_status: preferred
+    designation: Thermal_network_definition
   domain: 'application module: Thermal_network_definition_arm'
   language_code: eng
   annotations: []

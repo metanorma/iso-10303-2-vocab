@@ -1,30 +1,32 @@
+---
 data:
   identifier: qualified_measure_schema.precision_qualifier
   localized_concepts:
     eng: b8d769a8-f68f-5fd1-a161-4510cbc77305
   domains:
-    - concept_id: section-qualified_measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-      ref_type: section
+  - concept_id: section-qualified_measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+    ref_type: section
 id: qualified_measure_schema.precision_qualifier
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the precision qualifier {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the precision qualifier {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **precision_qualifier** is the number of significant figures in the representation of a value.
+  - content: A **precision_qualifier** is the number of significant figures in the
+      representation of a value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-          version: '4'
-      type: authoritative
-      id: qualified_measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: precision_qualifier
+  - type: expression
+    normative_status: preferred
+    designation: precision_qualifier
   domain: 'resource: qualified_measure_schema'
   language_code: eng
   annotations: []

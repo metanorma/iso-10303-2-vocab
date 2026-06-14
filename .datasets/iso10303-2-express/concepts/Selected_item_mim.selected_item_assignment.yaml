@@ -1,30 +1,33 @@
+---
 data:
   identifier: Selected_item_mim.selected_item_assignment
   localized_concepts:
     eng: 89df7281-95c7-5db2-b7a4-6d28d8d66cfc
   domains:
-    - concept_id: section-Selected_item_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-      ref_type: section
+  - concept_id: section-Selected_item_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+    ref_type: section
 id: Selected_item_mim.selected_item_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim.applied_classification_assignment,applied_classification_assignment}} that represents the selected item assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim.applied_classification_assignment,applied_classification_assignment}}
+      that represents the selected item assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **selected_item_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim.applied_classification_assignment,applied_classification_assignment}} used to indicate the product or activity data that is selected.
+  - content: A **selected_item_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_assignment_mim.applied_classification_assignment,applied_classification_assignment}}
+      used to indicate the product or activity data that is selected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-          version: '2'
-      type: authoritative
-      id: Selected_item_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: selected_item_assignment
+  - type: expression
+    normative_status: preferred
+    designation: selected_item_assignment
   domain: 'application module: Selected_item_mim'
   language_code: eng
   annotations: []

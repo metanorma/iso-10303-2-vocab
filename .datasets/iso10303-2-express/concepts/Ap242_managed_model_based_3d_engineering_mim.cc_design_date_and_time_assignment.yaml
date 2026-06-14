@@ -1,30 +1,34 @@
+---
 data:
   identifier: Ap242_managed_model_based_3d_engineering_mim.cc_design_date_and_time_assignment
   localized_concepts:
     eng: 077ae3ba-14c0-5b8c-97df-d75b2dea15c0
   domains:
-    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-      ref_type: section
+  - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+    ref_type: section
 id: Ap242_managed_model_based_3d_engineering_mim.cc_design_date_and_time_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_and_time_assignment,date_and_time_assignment}} that represents the cc design date and time assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim.date_and_time_assignment,date_and_time_assignment}}
+      that represents the cc design date and time assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cc_design_date_and_time_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_and_time_assignment,date_and_time_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_and_time_assignment,date_and_time_assignment}} to a particular piece of product data.
+  - content: A **cc_design_date_and_time_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_and_time_assignment,date_and_time_assignment}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_and_time_assignment,date_and_time_assignment}}
+      to a particular piece of product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-          version: '5'
-      type: authoritative
-      id: Ap242_managed_model_based_3d_engineering_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_date_and_time_assignment
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_date_and_time_assignment
   domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_resource_schema.colour_rgb
   localized_concepts:
     eng: 3ffbfcb4-f527-5498-9ce0-18c53617adc9
   domains:
-    - concept_id: section-presentation_resource_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-      ref_type: section
+  - concept_id: section-presentation_resource_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+    ref_type: section
 id: presentation_resource_schema.colour_rgb
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour_specification,colour_specification}} that represents the colour rgb {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour_specification,colour_specification}}
+      that represents the colour rgb {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-          version: '6'
-      type: authoritative
-      id: presentation_resource_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: colour_rgb
+  - type: expression
+    normative_status: preferred
+    designation: colour_rgb
   domain: 'resource: presentation_resource_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: System_identification_and_version_arm.System_version_relationship
   localized_concepts:
     eng: 16642842-98b6-54f1-8f2c-0bed482768df
   domains:
-    - concept_id: section-System_identification_and_version_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
-      ref_type: section
+  - concept_id: section-System_identification_and_version_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
+    ref_type: section
 id: System_identification_and_version_arm.System_version_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm.Product_version_relationship,Product_version_relationship}} that represents the system version relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm.Product_version_relationship,Product_version_relationship}}
+      that represents the system version relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **System_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm.Product_version_relationship,Product_version_relationship}} used to relate versions of a system.
+  - content: A **System_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_relationship_arm.Product_version_relationship,Product_version_relationship}}
+      used to relate versions of a system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
-          version: '2'
-      type: authoritative
-      id: System_identification_and_version_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_identification_and_version_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: System_version_relationship
+  - type: expression
+    normative_status: preferred
+    designation: System_version_relationship
   domain: 'application module: System_identification_and_version_arm'
   language_code: eng
   annotations: []

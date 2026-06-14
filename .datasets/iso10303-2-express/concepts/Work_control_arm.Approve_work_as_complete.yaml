@@ -1,29 +1,31 @@
+---
 data:
   identifier: Work_control_arm.Approve_work_as_complete
   localized_concepts:
     eng: 8a0fc437-a1a2-5bdf-8baa-49e26e306ab1
   domains:
-    - concept_id: section-Work_control_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
-      ref_type: section
+  - concept_id: section-Work_control_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+    ref_type: section
 id: Work_control_arm.Approve_work_as_complete
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Monitor_work,Monitor_work}} that represents the approve work as complete {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Monitor_work,Monitor_work}}
+      that represents the approve work as complete {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
-          version: '1'
-      type: authoritative
-      id: Work_control_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Approve_work_as_complete
+  - type: expression
+    normative_status: preferred
+    designation: Approve_work_as_complete
   domain: 'application module: Work_control_arm'
   language_code: eng
   annotations: []

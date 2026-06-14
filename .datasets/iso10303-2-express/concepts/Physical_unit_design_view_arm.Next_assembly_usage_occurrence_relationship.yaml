@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_unit_design_view_arm.Next_assembly_usage_occurrence_relationship
   localized_concepts:
     eng: 714e2706-7a69-5fae-aec1-82a3f2f5909a
   domains:
-    - concept_id: section-Physical_unit_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-      ref_type: section
+  - concept_id: section-Physical_unit_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+    ref_type: section
 id: Physical_unit_design_view_arm.Next_assembly_usage_occurrence_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}} that represents the next assembly usage occurrence relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Next_assembly_usage,Next_assembly_usage}}
+      that represents the next assembly usage occurrence relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Next_assembly_usage_occurrence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}} that restricts the **component** to be a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}}.
+  - content: A **Next_assembly_usage_occurrence_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}}
+      that restricts the **component** to be a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
-          version: '5'
-      type: authoritative
-      id: Physical_unit_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Next_assembly_usage_occurrence_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Next_assembly_usage_occurrence_relationship
   domain: 'application module: Physical_unit_design_view_arm'
   language_code: eng
   annotations: []

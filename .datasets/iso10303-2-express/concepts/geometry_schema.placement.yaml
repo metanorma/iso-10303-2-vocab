@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.placement
   localized_concepts:
     eng: e4691df8-b0e7-5e22-ba59-239fc5e4ff24
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.placement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the placement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the placement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that locates a geometric item with respect to the coordinate system of its geometric context.
+  - content: A **placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that locates a geometric item with respect to the coordinate system of its geometric
+      context.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: placement
+  - type: expression
+    normative_status: preferred
+    designation: placement
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

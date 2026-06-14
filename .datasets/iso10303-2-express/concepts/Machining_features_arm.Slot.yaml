@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Slot
   localized_concepts:
     eng: c344b1af-34cd-5f5d-889e-3e351ab4370b
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Slot
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that represents the slot {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that represents the slot {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that is a channel or depression with continuous direction of travel.
+  - content: A **Slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that is a channel or depression with continuous direction of travel.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Slot
+  - type: expression
+    normative_status: preferred
+    designation: Slot
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

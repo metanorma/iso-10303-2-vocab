@@ -1,31 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Interconnect_connection_zone_position_relationship
   localized_concepts:
-    eng: 013308ae-5e5d-55a1-9b6d-918fad3a73a8
+    eng: '013308ae-5e5d-55a1-9b6d-918fad3a73a8'
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Interconnect_connection_zone_position_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interconnect connection zone position relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the interconnect connection zone position relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interconnect_connection_zone_position_relationship** is the association between a geometric model of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}} as a target and a geometric model of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Connection_zone_in_design_view,Connection_zone_in_design_view}} as the source.
+  - content: An **Interconnect_connection_zone_position_relationship** is the association
+      between a geometric model of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}}
+      as a target and a geometric model of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_arm.Connection_zone_in_design_view,Connection_zone_in_design_view}}
+      as the source.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_connection_zone_position_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_connection_zone_position_relationship
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []
-id: 013308ae-5e5d-55a1-9b6d-918fad3a73a8
+id: '013308ae-5e5d-55a1-9b6d-918fad3a73a8'

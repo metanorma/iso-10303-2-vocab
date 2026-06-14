@@ -1,29 +1,31 @@
+---
 data:
   identifier: Component_feature_arm.Component_feature_make_from_relationship
   localized_concepts:
     eng: 3fc3aa01-61d0-5571-af6e-d830769e1f06
   domains:
-    - concept_id: section-Component_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
-      ref_type: section
+  - concept_id: section-Component_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+    ref_type: section
 id: Component_feature_arm.Component_feature_make_from_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_relationship,Component_feature_relationship}} that represents the component feature make from relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_relationship,Component_feature_relationship}}
+      that represents the component feature make from relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
-          version: '5'
-      type: authoritative
-      id: Component_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_feature_make_from_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Component_feature_make_from_relationship
   domain: 'application module: Component_feature_arm'
   language_code: eng
   annotations: []

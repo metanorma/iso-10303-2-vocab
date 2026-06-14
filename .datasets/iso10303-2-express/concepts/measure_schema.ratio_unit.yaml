@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.ratio_unit
   localized_concepts:
     eng: 62749784-5dbd-53b7-9543-ac416673d195
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.ratio_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that represents the ratio unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      that represents the ratio unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **ratio_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} in which the ratio between two physical quantities of the same kind is expressed.
+  - content: A **ratio_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      in which the ratio between two physical quantities of the same kind is expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: ratio_unit
+  - type: expression
+    normative_status: preferred
+    designation: ratio_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

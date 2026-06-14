@@ -1,30 +1,32 @@
+---
 data:
   identifier: Work_order_arm.Work_order_relationship
   localized_concepts:
     eng: 0a875dde-0d1e-53ba-8375-9b3517bcc67a
   domains:
-    - concept_id: section-Work_order_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-      ref_type: section
+  - concept_id: section-Work_order_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+    ref_type: section
 id: Work_order_arm.Work_order_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work order relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the work order relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Work_order_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Work_order,Work_order}} objects.
+  - content: A **Work_order_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Work_order,Work_order}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
-          version: '3'
-      type: authoritative
-      id: Work_order_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Work_order_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Work_order_relationship
   domain: 'application module: Work_order_arm'
   language_code: eng
   annotations: []

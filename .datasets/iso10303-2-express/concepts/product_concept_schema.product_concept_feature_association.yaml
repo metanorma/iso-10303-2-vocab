@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_concept_schema.product_concept_feature_association
   localized_concepts:
     eng: b75849b3-2c24-5f01-9353-39438b306a3b
   domains:
-    - concept_id: section-product_concept_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-      ref_type: section
+  - concept_id: section-product_concept_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+    ref_type: section
 id: product_concept_schema.product_concept_feature_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product concept feature association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product concept feature association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_concept_feature_association** is a relationship, that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
+  - content: A **product_concept_feature_association** is a relationship, that relates
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept,product_concept}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-          version: '2'
-      type: authoritative
-      id: product_concept_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_concept_feature_association
+  - type: expression
+    normative_status: preferred
+    designation: product_concept_feature_association
   domain: 'resource: product_concept_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Possession_of_property_mim.possessed_property
   localized_concepts:
     eng: 43623956-0af3-57e2-8a02-6a921e140e43
   domains:
-    - concept_id: section-Possession_of_property_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_mim
-      ref_type: section
+  - concept_id: section-Possession_of_property_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_mim
+    ref_type: section
 id: Possession_of_property_mim.possessed_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property_association,general_property_association}} that represents the possessed property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_mim.general_property_association,general_property_association}}
+      that represents the possessed property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_mim
-          version: '1'
-      type: authoritative
-      id: Possession_of_property_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Possession_of_property_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: possessed_property
+  - type: expression
+    normative_status: preferred
+    designation: possessed_property
   domain: 'application module: Possession_of_property_mim'
   language_code: eng
   annotations: []

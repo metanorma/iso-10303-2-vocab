@@ -1,29 +1,32 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.shape_data_quality_inspected_shape_and_result_relationship
   localized_concepts:
     eng: d66e0f6b-7c4e-5308-bf9a-b1b6de1af95b
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.shape_data_quality_inspected_shape_and_result_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}} that represents the shape data quality inspected shape and result relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_representation_relationship,shape_representation_relationship}}
+      that represents the shape data quality inspected shape and result relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_data_quality_inspected_shape_and_result_relationship
+  - type: expression
+    normative_status: preferred
+    designation: shape_data_quality_inspected_shape_and_result_relationship
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

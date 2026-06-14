@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_model_arm.External_geometric_model
   localized_concepts:
     eng: 83f54ddc-4b21-5804-8fc7-8b7ac0ffdd6b
   domains:
-    - concept_id: section-External_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_model_arm
-      ref_type: section
+  - concept_id: section-External_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_model_arm
+    ref_type: section
 id: External_model_arm.External_geometric_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the external geometric model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_model_arm.Geometric_model,Geometric_model}}
+      that represents the external geometric model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **External_geometric_model** is a type of 3D {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} whose content is provided in an external file.
+  - content: An **External_geometric_model** is a type of 3D {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      whose content is provided in an external file.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_model_arm
-          version: '2'
-      type: authoritative
-      id: External_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_model_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: External_geometric_model
+  - type: expression
+    normative_status: preferred
+    designation: External_geometric_model
   domain: 'application module: External_model_arm'
   language_code: eng
   annotations: []

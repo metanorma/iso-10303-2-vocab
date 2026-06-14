@@ -1,34 +1,36 @@
+---
 data:
   identifier: Assembly_module_with_packaged_component_mim.packaged_component
   localized_concepts:
     eng: 8f5eb140-e16e-575d-a457-095b69308181
   domains:
-    - concept_id: section-Assembly_module_with_packaged_component_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim
-      ref_type: section
+  - concept_id: section-Assembly_module_with_packaged_component_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim
+    ref_type: section
 id: Assembly_module_with_packaged_component_mim.packaged_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that represents the packaged component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim.physical_component,physical_component}}
+      that represents the packaged component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **packaged_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concepts of:
+  - content: |-
+      A **packaged_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component,Packaged_component}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm.Packaged_connector_component,Packaged_connector_component}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_arm.Packaged_component,Packaged_component}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_connector_component_arm.Packaged_connector_component,Packaged_connector_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim
-          version: '1'
-      type: authoritative
-      id: Assembly_module_with_packaged_component_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_packaged_component_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: packaged_component
+  - type: expression
+    normative_status: preferred
+    designation: packaged_component
   domain: 'application module: Assembly_module_with_packaged_component_mim'
   language_code: eng
   annotations: []

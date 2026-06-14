@@ -1,30 +1,34 @@
+---
 data:
   identifier: Sequential_laminate_assembly_design_arm.Interconnect_module_product_assembly_view_fabrication_joint
   localized_concepts:
     eng: 5beadeee-191e-53e5-a626-f5da8a4db431
   domains:
-    - concept_id: section-Sequential_laminate_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Sequential_laminate_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+    ref_type: section
 id: Sequential_laminate_assembly_design_arm.Interconnect_module_product_assembly_view_fabrication_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interconnect module product assembly view fabrication joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the interconnect module product assembly view fabrication
+      joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interconnect_module_product_assembly_view_fabrication_joint** is the specification of the bond among {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Interconnect_module_component_stratum_based_terminal,Interconnect_module_component_stratum_based_terminal}} which is created during an assembly process.
+  - content: An **Interconnect_module_product_assembly_view_fabrication_joint** is
+      the specification of the bond among {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Interconnect_module_component_stratum_based_terminal,Interconnect_module_component_stratum_based_terminal}}
+      which is created during an assembly process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-          version: '5'
-      type: authoritative
-      id: Sequential_laminate_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_product_assembly_view_fabrication_joint
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_product_assembly_view_fabrication_joint
   domain: 'application module: Sequential_laminate_assembly_design_arm'
   language_code: eng
   annotations: []

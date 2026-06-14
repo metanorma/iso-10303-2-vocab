@@ -1,29 +1,31 @@
+---
 data:
   identifier: Production_rule_arm.Forward_chaining_rule
   localized_concepts:
     eng: 6f74a280-1f7e-5fd8-a32a-89fbcc64d052
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Forward_chaining_rule
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_definition,Rule_definition}} that represents the forward chaining rule {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Rule_definition,Rule_definition}}
+      that represents the forward chaining rule {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Forward_chaining_rule
+  - type: expression
+    normative_status: preferred
+    designation: Forward_chaining_rule
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_data_quality_criteria_arm.Detailed_report_request
   localized_concepts:
     eng: 4145e7b2-cc8e-5df0-bb2f-f77e12defbdc
   domains:
-    - concept_id: section-Product_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Product_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+    ref_type: section
 id: Product_data_quality_criteria_arm.Detailed_report_request
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.data_quality_report_request,data_quality_report_request}} that represents the detailed report request {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.data_quality_report_request,data_quality_report_request}}
+      that represents the detailed report request {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Detailed_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_report_request,Data_quality_report_request}} that requests a detailed inspection report on the criterion concerned.
+  - content: A **Detailed_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_report_request,Data_quality_report_request}}
+      that requests a detailed inspection report on the criterion concerned.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
-          version: '2'
-      type: authoritative
-      id: Product_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Detailed_report_request
+  - type: expression
+    normative_status: preferred
+    designation: Detailed_report_request
   domain: 'application module: Product_data_quality_criteria_arm'
   language_code: eng
   annotations: []

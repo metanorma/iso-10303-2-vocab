@@ -1,30 +1,33 @@
+---
 data:
   identifier: external_reference_schema.externally_defined_item
   localized_concepts:
     eng: e9b62230-f135-5bf2-a90f-37002e972ed7
   domains:
-    - concept_id: section-external_reference_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
-      ref_type: section
+  - concept_id: section-external_reference_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+    ref_type: section
 id: external_reference_schema.externally_defined_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally defined item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **externally_defined_item** is the identification of information that is not explicitly represented in a given exchange and that is not defined in the annotated EXPRESS schema to which the exchange conforms.
+  - content: An **externally_defined_item** is the identification of information that
+      is not explicitly represented in a given exchange and that is not defined in
+      the annotated EXPRESS schema to which the exchange conforms.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
-          version: '7'
-      type: authoritative
-      id: external_reference_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_defined_item
+  - type: expression
+    normative_status: preferred
+    designation: externally_defined_item
   domain: 'resource: external_reference_schema'
   language_code: eng
   annotations: []

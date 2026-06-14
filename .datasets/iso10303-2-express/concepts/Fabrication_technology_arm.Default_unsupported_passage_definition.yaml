@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fabrication_technology_arm.Default_unsupported_passage_definition
   localized_concepts:
     eng: 50f755ed-ef3d-576d-a637-d80e3fa870f4
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Default_unsupported_passage_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}} that represents the default unsupported passage definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}}
+      that represents the default unsupported passage definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Default_unsupported_passage_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}} where the passage is unsupported by metallization.
+  - content: A **Default_unsupported_passage_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}}
+      where the passage is unsupported by metallization.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Default_unsupported_passage_definition
+  - type: expression
+    normative_status: preferred
+    designation: Default_unsupported_passage_definition
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

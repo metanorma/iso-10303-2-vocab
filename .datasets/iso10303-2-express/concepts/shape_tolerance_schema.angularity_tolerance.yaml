@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_tolerance_schema.angularity_tolerance
   localized_concepts:
     eng: 2ee8030e-69c6-5c3c-9efa-a3a3e5375763
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.angularity_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance_with_datum_reference,geometric_tolerance_with_datum_reference}} that represents the angularity tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance_with_datum_reference,geometric_tolerance_with_datum_reference}}
+      that represents the angularity tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: angularity_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: angularity_tolerance
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

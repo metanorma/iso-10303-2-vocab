@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.shape_summary_request_with_representative_value
   localized_concepts:
     eng: 327988ba-9150-534b-9f99-1f509c8ad3a6
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.shape_summary_request_with_representative_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.summary_report_request,summary_report_request}} that represents the shape summary request with representative value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.summary_report_request,summary_report_request}}
+      that represents the shape summary request with representative value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_summary_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.summary_report_request,summary_report_request}} that requests a summarized inspection report with representative measured value on the criterion concerned.
+  - content: A **shape_summary_request_with_representative_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.summary_report_request,summary_report_request}}
+      that requests a summarized inspection report with representative measured value
+      on the criterion concerned.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_summary_request_with_representative_value
+  - type: expression
+    normative_status: preferred
+    designation: shape_summary_request_with_representative_value
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Risk_management_mim.rm_characterizable_state_type
   localized_concepts:
     eng: a5c38680-a880-54fe-a1f0-ffc7f6d3fdad
   domains:
-    - concept_id: section-Risk_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
-      ref_type: section
+  - concept_id: section-Risk_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+    ref_type: section
 id: Risk_management_mim.rm_characterizable_state_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rm characterizable state type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rm characterizable state type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rm_characterizable_state_type** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}}.
+  - content: A **rm_characterizable_state_type** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
-          version: '4'
-      type: authoritative
-      id: Risk_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_management_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rm_characterizable_state_type
+  - type: expression
+    normative_status: preferred
+    designation: rm_characterizable_state_type
   domain: 'application module: Risk_management_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_feature_grouping_arm.Part_linear_array_feature
   localized_concepts:
     eng: cd9cb7ae-f224-531a-9521-efa4cbf35bb2
   domains:
-    - concept_id: section-Part_feature_grouping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-      ref_type: section
+  - concept_id: section-Part_feature_grouping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+    ref_type: section
 id: Part_feature_grouping_arm.Part_linear_array_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_array_feature,Part_array_feature}} that represents the part linear array feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_array_feature,Part_array_feature}}
+      that represents the part linear array feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-          version: '3'
-      type: authoritative
-      id: Part_feature_grouping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_linear_array_feature
+  - type: expression
+    normative_status: preferred
+    designation: Part_linear_array_feature
   domain: 'application module: Part_feature_grouping_arm'
   language_code: eng
   annotations: []

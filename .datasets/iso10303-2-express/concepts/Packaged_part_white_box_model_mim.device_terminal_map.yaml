@@ -1,30 +1,33 @@
+---
 data:
   identifier: Packaged_part_white_box_model_mim.device_terminal_map
   localized_concepts:
     eng: 17876682-7e68-5db9-bd1f-0c9f0adf2684
   domains:
-    - concept_id: section-Packaged_part_white_box_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_mim
-      ref_type: section
+  - concept_id: section-Packaged_part_white_box_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_mim
+    ref_type: section
 id: Packaged_part_white_box_model_mim.device_terminal_map
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the device terminal map {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the device terminal map {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **device_terminal_map** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Device_terminal_map,Device_terminal_map}}.
+  - content: A **device_terminal_map** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Device_terminal_map,Device_terminal_map}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_mim
-          version: '3'
-      type: authoritative
-      id: Packaged_part_white_box_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: device_terminal_map
+  - type: expression
+    normative_status: preferred
+    designation: device_terminal_map
   domain: 'application module: Packaged_part_white_box_model_mim'
   language_code: eng
   annotations: []

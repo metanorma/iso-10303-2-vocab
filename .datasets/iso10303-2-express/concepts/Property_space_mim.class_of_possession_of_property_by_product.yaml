@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_mim.class_of_possession_of_property_by_product
   localized_concepts:
     eng: 9db681a0-5d8d-5b90-82b2-1a2685e45e95
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.class_of_possession_of_property_by_product
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the class of possession of property by product {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.property_definition,property_definition}}
+      that represents the class of possession of property by product {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_of_possession_of_property_by_product
+  - type: expression
+    normative_status: preferred
+    designation: class_of_possession_of_property_by_product
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

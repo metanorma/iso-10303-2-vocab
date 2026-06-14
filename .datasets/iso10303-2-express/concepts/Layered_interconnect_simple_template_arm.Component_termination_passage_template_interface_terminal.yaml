@@ -1,30 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_arm.Component_termination_passage_template_interface_terminal
   localized_concepts:
     eng: 287c2b41-c362-5b19-a65b-f26e00f1f87f
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+    ref_type: section
 id: Layered_interconnect_simple_template_arm.Component_termination_passage_template_interface_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Component_termination_passage_template_terminal,Component_termination_passage_template_terminal}} that represents the component termination passage template interface terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Component_termination_passage_template_terminal,Component_termination_passage_template_terminal}}
+      that represents the component termination passage template interface terminal
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_termination_passage_template_interface_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Component_termination_passage_template_terminal,Component_termination_passage_template_terminal}}, an occurrence of which provides an interface capability to the next level of assembly.
+  - content: A **Component_termination_passage_template_interface_terminal** is a
+      type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Component_termination_passage_template_terminal,Component_termination_passage_template_terminal}},
+      an occurrence of which provides an interface capability to the next level of
+      assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_termination_passage_template_interface_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Component_termination_passage_template_interface_terminal
   domain: 'application module: Layered_interconnect_simple_template_arm'
   language_code: eng
   annotations: []

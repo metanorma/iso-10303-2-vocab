@@ -1,30 +1,35 @@
+---
 data:
   identifier: Building_component_arm.Negative_component
   localized_concepts:
     eng: 67ad6a1a-51fc-56c4-a73c-27cd414cf0e3
   domains:
-    - concept_id: section-Building_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
-      ref_type: section
+  - concept_id: section-Building_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+    ref_type: section
 id: Building_component_arm.Negative_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}} that represents the negative component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}}
+      that represents the negative component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Negative_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}} that is a portion of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}} and represents a volume of space; it is a volume that is empty space rather than solid material.
+  - content: A **Negative_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}}
+      that is a portion of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}}
+      and represents a volume of space; it is a volume that is empty space rather
+      than solid material.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
-          version: '1'
-      type: authoritative
-      id: Building_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Negative_component
+  - type: expression
+    normative_status: preferred
+    designation: Negative_component
   domain: 'application module: Building_component_arm'
   language_code: eng
   annotations: []

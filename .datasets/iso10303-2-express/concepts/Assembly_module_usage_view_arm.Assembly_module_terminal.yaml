@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_module_usage_view_arm.Assembly_module_terminal
   localized_concepts:
     eng: 0c9cadf9-48c0-5d93-a3ac-6b88a0c4690f
   domains:
-    - concept_id: section-Assembly_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
+    ref_type: section
 id: Assembly_module_usage_view_arm.Assembly_module_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} that represents the assembly module terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Part_terminal,Part_terminal}}
+      that represents the assembly module terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_module_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_usage_view,Assembly_module_usage_view}} that provides a replication of an interface terminal associated with an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}.
+  - content: An **Assembly_module_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}}
+      for an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_usage_view,Assembly_module_usage_view}}
+      that provides a replication of an interface terminal associated with an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_module_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_module_terminal
   domain: 'application module: Assembly_module_usage_view_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Datum_and_datum_systems_arm.Plane_shape_element
   localized_concepts:
     eng: 6efa454a-f08e-50a7-ae96-075b6f734bf7
   domains:
-    - concept_id: section-Datum_and_datum_systems_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+    ref_type: section
 id: Datum_and_datum_systems_arm.Plane_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that represents the plane shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Shape_element,Shape_element}}
+      that represents the plane shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Plane_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}} that is associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Plane,Plane}}.
+  - content: A **Plane_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element,Shape_element}}
+      that is associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Plane,Plane}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Plane_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: Plane_shape_element
   domain: 'application module: Datum_and_datum_systems_arm'
   language_code: eng
   annotations: []

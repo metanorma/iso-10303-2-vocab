@@ -1,30 +1,34 @@
+---
 data:
   identifier: product_data_equivalence_definition_schema.product_data_and_data_equivalence_relationship
   localized_concepts:
     eng: a29479e7-3ba1-5edd-b6e6-79d29f8ebd7a
   domains:
-    - concept_id: section-product_data_equivalence_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+    ref_type: section
 id: product_data_equivalence_definition_schema.product_data_and_data_equivalence_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product data and data equivalence relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product data and data equivalence relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_data_and_data_equivalence_relationship** is a relationship between the product data equivalence information defined by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema.data_equivalence_definition,data_equivalence_definition}} and the target product data inspected.
+  - content: A **product_data_and_data_equivalence_relationship** is a relationship
+      between the product data equivalence information defined by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema.data_equivalence_definition,data_equivalence_definition}}
+      and the target product data inspected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-          version: '2'
-      type: authoritative
-      id: product_data_equivalence_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_data_and_data_equivalence_relationship
+  - type: expression
+    normative_status: preferred
+    designation: product_data_and_data_equivalence_relationship
   domain: 'resource: product_data_equivalence_definition_schema'
   language_code: eng
   annotations: []

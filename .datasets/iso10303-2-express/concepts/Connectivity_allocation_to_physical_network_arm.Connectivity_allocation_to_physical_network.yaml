@@ -1,30 +1,34 @@
+---
 data:
   identifier: Connectivity_allocation_to_physical_network_arm.Connectivity_allocation_to_physical_network
   localized_concepts:
     eng: 507b9590-9b0a-57e9-a2eb-056cea1174a5
   domains:
-    - concept_id: section-Connectivity_allocation_to_physical_network_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connectivity_allocation_to_physical_network_arm
-      ref_type: section
+  - concept_id: section-Connectivity_allocation_to_physical_network_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connectivity_allocation_to_physical_network_arm
+    ref_type: section
 id: Connectivity_allocation_to_physical_network_arm.Connectivity_allocation_to_physical_network
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the connectivity allocation to physical network {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the connectivity allocation to physical network
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Connectivity_allocation_to_physical_network** is a means to provide information about the **implementation** of a connectivity requirement to a network.
+  - content: A **Connectivity_allocation_to_physical_network** is a means to provide
+      information about the **implementation** of a connectivity requirement to a
+      network.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connectivity_allocation_to_physical_network_arm
-          version: '1'
-      type: authoritative
-      id: Connectivity_allocation_to_physical_network_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connectivity_allocation_to_physical_network_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Connectivity_allocation_to_physical_network
+  - type: expression
+    normative_status: preferred
+    designation: Connectivity_allocation_to_physical_network
   domain: 'application module: Connectivity_allocation_to_physical_network_arm'
   language_code: eng
   annotations: []

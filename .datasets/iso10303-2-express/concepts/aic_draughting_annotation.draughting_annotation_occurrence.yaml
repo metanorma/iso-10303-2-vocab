@@ -1,30 +1,33 @@
+---
 data:
   identifier: aic_draughting_annotation.draughting_annotation_occurrence
   localized_concepts:
     eng: 9ac7a5a0-79ca-5211-b74c-fd72992b3a78
   domains:
-    - concept_id: section-aic_draughting_annotation
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
-      ref_type: section
+  - concept_id: section-aic_draughting_annotation
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+    ref_type: section
 id: aic_draughting_annotation.draughting_annotation_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} that represents the draughting annotation occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation.annotation_occurrence,annotation_occurrence}}
+      that represents the draughting annotation occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **draughting_annotation_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}} that specifies constraints within the context of draughting.
+  - content: A **draughting_annotation_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_occurrence,annotation_occurrence}}
+      that specifies constraints within the context of draughting.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
-          version: '2'
-      type: authoritative
-      id: aic_draughting_annotation
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: draughting_annotation_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: draughting_annotation_occurrence
   domain: 'resource: aic_draughting_annotation'
   language_code: eng
   annotations: []

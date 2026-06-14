@@ -1,30 +1,35 @@
+---
 data:
   identifier: Geometric_model_2d_3d_relationship_mim.coordinated_geometric_relationship_with_2d_3d_placement_transformation
   localized_concepts:
     eng: e9c78b4a-f77e-5b8f-a3b6-2294c37b1e66
   domains:
-    - concept_id: section-Geometric_model_2d_3d_relationship_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_mim
-      ref_type: section
+  - concept_id: section-Geometric_model_2d_3d_relationship_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_mim
+    ref_type: section
 id: Geometric_model_2d_3d_relationship_mim.coordinated_geometric_relationship_with_2d_3d_placement_transformation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the coordinated geometric relationship with 2d 3d placement transformation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the coordinated geometric relationship with 2d 3d
+      placement transformation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **coordinated_geometric_relationship_with_2d_3d_placement_transformation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship_with_transformation,representation_relationship_with_transformation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_arm.Coordinated_geometric_relationship_with_2d_3d_placement_transformation,Coordinated_geometric_relationship_with_2d_3d_placement_transformation}}.
+  - content: A **coordinated_geometric_relationship_with_2d_3d_placement_transformation**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation_relationship,shape_representation_relationship}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship_with_transformation,representation_relationship_with_transformation}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_arm.Coordinated_geometric_relationship_with_2d_3d_placement_transformation,Coordinated_geometric_relationship_with_2d_3d_placement_transformation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_mim
-          version: '2'
-      type: authoritative
-      id: Geometric_model_2d_3d_relationship_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_2d_3d_relationship_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: coordinated_geometric_relationship_with_2d_3d_placement_transformation
+  - type: expression
+    normative_status: preferred
+    designation: coordinated_geometric_relationship_with_2d_3d_placement_transformation
   domain: 'application module: Geometric_model_2d_3d_relationship_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.snowball_template
   localized_concepts:
     eng: df1e98fd-6594-5d77-b9ef-39d46e465dae
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.snowball_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.teardrop_template,teardrop_template}} that represents the snowball template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.teardrop_template,teardrop_template}}
+      that represents the snowball template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **snowball_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.teardrop_template,teardrop_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Snowball_template,Snowball_template}}.
+  - content: A **snowball_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.teardrop_template,teardrop_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Snowball_template,Snowball_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: snowball_template
+  - type: expression
+    normative_status: preferred
+    designation: snowball_template
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

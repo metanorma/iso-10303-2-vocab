@@ -1,30 +1,33 @@
+---
 data:
   identifier: Task_specification_arm.Task_element_levels
   localized_concepts:
     eng: 22d7391d-91fb-5d7a-9a59-9f930f9dfa6f
   domains:
-    - concept_id: section-Task_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-      ref_type: section
+  - concept_id: section-Task_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+    ref_type: section
 id: Task_specification_arm.Task_element_levels
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}} that represents the task element levels {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm.Task_element,Task_element}}
+      that represents the task element levels {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Task_element_levels** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}} that provides two or more different descriptions in place of a single method.
+  - content: A **Task_element_levels** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}}
+      that provides two or more different descriptions in place of a single method.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-          version: '2'
-      type: authoritative
-      id: Task_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Task_element_levels
+  - type: expression
+    normative_status: preferred
+    designation: Task_element_levels
   domain: 'application module: Task_specification_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: scan_data_3d_shape_model_schema.point_cloud_dataset_with_intensities
   localized_concepts:
     eng: d8a66c41-169c-5743-bdbd-82a316015c2a
   domains:
-    - concept_id: section-scan_data_3d_shape_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-      ref_type: section
+  - concept_id: section-scan_data_3d_shape_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+    ref_type: section
 id: scan_data_3d_shape_model_schema.point_cloud_dataset_with_intensities
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}} that represents the point cloud dataset with intensities {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}}
+      that represents the point cloud dataset with intensities {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **point_cloud_dataset_with_intensities** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}}, which has an intensity defined at each point of the dataset.
+  - content: A **point_cloud_dataset_with_intensities** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}},
+      which has an intensity defined at each point of the dataset.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-          version: '2'
-      type: authoritative
-      id: scan_data_3d_shape_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_cloud_dataset_with_intensities
+  - type: expression
+    normative_status: preferred
+    designation: point_cloud_dataset_with_intensities
   domain: 'resource: scan_data_3d_shape_model_schema'
   language_code: eng
   annotations: []

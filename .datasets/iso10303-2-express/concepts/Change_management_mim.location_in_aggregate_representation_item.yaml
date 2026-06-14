@@ -1,29 +1,31 @@
+---
 data:
   identifier: Change_management_mim.location_in_aggregate_representation_item
   localized_concepts:
     eng: 9244dcd9-254c-5012-b1c2-554c1094e1e4
   domains:
-    - concept_id: section-Change_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-      ref_type: section
+  - concept_id: section-Change_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+    ref_type: section
 id: Change_management_mim.location_in_aggregate_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the location in aggregate representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.compound_representation_item,compound_representation_item}}
+      that represents the location in aggregate representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-          version: '3'
-      type: authoritative
-      id: Change_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: location_in_aggregate_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: location_in_aggregate_representation_item
   domain: 'application module: Change_management_mim'
   language_code: eng
   annotations: []

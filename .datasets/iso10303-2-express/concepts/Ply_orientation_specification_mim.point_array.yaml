@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ply_orientation_specification_mim.point_array
   localized_concepts:
     eng: add1e3fa-1d3c-5364-b1a9-91aeef01b99e
   domains:
-    - concept_id: section-Ply_orientation_specification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
-      ref_type: section
+  - concept_id: section-Ply_orientation_specification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+    ref_type: section
 id: Ply_orientation_specification_mim.point_array
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the point array {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the point array {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **point_array** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Point_array,Point_array}}.
+  - content: A **point_array** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Point_array,Point_array}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
-          version: '4'
-      type: authoritative
-      id: Ply_orientation_specification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_array
+  - type: expression
+    normative_status: preferred
+    designation: point_array
   domain: 'application module: Ply_orientation_specification_mim'
   language_code: eng
   annotations: []

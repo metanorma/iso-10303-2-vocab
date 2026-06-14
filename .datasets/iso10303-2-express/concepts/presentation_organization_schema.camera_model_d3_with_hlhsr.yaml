@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_organization_schema.camera_model_d3_with_hlhsr
   localized_concepts:
     eng: be89cd88-5b7d-5451-96be-b266ae5411ce
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.camera_model_d3_with_hlhsr
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d3,camera_model_d3}} that represents the camera model d3 with hlhsr {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d3,camera_model_d3}}
+      that represents the camera model d3 with hlhsr {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **camera_model_d3_with_hlhsr** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d3,camera_model_d3}} that indicates whether hidden line and hidden surface removal shall be performed.
+  - content: A **camera_model_d3_with_hlhsr** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.camera_model_d3,camera_model_d3}}
+      that indicates whether hidden line and hidden surface removal shall be performed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: camera_model_d3_with_hlhsr
+  - type: expression
+    normative_status: preferred
+    designation: camera_model_d3_with_hlhsr
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

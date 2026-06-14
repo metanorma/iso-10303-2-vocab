@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_arm.Routed_interconnect_component
   localized_concepts:
     eng: 45e0a817-d88d-557b-8fed-0429155c6055
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+    ref_type: section
 id: Assembly_module_with_interconnect_component_arm.Routed_interconnect_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}} that represents the routed interconnect component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Physical_component,Physical_component}}
+      that represents the routed interconnect component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Routed_interconnect_component
+  - type: expression
+    normative_status: preferred
+    designation: Routed_interconnect_component
   domain: 'application module: Assembly_module_with_interconnect_component_arm'
   language_code: eng
   annotations: []

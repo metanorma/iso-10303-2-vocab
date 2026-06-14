@@ -1,30 +1,34 @@
+---
 data:
   identifier: machining_feature_schema.rounded_u_profile
   localized_concepts:
     eng: cbdcd525-4ffd-5f37-a790-1dcfb07fb214
   domains:
-    - concept_id: section-machining_feature_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-      ref_type: section
+  - concept_id: section-machining_feature_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+    ref_type: section
 id: machining_feature_schema.rounded_u_profile
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the rounded u profile {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.shape_aspect,shape_aspect}}
+      that represents the rounded u profile {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rounded_u_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that is the representation of an arc with connected straight lines at each end, with a location, and a position.
+  - content: A **rounded_u_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that is the representation of an arc with connected straight lines at each end,
+      with a location, and a position.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-          version: '1'
-      type: authoritative
-      id: machining_feature_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rounded_u_profile
+  - type: expression
+    normative_status: preferred
+    designation: rounded_u_profile
   domain: 'resource: machining_feature_schema'
   language_code: eng
   annotations: []

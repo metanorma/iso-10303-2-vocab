@@ -1,30 +1,32 @@
+---
 data:
   identifier: Location_arm.Organizational_location_identification
   localized_concepts:
     eng: b337bf0d-9c22-5eeb-a38b-04845ce20e83
   domains:
-    - concept_id: section-Location_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-      ref_type: section
+  - concept_id: section-Location_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+    ref_type: section
 id: Location_arm.Organizational_location_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organizational location identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the organizational location identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Organizational_location_identification** is location that is defined by an identification which is specific in an organization context.
+  - content: An **Organizational_location_identification** is location that is defined
+      by an identification which is specific in an organization context.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-          version: '2'
-      type: authoritative
-      id: Location_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Organizational_location_identification
+  - type: expression
+    normative_status: preferred
+    designation: Organizational_location_identification
   domain: 'application module: Location_arm'
   language_code: eng
   annotations: []

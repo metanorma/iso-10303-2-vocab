@@ -1,32 +1,34 @@
+---
 data:
   identifier: aic_drawing_structure_and_administration.draughting_security_classification_assignment
   localized_concepts:
     eng: d560d816-d063-537a-9f7b-359e7f791532
   domains:
-    - concept_id: section-aic_drawing_structure_and_administration
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
-      ref_type: section
+  - concept_id: section-aic_drawing_structure_and_administration
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+    ref_type: section
 id: aic_drawing_structure_and_administration.draughting_security_classification_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.security_classification_assignment,security_classification_assignment}} that represents the draughting security classification assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration.security_classification_assignment,security_classification_assignment}}
+      that represents the draughting security classification assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **draughting_security_classification_assignment** is the assignment of
-        a security classification to a drawing or a drawing sheet.
+  - content: |-
+      A **draughting_security_classification_assignment** is the assignment of
+      a security classification to a drawing or a drawing sheet.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
-          version: '1'
-      type: authoritative
-      id: aic_drawing_structure_and_administration
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_drawing_structure_and_administration
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: draughting_security_classification_assignment
+  - type: expression
+    normative_status: preferred
+    designation: draughting_security_classification_assignment
   domain: 'resource: aic_drawing_structure_and_administration'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: solid_shape_element_schema.solid_with_pocket
   localized_concepts:
     eng: 3c419813-fb3d-50ad-9d28-4daf7422e083
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.solid_with_pocket
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_depression,solid_with_depression}} that represents the solid with pocket {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_depression,solid_with_depression}}
+      that represents the solid with pocket {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *solid_with_pocket* is a type of *solid_with_depression* that results when a 2D closed profile is linearly extruded to generate a solid, which is then subtracted from the base solid to create a depression in it.
+  - content: A *solid_with_pocket* is a type of *solid_with_depression* that results
+      when a 2D closed profile is linearly extruded to generate a solid, which is
+      then subtracted from the base solid to create a depression in it.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_pocket
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_pocket
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

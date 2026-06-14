@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.manifold_solid_brep
   localized_concepts:
     eng: f6d1daf0-1718-54d9-878a-038b9598dce2
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.manifold_solid_brep
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}} that represents the manifold solid brep {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}}
+      that represents the manifold solid brep {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **manifold_solid_brep** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}} which is is a finite, arcwise connected volume bounded by one or more surfaces, each of which is a connected, oriented, finite, closed 2-manifold.
+  - content: A **manifold_solid_brep** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.solid_model,solid_model}}
+      which is is a finite, arcwise connected volume bounded by one or more surfaces,
+      each of which is a connected, oriented, finite, closed 2-manifold.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: manifold_solid_brep
+  - type: expression
+    normative_status: preferred
+    designation: manifold_solid_brep
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

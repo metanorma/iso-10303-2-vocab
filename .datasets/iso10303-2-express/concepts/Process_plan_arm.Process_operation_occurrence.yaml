@@ -1,30 +1,32 @@
+---
 data:
   identifier: Process_plan_arm.Process_operation_occurrence
   localized_concepts:
     eng: c18fac80-4173-5033-846e-90422f8dd6f7
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Process_operation_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process operation occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the process operation occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Process_operation_occurrence** is a usage of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_plan,Process_plan}}.
+  - content: A **Process_operation_occurrence** is a usage of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_definition,Process_operation_definition}}
+      in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_plan,Process_plan}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Process_operation_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: Process_operation_occurrence
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []

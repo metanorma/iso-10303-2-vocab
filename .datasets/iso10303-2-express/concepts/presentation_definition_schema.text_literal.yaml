@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_definition_schema.text_literal
   localized_concepts:
     eng: 6fdf2dfc-90eb-580c-b3e1-1544e7e4af1e
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.text_literal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the text literal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the text literal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: text_literal
+  - type: expression
+    normative_status: preferred
+    designation: text_literal
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

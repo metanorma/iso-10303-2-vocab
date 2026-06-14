@@ -1,30 +1,33 @@
+---
 data:
   identifier: application_context_schema.application_context_relationship
   localized_concepts:
     eng: df3bd0ff-803c-5fad-9b6f-17f324759c17
   domains:
-    - concept_id: section-application_context_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-      ref_type: section
+  - concept_id: section-application_context_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+    ref_type: section
 id: application_context_schema.application_context_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the application context relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the application context relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **application_context_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.application_context,application_context}} and provides a description of their relationship.
+  - content: An **application_context_relationship** is a relationship between two
+      instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema.application_context,application_context}}
+      and provides a description of their relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-          version: '9'
-      type: authoritative
-      id: application_context_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: application_context_relationship
+  - type: expression
+    normative_status: preferred
+    designation: application_context_relationship
   domain: 'resource: application_context_schema'
   language_code: eng
   annotations: []

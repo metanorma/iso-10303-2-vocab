@@ -1,31 +1,32 @@
+---
 data:
   identifier: Product_concept_identification_arm.Market
   localized_concepts:
-    eng: 09230567-df6d-502f-bed2-322b9485500e
+    eng: '09230567-df6d-502f-bed2-322b9485500e'
   domains:
-    - concept_id: section-Product_concept_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
-      ref_type: section
+  - concept_id: section-Product_concept_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
+    ref_type: section
 id: Product_concept_identification_arm.Market
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the market {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the market {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Market** is the identification of a marketing segment for products.
+  - content: A **Market** is the identification of a marketing segment for products.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
-          version: '1'
-      type: authoritative
-      id: Product_concept_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Market
+  - type: expression
+    normative_status: preferred
+    designation: Market
   domain: 'application module: Product_concept_identification_arm'
   language_code: eng
   annotations: []
-id: 09230567-df6d-502f-bed2-322b9485500e
+id: '09230567-df6d-502f-bed2-322b9485500e'

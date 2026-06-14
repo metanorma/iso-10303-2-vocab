@@ -1,30 +1,32 @@
+---
 data:
   identifier: Integral_shield_arm.Component_group_external_reference
   localized_concepts:
     eng: 2a0c9379-c7c8-5224-840f-5cab7559691d
   domains:
-    - concept_id: section-Integral_shield_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
-      ref_type: section
+  - concept_id: section-Integral_shield_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
+    ref_type: section
 id: Integral_shield_arm.Component_group_external_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component group external reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component group external reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_group_external_reference** is an identifier and information for a group of components used in the shield.
+  - content: A **Component_group_external_reference** is an identifier and information
+      for a group of components used in the shield.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
-          version: '2'
-      type: authoritative
-      id: Integral_shield_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Integral_shield_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_group_external_reference
+  - type: expression
+    normative_status: preferred
+    designation: Component_group_external_reference
   domain: 'application module: Integral_shield_arm'
   language_code: eng
   annotations: []

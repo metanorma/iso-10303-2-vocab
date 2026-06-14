@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_appearance_schema.surface_style_rendering
   localized_concepts:
     eng: c3ccb89c-6390-500d-b560-79f77ddddb0b
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.surface_style_rendering
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface style rendering {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface style rendering {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **surface_style_rendering** is the realistic visualization of surfaces by use of rendering techniques.
+  - content: A **surface_style_rendering** is the realistic visualization of surfaces
+      by use of rendering techniques.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_style_rendering
+  - type: expression
+    normative_status: preferred
+    designation: surface_style_rendering
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

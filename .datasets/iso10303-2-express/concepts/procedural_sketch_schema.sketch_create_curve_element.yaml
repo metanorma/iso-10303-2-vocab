@@ -1,30 +1,32 @@
+---
 data:
   identifier: procedural_sketch_schema.sketch_create_curve_element
   localized_concepts:
     eng: 04e69942-d4d6-52a9-bba4-73193a0f2064
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.sketch_create_curve_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the sketch create curve element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the sketch create curve element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *sketch_create_curve_element* is a type of *sketch_command* and *geometric_representation_item* that specifies types of curve creation.
+  - content: A *sketch_create_curve_element* is a type of *sketch_command* and *geometric_representation_item*
+      that specifies types of curve creation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sketch_create_curve_element
+  - type: expression
+    normative_status: preferred
+    designation: sketch_create_curve_element
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Area_2d_arm.Circular_area
   localized_concepts:
     eng: db50cc0a-54f9-5e6b-ac90-15db4538778b
   domains:
-    - concept_id: section-Area_2d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
-      ref_type: section
+  - concept_id: section-Area_2d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+    ref_type: section
 id: Area_2d_arm.Circular_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} that represents the circular area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}}
+      that represents the circular area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Circular_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}} containing the information necessary to determine the two-dimensional area of a circle.
+  - content: A **Circular_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm.Primitive_2d,Primitive_2d}}
+      containing the information necessary to determine the two-dimensional area of
+      a circle.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
-          version: '2'
-      type: authoritative
-      id: Area_2d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Area_2d_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Circular_area
+  - type: expression
+    normative_status: preferred
+    designation: Circular_area
   domain: 'application module: Area_2d_arm'
   language_code: eng
   annotations: []

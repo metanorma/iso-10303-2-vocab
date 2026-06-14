@@ -1,30 +1,31 @@
+---
 data:
   identifier: Product_analysis_arm.Domain_property
   localized_concepts:
     eng: 72aa49ef-0397-5987-ae2c-119c29ece1fb
   domains:
-    - concept_id: section-Product_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-      ref_type: section
+  - concept_id: section-Product_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+    ref_type: section
 id: Product_analysis_arm.Domain_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the domain property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the domain property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Domain_property** is a specification of a property within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}.
+  - content: A **Domain_property** is a specification of a property within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Product_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Domain_property
+  - type: expression
+    normative_status: preferred
+    designation: Domain_property
   domain: 'application module: Product_analysis_arm'
   language_code: eng
   annotations: []

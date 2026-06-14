@@ -1,30 +1,36 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion
   localized_concepts:
     eng: 10c2064c-17d0-5155-9a51-d1a486fa2ed6
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}} that represents the a3m triangulated shape data quality criterion {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}}
+      that represents the a3m triangulated shape data quality criterion {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_triangulated_shape_data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}} This entity represents a criterion that is an aspect of the requirements on triangulated shape data quality for a single product shape model together with the measurement requirement representing the necessary conditions for appropriate measurement(s) for the judgement of satisfaction or dissatisfaction of the criterion.
+  - content: An **A3m_triangulated_shape_data_quality_criterion** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_criterion,A3m_data_quality_criterion}}
+      This entity represents a criterion that is an aspect of the requirements on
+      triangulated shape data quality for a single product shape model together with
+      the measurement requirement representing the necessary conditions for appropriate
+      measurement(s) for the judgement of satisfaction or dissatisfaction of the criterion.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_triangulated_shape_data_quality_criterion
+  - type: expression
+    normative_status: preferred
+    designation: A3m_triangulated_shape_data_quality_criterion
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

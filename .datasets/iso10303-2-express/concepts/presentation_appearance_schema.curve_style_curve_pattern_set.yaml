@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_appearance_schema.curve_style_curve_pattern_set
   localized_concepts:
     eng: 27c47646-ab20-5e58-b4d7-8db25f3eee6e
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.curve_style_curve_pattern_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve style curve pattern set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the curve style curve pattern set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **curve_style_curve_pattern_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style_font,curve_style_font}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}.
+  - content: A **curve_style_curve_pattern_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.curve_style_font,curve_style_font}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_style_curve_pattern_set
+  - type: expression
+    normative_status: preferred
+    designation: curve_style_curve_pattern_set
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

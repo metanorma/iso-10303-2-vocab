@@ -1,29 +1,31 @@
+---
 data:
   identifier: Design_product_data_management_arm.Document_with_additional_categories
   localized_concepts:
     eng: bb7480f1-2db2-5dc4-83e2-fcd7b3a74b2b
   domains:
-    - concept_id: section-Design_product_data_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Design_product_data_management_arm
-      ref_type: section
+  - concept_id: section-Design_product_data_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Design_product_data_management_arm
+    ref_type: section
 id: Design_product_data_management_arm.Document_with_additional_categories
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_and_version_identification_arm.Document,Document}} that represents the document with additional categories {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Design_product_data_management_arm.Document,Document}}
+      that represents the document with additional categories {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Design_product_data_management_arm
-          version: '9'
-      type: authoritative
-      id: Design_product_data_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Design_product_data_management_arm
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Document_with_additional_categories
+  - type: expression
+    normative_status: preferred
+    designation: Document_with_additional_categories
   domain: 'application module: Design_product_data_management_arm'
   language_code: eng
   annotations: []

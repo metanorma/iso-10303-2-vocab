@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_mim.analytical_model_vector_port
   localized_concepts:
     eng: b1122913-08aa-5180-9e85-806a6485eba9
   domains:
-    - concept_id: section-Analytical_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-      ref_type: section
+  - concept_id: section-Analytical_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+    ref_type: section
 id: Analytical_model_mim.analytical_model_vector_port
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the analytical model vector port {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the analytical model vector port {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **analytical_model_vector_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_vector_port,Analytical_model_vector_port}}.
+  - content: An **analytical_model_vector_port** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.analytical_model_port,analytical_model_port}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Analytical_model_vector_port,Analytical_model_vector_port}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-          version: '5'
-      type: authoritative
-      id: Analytical_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: analytical_model_vector_port
+  - type: expression
+    normative_status: preferred
+    designation: analytical_model_vector_port
   domain: 'application module: Analytical_model_mim'
   language_code: eng
   annotations: []

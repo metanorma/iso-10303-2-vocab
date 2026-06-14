@@ -1,29 +1,31 @@
+---
 data:
   identifier: procedural_model_schema.procedural_representation_sequence
   localized_concepts:
     eng: f0acff33-1586-590c-a085-7b704e31e8ff
   domains:
-    - concept_id: section-procedural_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-      ref_type: section
+  - concept_id: section-procedural_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+    ref_type: section
 id: procedural_model_schema.procedural_representation_sequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the procedural representation sequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.representation_item,representation_item}}
+      that represents the procedural representation sequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-          version: '2'
-      type: authoritative
-      id: procedural_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: procedural_representation_sequence
+  - type: expression
+    normative_status: preferred
+    designation: procedural_representation_sequence
   domain: 'resource: procedural_model_schema'
   language_code: eng
   annotations: []

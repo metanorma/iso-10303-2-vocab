@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_mim.bare_die_component
   localized_concepts:
     eng: 7c616e26-5c58-5b4f-b07b-35fa1c6eaafa
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+    ref_type: section
 id: Assembly_module_with_interconnect_component_mim.bare_die_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that represents the bare die component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim.physical_component,physical_component}}
+      that represents the bare die component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **bare_die_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Bare_die_component,Bare_die_component}}.
+  - content: A **bare_die_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Bare_die_component,Bare_die_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: bare_die_component
+  - type: expression
+    normative_status: preferred
+    designation: bare_die_component
   domain: 'application module: Assembly_module_with_interconnect_component_mim'
   language_code: eng
   annotations: []

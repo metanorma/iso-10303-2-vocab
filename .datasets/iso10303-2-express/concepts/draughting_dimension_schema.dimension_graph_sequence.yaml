@@ -1,29 +1,31 @@
+---
 data:
   identifier: draughting_dimension_schema.dimension_graph_sequence
   localized_concepts:
     eng: c2a89185-dd78-5b0c-802c-6d0cdb7029db
   domains:
-    - concept_id: section-draughting_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
-      ref_type: section
+  - concept_id: section-draughting_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
+    ref_type: section
 id: draughting_dimension_schema.dimension_graph_sequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout_relationship,draughting_callout_relationship}} that represents the dimension graph sequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema.draughting_callout_relationship,draughting_callout_relationship}}
+      that represents the dimension graph sequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
-          version: '1'
-      type: authoritative
-      id: draughting_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dimension_graph_sequence
+  - type: expression
+    normative_status: preferred
+    designation: dimension_graph_sequence
   domain: 'resource: draughting_dimension_schema'
   language_code: eng
   annotations: []

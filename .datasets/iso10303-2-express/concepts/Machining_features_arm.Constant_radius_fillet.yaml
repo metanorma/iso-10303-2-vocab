@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Constant_radius_fillet
   localized_concepts:
     eng: bb84e34c-bb8f-515f-9ac6-d9ada060650b
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Constant_radius_fillet
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Fillet,Fillet}} that represents the constant radius fillet {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Fillet,Fillet}}
+      that represents the constant radius fillet {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Constant_radius_fillet** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Fillet,Fillet}} that is defined with a constant radius value.
+  - content: A **Constant_radius_fillet** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Fillet,Fillet}}
+      that is defined with a constant radius value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Constant_radius_fillet
+  - type: expression
+    normative_status: preferred
+    designation: Constant_radius_fillet
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: scan_data_3d_shape_model_schema.point_cloud_dataset_with_normals
   localized_concepts:
     eng: 61758ac1-7b07-5030-8279-d204dfb0bc45
   domains:
-    - concept_id: section-scan_data_3d_shape_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-      ref_type: section
+  - concept_id: section-scan_data_3d_shape_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+    ref_type: section
 id: scan_data_3d_shape_model_schema.point_cloud_dataset_with_normals
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}} that represents the point cloud dataset with normals {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}}
+      that represents the point cloud dataset with normals {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **point_cloud_dataset_with_normals** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}}, which has a normal defined at each point of the dataset.
+  - content: A **point_cloud_dataset_with_normals** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema.point_cloud_dataset,point_cloud_dataset}},
+      which has a normal defined at each point of the dataset.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
-          version: '2'
-      type: authoritative
-      id: scan_data_3d_shape_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:scan_data_3d_shape_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_cloud_dataset_with_normals
+  - type: expression
+    normative_status: preferred
+    designation: point_cloud_dataset_with_normals
   domain: 'resource: scan_data_3d_shape_model_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Laminate_component_join_terminal
   localized_concepts:
     eng: da33a4b4-cd4d-5959-890c-bc27087f70a2
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Laminate_component_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the laminate component join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the laminate component join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Laminate_component_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_feature,Laminate_component_feature}}.
+  - content: A **Laminate_component_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_terminal,Component_terminal}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_feature,Laminate_component_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Laminate_component_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Laminate_component_join_terminal
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

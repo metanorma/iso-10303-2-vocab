@@ -1,30 +1,35 @@
+---
 data:
   identifier: Datum_and_datum_systems_mim.line_on_plane_pcurve
   localized_concepts:
     eng: 193c7fda-da36-52ac-9fd0-0f5dfc613ae9
   domains:
-    - concept_id: section-Datum_and_datum_systems_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+    ref_type: section
 id: Datum_and_datum_systems_mim.line_on_plane_pcurve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.pcurve,pcurve}} that represents the line on plane pcurve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim.pcurve,pcurve}}
+      that represents the line on plane pcurve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **line_on_plane_pcurve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.pcurve,pcurve}} that specifies the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.curve,curve}} is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.line,line}} and the surface is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
+  - content: A **line_on_plane_pcurve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.pcurve,pcurve}}
+      that specifies the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.curve,curve}}
+      is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.line,line}} and
+      the surface is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.plane,plane}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: line_on_plane_pcurve
+  - type: expression
+    normative_status: preferred
+    designation: line_on_plane_pcurve
   domain: 'application module: Datum_and_datum_systems_mim'
   language_code: eng
   annotations: []

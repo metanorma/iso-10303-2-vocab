@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_condition_mim.property_condition_for_activity
   localized_concepts:
     eng: 7b19dd42-1fd3-55c7-ab40-043a44f6c7c8
   domains:
-    - concept_id: section-Property_condition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
-      ref_type: section
+  - concept_id: section-Property_condition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+    ref_type: section
 id: Property_condition_mim.property_condition_for_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.class_of_possession_of_property_by_activity,class_of_possession_of_property_by_activity}} that represents the property condition for activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim.class_of_possession_of_property_by_activity,class_of_possession_of_property_by_activity}}
+      that represents the property condition for activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
-          version: '1'
-      type: authoritative
-      id: Property_condition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_condition_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: property_condition_for_activity
+  - type: expression
+    normative_status: preferred
+    designation: property_condition_for_activity
   domain: 'application module: Property_condition_mim'
   language_code: eng
   annotations: []

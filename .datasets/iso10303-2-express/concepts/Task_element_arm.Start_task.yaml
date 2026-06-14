@@ -1,30 +1,32 @@
+---
 data:
   identifier: Task_element_arm.Start_task
   localized_concepts:
-    eng: 02396568-1ae6-5b6c-867f-16b9389c617c
+    eng: '02396568-1ae6-5b6c-867f-16b9389c617c'
   domains:
-    - concept_id: section-Task_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-      ref_type: section
+  - concept_id: section-Task_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+    ref_type: section
 id: Task_element_arm.Start_task
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}} that represents the start task {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Task_element,Task_element}}
+      that represents the start task {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-          version: '1'
-      type: authoritative
-      id: Task_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Start_task
+  - type: expression
+    normative_status: preferred
+    designation: Start_task
   domain: 'application module: Task_element_arm'
   language_code: eng
   annotations: []
-id: 02396568-1ae6-5b6c-867f-16b9389c617c
+id: '02396568-1ae6-5b6c-867f-16b9389c617c'

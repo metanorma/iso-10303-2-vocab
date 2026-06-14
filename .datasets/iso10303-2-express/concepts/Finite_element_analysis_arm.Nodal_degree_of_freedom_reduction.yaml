@@ -1,30 +1,35 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Nodal_degree_of_freedom_reduction
   localized_concepts:
     eng: f4c45009-e87d-5b57-9f24-6ce1eb6f9f7c
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Nodal_degree_of_freedom_reduction
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that represents the nodal degree of freedom reduction {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}}
+      that represents the nodal degree of freedom reduction {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Nodal_degree_of_freedom_reduction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that constrains the degrees of freedom for a node, for a group, or for the nodes associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}, in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}.
+  - content: A **Nodal_degree_of_freedom_reduction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}}
+      that constrains the degrees of freedom for a node, for a group, or for the nodes
+      associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}},
+      in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Nodal_degree_of_freedom_reduction
+  - type: expression
+    normative_status: preferred
+    designation: Nodal_degree_of_freedom_reduction
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

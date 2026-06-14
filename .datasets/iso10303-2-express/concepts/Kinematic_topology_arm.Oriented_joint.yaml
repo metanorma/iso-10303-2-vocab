@@ -1,30 +1,33 @@
+---
 data:
   identifier: Kinematic_topology_arm.Oriented_joint
   localized_concepts:
     eng: cb07d274-1711-57e1-ae20-f2985ec85216
   domains:
-    - concept_id: section-Kinematic_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-      ref_type: section
+  - concept_id: section-Kinematic_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+    ref_type: section
 id: Kinematic_topology_arm.Oriented_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Oriented_edge,Oriented_edge}} that represents the oriented joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Oriented_edge,Oriented_edge}}
+      that represents the oriented joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Oriented_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Oriented_edge,Oriented_edge}} that is a direction of traversal of a joint.
+  - content: An **Oriented_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Oriented_edge,Oriented_edge}}
+      that is a direction of traversal of a joint.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-          version: '1'
-      type: authoritative
-      id: Kinematic_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Oriented_joint
+  - type: expression
+    normative_status: preferred
+    designation: Oriented_joint
   domain: 'application module: Kinematic_topology_arm'
   language_code: eng
   annotations: []

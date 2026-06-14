@@ -1,30 +1,32 @@
+---
 data:
   identifier: Function_based_behaviour_mim.fbb_characterized_representation_item
   localized_concepts:
     eng: 148234ba-1d84-5c19-8dd8-57b55b6d145b
   domains:
-    - concept_id: section-Function_based_behaviour_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
-      ref_type: section
+  - concept_id: section-Function_based_behaviour_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
+    ref_type: section
 id: Function_based_behaviour_mim.fbb_characterized_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fbb characterized representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fbb characterized representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **fbb_characterized_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
+  - content: A **fbb_characterized_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
-          version: '3'
-      type: authoritative
-      id: Function_based_behaviour_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fbb_characterized_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: fbb_characterized_representation_item
   domain: 'application module: Function_based_behaviour_mim'
   language_code: eng
   annotations: []

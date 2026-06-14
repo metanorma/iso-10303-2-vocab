@@ -1,29 +1,31 @@
+---
 data:
   identifier: qualified_measure_schema.descriptive_representation_item
   localized_concepts:
     eng: 1722436b-c5e3-50de-9661-cdfd1f1ee11e
   domains:
-    - concept_id: section-qualified_measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-      ref_type: section
+  - concept_id: section-qualified_measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+    ref_type: section
 id: qualified_measure_schema.descriptive_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the descriptive representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.representation_item,representation_item}}
+      that represents the descriptive representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-          version: '4'
-      type: authoritative
-      id: qualified_measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: descriptive_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: descriptive_representation_item
   domain: 'resource: qualified_measure_schema'
   language_code: eng
   annotations: []

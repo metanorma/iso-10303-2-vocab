@@ -1,30 +1,34 @@
+---
 data:
   identifier: Fabrication_technology_arm.Impedance_measurement_setup_requirement
   localized_concepts:
     eng: 74b2752b-78bf-570a-bdd6-bdf25f78541f
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Impedance_measurement_setup_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the impedance measurement setup requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the impedance measurement setup requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Impedance_measurement_setup_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that specifies the structural relationships necessary to support a functional definition of an impedance measurement.
+  - content: An **Impedance_measurement_setup_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that specifies the structural relationships necessary to support a functional
+      definition of an impedance measurement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Impedance_measurement_setup_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Impedance_measurement_setup_requirement
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

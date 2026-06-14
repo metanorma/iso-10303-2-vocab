@@ -1,29 +1,31 @@
+---
 data:
   identifier: Interconnect_module_usage_view_arm.Interconnect_module_cutout_segment_surface
   localized_concepts:
     eng: 06e8615f-a8c7-56f1-92c8-605ea57997f2
   domains:
-    - concept_id: section-Interconnect_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+    ref_type: section
 id: Interconnect_module_usage_view_arm.Interconnect_module_cutout_segment_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Interconnect_module_surface_feature,Interconnect_module_surface_feature}} that represents the interconnect module cutout segment surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Interconnect_module_surface_feature,Interconnect_module_surface_feature}}
+      that represents the interconnect module cutout segment surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_cutout_segment_surface
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_cutout_segment_surface
   domain: 'application module: Interconnect_module_usage_view_arm'
   language_code: eng
   annotations: []

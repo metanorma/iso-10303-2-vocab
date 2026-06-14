@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.complex_disjunctive_clause
   localized_concepts:
     eng: 15acb994-c9cc-5ea4-b6ba-0f1137d68e9d
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.complex_disjunctive_clause
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.complex_clause,complex_clause}} that represents the complex disjunctive clause {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.complex_clause,complex_clause}}
+      that represents the complex disjunctive clause {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **complex_disjunctive_clause** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.complex_clause,complex_clause}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Complex_disjunctive_clause,Complex_disjunctive_clause}}.
+  - content: An **complex_disjunctive_clause** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.complex_clause,complex_clause}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Complex_disjunctive_clause,Complex_disjunctive_clause}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: complex_disjunctive_clause
+  - type: expression
+    normative_status: preferred
+    designation: complex_disjunctive_clause
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

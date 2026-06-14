@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interface_mim.interface_connector_occurrence
   localized_concepts:
     eng: 57592d7c-d2d1-5e07-9402-50928c5fd4a5
   domains:
-    - concept_id: section-Interface_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
-      ref_type: section
+  - concept_id: section-Interface_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+    ref_type: section
 id: Interface_mim.interface_connector_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the interface connector occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.group,group}}
+      that represents the interface connector occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **interface_connector_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies an occurrence of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_connector_definition,interface_connector_definition}}.
+  - content: An **interface_connector_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that identifies an occurrence of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_connector_definition,interface_connector_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
-          version: '5'
-      type: authoritative
-      id: Interface_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interface_connector_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: interface_connector_occurrence
   domain: 'application module: Interface_mim'
   language_code: eng
   annotations: []

@@ -1,31 +1,33 @@
+---
 data:
   identifier: kinematic_analysis_control_and_result_schema.kinematic_analysis_result
   localized_concepts:
-    eng: 08eb1586-17f2-53a5-a991-52c6b71ef7ca
+    eng: '08eb1586-17f2-53a5-a991-52c6b71ef7ca'
   domains:
-    - concept_id: section-kinematic_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-kinematic_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_analysis_control_and_result_schema
+    ref_type: section
 id: kinematic_analysis_control_and_result_schema.kinematic_analysis_result
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the kinematic analysis result {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the kinematic analysis result {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **kinematic_analysis_result** is a result information from the kinematic simulation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.mechanism_representation,mechanism_representation}}.
+  - content: A **kinematic_analysis_result** is a result information from the kinematic
+      simulation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.mechanism_representation,mechanism_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_analysis_control_and_result_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_analysis_control_and_result_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: kinematic_analysis_result
+  - type: expression
+    normative_status: preferred
+    designation: kinematic_analysis_result
   domain: 'resource: kinematic_analysis_control_and_result_schema'
   language_code: eng
   annotations: []
-id: 08eb1586-17f2-53a5-a991-52c6b71ef7ca
+id: '08eb1586-17f2-53a5-a991-52c6b71ef7ca'

@@ -1,30 +1,36 @@
+---
 data:
   identifier: mathematical_functions_schema.externally_listed_data
   localized_concepts:
     eng: c19e1e1e-8db8-54e0-8aea-b56a18ad0776
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.externally_listed_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally listed data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally listed data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.explicit_table_function,explicit_table_function}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} represents mathematical functions which take a single integer as input and output the {{maths_value,maths_value}} at a corresponding position in some external, list-like, data source.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.explicit_table_function,explicit_table_function}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}}
+      represents mathematical functions which take a single integer as input and output
+      the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_value,maths_value}}
+      at a corresponding position in some external, list-like, data source.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_listed_data
+  - type: expression
+    normative_status: preferred
+    designation: externally_listed_data
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

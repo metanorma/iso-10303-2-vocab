@@ -1,29 +1,31 @@
+---
 data:
   identifier: Analytical_model_arm.Across_port_variable
   localized_concepts:
     eng: e38c4dbe-5a34-52f4-8289-403771efbcf6
   domains:
-    - concept_id: section-Analytical_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-      ref_type: section
+  - concept_id: section-Analytical_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+    ref_type: section
 id: Analytical_model_arm.Across_port_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Port_variable,Port_variable}} that represents the across port variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Port_variable,Port_variable}}
+      that represents the across port variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-          version: '5'
-      type: authoritative
-      id: Analytical_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Across_port_variable
+  - type: expression
+    normative_status: preferred
+    designation: Across_port_variable
   domain: 'application module: Analytical_model_arm'
   language_code: eng
   annotations: []

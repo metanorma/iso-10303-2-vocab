@@ -1,30 +1,33 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_mim.core_sample
   localized_concepts:
     eng: 330e46d1-cac9-5317-b41b-9690fbf7b335
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_mim.core_sample
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}} that represents the core sample {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}}
+      that represents the core sample {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **core_sample** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Core_sample,Core_sample}}.
+  - content: A **core_sample** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.point_based_llai,point_based_llai}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Core_sample,Core_sample}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: core_sample
+  - type: expression
+    normative_status: preferred
+    designation: core_sample
   domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
   language_code: eng
   annotations: []

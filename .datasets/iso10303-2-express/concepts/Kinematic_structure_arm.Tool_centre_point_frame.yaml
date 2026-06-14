@@ -1,30 +1,35 @@
+---
 data:
   identifier: Kinematic_structure_arm.Tool_centre_point_frame
   localized_concepts:
     eng: 9b76291a-f702-59d0-bdb3-0a16c0dcb296
   domains:
-    - concept_id: section-Kinematic_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-      ref_type: section
+  - concept_id: section-Kinematic_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+    ref_type: section
 id: Kinematic_structure_arm.Tool_centre_point_frame
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}} that represents the tool centre point frame {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Axis_placement_3d,Axis_placement_3d}}
+      that represents the tool centre point frame {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tool_centre_point_frame** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}} for the representation of a kinematic reference frame of a tool that may be attached to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_link_representation,Kinematic_link_representation}} of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
+  - content: A **Tool_centre_point_frame** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Axis_placement_3d,Axis_placement_3d}}
+      for the representation of a kinematic reference frame of a tool that may be
+      attached to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_link_representation,Kinematic_link_representation}}
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tool_centre_point_frame
+  - type: expression
+    normative_status: preferred
+    designation: Tool_centre_point_frame
   domain: 'application module: Kinematic_structure_arm'
   language_code: eng
   annotations: []

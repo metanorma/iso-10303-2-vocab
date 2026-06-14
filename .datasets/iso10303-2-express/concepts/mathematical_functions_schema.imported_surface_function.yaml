@@ -1,30 +1,34 @@
+---
 data:
   identifier: mathematical_functions_schema.imported_surface_function
   localized_concepts:
     eng: a2b27023-e6bb-5b27-ab2f-b71aa70d1480
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.imported_surface_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the imported surface function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the imported surface function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}} represents the parametric function defined for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} instance from the *geometry_schema*.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_function,maths_function}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_literal,generic_literal}}
+      represents the parametric function defined for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}}
+      instance from the *geometry_schema*.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: imported_surface_function
+  - type: expression
+    normative_status: preferred
+    designation: imported_surface_function
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

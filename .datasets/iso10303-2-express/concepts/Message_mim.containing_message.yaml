@@ -1,30 +1,35 @@
+---
 data:
   identifier: Message_mim.containing_message
   localized_concepts:
     eng: f00f34c2-cb35-5db3-a8f9-e8abd30dcded
   domains:
-    - concept_id: section-Message_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-      ref_type: section
+  - concept_id: section-Message_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+    ref_type: section
 id: Message_mim.containing_message
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the containing message {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.group_assignment,group_assignment}}
+      that represents the containing message {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **containing_message** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that provides the link from the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}} to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that maintains the set of contents.
+  - content: A **containing_message** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that provides the link from the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}}
+      to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that
+      maintains the set of contents.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-          version: '2'
-      type: authoritative
-      id: Message_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: containing_message
+  - type: expression
+    normative_status: preferred
+    designation: containing_message
   domain: 'application module: Message_mim'
   language_code: eng
   annotations: []

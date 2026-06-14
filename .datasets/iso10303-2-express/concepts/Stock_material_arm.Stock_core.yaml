@@ -1,30 +1,34 @@
+---
 data:
   identifier: Stock_material_arm.Stock_core
   localized_concepts:
     eng: 87c09b0c-776c-567f-a2c3-a281388b60f2
   domains:
-    - concept_id: section-Stock_material_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
-      ref_type: section
+  - concept_id: section-Stock_material_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+    ref_type: section
 id: Stock_material_arm.Stock_core
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that represents the stock core {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}}
+      that represents the stock core {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Stock_core** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that is processed to be placed within a laminate and play a role in enhancing the stiffness of the laminate.
+  - content: A **Stock_core** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}}
+      that is processed to be placed within a laminate and play a role in enhancing
+      the stiffness of the laminate.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
-          version: '3'
-      type: authoritative
-      id: Stock_material_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Stock_core
+  - type: expression
+    normative_status: preferred
+    designation: Stock_core
   domain: 'application module: Stock_material_arm'
   language_code: eng
   annotations: []

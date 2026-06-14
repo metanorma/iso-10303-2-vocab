@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Conductive_filled_area
   localized_concepts:
     eng: 11f6e6a3-3676-5e4a-b12c-15ab85c8de70
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Conductive_filled_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}} that represents the conductive filled area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}}
+      that represents the conductive filled area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Conductive_filled_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}} in which the material is conductive.
+  - content: A **Conductive_filled_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Stratum_feature,Stratum_feature}}
+      in which the material is conductive.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Conductive_filled_area
+  - type: expression
+    normative_status: preferred
+    designation: Conductive_filled_area
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: drawing_definition_schema.drawing_sheet_revision_usage
   localized_concepts:
     eng: 25a94086-9267-5afc-9871-34db22c62317
   domains:
-    - concept_id: section-drawing_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
-      ref_type: section
+  - concept_id: section-drawing_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+    ref_type: section
 id: drawing_definition_schema.drawing_sheet_revision_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.area_in_set,area_in_set}} that represents the drawing sheet revision usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema.area_in_set,area_in_set}}
+      that represents the drawing sheet revision usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
-          version: '6'
-      type: authoritative
-      id: drawing_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:drawing_definition_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: drawing_sheet_revision_usage
+  - type: expression
+    normative_status: preferred
+    designation: drawing_sheet_revision_usage
   domain: 'resource: drawing_definition_schema'
   language_code: eng
   annotations: []

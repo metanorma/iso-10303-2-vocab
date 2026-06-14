@@ -1,30 +1,32 @@
+---
 data:
   identifier: Event_arm.Event_relationship
   localized_concepts:
     eng: 2e8a4132-0cbe-5cbd-8d51-c3341c95dd0e
   domains:
-    - concept_id: section-Event_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-      ref_type: section
+  - concept_id: section-Event_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+    ref_type: section
 id: Event_arm.Event_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the event relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Event_relationship** is a relationship which exists between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}s.
+  - content: An **Event_relationship** is a relationship which exists between two
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
-          version: '2'
-      type: authoritative
-      id: Event_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Event_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Event_relationship
   domain: 'application module: Event_arm'
   language_code: eng
   annotations: []

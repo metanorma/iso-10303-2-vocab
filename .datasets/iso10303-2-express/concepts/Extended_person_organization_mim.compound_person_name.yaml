@@ -1,30 +1,34 @@
+---
 data:
   identifier: Extended_person_organization_mim.compound_person_name
   localized_concepts:
     eng: 3be130f2-304a-5edc-a6fa-db73c3a02370
   domains:
-    - concept_id: section-Extended_person_organization_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
-      ref_type: section
+  - concept_id: section-Extended_person_organization_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
+    ref_type: section
 id: Extended_person_organization_mim.compound_person_name
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.generic_attribute_list_assignment,generic_attribute_list_assignment}} that represents the compound person name {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim.generic_attribute_list_assignment,generic_attribute_list_assignment}}
+      that represents the compound person name {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **compound_person_name** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.generic_attribute_list_assignment,generic_attribute_list_assignment}} that defines a name by which a person is known and that is made up of one or more components.
+  - content: A **compound_person_name** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.generic_attribute_list_assignment,generic_attribute_list_assignment}}
+      that defines a name by which a person is known and that is made up of one or
+      more components.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
-          version: '1'
-      type: authoritative
-      id: Extended_person_organization_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: compound_person_name
+  - type: expression
+    normative_status: preferred
+    designation: compound_person_name
   domain: 'application module: Extended_person_organization_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Product_class_mim.inclusion_product_concept_feature
   localized_concepts:
     eng: ef6bc072-2836-5bcd-8600-b0e37845ca04
   domains:
-    - concept_id: section-Product_class_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-      ref_type: section
+  - concept_id: section-Product_class_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+    ref_type: section
 id: Product_class_mim.inclusion_product_concept_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}} that represents the inclusion product concept feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim.conditional_concept_feature,conditional_concept_feature}}
+      that represents the inclusion product concept feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **inclusion_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}} that represents the statement that the application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}} involves the inclusion of an additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}}.
+  - content: An **inclusion_product_concept_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}}
+      that represents the statement that the application of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}}
+      involves the inclusion of an additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.conditional_concept_feature,conditional_concept_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
-          version: '6'
-      type: authoritative
-      id: Product_class_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_class_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: inclusion_product_concept_feature
+  - type: expression
+    normative_status: preferred
+    designation: inclusion_product_concept_feature
   domain: 'application module: Product_class_mim'
   language_code: eng
   annotations: []

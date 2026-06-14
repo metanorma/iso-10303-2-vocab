@@ -1,30 +1,33 @@
+---
 data:
   identifier: effectivity_schema.lot_effectivity
   localized_concepts:
     eng: 4fbd4d21-55b7-5403-b2c2-33caa66d52f4
   domains:
-    - concept_id: section-effectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-      ref_type: section
+  - concept_id: section-effectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+    ref_type: section
 id: effectivity_schema.lot_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the lot effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      that represents the lot effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **lot_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} for which the domain of applicability is defined as a given batch of items.
+  - content: A **lot_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      for which the domain of applicability is defined as a given batch of items.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-          version: '8'
-      type: authoritative
-      id: effectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: lot_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: lot_effectivity
   domain: 'resource: effectivity_schema'
   language_code: eng
   annotations: []

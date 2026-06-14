@@ -1,29 +1,31 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Multiply_defined_edges
   localized_concepts:
     eng: 66ff8cd8-b03a-5624-9cc8-428d1566ee1c
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Multiply_defined_edges
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Topology_related_to_multiply_defined_geometry,Topology_related_to_multiply_defined_geometry}} that represents the multiply defined edges {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Topology_related_to_multiply_defined_geometry,Topology_related_to_multiply_defined_geometry}}
+      that represents the multiply defined edges {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Multiply_defined_edges
+  - type: expression
+    normative_status: preferred
+    designation: Multiply_defined_edges
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []

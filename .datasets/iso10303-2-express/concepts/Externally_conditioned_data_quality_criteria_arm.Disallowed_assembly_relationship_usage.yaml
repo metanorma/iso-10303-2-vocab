@@ -1,30 +1,34 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_arm.Disallowed_assembly_relationship_usage
   localized_concepts:
     eng: 3359906d-94d8-54e5-850c-4078747e1f28
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_arm.Disallowed_assembly_relationship_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents the disallowed assembly relationship usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}}
+      that represents the disallowed assembly relationship usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Disallowed_assembly_relationship_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents a criterion detecting any violation of an agreement on the existence of assembly relationship.
+  - content: A **Disallowed_assembly_relationship_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}}
+      that represents a criterion detecting any violation of an agreement on the existence
+      of assembly relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Disallowed_assembly_relationship_usage
+  - type: expression
+    normative_status: preferred
+    designation: Disallowed_assembly_relationship_usage
   domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
   language_code: eng
   annotations: []

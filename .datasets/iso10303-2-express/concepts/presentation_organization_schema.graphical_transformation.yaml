@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_organization_schema.graphical_transformation
   localized_concepts:
     eng: d37cf3d7-2dc8-57a6-b1cd-7aadf83d70b5
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.graphical_transformation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.item_defined_transformation,item_defined_transformation}} that represents the graphical transformation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.item_defined_transformation,item_defined_transformation}}
+      that represents the graphical transformation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: graphical_transformation
+  - type: expression
+    normative_status: preferred
+    designation: graphical_transformation
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

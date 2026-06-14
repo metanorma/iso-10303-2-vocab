@@ -1,29 +1,30 @@
+---
 data:
   identifier: Class_of_product_mim.class_of_product
   localized_concepts:
     eng: 2c445fe5-1509-51e4-93f3-cacd81372835
   domains:
-    - concept_id: section-Class_of_product_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_product_mim
-      ref_type: section
+  - concept_id: section-Class_of_product_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_product_mim
+    ref_type: section
 id: Class_of_product_mim.class_of_product
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class of product {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the class of product {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_product_mim
-          version: '1'
-      type: authoritative
-      id: Class_of_product_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_product_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_of_product
+  - type: expression
+    normative_status: preferred
+    designation: class_of_product
   domain: 'application module: Class_of_product_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,32 @@
+---
 data:
   identifier: Interconnect_module_usage_view_arm.Interconnect_module_terminal_surface_constituent_relationship
   localized_concepts:
     eng: 1183a1af-786d-52e3-bb86-da43e71d85e4
   domains:
-    - concept_id: section-Interconnect_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+    ref_type: section
 id: Interconnect_module_usage_view_arm.Interconnect_module_terminal_surface_constituent_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the interconnect module terminal surface constituent relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Shape_element_relationship,Shape_element_relationship}}
+      that represents the interconnect module terminal surface constituent relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_terminal_surface_constituent_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_terminal_surface_constituent_relationship
   domain: 'application module: Interconnect_module_usage_view_arm'
   language_code: eng
   annotations: []

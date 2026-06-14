@@ -1,30 +1,33 @@
+---
 data:
   identifier: machining_feature_schema.edge_round
   localized_concepts:
     eng: 87eee8ab-5066-5781-8d7c-f9f7ef554730
   domains:
-    - concept_id: section-machining_feature_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-      ref_type: section
+  - concept_id: section-machining_feature_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+    ref_type: section
 id: machining_feature_schema.edge_round
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.transition_feature,transition_feature}} that represents the edge round {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.transition_feature,transition_feature}}
+      that represents the edge round {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **edge_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.transition_feature,transition_feature}} that is the representation of a circular convex transition between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
+  - content: An **edge_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.transition_feature,transition_feature}}
+      that is the representation of a circular convex transition between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-          version: '1'
-      type: authoritative
-      id: machining_feature_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: edge_round
+  - type: expression
+    normative_status: preferred
+    designation: edge_round
   domain: 'resource: machining_feature_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Test_select_product_arm.Test_select_product
   localized_concepts:
     eng: 32d9f793-e78b-545d-abce-6ae202f2093d
   domains:
-    - concept_id: section-Test_select_product_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_select_product_arm
-      ref_type: section
+  - concept_id: section-Test_select_product_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_select_product_arm
+    ref_type: section
 id: Test_select_product_arm.Test_select_product
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_replacement_arm.Alternate_product_relationship,Alternate_product_relationship}} that represents the test select product {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_select_product_arm.Alternate_product_relationship,Alternate_product_relationship}}
+      that represents the test select product {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_select_product_arm
-          version: '1'
-      type: authoritative
-      id: Test_select_product_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Test_select_product_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Test_select_product
+  - type: expression
+    normative_status: preferred
+    designation: Test_select_product
   domain: 'application module: Test_select_product_arm'
   language_code: eng
   annotations: []

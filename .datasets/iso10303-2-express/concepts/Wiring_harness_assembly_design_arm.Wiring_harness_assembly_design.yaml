@@ -1,29 +1,31 @@
+---
 data:
   identifier: Wiring_harness_assembly_design_arm.Wiring_harness_assembly_design
   localized_concepts:
     eng: f9737242-0929-5299-9d6d-f26539f39d1d
   domains:
-    - concept_id: section-Wiring_harness_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Wiring_harness_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
+    ref_type: section
 id: Wiring_harness_assembly_design_arm.Wiring_harness_assembly_design
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} that represents the wiring harness assembly design {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Assembly_definition,Assembly_definition}}
+      that represents the wiring harness assembly design {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
-          version: '4'
-      type: authoritative
-      id: Wiring_harness_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Wiring_harness_assembly_design
+  - type: expression
+    normative_status: preferred
+    designation: Wiring_harness_assembly_design
   domain: 'application module: Wiring_harness_assembly_design_arm'
   language_code: eng
   annotations: []

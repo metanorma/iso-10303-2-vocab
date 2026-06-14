@@ -1,29 +1,31 @@
+---
 data:
   identifier: Interconnect_module_usage_view_arm.Interconnect_module_surface_feature
   localized_concepts:
     eng: 3f4bde2f-6279-59cb-bd0a-69bb611013d6
   domains:
-    - concept_id: section-Interconnect_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+    ref_type: section
 id: Interconnect_module_usage_view_arm.Interconnect_module_surface_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the interconnect module surface feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Part_feature,Part_feature}}
+      that represents the interconnect module surface feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_surface_feature
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_surface_feature
   domain: 'application module: Interconnect_module_usage_view_arm'
   language_code: eng
   annotations: []

@@ -1,31 +1,34 @@
+---
 data:
   identifier: measure_schema.si_electric_charge_unit
   localized_concepts:
-    eng: 0773860f-6b63-5362-90fd-33751da1455b
+    eng: '0773860f-6b63-5362-90fd-33751da1455b'
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.si_electric_charge_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the si electric charge unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the si electric charge unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **si_electric_charge_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.electric_charge_unit,electric_charge_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}} in which the electric charge is expressed in SI units.
+  - content: A **si_electric_charge_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.electric_charge_unit,electric_charge_unit}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}}
+      in which the electric charge is expressed in SI units.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: si_electric_charge_unit
+  - type: expression
+    normative_status: preferred
+    designation: si_electric_charge_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []
-id: 0773860f-6b63-5362-90fd-33751da1455b
+id: '0773860f-6b63-5362-90fd-33751da1455b'

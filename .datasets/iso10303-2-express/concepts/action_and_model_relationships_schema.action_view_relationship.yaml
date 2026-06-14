@@ -1,36 +1,37 @@
+---
 data:
   identifier: action_and_model_relationships_schema.action_view_relationship
   localized_concepts:
     eng: 1396cd19-9e88-5b8c-be26-3c44d81634e2
   domains:
-    - concept_id: section-action_and_model_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
-      ref_type: section
+  - concept_id: section-action_and_model_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
+    ref_type: section
 id: action_and_model_relationships_schema.action_view_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action view relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the action view relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **action_view_relationship** is a relationship between:
+  - content: |-
+      An **action_view_relationship** is a relationship between:
 
-        * an idealisation of an action for analysis; and
-        * a discretised action analysis model
+      * an idealisation of an action for analysis; and
+      * a discretised action analysis model
 
-        which indicates that the discretised action analysis model is a model of the idealised action created for the purpose of numerical analysis.
+      which indicates that the discretised action analysis model is a model of the idealised action created for the purpose of numerical analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
-          version: '1'
-      type: authoritative
-      id: action_and_model_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_and_model_relationships_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_view_relationship
+  - type: expression
+    normative_status: preferred
+    designation: action_view_relationship
   domain: 'resource: action_and_model_relationships_schema'
   language_code: eng
   annotations: []

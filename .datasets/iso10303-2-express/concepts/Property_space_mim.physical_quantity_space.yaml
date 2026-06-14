@@ -1,29 +1,30 @@
+---
 data:
   identifier: Property_space_mim.physical_quantity_space
   localized_concepts:
     eng: 54e292f0-e662-50bf-82d5-af42064c2468
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.physical_quantity_space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical quantity space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical quantity space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_quantity_space
+  - type: expression
+    normative_status: preferred
+    designation: physical_quantity_space
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

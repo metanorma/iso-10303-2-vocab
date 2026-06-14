@@ -1,30 +1,33 @@
+---
 data:
   identifier: systems_engineering_representation_schema.expression_representation
   localized_concepts:
     eng: c0388f81-f6c8-59fc-a2d4-a135b5ba1fae
   domains:
-    - concept_id: section-systems_engineering_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-      ref_type: section
+  - concept_id: section-systems_engineering_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+    ref_type: section
 id: systems_engineering_representation_schema.expression_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the expression representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation,representation}}
+      that represents the expression representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **expression_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that is an expression.
+  - content: An **expression_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that is an expression.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-          version: '2'
-      type: authoritative
-      id: systems_engineering_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: expression_representation
+  - type: expression
+    normative_status: preferred
+    designation: expression_representation
   domain: 'resource: systems_engineering_representation_schema'
   language_code: eng
   annotations: []

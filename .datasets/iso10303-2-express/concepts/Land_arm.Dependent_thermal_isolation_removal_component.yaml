@@ -1,29 +1,31 @@
+---
 data:
   identifier: Land_arm.Dependent_thermal_isolation_removal_component
   localized_concepts:
     eng: 6dab2cc0-b931-5b3f-b47b-456c3c0685c0
   domains:
-    - concept_id: section-Land_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-      ref_type: section
+  - concept_id: section-Land_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+    ref_type: section
 id: Land_arm.Dependent_thermal_isolation_removal_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Thermal_isolation_removal_component,Thermal_isolation_removal_component}} that represents the dependent thermal isolation removal component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Thermal_isolation_removal_component,Thermal_isolation_removal_component}}
+      that represents the dependent thermal isolation removal component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-          version: '5'
-      type: authoritative
-      id: Land_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dependent_thermal_isolation_removal_component
+  - type: expression
+    normative_status: preferred
+    designation: Dependent_thermal_isolation_removal_component
   domain: 'application module: Land_arm'
   language_code: eng
   annotations: []

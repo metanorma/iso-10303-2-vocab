@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_3d_shape_arm.Bond_assembly_position
   localized_concepts:
     eng: 48639be6-7136-522d-80d6-76e06d0dd004
   domains:
-    - concept_id: section-Assembly_3d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_3d_shape_arm
-      ref_type: section
+  - concept_id: section-Assembly_3d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_3d_shape_arm
+    ref_type: section
 id: Assembly_3d_shape_arm.Bond_assembly_position
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bond assembly position {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bond assembly position {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bond_assembly_position** is the placement of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_bonding,Assembled_with_bonding}} within the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_shape_arm.Physical_unit_3d_shape_model,Physical_unit_3d_shape_model}} of an assembly.
+  - content: A **Bond_assembly_position** is the placement of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembled_with_bonding,Assembled_with_bonding}}
+      within the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_shape_arm.Physical_unit_3d_shape_model,Physical_unit_3d_shape_model}}
+      of an assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_3d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_3d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_3d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bond_assembly_position
+  - type: expression
+    normative_status: preferred
+    designation: Bond_assembly_position
   domain: 'application module: Assembly_3d_shape_arm'
   language_code: eng
   annotations: []

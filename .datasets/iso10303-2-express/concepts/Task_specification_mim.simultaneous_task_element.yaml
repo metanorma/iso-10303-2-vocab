@@ -1,30 +1,34 @@
+---
 data:
   identifier: Task_specification_mim.simultaneous_task_element
   localized_concepts:
     eng: 10e219bf-6d58-5da3-93ce-d1f355d23265
   domains:
-    - concept_id: section-Task_specification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
-      ref_type: section
+  - concept_id: section-Task_specification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+    ref_type: section
 id: Task_specification_mim.simultaneous_task_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.concurrent_task_element,concurrent_task_element}} that represents the simultaneous task element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim.concurrent_task_element,concurrent_task_element}}
+      that represents the simultaneous task element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **simultaneous_task_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.concurrent_task_element,concurrent_task_element}} that requires all the specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}s to be carried out in parallel and during the same period.
+  - content: A **simultaneous_task_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.concurrent_task_element,concurrent_task_element}}
+      that requires all the specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}s
+      to be carried out in parallel and during the same period.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
-          version: '2'
-      type: authoritative
-      id: Task_specification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: simultaneous_task_element
+  - type: expression
+    normative_status: preferred
+    designation: simultaneous_task_element
   domain: 'application module: Task_specification_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_assembly_arm.Different_angle_of_assembly_constraint
   localized_concepts:
     eng: 67bb219d-8b24-53df-bbe2-48c59e075e98
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_assembly_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_assembly_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_assembly_arm.Different_angle_of_assembly_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_detailed_assembly_data_content,A3m_equivalence_criterion_of_detailed_assembly_data_content}} that represents the different angle of assembly constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_detailed_assembly_data_content,A3m_equivalence_criterion_of_detailed_assembly_data_content}}
+      that represents the different angle of assembly constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Different_angle_of_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_detailed_assembly_data_content,A3m_equivalence_criterion_of_detailed_assembly_data_content}} that asserts that the angle dimension specified in an assembly constraint between a component and its connected component in the comparing assembly data set is different from that of the corresponding assembly constraint in the compared assembly data set.
+  - content: A **Different_angle_of_assembly_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_detailed_assembly_data_content,A3m_equivalence_criterion_of_detailed_assembly_data_content}}
+      that asserts that the angle dimension specified in an assembly constraint between
+      a component and its connected component in the comparing assembly data set is
+      different from that of the corresponding assembly constraint in the compared
+      assembly data set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_assembly_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Different_angle_of_assembly_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Different_angle_of_assembly_constraint
   domain: 'application module: Annotated_3d_model_equivalence_assembly_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fabrication_joint_mim.fabrication_joint
   localized_concepts:
     eng: d3327ff4-3810-5813-b0f7-36539e3d9558
   domains:
-    - concept_id: section-Fabrication_joint_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
-      ref_type: section
+  - concept_id: section-Fabrication_joint_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
+    ref_type: section
 id: Fabrication_joint_mim.fabrication_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}} that represents the fabrication joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim.component_feature_joint,component_feature_joint}}
+      that represents the fabrication joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **fabrication_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Fabrication_joint,Fabrication_joint}}.
+  - content: A **fabrication_joint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_feature_joint,component_feature_joint}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_arm.Fabrication_joint,Fabrication_joint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
-          version: '5'
-      type: authoritative
-      id: Fabrication_joint_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_joint_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fabrication_joint
+  - type: expression
+    normative_status: preferred
+    designation: fabrication_joint
   domain: 'application module: Fabrication_joint_mim'
   language_code: eng
   annotations: []

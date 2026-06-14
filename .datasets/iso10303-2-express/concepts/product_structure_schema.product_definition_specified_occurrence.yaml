@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_structure_schema.product_definition_specified_occurrence
   localized_concepts:
     eng: 793afad0-53e6-5b3c-b2ce-592c32e021bb
   domains:
-    - concept_id: section-product_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-      ref_type: section
+  - concept_id: section-product_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+    ref_type: section
 id: product_structure_schema.product_definition_specified_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}} that represents the product definition specified occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}
+      that represents the product definition specified occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_specified_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}} that is defined by another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence_reference,product_definition_occurrence_reference}} in the context of a higher-level {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}.
+  - content: A **product_definition_specified_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}
+      that is defined by another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence_reference,product_definition_occurrence_reference}}
+      in the context of a higher-level {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-          version: '6'
-      type: authoritative
-      id: product_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_specified_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_specified_occurrence
   domain: 'resource: product_structure_schema'
   language_code: eng
   annotations: []

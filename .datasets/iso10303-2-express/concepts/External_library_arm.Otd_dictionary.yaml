@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_library_arm.Otd_dictionary
   localized_concepts:
     eng: e8c8393c-8195-5388-968d-80cfad5e4834
   domains:
-    - concept_id: section-External_library_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
-      ref_type: section
+  - concept_id: section-External_library_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+    ref_type: section
 id: External_library_arm.Otd_dictionary
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}} that represents the otd dictionary {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}}
+      that represents the otd dictionary {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Otd_dictionary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}} whose representation is defined in ISO/TS 22745-10.
+  - content: An **Otd_dictionary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm.Known_source,Known_source}}
+      whose representation is defined in ISO/TS 22745-10.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
-          version: '3'
-      type: authoritative
-      id: External_library_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_library_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Otd_dictionary
+  - type: expression
+    normative_status: preferred
+    designation: Otd_dictionary
   domain: 'application module: External_library_arm'
   language_code: eng
   annotations: []

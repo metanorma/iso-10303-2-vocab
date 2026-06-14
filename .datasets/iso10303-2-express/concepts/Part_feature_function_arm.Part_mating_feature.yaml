@@ -1,30 +1,34 @@
+---
 data:
   identifier: Part_feature_function_arm.Part_mating_feature
   localized_concepts:
     eng: 6b332b03-ef6e-5975-b362-c567f0e4a5cb
   domains:
-    - concept_id: section-Part_feature_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-      ref_type: section
+  - concept_id: section-Part_feature_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+    ref_type: section
 id: Part_feature_function_arm.Part_mating_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the part mating feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm.Part_feature,Part_feature}}
+      that represents the part mating feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_mating_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that is identified to facilitate tolerance specification when an occurrence of the associated part is mated to a complementary part.
+  - content: A **Part_mating_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}}
+      that is identified to facilitate tolerance specification when an occurrence
+      of the associated part is mated to a complementary part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-          version: '4'
-      type: authoritative
-      id: Part_feature_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_mating_feature
+  - type: expression
+    normative_status: preferred
+    designation: Part_mating_feature
   domain: 'application module: Part_feature_function_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Resource_management_arm.Increasing_resource_event
   localized_concepts:
     eng: 9c01c1fb-459c-57d7-981d-45e18321a94d
   domains:
-    - concept_id: section-Resource_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
-      ref_type: section
+  - concept_id: section-Resource_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+    ref_type: section
 id: Resource_management_arm.Increasing_resource_event
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}} that represents the increasing resource event {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}}
+      that represents the increasing resource event {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Increasing_resource_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}} that increases the balance of a managed resource.
+  - content: A **Increasing_resource_event** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm.Resource_event,Resource_event}}
+      that increases the balance of a managed resource.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
-          version: '2'
-      type: authoritative
-      id: Resource_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_management_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Increasing_resource_event
+  - type: expression
+    normative_status: preferred
+    designation: Increasing_resource_event
   domain: 'application module: Resource_management_arm'
   language_code: eng
   annotations: []

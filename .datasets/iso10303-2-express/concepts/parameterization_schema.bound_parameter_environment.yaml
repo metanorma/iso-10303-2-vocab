@@ -1,29 +1,31 @@
+---
 data:
   identifier: parameterization_schema.bound_parameter_environment
   localized_concepts:
     eng: 7d2e8b02-4e4f-535a-86e5-cb8072ce9f94
   domains:
-    - concept_id: section-parameterization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-      ref_type: section
+  - concept_id: section-parameterization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+    ref_type: section
 id: parameterization_schema.bound_parameter_environment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.environment,environment}} that represents the bound parameter environment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema.environment,environment}}
+      that represents the bound parameter environment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
-          version: '4'
-      type: authoritative
-      id: parameterization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:parameterization_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: bound_parameter_environment
+  - type: expression
+    normative_status: preferred
+    designation: bound_parameter_environment
   domain: 'resource: parameterization_schema'
   language_code: eng
   annotations: []

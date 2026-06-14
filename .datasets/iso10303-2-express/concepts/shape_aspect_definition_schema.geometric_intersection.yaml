@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_aspect_definition_schema.geometric_intersection
   localized_concepts:
     eng: 13adcd87-48bf-5fec-8ac4-cdf5d4162deb
   domains:
-    - concept_id: section-shape_aspect_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-      ref_type: section
+  - concept_id: section-shape_aspect_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+    ref_type: section
 id: shape_aspect_definition_schema.geometric_intersection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that represents the geometric intersection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}}
+      that represents the geometric intersection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometric_intersection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that is the common intersection of two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} elements.
+  - content: A **geometric_intersection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}}
+      that is the common intersection of two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-          version: '7'
-      type: authoritative
-      id: shape_aspect_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometric_intersection
+  - type: expression
+    normative_status: preferred
+    designation: geometric_intersection
   domain: 'resource: shape_aspect_definition_schema'
   language_code: eng
   annotations: []

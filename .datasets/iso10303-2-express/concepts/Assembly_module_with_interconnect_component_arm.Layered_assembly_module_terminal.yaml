@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_arm.Layered_assembly_module_terminal
   localized_concepts:
     eng: 2a9d23d1-e337-5bc2-bb14-be9300ca9f09
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+    ref_type: section
 id: Assembly_module_with_interconnect_component_arm.Layered_assembly_module_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}} that represents the layered assembly module terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Assembly_module_terminal,Assembly_module_terminal}}
+      that represents the layered assembly module terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Layered_assembly_module_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}} that is part of the interface between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}} and its next higher assembly.
+  - content: A **Layered_assembly_module_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}}
+      that is part of the interface between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}}
+      and its next higher assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Layered_assembly_module_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Layered_assembly_module_terminal
   domain: 'application module: Assembly_module_with_interconnect_component_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.curve_element_interval_constant
   localized_concepts:
     eng: 5d6e7489-baf2-5644-a3c7-f78723e5e4ec
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.curve_element_interval_constant
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_interval,curve_element_interval}} that represents the curve element interval constant {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_interval,curve_element_interval}}
+      that represents the curve element interval constant {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_interval_constant,curve_element_interval_constant}} is a curve section that is constant over an interval of a curve element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_interval_constant,curve_element_interval_constant}}
+      is a curve section that is constant over an interval of a curve element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_element_interval_constant
+  - type: expression
+    normative_status: preferred
+    designation: curve_element_interval_constant
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

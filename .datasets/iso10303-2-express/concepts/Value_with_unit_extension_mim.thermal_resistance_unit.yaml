@@ -1,29 +1,31 @@
+---
 data:
   identifier: Value_with_unit_extension_mim.thermal_resistance_unit
   localized_concepts:
     eng: 27c26f00-b03f-5efc-bed0-ce92d96e6f20
   domains:
-    - concept_id: section-Value_with_unit_extension_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
-      ref_type: section
+  - concept_id: section-Value_with_unit_extension_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+    ref_type: section
 id: Value_with_unit_extension_mim.thermal_resistance_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} that represents the thermal resistance unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim.derived_unit,derived_unit}}
+      that represents the thermal resistance unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_extension_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_extension_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: thermal_resistance_unit
+  - type: expression
+    normative_status: preferred
+    designation: thermal_resistance_unit
   domain: 'application module: Value_with_unit_extension_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Rectangular_closed_profile
   localized_concepts:
     eng: 6a6ae16e-7262-52b3-94ef-266cb1c3b434
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Rectangular_closed_profile
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Closed_profile,Closed_profile}} that represents the rectangular closed profile {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Closed_profile,Closed_profile}}
+      that represents the rectangular closed profile {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Rectangular_closed_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Closed_profile,Closed_profile}} that is an enclosed area bounded by four sides with opposite sides equal in length and corners at 90 degrees.
+  - content: A **Rectangular_closed_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Closed_profile,Closed_profile}}
+      that is an enclosed area bounded by four sides with opposite sides equal in
+      length and corners at 90 degrees.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rectangular_closed_profile
+  - type: expression
+    normative_status: preferred
+    designation: Rectangular_closed_profile
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

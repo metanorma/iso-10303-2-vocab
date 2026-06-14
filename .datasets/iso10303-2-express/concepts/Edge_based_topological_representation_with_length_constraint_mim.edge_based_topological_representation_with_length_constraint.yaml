@@ -1,30 +1,38 @@
+---
 data:
   identifier: Edge_based_topological_representation_with_length_constraint_mim.edge_based_topological_representation_with_length_constraint
   localized_concepts:
     eng: a89f5dc7-df77-53ae-b56c-d305566bd374
   domains:
-    - concept_id: section-Edge_based_topological_representation_with_length_constraint_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
-      ref_type: section
+  - concept_id: section-Edge_based_topological_representation_with_length_constraint_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+    ref_type: section
 id: Edge_based_topological_representation_with_length_constraint_mim.edge_based_topological_representation_with_length_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the edge based topological representation with length constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim.representation,representation}}
+      that represents the edge based topological representation with length constraint
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **edge_based_topological_representation_with_length_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that has as its items one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}} and as needed additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.path,path}}s and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}s that are within the domain of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}}.
+  - content: An **edge_based_topological_representation_with_length_constraint** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that has as its items one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}}
+      and as needed additional {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.path,path}}s
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}s
+      that are within the domain of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_edge_set,connected_edge_set}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
-          version: '4'
-      type: authoritative
-      id: Edge_based_topological_representation_with_length_constraint_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: edge_based_topological_representation_with_length_constraint
+  - type: expression
+    normative_status: preferred
+    designation: edge_based_topological_representation_with_length_constraint
   domain: 'application module: Edge_based_topological_representation_with_length_constraint_mim'
   language_code: eng
   annotations: []
