@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Vee_profile
   localized_concepts:
     eng: 0cfef0aa-07ab-5c4c-abae-4b2e355e3cf9
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Vee_profile
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} that represents the vee profile {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}}
+      that represents the vee profile {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Vee_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} that is a shape bounded by two lines that connect at a point and extends infinitely.
+  - content: A **Vee_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}}
+      that is a shape bounded by two lines that connect at a point and extends infinitely.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Vee_profile
+  - type: expression
+    normative_status: preferred
+    designation: Vee_profile
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

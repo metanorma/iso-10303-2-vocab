@@ -1,30 +1,33 @@
+---
 data:
   identifier: System_structure_mim.syss_characterizable_representation_context
   localized_concepts:
     eng: 79be89d8-caf0-5642-a2b9-a87a9eefc45a
   domains:
-    - concept_id: section-System_structure_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
-      ref_type: section
+  - concept_id: section-System_structure_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
+    ref_type: section
 id: System_structure_mim.syss_characterizable_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the syss characterizable representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the syss characterizable representation context
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **syss_characterizable_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}.
+  - content: A **syss_characterizable_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
-          version: '2'
-      type: authoritative
-      id: System_structure_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_structure_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: syss_characterizable_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: syss_characterizable_representation_context
   domain: 'application module: System_structure_mim'
   language_code: eng
   annotations: []

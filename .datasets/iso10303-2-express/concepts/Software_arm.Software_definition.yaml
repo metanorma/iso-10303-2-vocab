@@ -1,29 +1,31 @@
+---
 data:
   identifier: Software_arm.Software_definition
   localized_concepts:
     eng: 6b24c56d-267f-564d-b9c7-ca761d9e82e2
   domains:
-    - concept_id: section-Software_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
-      ref_type: section
+  - concept_id: section-Software_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
+    ref_type: section
 id: Software_arm.Software_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_definition,Information_definition}} that represents the software definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm.Information_definition,Information_definition}}
+      that represents the software definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
-          version: '2'
-      type: authoritative
-      id: Software_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Software_definition
+  - type: expression
+    normative_status: preferred
+    designation: Software_definition
   domain: 'application module: Software_arm'
   language_code: eng
   annotations: []

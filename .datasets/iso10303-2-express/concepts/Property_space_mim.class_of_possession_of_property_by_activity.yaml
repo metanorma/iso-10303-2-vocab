@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_mim.class_of_possession_of_property_by_activity
   localized_concepts:
     eng: 8dd541f2-3ece-565e-853f-9e1ce89aa137
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.class_of_possession_of_property_by_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action_property,action_property}} that represents the class of possession of property by activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim.action_property,action_property}}
+      that represents the class of possession of property by activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_of_possession_of_property_by_activity
+  - type: expression
+    normative_status: preferred
+    designation: class_of_possession_of_property_by_activity
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

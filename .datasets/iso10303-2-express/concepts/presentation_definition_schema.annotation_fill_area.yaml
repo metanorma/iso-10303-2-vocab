@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_definition_schema.annotation_fill_area
   localized_concepts:
     eng: cce152c3-4f07-558c-8119-2b1639f160e9
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.annotation_fill_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the annotation fill area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the annotation fill area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: annotation_fill_area
+  - type: expression
+    normative_status: preferred
+    designation: annotation_fill_area
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

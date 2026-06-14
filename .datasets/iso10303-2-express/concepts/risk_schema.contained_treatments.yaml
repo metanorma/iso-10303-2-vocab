@@ -1,30 +1,34 @@
+---
 data:
   identifier: risk_schema.contained_treatments
   localized_concepts:
     eng: 24a69278-5b4a-541f-b4ad-af13a1c0181f
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.contained_treatments
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that represents the contained treatments {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that represents the contained treatments {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **contained_treatments** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_control,risk_control}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_treatment,risk_treatment}}.
+  - content: A **contained_treatments** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_control,risk_control}}
+      with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_treatment,risk_treatment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: contained_treatments
+  - type: expression
+    normative_status: preferred
+    designation: contained_treatments
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

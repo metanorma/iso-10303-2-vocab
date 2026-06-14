@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_aspect_definition_schema.geometric_alignment
   localized_concepts:
     eng: bd96bc24-82a0-503b-b11a-63dfe8475c0a
   domains:
-    - concept_id: section-shape_aspect_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-      ref_type: section
+  - concept_id: section-shape_aspect_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+    ref_type: section
 id: shape_aspect_definition_schema.geometric_alignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that represents the geometric alignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}}
+      that represents the geometric alignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometric_alignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}} that defines a planar or linear feature that requires two or more features lying in the same plane or along the same line.
+  - content: A **geometric_alignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.derived_shape_aspect,derived_shape_aspect}}
+      that defines a planar or linear feature that requires two or more features lying
+      in the same plane or along the same line.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-          version: '7'
-      type: authoritative
-      id: shape_aspect_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometric_alignment
+  - type: expression
+    normative_status: preferred
+    designation: geometric_alignment
   domain: 'resource: shape_aspect_definition_schema'
   language_code: eng
   annotations: []

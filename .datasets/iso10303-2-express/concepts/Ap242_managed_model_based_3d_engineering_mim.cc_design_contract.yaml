@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ap242_managed_model_based_3d_engineering_mim.cc_design_contract
   localized_concepts:
     eng: bf47f748-30c1-5d4d-8e7e-f764902958ce
   domains:
-    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-      ref_type: section
+  - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+    ref_type: section
 id: Ap242_managed_model_based_3d_engineering_mim.cc_design_contract
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that represents the cc design contract {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim.contract_assignment,contract_assignment}}
+      that represents the cc design contract {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cc_design_contract** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that relates a contract to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
+  - content: A **cc_design_contract** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}}
+      that relates a contract to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-          version: '5'
-      type: authoritative
-      id: Ap242_managed_model_based_3d_engineering_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_contract
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_contract
   domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
   language_code: eng
   annotations: []

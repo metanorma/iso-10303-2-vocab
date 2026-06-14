@@ -1,30 +1,35 @@
+---
 data:
   identifier: Part_template_3d_shape_mim.inter_stratum_feature_edge_segment_template_with_cross_section
   localized_concepts:
     eng: 7fa5041c-927e-5584-b661-4df32e253625
   domains:
-    - concept_id: section-Part_template_3d_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_mim
-      ref_type: section
+  - concept_id: section-Part_template_3d_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_mim
+    ref_type: section
 id: Part_template_3d_shape_mim.inter_stratum_feature_edge_segment_template_with_cross_section
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.inter_stratum_feature_edge_segment_template,inter_stratum_feature_edge_segment_template}} that represents the inter stratum feature edge segment template with cross section {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_mim.inter_stratum_feature_edge_segment_template,inter_stratum_feature_edge_segment_template}}
+      that represents the inter stratum feature edge segment template with cross section
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **inter_stratum_feature_edge_segment_template_with_cross_section** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.inter_stratum_feature_edge_segment_template,inter_stratum_feature_edge_segment_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_arm.Inter_stratum_feature_edge_segment_template_with_cross_section,Inter_stratum_feature_edge_segment_template_with_cross_section}}.
+  - content: A **inter_stratum_feature_edge_segment_template_with_cross_section**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.inter_stratum_feature_edge_segment_template,inter_stratum_feature_edge_segment_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_arm.Inter_stratum_feature_edge_segment_template_with_cross_section,Inter_stratum_feature_edge_segment_template_with_cross_section}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_mim
-          version: '4'
-      type: authoritative
-      id: Part_template_3d_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_3d_shape_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: inter_stratum_feature_edge_segment_template_with_cross_section
+  - type: expression
+    normative_status: preferred
+    designation: inter_stratum_feature_edge_segment_template_with_cross_section
   domain: 'application module: Part_template_3d_shape_mim'
   language_code: eng
   annotations: []

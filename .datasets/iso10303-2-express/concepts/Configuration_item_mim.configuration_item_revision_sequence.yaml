@@ -1,31 +1,36 @@
+---
 data:
   identifier: Configuration_item_mim.configuration_item_revision_sequence
   localized_concepts:
-    eng: 03227292-ca01-59b2-912e-f727ce1a04fd
+    eng: '03227292-ca01-59b2-912e-f727ce1a04fd'
   domains:
-    - concept_id: section-Configuration_item_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
-      ref_type: section
+  - concept_id: section-Configuration_item_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
+    ref_type: section
 id: Configuration_item_mim.configuration_item_revision_sequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item_relationship,configuration_item_relationship}} that represents the configuration item revision sequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim.configuration_item_relationship,configuration_item_relationship}}
+      that represents the configuration item revision sequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **configuration_item_revision_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item_relationship,configuration_item_relationship}} that is used to relate a previous version (relating configuration item) of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}} to the version that replaces it (related configuration item).
+  - content: A **configuration_item_revision_sequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item_relationship,configuration_item_relationship}}
+      that is used to relate a previous version (relating configuration item) of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}}
+      to the version that replaces it (related configuration item).
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
-          version: '2'
-      type: authoritative
-      id: Configuration_item_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: configuration_item_revision_sequence
+  - type: expression
+    normative_status: preferred
+    designation: configuration_item_revision_sequence
   domain: 'application module: Configuration_item_mim'
   language_code: eng
   annotations: []
-id: 03227292-ca01-59b2-912e-f727ce1a04fd
+id: '03227292-ca01-59b2-912e-f727ce1a04fd'

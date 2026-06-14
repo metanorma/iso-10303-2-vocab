@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interconnect_placement_requirements_mim.layer_qualified_layout_spacing_requirement
   localized_concepts:
     eng: 425e2214-2678-56b1-a83b-43b91ac5d2ea
   domains:
-    - concept_id: section-Interconnect_placement_requirements_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim
-      ref_type: section
+  - concept_id: section-Interconnect_placement_requirements_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim
+    ref_type: section
 id: Interconnect_placement_requirements_mim.layer_qualified_layout_spacing_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.layout_spacing_requirement,layout_spacing_requirement}} that represents the layer qualified layout spacing requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.layout_spacing_requirement,layout_spacing_requirement}}
+      that represents the layer qualified layout spacing requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **layer_qualified_layout_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.layout_spacing_requirement,layout_spacing_requirement}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layer_qualified_layout_spacing_requirement,Layer_qualified_layout_spacing_requirement}}.
+  - content: An **layer_qualified_layout_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.layout_spacing_requirement,layout_spacing_requirement}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layer_qualified_layout_spacing_requirement,Layer_qualified_layout_spacing_requirement}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim
-          version: '4'
-      type: authoritative
-      id: Interconnect_placement_requirements_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: layer_qualified_layout_spacing_requirement
+  - type: expression
+    normative_status: preferred
+    designation: layer_qualified_layout_spacing_requirement
   domain: 'application module: Interconnect_placement_requirements_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Function_based_behaviour_representation_arm.Function_based_behaviour_representation_context
   localized_concepts:
     eng: cea6094a-0294-5918-919f-d2399a39d9bb
   domains:
-    - concept_id: section-Function_based_behaviour_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_representation_arm
-      ref_type: section
+  - concept_id: section-Function_based_behaviour_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_representation_arm
+    ref_type: section
 id: Function_based_behaviour_representation_arm.Function_based_behaviour_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the function based behaviour representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_representation_arm.Representation_context,Representation_context}}
+      that represents the function based behaviour representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Function_based_behaviour_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} used in the definition of functional models, this will include information regarding functional modelling paradigm.
+  - content: A **Function_based_behaviour_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}
+      used in the definition of functional models, this will include information regarding
+      functional modelling paradigm.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_representation_arm
-          version: '1'
-      type: authoritative
-      id: Function_based_behaviour_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Function_based_behaviour_representation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Function_based_behaviour_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: Function_based_behaviour_representation_context
   domain: 'application module: Function_based_behaviour_representation_arm'
   language_code: eng
   annotations: []

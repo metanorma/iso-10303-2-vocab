@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.filled_via
   localized_concepts:
     eng: ad144328-a299-56f4-89ba-3461ed083d8e
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.filled_via
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.via,via}} that represents the filled via {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.via,via}}
+      that represents the filled via {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: filled_via
+  - type: expression
+    normative_status: preferred
+    designation: filled_via
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

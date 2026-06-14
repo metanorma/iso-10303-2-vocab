@@ -1,30 +1,34 @@
+---
 data:
   identifier: systems_engineering_representation_schema.functional_representation_context
   localized_concepts:
     eng: 96ce2c77-5181-5743-b798-3766e47142e4
   domains:
-    - concept_id: section-systems_engineering_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-      ref_type: section
+  - concept_id: section-systems_engineering_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+    ref_type: section
 id: systems_engineering_representation_schema.functional_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that represents the functional representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_context,representation_context}}
+      that represents the functional representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **functional_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} used in the definition of functional models, this will include information regarding the functional modelling paradigm.
+  - content: A **functional_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}
+      used in the definition of functional models, this will include information regarding
+      the functional modelling paradigm.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-          version: '2'
-      type: authoritative
-      id: systems_engineering_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: functional_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: functional_representation_context
   domain: 'resource: systems_engineering_representation_schema'
   language_code: eng
   annotations: []

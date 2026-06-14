@@ -1,30 +1,35 @@
+---
 data:
   identifier: Geometric_constraints_arm.Surface_distance_constraint
   localized_concepts:
     eng: a0dd9c39-e328-5681-b6c9-ab6add82a003
   domains:
-    - concept_id: section-Geometric_constraints_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-      ref_type: section
+  - concept_id: section-Geometric_constraints_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+    ref_type: section
 id: Geometric_constraints_arm.Surface_distance_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that represents the surface distance constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that represents the surface distance constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_distance_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that defines a constraint on the distance between two surfaces in the undirected case, or between one surface and up to three reference elements in the directed case.
+  - content: A **Surface_distance_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that defines a constraint on the distance between two surfaces in the undirected
+      case, or between one surface and up to three reference elements in the directed
+      case.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-          version: '2'
-      type: authoritative
-      id: Geometric_constraints_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_distance_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Surface_distance_constraint
   domain: 'application module: Geometric_constraints_arm'
   language_code: eng
   annotations: []

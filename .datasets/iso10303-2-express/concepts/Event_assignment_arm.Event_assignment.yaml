@@ -1,30 +1,32 @@
+---
 data:
   identifier: Event_assignment_arm.Event_assignment
   localized_concepts:
     eng: 13415cec-b123-53a8-ae1a-4dc833530292
   domains:
-    - concept_id: section-Event_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_arm
-      ref_type: section
+  - concept_id: section-Event_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_arm
+    ref_type: section
 id: Event_assignment_arm.Event_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the event assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Event_assignment** is assignment of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}} to product or activity data.
+  - content: An **Event_assignment** is assignment of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_arm.Event,Event}}
+      to product or activity data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Event_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Event_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Event_assignment
   domain: 'application module: Event_assignment_arm'
   language_code: eng
   annotations: []

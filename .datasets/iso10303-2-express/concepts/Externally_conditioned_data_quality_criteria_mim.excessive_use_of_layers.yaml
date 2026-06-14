@@ -1,30 +1,33 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_mim.excessive_use_of_layers
   localized_concepts:
     eng: a1685576-41d2-5dad-8240-ade613bbb451
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_mim.excessive_use_of_layers
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents the excessive use of layers {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}}
+      that represents the excessive use of layers {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **excessive_use_of_layers** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_layers,Excessive_use_of_layers}}.
+  - content: A **excessive_use_of_layers** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_layers,Excessive_use_of_layers}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: excessive_use_of_layers
+  - type: expression
+    normative_status: preferred
+    designation: excessive_use_of_layers
   domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
   language_code: eng
   annotations: []

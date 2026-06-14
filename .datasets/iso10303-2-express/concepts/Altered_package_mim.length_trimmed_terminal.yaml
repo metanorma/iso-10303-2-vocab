@@ -1,30 +1,33 @@
+---
 data:
   identifier: Altered_package_mim.length_trimmed_terminal
   localized_concepts:
     eng: 5ea870c2-073b-51e7-8e2e-475eccf7e3d3
   domains:
-    - concept_id: section-Altered_package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
-      ref_type: section
+  - concept_id: section-Altered_package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
+    ref_type: section
 id: Altered_package_mim.length_trimmed_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}} that represents the length trimmed terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}}
+      that represents the length trimmed terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **length_trimmed_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Length_trimmed_terminal,Length_trimmed_terminal}}.
+  - content: A **length_trimmed_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim.altered_package_terminal,altered_package_terminal}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Length_trimmed_terminal,Length_trimmed_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
-          version: '4'
-      type: authoritative
-      id: Altered_package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: length_trimmed_terminal
+  - type: expression
+    normative_status: preferred
+    designation: length_trimmed_terminal
   domain: 'application module: Altered_package_mim'
   language_code: eng
   annotations: []

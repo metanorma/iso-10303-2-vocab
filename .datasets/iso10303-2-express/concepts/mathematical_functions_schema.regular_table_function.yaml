@@ -1,30 +1,35 @@
+---
 data:
   identifier: mathematical_functions_schema.regular_table_function
   localized_concepts:
     eng: a645fda1-aaab-5050-851f-13f09a3947df
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.regular_table_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} that represents the regular table function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}}
+      that represents the regular table function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}} represents dense arrays of any dimension in which the difference in the linear positions corresponding to two subscript tuples can be computed as the inner product of the vector difference of the tuples with a constant tuple.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.linearized_table_function,linearized_table_function}}
+      represents dense arrays of any dimension in which the difference in the linear
+      positions corresponding to two subscript tuples can be computed as the inner
+      product of the vector difference of the tuples with a constant tuple.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: regular_table_function
+  - type: expression
+    normative_status: preferred
+    designation: regular_table_function
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Pmi_data_quality_arm.Inapt_pmi_representation
   localized_concepts:
     eng: c440c55b-f506-51b9-845c-68c42394b565
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.Inapt_pmi_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_inapt_pmi_data,A3m_inapt_pmi_data}} that represents the inapt pmi representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_inapt_pmi_data,A3m_inapt_pmi_data}}
+      that represents the inapt pmi representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Inapt_pmi_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_inapt_pmi_data,A3m_inapt_pmi_data}} that is a supertype of criteria for detecting PMI data whose representation of semantic characteristics is inappropriate in a specific context.
+  - content: An **Inapt_pmi_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.A3m_inapt_pmi_data,A3m_inapt_pmi_data}}
+      that is a supertype of criteria for detecting PMI data whose representation
+      of semantic characteristics is inappropriate in a specific context.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Inapt_pmi_representation
+  - type: expression
+    normative_status: preferred
+    designation: Inapt_pmi_representation
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

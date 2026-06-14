@@ -1,29 +1,30 @@
+---
 data:
   identifier: Cardinality_of_relationship_arm.Cardinality_of_relating_class
   localized_concepts:
     eng: acfe3481-4353-5c11-8676-50425d8d4c79
   domains:
-    - concept_id: section-Cardinality_of_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_arm
-      ref_type: section
+  - concept_id: section-Cardinality_of_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_arm
+    ref_type: section
 id: Cardinality_of_relationship_arm.Cardinality_of_relating_class
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the cardinality of relating class {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the cardinality of relating class {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_arm
-          version: '1'
-      type: authoritative
-      id: Cardinality_of_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cardinality_of_relationship_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cardinality_of_relating_class
+  - type: expression
+    normative_status: preferred
+    designation: Cardinality_of_relating_class
   domain: 'application module: Cardinality_of_relationship_arm'
   language_code: eng
   annotations: []

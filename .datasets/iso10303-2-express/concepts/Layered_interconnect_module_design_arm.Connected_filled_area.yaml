@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Connected_filled_area
   localized_concepts:
     eng: 2d97bffd-945f-56e5-be8b-46fe5e03a378
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Connected_filled_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_filled_area,Conductive_filled_area}} that represents the connected filled area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_filled_area,Conductive_filled_area}}
+      that represents the connected filled area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Connected_filled_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_filled_area,Conductive_filled_area}} with which a set of layer connection points are associated (as specified in the **implementation_requirement** attribute).
+  - content: A **Connected_filled_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Conductive_filled_area,Conductive_filled_area}}
+      with which a set of layer connection points are associated (as specified in
+      the **implementation_requirement** attribute).
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Connected_filled_area
+  - type: expression
+    normative_status: preferred
+    designation: Connected_filled_area
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

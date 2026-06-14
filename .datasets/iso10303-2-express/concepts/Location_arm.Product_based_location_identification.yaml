@@ -1,30 +1,33 @@
+---
 data:
   identifier: Location_arm.Product_based_location_identification
   localized_concepts:
     eng: 25409b05-36d2-5b4f-9547-b5437da032dc
   domains:
-    - concept_id: section-Location_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-      ref_type: section
+  - concept_id: section-Location_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+    ref_type: section
 id: Location_arm.Product_based_location_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} that represents the product based location identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}}
+      that represents the product based location identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_based_location_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} that specifies a location in the context of a product.
+  - content: A **Product_based_location_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}}
+      that specifies a location in the context of a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-          version: '2'
-      type: authoritative
-      id: Location_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_based_location_identification
+  - type: expression
+    normative_status: preferred
+    designation: Product_based_location_identification
   domain: 'application module: Location_arm'
   language_code: eng
   annotations: []

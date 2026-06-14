@@ -1,30 +1,36 @@
+---
 data:
   identifier: Product_as_individual_arm.Product_design_version_to_individual
   localized_concepts:
     eng: 421d8ee7-8815-57a4-afbd-b2a5e8ce5a34
   domains:
-    - concept_id: section-Product_as_individual_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-      ref_type: section
+  - concept_id: section-Product_as_individual_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+    ref_type: section
 id: Product_as_individual_arm.Product_design_version_to_individual
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product design version to individual {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product design version to individual {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_design_version_to_individual** is a relationship between a version of a product design, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}}, and the product that is planned to be made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_planned,Product_as_planned}}) or has been made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_realized,Product_as_realized}}) from the design.
+  - content: A **Product_design_version_to_individual** is a relationship between
+      a version of a product design, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}},
+      and the product that is planned to be made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_planned,Product_as_planned}})
+      or has been made ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_realized,Product_as_realized}})
+      from the design.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-          version: '5'
-      type: authoritative
-      id: Product_as_individual_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_design_version_to_individual
+  - type: expression
+    normative_status: preferred
+    designation: Product_design_version_to_individual
   domain: 'application module: Product_as_individual_arm'
   language_code: eng
   annotations: []

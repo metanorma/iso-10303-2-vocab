@@ -1,30 +1,33 @@
+---
 data:
   identifier: State_based_behaviour_mim.sbb_characterized_product_definition_formation
   localized_concepts:
     eng: e4932993-ed66-54b4-b972-2c42f0688a0f
   domains:
-    - concept_id: section-State_based_behaviour_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
-      ref_type: section
+  - concept_id: section-State_based_behaviour_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
+    ref_type: section
 id: State_based_behaviour_mim.sbb_characterized_product_definition_formation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the sbb characterized product definition formation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the sbb characterized product definition formation
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **sbb_characterized_product_definition_formation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
+  - content: A **sbb_characterized_product_definition_formation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
-          version: '2'
-      type: authoritative
-      id: State_based_behaviour_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_based_behaviour_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sbb_characterized_product_definition_formation
+  - type: expression
+    normative_status: preferred
+    designation: sbb_characterized_product_definition_formation
   domain: 'application module: State_based_behaviour_mim'
   language_code: eng
   annotations: []

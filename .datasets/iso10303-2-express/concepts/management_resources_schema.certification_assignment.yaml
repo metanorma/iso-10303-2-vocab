@@ -1,30 +1,32 @@
+---
 data:
   identifier: management_resources_schema.certification_assignment
   localized_concepts:
     eng: d767129b-c5b1-5056-bf1f-524173bce4fe
   domains:
-    - concept_id: section-management_resources_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-      ref_type: section
+  - concept_id: section-management_resources_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+    ref_type: section
 id: management_resources_schema.certification_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the certification assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the certification assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **certification_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema.certification,certification}} with product data.
+  - content: A **certification_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema.certification,certification}}
+      with product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-          version: '8'
-      type: authoritative
-      id: management_resources_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: certification_assignment
+  - type: expression
+    normative_status: preferred
+    designation: certification_assignment
   domain: 'resource: management_resources_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: System_breakdown_arm.System_element_definition
   localized_concepts:
     eng: cf854f10-1cfe-5de0-9387-b4a19b5af12b
   domains:
-    - concept_id: section-System_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
-      ref_type: section
+  - concept_id: section-System_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+    ref_type: section
 id: System_breakdown_arm.System_element_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that represents the system element definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}}
+      that represents the system element definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **System_element_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} that identifies a view of a version ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element_version,System_element_version}}) of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element,System_element}}.
+  - content: A **System_element_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}}
+      that identifies a view of a version ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element_version,System_element_version}})
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.System_element,System_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
-          version: '1'
-      type: authoritative
-      id: System_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: System_element_definition
+  - type: expression
+    normative_status: preferred
+    designation: System_element_definition
   domain: 'application module: System_breakdown_arm'
   language_code: eng
   annotations: []

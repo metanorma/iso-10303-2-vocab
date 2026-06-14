@@ -1,30 +1,34 @@
+---
 data:
   identifier: Justification_mim.justification_support_item_group_assignment
   localized_concepts:
     eng: 6c66ac33-ab09-59e6-beb7-0cb289cfc524
   domains:
-    - concept_id: section-Justification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
-      ref_type: section
+  - concept_id: section-Justification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+    ref_type: section
 id: Justification_mim.justification_support_item_group_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the justification support item group assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.group_assignment,group_assignment}}
+      that represents the justification support item group assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **justification_support_item_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that identifies the assignment of a {{justification_support_item,justification_support_item}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.justification_support_assignment,justification_support_assignment}}.
+  - content: A **justification_support_item_group_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      that identifies the assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.justification_support_item,justification_support_item}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.justification_support_assignment,justification_support_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
-          version: '2'
-      type: authoritative
-      id: Justification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: justification_support_item_group_assignment
+  - type: expression
+    normative_status: preferred
+    designation: justification_support_item_group_assignment
   domain: 'application module: Justification_mim'
   language_code: eng
   annotations: []

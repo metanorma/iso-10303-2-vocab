@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fill_area_style_arm.Externally_defined_hatch_style
   localized_concepts:
     eng: 8bf97f1d-9ded-5976-8798-6c6ed38d641a
   domains:
-    - concept_id: section-Fill_area_style_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-      ref_type: section
+  - concept_id: section-Fill_area_style_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+    ref_type: section
 id: Fill_area_style_arm.Externally_defined_hatch_style
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}} that represents the externally defined hatch style {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}}
+      that represents the externally defined hatch style {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Externally_defined_hatch_style** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}} that is defined in an external computer interpretable system.
+  - content: An **Externally_defined_hatch_style** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}}
+      that is defined in an external computer interpretable system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-          version: '3'
-      type: authoritative
-      id: Fill_area_style_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Externally_defined_hatch_style
+  - type: expression
+    normative_status: preferred
+    designation: Externally_defined_hatch_style
   domain: 'application module: Fill_area_style_arm'
   language_code: eng
   annotations: []

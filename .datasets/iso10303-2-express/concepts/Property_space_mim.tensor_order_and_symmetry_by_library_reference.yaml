@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_mim.tensor_order_and_symmetry_by_library_reference
   localized_concepts:
     eng: b234f453-276a-5f58-8ba2-4e18e7cd546d
   domains:
-    - concept_id: section-Property_space_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-      ref_type: section
+  - concept_id: section-Property_space_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+    ref_type: section
 id: Property_space_mim.tensor_order_and_symmetry_by_library_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tensor order and symmetry by library reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tensor order and symmetry by library reference
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
-          version: '1'
-      type: authoritative
-      id: Property_space_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tensor_order_and_symmetry_by_library_reference
+  - type: expression
+    normative_status: preferred
+    designation: tensor_order_and_symmetry_by_library_reference
   domain: 'application module: Property_space_mim'
   language_code: eng
   annotations: []

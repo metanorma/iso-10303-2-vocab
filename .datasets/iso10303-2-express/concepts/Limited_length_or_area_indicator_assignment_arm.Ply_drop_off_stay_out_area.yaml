@@ -1,29 +1,31 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.Ply_drop_off_stay_out_area
   localized_concepts:
     eng: cde1bf22-6db0-52be-8aaf-bdfc5e96b5bb
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.Ply_drop_off_stay_out_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the ply drop off stay out area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that represents the ply drop off stay out area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ply_drop_off_stay_out_area
+  - type: expression
+    normative_status: preferred
+    designation: Ply_drop_off_stay_out_area
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []

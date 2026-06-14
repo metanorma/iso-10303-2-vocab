@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_mim.interconnect_module_component_surface_feature
   localized_concepts:
     eng: c0a28936-26ff-5b9c-88fe-f8bf63f5999a
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+    ref_type: section
 id: Assembly_module_with_interconnect_component_mim.interconnect_module_component_surface_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim.physical_component_feature,physical_component_feature}} that represents the interconnect module component surface feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim.physical_component_feature,physical_component_feature}}
+      that represents the interconnect module component surface feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **interconnect_module_component_surface_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim.physical_component_feature,physical_component_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component_surface_feature,Interconnect_module_component_surface_feature}}.
+  - content: An **interconnect_module_component_surface_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_mim.physical_component_feature,physical_component_feature}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component_surface_feature,Interconnect_module_component_surface_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: interconnect_module_component_surface_feature
+  - type: expression
+    normative_status: preferred
+    designation: interconnect_module_component_surface_feature
   domain: 'application module: Assembly_module_with_interconnect_component_mim'
   language_code: eng
   annotations: []

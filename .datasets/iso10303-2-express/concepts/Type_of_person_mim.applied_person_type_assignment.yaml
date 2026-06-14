@@ -1,30 +1,34 @@
+---
 data:
   identifier: Type_of_person_mim.applied_person_type_assignment
   localized_concepts:
     eng: a4237d2a-cbdc-5bcc-ba15-be18cba6c46a
   domains:
-    - concept_id: section-Type_of_person_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
-      ref_type: section
+  - concept_id: section-Type_of_person_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
+    ref_type: section
 id: Type_of_person_mim.applied_person_type_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_assignment,person_type_assignment}} that represents the applied person type assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim.person_type_assignment,person_type_assignment}}
+      that represents the applied person type assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_person_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_assignment,person_type_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_type,person_type}} to instances of entity data types listed in {{person_type_item,person_type_item}}.
+  - content: An **applied_person_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_assignment,person_type_assignment}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_type,person_type}}
+      to instances of entity data types listed in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim.person_type_item,person_type_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
-          version: '1'
-      type: authoritative
-      id: Type_of_person_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_person_type_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_person_type_assignment
   domain: 'application module: Type_of_person_mim'
   language_code: eng
   annotations: []

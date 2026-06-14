@@ -1,30 +1,33 @@
+---
 data:
   identifier: Specified_product_mim.product_identification
   localized_concepts:
     eng: d712b726-9975-5318-bbf1-0cba9442128b
   domains:
-    - concept_id: section-Specified_product_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
-      ref_type: section
+  - concept_id: section-Specified_product_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
+    ref_type: section
 id: Specified_product_mim.product_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Product_specification,Product_specification}}.
+  - content: A **product_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_arm.Product_specification,Product_specification}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
-          version: '5'
-      type: authoritative
-      id: Specified_product_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specified_product_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_identification
+  - type: expression
+    normative_status: preferred
+    designation: product_identification
   domain: 'application module: Specified_product_mim'
   language_code: eng
   annotations: []

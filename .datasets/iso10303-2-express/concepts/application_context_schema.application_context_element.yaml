@@ -1,30 +1,32 @@
+---
 data:
   identifier: application_context_schema.application_context_element
   localized_concepts:
     eng: b938f623-41b2-5fca-9a64-99383d403f73
   domains:
-    - concept_id: section-application_context_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-      ref_type: section
+  - concept_id: section-application_context_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+    ref_type: section
 id: application_context_schema.application_context_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the application context element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the application context element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **application_context_element** is an aspect of an application context that contains information about the context in which product data is defined.
+  - content: An **application_context_element** is an aspect of an application context
+      that contains information about the context in which product data is defined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
-          version: '9'
-      type: authoritative
-      id: application_context_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:application_context_schema
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: application_context_element
+  - type: expression
+    normative_status: preferred
+    designation: application_context_element
   domain: 'resource: application_context_schema'
   language_code: eng
   annotations: []

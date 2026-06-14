@@ -1,29 +1,31 @@
+---
 data:
   identifier: Analysis_shape_arm.Idealized_analysis_shape
   localized_concepts:
     eng: ab7c1182-3da6-5cd6-aece-c5524fabde72
   domains:
-    - concept_id: section-Analysis_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_shape_arm
-      ref_type: section
+  - concept_id: section-Analysis_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_shape_arm
+    ref_type: section
 id: Analysis_shape_arm.Idealized_analysis_shape
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_description_association,Shape_description_association}} that represents the idealized analysis shape {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_shape_arm.Shape_description_association,Shape_description_association}}
+      that represents the idealized analysis shape {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_shape_arm
-          version: '2'
-      type: authoritative
-      id: Analysis_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Idealized_analysis_shape
+  - type: expression
+    normative_status: preferred
+    designation: Idealized_analysis_shape
   domain: 'application module: Analysis_shape_arm'
   language_code: eng
   annotations: []

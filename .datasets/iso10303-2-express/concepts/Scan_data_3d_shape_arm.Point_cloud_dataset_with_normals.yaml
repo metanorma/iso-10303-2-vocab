@@ -1,30 +1,33 @@
+---
 data:
   identifier: Scan_data_3d_shape_arm.Point_cloud_dataset_with_normals
   localized_concepts:
     eng: e4b05862-83ea-5e85-8d4c-2b6c43ed8b16
   domains:
-    - concept_id: section-Scan_data_3d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
-      ref_type: section
+  - concept_id: section-Scan_data_3d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+    ref_type: section
 id: Scan_data_3d_shape_arm.Point_cloud_dataset_with_normals
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Point_cloud_dataset,Point_cloud_dataset}} that represents the point cloud dataset with normals {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Point_cloud_dataset,Point_cloud_dataset}}
+      that represents the point cloud dataset with normals {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Point_cloud_dataset_with_normals** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Point_cloud_dataset,Point_cloud_dataset}} which has a normal defined at each point of the dataset.
+  - content: A **Point_cloud_dataset_with_normals** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Point_cloud_dataset,Point_cloud_dataset}}
+      which has a normal defined at each point of the dataset.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Scan_data_3d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Point_cloud_dataset_with_normals
+  - type: expression
+    normative_status: preferred
+    designation: Point_cloud_dataset_with_normals
   domain: 'application module: Scan_data_3d_shape_arm'
   language_code: eng
   annotations: []

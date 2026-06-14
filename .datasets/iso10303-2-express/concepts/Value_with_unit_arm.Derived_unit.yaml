@@ -1,30 +1,33 @@
+---
 data:
   identifier: Value_with_unit_arm.Derived_unit
   localized_concepts:
     eng: 3cd70bb1-0dae-5f22-a319-cdba18005a9c
   domains:
-    - concept_id: section-Value_with_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+    ref_type: section
 id: Value_with_unit_arm.Derived_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the derived unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that represents the derived unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Derived_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that is defined by an expression of other units.
+  - content: A **Derived_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that is defined by an expression of other units.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Derived_unit
+  - type: expression
+    normative_status: preferred
+    designation: Derived_unit
   domain: 'application module: Value_with_unit_arm'
   language_code: eng
   annotations: []

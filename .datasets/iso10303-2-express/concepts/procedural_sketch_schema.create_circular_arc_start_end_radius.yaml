@@ -1,30 +1,33 @@
+---
 data:
   identifier: procedural_sketch_schema.create_circular_arc_start_end_radius
   localized_concepts:
     eng: f7849ca6-6534-55e9-b471-39a1674519f8
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.create_circular_arc_start_end_radius
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circular_arc,create_circular_arc}} that represents the create circular arc start end radius {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circular_arc,create_circular_arc}}
+      that represents the create circular arc start end radius {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *create_circular_arc_start_end_radius* creates a circular arc in terms of a start point, an end point and a radius.
+  - content: A *create_circular_arc_start_end_radius* creates a circular arc in terms
+      of a start point, an end point and a radius.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: create_circular_arc_start_end_radius
+  - type: expression
+    normative_status: preferred
+    designation: create_circular_arc_start_end_radius
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Draughting_annotation_arm.Dimension_curve_terminator
   localized_concepts:
     eng: 2dc741f8-ef4d-5386-bcac-d4c3b031fc8c
   domains:
-    - concept_id: section-Draughting_annotation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
-      ref_type: section
+  - concept_id: section-Draughting_annotation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+    ref_type: section
 id: Draughting_annotation_arm.Dimension_curve_terminator
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm.Terminator_symbol,Terminator_symbol}} that represents the dimension curve terminator {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm.Terminator_symbol,Terminator_symbol}}
+      that represents the dimension curve terminator {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_annotation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dimension_curve_terminator
+  - type: expression
+    normative_status: preferred
+    designation: Dimension_curve_terminator
   domain: 'application module: Draughting_annotation_arm'
   language_code: eng
   annotations: []

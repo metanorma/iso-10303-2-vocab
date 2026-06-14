@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_tolerance_schema.flatness_tolerance
   localized_concepts:
     eng: b1c79dcb-dfc4-5996-91b3-2360a3506841
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.flatness_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}} that represents the flatness tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.geometric_tolerance,geometric_tolerance}}
+      that represents the flatness tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: flatness_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: flatness_tolerance
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

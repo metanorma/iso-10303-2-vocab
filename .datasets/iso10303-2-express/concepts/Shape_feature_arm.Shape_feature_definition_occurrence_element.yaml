@@ -1,30 +1,34 @@
+---
 data:
   identifier: Shape_feature_arm.Shape_feature_definition_occurrence_element
   localized_concepts:
     eng: 64763add-01ef-580f-9c6f-8b77c0a88555
   domains:
-    - concept_id: section-Shape_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
-      ref_type: section
+  - concept_id: section-Shape_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+    ref_type: section
 id: Shape_feature_arm.Shape_feature_definition_occurrence_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}} that represents the shape feature definition occurrence element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}}
+      that represents the shape feature definition occurrence element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Shape_feature_definition_occurrence_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}} that is defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}}.
+  - content: A **Shape_feature_definition_occurrence_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}}
+      that is defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition,Shape_feature_definition}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm.Shape_feature_definition_element,Shape_feature_definition_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
-          version: '5'
-      type: authoritative
-      id: Shape_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Shape_feature_definition_occurrence_element
+  - type: expression
+    normative_status: preferred
+    designation: Shape_feature_definition_occurrence_element
   domain: 'application module: Shape_feature_arm'
   language_code: eng
   annotations: []

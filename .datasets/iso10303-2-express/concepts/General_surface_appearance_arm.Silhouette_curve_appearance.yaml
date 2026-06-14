@@ -1,29 +1,31 @@
+---
 data:
   identifier: General_surface_appearance_arm.Silhouette_curve_appearance
   localized_concepts:
     eng: 379f96f9-1b0c-56b1-b73b-654b8c8f56c9
   domains:
-    - concept_id: section-General_surface_appearance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
-      ref_type: section
+  - concept_id: section-General_surface_appearance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+    ref_type: section
 id: General_surface_appearance_arm.Silhouette_curve_appearance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_related_curve_appearance,Surface_related_curve_appearance}} that represents the silhouette curve appearance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm.Surface_related_curve_appearance,Surface_related_curve_appearance}}
+      that represents the silhouette curve appearance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
-          version: '3'
-      type: authoritative
-      id: General_surface_appearance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_surface_appearance_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Silhouette_curve_appearance
+  - type: expression
+    normative_status: preferred
+    designation: Silhouette_curve_appearance
   domain: 'application module: General_surface_appearance_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_feature_relationship_arm.Free_kinematic_motion_representation
   localized_concepts:
     eng: 525e1f2f-dee1-5469-b883-524151f1640a
   domains:
-    - concept_id: section-Assembly_feature_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-      ref_type: section
+  - concept_id: section-Assembly_feature_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+    ref_type: section
 id: Assembly_feature_relationship_arm.Free_kinematic_motion_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}} that represents the free kinematic motion representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}}
+      that represents the free kinematic motion representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Free_kinematic_motion_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}} that represents the free kinematic motion in three dimensional space of an assembly feature with respect to another assembly feature.
+  - content: A **Free_kinematic_motion_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model_relationship_with_transformation,Geometric_model_relationship_with_transformation}}
+      that represents the free kinematic motion in three dimensional space of an assembly
+      feature with respect to another assembly feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_feature_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Free_kinematic_motion_representation
+  - type: expression
+    normative_status: preferred
+    designation: Free_kinematic_motion_representation
   domain: 'application module: Assembly_feature_relationship_arm'
   language_code: eng
   annotations: []

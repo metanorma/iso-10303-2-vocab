@@ -1,30 +1,35 @@
+---
 data:
   identifier: structural_response_representation_schema.aligned_surface_3d_element_coordinate_system
   localized_concepts:
     eng: d19ebcf0-fd4a-556d-8755-087906aa301f
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.aligned_surface_3d_element_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}} that represents the aligned surface 3d element coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}}
+      that represents the aligned surface 3d element coordinate system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.aligned_surface_3d_element_coordinate_system,aligned_surface_3d_element_coordinate_system}} is an aligned orthogonalcoordinate system for a surface 3D element that is derived from the local orthogonal triad of the specified arbitrary coordinate systemand the normal to the surface of an element.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.aligned_surface_3d_element_coordinate_system,aligned_surface_3d_element_coordinate_system}}
+      is an aligned orthogonalcoordinate system for a surface 3D element that is derived
+      from the local orthogonal triad of the specified arbitrary coordinate systemand
+      the normal to the surface of an element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: aligned_surface_3d_element_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: aligned_surface_3d_element_coordinate_system
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

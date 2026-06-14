@@ -1,32 +1,35 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_non_manifold_at_triangle_edge
   localized_concepts:
     eng: 22953b5d-817f-5897-977d-491da62f6248
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_non_manifold_at_triangle_edge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the tsdq positive length measure for non manifold at triangle edge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the tsdq positive length measure for non manifold at triangle
+      edge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **tsdq_positive_length_measure_for_non_manifold_at_triangle_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.approximation_tolerance,approximation_tolerance}}
-        for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.non_manifold_at_triangle_edge,non_manifold_at_triangle_edge}}.
+  - content: |-
+      A **tsdq_positive_length_measure_for_non_manifold_at_triangle_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.non_manifold_at_triangle_edge.approximation_tolerance,approximation_tolerance}}
+      for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.non_manifold_at_triangle_edge,non_manifold_at_triangle_edge}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tsdq_positive_length_measure_for_non_manifold_at_triangle_edge
+  - type: expression
+    normative_status: preferred
+    designation: tsdq_positive_length_measure_for_non_manifold_at_triangle_edge
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

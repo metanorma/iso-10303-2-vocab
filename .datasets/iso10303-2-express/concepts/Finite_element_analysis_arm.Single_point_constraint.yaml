@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Single_point_constraint
   localized_concepts:
     eng: 908fc999-963a-54ba-867d-ad99c8f6c761
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Single_point_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that represents the single point constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}}
+      that represents the single point constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Single_point_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}} that constrains for one or more degrees of freedom at a single node.
+  - content: A **Single_point_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Constraint,Constraint}}
+      that constrains for one or more degrees of freedom at a single node.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Single_point_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Single_point_constraint
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

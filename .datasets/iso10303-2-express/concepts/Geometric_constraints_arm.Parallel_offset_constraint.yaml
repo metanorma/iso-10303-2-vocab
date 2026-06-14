@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_constraints_arm.Parallel_offset_constraint
   localized_concepts:
     eng: 90ce8037-21e8-52d1-910b-98973dcf6829
   domains:
-    - concept_id: section-Geometric_constraints_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-      ref_type: section
+  - concept_id: section-Geometric_constraints_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+    ref_type: section
 id: Geometric_constraints_arm.Parallel_offset_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that represents the parallel offset constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that represents the parallel offset constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Parallel_offset_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that constrains a set of curves or a set of surfaces to be parallel offsets of each other.
+  - content: A **Parallel_offset_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that constrains a set of curves or a set of surfaces to be parallel offsets
+      of each other.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-          version: '2'
-      type: authoritative
-      id: Geometric_constraints_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Parallel_offset_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Parallel_offset_constraint
   domain: 'application module: Geometric_constraints_arm'
   language_code: eng
   annotations: []

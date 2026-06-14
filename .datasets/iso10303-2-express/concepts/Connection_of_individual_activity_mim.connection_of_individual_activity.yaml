@@ -1,29 +1,31 @@
+---
 data:
   identifier: Connection_of_individual_activity_mim.connection_of_individual_activity
   localized_concepts:
     eng: 4a010b37-58da-530c-aab7-7cddf300b63b
   domains:
-    - concept_id: section-Connection_of_individual_activity_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_activity_mim
-      ref_type: section
+  - concept_id: section-Connection_of_individual_activity_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_activity_mim
+    ref_type: section
 id: Connection_of_individual_activity_mim.connection_of_individual_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that represents the connection of individual activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_activity_mim.action_relationship,action_relationship}}
+      that represents the connection of individual activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_activity_mim
-          version: '1'
-      type: authoritative
-      id: Connection_of_individual_activity_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Connection_of_individual_activity_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: connection_of_individual_activity
+  - type: expression
+    normative_status: preferred
+    designation: connection_of_individual_activity
   domain: 'application module: Connection_of_individual_activity_mim'
   language_code: eng
   annotations: []

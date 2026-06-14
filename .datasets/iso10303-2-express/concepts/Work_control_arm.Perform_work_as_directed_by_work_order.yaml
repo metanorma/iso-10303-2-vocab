@@ -1,30 +1,34 @@
+---
 data:
   identifier: Work_control_arm.Perform_work_as_directed_by_work_order
   localized_concepts:
     eng: 60be8c33-fc3d-5fdd-a9d0-dcc385b49f8b
   domains:
-    - concept_id: section-Work_control_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
-      ref_type: section
+  - concept_id: section-Work_control_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+    ref_type: section
 id: Work_control_arm.Perform_work_as_directed_by_work_order
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the perform work as directed by work order {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the perform work as directed by work order {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Perform_work_as_directed_by_work_order** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that is the performance of the activity specified by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Work_order_document,Work_order_document}} and according to the requirements specified by any number of instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Control_document,Control_document}}.
+  - content: A **Perform_work_as_directed_by_work_order** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_order_arm.Directed_activity,Directed_activity}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}}
+      that is the performance of the activity specified by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Work_order_document,Work_order_document}}
+      and according to the requirements specified by any number of instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm.Control_document,Control_document}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
-          version: '1'
-      type: authoritative
-      id: Work_control_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_control_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Perform_work_as_directed_by_work_order
+  - type: expression
+    normative_status: preferred
+    designation: Perform_work_as_directed_by_work_order
   domain: 'application module: Work_control_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: mathematical_functions_schema.maths_variable
   localized_concepts:
     eng: 5a2c0bf9-5a5e-55a2-b0c9-cd2f5e840eef
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.maths_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_variable,generic_variable}} that represents the maths variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.generic_variable,generic_variable}}
+      that represents the maths variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_variable,generic_variable}} represents a variable ranging over a given mathematical space of values.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.generic_variable,generic_variable}}
+      represents a variable ranging over a given mathematical space of values.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: maths_variable
+  - type: expression
+    normative_status: preferred
+    designation: maths_variable
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

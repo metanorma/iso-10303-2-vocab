@@ -1,30 +1,33 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.overcomplex_geometry
   localized_concepts:
     eng: a8ca1705-c182-57c4-8513-ec10d70b7ea7
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.overcomplex_geometry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}} that represents the overcomplex geometry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}}
+      that represents the overcomplex geometry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **overcomplex_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}} and is a supertype of criteria for detecting overcomplex geometry data.
+  - content: An **overcomplex_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.inapt_geometry,inapt_geometry}}
+      and is a supertype of criteria for detecting overcomplex geometry data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: overcomplex_geometry
+  - type: expression
+    normative_status: preferred
+    designation: overcomplex_geometry
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

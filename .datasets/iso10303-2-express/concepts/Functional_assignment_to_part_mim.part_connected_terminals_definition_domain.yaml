@@ -1,29 +1,31 @@
+---
 data:
   identifier: Functional_assignment_to_part_mim.part_connected_terminals_definition_domain
   localized_concepts:
     eng: 39fad0c1-9813-5ff2-b3e3-aff3e9dcd64f
   domains:
-    - concept_id: section-Functional_assignment_to_part_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+    ref_type: section
 id: Functional_assignment_to_part_mim.part_connected_terminals_definition_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the part connected terminals definition domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim.shape_aspect,shape_aspect}}
+      that represents the part connected terminals definition domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: part_connected_terminals_definition_domain
+  - type: expression
+    normative_status: preferred
+    designation: part_connected_terminals_definition_domain
   domain: 'application module: Functional_assignment_to_part_mim'
   language_code: eng
   annotations: []

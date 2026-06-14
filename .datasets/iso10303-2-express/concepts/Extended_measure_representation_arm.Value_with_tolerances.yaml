@@ -1,30 +1,34 @@
+---
 data:
   identifier: Extended_measure_representation_arm.Value_with_tolerances
   localized_concepts:
     eng: ffefa4aa-783f-5b80-b366-5332d7342245
   domains:
-    - concept_id: section-Extended_measure_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
-      ref_type: section
+  - concept_id: section-Extended_measure_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
+    ref_type: section
 id: Extended_measure_representation_arm.Value_with_tolerances
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}} that represents the value with tolerances {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm.Measure_item,Measure_item}}
+      that represents the value with tolerances {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Value_with_tolerances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}} that specifies a range of values by specifying a single nominal value and two tolerances that are offsets from the single value.
+  - content: A **Value_with_tolerances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Measure_item,Measure_item}}
+      that specifies a range of values by specifying a single nominal value and two
+      tolerances that are offsets from the single value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
-          version: '4'
-      type: authoritative
-      id: Extended_measure_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_measure_representation_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Value_with_tolerances
+  - type: expression
+    normative_status: preferred
+    designation: Value_with_tolerances
   domain: 'application module: Extended_measure_representation_arm'
   language_code: eng
   annotations: []

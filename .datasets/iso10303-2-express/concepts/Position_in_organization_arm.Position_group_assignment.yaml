@@ -1,30 +1,32 @@
+---
 data:
   identifier: Position_in_organization_arm.Position_group_assignment
   localized_concepts:
     eng: 41d348bb-cc94-59ea-9fc6-619b58d531cb
   domains:
-    - concept_id: section-Position_in_organization_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-      ref_type: section
+  - concept_id: section-Position_in_organization_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+    ref_type: section
 id: Position_in_organization_arm.Position_group_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position group assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the position group assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Position_group_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position_group,Position_group}} with activity or product data.
+  - content: A **Position_group_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position_group,Position_group}}
+      with activity or product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-          version: '1'
-      type: authoritative
-      id: Position_in_organization_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Position_group_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Position_group_assignment
   domain: 'application module: Position_in_organization_arm'
   language_code: eng
   annotations: []

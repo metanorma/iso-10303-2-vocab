@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_connectivity_layout_topology_requirement_mim.physical_connectivity_layout_topology_link
   localized_concepts:
     eng: c265f294-e134-5879-ac6b-80eb8d1c52cb
   domains:
-    - concept_id: section-Physical_connectivity_layout_topology_requirement_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
-      ref_type: section
+  - concept_id: section-Physical_connectivity_layout_topology_requirement_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
+    ref_type: section
 id: Physical_connectivity_layout_topology_requirement_mim.physical_connectivity_layout_topology_link
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that represents the physical connectivity layout topology link {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim.group_relationship,group_relationship}}
+      that represents the physical connectivity layout topology link {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_connectivity_layout_topology_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_link,Physical_connectivity_layout_topology_link}}.
+  - content: A **physical_connectivity_layout_topology_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group_relationship,group_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_link,Physical_connectivity_layout_topology_link}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
-          version: '1'
-      type: authoritative
-      id: Physical_connectivity_layout_topology_requirement_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_connectivity_layout_topology_link
+  - type: expression
+    normative_status: preferred
+    designation: physical_connectivity_layout_topology_link
   domain: 'application module: Physical_connectivity_layout_topology_requirement_mim'
   language_code: eng
   annotations: []

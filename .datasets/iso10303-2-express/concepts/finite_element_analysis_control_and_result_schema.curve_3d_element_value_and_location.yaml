@@ -1,30 +1,32 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.curve_3d_element_value_and_location
   localized_concepts:
     eng: 511ae3bd-f0e9-52ab-8846-7d09f1bbf168
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.curve_3d_element_value_and_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve 3d element value and location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the curve 3d element value and location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_3d_element_value_and_location,curve_3d_element_value_and_location}} is a value of a variable along the 1D field of a curve 3D element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.curve_3d_element_value_and_location,curve_3d_element_value_and_location}}
+      is a value of a variable along the 1D field of a curve 3D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_3d_element_value_and_location
+  - type: expression
+    normative_status: preferred
+    designation: curve_3d_element_value_and_location
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

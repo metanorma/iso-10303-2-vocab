@@ -1,30 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.abs_function
   localized_concepts:
     eng: 74c1a5e4-08a6-5145-b0e0-6373aae96860
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.abs_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_function_call,unary_function_call}} that represents the abs function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_function_call,unary_function_call}}
+      that represents the abs function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The *abs_function* entity carries the semantics of the 'ABS' function, defined in ISO 10303-11, on NUMBER data type, defined in ISO 10303-11.
+  - content: The *abs_function* entity carries the semantics of the 'ABS' function,
+      defined in ISO 10303-11, on NUMBER data type, defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: abs_function
+  - type: expression
+    normative_status: preferred
+    designation: abs_function
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

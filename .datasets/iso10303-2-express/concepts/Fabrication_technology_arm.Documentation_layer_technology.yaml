@@ -1,31 +1,35 @@
+---
 data:
   identifier: Fabrication_technology_arm.Documentation_layer_technology
   localized_concepts:
-    eng: 0491ade3-f515-5586-bb45-fd6fe9463f68
+    eng: '0491ade3-f515-5586-bb45-fd6fe9463f68'
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Documentation_layer_technology
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}} that represents the documentation layer technology {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}}
+      that represents the documentation layer technology {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Documentation_layer_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}} that may have patterns applied and whose purpose is not for directly implementing point to point connectivity as in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Design_layer_technology,Design_layer_technology}}.
+  - content: A **Documentation_layer_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}}
+      that may have patterns applied and whose purpose is not for directly implementing
+      point to point connectivity as in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Design_layer_technology,Design_layer_technology}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Documentation_layer_technology
+  - type: expression
+    normative_status: preferred
+    designation: Documentation_layer_technology
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []
-id: 0491ade3-f515-5586-bb45-fd6fe9463f68
+id: '0491ade3-f515-5586-bb45-fd6fe9463f68'

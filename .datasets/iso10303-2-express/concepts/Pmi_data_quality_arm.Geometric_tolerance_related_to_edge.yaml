@@ -1,29 +1,31 @@
+---
 data:
   identifier: Pmi_data_quality_arm.Geometric_tolerance_related_to_edge
   localized_concepts:
     eng: 9f723ecd-482e-5f93-abbd-b09ba458470b
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.Geometric_tolerance_related_to_edge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Inapt_relation_of_pmi_and_feature,Inapt_relation_of_pmi_and_feature}} that represents the geometric tolerance related to edge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Inapt_relation_of_pmi_and_feature,Inapt_relation_of_pmi_and_feature}}
+      that represents the geometric tolerance related to edge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_tolerance_related_to_edge
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_tolerance_related_to_edge
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

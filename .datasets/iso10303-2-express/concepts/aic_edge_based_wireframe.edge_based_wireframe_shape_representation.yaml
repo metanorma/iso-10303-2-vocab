@@ -1,34 +1,36 @@
+---
 data:
   identifier: aic_edge_based_wireframe.edge_based_wireframe_shape_representation
   localized_concepts:
     eng: eb49b41c-38d8-5a11-af02-fc0281ac8b39
   domains:
-    - concept_id: section-aic_edge_based_wireframe
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_edge_based_wireframe
-      ref_type: section
+  - concept_id: section-aic_edge_based_wireframe
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_edge_based_wireframe
+    ref_type: section
 id: aic_edge_based_wireframe.edge_based_wireframe_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the edge based wireframe shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_edge_based_wireframe.shape_representation,shape_representation}}
+      that represents the edge based wireframe shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An *edge_based_wireframe_shape_representation* is a three-dimensional
-        *shape_representation* that represents the shape, or a portion of
-        the shape, of a *product* by wireframes that are trimmed by edge
-        topology.
+  - content: |-
+      An *edge_based_wireframe_shape_representation* is a three-dimensional
+      *shape_representation* that represents the shape, or a portion of
+      the shape, of a *product* by wireframes that are trimmed by edge
+      topology.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_edge_based_wireframe
-          version: '1'
-      type: authoritative
-      id: aic_edge_based_wireframe
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_edge_based_wireframe
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: edge_based_wireframe_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: edge_based_wireframe_shape_representation
   domain: 'resource: aic_edge_based_wireframe'
   language_code: eng
   annotations: []

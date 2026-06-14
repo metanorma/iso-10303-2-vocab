@@ -1,30 +1,32 @@
+---
 data:
   identifier: Product_data_equivalence_definition_arm.Data_equivalence_definition
   localized_concepts:
     eng: d2f078f1-73e9-5add-bbb8-fc3144e6c8e2
   domains:
-    - concept_id: section-Product_data_equivalence_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
-      ref_type: section
+  - concept_id: section-Product_data_equivalence_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
+    ref_type: section
 id: Product_data_equivalence_definition_arm.Data_equivalence_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data equivalence definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the data equivalence definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Data_equivalence_definition** is a set of information, including criteria and inspection results, in the domain of product data equivalence.
+  - content: A **Data_equivalence_definition** is a set of information, including
+      criteria and inspection results, in the domain of product data equivalence.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
-          version: '1'
-      type: authoritative
-      id: Product_data_equivalence_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_equivalence_definition_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Data_equivalence_definition
+  - type: expression
+    normative_status: preferred
+    designation: Data_equivalence_definition
   domain: 'application module: Product_data_equivalence_definition_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Requirement_decomposition_arm.Constraint_occurrence
   localized_concepts:
     eng: c80cc028-6202-59df-bf5f-221d71f4a783
   domains:
-    - concept_id: section-Requirement_decomposition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
-      ref_type: section
+  - concept_id: section-Requirement_decomposition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+    ref_type: section
 id: Requirement_decomposition_arm.Constraint_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the constraint occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the constraint occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Constraint_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that limits possible solutions to the requirements specification by identifying boundary conditions for any potential solution.
+  - content: A **Constraint_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that limits possible solutions to the requirements specification by identifying
+      boundary conditions for any potential solution.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
-          version: '4'
-      type: authoritative
-      id: Requirement_decomposition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Constraint_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: Constraint_occurrence
   domain: 'application module: Requirement_decomposition_arm'
   language_code: eng
   annotations: []

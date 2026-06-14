@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fabrication_technology_mim.passage_technology
   localized_concepts:
     eng: 436d2d47-897a-584c-8453-e6b547a3032e
   domains:
-    - concept_id: section-Fabrication_technology_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-      ref_type: section
+  - concept_id: section-Fabrication_technology_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+    ref_type: section
 id: Fabrication_technology_mim.passage_technology
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the passage technology {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the passage technology {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **passage_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}}.
+  - content: A **passage_technology** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.product_definition_shape,product_definition_shape}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Passage_technology,Passage_technology}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: passage_technology
+  - type: expression
+    normative_status: preferred
+    designation: passage_technology
   domain: 'application module: Fabrication_technology_mim'
   language_code: eng
   annotations: []

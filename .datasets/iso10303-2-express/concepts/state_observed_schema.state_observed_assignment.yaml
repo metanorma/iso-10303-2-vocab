@@ -1,30 +1,32 @@
+---
 data:
   identifier: state_observed_schema.state_observed_assignment
   localized_concepts:
     eng: ecd113f5-6452-5c71-b7d6-543b12b0a2fb
   domains:
-    - concept_id: section-state_observed_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-      ref_type: section
+  - concept_id: section-state_observed_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+    ref_type: section
 id: state_observed_schema.state_observed_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state observed assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state observed assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **state_observed_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}} with product or activity data.
+  - content: A **state_observed_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}}
+      with product or activity data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-          version: '3'
-      type: authoritative
-      id: state_observed_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: state_observed_assignment
+  - type: expression
+    normative_status: preferred
+    designation: state_observed_assignment
   domain: 'resource: state_observed_schema'
   language_code: eng
   annotations: []

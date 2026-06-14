@@ -1,30 +1,33 @@
+---
 data:
   identifier: Requirement_management_arm.Representation_proxy_item
   localized_concepts:
     eng: 79dbd869-0588-5b2f-994e-cfc5ad5a1583
   domains:
-    - concept_id: section-Requirement_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_management_arm
-      ref_type: section
+  - concept_id: section-Requirement_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_management_arm
+    ref_type: section
 id: Requirement_management_arm.Representation_proxy_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the representation proxy item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_management_arm.Representation_item,Representation_item}}
+      that represents the representation proxy item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Representation_proxy_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that allows other constructs in the modules to act as representation items.
+  - content: A **Representation_proxy_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      that allows other constructs in the modules to act as representation items.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_management_arm
-          version: '6'
-      type: authoritative
-      id: Requirement_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_management_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Representation_proxy_item
+  - type: expression
+    normative_status: preferred
+    designation: Representation_proxy_item
   domain: 'application module: Requirement_management_arm'
   language_code: eng
   annotations: []

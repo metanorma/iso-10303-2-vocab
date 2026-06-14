@@ -1,30 +1,33 @@
+---
 data:
   identifier: equations_schema.mbna_behaviour_model
   localized_concepts:
     eng: 98b4e11f-49fb-5d2f-a62a-0cae6fabb81b
   domains:
-    - concept_id: section-equations_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-      ref_type: section
+  - concept_id: section-equations_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+    ref_type: section
 id: equations_schema.mbna_behaviour_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation,mbna_equation}} that represents the mbna behaviour model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation,mbna_equation}}
+      that represents the mbna behaviour model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_behaviour_model* is a model for relating physical or mathematical quantities.
+  - content: An *mbna_behaviour_model* is a model for relating physical or mathematical
+      quantities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-          version: '1'
-      type: authoritative
-      id: equations_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_behaviour_model
+  - type: expression
+    normative_status: preferred
+    designation: mbna_behaviour_model
   domain: 'resource: equations_schema'
   language_code: eng
   annotations: []

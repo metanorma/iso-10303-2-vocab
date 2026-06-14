@@ -1,30 +1,35 @@
+---
 data:
   identifier: Solid_with_local_modification_arm.Solid_with_groove
   localized_concepts:
     eng: a42560fb-0268-5299-95ee-4ea705ad4080
   domains:
-    - concept_id: section-Solid_with_local_modification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-      ref_type: section
+  - concept_id: section-Solid_with_local_modification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+    ref_type: section
 id: Solid_with_local_modification_arm.Solid_with_groove
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}} that represents the solid with groove {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}}
+      that represents the solid with groove {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Solid_with_groove** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}} that results from the creation of a depression extending around a surface of revolution in such a way that its cross-sections are constant in any plane containing the axis of that surface.
+  - content: A **Solid_with_groove** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}}
+      that results from the creation of a depression extending around a surface of
+      revolution in such a way that its cross-sections are constant in any plane containing
+      the axis of that surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-          version: '3'
-      type: authoritative
-      id: Solid_with_local_modification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Solid_with_groove
+  - type: expression
+    normative_status: preferred
+    designation: Solid_with_groove
   domain: 'application module: Solid_with_local_modification_arm'
   language_code: eng
   annotations: []

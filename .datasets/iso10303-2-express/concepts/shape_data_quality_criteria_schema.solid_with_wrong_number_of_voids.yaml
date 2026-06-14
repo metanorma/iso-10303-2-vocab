@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.solid_with_wrong_number_of_voids
   localized_concepts:
     eng: 8e87f6c4-b93e-56b7-befc-07c68030b5a2
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.solid_with_wrong_number_of_voids
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.erroneous_manifold_solid_brep,erroneous_manifold_solid_brep}} that represents the solid with wrong number of voids {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.erroneous_manifold_solid_brep,erroneous_manifold_solid_brep}}
+      that represents the solid with wrong number of voids {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_wrong_number_of_voids
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_wrong_number_of_voids
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

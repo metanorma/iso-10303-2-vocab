@@ -1,30 +1,34 @@
+---
 data:
   identifier: Default_setting_association_arm.Default_edge_round
   localized_concepts:
     eng: d4a5ec85-1c3f-58b3-bd20-86b09b871b87
   domains:
-    - concept_id: section-Default_setting_association_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
-      ref_type: section
+  - concept_id: section-Default_setting_association_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+    ref_type: section
 id: Default_setting_association_arm.Default_edge_round
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm.Default_shape_property,Default_shape_property}} that represents the default edge round {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm.Default_shape_property,Default_shape_property}}
+      that represents the default edge round {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Default_edge_round** is a type of {{Default_setting_association_arm,Default_setting_association_arm}} for the definition of an edge round that shall be applied to any non-tangent continuous, convex edge of a shape where no other edge round or chamfer is specified.
+  - content: A **Default_edge_round** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm,Default_setting_association_arm}}
+      for the definition of an edge round that shall be applied to any non-tangent
+      continuous, convex edge of a shape where no other edge round or chamfer is specified.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
-          version: '2'
-      type: authoritative
-      id: Default_setting_association_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_setting_association_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Default_edge_round
+  - type: expression
+    normative_status: preferred
+    designation: Default_edge_round
   domain: 'application module: Default_setting_association_arm'
   language_code: eng
   annotations: []

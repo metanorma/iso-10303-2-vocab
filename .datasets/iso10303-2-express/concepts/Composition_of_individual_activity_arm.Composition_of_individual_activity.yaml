@@ -1,29 +1,31 @@
+---
 data:
   identifier: Composition_of_individual_activity_arm.Composition_of_individual_activity
   localized_concepts:
     eng: 3c2d8268-a74a-59c5-b09e-676248916705
   domains:
-    - concept_id: section-Composition_of_individual_activity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composition_of_individual_activity_arm
-      ref_type: section
+  - concept_id: section-Composition_of_individual_activity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composition_of_individual_activity_arm
+    ref_type: section
 id: Composition_of_individual_activity_arm.Composition_of_individual_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity_relationship,Activity_relationship}} that represents the composition of individual activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composition_of_individual_activity_arm.Activity_relationship,Activity_relationship}}
+      that represents the composition of individual activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composition_of_individual_activity_arm
-          version: '1'
-      type: authoritative
-      id: Composition_of_individual_activity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composition_of_individual_activity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Composition_of_individual_activity
+  - type: expression
+    normative_status: preferred
+    designation: Composition_of_individual_activity
   domain: 'application module: Composition_of_individual_activity_arm'
   language_code: eng
   annotations: []

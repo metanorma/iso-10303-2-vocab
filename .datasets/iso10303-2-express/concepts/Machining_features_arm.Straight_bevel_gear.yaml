@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Straight_bevel_gear
   localized_concepts:
     eng: d1fae11c-d049-5fb0-b001-89e878dc225d
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Straight_bevel_gear
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Bevel_gear,Bevel_gear}} that represents the straight bevel gear {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Bevel_gear,Bevel_gear}}
+      that represents the straight bevel gear {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Straight_bevel_gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Bevel_gear,Bevel_gear}} that have straight tooth elements, which if extended, would pass through the point of intersection of their axes.
+  - content: A **Straight_bevel_gear** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Bevel_gear,Bevel_gear}}
+      that have straight tooth elements, which if extended, would pass through the
+      point of intersection of their axes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Straight_bevel_gear
+  - type: expression
+    normative_status: preferred
+    designation: Straight_bevel_gear
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

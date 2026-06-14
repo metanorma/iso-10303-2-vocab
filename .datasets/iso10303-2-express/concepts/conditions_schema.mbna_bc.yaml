@@ -1,30 +1,33 @@
+---
 data:
   identifier: conditions_schema.mbna_bc
   localized_concepts:
     eng: dd80ef87-d418-5033-b15a-433453c3190b
   domains:
-    - concept_id: section-conditions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
-      ref_type: section
+  - concept_id: section-conditions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+    ref_type: section
 id: conditions_schema.mbna_bc
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_condition,mbna_condition}} that represents the mbna bc {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema.mbna_condition,mbna_condition}}
+      that represents the mbna bc {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_bc* is boundary-condition information for a single BC surface patch of a zone.
+  - content: An *mbna_bc* is boundary-condition information for a single BC surface
+      patch of a zone.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
-          version: '1'
-      type: authoritative
-      id: conditions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:conditions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_bc
+  - type: expression
+    normative_status: preferred
+    designation: mbna_bc
   domain: 'resource: conditions_schema'
   language_code: eng
   annotations: []

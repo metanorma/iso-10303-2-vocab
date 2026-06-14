@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_organization_schema.light_source
   localized_concepts:
     eng: a6f6b19e-f690-5ce4-9cb7-b0d345fdb229
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.light_source
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the light source {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the light source {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: light_source
+  - type: expression
+    normative_status: preferred
+    designation: light_source
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

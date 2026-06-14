@@ -1,30 +1,32 @@
+---
 data:
   identifier: Foundation_representation_arm.Representation_relationship
   localized_concepts:
     eng: bd953b1b-6aee-5a4b-97ec-94e77daa2160
   domains:
-    - concept_id: section-Foundation_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-      ref_type: section
+  - concept_id: section-Foundation_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+    ref_type: section
 id: Foundation_representation_arm.Representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the representation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Representation_relationship** is an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}.
+  - content: A **Representation_relationship** is an association between two instances
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-          version: '6'
-      type: authoritative
-      id: Foundation_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Representation_relationship
   domain: 'application module: Foundation_representation_arm'
   language_code: eng
   annotations: []

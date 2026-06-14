@@ -1,31 +1,34 @@
+---
 data:
   identifier: Solid_with_local_modification_arm.Solid_with_stepped_round_hole
   localized_concepts:
-    eng: 09ff44fb-3331-50a4-901a-2a7298ee4825
+    eng: '09ff44fb-3331-50a4-901a-2a7298ee4825'
   domains:
-    - concept_id: section-Solid_with_local_modification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-      ref_type: section
+  - concept_id: section-Solid_with_local_modification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+    ref_type: section
 id: Solid_with_local_modification_arm.Solid_with_stepped_round_hole
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}} that represents the solid with stepped round hole {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}}
+      that represents the solid with stepped round hole {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Solid_with_stepped_round_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}} in for which the depression has the shape of a round hole which may be stepped.
+  - content: A **Solid_with_stepped_round_hole** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_depression,Solid_with_depression}}
+      in for which the depression has the shape of a round hole which may be stepped.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-          version: '3'
-      type: authoritative
-      id: Solid_with_local_modification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Solid_with_stepped_round_hole
+  - type: expression
+    normative_status: preferred
+    designation: Solid_with_stepped_round_hole
   domain: 'application module: Solid_with_local_modification_arm'
   language_code: eng
   annotations: []
-id: 09ff44fb-3331-50a4-901a-2a7298ee4825
+id: '09ff44fb-3331-50a4-901a-2a7298ee4825'

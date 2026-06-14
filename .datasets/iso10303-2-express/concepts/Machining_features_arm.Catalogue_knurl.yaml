@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Catalogue_knurl
   localized_concepts:
     eng: 84dbcece-100d-51f5-9443-0d43ea42e434
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Catalogue_knurl
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}} that represents the catalogue knurl {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}}
+      that represents the catalogue knurl {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Catalogue_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}} that is a reference to a document containing the information to create a knurl on a part.
+  - content: A **Catalogue_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Knurl,Knurl}}
+      that is a reference to a document containing the information to create a knurl
+      on a part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Catalogue_knurl
+  - type: expression
+    normative_status: preferred
+    designation: Catalogue_knurl
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

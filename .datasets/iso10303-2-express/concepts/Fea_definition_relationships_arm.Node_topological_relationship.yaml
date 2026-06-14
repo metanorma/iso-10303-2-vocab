@@ -1,36 +1,37 @@
+---
 data:
   identifier: Fea_definition_relationships_arm.Node_topological_relationship
   localized_concepts:
     eng: 8c3de80f-6857-59fb-af50-114d36ccb07e
   domains:
-    - concept_id: section-Fea_definition_relationships_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-      ref_type: section
+  - concept_id: section-Fea_definition_relationships_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+    ref_type: section
 id: Fea_definition_relationships_arm.Node_topological_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the node topological relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the node topological relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Node_topological_relationship** is a relationship between:
+  - content: |-
+      A **Node_topological_relationship** is a relationship between:
 
-        * a node representation; and
-        * a vertex;
+      * a node representation; and
+      * a vertex;
 
-        that indicates the node representation has the topological relationships of the vertex.
+      that indicates the node representation has the topological relationships of the vertex.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-          version: '2'
-      type: authoritative
-      id: Fea_definition_relationships_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Node_topological_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Node_topological_relationship
   domain: 'application module: Fea_definition_relationships_arm'
   language_code: eng
   annotations: []

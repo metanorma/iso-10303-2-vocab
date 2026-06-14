@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Physical_connectivity_interrupting_cutout
   localized_concepts:
     eng: 3fb0c60e-84a3-5b84-aee3-9efaf0bec781
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Physical_connectivity_interrupting_cutout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Cutout,Cutout}} that represents the physical connectivity interrupting cutout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Cutout,Cutout}}
+      that represents the physical connectivity interrupting cutout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_connectivity_interrupting_cutout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Cutout,Cutout}} that is included in the design of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}} for the purpose of interrupting one or more connectivity elements in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}}.
+  - content: A **Physical_connectivity_interrupting_cutout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Cutout,Cutout}}
+      that is included in the design of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}}
+      for the purpose of interrupting one or more connectivity elements in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layered_interconnect_module_design_view,Layered_interconnect_module_design_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_connectivity_interrupting_cutout
+  - type: expression
+    normative_status: preferred
+    designation: Physical_connectivity_interrupting_cutout
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

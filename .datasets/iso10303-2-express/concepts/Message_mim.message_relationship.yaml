@@ -1,30 +1,33 @@
+---
 data:
   identifier: Message_mim.message_relationship
   localized_concepts:
     eng: c93ff889-4401-58db-af9d-1ec37eca40b2
   domains:
-    - concept_id: section-Message_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-      ref_type: section
+  - concept_id: section-Message_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+    ref_type: section
 id: Message_mim.message_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} that represents the message relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.product_relationship,product_relationship}}
+      that represents the message relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **message_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}} used to implement relationships between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}}.
+  - content: A **message_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_relationship,product_relationship}}
+      used to implement relationships between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.structured_message,structured_message}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-          version: '2'
-      type: authoritative
-      id: Message_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: message_relationship
+  - type: expression
+    normative_status: preferred
+    designation: message_relationship
   domain: 'application module: Message_mim'
   language_code: eng
   annotations: []

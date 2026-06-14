@@ -1,30 +1,33 @@
+---
 data:
   identifier: solid_shape_element_schema.solid_with_protrusion
   localized_concepts:
     eng: 925b85a2-2951-518b-91b0-30fc59948451
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.solid_with_protrusion
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.modified_solid_with_placed_configuration,modified_solid_with_placed_configuration}} that represents the solid with protrusion {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.modified_solid_with_placed_configuration,modified_solid_with_placed_configuration}}
+      that represents the solid with protrusion {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *solid_with_protrusion* is a type of *modified_solid_with_placed_configuration* in which the base solid has been modified by the addition of material.
+  - content: A *solid_with_protrusion* is a type of *modified_solid_with_placed_configuration*
+      in which the base solid has been modified by the addition of material.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_protrusion
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_protrusion
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

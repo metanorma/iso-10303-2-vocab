@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_module_usage_view_arm.Assembly_module_interface_terminal
   localized_concepts:
     eng: d2dd67a5-23f0-590d-b757-728f3b049257
   domains:
-    - concept_id: section-Assembly_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
+    ref_type: section
 id: Assembly_module_usage_view_arm.Assembly_module_interface_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}} that represents the assembly module interface terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm.Assembly_module_terminal,Assembly_module_terminal}}
+      that represents the assembly module interface terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_module_interface_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_module_interface_terminal
   domain: 'application module: Assembly_module_usage_view_arm'
   language_code: eng
   annotations: []

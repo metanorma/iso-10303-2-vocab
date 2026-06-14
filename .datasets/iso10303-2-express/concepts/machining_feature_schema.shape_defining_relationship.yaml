@@ -1,30 +1,34 @@
+---
 data:
   identifier: machining_feature_schema.shape_defining_relationship
   localized_concepts:
     eng: a9128319-c27e-5b76-bb96-577fd2be5d36
   domains:
-    - concept_id: section-machining_feature_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-      ref_type: section
+  - concept_id: section-machining_feature_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+    ref_type: section
 id: machining_feature_schema.shape_defining_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the shape defining relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that represents the shape defining relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_defining_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} in which the {{related_shape_aspect,related_shape_aspect}} takes a part in the definition of the shape of the {{relating_shape_aspect,relating_shape_aspect}}.
+  - content: A **shape_defining_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      in which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship.related_shape_aspect,related_shape_aspect}}
+      takes a part in the definition of the shape of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship.relating_shape_aspect,relating_shape_aspect}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-          version: '1'
-      type: authoritative
-      id: machining_feature_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_defining_relationship
+  - type: expression
+    normative_status: preferred
+    designation: shape_defining_relationship
   domain: 'resource: machining_feature_schema'
   language_code: eng
   annotations: []

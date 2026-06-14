@@ -1,29 +1,31 @@
+---
 data:
   identifier: Product_as_individual_arm.Product_as_individual_assembly
   localized_concepts:
     eng: 0d04e736-6f66-591b-a50f-3b0d6d27376e
   domains:
-    - concept_id: section-Product_as_individual_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-      ref_type: section
+  - concept_id: section-Product_as_individual_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+    ref_type: section
 id: Product_as_individual_arm.Product_as_individual_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_structure_arm.Next_assembly_usage,Next_assembly_usage}} that represents the product as individual assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Next_assembly_usage,Next_assembly_usage}}
+      that represents the product as individual assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-          version: '5'
-      type: authoritative
-      id: Product_as_individual_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_as_individual_assembly
+  - type: expression
+    normative_status: preferred
+    designation: Product_as_individual_assembly
   domain: 'application module: Product_as_individual_arm'
   language_code: eng
   annotations: []

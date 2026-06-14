@@ -1,30 +1,32 @@
+---
 data:
   identifier: Assembly_2d_shape_arm.Bond_assembly_2d_position
   localized_concepts:
     eng: cbdd0995-4253-52a0-beaa-53d70d5b9444
   domains:
-    - concept_id: section-Assembly_2d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-      ref_type: section
+  - concept_id: section-Assembly_2d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+    ref_type: section
 id: Assembly_2d_shape_arm.Bond_assembly_2d_position
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bond assembly 2d position {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bond assembly 2d position {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bond_assembly_2d_position** is a means to provide information about the shape and position of a bond in an assembly in two-dimensional space.
+  - content: A **Bond_assembly_2d_position** is a means to provide information about
+      the shape and position of a bond in an assembly in two-dimensional space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_2d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bond_assembly_2d_position
+  - type: expression
+    normative_status: preferred
+    designation: Bond_assembly_2d_position
   domain: 'application module: Assembly_2d_shape_arm'
   language_code: eng
   annotations: []

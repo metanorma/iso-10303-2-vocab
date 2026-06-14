@@ -1,30 +1,33 @@
+---
 data:
   identifier: action_schema.action_relationship
   localized_concepts:
     eng: 467ae600-9de3-53ee-b9d6-83131466d7ab
   domains:
-    - concept_id: section-action_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
-      ref_type: section
+  - concept_id: section-action_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+    ref_type: section
 id: action_schema.action_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the action relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **action_relationship** is a relationship between two instances of the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} and provides an identification and description of this relationship.
+  - content: An **action_relationship** is a relationship between two instances of
+      the entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}}
+      and provides an identification and description of this relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
-          version: '9'
-      type: authoritative
-      id: action_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_relationship
+  - type: expression
+    normative_status: preferred
+    designation: action_relationship
   domain: 'resource: action_schema'
   language_code: eng
   annotations: []

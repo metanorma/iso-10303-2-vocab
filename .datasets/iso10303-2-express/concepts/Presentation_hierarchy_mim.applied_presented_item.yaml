@@ -1,29 +1,31 @@
+---
 data:
   identifier: Presentation_hierarchy_mim.applied_presented_item
   localized_concepts:
     eng: 43a11e49-e5af-5f2d-a4a2-89847f5eb794
   domains:
-    - concept_id: section-Presentation_hierarchy_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_mim
-      ref_type: section
+  - concept_id: section-Presentation_hierarchy_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_mim
+    ref_type: section
 id: Presentation_hierarchy_mim.applied_presented_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presented_item,presented_item}} that represents the applied presented item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_mim.presented_item,presented_item}}
+      that represents the applied presented item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_mim
-          version: '1'
-      type: authoritative
-      id: Presentation_hierarchy_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Presentation_hierarchy_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_presented_item
+  - type: expression
+    normative_status: preferred
+    designation: applied_presented_item
   domain: 'application module: Presentation_hierarchy_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Numeric_expression_arm.Int_literal
   localized_concepts:
     eng: 4cae81b7-326e-53ba-8bfa-a7f6b5226092
   domains:
-    - concept_id: section-Numeric_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-      ref_type: section
+  - concept_id: section-Numeric_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+    ref_type: section
 id: Numeric_expression_arm.Int_literal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Literal_number,Literal_number}} that represents the int literal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Literal_number,Literal_number}}
+      that represents the int literal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-          version: '2'
-      type: authoritative
-      id: Numeric_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Int_literal
+  - type: expression
+    normative_status: preferred
+    designation: Int_literal
   domain: 'application module: Numeric_expression_arm'
   language_code: eng
   annotations: []

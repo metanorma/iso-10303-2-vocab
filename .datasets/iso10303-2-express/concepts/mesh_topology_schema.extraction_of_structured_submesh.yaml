@@ -1,30 +1,34 @@
+---
 data:
   identifier: mesh_topology_schema.extraction_of_structured_submesh
   localized_concepts:
     eng: c5e57c1e-2f61-5a9d-8ec7-7774c3429119
   domains:
-    - concept_id: section-mesh_topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
-      ref_type: section
+  - concept_id: section-mesh_topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+    ref_type: section
 id: mesh_topology_schema.extraction_of_structured_submesh
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_submesh,extraction_of_submesh}} that represents the extraction of structured submesh {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_submesh,extraction_of_submesh}}
+      that represents the extraction of structured submesh {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_structured_submesh,extraction_of_structured_submesh}} is a type of *extraction_of_mesh* and is a relationship between two *structured_meshes* that indicates one is part of the other.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema.extraction_of_structured_submesh,extraction_of_structured_submesh}}
+      is a type of *extraction_of_mesh* and is a relationship between two *structured_meshes*
+      that indicates one is part of the other.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
-          version: '5'
-      type: authoritative
-      id: mesh_topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_topology_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: extraction_of_structured_submesh
+  - type: expression
+    normative_status: preferred
+    designation: extraction_of_structured_submesh
   domain: 'resource: mesh_topology_schema'
   language_code: eng
   annotations: []

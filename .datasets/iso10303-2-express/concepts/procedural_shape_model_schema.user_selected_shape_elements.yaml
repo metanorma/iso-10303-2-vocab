@@ -1,30 +1,34 @@
+---
 data:
   identifier: procedural_shape_model_schema.user_selected_shape_elements
   localized_concepts:
     eng: 030bdcc9-2be4-5979-85fc-427ea77af51f
   domains:
-    - concept_id: section-procedural_shape_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema
-      ref_type: section
+  - concept_id: section-procedural_shape_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema
+    ref_type: section
 id: procedural_shape_model_schema.user_selected_shape_elements
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}} that represents the user selected shape elements {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema.user_selected_elements,user_selected_elements}}
+      that represents the user selected shape elements {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema.user_selected_shape_elements,user_selected_shape_elements}} entity data type is a type of *user_selected_elements* as defined in clause {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}}.
+  - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema.user_selected_shape_elements,user_selected_shape_elements}}
+      entity data type is a type of *user_selected_elements* as defined in clause
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema
-          version: '4'
-      type: authoritative
-      id: procedural_shape_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_shape_model_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: user_selected_shape_elements
+  - type: expression
+    normative_status: preferred
+    designation: user_selected_shape_elements
   domain: 'resource: procedural_shape_model_schema'
   language_code: eng
   annotations: []

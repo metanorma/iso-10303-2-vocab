@@ -1,29 +1,31 @@
+---
 data:
   identifier: Specification_document_arm.Specification_definition
   localized_concepts:
     eng: 8aab8db7-e09a-5184-8284-4a35547e5c23
   domains:
-    - concept_id: section-Specification_document_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-      ref_type: section
+  - concept_id: section-Specification_document_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+    ref_type: section
 id: Specification_document_arm.Specification_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}} that represents the specification definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Document_definition,Document_definition}}
+      that represents the specification definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-          version: '4'
-      type: authoritative
-      id: Specification_document_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Specification_definition
+  - type: expression
+    normative_status: preferred
+    designation: Specification_definition
   domain: 'application module: Specification_document_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Associative_text_arm.Annotation_curve
   localized_concepts:
     eng: df48a542-8aba-55cb-852d-1fffc3f9af04
   domains:
-    - concept_id: section-Associative_text_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
-      ref_type: section
+  - concept_id: section-Associative_text_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+    ref_type: section
 id: Associative_text_arm.Annotation_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} that represents the annotation curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}}
+      that represents the annotation curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Annotation_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}} two-dimensional trimmed curve that is used to annotate a drawing or a geometric model.
+  - content: An **Annotation_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm.Annotation_element,Annotation_element}}
+      two-dimensional trimmed curve that is used to annotate a drawing or a geometric
+      model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
-          version: '4'
-      type: authoritative
-      id: Associative_text_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_text_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Annotation_curve
+  - type: expression
+    normative_status: preferred
+    designation: Annotation_curve
   domain: 'application module: Associative_text_arm'
   language_code: eng
   annotations: []

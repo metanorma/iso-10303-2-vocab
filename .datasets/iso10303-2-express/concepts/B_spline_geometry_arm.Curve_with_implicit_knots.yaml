@@ -1,30 +1,33 @@
+---
 data:
   identifier: B_spline_geometry_arm.Curve_with_implicit_knots
   localized_concepts:
     eng: 1c6a939b-4b2e-57e7-a5b8-ac6299818f0e
   domains:
-    - concept_id: section-B_spline_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
-      ref_type: section
+  - concept_id: section-B_spline_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+    ref_type: section
 id: B_spline_geometry_arm.Curve_with_implicit_knots
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_curve,B_spline_curve}} that represents the curve with implicit knots {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_curve,B_spline_curve}}
+      that represents the curve with implicit knots {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Curve_with_implicit_knots** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_curve,B_spline_curve}} for which the knot values are implicitly given.
+  - content: A **Curve_with_implicit_knots** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_curve,B_spline_curve}}
+      for which the knot values are implicitly given.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
-          version: '1'
-      type: authoritative
-      id: B_spline_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_with_implicit_knots
+  - type: expression
+    normative_status: preferred
+    designation: Curve_with_implicit_knots
   domain: 'application module: B_spline_geometry_arm'
   language_code: eng
   annotations: []

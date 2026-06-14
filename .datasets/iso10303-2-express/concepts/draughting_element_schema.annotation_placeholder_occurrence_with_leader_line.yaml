@@ -1,31 +1,36 @@
+---
 data:
   identifier: draughting_element_schema.annotation_placeholder_occurrence_with_leader_line
   localized_concepts:
-    eng: 00802fdb-a2f3-5ec2-add8-c9761555a32d
+    eng: '00802fdb-a2f3-5ec2-add8-c9761555a32d'
   domains:
-    - concept_id: section-draughting_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-      ref_type: section
+  - concept_id: section-draughting_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+    ref_type: section
 id: draughting_element_schema.annotation_placeholder_occurrence_with_leader_line
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}} that represents the annotation placeholder occurrence with leader line {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}}
+      that represents the annotation placeholder occurrence with leader line {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **annotation_placeholder_occurrence_with_leader_line** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}} that provides a simplified representation of one or more leader lines in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}}.
+  - content: An **annotation_placeholder_occurrence_with_leader_line** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}}
+      that provides a simplified representation of one or more leader lines in the
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mechanical_design_schema.annotation_placeholder_occurrence,annotation_placeholder_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-          version: '7'
-      type: authoritative
-      id: draughting_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: annotation_placeholder_occurrence_with_leader_line
+  - type: expression
+    normative_status: preferred
+    designation: annotation_placeholder_occurrence_with_leader_line
   domain: 'resource: draughting_element_schema'
   language_code: eng
   annotations: []
-id: 00802fdb-a2f3-5ec2-add8-c9761555a32d
+id: '00802fdb-a2f3-5ec2-add8-c9761555a32d'

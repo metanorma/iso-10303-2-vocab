@@ -1,30 +1,34 @@
+---
 data:
   identifier: Fabrication_technology_arm.Passage_deposition_material_identification
   localized_concepts:
     eng: c151be3e-5c12-5116-b658-84f7fb771fd2
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Passage_deposition_material_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} that represents the passage deposition material identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Material_identification,Material_identification}}
+      that represents the passage deposition material identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Passage_deposition_material_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}} used to identify material deposited on the walls or lower or upper terminus of a passage.
+  - content: A **Passage_deposition_material_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Material_identification,Material_identification}}
+      used to identify material deposited on the walls or lower or upper terminus
+      of a passage.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Passage_deposition_material_identification
+  - type: expression
+    normative_status: preferred
+    designation: Passage_deposition_material_identification
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

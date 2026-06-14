@@ -1,30 +1,52 @@
+---
 data:
   identifier: Assembly_component_placement_requirements_arm.Assembly_spacing_requirement
   localized_concepts:
     eng: defce311-4ecd-5d9c-ad0e-601e089b0ade
   domains:
-    - concept_id: section-Assembly_component_placement_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-      ref_type: section
+  - concept_id: section-Assembly_component_placement_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+    ref_type: section
 id: Assembly_component_placement_requirements_arm.Assembly_spacing_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the assembly spacing requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the assembly spacing requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that describes the physical spacing between categories of design objects {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, a category consisting of the union of an {{assembly_product_design_object_category,assembly_product_design_object_category}} category and an {{assembly_product_design_object_category,assembly_product_design_object_category}} category, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, an {{assembly_product_design_object_category,assembly_product_design_object_category}}, or an {{assembly_product_design_object_category,assembly_product_design_object_category}}, and another of these categories of design objects or additionally a group.
+  - content: An **Assembly_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that describes the physical spacing between categories of design objects {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      a category consisting of the union of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}}
+      category and an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}}
+      category, an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      or an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.assembly_product_design_object_category,assembly_product_design_object_category}},
+      and another of these categories of design objects or additionally a group.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-          version: '6'
-      type: authoritative
-      id: Assembly_component_placement_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_spacing_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_spacing_requirement
   domain: 'application module: Assembly_component_placement_requirements_arm'
   language_code: eng
   annotations: []

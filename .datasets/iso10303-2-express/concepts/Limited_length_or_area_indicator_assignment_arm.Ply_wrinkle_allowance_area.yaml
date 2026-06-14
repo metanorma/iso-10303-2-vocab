@@ -1,30 +1,35 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.Ply_wrinkle_allowance_area
   localized_concepts:
     eng: efd1ead6-ed27-5e0c-8c9c-be6dfdccb343
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.Ply_wrinkle_allowance_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the ply wrinkle allowance area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that represents the ply wrinkle allowance area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Ply_wrinkle_allowance_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that is a specification or requirement defining a specific region of a part, where ply wrinkle limitation requirements may vary from the default specification for the part.
+  - content: A **Ply_wrinkle_allowance_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that is a specification or requirement defining a specific region of a part,
+      where ply wrinkle limitation requirements may vary from the default specification
+      for the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ply_wrinkle_allowance_area
+  - type: expression
+    normative_status: preferred
+    designation: Ply_wrinkle_allowance_area
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []

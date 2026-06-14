@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analytical_model_mim.across_port_variable
   localized_concepts:
     eng: f40be64a-1abe-5ea9-b8ac-89bf7fbe0796
   domains:
-    - concept_id: section-Analytical_model_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-      ref_type: section
+  - concept_id: section-Analytical_model_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+    ref_type: section
 id: Analytical_model_mim.across_port_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.port_variable,port_variable}} that represents the across port variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.port_variable,port_variable}}
+      that represents the across port variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **across_port_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.port_variable,port_variable}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Across_port_variable,Across_port_variable}}.
+  - content: An **across_port_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim.port_variable,port_variable}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Across_port_variable,Across_port_variable}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
-          version: '5'
-      type: authoritative
-      id: Analytical_model_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: across_port_variable
+  - type: expression
+    normative_status: preferred
+    designation: across_port_variable
   domain: 'application module: Analytical_model_mim'
   language_code: eng
   annotations: []

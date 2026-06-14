@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_decomposition_to_design_mim.reference_composition_path
   localized_concepts:
     eng: 411e106c-98fd-5c07-bc02-83e4a60102dc
   domains:
-    - concept_id: section-Functional_decomposition_to_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_mim
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_mim
+    ref_type: section
 id: Functional_decomposition_to_design_mim.reference_composition_path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the reference composition path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the reference composition path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **reference_composition_path** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Reference_composition_path,Reference_composition_path}}.
+  - content: A **reference_composition_path** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Reference_composition_path,Reference_composition_path}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_mim
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: reference_composition_path
+  - type: expression
+    normative_status: preferred
+    designation: reference_composition_path
   domain: 'application module: Functional_decomposition_to_design_mim'
   language_code: eng
   annotations: []

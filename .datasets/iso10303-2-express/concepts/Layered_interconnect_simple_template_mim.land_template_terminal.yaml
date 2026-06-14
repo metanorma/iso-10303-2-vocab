@@ -1,35 +1,37 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.land_template_terminal
   localized_concepts:
     eng: 10578902-6618-5c13-a2ad-fdddd7177dc2
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.land_template_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the land template terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.shape_aspect,shape_aspect}}
+      that represents the land template terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **land_template_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of:
+  - content: |-
+      A **land_template_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_interface_terminal,Land_template_interface_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_join_terminal,Land_template_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_terminal,Land_template_terminal}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_interface_terminal,Land_template_interface_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_join_terminal,Land_template_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_template_terminal,Land_template_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: land_template_terminal
+  - type: expression
+    normative_status: preferred
+    designation: land_template_terminal
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

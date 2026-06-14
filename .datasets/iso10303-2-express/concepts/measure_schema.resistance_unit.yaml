@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.resistance_unit
   localized_concepts:
     eng: 6829df7b-1ea7-5920-baaf-dcc1d4fa0128
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.resistance_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} that represents the resistance unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      that represents the resistance unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **resistance_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} in which the electrical resistance is expressed.
+  - content: A **resistance_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      in which the electrical resistance is expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: resistance_unit
+  - type: expression
+    normative_status: preferred
+    designation: resistance_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

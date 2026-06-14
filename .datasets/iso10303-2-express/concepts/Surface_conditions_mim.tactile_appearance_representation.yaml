@@ -1,30 +1,33 @@
+---
 data:
   identifier: Surface_conditions_mim.tactile_appearance_representation
   localized_concepts:
     eng: 4c22586a-b415-56c3-8742-288e43247ff0
   domains:
-    - concept_id: section-Surface_conditions_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_mim
-      ref_type: section
+  - concept_id: section-Surface_conditions_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_mim
+    ref_type: section
 id: Surface_conditions_mim.tactile_appearance_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the tactile appearance representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_mim.representation,representation}}
+      that represents the tactile appearance representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tactile_appearance_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the tactile appearance of an object.
+  - content: A **tactile_appearance_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that represents the tactile appearance of an object.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_mim
-          version: '7'
-      type: authoritative
-      id: Surface_conditions_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tactile_appearance_representation
+  - type: expression
+    normative_status: preferred
+    designation: tactile_appearance_representation
   domain: 'application module: Surface_conditions_mim'
   language_code: eng
   annotations: []

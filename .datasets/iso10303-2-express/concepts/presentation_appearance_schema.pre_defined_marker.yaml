@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_appearance_schema.pre_defined_marker
   localized_concepts:
     eng: cbc285d3-f137-5e46-bacc-7fa520ab667c
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.pre_defined_marker
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.pre_defined_item,pre_defined_item}} that represents the pre defined marker {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.pre_defined_item,pre_defined_item}}
+      that represents the pre defined marker {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pre_defined_marker
+  - type: expression
+    normative_status: preferred
+    designation: pre_defined_marker
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

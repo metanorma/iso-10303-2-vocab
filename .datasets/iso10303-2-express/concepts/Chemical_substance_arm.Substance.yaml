@@ -1,30 +1,33 @@
+---
 data:
   identifier: Chemical_substance_arm.Substance
   localized_concepts:
     eng: c8ed1a51-799a-5d2e-a34b-ca471f4f0478
   domains:
-    - concept_id: section-Chemical_substance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
-      ref_type: section
+  - concept_id: section-Chemical_substance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+    ref_type: section
 id: Chemical_substance_arm.Substance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the substance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm.Product,Product}}
+      that represents the substance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Substance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that collects the definitional information of the versions of a {{substance}}.
+  - content: A **Substance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      that collects the definitional information of the versions of a {{substance}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
-          version: '4'
-      type: authoritative
-      id: Chemical_substance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Chemical_substance_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Substance
+  - type: expression
+    normative_status: preferred
+    designation: Substance
   domain: 'application module: Chemical_substance_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Resource_as_realized_arm.Resource_as_realized_by_resource_item
   localized_concepts:
     eng: 9eb06432-8b04-520f-b63c-d564b5841d88
   domains:
-    - concept_id: section-Resource_as_realized_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
-      ref_type: section
+  - concept_id: section-Resource_as_realized_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
+    ref_type: section
 id: Resource_as_realized_arm.Resource_as_realized_by_resource_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm.Resource_as_realized,Resource_as_realized}} that represents the resource as realized by resource item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm.Resource_as_realized,Resource_as_realized}}
+      that represents the resource as realized by resource item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Resource_as_realized_by_resource_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm.Resource_as_realized,Resource_as_realized}} that is described in terms of an identifiable resource (within the application context) which is provided with resource management capabilities.
+  - content: A **Resource_as_realized_by_resource_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm.Resource_as_realized,Resource_as_realized}}
+      that is described in terms of an identifiable resource (within the application
+      context) which is provided with resource management capabilities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
-          version: '2'
-      type: authoritative
-      id: Resource_as_realized_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Resource_as_realized_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Resource_as_realized_by_resource_item
+  - type: expression
+    normative_status: preferred
+    designation: Resource_as_realized_by_resource_item
   domain: 'application module: Resource_as_realized_arm'
   language_code: eng
   annotations: []

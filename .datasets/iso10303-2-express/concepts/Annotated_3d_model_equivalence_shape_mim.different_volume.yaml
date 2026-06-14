@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_mim.different_volume
   localized_concepts:
     eng: ed563bfa-d0c1-50a2-990b-6cdf69c0bc87
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_mim.different_volume
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the different volume {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the different volume {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **different_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_representative_shape_property_value,a3m_equivalence_criterion_of_representative_shape_property_value}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_volume,Different_volume}}.
+  - content: A **different_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_representative_shape_property_value,a3m_equivalence_criterion_of_representative_shape_property_value}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_volume,Different_volume}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: different_volume
+  - type: expression
+    normative_status: preferred
+    designation: different_volume
   domain: 'application module: Annotated_3d_model_equivalence_shape_mim'
   language_code: eng
   annotations: []

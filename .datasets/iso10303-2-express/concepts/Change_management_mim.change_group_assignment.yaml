@@ -1,29 +1,31 @@
+---
 data:
   identifier: Change_management_mim.change_group_assignment
   localized_concepts:
     eng: ad2bf8fd-4dba-53f5-a77b-171ded59a7e1
   domains:
-    - concept_id: section-Change_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-      ref_type: section
+  - concept_id: section-Change_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+    ref_type: section
 id: Change_management_mim.change_group_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} that represents the change group assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim.group_assignment,group_assignment}}
+      that represents the change group assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
-          version: '3'
-      type: authoritative
-      id: Change_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: change_group_assignment
+  - type: expression
+    normative_status: preferred
+    designation: change_group_assignment
   domain: 'application module: Change_management_mim'
   language_code: eng
   annotations: []

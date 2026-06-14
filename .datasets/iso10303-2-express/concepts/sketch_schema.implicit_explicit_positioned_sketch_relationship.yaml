@@ -1,30 +1,34 @@
+---
 data:
   identifier: sketch_schema.implicit_explicit_positioned_sketch_relationship
   localized_concepts:
     eng: c0b7259f-a9d8-5164-b523-0f021d5b79e2
   domains:
-    - concept_id: section-sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-      ref_type: section
+  - concept_id: section-sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+    ref_type: section
 id: sketch_schema.implicit_explicit_positioned_sketch_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item_relationship,representation_item_relationship}} that represents the implicit explicit positioned sketch relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema.representation_item_relationship,representation_item_relationship}}
+      that represents the implicit explicit positioned sketch relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type *implicit_explicit_positioned_sketch_relationship* is a type of *representation_item_relationship*, defining the relationship between implicit and explicit representations of a positioned sketch.
+  - content: The entity data type *implicit_explicit_positioned_sketch_relationship*
+      is a type of *representation_item_relationship*, defining the relationship between
+      implicit and explicit representations of a positioned sketch.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-          version: '4'
-      type: authoritative
-      id: sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: implicit_explicit_positioned_sketch_relationship
+  - type: expression
+    normative_status: preferred
+    designation: implicit_explicit_positioned_sketch_relationship
   domain: 'resource: sketch_schema'
   language_code: eng
   annotations: []

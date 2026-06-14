@@ -1,30 +1,33 @@
+---
 data:
   identifier: Stock_material_arm.Anisotropic_material
   localized_concepts:
     eng: 589d00de-48c7-5694-87c2-d32ae76a3e5b
   domains:
-    - concept_id: section-Stock_material_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
-      ref_type: section
+  - concept_id: section-Stock_material_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+    ref_type: section
 id: Stock_material_arm.Anisotropic_material
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} that represents the anisotropic material {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}}
+      that represents the anisotropic material {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Anisotropic_material** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}} whose properties are different in each material direction.
+  - content: An **Anisotropic_material** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm.Stock_material,Stock_material}}
+      whose properties are different in each material direction.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
-          version: '3'
-      type: authoritative
-      id: Stock_material_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Stock_material_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Anisotropic_material
+  - type: expression
+    normative_status: preferred
+    designation: Anisotropic_material
   domain: 'application module: Stock_material_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,38 @@
+---
 data:
   identifier: Interconnect_placement_requirements_arm.Area_qualified_layout_spacing_requirement
   localized_concepts:
     eng: c79ec50d-99bf-56be-822f-da9aa6cb1137
   domains:
-    - concept_id: section-Interconnect_placement_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
-      ref_type: section
+  - concept_id: section-Interconnect_placement_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
+    ref_type: section
 id: Interconnect_placement_requirements_arm.Area_qualified_layout_spacing_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layout_spacing_requirement,Layout_spacing_requirement}} that represents the area qualified layout spacing requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layout_spacing_requirement,Layout_spacing_requirement}}
+      that represents the area qualified layout spacing requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Area_qualified_layout_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layout_spacing_requirement,Layout_spacing_requirement}} that describes the physical spacing between one of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.interconnect_module_design_object_category,interconnect_module_design_object_category}}, an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.interconnect_module_design_object_category,interconnect_module_design_object_category}}, an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.interconnect_module_design_object_category,interconnect_module_design_object_category}}, an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.interconnect_module_design_object_category,interconnect_module_design_object_category}}, or an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_mim.interconnect_module_design_object_category,interconnect_module_design_object_category}}, and another of these categories of design objects.
+  - content: A **Area_qualified_layout_spacing_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Layout_spacing_requirement,Layout_spacing_requirement}}
+      that describes the physical spacing between one of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.interconnect_module_design_object_category,interconnect_module_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.interconnect_module_design_object_category,interconnect_module_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.interconnect_module_design_object_category,interconnect_module_design_object_category}},
+      an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.interconnect_module_design_object_category,interconnect_module_design_object_category}},
+      or an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.interconnect_module_design_object_category,interconnect_module_design_object_category}},
+      and another of these categories of design objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
-          version: '4'
-      type: authoritative
-      id: Interconnect_placement_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Area_qualified_layout_spacing_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Area_qualified_layout_spacing_requirement
   domain: 'application module: Interconnect_placement_requirements_arm'
   language_code: eng
   annotations: []

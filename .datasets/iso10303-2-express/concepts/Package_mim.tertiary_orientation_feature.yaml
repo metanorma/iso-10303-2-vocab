@@ -1,30 +1,33 @@
+---
 data:
   identifier: Package_mim.tertiary_orientation_feature
   localized_concepts:
     eng: 96492bfd-d1f0-554b-bf40-d4c85a0304de
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.tertiary_orientation_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the tertiary orientation feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.shape_aspect,shape_aspect}}
+      that represents the tertiary orientation feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tertiary_orientation_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Tertiary_orientation_feature,Tertiary_orientation_feature}}.
+  - content: A **tertiary_orientation_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Tertiary_orientation_feature,Tertiary_orientation_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tertiary_orientation_feature
+  - type: expression
+    normative_status: preferred
+    designation: tertiary_orientation_feature
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

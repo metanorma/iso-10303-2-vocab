@@ -1,29 +1,31 @@
+---
 data:
   identifier: Pmi_data_quality_arm.No_general_part_feature_association
   localized_concepts:
     eng: 49045e88-5940-5e6c-a492-e45e0ca6d0a0
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.No_general_part_feature_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}} that represents the no general part feature association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}}
+      that represents the no general part feature association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: No_general_part_feature_association
+  - type: expression
+    normative_status: preferred
+    designation: No_general_part_feature_association
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

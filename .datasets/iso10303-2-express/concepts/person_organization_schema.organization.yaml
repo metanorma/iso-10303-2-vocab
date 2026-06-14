@@ -1,30 +1,31 @@
+---
 data:
   identifier: person_organization_schema.organization
   localized_concepts:
     eng: 93659748-38a6-5dcc-b553-fba38ab64b5c
   domains:
-    - concept_id: section-person_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
-      ref_type: section
+  - concept_id: section-person_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+    ref_type: section
 id: person_organization_schema.organization
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the organization {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **organization** is an administrative structure.
+  - content: An **organization** is an administrative structure.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
-          version: '8'
-      type: authoritative
-      id: person_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: organization
+  - type: expression
+    normative_status: preferred
+    designation: organization
   domain: 'resource: person_organization_schema'
   language_code: eng
   annotations: []

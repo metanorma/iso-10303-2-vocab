@@ -1,30 +1,35 @@
+---
 data:
   identifier: Appearance_assignment_arm.Styled_model_replication
   localized_concepts:
     eng: ca55d54c-e42b-518c-981f-4e38124bbb89
   domains:
-    - concept_id: section-Appearance_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-      ref_type: section
+  - concept_id: section-Appearance_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+    ref_type: section
 id: Appearance_assignment_arm.Styled_model_replication
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the styled model replication {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Representation_item,Representation_item}}
+      that represents the styled model replication {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Styled_model_replication** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that replicates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_model,Styled_model}} in another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_model,Styled_model}} that includes it with a transformation.
+  - content: A **Styled_model_replication** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      that replicates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_model,Styled_model}}
+      in another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_model,Styled_model}}
+      that includes it with a transformation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-          version: '9'
-      type: authoritative
-      id: Appearance_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Styled_model_replication
+  - type: expression
+    normative_status: preferred
+    designation: Styled_model_replication
   domain: 'application module: Appearance_assignment_arm'
   language_code: eng
   annotations: []

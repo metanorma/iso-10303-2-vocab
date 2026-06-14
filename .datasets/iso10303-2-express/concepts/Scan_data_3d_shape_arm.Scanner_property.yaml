@@ -1,30 +1,33 @@
+---
 data:
   identifier: Scan_data_3d_shape_arm.Scanner_property
   localized_concepts:
     eng: cc937843-6146-57a0-8178-be12fa541ba1
   domains:
-    - concept_id: section-Scan_data_3d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
-      ref_type: section
+  - concept_id: section-Scan_data_3d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+    ref_type: section
 id: Scan_data_3d_shape_arm.Scanner_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the scanner property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm.Representation_item,Representation_item}}
+      that represents the scanner property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Scanner_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} which represents one or more properties of a scanner.
+  - content: A **Scanner_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      which represents one or more properties of a scanner.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Scan_data_3d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Scan_data_3d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Scanner_property
+  - type: expression
+    normative_status: preferred
+    designation: Scanner_property
   domain: 'application module: Scan_data_3d_shape_arm'
   language_code: eng
   annotations: []

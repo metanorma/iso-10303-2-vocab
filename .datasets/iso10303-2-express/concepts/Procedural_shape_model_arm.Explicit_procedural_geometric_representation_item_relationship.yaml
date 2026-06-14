@@ -1,30 +1,34 @@
+---
 data:
   identifier: Procedural_shape_model_arm.Explicit_procedural_geometric_representation_item_relationship
   localized_concepts:
     eng: 8586f22f-f658-5df8-be0e-d44c71f8c9e8
   domains:
-    - concept_id: section-Procedural_shape_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-      ref_type: section
+  - concept_id: section-Procedural_shape_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+    ref_type: section
 id: Procedural_shape_model_arm.Explicit_procedural_geometric_representation_item_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the explicit procedural geometric representation item relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the explicit procedural geometric representation
+      item relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Explicit_procedural_geometric_representation_item_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}, one procedurally defined and the other explicitly defined.
+  - content: An **Explicit_procedural_geometric_representation_item_relationship**
+      is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}},
+      one procedurally defined and the other explicitly defined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-          version: '2'
-      type: authoritative
-      id: Procedural_shape_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Explicit_procedural_geometric_representation_item_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Explicit_procedural_geometric_representation_item_relationship
   domain: 'application module: Procedural_shape_model_arm'
   language_code: eng
   annotations: []

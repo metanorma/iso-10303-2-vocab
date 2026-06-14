@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_data_representation_mim.boolean_representation_item
   localized_concepts:
     eng: 0f44902e-475a-5e57-af10-b23febe8c818
   domains:
-    - concept_id: section-Basic_data_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
-      ref_type: section
+  - concept_id: section-Basic_data_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+    ref_type: section
 id: Basic_data_representation_mim.boolean_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boolean representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the boolean representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **boolean_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.boolean_literal,boolean_literal}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Boolean_representation_item,Boolean_representation_item}}.
+  - content: A **boolean_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.boolean_literal,boolean_literal}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Boolean_representation_item,Boolean_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
-          version: '3'
-      type: authoritative
-      id: Basic_data_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: boolean_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: boolean_representation_item
   domain: 'application module: Basic_data_representation_mim'
   language_code: eng
   annotations: []

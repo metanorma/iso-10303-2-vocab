@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.length_measure_with_unit
   localized_concepts:
     eng: fd453340-9c14-5417-a31b-4431588d52de
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.length_measure_with_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} that represents the length measure with unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}}
+      that represents the length measure with unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **length_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}} in which the physical quantity is a length as defined in ISO/IEC 80000 series.
+  - content: A **length_measure_with_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.measure_with_unit,measure_with_unit}}
+      in which the physical quantity is a length as defined in ISO/IEC 80000 series.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: length_measure_with_unit
+  - type: expression
+    normative_status: preferred
+    designation: length_measure_with_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

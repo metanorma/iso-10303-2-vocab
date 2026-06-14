@@ -1,36 +1,37 @@
+---
 data:
   identifier: fea_definition_relationships_schema.fea_beam_section_idealisation_relationship
   localized_concepts:
     eng: f0cd4eeb-4a55-5ab9-aac6-2b83cbf44f6e
   domains:
-    - concept_id: section-fea_definition_relationships_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
-      ref_type: section
+  - concept_id: section-fea_definition_relationships_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
+    ref_type: section
 id: fea_definition_relationships_schema.fea_beam_section_idealisation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fea beam section idealisation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fea beam section idealisation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **fea_beam_section_idealisation_relationship** is a relationship between:
+  - content: |-
+      An **fea_beam_section_idealisation_relationship** is a relationship between:
 
-        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that is the structural behaviour of a cross section of a beam; and
-        * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_section_definition,curve_element_section_definition}};
+      * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that is the structural behaviour of a cross section of a beam; and
+      * a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_section_definition,curve_element_section_definition}};
 
-        which indicates that the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_section_definition,curve_element_section_definition}} is an idealisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} for the purpose of analysis.
+      which indicates that the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.curve_element_section_definition,curve_element_section_definition}} is an idealisation of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} for the purpose of analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
-          version: '2'
-      type: authoritative
-      id: fea_definition_relationships_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_definition_relationships_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fea_beam_section_idealisation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: fea_beam_section_idealisation_relationship
   domain: 'resource: fea_definition_relationships_schema'
   language_code: eng
   annotations: []

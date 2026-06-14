@@ -1,30 +1,33 @@
+---
 data:
   identifier: Building_component_arm.Recess
   localized_concepts:
     eng: 8f51df23-b7f5-5b0a-8bf3-a31d372d8c02
   domains:
-    - concept_id: section-Building_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
-      ref_type: section
+  - concept_id: section-Building_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+    ref_type: section
 id: Building_component_arm.Recess
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Negative_component,Negative_component}} that represents the recess {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Negative_component,Negative_component}}
+      that represents the recess {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Recess** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Negative_component,Negative_component}} that does not pass through a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}}.
+  - content: A **Recess** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Negative_component,Negative_component}}
+      that does not pass through a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
-          version: '1'
-      type: authoritative
-      id: Building_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Recess
+  - type: expression
+    normative_status: preferred
+    designation: Recess
   domain: 'application module: Building_component_arm'
   language_code: eng
   annotations: []

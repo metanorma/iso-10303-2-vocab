@@ -1,30 +1,33 @@
+---
 data:
   identifier: Requirement_assignment_arm.Requirement_assignment
   localized_concepts:
     eng: c86a124c-9ee3-56a4-998c-0a05815cf7c5
   domains:
-    - concept_id: section-Requirement_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
-      ref_type: section
+  - concept_id: section-Requirement_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+    ref_type: section
 id: Requirement_assignment_arm.Requirement_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the requirement assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the requirement assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Requirement_assignment** is used to relate a requirement (via the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}} entity) to data types representing the items which are affected by the requirement.
+  - content: A **Requirement_assignment** is used to relate a requirement (via the
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_arm.Requirement_view_definition,Requirement_view_definition}}
+      entity) to data types representing the items which are affected by the requirement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
-          version: '4'
-      type: authoritative
-      id: Requirement_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Requirement_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Requirement_assignment
   domain: 'application module: Requirement_assignment_arm'
   language_code: eng
   annotations: []

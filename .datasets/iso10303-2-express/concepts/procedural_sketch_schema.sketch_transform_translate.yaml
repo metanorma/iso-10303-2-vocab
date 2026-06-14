@@ -1,30 +1,34 @@
+---
 data:
   identifier: procedural_sketch_schema.sketch_transform_translate
   localized_concepts:
     eng: edb02ccb-8f49-5535-bb48-2df2d34d0d0d
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.sketch_transform_translate
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_operate_transform,sketch_operate_transform}} that represents the sketch transform translate {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_operate_transform,sketch_operate_transform}}
+      that represents the sketch transform translate {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *sketch_transform_translate* is a type of *sketch_operate_transform* that applies a linear displacement to the selected objects in the plane of the sketch.
+  - content: A *sketch_transform_translate* is a type of *sketch_operate_transform*
+      that applies a linear displacement to the selected objects in the plane of the
+      sketch.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sketch_transform_translate
+  - type: expression
+    normative_status: preferred
+    designation: sketch_transform_translate
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

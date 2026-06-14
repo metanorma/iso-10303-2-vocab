@@ -1,30 +1,35 @@
+---
 data:
   identifier: Part_and_zone_laminate_tables_arm.Sector
   localized_concepts:
     eng: 67231111-6fd9-5c3d-a58b-0fb01af27c23
   domains:
-    - concept_id: section-Part_and_zone_laminate_tables_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
-      ref_type: section
+  - concept_id: section-Part_and_zone_laminate_tables_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+    ref_type: section
 id: Part_and_zone_laminate_tables_arm.Sector
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply_piece,Ply_piece}} that represents the sector {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply_piece,Ply_piece}}
+      that represents the sector {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Sector** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply_piece,Ply_piece}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Course,Course}} that provides the order, path, and specifications of fiber placement in specific area of the ply_piece.
+  - content: A **Sector** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Ply_piece,Ply_piece}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Course,Course}}
+      that provides the order, path, and specifications of fiber placement in specific
+      area of the ply_piece.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
-          version: '6'
-      type: authoritative
-      id: Part_and_zone_laminate_tables_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Sector
+  - type: expression
+    normative_status: preferred
+    designation: Sector
   domain: 'application module: Part_and_zone_laminate_tables_arm'
   language_code: eng
   annotations: []

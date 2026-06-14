@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_analysis_arm.Physical_product_domain
   localized_concepts:
     eng: 5d00dbde-b49e-58ab-8c81-458922a3d58c
   domains:
-    - concept_id: section-Product_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-      ref_type: section
+  - concept_id: section-Product_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+    ref_type: section
 id: Product_analysis_arm.Physical_product_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}} that represents the physical product domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}
+      that represents the physical product domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_product_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}} that has an indefinite time dimension and that performs a number of activities during its life.
+  - content: A **Physical_product_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm.Temporal_spatial_domain,Temporal_spatial_domain}}
+      that has an indefinite time dimension and that performs a number of activities
+      during its life.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Product_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_product_domain
+  - type: expression
+    normative_status: preferred
+    designation: Physical_product_domain
   domain: 'application module: Product_analysis_arm'
   language_code: eng
   annotations: []

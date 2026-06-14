@@ -1,30 +1,33 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_mim.line_based_llai
   localized_concepts:
     eng: 78e4468e-b98c-5002-a981-1a697832649f
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_mim.line_based_llai
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}} that represents the line based llai {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}}
+      that represents the line based llai {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **line_based_llai** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Line_based_llai,Line_based_llai}}.
+  - content: A **line_based_llai** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim.limited_length_area_indicator,limited_length_area_indicator}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Line_based_llai,Line_based_llai}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: line_based_llai
+  - type: expression
+    normative_status: preferred
+    designation: line_based_llai
   domain: 'application module: Limited_length_or_area_indicator_assignment_mim'
   language_code: eng
   annotations: []

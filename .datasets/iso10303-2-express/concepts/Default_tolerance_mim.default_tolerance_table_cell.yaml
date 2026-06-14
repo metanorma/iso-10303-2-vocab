@@ -1,31 +1,34 @@
+---
 data:
   identifier: Default_tolerance_mim.default_tolerance_table_cell
   localized_concepts:
-    eng: 081b7ad4-7c3c-5a0f-9586-1081df61f837
+    eng: '081b7ad4-7c3c-5a0f-9586-1081df61f837'
   domains:
-    - concept_id: section-Default_tolerance_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim
-      ref_type: section
+  - concept_id: section-Default_tolerance_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim
+    ref_type: section
 id: Default_tolerance_mim.default_tolerance_table_cell
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the default tolerance table cell {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim.compound_representation_item,compound_representation_item}}
+      that represents the default tolerance table cell {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **default_tolerance_table_cell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that specifies one cell entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim.default_tolerance_table,default_tolerance_table}}.
+  - content: A **default_tolerance_table_cell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}}
+      that specifies one cell entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim.default_tolerance_table,default_tolerance_table}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim
-          version: '3'
-      type: authoritative
-      id: Default_tolerance_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: default_tolerance_table_cell
+  - type: expression
+    normative_status: preferred
+    designation: default_tolerance_table_cell
   domain: 'application module: Default_tolerance_mim'
   language_code: eng
   annotations: []
-id: 081b7ad4-7c3c-5a0f-9586-1081df61f837
+id: '081b7ad4-7c3c-5a0f-9586-1081df61f837'

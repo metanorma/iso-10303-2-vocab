@@ -1,30 +1,32 @@
+---
 data:
   identifier: Component_grouping_arm.Assembly_group_component
   localized_concepts:
     eng: e898738c-58f3-5a88-ba93-9c0472889488
   domains:
-    - concept_id: section-Component_grouping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
-      ref_type: section
+  - concept_id: section-Component_grouping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+    ref_type: section
 id: Component_grouping_arm.Assembly_group_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly group component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the assembly group component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_group_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Single_instance,Single_instance}}.
+  - content: An **Assembly_group_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Single_instance,Single_instance}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
-          version: '6'
-      type: authoritative
-      id: Component_grouping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_group_component
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_group_component
   domain: 'application module: Component_grouping_arm'
   language_code: eng
   annotations: []

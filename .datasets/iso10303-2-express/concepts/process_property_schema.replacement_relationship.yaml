@@ -1,30 +1,34 @@
+---
 data:
   identifier: process_property_schema.replacement_relationship
   localized_concepts:
     eng: 3da8e7ed-e38e-56e7-b8e9-b0e451bda9b8
   domains:
-    - concept_id: section-process_property_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-      ref_type: section
+  - concept_id: section-process_property_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+    ref_type: section
 id: process_property_schema.replacement_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that represents the replacement relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action_relationship,action_relationship}}
+      that represents the replacement relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.replacement_relationship,replacement_relationship}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}} that specifies that a *related_action* may replace the specified *relating_action*.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.replacement_relationship,replacement_relationship}}
+      is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationship}}
+      that specifies that a *related_action* may replace the specified *relating_action*.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-          version: '1'
-      type: authoritative
-      id: process_property_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: replacement_relationship
+  - type: expression
+    normative_status: preferred
+    designation: replacement_relationship
   domain: 'resource: process_property_schema'
   language_code: eng
   annotations: []

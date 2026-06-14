@@ -1,30 +1,34 @@
+---
 data:
   identifier: Edge_based_wireframe_arm.Edge_based_wireframe_shape_representation
   localized_concepts:
     eng: 6dcd14d0-88bf-595c-a30e-1b2e416d248e
   domains:
-    - concept_id: section-Edge_based_wireframe_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_wireframe_arm
-      ref_type: section
+  - concept_id: section-Edge_based_wireframe_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_wireframe_arm
+    ref_type: section
 id: Edge_based_wireframe_arm.Edge_based_wireframe_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the edge based wireframe shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_wireframe_arm.Geometric_model,Geometric_model}}
+      that represents the edge based wireframe shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Edge_based_wireframe_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents a three dimensional shape, or a portion of the shape, of a product by wireframes that are trimmed by edge topology.
+  - content: An **Edge_based_wireframe_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that represents a three dimensional shape, or a portion of the shape, of a product
+      by wireframes that are trimmed by edge topology.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_wireframe_arm
-          version: '1'
-      type: authoritative
-      id: Edge_based_wireframe_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_wireframe_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Edge_based_wireframe_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Edge_based_wireframe_shape_representation
   domain: 'application module: Edge_based_wireframe_arm'
   language_code: eng
   annotations: []

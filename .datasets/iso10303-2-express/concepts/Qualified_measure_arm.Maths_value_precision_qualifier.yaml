@@ -1,30 +1,33 @@
+---
 data:
   identifier: Qualified_measure_arm.Maths_value_precision_qualifier
   localized_concepts:
     eng: dce18813-f89b-5f9d-bb2d-f21ab688f42b
   domains:
-    - concept_id: section-Qualified_measure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-      ref_type: section
+  - concept_id: section-Qualified_measure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+    ref_type: section
 id: Qualified_measure_arm.Maths_value_precision_qualifier
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value precision qualifier {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths value precision qualifier {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Maths_value_precision_qualifier** is an expression that specifies the number of significant figures in the components of the representation of a value.
+  - content: A **Maths_value_precision_qualifier** is an expression that specifies
+      the number of significant figures in the components of the representation of
+      a value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-          version: '4'
-      type: authoritative
-      id: Qualified_measure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Maths_value_precision_qualifier
+  - type: expression
+    normative_status: preferred
+    designation: Maths_value_precision_qualifier
   domain: 'application module: Qualified_measure_arm'
   language_code: eng
   annotations: []

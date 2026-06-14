@@ -1,30 +1,32 @@
+---
 data:
   identifier: Numeric_expression_arm.Defined_function
   localized_concepts:
     eng: b6e1d3c5-339f-5014-a6db-15ebf1a56012
   domains:
-    - concept_id: section-Numeric_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-      ref_type: section
+  - concept_id: section-Numeric_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+    ref_type: section
 id: Numeric_expression_arm.Defined_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the defined function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the defined function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Defined_function** is a strongly typed function intended to be subtyped in the information models that use the {{iso13584_expressions_schema,iso13584_expressions_schema}}.
+  - content: A **Defined_function** is a strongly typed function intended to be subtyped
+      in the information models that use the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema,iso13584_expressions_schema}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-          version: '2'
-      type: authoritative
-      id: Numeric_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Defined_function
+  - type: expression
+    normative_status: preferred
+    designation: Defined_function
   domain: 'application module: Numeric_expression_arm'
   language_code: eng
   annotations: []

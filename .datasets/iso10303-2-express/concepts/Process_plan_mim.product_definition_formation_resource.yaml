@@ -1,30 +1,33 @@
+---
 data:
   identifier: Process_plan_mim.product_definition_formation_resource
   localized_concepts:
     eng: 7eec44c9-2cd0-5adb-accf-2100af21f31c
   domains:
-    - concept_id: section-Process_plan_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
-      ref_type: section
+  - concept_id: section-Process_plan_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+    ref_type: section
 id: Process_plan_mim.product_definition_formation_resource
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition formation resource {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product definition formation resource {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_formation_resource** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_resource,action_resource}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that specifies a tool that is used to perform a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}}.
+  - content: A **product_definition_formation_resource** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_resource,action_resource}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that specifies a tool that is used to perform a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
-          version: '4'
-      type: authoritative
-      id: Process_plan_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_formation_resource
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_formation_resource
   domain: 'application module: Process_plan_mim'
   language_code: eng
   annotations: []

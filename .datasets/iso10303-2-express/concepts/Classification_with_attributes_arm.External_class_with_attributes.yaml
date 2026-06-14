@@ -1,30 +1,33 @@
+---
 data:
   identifier: Classification_with_attributes_arm.External_class_with_attributes
   localized_concepts:
     eng: f1cb6bf6-f202-5c52-b6c7-193ad89b156f
   domains:
-    - concept_id: section-Classification_with_attributes_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
-      ref_type: section
+  - concept_id: section-Classification_with_attributes_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+    ref_type: section
 id: Classification_with_attributes_arm.External_class_with_attributes
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class_with_attributes,Class_with_attributes}} that represents the external class with attributes {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class_with_attributes,Class_with_attributes}}
+      that represents the external class with attributes {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **External_class_with_attributes** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class_with_attributes,Class_with_attributes}} that is defined in an external library.
+  - content: An **External_class_with_attributes** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm.Class_with_attributes,Class_with_attributes}}
+      that is defined in an external library.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
-          version: '7'
-      type: authoritative
-      id: Classification_with_attributes_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Classification_with_attributes_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: External_class_with_attributes
+  - type: expression
+    normative_status: preferred
+    designation: External_class_with_attributes
   domain: 'application module: Classification_with_attributes_arm'
   language_code: eng
   annotations: []

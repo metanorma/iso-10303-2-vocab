@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_structure_arm.Revolute_pair_with_range
   localized_concepts:
     eng: ff562873-e8ed-50ba-a023-1dcd1d7e43ed
   domains:
-    - concept_id: section-Kinematic_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-      ref_type: section
+  - concept_id: section-Kinematic_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+    ref_type: section
 id: Kinematic_structure_arm.Revolute_pair_with_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Revolute_pair,Revolute_pair}} that represents the revolute pair with range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Revolute_pair,Revolute_pair}}
+      that represents the revolute pair with range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Revolute_pair_with_range
+  - type: expression
+    normative_status: preferred
+    designation: Revolute_pair_with_range
   domain: 'application module: Kinematic_structure_arm'
   language_code: eng
   annotations: []

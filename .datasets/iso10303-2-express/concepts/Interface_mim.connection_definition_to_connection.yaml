@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interface_mim.connection_definition_to_connection
   localized_concepts:
     eng: 2b6a49e9-d4a3-5ccc-8ac5-42077f2d494f
   domains:
-    - concept_id: section-Interface_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
-      ref_type: section
+  - concept_id: section-Interface_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+    ref_type: section
 id: Interface_mim.connection_definition_to_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the connection definition to connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.group,group}}
+      that represents the connection definition to connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **connection_definition_to_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies that an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_connection,interface_connection}} is a realization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_definition_connection,interface_definition_connection}}.
+  - content: A **connection_definition_to_connection** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that identifies that an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_connection,interface_connection}}
+      is a realization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim.interface_definition_connection,interface_definition_connection}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
-          version: '5'
-      type: authoritative
-      id: Interface_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: connection_definition_to_connection
+  - type: expression
+    normative_status: preferred
+    designation: connection_definition_to_connection
   domain: 'application module: Interface_mim'
   language_code: eng
   annotations: []

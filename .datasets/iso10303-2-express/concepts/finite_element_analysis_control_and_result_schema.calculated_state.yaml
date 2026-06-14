@@ -1,30 +1,34 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.calculated_state
   localized_concepts:
     eng: a3ebaae6-c720-5f26-8277-fafc70dd0001
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.calculated_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}} that represents the calculated state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}}
+      that represents the calculated state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.calculated_state,calculated_state}} is some of the information for the state that is calculated by a previous analysis step.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.calculated_state,calculated_state}}
+      is some of the information for the state that is calculated by a previous analysis
+      step.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: calculated_state
+  - type: expression
+    normative_status: preferred
+    designation: calculated_state
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

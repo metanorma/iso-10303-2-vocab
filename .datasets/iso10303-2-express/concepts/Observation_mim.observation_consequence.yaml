@@ -1,30 +1,34 @@
+---
 data:
   identifier: Observation_mim.observation_consequence
   localized_concepts:
     eng: 3b8149c5-d102-53b1-816d-24d2731858f5
   domains:
-    - concept_id: section-Observation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
-      ref_type: section
+  - concept_id: section-Observation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
+    ref_type: section
 id: Observation_mim.observation_consequence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}} that represents the observation consequence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.applied_action_assignment,applied_action_assignment}}
+      that represents the observation consequence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **observation_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}} that links an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation,observation}} to the action that is requested as a consequence of that observation.
+  - content: An **observation_consequence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}}
+      that links an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation,observation}}
+      to the action that is requested as a consequence of that observation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
-          version: '3'
-      type: authoritative
-      id: Observation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: observation_consequence
+  - type: expression
+    normative_status: preferred
+    designation: observation_consequence
   domain: 'application module: Observation_mim'
   language_code: eng
   annotations: []

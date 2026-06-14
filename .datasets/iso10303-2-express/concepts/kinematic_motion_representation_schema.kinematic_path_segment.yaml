@@ -1,30 +1,32 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.kinematic_path_segment
   localized_concepts:
-    eng: 08864027-ce43-5cbe-9ac5-9ff22edfb34d
+    eng: '08864027-ce43-5cbe-9ac5-9ff22edfb34d'
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.kinematic_path_segment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the kinematic path segment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.founded_item,founded_item}}
+      that represents the kinematic path segment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: kinematic_path_segment
+  - type: expression
+    normative_status: preferred
+    designation: kinematic_path_segment
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []
-id: 08864027-ce43-5cbe-9ac5-9ff22edfb34d
+id: '08864027-ce43-5cbe-9ac5-9ff22edfb34d'

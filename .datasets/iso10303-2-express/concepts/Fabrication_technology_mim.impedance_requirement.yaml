@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fabrication_technology_mim.impedance_requirement
   localized_concepts:
     eng: 115a9b2f-d4f5-5453-839f-72f5da0d7cf3
   domains:
-    - concept_id: section-Fabrication_technology_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-      ref_type: section
+  - concept_id: section-Fabrication_technology_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+    ref_type: section
 id: Fabrication_technology_mim.impedance_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that represents the impedance requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}}
+      that represents the impedance requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **impedance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Impedance_requirement,Impedance_requirement}}.
+  - content: An **impedance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Impedance_requirement,Impedance_requirement}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: impedance_requirement
+  - type: expression
+    normative_status: preferred
+    designation: impedance_requirement
   domain: 'application module: Fabrication_technology_mim'
   language_code: eng
   annotations: []

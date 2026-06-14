@@ -1,30 +1,34 @@
+---
 data:
   identifier: Fabrication_technology_arm.Design_stack_model
   localized_concepts:
     eng: f760374c-1b2a-5756-a075-98c889d19f89
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Design_stack_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_stack_model,Stratum_stack_model}} that represents the design stack model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_stack_model,Stratum_stack_model}}
+      that represents the design stack model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Design_stack_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_stack_model,Stratum_stack_model}} that is included in a design to specify the set of laminate stackups used in the design of an interconnect.
+  - content: A **Design_stack_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_stack_model,Stratum_stack_model}}
+      that is included in a design to specify the set of laminate stackups used in
+      the design of an interconnect.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_stack_model
+  - type: expression
+    normative_status: preferred
+    designation: Design_stack_model
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Advanced_boundary_representation_arm.Oriented_closed_shell
   localized_concepts:
     eng: 83bfb729-04b3-55a2-861c-029fa38a3448
   domains:
-    - concept_id: section-Advanced_boundary_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
-      ref_type: section
+  - concept_id: section-Advanced_boundary_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
+    ref_type: section
 id: Advanced_boundary_representation_arm.Oriented_closed_shell
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}} that represents the oriented closed shell {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}
+      that represents the oriented closed shell {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Oriented_closed_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}} constructed by referencing another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}} and contains a BOOLEAN orientation flag to indicate whether or not the orientation of the constructed {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}} agrees with, or is opposite to, the orientation of the original {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}.
+  - content: An **Oriented_closed_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}
+      constructed by referencing another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}
+      and contains a BOOLEAN orientation flag to indicate whether or not the orientation
+      of the constructed {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}
+      agrees with, or is opposite to, the orientation of the original {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm.Closed_shell,Closed_shell}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
-          version: '5'
-      type: authoritative
-      id: Advanced_boundary_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Advanced_boundary_representation_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Oriented_closed_shell
+  - type: expression
+    normative_status: preferred
+    designation: Oriented_closed_shell
   domain: 'application module: Advanced_boundary_representation_arm'
   language_code: eng
   annotations: []

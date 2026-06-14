@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.padstack_occurrence_product_definition_relationship
   localized_concepts:
     eng: 6e5c1582-2d9e-5330-8945-efe6746c3e83
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.padstack_occurrence_product_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the padstack occurrence product definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the padstack occurrence product definition relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **padstack_occurrence_product_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim.next_assembly_usage_occurrence_relationship,next_assembly_usage_occurrence_relationship}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}.
+  - content: A **padstack_occurrence_product_definition_relationship** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim.next_assembly_usage_occurrence_relationship,next_assembly_usage_occurrence_relationship}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: padstack_occurrence_product_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: padstack_occurrence_product_definition_relationship
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

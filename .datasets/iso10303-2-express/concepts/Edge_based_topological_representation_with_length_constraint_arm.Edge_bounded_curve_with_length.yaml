@@ -1,30 +1,34 @@
+---
 data:
   identifier: Edge_based_topological_representation_with_length_constraint_arm.Edge_bounded_curve_with_length
   localized_concepts:
     eng: f446d029-6857-5740-9da8-2c1592c11838
   domains:
-    - concept_id: section-Edge_based_topological_representation_with_length_constraint_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
-      ref_type: section
+  - concept_id: section-Edge_based_topological_representation_with_length_constraint_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
+    ref_type: section
 id: Edge_based_topological_representation_with_length_constraint_arm.Edge_bounded_curve_with_length
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Edge_curve,Edge_curve}} that represents the edge bounded curve with length {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm.Edge_curve,Edge_curve}}
+      that represents the edge bounded curve with length {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Edge_bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Edge_curve,Edge_curve}} in which the **edge_start** and **edge_end** are of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Vertex_point,Vertex_point}} and the **edge_geometry** is of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm.Bounded_curve_with_length,Bounded_curve_with_length}}.
+  - content: An **Edge_bounded_curve_with_length** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Edge_curve,Edge_curve}}
+      in which the **edge_start** and **edge_end** are of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Vertex_point,Vertex_point}}
+      and the **edge_geometry** is of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm.Bounded_curve_with_length,Bounded_curve_with_length}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
-          version: '4'
-      type: authoritative
-      id: Edge_based_topological_representation_with_length_constraint_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Edge_bounded_curve_with_length
+  - type: expression
+    normative_status: preferred
+    designation: Edge_bounded_curve_with_length
   domain: 'application module: Edge_based_topological_representation_with_length_constraint_arm'
   language_code: eng
   annotations: []

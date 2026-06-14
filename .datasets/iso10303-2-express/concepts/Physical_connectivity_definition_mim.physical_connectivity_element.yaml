@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_connectivity_definition_mim.physical_connectivity_element
   localized_concepts:
     eng: 4cb5701f-c2f1-5a8e-87c9-1cce19ba9a32
   domains:
-    - concept_id: section-Physical_connectivity_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
-      ref_type: section
+  - concept_id: section-Physical_connectivity_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+    ref_type: section
 id: Physical_connectivity_definition_mim.physical_connectivity_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical connectivity element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_connectivity_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implement the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_element,Physical_connectivity_element}}.
+  - content: A **physical_connectivity_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implement the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_element,Physical_connectivity_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
-          version: '5'
-      type: authoritative
-      id: Physical_connectivity_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_connectivity_element
+  - type: expression
+    normative_status: preferred
+    designation: physical_connectivity_element
   domain: 'application module: Physical_connectivity_definition_mim'
   language_code: eng
   annotations: []

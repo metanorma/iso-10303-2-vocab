@@ -1,35 +1,37 @@
+---
 data:
   identifier: Non_feature_shape_element_mim.group_shape_aspect
   localized_concepts:
     eng: 504241f7-07ab-5383-9a98-f69a7b1feb81
   domains:
-    - concept_id: section-Non_feature_shape_element_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
-      ref_type: section
+  - concept_id: section-Non_feature_shape_element_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+    ref_type: section
 id: Non_feature_shape_element_mim.group_shape_aspect
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the group shape aspect {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim.shape_aspect,shape_aspect}}
+      that represents the group shape aspect {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **group_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of:
+  - content: |-
+      A **group_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Interconnect_module_constraint_region,Interconnect_module_constraint_region}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Placement_group_requirement_definition,Placement_group_requirement_definition}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Termination_constraint,Termination_constraint}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_placement_requirements_arm.Interconnect_module_constraint_region,Interconnect_module_constraint_region}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Placement_group_requirement_definition,Placement_group_requirement_definition}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Termination_constraint,Termination_constraint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
-          version: '5'
-      type: authoritative
-      id: Non_feature_shape_element_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: group_shape_aspect
+  - type: expression
+    normative_status: preferred
+    designation: group_shape_aspect
   domain: 'application module: Non_feature_shape_element_mim'
   language_code: eng
   annotations: []

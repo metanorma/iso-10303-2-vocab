@@ -1,30 +1,33 @@
+---
 data:
   identifier: Constructive_solid_geometry_2d_arm.Closed_curve_style_parameters
   localized_concepts:
     eng: 705d0d03-243d-57bb-8d3d-5a127f5409c4
   domains:
-    - concept_id: section-Constructive_solid_geometry_2d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-      ref_type: section
+  - concept_id: section-Constructive_solid_geometry_2d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+    ref_type: section
 id: Constructive_solid_geometry_2d_arm.Closed_curve_style_parameters
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Curve_style_parameters,Curve_style_parameters}} that represents the closed curve style parameters {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Curve_style_parameters,Curve_style_parameters}}
+      that represents the closed curve style parameters {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Closed_curve_style_parameters** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Curve_style_parameters,Curve_style_parameters}} that is intended to only be applied to a closed path.
+  - content: A **Closed_curve_style_parameters** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Curve_style_parameters,Curve_style_parameters}}
+      that is intended to only be applied to a closed path.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-          version: '6'
-      type: authoritative
-      id: Constructive_solid_geometry_2d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Closed_curve_style_parameters
+  - type: expression
+    normative_status: preferred
+    designation: Closed_curve_style_parameters
   domain: 'application module: Constructive_solid_geometry_2d_arm'
   language_code: eng
   annotations: []

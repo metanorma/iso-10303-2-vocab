@@ -1,30 +1,34 @@
+---
 data:
   identifier: Draughting_element_arm.Leader_directed_callout
   localized_concepts:
     eng: 05f071a5-6fde-5503-baf9-b557819f91eb
   domains:
-    - concept_id: section-Draughting_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+    ref_type: section
 id: Draughting_element_arm.Leader_directed_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}} that represents the leader directed callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}}
+      that represents the leader directed callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Leader_directed_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}} that is directed by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Leader,Leader}} curve.
+  - content: A **Leader_directed_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Draughting_callout,Draughting_callout}}
+      that is directed by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Leader,Leader}}
+      curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-          version: '6'
-      type: authoritative
-      id: Draughting_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Leader_directed_callout
+  - type: expression
+    normative_status: preferred
+    designation: Leader_directed_callout
   domain: 'application module: Draughting_element_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Layer_assignment_mim.rep_item_group
   localized_concepts:
     eng: ee147168-92d7-5536-acbb-63c2c26661c9
   domains:
-    - concept_id: section-Layer_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_mim
-      ref_type: section
+  - concept_id: section-Layer_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_mim
+    ref_type: section
 id: Layer_assignment_mim.rep_item_group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rep item group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rep item group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rep_item_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
+  - content: A **rep_item_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_mim
-          version: '3'
-      type: authoritative
-      id: Layer_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rep_item_group
+  - type: expression
+    normative_status: preferred
+    designation: rep_item_group
   domain: 'application module: Layer_assignment_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: aic_draughting_elements.leader_directed_dimension
   localized_concepts:
     eng: 2d98dacc-72b5-5671-8ea2-4cd80d4454c0
   domains:
-    - concept_id: section-aic_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+    ref_type: section
 id: aic_draughting_elements.leader_directed_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.leader_directed_callout,leader_directed_callout}} that represents the leader directed dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements.leader_directed_callout,leader_directed_callout}}
+      that represents the leader directed dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **leader_directed_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.leader_directed_callout,leader_directed_callout}} directed by a leader curve that presents some dimension value.
+  - content: A **leader_directed_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.leader_directed_callout,leader_directed_callout}}
+      directed by a leader curve that presents some dimension value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-          version: '2'
-      type: authoritative
-      id: aic_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: leader_directed_dimension
+  - type: expression
+    normative_status: preferred
+    designation: leader_directed_dimension
   domain: 'resource: aic_draughting_elements'
   language_code: eng
   annotations: []

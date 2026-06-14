@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_2d_shape_arm.Component_2d_stacked_location
   localized_concepts:
     eng: 7698a6a3-de95-5fb3-90fe-7bbd330e389f
   domains:
-    - concept_id: section-Assembly_2d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-      ref_type: section
+  - concept_id: section-Assembly_2d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+    ref_type: section
 id: Assembly_2d_shape_arm.Component_2d_stacked_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_design_view_arm.Component_2d_location,Component_2d_location}} that represents the component 2d stacked location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm.Component_2d_location,Component_2d_location}}
+      that represents the component 2d stacked location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_2d_stacked_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_design_view_arm.Component_2d_location,Component_2d_location}} where the components are vertically stacked.
+  - content: A **Component_2d_stacked_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_design_view_arm.Component_2d_location,Component_2d_location}}
+      where the components are vertically stacked.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_2d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_2d_stacked_location
+  - type: expression
+    normative_status: preferred
+    designation: Component_2d_stacked_location
   domain: 'application module: Assembly_2d_shape_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_geometry_arm.Ellipse
   localized_concepts:
     eng: 4b521b9b-5254-546d-880f-5f012102dc8c
   domains:
-    - concept_id: section-Basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+    ref_type: section
 id: Basic_geometry_arm.Ellipse
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} that represents the ellipse {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}}
+      that represents the ellipse {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Ellipse** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} which is a closed curve defined by the lengths of its two diameters.
+  - content: An **Ellipse** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}}
+      which is a closed curve defined by the lengths of its two diameters.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ellipse
+  - type: expression
+    normative_status: preferred
+    designation: Ellipse
   domain: 'application module: Basic_geometry_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Compound_shape_representation_arm.Compound_shape_representation
   localized_concepts:
     eng: 56af5430-9193-572a-94e9-19a469f168f8
   domains:
-    - concept_id: section-Compound_shape_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm
-      ref_type: section
+  - concept_id: section-Compound_shape_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm
+    ref_type: section
 id: Compound_shape_representation_arm.Compound_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the compound shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm.Geometric_model,Geometric_model}}
+      that represents the compound shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm
-          version: '2'
-      type: authoritative
-      id: Compound_shape_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Compound_shape_representation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Compound_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Compound_shape_representation
   domain: 'application module: Compound_shape_representation_arm'
   language_code: eng
   annotations: []

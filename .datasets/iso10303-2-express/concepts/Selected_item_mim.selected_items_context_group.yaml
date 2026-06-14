@@ -1,29 +1,31 @@
+---
 data:
   identifier: Selected_item_mim.selected_items_context_group
   localized_concepts:
     eng: 9fa6ed65-54db-5a8c-a781-28d834476fbd
   domains:
-    - concept_id: section-Selected_item_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-      ref_type: section
+  - concept_id: section-Selected_item_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+    ref_type: section
 id: Selected_item_mim.selected_items_context_group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the selected items context group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim.group,group}}
+      that represents the selected items context group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-          version: '2'
-      type: authoritative
-      id: Selected_item_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: selected_items_context_group
+  - type: expression
+    normative_status: preferred
+    designation: selected_items_context_group
   domain: 'application module: Selected_item_mim'
   language_code: eng
   annotations: []

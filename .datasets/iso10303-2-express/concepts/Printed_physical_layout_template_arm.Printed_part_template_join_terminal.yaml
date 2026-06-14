@@ -1,30 +1,34 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Printed_part_template_join_terminal
   localized_concepts:
     eng: b8ee2943-a5b1-5748-8e84-42f8b7927793
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Printed_part_template_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}} that represents the printed part template join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}}
+      that represents the printed part template join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Printed_part_template_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}} an occurrence of which provides access to the functionality of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}} from within a printed circuit board.
+  - content: A **Printed_part_template_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}}
+      an occurrence of which provides access to the functionality of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template,Printed_part_template}}
+      from within a printed circuit board.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Printed_part_template_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Printed_part_template_join_terminal
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []

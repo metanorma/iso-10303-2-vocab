@@ -1,30 +1,32 @@
+---
 data:
   identifier: management_resources_schema.attribute_value_role
   localized_concepts:
     eng: 062bf942-cc41-5ef7-8e12-ad8a275993f3
   domains:
-    - concept_id: section-management_resources_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-      ref_type: section
+  - concept_id: section-management_resources_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+    ref_type: section
 id: management_resources_schema.attribute_value_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the attribute value role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the attribute value role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **attribute_value_role** is a description of the purpose of an additional value assigned to an attribute of an entity.
+  - content: An **attribute_value_role** is a description of the purpose of an additional
+      value assigned to an attribute of an entity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
-          version: '8'
-      type: authoritative
-      id: management_resources_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: attribute_value_role
+  - type: expression
+    normative_status: preferred
+    designation: attribute_value_role
   domain: 'resource: management_resources_schema'
   language_code: eng
   annotations: []

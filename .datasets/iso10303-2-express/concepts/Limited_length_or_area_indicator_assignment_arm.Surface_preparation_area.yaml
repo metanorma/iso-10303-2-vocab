@@ -1,30 +1,37 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.Surface_preparation_area
   localized_concepts:
     eng: b3ebf342-2421-56b1-9bf1-e5986d0149b0
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.Surface_preparation_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the surface preparation area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that represents the surface preparation area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_preparation_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that is a specification or requirement defining a specific region of a part that describes surface preparation processes and attributes required locally to meet specific product and manufacturing information or processes, including, but not limited to, secondary bonding, electrical conductivity or grounding, mating condition requirements, or sacrificial machining.
+  - content: A **Surface_preparation_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that is a specification or requirement defining a specific region of a part
+      that describes surface preparation processes and attributes required locally
+      to meet specific product and manufacturing information or processes, including,
+      but not limited to, secondary bonding, electrical conductivity or grounding,
+      mating condition requirements, or sacrificial machining.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_preparation_area
+  - type: expression
+    normative_status: preferred
+    designation: Surface_preparation_area
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []

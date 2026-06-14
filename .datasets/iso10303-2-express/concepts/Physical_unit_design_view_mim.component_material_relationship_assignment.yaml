@@ -1,30 +1,32 @@
+---
 data:
   identifier: Physical_unit_design_view_mim.component_material_relationship_assignment
   localized_concepts:
     eng: 8c27b66f-97cb-5341-aaa7-070671f5ae85
   domains:
-    - concept_id: section-Physical_unit_design_view_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim
-      ref_type: section
+  - concept_id: section-Physical_unit_design_view_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim
+    ref_type: section
 id: Physical_unit_design_view_mim.component_material_relationship_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component material relationship assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component material relationship assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **component_material_relationship_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.role_association,role_association}}.
+  - content: A **component_material_relationship_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.group_assignment,group_assignment}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:basic_attribute_schema.role_association,role_association}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim
-          version: '5'
-      type: authoritative
-      id: Physical_unit_design_view_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_design_view_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: component_material_relationship_assignment
+  - type: expression
+    normative_status: preferred
+    designation: component_material_relationship_assignment
   domain: 'application module: Physical_unit_design_view_mim'
   language_code: eng
   annotations: []

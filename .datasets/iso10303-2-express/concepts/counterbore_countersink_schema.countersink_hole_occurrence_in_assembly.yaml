@@ -1,30 +1,33 @@
+---
 data:
   identifier: counterbore_countersink_schema.countersink_hole_occurrence_in_assembly
   localized_concepts:
     eng: eef26f20-431f-5a27-9b3e-34f0d0889c5c
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.countersink_hole_occurrence_in_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_occurrence,countersink_hole_occurrence}} that represents the countersink hole occurrence in assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_occurrence,countersink_hole_occurrence}}
+      that represents the countersink hole occurrence in assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **countersink_hole_occurrence_in_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_occurrence,countersink_hole_occurrence}} that is associated with a product definition that is an assembly.
+  - content: A **countersink_hole_occurrence_in_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.countersink_hole_occurrence,countersink_hole_occurrence}}
+      that is associated with a product definition that is an assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: countersink_hole_occurrence_in_assembly
+  - type: expression
+    normative_status: preferred
+    designation: countersink_hole_occurrence_in_assembly
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

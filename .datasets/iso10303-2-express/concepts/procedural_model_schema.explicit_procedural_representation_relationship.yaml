@@ -1,29 +1,31 @@
+---
 data:
   identifier: procedural_model_schema.explicit_procedural_representation_relationship
   localized_concepts:
     eng: 62118e5b-5b42-5213-a048-8bb35509de6b
   domains:
-    - concept_id: section-procedural_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-      ref_type: section
+  - concept_id: section-procedural_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+    ref_type: section
 id: procedural_model_schema.explicit_procedural_representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the explicit procedural representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.representation_relationship,representation_relationship}}
+      that represents the explicit procedural representation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-          version: '2'
-      type: authoritative
-      id: procedural_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: explicit_procedural_representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: explicit_procedural_representation_relationship
   domain: 'resource: procedural_model_schema'
   language_code: eng
   annotations: []

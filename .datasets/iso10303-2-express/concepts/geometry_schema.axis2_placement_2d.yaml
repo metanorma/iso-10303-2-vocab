@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.axis2_placement_2d
   localized_concepts:
     eng: b268da01-97d9-54e2-a535-fc7986ffe890
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.axis2_placement_2d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.placement,placement}} that represents the axis2 placement 2d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.placement,placement}}
+      that represents the axis2 placement 2d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **axis2_placement_2d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.placement,placement}} that represents the location and orientation in two-dimensional space of two mutually perpendicular axes.
+  - content: A **axis2_placement_2d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.placement,placement}}
+      that represents the location and orientation in two-dimensional space of two
+      mutually perpendicular axes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: axis2_placement_2d
+  - type: expression
+    normative_status: preferred
+    designation: axis2_placement_2d
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

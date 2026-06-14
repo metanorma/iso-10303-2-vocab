@@ -1,30 +1,35 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.item_link_motion_relationship
   localized_concepts:
     eng: 3d4d90e7-15d3-55e4-90b6-efef32661d38
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.item_link_motion_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.link_motion_relationship,link_motion_relationship}} that represents the item link motion relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.link_motion_relationship,link_motion_relationship}}
+      that represents the item link motion relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **item_link_motion_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.link_motion_relationship,link_motion_relationship}} where a praticular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} is selected.
+  - content: An **item_link_motion_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.link_motion_relationship,link_motion_relationship}}
+      where a praticular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      is selected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: item_link_motion_relationship
+  - type: expression
+    normative_status: preferred
+    designation: item_link_motion_relationship
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

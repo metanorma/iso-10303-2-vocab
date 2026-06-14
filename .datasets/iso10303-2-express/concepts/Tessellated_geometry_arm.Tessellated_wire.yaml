@@ -1,30 +1,34 @@
+---
 data:
   identifier: Tessellated_geometry_arm.Tessellated_wire
   localized_concepts:
     eng: 2ca8bc5c-a951-5bf8-a132-073b520cd01c
   domains:
-    - concept_id: section-Tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+    ref_type: section
 id: Tessellated_geometry_arm.Tessellated_wire
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that represents the tessellated wire {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}}
+      that represents the tessellated wire {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tessellated_wire** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that is a tessellated representation of a collection of bounded curves joined end to end.
+  - content: A **Tessellated_wire** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}}
+      that is a tessellated representation of a collection of bounded curves joined
+      end to end.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-          version: '3'
-      type: authoritative
-      id: Tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tessellated_wire
+  - type: expression
+    normative_status: preferred
+    designation: Tessellated_wire
   domain: 'application module: Tessellated_geometry_arm'
   language_code: eng
   annotations: []

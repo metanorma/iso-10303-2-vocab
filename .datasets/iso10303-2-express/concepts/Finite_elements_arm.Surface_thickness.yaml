@@ -1,30 +1,31 @@
+---
 data:
   identifier: Finite_elements_arm.Surface_thickness
   localized_concepts:
     eng: f8ccb330-bea2-5207-b5fd-7985fb16a0c0
   domains:
-    - concept_id: section-Finite_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-      ref_type: section
+  - concept_id: section-Finite_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+    ref_type: section
 id: Finite_elements_arm.Surface_thickness
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface thickness {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface thickness {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_thickness** is the thickness of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_element,Surface_element}}.
+  - content: A **Surface_thickness** is the thickness of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Surface_element,Surface_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-          version: '2'
-      type: authoritative
-      id: Finite_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_thickness
+  - type: expression
+    normative_status: preferred
+    designation: Surface_thickness
   domain: 'application module: Finite_elements_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Location_arm.Global_location_representation
   localized_concepts:
     eng: 79421762-ad12-5612-89c4-1e30eeb39e10
   domains:
-    - concept_id: section-Location_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-      ref_type: section
+  - concept_id: section-Location_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+    ref_type: section
 id: Location_arm.Global_location_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} that represents the global location representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}}
+      that represents the global location representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Global_location_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}} specified using geographic means in the global system and values, which could be physical or political geographic values.
+  - content: A **Global_location_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm.Location_representation,Location_representation}}
+      specified using geographic means in the global system and values, which could
+      be physical or political geographic values.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-          version: '2'
-      type: authoritative
-      id: Location_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Global_location_representation
+  - type: expression
+    normative_status: preferred
+    designation: Global_location_representation
   domain: 'application module: Location_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: date_time_schema.event_occurrence_role
   localized_concepts:
     eng: ac5a1dc7-9903-57ee-979e-bf126a72203a
   domains:
-    - concept_id: section-date_time_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-      ref_type: section
+  - concept_id: section-date_time_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+    ref_type: section
 id: date_time_schema.event_occurrence_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event occurrence role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the event occurrence role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **event_occurrence_role** establishes a role for an **event_occurrence**.
+  - content: An **event_occurrence_role** establishes a role for an **event_occurrence**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-          version: '8'
-      type: authoritative
-      id: date_time_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: event_occurrence_role
+  - type: expression
+    normative_status: preferred
+    designation: event_occurrence_role
   domain: 'resource: date_time_schema'
   language_code: eng
   annotations: []

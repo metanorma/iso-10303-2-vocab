@@ -1,30 +1,36 @@
+---
 data:
   identifier: Surface_visual_texture_arm.Styled_tessellated_face_or_surface_with_texture
   localized_concepts:
     eng: e1b79a76-ace4-55b2-a999-3718c8b40644
   domains:
-    - concept_id: section-Surface_visual_texture_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_visual_texture_arm
-      ref_type: section
+  - concept_id: section-Surface_visual_texture_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_visual_texture_arm
+    ref_type: section
 id: Surface_visual_texture_arm.Styled_tessellated_face_or_surface_with_texture
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}} that represents the styled tessellated face or surface with texture {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_visual_texture_arm.Styled_element,Styled_element}}
+      that represents the styled tessellated face or surface with texture {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Styled_tessellated_face_or_surface_with_texture** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}} that assigns a visual texture to a tessellated geometry, which may be either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_face,Tessellated_face}} or a collection of tessellated faces defined in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}} .
+  - content: A **Styled_tessellated_face_or_surface_with_texture** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Styled_element,Styled_element}}
+      that assigns a visual texture to a tessellated geometry, which may be either
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_face,Tessellated_face}}
+      or a collection of tessellated faces defined in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_surface_set,Tessellated_surface_set}}
+      .
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_visual_texture_arm
-          version: '2'
-      type: authoritative
-      id: Surface_visual_texture_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_visual_texture_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Styled_tessellated_face_or_surface_with_texture
+  - type: expression
+    normative_status: preferred
+    designation: Styled_tessellated_face_or_surface_with_texture
   domain: 'application module: Surface_visual_texture_arm'
   language_code: eng
   annotations: []

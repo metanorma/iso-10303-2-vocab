@@ -1,32 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.binary_numeric_expression
   localized_concepts:
     eng: 3b51b130-cf25-5587-8660-453486e64e2f
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.binary_numeric_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the binary numeric expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the binary numeric expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A *binary_numeric_expression* is a binary operator whose range is the NUMBER data type defined in
-        ISO 10303-11.
+  - content: |-
+      A *binary_numeric_expression* is a binary operator whose range is the NUMBER data type defined in
+      ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: binary_numeric_expression
+  - type: expression
+    normative_status: preferred
+    designation: binary_numeric_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

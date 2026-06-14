@@ -1,30 +1,34 @@
+---
 data:
   identifier: Dimension_tolerance_arm.Dimensional_location
   localized_concepts:
     eng: bcb88401-70c1-5c14-95fc-e4228a0fbd97
   domains:
-    - concept_id: section-Dimension_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-      ref_type: section
+  - concept_id: section-Dimension_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+    ref_type: section
 id: Dimension_tolerance_arm.Dimensional_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}} that represents the dimensional location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}}
+      that represents the dimensional location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Dimensional_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}} that represents the specification of the distance or angle that one feature is displaced from another feature.
+  - content: A **Dimensional_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension,Geometric_dimension}}
+      that represents the specification of the distance or angle that one feature
+      is displaced from another feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-          version: '8'
-      type: authoritative
-      id: Dimension_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dimensional_location
+  - type: expression
+    normative_status: preferred
+    designation: Dimensional_location
   domain: 'application module: Dimension_tolerance_arm'
   language_code: eng
   annotations: []

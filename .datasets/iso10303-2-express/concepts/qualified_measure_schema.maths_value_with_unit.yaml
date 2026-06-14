@@ -1,30 +1,32 @@
+---
 data:
   identifier: qualified_measure_schema.maths_value_with_unit
   localized_concepts:
     eng: 6ed7c90f-7093-5d23-8853-e48f5a5c454b
   domains:
-    - concept_id: section-qualified_measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-      ref_type: section
+  - concept_id: section-qualified_measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+    ref_type: section
 id: qualified_measure_schema.maths_value_with_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths value with unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths value with unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **maths_value_with_unit** is a quantitative value to be specified by mathematical function and to have the unit defined.
+  - content: A **maths_value_with_unit** is a quantitative value to be specified by
+      mathematical function and to have the unit defined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
-          version: '4'
-      type: authoritative
-      id: qualified_measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: maths_value_with_unit
+  - type: expression
+    normative_status: preferred
+    designation: maths_value_with_unit
   domain: 'resource: qualified_measure_schema'
   language_code: eng
   annotations: []

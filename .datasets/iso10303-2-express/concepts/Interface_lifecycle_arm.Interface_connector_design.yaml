@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interface_lifecycle_arm.Interface_connector_design
   localized_concepts:
     eng: 63f0257f-1397-5f03-b4ed-1fd2de21ba72
   domains:
-    - concept_id: section-Interface_lifecycle_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
-      ref_type: section
+  - concept_id: section-Interface_lifecycle_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+    ref_type: section
 id: Interface_lifecycle_arm.Interface_connector_design
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_version,Interface_connector_version}} that represents the interface connector design {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm.Interface_connector_version,Interface_connector_version}}
+      that represents the interface connector design {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_connector_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_version,Interface_connector_version}} that identifies a design version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector,Interface_connector}}.
+  - content: An **Interface_connector_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_version,Interface_connector_version}}
+      that identifies a design version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector,Interface_connector}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
-          version: '1'
-      type: authoritative
-      id: Interface_lifecycle_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_lifecycle_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_connector_design
+  - type: expression
+    normative_status: preferred
+    designation: Interface_connector_design
   domain: 'application module: Interface_lifecycle_arm'
   language_code: eng
   annotations: []

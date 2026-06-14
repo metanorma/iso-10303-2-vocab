@@ -1,30 +1,35 @@
+---
 data:
   identifier: Justification_mim.justification_assignment
   localized_concepts:
     eng: 381a5672-89eb-5cd3-b5db-4fe107c2f02d
   domains:
-    - concept_id: section-Justification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
-      ref_type: section
+  - concept_id: section-Justification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+    ref_type: section
 id: Justification_mim.justification_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the justification assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.group,group}}
+      that represents the justification assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **justification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that identifies the relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} categorized as a justification and the {{justification_item,justification_item}} for which it applies.
+  - content: A **justification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that identifies the relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}
+      categorized as a justification and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim.justification_item,justification_item}}
+      for which it applies.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
-          version: '2'
-      type: authoritative
-      id: Justification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Justification_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: justification_assignment
+  - type: expression
+    normative_status: preferred
+    designation: justification_assignment
   domain: 'application module: Justification_mim'
   language_code: eng
   annotations: []

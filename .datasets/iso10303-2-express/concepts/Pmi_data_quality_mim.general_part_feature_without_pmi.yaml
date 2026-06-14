@@ -1,30 +1,33 @@
+---
 data:
   identifier: Pmi_data_quality_mim.general_part_feature_without_pmi
   localized_concepts:
     eng: c6e5431c-f8f0-5db6-b1d4-fbd1c024c586
   domains:
-    - concept_id: section-Pmi_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+    ref_type: section
 id: Pmi_data_quality_mim.general_part_feature_without_pmi
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}} that represents the general part feature without pmi {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}}
+      that represents the general part feature without pmi {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **general_part_feature_without_pmi** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.General_part_feature_without_pmi,General_part_feature_without_pmi}}.
+  - content: A **general_part_feature_without_pmi** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.inapt_relation_of_pmi_and_feature,inapt_relation_of_pmi_and_feature}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.General_part_feature_without_pmi,General_part_feature_without_pmi}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: general_part_feature_without_pmi
+  - type: expression
+    normative_status: preferred
+    designation: general_part_feature_without_pmi
   domain: 'application module: Pmi_data_quality_mim'
   language_code: eng
   annotations: []

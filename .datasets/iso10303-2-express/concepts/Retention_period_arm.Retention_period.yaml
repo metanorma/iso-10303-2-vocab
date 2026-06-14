@@ -1,30 +1,32 @@
+---
 data:
   identifier: Retention_period_arm.Retention_period
   localized_concepts:
     eng: 4fb4a7ae-a639-53f8-b722-f2a38d4df48c
   domains:
-    - concept_id: section-Retention_period_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm
-      ref_type: section
+  - concept_id: section-Retention_period_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm
+    ref_type: section
 id: Retention_period_arm.Retention_period
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the retention period {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the retention period {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Retention_period** is the definition of a period of time that product data needs to be maintained due to organizational policy or legal requirements.
+  - content: A **Retention_period** is the definition of a period of time that product
+      data needs to be maintained due to organizational policy or legal requirements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm
-          version: '1'
-      type: authoritative
-      id: Retention_period_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Retention_period_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Retention_period
+  - type: expression
+    normative_status: preferred
+    designation: Retention_period
   domain: 'application module: Retention_period_arm'
   language_code: eng
   annotations: []

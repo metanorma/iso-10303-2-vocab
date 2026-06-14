@@ -1,31 +1,34 @@
+---
 data:
   identifier: iso13584_expressions_schema.unary_function_call
   localized_concepts:
-    eng: 0269d38d-4766-5519-a198-5e0e61b8151f
+    eng: '0269d38d-4766-5519-a198-5e0e61b8151f'
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.unary_function_call
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_numeric_expression,unary_numeric_expression}} that represents the unary function call {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_numeric_expression,unary_numeric_expression}}
+      that represents the unary function call {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *unary_function_call* is an unary operator on NUMBER data type defined in ISO 10303-11.
+  - content: An *unary_function_call* is an unary operator on NUMBER data type defined
+      in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: unary_function_call
+  - type: expression
+    normative_status: preferred
+    designation: unary_function_call
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []
-id: 0269d38d-4766-5519-a198-5e0e61b8151f
+id: '0269d38d-4766-5519-a198-5e0e61b8151f'

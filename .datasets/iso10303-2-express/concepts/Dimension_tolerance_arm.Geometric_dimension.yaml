@@ -1,30 +1,33 @@
+---
 data:
   identifier: Dimension_tolerance_arm.Geometric_dimension
   localized_concepts:
     eng: f9fc5ea3-639a-5c94-8b1a-fa7ab2ef8628
   domains:
-    - concept_id: section-Dimension_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-      ref_type: section
+  - concept_id: section-Dimension_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+    ref_type: section
 id: Dimension_tolerance_arm.Geometric_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometric dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the geometric dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometric_dimension** is the specification of size of an element of a shape, or a displacement of one shape element relative to another shape element.
+  - content: A **Geometric_dimension** is the specification of size of an element
+      of a shape, or a displacement of one shape element relative to another shape
+      element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-          version: '8'
-      type: authoritative
-      id: Dimension_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_dimension
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_dimension
   domain: 'application module: Dimension_tolerance_arm'
   language_code: eng
   annotations: []

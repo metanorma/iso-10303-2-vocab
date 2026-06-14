@@ -1,30 +1,33 @@
+---
 data:
   identifier: classification_schema.class_by_extension
   localized_concepts:
     eng: a7f903f2-0fdd-5c83-9f3a-3e6ca345fc82
   domains:
-    - concept_id: section-classification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-      ref_type: section
+  - concept_id: section-classification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+    ref_type: section
 id: classification_schema.class_by_extension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} that represents the class by extension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}
+      that represents the class by extension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **class_by_extension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} that is defined by enumerating all the members.
+  - content: A **class_by_extension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}
+      that is defined by enumerating all the members.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
-          version: '1'
-      type: authoritative
-      id: classification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_by_extension
+  - type: expression
+    normative_status: preferred
+    designation: class_by_extension
   domain: 'resource: classification_schema'
   language_code: eng
   annotations: []

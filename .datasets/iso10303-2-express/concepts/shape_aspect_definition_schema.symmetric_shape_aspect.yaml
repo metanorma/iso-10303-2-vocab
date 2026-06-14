@@ -1,30 +1,33 @@
+---
 data:
   identifier: shape_aspect_definition_schema.symmetric_shape_aspect
   localized_concepts:
     eng: 7b603bff-8dca-5dff-9c58-0dc5311ccff7
   domains:
-    - concept_id: section-shape_aspect_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-      ref_type: section
+  - concept_id: section-shape_aspect_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+    ref_type: section
 id: shape_aspect_definition_schema.symmetric_shape_aspect
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the symmetric shape aspect {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.shape_aspect,shape_aspect}}
+      that represents the symmetric shape aspect {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **symmetric_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} of a product that is symmetrical about a geometric element.
+  - content: A **symmetric_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      of a product that is symmetrical about a geometric element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
-          version: '7'
-      type: authoritative
-      id: shape_aspect_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: symmetric_shape_aspect
+  - type: expression
+    normative_status: preferred
+    designation: symmetric_shape_aspect
   domain: 'resource: shape_aspect_definition_schema'
   language_code: eng
   annotations: []

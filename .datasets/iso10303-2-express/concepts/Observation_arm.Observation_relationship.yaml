@@ -1,30 +1,31 @@
+---
 data:
   identifier: Observation_arm.Observation_relationship
   localized_concepts:
     eng: 0a5f5fee-3945-540b-a508-92c0b5e76af5
   domains:
-    - concept_id: section-Observation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
-      ref_type: section
+  - concept_id: section-Observation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
+    ref_type: section
 id: Observation_arm.Observation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the observation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the observation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Observation_relationship** is a relationship between two observations.
+  - content: An **Observation_relationship** is a relationship between two observations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
-          version: '3'
-      type: authoritative
-      id: Observation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Observation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Observation_relationship
   domain: 'application module: Observation_arm'
   language_code: eng
   annotations: []

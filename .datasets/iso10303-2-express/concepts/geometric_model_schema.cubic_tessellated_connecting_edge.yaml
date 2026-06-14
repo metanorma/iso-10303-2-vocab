@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.cubic_tessellated_connecting_edge
   localized_concepts:
     eng: f5e111a7-8e87-5abb-8d9e-9c651fa78fea
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.cubic_tessellated_connecting_edge
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_tessellated_edge,cubic_bezier_tessellated_edge}} that represents the cubic tessellated connecting edge {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_tessellated_edge,cubic_bezier_tessellated_edge}}
+      that represents the cubic tessellated connecting edge {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cubic_tessellated_connecting_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_tessellated_edge,cubic_bezier_tessellated_edge}} which takes the form of a cubic curve and connects two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_triangulated_face,cubic_bezier_triangulated_face}} instances.
+  - content: A **cubic_tessellated_connecting_edge** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_tessellated_edge,cubic_bezier_tessellated_edge}}
+      which takes the form of a cubic curve and connects two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.cubic_bezier_triangulated_face,cubic_bezier_triangulated_face}}
+      instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cubic_tessellated_connecting_edge
+  - type: expression
+    normative_status: preferred
+    designation: cubic_tessellated_connecting_edge
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

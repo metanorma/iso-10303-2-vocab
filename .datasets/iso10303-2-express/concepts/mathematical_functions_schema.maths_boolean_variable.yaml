@@ -1,30 +1,33 @@
+---
 data:
   identifier: mathematical_functions_schema.maths_boolean_variable
   localized_concepts:
     eng: f59c9fa1-bb9c-5ce9-8505-54adb7ca7ddb
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.maths_boolean_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the maths boolean variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the maths boolean variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_variable,maths_variable}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.boolean_variable,boolean_variable}} makes a convenient representation for variables ranging over the booleans.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.maths_variable,maths_variable}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.boolean_variable,boolean_variable}}
+      makes a convenient representation for variables ranging over the booleans.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: maths_boolean_variable
+  - type: expression
+    normative_status: preferred
+    designation: maths_boolean_variable
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

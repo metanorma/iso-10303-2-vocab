@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_unit_arm.External_context_dependent_unit
   localized_concepts:
     eng: 97b405e5-9c35-596e-8107-48981c0e96a8
   domains:
-    - concept_id: section-External_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm
-      ref_type: section
+  - concept_id: section-External_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm
+    ref_type: section
 id: External_unit_arm.External_context_dependent_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Context_dependent_unit,Context_dependent_unit}} that represents the external context dependent unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm.Context_dependent_unit,Context_dependent_unit}}
+      that represents the external context dependent unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **External_context_dependent_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Context_dependent_unit,Context_dependent_unit}} whose meaning is defined in an external library.
+  - content: An **External_context_dependent_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Context_dependent_unit,Context_dependent_unit}}
+      whose meaning is defined in an external library.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm
-          version: '2'
-      type: authoritative
-      id: External_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_unit_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: External_context_dependent_unit
+  - type: expression
+    normative_status: preferred
+    designation: External_context_dependent_unit
   domain: 'application module: External_unit_arm'
   language_code: eng
   annotations: []

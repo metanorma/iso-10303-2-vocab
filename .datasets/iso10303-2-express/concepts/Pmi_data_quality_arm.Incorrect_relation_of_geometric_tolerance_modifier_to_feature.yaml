@@ -1,29 +1,32 @@
+---
 data:
   identifier: Pmi_data_quality_arm.Incorrect_relation_of_geometric_tolerance_modifier_to_feature
   localized_concepts:
     eng: 49d19a95-f7d7-5241-b5dc-069429e7b16b
   domains:
-    - concept_id: section-Pmi_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+    ref_type: section
 id: Pmi_data_quality_arm.Incorrect_relation_of_geometric_tolerance_modifier_to_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}} that represents the incorrect relation of geometric tolerance modifier to feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.Erroneous_relation_of_pmi_and_feature,Erroneous_relation_of_pmi_and_feature}}
+      that represents the incorrect relation of geometric tolerance modifier to feature
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Incorrect_relation_of_geometric_tolerance_modifier_to_feature
+  - type: expression
+    normative_status: preferred
+    designation: Incorrect_relation_of_geometric_tolerance_modifier_to_feature
   domain: 'application module: Pmi_data_quality_arm'
   language_code: eng
   annotations: []

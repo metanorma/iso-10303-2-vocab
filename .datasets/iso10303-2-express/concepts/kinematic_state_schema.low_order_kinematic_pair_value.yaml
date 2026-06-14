@@ -1,31 +1,34 @@
+---
 data:
   identifier: kinematic_state_schema.low_order_kinematic_pair_value
   localized_concepts:
-    eng: 0486194a-fd08-5c2f-83fc-3410d98f89ce
+    eng: '0486194a-fd08-5c2f-83fc-3410d98f89ce'
   domains:
-    - concept_id: section-kinematic_state_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-      ref_type: section
+  - concept_id: section-kinematic_state_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+    ref_type: section
 id: kinematic_state_schema.low_order_kinematic_pair_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}} that represents the low order kinematic pair value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}}
+      that represents the low order kinematic pair value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **low_order_kinematic_pair_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}} that specifies the set of pair parameters for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.low_order_kinematic_pair,low_order_kinematic_pair}}.
+  - content: A **low_order_kinematic_pair_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.pair_value,pair_value}}
+      that specifies the set of pair parameters for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.low_order_kinematic_pair,low_order_kinematic_pair}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_state_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: low_order_kinematic_pair_value
+  - type: expression
+    normative_status: preferred
+    designation: low_order_kinematic_pair_value
   domain: 'resource: kinematic_state_schema'
   language_code: eng
   annotations: []
-id: 0486194a-fd08-5c2f-83fc-3410d98f89ce
+id: '0486194a-fd08-5c2f-83fc-3410d98f89ce'

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.General_shape_profile
   localized_concepts:
     eng: ed1aae36-e71a-571d-82bf-3b169fe17002
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.General_shape_profile
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}} that represents the general shape profile {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}}
+      that represents the general shape profile {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **General_shape_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}} that is a volume of arbitrary shape which defines a portion of the part.
+  - content: A **General_shape_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}}
+      that is a volume of arbitrary shape which defines a portion of the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: General_shape_profile
+  - type: expression
+    normative_status: preferred
+    designation: General_shape_profile
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

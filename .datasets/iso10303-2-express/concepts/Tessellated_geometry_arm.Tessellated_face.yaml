@@ -1,30 +1,33 @@
+---
 data:
   identifier: Tessellated_geometry_arm.Tessellated_face
   localized_concepts:
     eng: d3e5884e-b5cb-525b-b175-77bff7f3c93d
   domains:
-    - concept_id: section-Tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+    ref_type: section
 id: Tessellated_geometry_arm.Tessellated_face
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}} that represents the tessellated face {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}}
+      that represents the tessellated face {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tessellated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}} that represents a face of a tessellated model.
+  - content: A **Tessellated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_structured_item,Tessellated_structured_item}}
+      that represents a face of a tessellated model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-          version: '3'
-      type: authoritative
-      id: Tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tessellated_face
+  - type: expression
+    normative_status: preferred
+    designation: Tessellated_face
   domain: 'application module: Tessellated_geometry_arm'
   language_code: eng
   annotations: []

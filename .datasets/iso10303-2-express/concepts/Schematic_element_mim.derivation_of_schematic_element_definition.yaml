@@ -1,29 +1,31 @@
+---
 data:
   identifier: Schematic_element_mim.derivation_of_schematic_element_definition
   localized_concepts:
     eng: d3f0b791-814a-58d6-b215-bc11fe65af6f
   domains:
-    - concept_id: section-Schematic_element_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_mim
-      ref_type: section
+  - concept_id: section-Schematic_element_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_mim
+    ref_type: section
 id: Schematic_element_mim.derivation_of_schematic_element_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that represents the derivation of schematic element definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_mim.mapped_item,mapped_item}}
+      that represents the derivation of schematic element definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_mim
-          version: '1'
-      type: authoritative
-      id: Schematic_element_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: derivation_of_schematic_element_definition
+  - type: expression
+    normative_status: preferred
+    designation: derivation_of_schematic_element_definition
   domain: 'application module: Schematic_element_mim'
   language_code: eng
   annotations: []

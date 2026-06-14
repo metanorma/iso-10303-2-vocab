@@ -1,29 +1,31 @@
+---
 data:
   identifier: Document_assignment_mim.document_product_equivalence
   localized_concepts:
     eng: 146e25cd-f489-5e99-b536-8e43e1535974
   domains:
-    - concept_id: section-Document_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim
-      ref_type: section
+  - concept_id: section-Document_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim
+    ref_type: section
 id: Document_assignment_mim.document_product_equivalence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document_product_association,document_product_association}} that represents the document product equivalence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim.document_product_association,document_product_association}}
+      that represents the document product equivalence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim
-          version: '4'
-      type: authoritative
-      id: Document_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: document_product_equivalence
+  - type: expression
+    normative_status: preferred
+    designation: document_product_equivalence
   domain: 'application module: Document_assignment_mim'
   language_code: eng
   annotations: []

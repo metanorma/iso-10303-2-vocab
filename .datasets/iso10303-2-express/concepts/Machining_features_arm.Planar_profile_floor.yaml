@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Planar_profile_floor
   localized_concepts:
     eng: f9a954a1-3085-562e-99ce-699f2eb80712
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Planar_profile_floor
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Profile_floor,Profile_floor}} that represents the planar profile floor {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Profile_floor,Profile_floor}}
+      that represents the planar profile floor {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Planar_profile_floor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Profile_floor,Profile_floor}} that characterizes the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}} feature which is flat.
+  - content: A **Planar_profile_floor** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Profile_floor,Profile_floor}}
+      that characterizes the bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Shape_profile,Shape_profile}}
+      feature which is flat.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Planar_profile_floor
+  - type: expression
+    normative_status: preferred
+    designation: Planar_profile_floor
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_gap_in_triangulated_face
   localized_concepts:
     eng: ad95ea4e-18bc-5821-a893-bc5bb0fcd26e
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_gap_in_triangulated_face
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the tsdq positive length measure for gap in triangulated face {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the tsdq positive length measure for gap in triangulated face
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tsdq_positive_length_measure_for_gap_in_triangulated_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{offset_radius,offset_radius}} for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.gap_in_triangulated_face,gap_in_triangulated_face}}.
+  - content: A **tsdq_positive_length_measure_for_gap_in_triangulated_face** is a
+      type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.gap_in_triangulated_face.offset_radius,offset_radius}}
+      for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.gap_in_triangulated_face,gap_in_triangulated_face}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tsdq_positive_length_measure_for_gap_in_triangulated_face
+  - type: expression
+    normative_status: preferred
+    designation: tsdq_positive_length_measure_for_gap_in_triangulated_face
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

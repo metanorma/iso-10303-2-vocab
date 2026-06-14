@@ -1,36 +1,37 @@
+---
 data:
   identifier: Set_theory_arm.Union
   localized_concepts:
     eng: d58e21f0-30a9-5d30-8755-2a1c4a94cd4c
   domains:
-    - concept_id: section-Set_theory_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-      ref_type: section
+  - concept_id: section-Set_theory_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+    ref_type: section
 id: Set_theory_arm.Union
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the union {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the union {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Union** is a relationship that is between:
+  - content: |-
+      A **Union** is a relationship that is between:
 
-        * set R;
-        * and set of sets {stem:[S_i]},
+      * set R;
+      * and set of sets {stem:[S_i]},
 
-        that indicates set R consists of each thing that is a member of any set within {stem:[S_i]}.
+      that indicates set R consists of each thing that is a member of any set within {stem:[S_i]}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-          version: '1'
-      type: authoritative
-      id: Set_theory_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Union
+  - type: expression
+    normative_status: preferred
+    designation: Union
   domain: 'application module: Set_theory_arm'
   language_code: eng
   annotations: []

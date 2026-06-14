@@ -1,29 +1,31 @@
+---
 data:
   identifier: Individual_activity_arm.Individual_activity
   localized_concepts:
     eng: 9110970f-73be-5252-b0b3-3b48813738c9
   domains:
-    - concept_id: section-Individual_activity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_activity_arm
-      ref_type: section
+  - concept_id: section-Individual_activity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_activity_arm
+    ref_type: section
 id: Individual_activity_arm.Individual_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_arm.Activity,Activity}} that represents the individual activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_activity_arm.Activity,Activity}}
+      that represents the individual activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_activity_arm
-          version: '1'
-      type: authoritative
-      id: Individual_activity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Individual_activity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Individual_activity
+  - type: expression
+    normative_status: preferred
+    designation: Individual_activity
   domain: 'application module: Individual_activity_arm'
   language_code: eng
   annotations: []

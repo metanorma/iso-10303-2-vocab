@@ -1,30 +1,34 @@
+---
 data:
   identifier: Curve_appearance_mim.pre_defined_point_marker_symbol
   localized_concepts:
     eng: cbe4ed1e-002d-5e5b-9512-220cea8a074c
   domains:
-    - concept_id: section-Curve_appearance_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
-      ref_type: section
+  - concept_id: section-Curve_appearance_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+    ref_type: section
 id: Curve_appearance_mim.pre_defined_point_marker_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the pre defined point marker symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the pre defined point marker symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **pre_defined_point_marker_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.pre_defined_marker,pre_defined_marker}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}} with a shape that is either an asterisk, circle, dot, plus, square, triangle or "x".
+  - content: A **pre_defined_point_marker_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.pre_defined_marker,pre_defined_marker}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.pre_defined_symbol,pre_defined_symbol}}
+      with a shape that is either an asterisk, circle, dot, plus, square, triangle
+      or "x".
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
-          version: '6'
-      type: authoritative
-      id: Curve_appearance_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Curve_appearance_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pre_defined_point_marker_symbol
+  - type: expression
+    normative_status: preferred
+    designation: pre_defined_point_marker_symbol
   domain: 'application module: Curve_appearance_mim'
   language_code: eng
   annotations: []

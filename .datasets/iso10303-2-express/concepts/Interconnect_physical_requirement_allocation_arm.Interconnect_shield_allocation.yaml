@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interconnect_physical_requirement_allocation_arm.Interconnect_shield_allocation
   localized_concepts:
     eng: df6697bf-42e1-5260-a5f1-0cf6bf32749d
   domains:
-    - concept_id: section-Interconnect_physical_requirement_allocation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
-      ref_type: section
+  - concept_id: section-Interconnect_physical_requirement_allocation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+    ref_type: section
 id: Interconnect_physical_requirement_allocation_arm.Interconnect_shield_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that represents the interconnect shield allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm.Requirement_assignment,Requirement_assignment}}
+      that represents the interconnect shield allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interconnect_shield_allocation** is a type of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}} that relates an item (usually metallic) in the design that provides a shielding role, and specifies the requirement for shielding.
+  - content: An **Interconnect_shield_allocation** is a type of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_assignment_arm.Requirement_assignment,Requirement_assignment}}
+      that relates an item (usually metallic) in the design that provides a shielding
+      role, and specifies the requirement for shielding.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_physical_requirement_allocation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_physical_requirement_allocation_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_shield_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_shield_allocation
   domain: 'application module: Interconnect_physical_requirement_allocation_arm'
   language_code: eng
   annotations: []

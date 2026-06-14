@@ -1,30 +1,33 @@
+---
 data:
   identifier: Person_organization_assignment_arm.Organization_or_person_in_organization_assignment
   localized_concepts:
     eng: db4ba0fd-43a0-5633-acd8-f1e1bb6d5679
   domains:
-    - concept_id: section-Person_organization_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm
-      ref_type: section
+  - concept_id: section-Person_organization_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm
+    ref_type: section
 id: Person_organization_assignment_arm.Organization_or_person_in_organization_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the organization or person in organization assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the organization or person in organization assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Organization_or_person_in_organization_assignment** is an association of an organization or a person in an organization with activity or product data.
+  - content: An **Organization_or_person_in_organization_assignment** is an association
+      of an organization or a person in an organization with activity or product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm
-          version: '2'
-      type: authoritative
-      id: Person_organization_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Person_organization_assignment_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Organization_or_person_in_organization_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Organization_or_person_in_organization_assignment
   domain: 'application module: Person_organization_assignment_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Colour_arm.Colour
   localized_concepts:
     eng: 48e8783b-65db-595d-a4b0-5f66b7cc30d0
   domains:
-    - concept_id: section-Colour_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
-      ref_type: section
+  - concept_id: section-Colour_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+    ref_type: section
 id: Colour_arm.Colour
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the colour {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the colour {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Colour** is a name for a property of reflecting light at a particular wavelength.
+  - content: A **Colour** is a name for a property of reflecting light at a particular
+      wavelength.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
-          version: '3'
-      type: authoritative
-      id: Colour_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Colour
+  - type: expression
+    normative_status: preferred
+    designation: Colour
   domain: 'application module: Colour_arm'
   language_code: eng
   annotations: []

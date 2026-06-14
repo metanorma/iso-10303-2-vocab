@@ -1,35 +1,36 @@
+---
 data:
   identifier: geometric_model_schema.tessellated_vertex_point
   localized_concepts:
     eng: 2a15b546-e4db-5af2-a797-c9571b9c4a0b
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.tessellated_vertex_point
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tessellated vertex point {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tessellated vertex point {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **tessellated_vertex_point** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that is a tessellated form of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}, but is not a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}, for use in
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_brep_shape_representation,tessellated_brep_shape_representation}} instances.
+  - content: |-
+      A **tessellated_vertex_point** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that is a tessellated form of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}, but is not a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex_point,vertex_point}}, for use in
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.tessellated_brep_shape_representation,tessellated_brep_shape_representation}} instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tessellated_vertex_point
+  - type: expression
+    normative_status: preferred
+    designation: tessellated_vertex_point
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Textual_expression_representation_mim.text_based_representation
   localized_concepts:
     eng: 69b5cdad-24d5-5b76-bf73-a646d283199d
   domains:
-    - concept_id: section-Textual_expression_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
-      ref_type: section
+  - concept_id: section-Textual_expression_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+    ref_type: section
 id: Textual_expression_representation_mim.text_based_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the text based representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim.representation,representation}}
+      that represents the text based representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **text_based_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} where the representation is textual in character.
+  - content: A **text_based_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      where the representation is textual in character.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
-          version: '1'
-      type: authoritative
-      id: Textual_expression_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: text_based_representation
+  - type: expression
+    normative_status: preferred
+    designation: text_based_representation
   domain: 'application module: Textual_expression_representation_mim'
   language_code: eng
   annotations: []

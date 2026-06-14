@@ -1,30 +1,34 @@
+---
 data:
   identifier: Constructive_solid_geometry_2d_arm.Boolean_result_2d
   localized_concepts:
     eng: 1b4aef61-1296-5c09-bfbe-7f7cec7b0490
   domains:
-    - concept_id: section-Constructive_solid_geometry_2d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-      ref_type: section
+  - concept_id: section-Constructive_solid_geometry_2d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+    ref_type: section
 id: Constructive_solid_geometry_2d_arm.Boolean_result_2d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the boolean result 2d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the boolean result 2d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Boolean_result_2d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the output of a Boolean operation performed on a two-dimensional element.
+  - content: A **Boolean_result_2d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the output of a Boolean operation performed on a two-dimensional
+      element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-          version: '6'
-      type: authoritative
-      id: Constructive_solid_geometry_2d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Boolean_result_2d
+  - type: expression
+    normative_status: preferred
+    designation: Boolean_result_2d
   domain: 'application module: Constructive_solid_geometry_2d_arm'
   language_code: eng
   annotations: []

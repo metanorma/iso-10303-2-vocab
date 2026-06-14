@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_conditions_arm.Mbna_condition
   localized_concepts:
     eng: bf01051b-08f0-56cd-a440-fd3e393e4033
   domains:
-    - concept_id: section-Cfd_conditions_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-      ref_type: section
+  - concept_id: section-Cfd_conditions_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+    ref_type: section
 id: Cfd_conditions_arm.Mbna_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_state_domain,Model_state_domain}} that represents the mbna condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Model_state_domain,Model_state_domain}}
+      that represents the mbna condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_state_domain,Model_state_domain}} that represents the concept of conditions or constraints pertinent to an analysis.
+  - content: A **Mbna_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_state_domain,Model_state_domain}}
+      that represents the concept of conditions or constraints pertinent to an analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_conditions_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_condition
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_condition
   domain: 'application module: Cfd_conditions_arm'
   language_code: eng
   annotations: []

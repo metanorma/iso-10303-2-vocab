@@ -1,29 +1,31 @@
+---
 data:
   identifier: Numeric_expression_arm.Mod_expression
   localized_concepts:
     eng: b132772e-ea70-5c36-9a5e-a8aeef863790
   domains:
-    - concept_id: section-Numeric_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-      ref_type: section
+  - concept_id: section-Numeric_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+    ref_type: section
 id: Numeric_expression_arm.Mod_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Binary_numeric_expression,Binary_numeric_expression}} that represents the mod expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Binary_numeric_expression,Binary_numeric_expression}}
+      that represents the mod expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-          version: '2'
-      type: authoritative
-      id: Numeric_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mod_expression
+  - type: expression
+    normative_status: preferred
+    designation: Mod_expression
   domain: 'application module: Numeric_expression_arm'
   language_code: eng
   annotations: []

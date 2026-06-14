@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_module_with_cable_component_3d_arm.Routed_cable_component_3d_shape_model
   localized_concepts:
     eng: a0ed2307-08fe-5a9a-af54-7f2ff3c1dac0
   domains:
-    - concept_id: section-Assembly_module_with_cable_component_3d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_cable_component_3d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
+    ref_type: section
 id: Assembly_module_with_cable_component_3d_arm.Routed_cable_component_3d_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_design_view_arm.Assembly_component_3d_shape_model,Assembly_component_3d_shape_model}} that represents the routed cable component 3d shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm.Assembly_component_3d_shape_model,Assembly_component_3d_shape_model}}
+      that represents the routed cable component 3d shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_module_with_cable_component_3d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Routed_cable_component_3d_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Routed_cable_component_3d_shape_model
   domain: 'application module: Assembly_module_with_cable_component_3d_arm'
   language_code: eng
   annotations: []

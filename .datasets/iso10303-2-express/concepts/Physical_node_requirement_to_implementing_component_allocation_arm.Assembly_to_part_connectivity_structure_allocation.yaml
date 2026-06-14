@@ -1,30 +1,32 @@
+---
 data:
   identifier: Physical_node_requirement_to_implementing_component_allocation_arm.Assembly_to_part_connectivity_structure_allocation
   localized_concepts:
     eng: ece9bc69-c8be-54d4-9436-4f403e35a5ee
   domains:
-    - concept_id: section-Physical_node_requirement_to_implementing_component_allocation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_arm
-      ref_type: section
+  - concept_id: section-Physical_node_requirement_to_implementing_component_allocation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_arm
+    ref_type: section
 id: Physical_node_requirement_to_implementing_component_allocation_arm.Assembly_to_part_connectivity_structure_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the assembly to part connectivity structure allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the assembly to part connectivity structure allocation
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_to_part_connectivity_structure_allocation** is an ..
+  - content: An **Assembly_to_part_connectivity_structure_allocation** is an ..
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_arm
-          version: '4'
-      type: authoritative
-      id: Physical_node_requirement_to_implementing_component_allocation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_to_part_connectivity_structure_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_to_part_connectivity_structure_allocation
   domain: 'application module: Physical_node_requirement_to_implementing_component_allocation_arm'
   language_code: eng
   annotations: []

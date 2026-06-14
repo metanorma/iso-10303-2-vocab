@@ -1,30 +1,36 @@
+---
 data:
   identifier: Geometric_tolerance_arm.Group_geometric_tolerance_with_datum_system_reference
   localized_concepts:
     eng: 26127ebf-4035-5ae6-93bc-98a0bebdabe9
   domains:
-    - concept_id: section-Geometric_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-      ref_type: section
+  - concept_id: section-Geometric_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+    ref_type: section
 id: Geometric_tolerance_arm.Group_geometric_tolerance_with_datum_system_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the group geometric tolerance with datum system reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that represents the group geometric tolerance with datum system reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Group_geometric_tolerance_with_datum_system_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that specifies one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Datum_system_for_composite_group_element,Datum_system_for_composite_group_element}} where each {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Datum_system_for_composite_group_element,Datum_system_for_composite_group_element}} provides an explicit model coordinate system.
+  - content: A **Group_geometric_tolerance_with_datum_system_reference** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that specifies one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Datum_system_for_composite_group_element,Datum_system_for_composite_group_element}}
+      where each {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Datum_system_for_composite_group_element,Datum_system_for_composite_group_element}}
+      provides an explicit model coordinate system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-          version: '10'
-      type: authoritative
-      id: Geometric_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Group_geometric_tolerance_with_datum_system_reference
+  - type: expression
+    normative_status: preferred
+    designation: Group_geometric_tolerance_with_datum_system_reference
   domain: 'application module: Geometric_tolerance_arm'
   language_code: eng
   annotations: []

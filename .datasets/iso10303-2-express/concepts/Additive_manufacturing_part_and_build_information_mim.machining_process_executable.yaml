@@ -1,30 +1,33 @@
+---
 data:
   identifier: Additive_manufacturing_part_and_build_information_mim.machining_process_executable
   localized_concepts:
     eng: ce65cd58-638f-5fa1-bd65-49e91c87f104
   domains:
-    - concept_id: section-Additive_manufacturing_part_and_build_information_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-      ref_type: section
+  - concept_id: section-Additive_manufacturing_part_and_build_information_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+    ref_type: section
 id: Additive_manufacturing_part_and_build_information_mim.machining_process_executable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}} that represents the machining process executable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.process_operation,process_operation}}
+      that represents the machining process executable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **machining_process_executable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}} that represents an executable step in a process.
+  - content: A **machining_process_executable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_mim.process_operation,process_operation}}
+      that represents an executable step in a process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-          version: '2'
-      type: authoritative
-      id: Additive_manufacturing_part_and_build_information_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: machining_process_executable
+  - type: expression
+    normative_status: preferred
+    designation: machining_process_executable
   domain: 'application module: Additive_manufacturing_part_and_build_information_mim'
   language_code: eng
   annotations: []

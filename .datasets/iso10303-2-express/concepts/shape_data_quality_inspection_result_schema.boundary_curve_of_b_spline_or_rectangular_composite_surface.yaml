@@ -1,32 +1,35 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.boundary_curve_of_b_spline_or_rectangular_composite_surface
   localized_concepts:
     eng: dc9276f2-ceae-58b2-82f0-ef827569ed1f
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.boundary_curve_of_b_spline_or_rectangular_composite_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the boundary curve of b spline or rectangular composite surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.founded_item,founded_item}}
+      that represents the boundary curve of b spline or rectangular composite surface
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **boundary_curve_of_b_spline_or_rectangular_composite_surface**
-        is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents a location by specifying a boundary of the parametric space of the identified surface.
+  - content: |-
+      A **boundary_curve_of_b_spline_or_rectangular_composite_surface**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents a location by specifying a boundary of the parametric space of the identified surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: boundary_curve_of_b_spline_or_rectangular_composite_surface
+  - type: expression
+    normative_status: preferred
+    designation: boundary_curve_of_b_spline_or_rectangular_composite_surface
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

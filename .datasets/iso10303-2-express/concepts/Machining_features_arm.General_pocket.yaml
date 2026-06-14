@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.General_pocket
   localized_concepts:
     eng: 7f91f9c9-f916-5fa2-a98f-8ad3d105efcd
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.General_pocket
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}} that represents the general pocket {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}}
+      that represents the general pocket {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **General_pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}} that is a volume of arbitrary shape removed from the part.
+  - content: A **General_pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}}
+      that is a volume of arbitrary shape removed from the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: General_pocket
+  - type: expression
+    normative_status: preferred
+    designation: General_pocket
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

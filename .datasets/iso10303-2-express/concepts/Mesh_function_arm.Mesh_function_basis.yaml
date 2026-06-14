@@ -1,34 +1,35 @@
+---
 data:
   identifier: Mesh_function_arm.Mesh_function_basis
   localized_concepts:
     eng: 5ee9e188-af50-510f-8ec6-94286d975dbc
   domains:
-    - concept_id: section-Mesh_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
-      ref_type: section
+  - concept_id: section-Mesh_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
+    ref_type: section
 id: Mesh_function_arm.Mesh_function_basis
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the mesh function basis {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the mesh function basis {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Mesh_function_basis** is an application defined function that has:
+  - content: |-
+      A **Mesh_function_basis** is an application defined function that has:
 
-        * a domain that is a real tuple space; and
-        * a range that is a space of table functions.
+      * a domain that is a real tuple space; and
+      * a range that is a space of table functions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
-          version: '1'
-      type: authoritative
-      id: Mesh_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_function_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mesh_function_basis
+  - type: expression
+    normative_status: preferred
+    designation: Mesh_function_basis
   domain: 'application module: Mesh_function_arm'
   language_code: eng
   annotations: []

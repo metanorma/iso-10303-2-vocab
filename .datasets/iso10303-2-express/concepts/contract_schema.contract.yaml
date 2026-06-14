@@ -1,30 +1,31 @@
+---
 data:
   identifier: contract_schema.contract
   localized_concepts:
     eng: 56c049c7-4e0a-5bf9-8151-c7225ded3e51
   domains:
-    - concept_id: section-contract_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
-      ref_type: section
+  - concept_id: section-contract_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
+    ref_type: section
 id: contract_schema.contract
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the contract {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the contract {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **contract** is a binding agreement.
+  - content: A **contract** is a binding agreement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
-          version: '3'
-      type: authoritative
-      id: contract_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:contract_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: contract
+  - type: expression
+    normative_status: preferred
+    designation: contract
   domain: 'resource: contract_schema'
   language_code: eng
   annotations: []

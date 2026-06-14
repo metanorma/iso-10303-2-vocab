@@ -1,30 +1,33 @@
+---
 data:
   identifier: Parameterization_and_variational_representation_arm.Bound_parameter_environment
   localized_concepts:
     eng: d919c181-03b7-581c-b270-116e453351ea
   domains:
-    - concept_id: section-Parameterization_and_variational_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-      ref_type: section
+  - concept_id: section-Parameterization_and_variational_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+    ref_type: section
 id: Parameterization_and_variational_representation_arm.Bound_parameter_environment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bound parameter environment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bound parameter environment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bound_parameter_environment** is the semantic environment for an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Bound_variational_parameter,Bound_variational_parameter}} that associates it with an attribute of a specific entity instance.
+  - content: A **Bound_parameter_environment** is the semantic environment for an
+      instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Bound_variational_parameter,Bound_variational_parameter}}
+      that associates it with an attribute of a specific entity instance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-          version: '3'
-      type: authoritative
-      id: Parameterization_and_variational_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bound_parameter_environment
+  - type: expression
+    normative_status: preferred
+    designation: Bound_parameter_environment
   domain: 'application module: Parameterization_and_variational_representation_arm'
   language_code: eng
   annotations: []

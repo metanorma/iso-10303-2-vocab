@@ -1,30 +1,34 @@
+---
 data:
   identifier: Dimension_and_tolerance_callouts_arm.Geometric_placeholder_set
   localized_concepts:
     eng: 7b06a9f0-4cb4-5f36-87aa-bd467e8c0cee
   domains:
-    - concept_id: section-Dimension_and_tolerance_callouts_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
-      ref_type: section
+  - concept_id: section-Dimension_and_tolerance_callouts_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
+    ref_type: section
 id: Dimension_and_tolerance_callouts_arm.Geometric_placeholder_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the geometric placeholder set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the geometric placeholder set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometric_placeholder_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that collects detail model geometric elements including Cartesian_point, Point_on_curve, Point_on_surface, Planar_box and Axis_placement.
+  - content: A **Geometric_placeholder_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that collects detail model geometric elements including Cartesian_point, Point_on_curve,
+      Point_on_surface, Planar_box and Axis_placement.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
-          version: '5'
-      type: authoritative
-      id: Dimension_and_tolerance_callouts_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_and_tolerance_callouts_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_placeholder_set
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_placeholder_set
   domain: 'application module: Dimension_and_tolerance_callouts_arm'
   language_code: eng
   annotations: []

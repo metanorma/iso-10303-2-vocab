@@ -1,30 +1,34 @@
+---
 data:
   identifier: Specification_document_arm.Interface_specification_document_definition
   localized_concepts:
     eng: dacc3069-e013-5360-81c1-0ac54cfe799c
   domains:
-    - concept_id: section-Specification_document_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-      ref_type: section
+  - concept_id: section-Specification_document_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+    ref_type: section
 id: Specification_document_arm.Interface_specification_document_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}} that represents the interface specification document definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}}
+      that represents the interface specification document definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_specification_document_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}} that describes supported interfaces and associated details for a product or process.
+  - content: An **Interface_specification_document_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}}
+      that describes supported interfaces and associated details for a product or
+      process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-          version: '4'
-      type: authoritative
-      id: Specification_document_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_specification_document_definition
+  - type: expression
+    normative_status: preferred
+    designation: Interface_specification_document_definition
   domain: 'application module: Specification_document_arm'
   language_code: eng
   annotations: []

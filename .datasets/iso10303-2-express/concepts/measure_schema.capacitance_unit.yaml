@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.capacitance_unit
   localized_concepts:
     eng: f83d224a-a30a-52bc-8a94-5e7b19c3ede5
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.capacitance_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} that represents the capacitance unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      that represents the capacitance unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **capacitance_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} in which the capacitance is expressed.
+  - content: A **capacitance_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      in which the capacitance is expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: capacitance_unit
+  - type: expression
+    normative_status: preferred
+    designation: capacitance_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

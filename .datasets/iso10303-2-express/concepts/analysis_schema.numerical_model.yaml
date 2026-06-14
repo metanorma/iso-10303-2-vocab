@@ -1,30 +1,32 @@
+---
 data:
   identifier: analysis_schema.numerical_model
   localized_concepts:
     eng: b0a69624-cbd4-5bed-99dc-ca4d8bbd8deb
   domains:
-    - concept_id: section-analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-      ref_type: section
+  - concept_id: section-analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+    ref_type: section
 id: analysis_schema.numerical_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the numerical model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the numerical model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} is an aspect of a physical object relevant to a particular type of behavoir.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}}
+      is an aspect of a physical object relevant to a particular type of behavoir.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-          version: '1'
-      type: authoritative
-      id: analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: numerical_model
+  - type: expression
+    normative_status: preferred
+    designation: numerical_model
   domain: 'resource: analysis_schema'
   language_code: eng
   annotations: []

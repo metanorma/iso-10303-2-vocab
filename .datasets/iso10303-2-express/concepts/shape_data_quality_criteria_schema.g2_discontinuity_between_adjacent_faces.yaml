@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.g2_discontinuity_between_adjacent_faces
   localized_concepts:
     eng: 6cbdf6e9-eb1e-5171-81d9-bd53c1af4db1
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.g2_discontinuity_between_adjacent_faces
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.non_smooth_geometry_transition_across_edge,non_smooth_geometry_transition_across_edge}} that represents the g2 discontinuity between adjacent faces {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.non_smooth_geometry_transition_across_edge,non_smooth_geometry_transition_across_edge}}
+      that represents the g2 discontinuity between adjacent faces {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: g2_discontinuity_between_adjacent_faces
+  - type: expression
+    normative_status: preferred
+    designation: g2_discontinuity_between_adjacent_faces
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

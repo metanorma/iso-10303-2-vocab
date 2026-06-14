@@ -1,30 +1,34 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_arm.Wrong_element_name
   localized_concepts:
     eng: 83cab06c-34d7-59ae-a2d0-9ab466d49c78
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_arm.Wrong_element_name
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}} that represents the wrong element name {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}}
+      that represents the wrong element name {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Wrong_element_name** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}} that represents a criterion detecting if the name of an element of a product model is not compliant with the agreed format.
+  - content: A **Wrong_element_name** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation,Miscellaneous_violation}}
+      that represents a criterion detecting if the name of an element of a product
+      model is not compliant with the agreed format.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Wrong_element_name
+  - type: expression
+    normative_status: preferred
+    designation: Wrong_element_name
   domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
   language_code: eng
   annotations: []

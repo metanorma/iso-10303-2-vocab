@@ -1,32 +1,34 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.a3m_triangulated_shape_data_quality_criterion
   localized_concepts:
     eng: 8d4dd930-5de1-5b4f-866b-28e2c52334b2
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.a3m_triangulated_shape_data_quality_criterion
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion,a3m_data_quality_criterion}} that represents the a3m triangulated shape data quality criterion {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_data_quality_criterion,a3m_data_quality_criterion}}
+      that represents the a3m triangulated shape data quality criterion {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **a3m_triangulated_shape_data_quality_criterion** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion,a3m_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}}.
+  - content: |-
+      An **a3m_triangulated_shape_data_quality_criterion** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion,a3m_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_triangulated_shape_data_quality_criterion,A3m_triangulated_shape_data_quality_criterion}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_triangulated_shape_data_quality_criterion
+  - type: expression
+    normative_status: preferred
+    designation: a3m_triangulated_shape_data_quality_criterion
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

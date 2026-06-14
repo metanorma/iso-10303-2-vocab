@@ -1,32 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.tessellated_open_shell
   localized_concepts:
     eng: 648c2ec4-cc67-568f-8972-4cd7a1cdf3d9
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.tessellated_open_shell
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.open_shell,open_shell}} that represents the tessellated open shell {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.open_shell,open_shell}}
+      that represents the tessellated open shell {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **tessellated_open_shell** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.open_shell,open_shell}} that contains only tessellated forms of geometry associated with the faces, edges, and vertices.
+  - content: |-
+      A **tessellated_open_shell** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.open_shell,open_shell}} that contains only tessellated forms of geometry associated with the faces, edges, and vertices.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tessellated_open_shell
+  - type: expression
+    normative_status: preferred
+    designation: tessellated_open_shell
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

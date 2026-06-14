@@ -1,30 +1,34 @@
+---
 data:
   identifier: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_criteria_representation
   localized_concepts:
     eng: f14965f3-346d-566d-9c7d-e47ac334c93b
   domains:
-    - concept_id: section-annotated_3d_model_equivalence_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-      ref_type: section
+  - concept_id: section-annotated_3d_model_equivalence_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+    ref_type: section
 id: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_criteria_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}} that represents the a3m equivalence criteria representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}}
+      that represents the a3m equivalence criteria representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_equivalence_criteria_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}} that represents requirements on annotated 3d model equivalence for one pair of product data.
+  - content: An **a3m_equivalence_criteria_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}}
+      that represents requirements on annotated 3d model equivalence for one pair
+      of product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-          version: '1'
-      type: authoritative
-      id: annotated_3d_model_equivalence_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_equivalence_criteria_representation
+  - type: expression
+    normative_status: preferred
+    designation: a3m_equivalence_criteria_representation
   domain: 'resource: annotated_3d_model_equivalence_criteria_schema'
   language_code: eng
   annotations: []

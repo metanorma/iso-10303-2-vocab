@@ -1,31 +1,33 @@
+---
 data:
   identifier: Process_plan_arm.Process_operation_resource_assignment
   localized_concepts:
-    eng: 039b244c-c346-5481-889f-f531f3825d9e
+    eng: '039b244c-c346-5481-889f-f531f3825d9e'
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Process_operation_resource_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the process operation resource assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the process operation resource assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Process_operation_resource_assignment** is a mechanism to associate a resource with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_occurrence,Process_operation_occurrence}}.
+  - content: A **Process_operation_resource_assignment** is a mechanism to associate
+      a resource with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_occurrence,Process_operation_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Process_operation_resource_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Process_operation_resource_assignment
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []
-id: 039b244c-c346-5481-889f-f531f3825d9e
+id: '039b244c-c346-5481-889f-f531f3825d9e'

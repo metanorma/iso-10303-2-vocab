@@ -1,29 +1,30 @@
+---
 data:
   identifier: Property_identification_arm.Scale
   localized_concepts:
     eng: 508f07b4-c09b-506e-a0c5-6d922c950baf
   domains:
-    - concept_id: section-Property_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
-      ref_type: section
+  - concept_id: section-Property_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
+    ref_type: section
 id: Property_identification_arm.Scale
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the scale {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the scale {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
-          version: '1'
-      type: authoritative
-      id: Property_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Scale
+  - type: expression
+    normative_status: preferred
+    designation: Scale
   domain: 'application module: Property_identification_arm'
   language_code: eng
   annotations: []

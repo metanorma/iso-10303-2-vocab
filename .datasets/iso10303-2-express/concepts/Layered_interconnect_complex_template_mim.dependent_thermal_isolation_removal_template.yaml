@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.dependent_thermal_isolation_removal_template
   localized_concepts:
     eng: 81f49c3f-8c1a-58b4-925c-468135573fd6
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.dependent_thermal_isolation_removal_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.thermal_isolation_removal_template,thermal_isolation_removal_template}} that represents the dependent thermal isolation removal template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.thermal_isolation_removal_template,thermal_isolation_removal_template}}
+      that represents the dependent thermal isolation removal template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dependent_thermal_isolation_removal_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.thermal_isolation_removal_template,thermal_isolation_removal_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Dependent_thermal_isolation_removal_template,Dependent_thermal_isolation_removal_template}}.
+  - content: A **dependent_thermal_isolation_removal_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim.thermal_isolation_removal_template,thermal_isolation_removal_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Dependent_thermal_isolation_removal_template,Dependent_thermal_isolation_removal_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dependent_thermal_isolation_removal_template
+  - type: expression
+    normative_status: preferred
+    designation: dependent_thermal_isolation_removal_template
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

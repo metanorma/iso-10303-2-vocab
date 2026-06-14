@@ -1,29 +1,31 @@
+---
 data:
   identifier: kinematic_motion_representation_schema.linear_path
   localized_concepts:
     eng: 87e7dadf-0fdd-5d90-afcd-91ea2133cedc
   domains:
-    - concept_id: section-kinematic_motion_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-      ref_type: section
+  - concept_id: section-kinematic_motion_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+    ref_type: section
 id: kinematic_motion_representation_schema.linear_path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.path_node,path_node}} that represents the linear path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema.path_node,path_node}}
+      that represents the linear path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
-          version: '5'
-      type: authoritative
-      id: kinematic_motion_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_motion_representation_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: linear_path
+  - type: expression
+    normative_status: preferred
+    designation: linear_path
   domain: 'resource: kinematic_motion_representation_schema'
   language_code: eng
   annotations: []

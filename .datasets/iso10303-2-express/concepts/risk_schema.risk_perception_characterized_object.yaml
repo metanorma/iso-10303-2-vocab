@@ -1,30 +1,33 @@
+---
 data:
   identifier: risk_schema.risk_perception_characterized_object
   localized_concepts:
     eng: e3d3501c-c143-5770-8222-92c03cc9f87f
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.risk_perception_characterized_object
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the risk perception characterized object {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the risk perception characterized object {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **risk_perception_characterized_object** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}} that is used to associate a property with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}}.
+  - content: A **risk_perception_characterized_object** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}}
+      that is used to associate a property with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_perception,risk_perception}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: risk_perception_characterized_object
+  - type: expression
+    normative_status: preferred
+    designation: risk_perception_characterized_object
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

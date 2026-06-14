@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_module_with_interconnect_component_arm.Bare_die_component
   localized_concepts:
     eng: 1bb15385-453d-525f-ad03-daa1e7cd7f28
   domains:
-    - concept_id: section-Assembly_module_with_interconnect_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_interconnect_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+    ref_type: section
 id: Assembly_module_with_interconnect_component_arm.Bare_die_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the bare die component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the bare die component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bare_die_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Single_instance,Single_instance}} that is defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die,Bare_die}}.
+  - content: A **Bare_die_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Physical_component,Physical_component}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Single_instance,Single_instance}}
+      that is defined by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Bare_die_arm.Bare_die,Bare_die}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_interconnect_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bare_die_component
+  - type: expression
+    normative_status: preferred
+    designation: Bare_die_component
   domain: 'application module: Assembly_module_with_interconnect_component_arm'
   language_code: eng
   annotations: []

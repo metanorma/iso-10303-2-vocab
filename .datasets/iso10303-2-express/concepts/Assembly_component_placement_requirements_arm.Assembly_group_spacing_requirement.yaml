@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_component_placement_requirements_arm.Assembly_group_spacing_requirement
   localized_concepts:
     eng: b4c6cfd8-7312-5e97-9e88-2f286f2a9047
   domains:
-    - concept_id: section-Assembly_component_placement_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-      ref_type: section
+  - concept_id: section-Assembly_component_placement_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+    ref_type: section
 id: Assembly_component_placement_requirements_arm.Assembly_group_spacing_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the assembly group spacing requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the assembly group spacing requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-          version: '6'
-      type: authoritative
-      id: Assembly_component_placement_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_group_spacing_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_group_spacing_requirement
   domain: 'application module: Assembly_component_placement_requirements_arm'
   language_code: eng
   annotations: []

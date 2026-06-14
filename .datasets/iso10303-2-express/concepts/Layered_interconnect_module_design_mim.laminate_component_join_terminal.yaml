@@ -1,35 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.laminate_component_join_terminal
   localized_concepts:
     eng: 31b360a0-4852-5865-ba14-1f0f137c3c57
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.laminate_component_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the laminate component join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the laminate component join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **laminate_component_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_terminal,component_terminal}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.laminate_component_feature,laminate_component_feature}} that implements the ARM concept of:
+  - content: |-
+      A **laminate_component_join_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.component_terminal,component_terminal}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.laminate_component_feature,laminate_component_feature}} that implements the ARM concept of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Component_termination_passage_join_terminal,Component_termination_passage_join_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Component_termination_passage_join_terminal,Component_termination_passage_join_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Embedded_physical_component_terminal,Embedded_physical_component_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_join_terminal,Laminate_component_join_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: laminate_component_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: laminate_component_join_terminal
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

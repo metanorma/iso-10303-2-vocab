@@ -1,30 +1,33 @@
+---
 data:
   identifier: counterbore_countersink_schema.spotface_definition
   localized_concepts:
     eng: f0e553fb-ed37-5df5-96fa-b32c215f8ac9
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.spotface_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_round_hole,explicit_round_hole}} that represents the spotface definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_round_hole,explicit_round_hole}}
+      that represents the spotface definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **spotface_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_round_hole,explicit_round_hole}} in which a radius is applied to the bottom surface of the outside diameter.
+  - content: A **spotface_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.explicit_round_hole,explicit_round_hole}}
+      in which a radius is applied to the bottom surface of the outside diameter.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: spotface_definition
+  - type: expression
+    normative_status: preferred
+    designation: spotface_definition
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

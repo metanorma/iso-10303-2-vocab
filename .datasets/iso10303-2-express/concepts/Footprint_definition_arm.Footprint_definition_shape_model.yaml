@@ -1,29 +1,31 @@
+---
 data:
   identifier: Footprint_definition_arm.Footprint_definition_shape_model
   localized_concepts:
     eng: bb01c0a9-d04c-5687-9c56-08a8bc2c1172
   domains:
-    - concept_id: section-Footprint_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
-      ref_type: section
+  - concept_id: section-Footprint_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+    ref_type: section
 id: Footprint_definition_arm.Footprint_definition_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Structured_template_planar_shape_model,Structured_template_planar_shape_model}} that represents the footprint definition shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Structured_template_planar_shape_model,Structured_template_planar_shape_model}}
+      that represents the footprint definition shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
-          version: '6'
-      type: authoritative
-      id: Footprint_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Footprint_definition_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Footprint_definition_shape_model
   domain: 'application module: Footprint_definition_arm'
   language_code: eng
   annotations: []

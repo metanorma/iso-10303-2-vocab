@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_topology_schema.kinematic_topology_directed_structure
   localized_concepts:
     eng: d4b5c78e-19fa-57f5-b2de-1cd548df3a3e
   domains:
-    - concept_id: section-kinematic_topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-      ref_type: section
+  - concept_id: section-kinematic_topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+    ref_type: section
 id: kinematic_topology_schema.kinematic_topology_directed_structure
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the kinematic topology directed structure {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.representation,representation}}
+      that represents the kinematic topology directed structure {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **kinematic_topology_directed_structure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that identified a directed structure within a parent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.kinematic_topology_structure,kinematic_topology_structure}}.
+  - content: A **kinematic_topology_directed_structure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that identified a directed structure within a parent {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.kinematic_topology_structure,kinematic_topology_structure}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: kinematic_topology_directed_structure
+  - type: expression
+    normative_status: preferred
+    designation: kinematic_topology_directed_structure
   domain: 'resource: kinematic_topology_schema'
   language_code: eng
   annotations: []

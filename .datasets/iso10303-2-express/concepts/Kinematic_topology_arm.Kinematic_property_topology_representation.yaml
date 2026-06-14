@@ -1,30 +1,34 @@
+---
 data:
   identifier: Kinematic_topology_arm.Kinematic_property_topology_representation
   localized_concepts:
     eng: 1f0f187c-5e92-5698-b8c5-027d301a4517
   domains:
-    - concept_id: section-Kinematic_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-      ref_type: section
+  - concept_id: section-Kinematic_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+    ref_type: section
 id: Kinematic_topology_arm.Kinematic_property_topology_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_property_definition_representation,Kinematic_property_definition_representation}} that represents the kinematic property topology representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_property_definition_representation,Kinematic_property_definition_representation}}
+      that represents the kinematic property topology representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Kinematic_property_topology_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_property_definition_representation,Kinematic_property_definition_representation}} that relates a {{kinematic_topology_representation_select,kinematic_topology_representation_select}} item to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_link,Kinematic_link}}.
+  - content: A **Kinematic_property_topology_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_property_definition_representation,Kinematic_property_definition_representation}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.kinematic_topology_representation_select,kinematic_topology_representation_select}}
+      item to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_link,Kinematic_link}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-          version: '1'
-      type: authoritative
-      id: Kinematic_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Kinematic_property_topology_representation
+  - type: expression
+    normative_status: preferred
+    designation: Kinematic_property_topology_representation
   domain: 'application module: Kinematic_topology_arm'
   language_code: eng
   annotations: []

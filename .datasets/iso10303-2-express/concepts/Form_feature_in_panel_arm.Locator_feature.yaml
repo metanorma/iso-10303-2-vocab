@@ -1,29 +1,31 @@
+---
 data:
   identifier: Form_feature_in_panel_arm.Locator_feature
   localized_concepts:
     eng: 798ce988-39eb-562f-9998-1f59e9f32c84
   domains:
-    - concept_id: section-Form_feature_in_panel_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+    ref_type: section
 id: Form_feature_in_panel_arm.Locator_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}} that represents the locator feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Process_feature_in_panel,Process_feature_in_panel}}
+      that represents the locator feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Locator_feature
+  - type: expression
+    normative_status: preferred
+    designation: Locator_feature
   domain: 'application module: Form_feature_in_panel_arm'
   language_code: eng
   annotations: []

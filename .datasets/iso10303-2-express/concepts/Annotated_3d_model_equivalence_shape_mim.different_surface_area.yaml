@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_mim.different_surface_area
   localized_concepts:
     eng: 34525173-ae95-5acc-8577-b2012d1b3a75
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_mim.different_surface_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the different surface area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the different surface area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **different_surface_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_representative_shape_property_value,a3m_equivalence_criterion_of_representative_shape_property_value}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_surface_area,Different_surface_area}}.
+  - content: A **different_surface_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_representative_shape_property_value,a3m_equivalence_criterion_of_representative_shape_property_value}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_surface_area,Different_surface_area}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: different_surface_area
+  - type: expression
+    normative_status: preferred
+    designation: different_surface_area
   domain: 'application module: Annotated_3d_model_equivalence_shape_mim'
   language_code: eng
   annotations: []

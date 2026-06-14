@@ -1,30 +1,34 @@
+---
 data:
   identifier: Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal_location_group
   localized_concepts:
     eng: 303d1882-4c88-5b5d-93f5-a2c216b84ea3
   domains:
-    - concept_id: section-Wire_and_cable_design_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
-      ref_type: section
+  - concept_id: section-Wire_and_cable_design_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+    ref_type: section
 id: Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal_location_group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}} that represents the cable occurrence terminal location group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}}
+      that represents the cable occurrence terminal location group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cable_occurrence_terminal_location_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}} that represents the grouping of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal,Cable_occurrence_terminal}}s on one of the ends or at intermediate positions between the ends of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Cable_occurrence,Cable_occurrence}}.
+  - content: A **Cable_occurrence_terminal_location_group** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_terminal,Occurrence_terminal}}
+      that represents the grouping of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Cable_occurrence_terminal,Cable_occurrence_terminal}}s
+      on one of the ends or at intermediate positions between the ends of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm.Cable_occurrence,Cable_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
-          version: '3'
-      type: authoritative
-      id: Wire_and_cable_design_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wire_and_cable_design_connectivity_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cable_occurrence_terminal_location_group
+  - type: expression
+    normative_status: preferred
+    designation: Cable_occurrence_terminal_location_group
   domain: 'application module: Wire_and_cable_design_connectivity_arm'
   language_code: eng
   annotations: []

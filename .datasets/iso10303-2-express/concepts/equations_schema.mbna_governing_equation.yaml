@@ -1,30 +1,33 @@
+---
 data:
   identifier: equations_schema.mbna_governing_equation
   localized_concepts:
     eng: fb25c26b-b628-5afc-bd7f-7d29f014ec3c
   domains:
-    - concept_id: section-equations_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-      ref_type: section
+  - concept_id: section-equations_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+    ref_type: section
 id: equations_schema.mbna_governing_equation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation,mbna_equation}} that represents the mbna governing equation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation,mbna_equation}}
+      that represents the mbna governing equation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_governing_equation* is an *mbna_equation* describing the class of governing equations associated with the analysis solution.
+  - content: An *mbna_governing_equation* is an *mbna_equation* describing the class
+      of governing equations associated with the analysis solution.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-          version: '1'
-      type: authoritative
-      id: equations_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_governing_equation
+  - type: expression
+    normative_status: preferred
+    designation: mbna_governing_equation
   domain: 'resource: equations_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: machining_feature_schema.slot
   localized_concepts:
     eng: 3894d534-8f7f-50f2-b002-7046cc05c4bd
   domains:
-    - concept_id: section-machining_feature_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-      ref_type: section
+  - concept_id: section-machining_feature_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+    ref_type: section
 id: machining_feature_schema.slot
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the slot {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema.feature_definition,feature_definition}}
+      that represents the slot {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that is the representation of a volume that is removed from the base shape.
+  - content: A **slot** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}}
+      that is the representation of a volume that is removed from the base shape.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
-          version: '1'
-      type: authoritative
-      id: machining_feature_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:machining_feature_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: slot
+  - type: expression
+    normative_status: preferred
+    designation: slot
   domain: 'resource: machining_feature_schema'
   language_code: eng
   annotations: []

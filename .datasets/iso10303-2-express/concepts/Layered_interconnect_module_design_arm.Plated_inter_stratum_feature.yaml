@@ -1,30 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Plated_inter_stratum_feature
   localized_concepts:
     eng: 54ab8baf-e460-554a-a59f-95dbb46e2b01
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Plated_inter_stratum_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}} that represents the plated inter stratum feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}}
+      that represents the plated inter stratum feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Plated_inter_stratum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}} with deposited metal on its walls that makes an electrical connection between conductive patterns on internal {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}}, external {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}}, or both, of a printed circuit board.
+  - content: A **Plated_inter_stratum_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Inter_stratum_feature,Inter_stratum_feature}}
+      with deposited metal on its walls that makes an electrical connection between
+      conductive patterns on internal {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}},
+      external {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Design_layer_stratum,Design_layer_stratum}},
+      or both, of a printed circuit board.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Plated_inter_stratum_feature
+  - type: expression
+    normative_status: preferred
+    designation: Plated_inter_stratum_feature
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

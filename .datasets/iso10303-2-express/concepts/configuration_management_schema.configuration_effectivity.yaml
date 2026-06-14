@@ -1,29 +1,31 @@
+---
 data:
   identifier: configuration_management_schema.configuration_effectivity
   localized_concepts:
     eng: 722fcd3a-81c0-5f3a-8117-37c7a3743b90
   domains:
-    - concept_id: section-configuration_management_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
-      ref_type: section
+  - concept_id: section-configuration_management_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+    ref_type: section
 id: configuration_management_schema.configuration_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_effectivity,product_definition_effectivity}} that represents the configuration effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.product_definition_effectivity,product_definition_effectivity}}
+      that represents the configuration effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
-          version: '4'
-      type: authoritative
-      id: configuration_management_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: configuration_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: configuration_effectivity
   domain: 'resource: configuration_management_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_data_quality_inspection_result_arm.Data_quality_inspection_criterion_report_item
   localized_concepts:
     eng: 05b97470-88e6-5764-88c0-7a9035865119
   domains:
-    - concept_id: section-Product_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Product_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+    ref_type: section
 id: Product_data_quality_inspection_result_arm.Data_quality_inspection_criterion_report_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the data quality inspection criterion report item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Representation_item,Representation_item}}
+      that represents the data quality inspection criterion report item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Data_quality_inspection_criterion_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents an integer value that implies {{number_of_inspected_instances,number_of_inspected_instances}} or {{number_of_quality_defects_detected,number_of_quality_defects_detected}}.
+  - content: A **Data_quality_inspection_criterion_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      that represents an integer value that implies {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.statistical_value_type.number_of_inspected_instances,number_of_inspected_instances}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.statistical_value_type.number_of_quality_defects_detected,number_of_quality_defects_detected}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
-          version: '2'
-      type: authoritative
-      id: Product_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Data_quality_inspection_criterion_report_item
+  - type: expression
+    normative_status: preferred
+    designation: Data_quality_inspection_criterion_report_item
   domain: 'application module: Product_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Wiring_harness_assembly_design_arm.Harness_node
   localized_concepts:
     eng: 5e4197dc-6a80-5335-ac93-c4fa4c7e2427
   domains:
-    - concept_id: section-Wiring_harness_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Wiring_harness_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
+    ref_type: section
 id: Wiring_harness_assembly_design_arm.Harness_node
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that represents the harness node {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Part_shape_element,Part_shape_element}}
+      that represents the harness node {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Harness_node** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that represents a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Vertex,Vertex}} from a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm.Edge_based_topological_representation_with_length_constraint,Edge_based_topological_representation_with_length_constraint}} for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Wiring_harness_assembly_design,Wiring_harness_assembly_design}}.
+  - content: A **Harness_node** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}}
+      that represents a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Vertex,Vertex}}
+      from a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_based_topological_representation_with_length_constraint_arm.Edge_based_topological_representation_with_length_constraint,Edge_based_topological_representation_with_length_constraint}}
+      for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm.Wiring_harness_assembly_design,Wiring_harness_assembly_design}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
-          version: '4'
-      type: authoritative
-      id: Wiring_harness_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Wiring_harness_assembly_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Harness_node
+  - type: expression
+    normative_status: preferred
+    designation: Harness_node
   domain: 'application module: Wiring_harness_assembly_design_arm'
   language_code: eng
   annotations: []

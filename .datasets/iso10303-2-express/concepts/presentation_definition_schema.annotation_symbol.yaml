@@ -1,29 +1,31 @@
+---
 data:
   identifier: presentation_definition_schema.annotation_symbol
   localized_concepts:
     eng: fb0d57f8-0e24-5446-a7fa-982a1335983c
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.annotation_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.mapped_item,mapped_item}} that represents the annotation symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.mapped_item,mapped_item}}
+      that represents the annotation symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: annotation_symbol
+  - type: expression
+    normative_status: preferred
+    designation: annotation_symbol
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

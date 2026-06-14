@@ -1,30 +1,33 @@
+---
 data:
   identifier: Composite_surface_arm.Surface_patch
   localized_concepts:
     eng: 23c512cb-1cec-5871-8472-d1c4ca84cde6
   domains:
-    - concept_id: section-Composite_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
-      ref_type: section
+  - concept_id: section-Composite_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+    ref_type: section
 id: Composite_surface_arm.Surface_patch
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface patch {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface patch {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_patch** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} with additional transition and sense data suitable for use as part of a composite surface.
+  - content: A **Surface_patch** is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}}
+      with additional transition and sense data suitable for use as part of a composite
+      surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
-          version: '2'
-      type: authoritative
-      id: Composite_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_patch
+  - type: expression
+    normative_status: preferred
+    designation: Surface_patch
   domain: 'application module: Composite_surface_arm'
   language_code: eng
   annotations: []

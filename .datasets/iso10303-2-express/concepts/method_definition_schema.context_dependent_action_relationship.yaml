@@ -1,30 +1,33 @@
+---
 data:
   identifier: method_definition_schema.context_dependent_action_relationship
   localized_concepts:
     eng: 1fd24818-c092-572c-b27d-14fc9ac5b838
   domains:
-    - concept_id: section-method_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-      ref_type: section
+  - concept_id: section-method_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+    ref_type: section
 id: method_definition_schema.context_dependent_action_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the context dependent action relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the context dependent action relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.context_dependent_action_relationship,context_dependent_action_relationship}} is the association between two {{action_relationship,action_relationships}} that specifies a context for the completion of the related **action**s.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.context_dependent_action_relationship,context_dependent_action_relationship}}
+      is the association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_relationship,action_relationships}}
+      that specifies a context for the completion of the related **action**s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-          version: '1'
-      type: authoritative
-      id: method_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: context_dependent_action_relationship
+  - type: expression
+    normative_status: preferred
+    designation: context_dependent_action_relationship
   domain: 'resource: method_definition_schema'
   language_code: eng
   annotations: []

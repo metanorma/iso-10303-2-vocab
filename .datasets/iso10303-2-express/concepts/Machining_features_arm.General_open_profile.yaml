@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.General_open_profile
   localized_concepts:
     eng: 2c199a1d-5be4-5557-af3a-75a6eba1544a
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.General_open_profile
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} that represents the general open profile {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}}
+      that represents the general open profile {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **General_open_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}} that is specified by a shape bounded by an arbitrary planar shape.
+  - content: A **General_open_profile** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Open_profile,Open_profile}}
+      that is specified by a shape bounded by an arbitrary planar shape.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: General_open_profile
+  - type: expression
+    normative_status: preferred
+    designation: General_open_profile
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

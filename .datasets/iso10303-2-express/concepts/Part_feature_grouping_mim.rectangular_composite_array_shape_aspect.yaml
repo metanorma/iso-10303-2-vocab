@@ -1,30 +1,33 @@
+---
 data:
   identifier: Part_feature_grouping_mim.rectangular_composite_array_shape_aspect
   localized_concepts:
     eng: cf755d76-4e0c-5ba0-b42c-a2c90cab5ce3
   domains:
-    - concept_id: section-Part_feature_grouping_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
-      ref_type: section
+  - concept_id: section-Part_feature_grouping_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
+    ref_type: section
 id: Part_feature_grouping_mim.rectangular_composite_array_shape_aspect
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}} that represents the rectangular composite array shape aspect {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}}
+      that represents the rectangular composite array shape aspect {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rectangular_composite_array_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_rectangular_array_feature,Part_rectangular_array_feature}}.
+  - content: A **rectangular_composite_array_shape_aspect** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim.composite_array_shape_aspect,composite_array_shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_rectangular_array_feature,Part_rectangular_array_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
-          version: '3'
-      type: authoritative
-      id: Part_feature_grouping_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rectangular_composite_array_shape_aspect
+  - type: expression
+    normative_status: preferred
+    designation: rectangular_composite_array_shape_aspect
   domain: 'application module: Part_feature_grouping_mim'
   language_code: eng
   annotations: []

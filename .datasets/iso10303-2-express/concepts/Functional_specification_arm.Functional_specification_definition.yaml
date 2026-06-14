@@ -1,29 +1,31 @@
+---
 data:
   identifier: Functional_specification_arm.Functional_specification_definition
   localized_concepts:
     eng: 1b3e4ba5-1714-5798-aa0d-c07782397a3e
   domains:
-    - concept_id: section-Functional_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
-      ref_type: section
+  - concept_id: section-Functional_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
+    ref_type: section
 id: Functional_specification_arm.Functional_specification_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_definition,Functional_unit_network_definition}} that represents the functional specification definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm.Functional_unit_network_definition,Functional_unit_network_definition}}
+      that represents the functional specification definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
-          version: '3'
-      type: authoritative
-      id: Functional_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_specification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_specification_definition
+  - type: expression
+    normative_status: preferred
+    designation: Functional_specification_definition
   domain: 'application module: Functional_specification_arm'
   language_code: eng
   annotations: []

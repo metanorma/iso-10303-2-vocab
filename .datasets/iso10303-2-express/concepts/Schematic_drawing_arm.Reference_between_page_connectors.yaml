@@ -1,29 +1,31 @@
+---
 data:
   identifier: Schematic_drawing_arm.Reference_between_page_connectors
   localized_concepts:
     eng: b7445ce2-8a05-5aef-baa9-769dec3fc9bc
   domains:
-    - concept_id: section-Schematic_drawing_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
-      ref_type: section
+  - concept_id: section-Schematic_drawing_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
+    ref_type: section
 id: Schematic_drawing_arm.Reference_between_page_connectors
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}} that represents the reference between page connectors {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm.Representation_relationship,Representation_relationship}}
+      that represents the reference between page connectors {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
-          version: '1'
-      type: authoritative
-      id: Schematic_drawing_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Reference_between_page_connectors
+  - type: expression
+    normative_status: preferred
+    designation: Reference_between_page_connectors
   domain: 'application module: Schematic_drawing_arm'
   language_code: eng
   annotations: []

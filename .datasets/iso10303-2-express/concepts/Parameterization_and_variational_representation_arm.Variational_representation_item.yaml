@@ -1,29 +1,31 @@
+---
 data:
   identifier: Parameterization_and_variational_representation_arm.Variational_representation_item
   localized_concepts:
     eng: 85b0140e-07a6-504b-8750-b3a158000ad5
   domains:
-    - concept_id: section-Parameterization_and_variational_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-      ref_type: section
+  - concept_id: section-Parameterization_and_variational_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+    ref_type: section
 id: Parameterization_and_variational_representation_arm.Variational_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the variational representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Representation_item,Representation_item}}
+      that represents the variational representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-          version: '3'
-      type: authoritative
-      id: Parameterization_and_variational_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Variational_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Variational_representation_item
   domain: 'application module: Parameterization_and_variational_representation_arm'
   language_code: eng
   annotations: []

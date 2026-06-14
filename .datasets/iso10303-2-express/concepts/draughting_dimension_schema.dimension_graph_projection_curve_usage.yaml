@@ -1,30 +1,35 @@
+---
 data:
   identifier: draughting_dimension_schema.dimension_graph_projection_curve_usage
   localized_concepts:
     eng: 51bad4d3-1847-53fb-a4d9-befa6795adf9
   domains:
-    - concept_id: section-draughting_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
-      ref_type: section
+  - concept_id: section-draughting_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
+    ref_type: section
 id: draughting_dimension_schema.dimension_graph_projection_curve_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimension graph projection curve usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the dimension graph projection curve usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dimension_graph_projection_curve_usage** is the relationship of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_curve,projection_curve}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema.dimension_graph,dimension_graph}}, where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_curve,projection_curve}} may participate in a similar relationship with one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema.dimension_graph,dimension_graph}}.
+  - content: A **dimension_graph_projection_curve_usage** is the relationship of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_curve,projection_curve}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema.dimension_graph,dimension_graph}},
+      where the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.projection_curve,projection_curve}}
+      may participate in a similar relationship with one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema.dimension_graph,dimension_graph}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
-          version: '1'
-      type: authoritative
-      id: draughting_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_dimension_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dimension_graph_projection_curve_usage
+  - type: expression
+    normative_status: preferred
+    designation: dimension_graph_projection_curve_usage
   domain: 'resource: draughting_dimension_schema'
   language_code: eng
   annotations: []

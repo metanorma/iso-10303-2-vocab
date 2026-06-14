@@ -1,37 +1,38 @@
+---
 data:
   identifier: Set_theory_arm.Complement
   localized_concepts:
     eng: bd8828e0-9ffd-550b-bfd1-e7ad1a717c9e
   domains:
-    - concept_id: section-Set_theory_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-      ref_type: section
+  - concept_id: section-Set_theory_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+    ref_type: section
 id: Set_theory_arm.Complement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the complement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the complement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Complement** is a relationship that is between:
+  - content: |-
+      A **Complement** is a relationship that is between:
 
-        * set stem:[S_1],
-        * set U, and
-        * set stem:[S_2]
+      * set stem:[S_1],
+      * set U, and
+      * set stem:[S_2]
 
-        that indicates set stem:[S_2] consists of all members of U that are not members of stem:[S_1].
+      that indicates set stem:[S_2] consists of all members of U that are not members of stem:[S_1].
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-          version: '1'
-      type: authoritative
-      id: Set_theory_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Complement
+  - type: expression
+    normative_status: preferred
+    designation: Complement
   domain: 'application module: Set_theory_arm'
   language_code: eng
   annotations: []

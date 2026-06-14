@@ -1,30 +1,33 @@
+---
 data:
   identifier: Contextual_shape_positioning_arm.Geometric_placement_model
   localized_concepts:
     eng: 78f35e69-ccff-5740-81a1-89ad7ab2a523
   domains:
-    - concept_id: section-Contextual_shape_positioning_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
-      ref_type: section
+  - concept_id: section-Contextual_shape_positioning_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+    ref_type: section
 id: Contextual_shape_positioning_arm.Geometric_placement_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the geometric placement model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_model,Geometric_model}}
+      that represents the geometric placement model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometric_placement_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that contains exactly one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}}.
+  - content: A **Geometric_placement_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that contains exactly one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
-          version: '9'
-      type: authoritative
-      id: Contextual_shape_positioning_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_placement_model
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_placement_model
   domain: 'application module: Contextual_shape_positioning_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_shape_data_structure
   localized_concepts:
     eng: 59cf8b3f-0931-5cf0-82f9-8d312f240246
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_shape_data_structure
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_for_shape,a3m_equivalence_criterion_for_shape}} that represents the a3m equivalence criterion of shape data structure {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_for_shape,a3m_equivalence_criterion_for_shape}}
+      that represents the a3m equivalence criterion of shape data structure {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_equivalence_criterion_of_shape_data_structure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_for_shape,a3m_equivalence_criterion_for_shape}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}}.
+  - content: An **a3m_equivalence_criterion_of_shape_data_structure** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_for_shape,a3m_equivalence_criterion_for_shape}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_shape_data_structure,A3m_equivalence_criterion_of_shape_data_structure}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_equivalence_criterion_of_shape_data_structure
+  - type: expression
+    normative_status: preferred
+    designation: a3m_equivalence_criterion_of_shape_data_structure
   domain: 'application module: Annotated_3d_model_equivalence_shape_mim'
   language_code: eng
   annotations: []

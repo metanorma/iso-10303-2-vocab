@@ -1,29 +1,31 @@
+---
 data:
   identifier: Functional_usage_view_arm.Functional_unit_make_from_relationship
   localized_concepts:
     eng: cb4cb058-ef7b-56ce-b1d5-b15bb5a63a74
   domains:
-    - concept_id: section-Functional_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
-      ref_type: section
+  - concept_id: section-Functional_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+    ref_type: section
 id: Functional_usage_view_arm.Functional_unit_make_from_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} that represents the functional unit make from relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.View_definition_relationship,View_definition_relationship}}
+      that represents the functional unit make from relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Functional_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Functional_unit_make_from_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Functional_unit_make_from_relationship
   domain: 'application module: Functional_usage_view_arm'
   language_code: eng
   annotations: []

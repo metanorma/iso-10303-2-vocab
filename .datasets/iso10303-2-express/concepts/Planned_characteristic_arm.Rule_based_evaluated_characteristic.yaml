@@ -1,29 +1,31 @@
+---
 data:
   identifier: Planned_characteristic_arm.Rule_based_evaluated_characteristic
   localized_concepts:
     eng: 2f51fd4b-9586-580b-b269-fbc6a5484aaf
   domains:
-    - concept_id: section-Planned_characteristic_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
-      ref_type: section
+  - concept_id: section-Planned_characteristic_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+    ref_type: section
 id: Planned_characteristic_arm.Rule_based_evaluated_characteristic
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm.Evaluated_characteristic,Evaluated_characteristic}} that represents the rule based evaluated characteristic {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm.Evaluated_characteristic,Evaluated_characteristic}}
+      that represents the rule based evaluated characteristic {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
-          version: '4'
-      type: authoritative
-      id: Planned_characteristic_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rule_based_evaluated_characteristic
+  - type: expression
+    normative_status: preferred
+    designation: Rule_based_evaluated_characteristic
   domain: 'application module: Planned_characteristic_arm'
   language_code: eng
   annotations: []

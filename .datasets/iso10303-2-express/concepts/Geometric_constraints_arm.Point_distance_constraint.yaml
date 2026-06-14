@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_constraints_arm.Point_distance_constraint
   localized_concepts:
     eng: 7faaa730-eb39-59de-a774-0b58a51a6838
   domains:
-    - concept_id: section-Geometric_constraints_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-      ref_type: section
+  - concept_id: section-Geometric_constraints_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+    ref_type: section
 id: Geometric_constraints_arm.Point_distance_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that represents the point distance constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that represents the point distance constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Point_distance_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}} that defines a constraint on distances of points from each other, or from one or more reference elements that may be points, curves or surfaces.
+  - content: A **Point_distance_constraint** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm.Explicit_geometric_constraint,Explicit_geometric_constraint}}
+      that defines a constraint on distances of points from each other, or from one
+      or more reference elements that may be points, curves or surfaces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
-          version: '2'
-      type: authoritative
-      id: Geometric_constraints_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_constraints_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Point_distance_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Point_distance_constraint
   domain: 'application module: Geometric_constraints_arm'
   language_code: eng
   annotations: []

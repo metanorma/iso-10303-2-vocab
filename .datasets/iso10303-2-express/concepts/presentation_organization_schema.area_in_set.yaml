@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_organization_schema.area_in_set
   localized_concepts:
     eng: a3e510a0-2a40-5f0e-8a4a-90ba002aaf9a
   domains:
-    - concept_id: section-presentation_organization_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-      ref_type: section
+  - concept_id: section-presentation_organization_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+    ref_type: section
 id: presentation_organization_schema.area_in_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the area in set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the area in set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **area_in_set** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_set,presentation_set}}.
+  - content: An **area_in_set** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_area,presentation_area}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema.presentation_set,presentation_set}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
-          version: '6'
-      type: authoritative
-      id: presentation_organization_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_organization_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: area_in_set
+  - type: expression
+    normative_status: preferred
+    designation: area_in_set
   domain: 'resource: presentation_organization_schema'
   language_code: eng
   annotations: []

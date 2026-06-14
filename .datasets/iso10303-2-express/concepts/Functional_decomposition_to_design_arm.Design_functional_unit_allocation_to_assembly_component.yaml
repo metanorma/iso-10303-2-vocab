@@ -1,30 +1,35 @@
+---
 data:
   identifier: Functional_decomposition_to_design_arm.Design_functional_unit_allocation_to_assembly_component
   localized_concepts:
     eng: 7953f18c-74cc-5692-893b-940313d067da
   domains:
-    - concept_id: section-Functional_decomposition_to_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+    ref_type: section
 id: Functional_decomposition_to_design_arm.Design_functional_unit_allocation_to_assembly_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design functional unit allocation to assembly component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design functional unit allocation to assembly
+      component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Design_functional_unit_allocation_to_assembly_component** is the relationship between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}} and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}} that performs the required function.
+  - content: A **Design_functional_unit_allocation_to_assembly_component** is the
+      relationship between the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}}
+      and the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_arm.Assembly_component,Assembly_component}}
+      that performs the required function.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_functional_unit_allocation_to_assembly_component
+  - type: expression
+    normative_status: preferred
+    designation: Design_functional_unit_allocation_to_assembly_component
   domain: 'application module: Functional_decomposition_to_design_arm'
   language_code: eng
   annotations: []

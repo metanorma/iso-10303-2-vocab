@@ -1,29 +1,31 @@
+---
 data:
   identifier: Functional_decomposition_to_design_arm.Component_swap_specification
   localized_concepts:
     eng: c201051e-041a-5821-b2dc-bd7588df48ab
   domains:
-    - concept_id: section-Functional_decomposition_to_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+    ref_type: section
 id: Functional_decomposition_to_design_arm.Component_swap_specification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Modify_single_element,Modify_single_element}} that represents the component swap specification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Modify_single_element,Modify_single_element}}
+      that represents the component swap specification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_swap_specification
+  - type: expression
+    normative_status: preferred
+    designation: Component_swap_specification
   domain: 'application module: Functional_decomposition_to_design_arm'
   language_code: eng
   annotations: []

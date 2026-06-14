@@ -1,29 +1,31 @@
+---
 data:
   identifier: Involvement_of_individual_product_in_connection_mim.involvement_of_individual_product_in_connection
   localized_concepts:
     eng: 65a905c4-3db5-5e71-a4e6-5d87ecada318
   domains:
-    - concept_id: section-Involvement_of_individual_product_in_connection_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Involvement_of_individual_product_in_connection_mim
-      ref_type: section
+  - concept_id: section-Involvement_of_individual_product_in_connection_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Involvement_of_individual_product_in_connection_mim
+    ref_type: section
 id: Involvement_of_individual_product_in_connection_mim.involvement_of_individual_product_in_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation_relationship,product_definition_formation_relationship}} that represents the involvement of individual product in connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Involvement_of_individual_product_in_connection_mim.product_definition_formation_relationship,product_definition_formation_relationship}}
+      that represents the involvement of individual product in connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Involvement_of_individual_product_in_connection_mim
-          version: '1'
-      type: authoritative
-      id: Involvement_of_individual_product_in_connection_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Involvement_of_individual_product_in_connection_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: involvement_of_individual_product_in_connection
+  - type: expression
+    normative_status: preferred
+    designation: involvement_of_individual_product_in_connection
   domain: 'application module: Involvement_of_individual_product_in_connection_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_arm.Parametric_template
   localized_concepts:
     eng: d041cf3d-d125-5283-bbe3-992113371ecf
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+    ref_type: section
 id: Layered_interconnect_simple_template_arm.Parametric_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the parametric template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Template_definition,Template_definition}}
+      that represents the parametric template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Parametric_template
+  - type: expression
+    normative_status: preferred
+    designation: Parametric_template
   domain: 'application module: Layered_interconnect_simple_template_arm'
   language_code: eng
   annotations: []

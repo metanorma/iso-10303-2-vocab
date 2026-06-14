@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analysis_assignment_arm.Analysis_design_version_relationship
   localized_concepts:
     eng: 27e62ea2-c96e-5e60-b460-78c52f49ac2c
   domains:
-    - concept_id: section-Analysis_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
-      ref_type: section
+  - concept_id: section-Analysis_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
+    ref_type: section
 id: Analysis_assignment_arm.Analysis_design_version_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm.Analysis_assignment,Analysis_assignment}} that represents the analysis design version relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm.Analysis_assignment,Analysis_assignment}}
+      that represents the analysis design version relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Analysis_design_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm.Analysis_assignment,Analysis_assignment}} that is used when analysing a version of a product.
+  - content: An **Analysis_design_version_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm.Analysis_assignment,Analysis_assignment}}
+      that is used when analysing a version of a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Analysis_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Analysis_design_version_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Analysis_design_version_relationship
   domain: 'application module: Analysis_assignment_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Styled_curve_arm.Predefined_curve_font
   localized_concepts:
     eng: a1098b9c-65e6-51b1-9c8b-d3be1d2a120e
   domains:
-    - concept_id: section-Styled_curve_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
-      ref_type: section
+  - concept_id: section-Styled_curve_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
+    ref_type: section
 id: Styled_curve_arm.Predefined_curve_font
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.Curve_font,Curve_font}} that represents the predefined curve font {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.Curve_font,Curve_font}}
+      that represents the predefined curve font {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Predefined_curve_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.Curve_font,Curve_font}} which is defined in this document.
+  - content: A **Predefined_curve_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm.Curve_font,Curve_font}}
+      which is defined in this document.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
-          version: '4'
-      type: authoritative
-      id: Styled_curve_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Styled_curve_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Predefined_curve_font
+  - type: expression
+    normative_status: preferred
+    designation: Predefined_curve_font
   domain: 'application module: Styled_curve_arm'
   language_code: eng
   annotations: []

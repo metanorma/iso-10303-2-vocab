@@ -1,30 +1,33 @@
+---
 data:
   identifier: Elemental_geometric_shape_arm.Geometric_model
   localized_concepts:
     eng: 217e0658-63fd-559a-b896-b3f4b24c4979
   domains:
-    - concept_id: section-Elemental_geometric_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-      ref_type: section
+  - concept_id: section-Elemental_geometric_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+    ref_type: section
 id: Elemental_geometric_shape_arm.Geometric_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the geometric model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Representation,Representation}}
+      that represents the geometric model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometric_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} dedicated to the description of geometric constructs.
+  - content: A **Geometric_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}
+      dedicated to the description of geometric constructs.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-          version: '12'
-      type: authoritative
-      id: Elemental_geometric_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometric_model
+  - type: expression
+    normative_status: preferred
+    designation: Geometric_model
   domain: 'application module: Elemental_geometric_shape_arm'
   language_code: eng
   annotations: []

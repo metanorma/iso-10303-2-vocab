@@ -1,30 +1,32 @@
+---
 data:
   identifier: Physical_unit_3d_design_view_arm.Component_3d_location
   localized_concepts:
     eng: a09e9674-96fe-5f24-8ba1-6654ad0df265
   domains:
-    - concept_id: section-Physical_unit_3d_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_design_view_arm
-      ref_type: section
+  - concept_id: section-Physical_unit_3d_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_design_view_arm
+    ref_type: section
 id: Physical_unit_3d_design_view_arm.Component_3d_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component 3d location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component 3d location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_3d_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Contextual_shape_representation,Contextual_shape_representation}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_composition_with_operator_transformation,Geometric_composition_with_operator_transformation}}.
+  - content: A **Component_3d_location** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Contextual_shape_representation,Contextual_shape_representation}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_composition_with_operator_transformation,Geometric_composition_with_operator_transformation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_design_view_arm
-          version: '6'
-      type: authoritative
-      id: Physical_unit_3d_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_3d_design_view_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_3d_location
+  - type: expression
+    normative_status: preferred
+    designation: Component_3d_location
   domain: 'application module: Physical_unit_3d_design_view_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Kinematic_structure_arm.Pair_representation_relationship
   localized_concepts:
     eng: ea6daedd-9619-5468-82a6-c1f1740fc923
   domains:
-    - concept_id: section-Kinematic_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-      ref_type: section
+  - concept_id: section-Kinematic_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+    ref_type: section
 id: Kinematic_structure_arm.Pair_representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the pair representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the pair representation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Pair_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_relationship_arm.Geometric_model_relationship,Geometric_model_relationship}}.
+  - content: A **Pair_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_relationship_arm.Geometric_model_relationship,Geometric_model_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pair_representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Pair_representation_relationship
   domain: 'application module: Kinematic_structure_arm'
   language_code: eng
   annotations: []

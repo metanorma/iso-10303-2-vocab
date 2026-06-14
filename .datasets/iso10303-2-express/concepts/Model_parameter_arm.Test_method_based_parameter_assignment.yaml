@@ -1,29 +1,31 @@
+---
 data:
   identifier: Model_parameter_arm.Test_method_based_parameter_assignment
   localized_concepts:
     eng: 10e0e449-7edf-54a2-8c7f-273f06ec11ee
   domains:
-    - concept_id: section-Model_parameter_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
-      ref_type: section
+  - concept_id: section-Model_parameter_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+    ref_type: section
 id: Model_parameter_arm.Test_method_based_parameter_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Parameter_assignment,Parameter_assignment}} that represents the test method based parameter assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Parameter_assignment,Parameter_assignment}}
+      that represents the test method based parameter assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
-          version: '5'
-      type: authoritative
-      id: Model_parameter_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Test_method_based_parameter_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Test_method_based_parameter_assignment
   domain: 'application module: Model_parameter_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Tessellated_geometry_arm.Repositioned_tessellated_item
   localized_concepts:
     eng: e6b74654-2366-54cb-a76f-8ef782ce340e
   domains:
-    - concept_id: section-Tessellated_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-      ref_type: section
+  - concept_id: section-Tessellated_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+    ref_type: section
 id: Tessellated_geometry_arm.Repositioned_tessellated_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} that represents the repositioned tessellated item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}}
+      that represents the repositioned tessellated item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Repositioned_tessellated_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}} which has been re-postioned by defining the coordinates with respect to a new axis system.
+  - content: A **Repositioned_tessellated_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm.Tessellated_item,Tessellated_item}}
+      which has been re-postioned by defining the coordinates with respect to a new
+      axis system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
-          version: '3'
-      type: authoritative
-      id: Tessellated_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tessellated_geometry_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Repositioned_tessellated_item
+  - type: expression
+    normative_status: preferred
+    designation: Repositioned_tessellated_item
   domain: 'application module: Tessellated_geometry_arm'
   language_code: eng
   annotations: []

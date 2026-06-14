@@ -1,30 +1,33 @@
+---
 data:
   identifier: Default_tolerance_arm.Upper_lower_limit
   localized_concepts:
     eng: de6847f3-a633-5b1d-ac6b-a932c433fd0f
   domains:
-    - concept_id: section-Default_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
-      ref_type: section
+  - concept_id: section-Default_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+    ref_type: section
 id: Default_tolerance_arm.Upper_lower_limit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the upper lower limit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the upper lower limit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Upper_lower_limit** is an entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.Tolerance_table_cell,Tolerance_table_cell}} representing the range of applicability of a tolerance value by specifying an upper and a lower limit.
+  - content: An **Upper_lower_limit** is an entry in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm.Tolerance_table_cell,Tolerance_table_cell}}
+      representing the range of applicability of a tolerance value by specifying an
+      upper and a lower limit.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
-          version: '3'
-      type: authoritative
-      id: Default_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Default_tolerance_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Upper_lower_limit
+  - type: expression
+    normative_status: preferred
+    designation: Upper_lower_limit
   domain: 'application module: Default_tolerance_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: product_concept_schema.concept_feature_operator
   localized_concepts:
     eng: 264ef23c-1c87-5b9c-bc65-e36ff600f77e
   domains:
-    - concept_id: section-product_concept_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-      ref_type: section
+  - concept_id: section-product_concept_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+    ref_type: section
 id: product_concept_schema.concept_feature_operator
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the concept feature operator {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the concept feature operator {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **concept_feature_operator** is a definition of an operation that is used to constrain the relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}.
+  - content: A **concept_feature_operator** is a definition of an operation that is
+      used to constrain the relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-          version: '2'
-      type: authoritative
-      id: product_concept_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: concept_feature_operator
+  - type: expression
+    normative_status: preferred
+    designation: concept_feature_operator
   domain: 'resource: product_concept_schema'
   language_code: eng
   annotations: []

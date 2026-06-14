@@ -1,30 +1,35 @@
+---
 data:
   identifier: Ap239_part_definition_information_mim.characterized_organizational_project
   localized_concepts:
     eng: 9bed1bd4-574a-5e3b-a468-8a88f6e9b223
   domains:
-    - concept_id: section-Ap239_part_definition_information_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
-      ref_type: section
+  - concept_id: section-Ap239_part_definition_information_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+    ref_type: section
 id: Ap239_part_definition_information_mim.characterized_organizational_project
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized organizational project {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized organizational project {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_organizational_project** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organizational_project,organizational_project}} that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim.characterized_organizational_project,characterized_organizational_project}} instances.
+  - content: A **characterized_organizational_project** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.organizational_project,organizational_project}}
+      that serves to assign {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      instances to {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim.characterized_organizational_project,characterized_organizational_project}}
+      instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
-          version: '5'
-      type: authoritative
-      id: Ap239_part_definition_information_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_part_definition_information_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_organizational_project
+  - type: expression
+    normative_status: preferred
+    designation: characterized_organizational_project
   domain: 'application module: Ap239_part_definition_information_mim'
   language_code: eng
   annotations: []

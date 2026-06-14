@@ -1,30 +1,33 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Non_conductive_cross_section_template
   localized_concepts:
     eng: 3418144d-28f8-5559-812c-a480f840a8b7
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Non_conductive_cross_section_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} that represents the non conductive cross section template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Template_definition,Template_definition}}
+      that represents the non conductive cross section template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Non_conductive_cross_section_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}} where the material in the cross-section is non conductive.
+  - content: A **Non_conductive_cross_section_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_arm.Template_definition,Template_definition}}
+      where the material in the cross-section is non conductive.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Non_conductive_cross_section_template
+  - type: expression
+    normative_status: preferred
+    designation: Non_conductive_cross_section_template
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []

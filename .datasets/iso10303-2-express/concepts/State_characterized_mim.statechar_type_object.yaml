@@ -1,29 +1,30 @@
+---
 data:
   identifier: State_characterized_mim.statechar_type_object
   localized_concepts:
     eng: e8215084-c3a9-5f5f-867b-e6f0174eb11d
   domains:
-    - concept_id: section-State_characterized_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_characterized_mim
-      ref_type: section
+  - concept_id: section-State_characterized_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_characterized_mim
+    ref_type: section
 id: State_characterized_mim.statechar_type_object
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the statechar type object {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the statechar type object {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_characterized_mim
-          version: '4'
-      type: authoritative
-      id: State_characterized_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_characterized_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: statechar_type_object
+  - type: expression
+    normative_status: preferred
+    designation: statechar_type_object
   domain: 'application module: State_characterized_mim'
   language_code: eng
   annotations: []

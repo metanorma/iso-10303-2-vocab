@@ -1,30 +1,33 @@
+---
 data:
   identifier: Generic_expression_arm.Simple_generic_expression
   localized_concepts:
     eng: 1640e1fa-e528-577c-af86-b9adabc24827
   domains:
-    - concept_id: section-Generic_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-      ref_type: section
+  - concept_id: section-Generic_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+    ref_type: section
 id: Generic_expression_arm.Simple_generic_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} that represents the simple generic expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      that represents the simple generic expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Simple_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} that a represents the connection.
+  - content: A **Simple_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      that a represents the connection.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-          version: '3'
-      type: authoritative
-      id: Generic_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Simple_generic_expression
+  - type: expression
+    normative_status: preferred
+    designation: Simple_generic_expression
   domain: 'application module: Generic_expression_arm'
   language_code: eng
   annotations: []

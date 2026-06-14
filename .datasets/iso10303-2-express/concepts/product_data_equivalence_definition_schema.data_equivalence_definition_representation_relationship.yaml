@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_data_equivalence_definition_schema.data_equivalence_definition_representation_relationship
   localized_concepts:
     eng: 3c5d09f0-70f1-552f-81a9-e55f917fea52
   domains:
-    - concept_id: section-product_data_equivalence_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+    ref_type: section
 id: product_data_equivalence_definition_schema.data_equivalence_definition_representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the data equivalence definition representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the data equivalence definition representation relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_equivalence_definition_representation_relationship** is a relationship between an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema.data_equivalence_definition,data_equivalence_definition}} and an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}} or of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_representation,data_equivalence_inspection_result_representation}}.
+  - content: A **data_equivalence_definition_representation_relationship** is a relationship
+      between an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema.data_equivalence_definition,data_equivalence_definition}}
+      and an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_criteria_representation,data_equivalence_criteria_representation}}
+      or of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.data_equivalence_inspection_result_representation,data_equivalence_inspection_result_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
-          version: '2'
-      type: authoritative
-      id: product_data_equivalence_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_definition_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_equivalence_definition_representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: data_equivalence_definition_representation_relationship
   domain: 'resource: product_data_equivalence_definition_schema'
   language_code: eng
   annotations: []

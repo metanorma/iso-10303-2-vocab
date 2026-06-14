@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometric_model_schema.tetrahedron
   localized_concepts:
     eng: 9a2d791e-a73d-5c5d-aee1-95b380ce35dd
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.tetrahedron
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.faceted_primitive,faceted_primitive}} that represents the tetrahedron {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.faceted_primitive,faceted_primitive}}
+      that represents the tetrahedron {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tetrahedron** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.faceted_primitive,faceted_primitive}} with 4 vertices and 4 triangular faces.
+  - content: A **tetrahedron** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.faceted_primitive,faceted_primitive}}
+      with 4 vertices and 4 triangular faces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tetrahedron
+  - type: expression
+    normative_status: preferred
+    designation: tetrahedron
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

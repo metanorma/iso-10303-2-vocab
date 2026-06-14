@@ -1,29 +1,31 @@
+---
 data:
   identifier: Package_arm.Package_body_surface
   localized_concepts:
     eng: 68294cd4-64eb-5a14-920d-8b88783d4f1e
   domains:
-    - concept_id: section-Package_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
-      ref_type: section
+  - concept_id: section-Package_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+    ref_type: section
 id: Package_arm.Package_body_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the package body surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Part_feature,Part_feature}}
+      that represents the package body surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
-          version: '7'
-      type: authoritative
-      id: Package_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Package_body_surface
+  - type: expression
+    normative_status: preferred
+    designation: Package_body_surface
   domain: 'application module: Package_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.small_triangulated_shell
   localized_concepts:
     eng: 2d355cc8-8e29-51b6-94f7-bffa15017088
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.small_triangulated_shell
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that represents the small triangulated shell {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that represents the small triangulated shell {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **small_triangulated_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Small_triangulated_shell,Small_triangulated_shell}}.
+  - content: A **small_triangulated_shell** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Small_triangulated_shell,Small_triangulated_shell}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: small_triangulated_shell
+  - type: expression
+    normative_status: preferred
+    designation: small_triangulated_shell
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

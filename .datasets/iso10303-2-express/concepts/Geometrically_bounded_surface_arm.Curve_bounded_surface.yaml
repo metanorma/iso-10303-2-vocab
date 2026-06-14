@@ -1,30 +1,33 @@
+---
 data:
   identifier: Geometrically_bounded_surface_arm.Curve_bounded_surface
   localized_concepts:
     eng: a4f17473-9583-5bde-9cf4-290d6e0d5d8d
   domains:
-    - concept_id: section-Geometrically_bounded_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-      ref_type: section
+  - concept_id: section-Geometrically_bounded_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+    ref_type: section
 id: Geometrically_bounded_surface_arm.Curve_bounded_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} that represents the curve bounded surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm.Bounded_surface,Bounded_surface}}
+      that represents the curve bounded surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Curve_bounded_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} with explicit geometric boundaries defined by curves lying on the surface.
+  - content: A **Curve_bounded_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}}
+      with explicit geometric boundaries defined by curves lying on the surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-          version: '3'
-      type: authoritative
-      id: Geometrically_bounded_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_bounded_surface
+  - type: expression
+    normative_status: preferred
+    designation: Curve_bounded_surface
   domain: 'application module: Geometrically_bounded_surface_arm'
   language_code: eng
   annotations: []

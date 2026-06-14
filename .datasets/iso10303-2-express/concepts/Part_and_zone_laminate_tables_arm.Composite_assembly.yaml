@@ -1,30 +1,33 @@
+---
 data:
   identifier: Part_and_zone_laminate_tables_arm.Composite_assembly
   localized_concepts:
     eng: 99b56147-7684-5d12-90ea-46903e8afc0a
   domains:
-    - concept_id: section-Part_and_zone_laminate_tables_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
-      ref_type: section
+  - concept_id: section-Part_and_zone_laminate_tables_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+    ref_type: section
 id: Part_and_zone_laminate_tables_arm.Composite_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}} that represents the composite assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}}
+      that represents the composite assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Composite_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}} that is made of multiple materials that are bonded together.
+  - content: A **Composite_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm.Constituent_part,Constituent_part}}
+      that is made of multiple materials that are bonded together.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
-          version: '6'
-      type: authoritative
-      id: Part_and_zone_laminate_tables_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_and_zone_laminate_tables_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Composite_assembly
+  - type: expression
+    normative_status: preferred
+    designation: Composite_assembly
   domain: 'application module: Part_and_zone_laminate_tables_arm'
   language_code: eng
   annotations: []

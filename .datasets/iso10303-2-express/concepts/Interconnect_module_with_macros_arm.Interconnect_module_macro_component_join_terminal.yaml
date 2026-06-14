@@ -1,29 +1,31 @@
+---
 data:
   identifier: Interconnect_module_with_macros_arm.Interconnect_module_macro_component_join_terminal
   localized_concepts:
     eng: 0f5e4073-1e59-5566-8780-7bb6c4f79387
   domains:
-    - concept_id: section-Interconnect_module_with_macros_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_with_macros_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm
+    ref_type: section
 id: Interconnect_module_with_macros_arm.Interconnect_module_macro_component_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that represents the interconnect module macro component join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm.Physical_component_terminal,Physical_component_terminal}}
+      that represents the interconnect module macro component join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm
-          version: '4'
-      type: authoritative
-      id: Interconnect_module_with_macros_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_with_macros_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_macro_component_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_macro_component_join_terminal
   domain: 'application module: Interconnect_module_with_macros_arm'
   language_code: eng
   annotations: []

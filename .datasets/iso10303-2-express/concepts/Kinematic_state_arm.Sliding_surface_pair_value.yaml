@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_state_arm.Sliding_surface_pair_value
   localized_concepts:
     eng: f4c4d390-3059-5173-8ea6-84bff7645124
   domains:
-    - concept_id: section-Kinematic_state_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
-      ref_type: section
+  - concept_id: section-Kinematic_state_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+    ref_type: section
 id: Kinematic_state_arm.Sliding_surface_pair_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Pair_value,Pair_value}} that represents the sliding surface pair value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Pair_value,Pair_value}}
+      that represents the sliding surface pair value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_state_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Sliding_surface_pair_value
+  - type: expression
+    normative_status: preferred
+    designation: Sliding_surface_pair_value
   domain: 'application module: Kinematic_state_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: topology_schema.connected_volume_set
   localized_concepts:
     eng: 42d1d8e5-ac79-51fc-8860-44a114e1d3b7
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.connected_volume_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} that represents the connected volume set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}
+      that represents the connected volume set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **connected_volume_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}} and is a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.volume_with_faces,volume_with_faces}} such that the domain of the volumes together with their bounding faces, edges and vertices is connected.
+  - content: A **connected_volume_set** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.topological_representation_item,topological_representation_item}}
+      and is a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.volume_with_faces,volume_with_faces}}
+      such that the domain of the volumes together with their bounding faces, edges
+      and vertices is connected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: connected_volume_set
+  - type: expression
+    normative_status: preferred
+    designation: connected_volume_set
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Project_management_mim.prjm_characterizable_information_usage_right
   localized_concepts:
     eng: 23983e82-47ad-59a6-a898-a4789b08aee4
   domains:
-    - concept_id: section-Project_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-      ref_type: section
+  - concept_id: section-Project_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+    ref_type: section
 id: Project_management_mim.prjm_characterizable_information_usage_right
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the prjm characterizable information usage right {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the prjm characterizable information usage right
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **prjm_characterizable_information_usage_right** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim.information_usage_right,information_usage_right}}.
+  - content: A **prjm_characterizable_information_usage_right** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_rights_mim.information_usage_right,information_usage_right}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-          version: '2'
-      type: authoritative
-      id: Project_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: prjm_characterizable_information_usage_right
+  - type: expression
+    normative_status: preferred
+    designation: prjm_characterizable_information_usage_right
   domain: 'application module: Project_management_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: risk_schema.event_occurrence_characterized_object
   localized_concepts:
     eng: 8927cf6e-c9c3-5d45-b2f3-a519fe720cd8
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.event_occurrence_characterized_object
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the event occurrence characterized object {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the event occurrence characterized object {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **event_occurrence_characterized_object** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that describes the probability for the risk to occur.
+  - content: An **event_occurrence_characterized_object** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      that describes the probability for the risk to occur.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: event_occurrence_characterized_object
+  - type: expression
+    normative_status: preferred
+    designation: event_occurrence_characterized_object
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

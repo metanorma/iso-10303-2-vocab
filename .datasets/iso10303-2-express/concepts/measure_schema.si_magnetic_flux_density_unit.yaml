@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.si_magnetic_flux_density_unit
   localized_concepts:
     eng: 1de0fe50-2ccc-524f-8f92-7c85f7fb2266
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.si_magnetic_flux_density_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the si magnetic flux density unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the si magnetic flux density unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **si_magnetic_flux_density_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.magnetic_flux_density_unit,magnetic_flux_density_unit}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}} in which the magnetic flux density is expressed in SI units.
+  - content: A **si_magnetic_flux_density_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.magnetic_flux_density_unit,magnetic_flux_density_unit}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.si_unit,si_unit}}
+      in which the magnetic flux density is expressed in SI units.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: si_magnetic_flux_density_unit
+  - type: expression
+    normative_status: preferred
+    designation: si_magnetic_flux_density_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_breakdown_mim.product_definition_element_relationship
   localized_concepts:
     eng: b8a86f70-d875-5dae-b1a3-28b0e880b2f8
   domains:
-    - concept_id: section-Product_breakdown_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
-      ref_type: section
+  - concept_id: section-Product_breakdown_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+    ref_type: section
 id: Product_breakdown_mim.product_definition_element_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the product definition element relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim.group,group}}
+      that represents the product definition element relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_element_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}}.
+  - content: A **product_definition_element_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Product_definition_element_relationship,Product_definition_element_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
-          version: '4'
-      type: authoritative
-      id: Product_breakdown_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_element_relationship
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_element_relationship
   domain: 'application module: Product_breakdown_mim'
   language_code: eng
   annotations: []

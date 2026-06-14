@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_definition_schema.product_definition_formation_with_specified_source
   localized_concepts:
     eng: 5ee5c31c-4edd-5d5b-8e2d-3c2cb102405d
   domains:
-    - concept_id: section-product_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-      ref_type: section
+  - concept_id: section-product_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+    ref_type: section
 id: product_definition_schema.product_definition_formation_with_specified_source
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the product definition formation with specified source {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that represents the product definition formation with specified source {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_formation_with_specified_source** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} whose source is identified to be either manufactured within an organization, bought, or the fact that this information is not known.
+  - content: A **product_definition_formation_with_specified_source** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      whose source is identified to be either manufactured within an organization,
+      bought, or the fact that this information is not known.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-          version: '10'
-      type: authoritative
-      id: product_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_formation_with_specified_source
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_formation_with_specified_source
   domain: 'resource: product_definition_schema'
   language_code: eng
   annotations: []

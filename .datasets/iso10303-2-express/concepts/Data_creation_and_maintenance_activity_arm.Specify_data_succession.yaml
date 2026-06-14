@@ -1,30 +1,34 @@
+---
 data:
   identifier: Data_creation_and_maintenance_activity_arm.Specify_data_succession
   localized_concepts:
     eng: 69799fc2-cd90-5fb2-b0b5-320bb158af25
   domains:
-    - concept_id: section-Data_creation_and_maintenance_activity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
-      ref_type: section
+  - concept_id: section-Data_creation_and_maintenance_activity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+    ref_type: section
 id: Data_creation_and_maintenance_activity_arm.Specify_data_succession
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that represents the specify data succession {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm.Temporal_object_activity,Temporal_object_activity}}
+      that represents the specify data succession {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Specify_data_succession** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}} that specifies one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}} succeeds another.
+  - content: A **Specify_data_succession** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object_activity,Temporal_object_activity}}
+      that specifies one {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Root_things_arm.Information_object,Information_object}}
+      succeeds another.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
-          version: '1'
-      type: authoritative
-      id: Data_creation_and_maintenance_activity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Data_creation_and_maintenance_activity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Specify_data_succession
+  - type: expression
+    normative_status: preferred
+    designation: Specify_data_succession
   domain: 'application module: Data_creation_and_maintenance_activity_arm'
   language_code: eng
   annotations: []

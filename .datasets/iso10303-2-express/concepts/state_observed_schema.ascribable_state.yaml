@@ -1,30 +1,34 @@
+---
 data:
   identifier: state_observed_schema.ascribable_state
   localized_concepts:
     eng: b078da90-54ca-5fb2-aae0-8c70be445098
   domains:
-    - concept_id: section-state_observed_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-      ref_type: section
+  - concept_id: section-state_observed_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+    ref_type: section
 id: state_observed_schema.ascribable_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ascribable state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the ascribable state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **ascribable_state** is a representation of a relationship that relates one instance of the entity {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}} to its {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}} and provides an identification and description of their relationship.
+  - content: An **ascribable_state** is a representation of a relationship that relates
+      one instance of the entity {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema.state_observed,state_observed}}
+      to its {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}}
+      and provides an identification and description of their relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-          version: '3'
-      type: authoritative
-      id: state_observed_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: ascribable_state
+  - type: expression
+    normative_status: preferred
+    designation: ascribable_state
   domain: 'resource: state_observed_schema'
   language_code: eng
   annotations: []

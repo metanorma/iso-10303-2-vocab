@@ -1,30 +1,34 @@
+---
 data:
   identifier: Attribute_classification_mim.applied_attribute_classification_assignment
   localized_concepts:
     eng: 4cf242a4-1dc8-59dc-8218-e0d4f82d5b78
   domains:
-    - concept_id: section-Attribute_classification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attribute_classification_mim
-      ref_type: section
+  - concept_id: section-Attribute_classification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attribute_classification_mim
+    ref_type: section
 id: Attribute_classification_mim.applied_attribute_classification_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.attribute_classification_assignment,attribute_classification_assignment}} that represents the applied attribute classification assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attribute_classification_mim.attribute_classification_assignment,attribute_classification_assignment}}
+      that represents the applied attribute classification assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_attribute_classification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.attribute_classification_assignment,attribute_classification_assignment}} that represents the application of a value, represented by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}, to an attribute on an EXPRESS entity.
+  - content: An **applied_attribute_classification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.attribute_classification_assignment,attribute_classification_assignment}}
+      that represents the application of a value, represented by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema
+      .class,class}}, to an attribute on an EXPRESS entity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attribute_classification_mim
-          version: '2'
-      type: authoritative
-      id: Attribute_classification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attribute_classification_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_attribute_classification_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_attribute_classification_assignment
   domain: 'application module: Attribute_classification_mim'
   language_code: eng
   annotations: []

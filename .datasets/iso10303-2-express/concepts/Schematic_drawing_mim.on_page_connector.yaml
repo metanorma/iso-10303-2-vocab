@@ -1,29 +1,31 @@
+---
 data:
   identifier: Schematic_drawing_mim.on_page_connector
   localized_concepts:
     eng: dc90eb1d-12cb-5b17-94e3-5a0423eb7cb8
   domains:
-    - concept_id: section-Schematic_drawing_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
-      ref_type: section
+  - concept_id: section-Schematic_drawing_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
+    ref_type: section
 id: Schematic_drawing_mim.on_page_connector
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim.page_connector,page_connector}} that represents the on page connector {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim.page_connector,page_connector}}
+      that represents the on page connector {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
-          version: '1'
-      type: authoritative
-      id: Schematic_drawing_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: on_page_connector
+  - type: expression
+    normative_status: preferred
+    designation: on_page_connector
   domain: 'application module: Schematic_drawing_mim'
   language_code: eng
   annotations: []

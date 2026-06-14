@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_definition_schema.characterized_product
   localized_concepts:
     eng: 4170684f-9b88-5894-846b-31af0f476676
   domains:
-    - concept_id: section-product_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-      ref_type: section
+  - concept_id: section-product_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+    ref_type: section
 id: product_definition_schema.characterized_product
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized product {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized product {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_product** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} for the purpose of characterizing a product.
+  - content: A **characterized_product** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}
+      for the purpose of characterizing a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-          version: '10'
-      type: authoritative
-      id: product_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_product
+  - type: expression
+    normative_status: preferred
+    designation: characterized_product
   domain: 'resource: product_definition_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Colour_arm.User_defined_colour
   localized_concepts:
     eng: c35dd90c-aa15-5308-9a7b-80351994976a
   domains:
-    - concept_id: section-Colour_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
-      ref_type: section
+  - concept_id: section-Colour_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+    ref_type: section
 id: Colour_arm.User_defined_colour
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}} that represents the user defined colour {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}}
+      that represents the user defined colour {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **User_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}} that has its definition established without referencing any standard.
+  - content: A **User_defined_colour** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm.Colour,Colour}}
+      that has its definition established without referencing any standard.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
-          version: '3'
-      type: authoritative
-      id: Colour_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Colour_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: User_defined_colour
+  - type: expression
+    normative_status: preferred
+    designation: User_defined_colour
   domain: 'application module: Colour_arm'
   language_code: eng
   annotations: []

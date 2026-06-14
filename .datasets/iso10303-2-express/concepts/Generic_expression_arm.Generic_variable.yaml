@@ -1,30 +1,33 @@
+---
 data:
   identifier: Generic_expression_arm.Generic_variable
   localized_concepts:
     eng: 52b1b849-8100-584a-8c09-510e6bf9cf8b
   domains:
-    - concept_id: section-Generic_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-      ref_type: section
+  - concept_id: section-Generic_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+    ref_type: section
 id: Generic_expression_arm.Generic_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Simple_generic_expression,Simple_generic_expression}} that represents the generic variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Simple_generic_expression,Simple_generic_expression}}
+      that represents the generic variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Generic_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Simple_generic_expression,Simple_generic_expression}} and is an abstract variable that can be involved in a generic expression.
+  - content: A **Generic_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Simple_generic_expression,Simple_generic_expression}}
+      and is an abstract variable that can be involved in a generic expression.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-          version: '3'
-      type: authoritative
-      id: Generic_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Generic_variable
+  - type: expression
+    normative_status: preferred
+    designation: Generic_variable
   domain: 'application module: Generic_expression_arm'
   language_code: eng
   annotations: []

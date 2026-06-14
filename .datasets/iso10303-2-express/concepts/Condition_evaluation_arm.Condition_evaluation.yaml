@@ -1,30 +1,32 @@
+---
 data:
   identifier: Condition_evaluation_arm.Condition_evaluation
   localized_concepts:
     eng: 047fd32c-09dd-56c4-9779-13ec20ef4126
   domains:
-    - concept_id: section-Condition_evaluation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
-      ref_type: section
+  - concept_id: section-Condition_evaluation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+    ref_type: section
 id: Condition_evaluation_arm.Condition_evaluation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition evaluation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the condition evaluation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Condition_evaluation** is a record of the evaluation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm.Condition,Condition}} and the subsequent result.
+  - content: A **Condition_evaluation** is a record of the evaluation of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm.Condition,Condition}}
+      and the subsequent result.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
-          version: '2'
-      type: authoritative
-      id: Condition_evaluation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Condition_evaluation
+  - type: expression
+    normative_status: preferred
+    designation: Condition_evaluation
   domain: 'application module: Condition_evaluation_arm'
   language_code: eng
   annotations: []

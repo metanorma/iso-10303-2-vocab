@@ -1,30 +1,36 @@
+---
 data:
   identifier: General_model_parameter_arm.General_model_parameter
   localized_concepts:
     eng: fd995122-df85-5502-86d8-94cdefd695ff
   domains:
-    - concept_id: section-General_model_parameter_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
-      ref_type: section
+  - concept_id: section-General_model_parameter_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+    ref_type: section
 id: General_model_parameter_arm.General_model_parameter
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that represents the general model parameter {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm.Independent_property,Independent_property}}
+      that represents the general model parameter {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **General_model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}} that is a named input/output of a model used in the definition of the interface, in the sense of exposed method of communicating with the model, to the model which is or may be provided with or result in an actual value when the model is used or invoked.
+  - content: An **General_model_parameter** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property,Independent_property}}
+      that is a named input/output of a model used in the definition of the interface,
+      in the sense of exposed method of communicating with the model, to the model
+      which is or may be provided with or result in an actual value when the model
+      is used or invoked.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
-          version: '1'
-      type: authoritative
-      id: General_model_parameter_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: General_model_parameter
+  - type: expression
+    normative_status: preferred
+    designation: General_model_parameter
   domain: 'application module: General_model_parameter_arm'
   language_code: eng
   annotations: []

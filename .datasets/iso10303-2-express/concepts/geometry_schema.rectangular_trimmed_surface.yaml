@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.rectangular_trimmed_surface
   localized_concepts:
     eng: bec38b5c-a46c-56e3-a3dd-80d8573b42b5
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.rectangular_trimmed_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_surface,bounded_surface}} that represents the rectangular trimmed surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_surface,bounded_surface}}
+      that represents the rectangular trimmed surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rectangular_trimmed_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_surface,bounded_surface}}, in which the boundaries are the constant parametric lines stem:[u_1 = u1], u_2 = u2_, stem:[v_1 = v1] and stem:[v_2 = v2].
+  - content: A **rectangular_trimmed_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.bounded_surface,bounded_surface}},
+      in which the boundaries are the constant parametric lines stem:[u_1 = u1], u_2
+      = u2_, stem:[v_1 = v1] and stem:[v_2 = v2].
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rectangular_trimmed_surface
+  - type: expression
+    normative_status: preferred
+    designation: rectangular_trimmed_surface
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

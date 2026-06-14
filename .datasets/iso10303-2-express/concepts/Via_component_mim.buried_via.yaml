@@ -1,30 +1,33 @@
+---
 data:
   identifier: Via_component_mim.buried_via
   localized_concepts:
     eng: b5f7ecc3-04de-5bc3-945b-b4beb4291335
   domains:
-    - concept_id: section-Via_component_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_mim
-      ref_type: section
+  - concept_id: section-Via_component_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_mim
+    ref_type: section
 id: Via_component_mim.buried_via
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.via,via}} that represents the buried via {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_mim.via,via}}
+      that represents the buried via {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **buried_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.via,via}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Buried_via,Buried_via}}.
+  - content: A **buried_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.via,via}}
+      that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Buried_via,Buried_via}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_mim
-          version: '2'
-      type: authoritative
-      id: Via_component_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: buried_via
+  - type: expression
+    normative_status: preferred
+    designation: buried_via
   domain: 'application module: Via_component_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Production_rule_arm.Simple_clause
   localized_concepts:
     eng: 11c35418-3397-52cd-aae4-989990fe34e8
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Simple_clause
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the simple clause {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the simple clause {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Simple_clause** is one of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Literal_conjunction,Literal_conjunction}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Literal_disjunction,Literal_disjunction}}.
+  - content: A **Simple_clause** is one of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Literal_conjunction,Literal_conjunction}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Literal_disjunction,Literal_disjunction}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Simple_clause
+  - type: expression
+    normative_status: preferred
+    designation: Simple_clause
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

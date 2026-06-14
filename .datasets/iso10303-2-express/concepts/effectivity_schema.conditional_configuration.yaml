@@ -1,30 +1,35 @@
+---
 data:
   identifier: effectivity_schema.conditional_configuration
   localized_concepts:
     eng: 5c82fd8e-0212-55be-aeca-0d87524a591e
   domains:
-    - concept_id: section-effectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-      ref_type: section
+  - concept_id: section-effectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+    ref_type: section
 id: effectivity_schema.conditional_configuration
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.conditional_effectivity,conditional_effectivity}} that represents the conditional configuration {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.conditional_effectivity,conditional_effectivity}}
+      that represents the conditional configuration {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **conditional_configuration** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.conditional_effectivity,conditional_effectivity}} and represents an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature_association,product_concept_feature_association}} object with a design or process in order to define a valid usage of it in the context of a certain class of product.
+  - content: A **conditional_configuration** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.conditional_effectivity,conditional_effectivity}}
+      and represents an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature_association,product_concept_feature_association}}
+      object with a design or process in order to define a valid usage of it in the
+      context of a certain class of product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-          version: '8'
-      type: authoritative
-      id: effectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: conditional_configuration
+  - type: expression
+    normative_status: preferred
+    designation: conditional_configuration
   domain: 'resource: effectivity_schema'
   language_code: eng
   annotations: []

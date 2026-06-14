@@ -1,30 +1,31 @@
+---
 data:
   identifier: State_observed_arm.State_relationship
   localized_concepts:
     eng: 1664afee-19f8-5223-85d9-21e0e76c2838
   domains:
-    - concept_id: section-State_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-      ref_type: section
+  - concept_id: section-State_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+    ref_type: section
 id: State_observed_arm.State_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **State_relationship** is a relationship between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}}.
+  - content: A **State_relationship** is a relationship between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm.State,State}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
-          version: '4'
-      type: authoritative
-      id: State_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:State_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: State_relationship
+  - type: expression
+    normative_status: preferred
+    designation: State_relationship
   domain: 'application module: State_observed_arm'
   language_code: eng
   annotations: []

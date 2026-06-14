@@ -1,30 +1,32 @@
+---
 data:
   identifier: Functional_assignment_to_part_arm.Part_connected_terminals_element
   localized_concepts:
     eng: ca41124f-c8c3-5b3c-ab6a-edc88417e184
   domains:
-    - concept_id: section-Functional_assignment_to_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+    ref_type: section
 id: Functional_assignment_to_part_arm.Part_connected_terminals_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part connected terminals element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part connected terminals element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_connected_terminals_element** is a the object that describes a link between two nodes for the graph representation.
+  - content: A **Part_connected_terminals_element** is a the object that describes
+      a link between two nodes for the graph representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_connected_terminals_element
+  - type: expression
+    normative_status: preferred
+    designation: Part_connected_terminals_element
   domain: 'application module: Functional_assignment_to_part_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: procedural_sketch_schema.create_rectangle
   localized_concepts:
     eng: dfb5e342-2a9d-5f0d-b28c-1c77a6300455
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.create_rectangle
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_curve_element,sketch_create_curve_element}} that represents the create rectangle {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.sketch_create_curve_element,sketch_create_curve_element}}
+      that represents the create rectangle {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *create_rectangle* is a type of *sketch_create_curve_element* that creates a rectangle in terms of three points.
+  - content: A *create_rectangle* is a type of *sketch_create_curve_element* that
+      creates a rectangle in terms of three points.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: create_rectangle
+  - type: expression
+    normative_status: preferred
+    designation: create_rectangle
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

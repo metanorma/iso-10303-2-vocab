@@ -1,30 +1,35 @@
+---
 data:
   identifier: aic_curve_swept_solid.curve_swept_solid_shape_representation
   localized_concepts:
     eng: a3b279f3-853f-59ff-8488-cd781b0537aa
   domains:
-    - concept_id: section-aic_curve_swept_solid
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
-      ref_type: section
+  - concept_id: section-aic_curve_swept_solid
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
+    ref_type: section
 id: aic_curve_swept_solid.curve_swept_solid_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the curve swept solid shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid.shape_representation,shape_representation}}
+      that represents the curve swept solid shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **curve_swept_solid_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the shape of a product is represented by specialisations of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_area_solid,swept_area_solid}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_disk_solid,swept_disk_solid}} entities.
+  - content: A **curve_swept_solid_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      in which the shape of a product is represented by specialisations of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_area_solid,swept_area_solid}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_disk_solid,swept_disk_solid}}
+      entities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
-          version: '2'
-      type: authoritative
-      id: aic_curve_swept_solid
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_curve_swept_solid
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_swept_solid_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: curve_swept_solid_shape_representation
   domain: 'resource: aic_curve_swept_solid'
   language_code: eng
   annotations: []

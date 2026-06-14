@@ -1,30 +1,33 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.sharp_triangle_vertex
   localized_concepts:
     eng: b87f436f-d5b4-5ec7-89d3-b084c1a0d927
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.sharp_triangle_vertex
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that represents the sharp triangle vertex {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that represents the sharp triangle vertex {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **sharp_triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Sharp_triangle_vertex,Sharp_triangle_vertex}}.
+  - content: A **sharp_triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Sharp_triangle_vertex,Sharp_triangle_vertex}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sharp_triangle_vertex
+  - type: expression
+    normative_status: preferred
+    designation: sharp_triangle_vertex
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_tolerance_arm.All_around_shape_element_along_collection_plane
   localized_concepts:
     eng: f4ca95f0-ae53-5003-9830-a2910c6f2e02
   domains:
-    - concept_id: section-Geometric_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-      ref_type: section
+  - concept_id: section-Geometric_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+    ref_type: section
 id: Geometric_tolerance_arm.All_around_shape_element_along_collection_plane
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.All_around_shape_element,All_around_shape_element}} that represents the all around shape element along collection plane {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.All_around_shape_element,All_around_shape_element}}
+      that represents the all around shape element along collection plane {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **All_around_shape_element_along_collection_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.All_around_shape_element,All_around_shape_element}} that represents the "all around" along a specified "collection plane" as defined in ISO 1101.
+  - content: An **All_around_shape_element_along_collection_plane** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.All_around_shape_element,All_around_shape_element}}
+      that represents the "all around" along a specified "collection plane" as defined
+      in ISO 1101.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-          version: '10'
-      type: authoritative
-      id: Geometric_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: All_around_shape_element_along_collection_plane
+  - type: expression
+    normative_status: preferred
+    designation: All_around_shape_element_along_collection_plane
   domain: 'application module: Geometric_tolerance_arm'
   language_code: eng
   annotations: []

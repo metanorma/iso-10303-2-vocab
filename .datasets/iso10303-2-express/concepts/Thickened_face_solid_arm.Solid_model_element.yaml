@@ -1,29 +1,31 @@
+---
 data:
   identifier: Thickened_face_solid_arm.Solid_model_element
   localized_concepts:
     eng: 8a33e64a-d553-59ef-9ac1-100ed97afe49
   domains:
-    - concept_id: section-Thickened_face_solid_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thickened_face_solid_arm
-      ref_type: section
+  - concept_id: section-Thickened_face_solid_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thickened_face_solid_arm
+    ref_type: section
 id: Thickened_face_solid_arm.Solid_model_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the solid model element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Thickened_face_solid_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the solid model element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thickened_face_solid_arm
-          version: '2'
-      type: authoritative
-      id: Thickened_face_solid_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thickened_face_solid_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Solid_model_element
+  - type: expression
+    normative_status: preferred
+    designation: Solid_model_element
   domain: 'application module: Thickened_face_solid_arm'
   language_code: eng
   annotations: []

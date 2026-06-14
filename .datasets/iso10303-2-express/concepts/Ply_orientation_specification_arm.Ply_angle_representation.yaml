@@ -1,29 +1,31 @@
+---
 data:
   identifier: Ply_orientation_specification_arm.Ply_angle_representation
   localized_concepts:
     eng: 25c26917-7dae-53c1-aca5-943d62297905
   domains:
-    - concept_id: section-Ply_orientation_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-      ref_type: section
+  - concept_id: section-Ply_orientation_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+    ref_type: section
 id: Ply_orientation_specification_arm.Ply_angle_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the ply angle representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Representation,Representation}}
+      that represents the ply angle representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-          version: '5'
-      type: authoritative
-      id: Ply_orientation_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ply_angle_representation
+  - type: expression
+    normative_status: preferred
+    designation: Ply_angle_representation
   domain: 'application module: Ply_orientation_specification_arm'
   language_code: eng
   annotations: []

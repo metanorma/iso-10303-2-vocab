@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_definition_schema.defined_table
   localized_concepts:
     eng: b3075a79-96e2-5bff-bd91-081f4eb06260
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.defined_table
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_symbol,defined_symbol}} that represents the defined table {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_symbol,defined_symbol}}
+      that represents the defined table {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **defined_table** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_symbol,defined_symbol}} that specifies an implicit definition of a table.
+  - content: A **defined_table** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_symbol,defined_symbol}}
+      that specifies an implicit definition of a table.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: defined_table
+  - type: expression
+    normative_status: preferred
+    designation: defined_table
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

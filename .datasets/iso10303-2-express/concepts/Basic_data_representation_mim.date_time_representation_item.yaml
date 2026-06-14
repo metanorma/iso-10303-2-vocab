@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_data_representation_mim.date_time_representation_item
   localized_concepts:
     eng: 9989583e-79e0-5ded-9579-e62930b12625
   domains:
-    - concept_id: section-Basic_data_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
-      ref_type: section
+  - concept_id: section-Basic_data_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+    ref_type: section
 id: Basic_data_representation_mim.date_time_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date time representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the date time representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **date_time_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date_and_time,date_and_time}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Date_time_representation_item,Date_time_representation_item}}.
+  - content: A **date_time_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date_and_time,date_and_time}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Date_time_representation_item,Date_time_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
-          version: '3'
-      type: authoritative
-      id: Basic_data_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: date_time_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: date_time_representation_item
   domain: 'application module: Basic_data_representation_mim'
   language_code: eng
   annotations: []

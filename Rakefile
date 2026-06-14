@@ -27,7 +27,7 @@ namespace :concepts do
 
     outdir = ".datasets/iso10303-2-express"
     FileUtils.mkdir_p(outdir)
-    sh "suma extract-terms #{manifest} #{outdir}/concepts --urn #{BASE_URN}"
+    sh "suma extract-terms #{manifest} #{outdir}/concepts -u #{BASE_URN}"
   end
 
   desc "Copy term definitions into .datasets/iso10303-2-terms/"

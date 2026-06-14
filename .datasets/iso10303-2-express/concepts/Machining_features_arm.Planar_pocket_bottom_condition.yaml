@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Planar_pocket_bottom_condition
   localized_concepts:
     eng: 20f1d3a5-09c8-5377-8e6b-61a0582a8ca6
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Planar_pocket_bottom_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket_bottom_condition,Pocket_bottom_condition}} that represents the planar pocket bottom condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket_bottom_condition,Pocket_bottom_condition}}
+      that represents the planar pocket bottom condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Planar_pocket_bottom_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket_bottom_condition,Pocket_bottom_condition}} that characterizes the bottom of a pocket which is flat.
+  - content: A **Planar_pocket_bottom_condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket_bottom_condition,Pocket_bottom_condition}}
+      that characterizes the bottom of a pocket which is flat.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Planar_pocket_bottom_condition
+  - type: expression
+    normative_status: preferred
+    designation: Planar_pocket_bottom_condition
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

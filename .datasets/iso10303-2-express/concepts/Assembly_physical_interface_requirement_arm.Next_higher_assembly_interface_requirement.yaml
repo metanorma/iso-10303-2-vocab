@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_physical_interface_requirement_arm.Next_higher_assembly_interface_requirement
   localized_concepts:
     eng: beeabb7a-7e59-57cc-b26a-82387c20c0a6
   domains:
-    - concept_id: section-Assembly_physical_interface_requirement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-      ref_type: section
+  - concept_id: section-Assembly_physical_interface_requirement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+    ref_type: section
 id: Assembly_physical_interface_requirement_arm.Next_higher_assembly_interface_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the next higher assembly interface requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the next higher assembly interface requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Next_higher_assembly_interface_requirement** is an association between the version of the next higher assembly and a **shape** that simulates the fit characteristics of the next higher assembly.
+  - content: A **Next_higher_assembly_interface_requirement** is an association between
+      the version of the next higher assembly and a **shape** that simulates the fit
+      characteristics of the next higher assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-          version: '4'
-      type: authoritative
-      id: Assembly_physical_interface_requirement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Next_higher_assembly_interface_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Next_higher_assembly_interface_requirement
   domain: 'application module: Assembly_physical_interface_requirement_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interface_arm.Interface_connector
   localized_concepts:
     eng: e665fc03-081b-5015-a974-b6250944a468
   domains:
-    - concept_id: section-Interface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-      ref_type: section
+  - concept_id: section-Interface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+    ref_type: section
 id: Interface_arm.Interface_connector
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the interface connector {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Product,Product}}
+      that represents the interface connector {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_connector** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that identifies a part of a product with which one or more other products or the environment interacts.
+  - content: An **Interface_connector** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      that identifies a part of a product with which one or more other products or
+      the environment interacts.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-          version: '5'
-      type: authoritative
-      id: Interface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_connector
+  - type: expression
+    normative_status: preferred
+    designation: Interface_connector
   domain: 'application module: Interface_arm'
   language_code: eng
   annotations: []

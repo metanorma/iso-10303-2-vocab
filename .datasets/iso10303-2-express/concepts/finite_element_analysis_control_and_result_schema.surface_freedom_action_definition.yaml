@@ -1,30 +1,34 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.surface_freedom_action_definition
   localized_concepts:
     eng: 399be613-83e1-526b-9e57-78f8b3526a80
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.surface_freedom_action_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_freedom_and_value_definition,surface_freedom_and_value_definition}} that represents the surface freedom action definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_freedom_and_value_definition,surface_freedom_and_value_definition}}
+      that represents the surface freedom action definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_freedom_action_definition,surface_freedom_action_definition}} is a state of the model that specifies the values for the actions applied directly to nodes associated with a surface.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.surface_freedom_action_definition,surface_freedom_action_definition}}
+      is a state of the model that specifies the values for the actions applied directly
+      to nodes associated with a surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_freedom_action_definition
+  - type: expression
+    normative_status: preferred
+    designation: surface_freedom_action_definition
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

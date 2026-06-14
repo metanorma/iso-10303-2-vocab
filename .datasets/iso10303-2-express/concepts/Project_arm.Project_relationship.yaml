@@ -1,30 +1,33 @@
+---
 data:
   identifier: Project_arm.Project_relationship
   localized_concepts:
     eng: 164642cb-5b41-55e6-8af6-572bb893d79d
   domains:
-    - concept_id: section-Project_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm
-      ref_type: section
+  - concept_id: section-Project_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm
+    ref_type: section
 id: Project_arm.Project_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the project relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the project relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Project_relationship** is an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm.Project,Project}} with an identifiaction and a description of their relationship.
+  - content: A **Project_relationship** is an association between two instances of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm.Project,Project}} with an
+      identifiaction and a description of their relationship.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm
-          version: '3'
-      type: authoritative
-      id: Project_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Project_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Project_relationship
   domain: 'application module: Project_arm'
   language_code: eng
   annotations: []

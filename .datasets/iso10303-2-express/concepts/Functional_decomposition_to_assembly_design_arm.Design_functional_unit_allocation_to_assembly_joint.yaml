@@ -1,30 +1,35 @@
+---
 data:
   identifier: Functional_decomposition_to_assembly_design_arm.Design_functional_unit_allocation_to_assembly_joint
   localized_concepts:
     eng: 9bbd3f20-61ce-52c3-a738-8722f61325b3
   domains:
-    - concept_id: section-Functional_decomposition_to_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_assembly_design_arm
+    ref_type: section
 id: Functional_decomposition_to_assembly_design_arm.Design_functional_unit_allocation_to_assembly_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design functional unit allocation to assembly joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design functional unit allocation to assembly
+      joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Design_functional_unit_allocation_to_assembly_joint** is an assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}} to its **implementation** in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}}.
+  - content: A **Design_functional_unit_allocation_to_assembly_joint** is an assignment
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}}
+      in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}}
+      to its **implementation** in an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Assembly_joint,Assembly_joint}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_assembly_design_arm
-          version: '1'
-      type: authoritative
-      id: Functional_decomposition_to_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_assembly_design_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_functional_unit_allocation_to_assembly_joint
+  - type: expression
+    normative_status: preferred
+    designation: Design_functional_unit_allocation_to_assembly_joint
   domain: 'application module: Functional_decomposition_to_assembly_design_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.instance_report_item_with_extreme_instances
   localized_concepts:
     eng: 2e480cf4-6eee-5f47-9fed-469e6112f755
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.instance_report_item_with_extreme_instances
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report_item,shape_data_quality_inspection_instance_report_item}} that represents the instance report item with extreme instances {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report_item,shape_data_quality_inspection_instance_report_item}}
+      that represents the instance report item with extreme instances {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **instance_report_item_with_extreme_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report_item,shape_data_quality_inspection_instance_report_item}} that lists extreme values and their locations.
+  - content: An **instance_report_item_with_extreme_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.shape_data_quality_inspection_instance_report_item,shape_data_quality_inspection_instance_report_item}}
+      that lists extreme values and their locations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: instance_report_item_with_extreme_instances
+  - type: expression
+    normative_status: preferred
+    designation: instance_report_item_with_extreme_instances
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

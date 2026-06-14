@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_topology_schema.kinematic_loop
   localized_concepts:
     eng: 5c3ad776-9b6b-5390-b61e-68f0fc2d6af0
   domains:
-    - concept_id: section-kinematic_topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-      ref_type: section
+  - concept_id: section-kinematic_topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+    ref_type: section
 id: kinematic_topology_schema.kinematic_loop
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_loop,edge_loop}} that represents the kinematic loop {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.edge_loop,edge_loop}}
+      that represents the kinematic loop {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **kinematic_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_loop,edge_loop}} that is a cycle in the subgraph.
+  - content: A **kinematic_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_loop,edge_loop}}
+      that is a cycle in the subgraph.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: kinematic_loop
+  - type: expression
+    normative_status: preferred
+    designation: kinematic_loop
   domain: 'resource: kinematic_topology_schema'
   language_code: eng
   annotations: []

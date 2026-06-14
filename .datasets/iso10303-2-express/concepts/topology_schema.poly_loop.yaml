@@ -1,30 +1,32 @@
+---
 data:
   identifier: topology_schema.poly_loop
   localized_concepts:
     eng: f5f775e1-b36c-5455-a2fb-255faea9afd3
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.poly_loop
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the poly loop {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the poly loop {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **poly_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.loop,loop}}, with straight edges bounding a planar region in space.
+  - content: A **poly_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.loop,loop}},
+      with straight edges bounding a planar region in space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: poly_loop
+  - type: expression
+    normative_status: preferred
+    designation: poly_loop
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []

@@ -1,31 +1,35 @@
+---
 data:
   identifier: Printed_physical_layout_template_arm.Printed_part_template_connected_terminals_definition
   localized_concepts:
-    eng: 04185255-9489-5e5b-a40a-2180cd336563
+    eng: '04185255-9489-5e5b-a40a-2180cd336563'
   domains:
-    - concept_id: section-Printed_physical_layout_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+    ref_type: section
 id: Printed_physical_layout_template_arm.Printed_part_template_connected_terminals_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the printed part template connected terminals definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the printed part template connected terminals definition
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Printed_part_template_connected_terminals_definition** is the association between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}} that are connected.
+  - content: A **Printed_part_template_connected_terminals_definition** is the association
+      between two or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}}
+      that are connected.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Printed_part_template_connected_terminals_definition
+  - type: expression
+    normative_status: preferred
+    designation: Printed_part_template_connected_terminals_definition
   domain: 'application module: Printed_physical_layout_template_arm'
   language_code: eng
   annotations: []
-id: 04185255-9489-5e5b-a40a-2180cd336563
+id: '04185255-9489-5e5b-a40a-2180cd336563'

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Geometrically_bounded_surface_arm.Boundary_curve
   localized_concepts:
     eng: b0e45ee9-58fa-5e6b-90fc-e58b953639bb
   domains:
-    - concept_id: section-Geometrically_bounded_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-      ref_type: section
+  - concept_id: section-Geometrically_bounded_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+    ref_type: section
 id: Geometrically_bounded_surface_arm.Boundary_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Closed_composite_curve,Closed_composite_curve}} that represents the boundary curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm.Closed_composite_curve,Closed_composite_curve}}
+      that represents the boundary curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Boundary_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Closed_composite_curve,Closed_composite_curve}} that lies on a surface and is suitable for the definition of a surface boundary.
+  - content: A **Boundary_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_curve_arm.Closed_composite_curve,Closed_composite_curve}}
+      that lies on a surface and is suitable for the definition of a surface boundary.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
-          version: '3'
-      type: authoritative
-      id: Geometrically_bounded_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometrically_bounded_surface_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Boundary_curve
+  - type: expression
+    normative_status: preferred
+    designation: Boundary_curve
   domain: 'application module: Geometrically_bounded_surface_arm'
   language_code: eng
   annotations: []

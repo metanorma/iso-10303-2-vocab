@@ -1,30 +1,33 @@
+---
 data:
   identifier: Temporal_objects_arm.Temporal_object_in_period
   localized_concepts:
     eng: fff318cc-d6eb-5ec3-b65c-a87aac303ca5
   domains:
-    - concept_id: section-Temporal_objects_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
-      ref_type: section
+  - concept_id: section-Temporal_objects_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+    ref_type: section
 id: Temporal_objects_arm.Temporal_object_in_period
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}} that represents the temporal object in period {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}}
+      that represents the temporal object in period {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Temporal_object_in_period** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}} that exists for a period of time.
+  - content: A **Temporal_object_in_period** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm.Temporal_object,Temporal_object}}
+      that exists for a period of time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
-          version: '1'
-      type: authoritative
-      id: Temporal_objects_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Temporal_objects_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Temporal_object_in_period
+  - type: expression
+    normative_status: preferred
+    designation: Temporal_object_in_period
   domain: 'application module: Temporal_objects_arm'
   language_code: eng
   annotations: []

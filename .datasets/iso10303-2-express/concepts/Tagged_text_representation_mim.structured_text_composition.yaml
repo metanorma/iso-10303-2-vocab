@@ -1,30 +1,33 @@
+---
 data:
   identifier: Tagged_text_representation_mim.structured_text_composition
   localized_concepts:
     eng: ea1bb509-4617-57af-a84a-bc0b35469612
   domains:
-    - concept_id: section-Tagged_text_representation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
-      ref_type: section
+  - concept_id: section-Tagged_text_representation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+    ref_type: section
 id: Tagged_text_representation_mim.structured_text_composition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that represents the structured text composition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim.compound_representation_item,compound_representation_item}}
+      that represents the structured text composition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **structured_text_composition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.Structured_text_composition,Structured_text_composition}}.
+  - content: An **structured_text_composition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.compound_representation_item,compound_representation_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.Structured_text_composition,Structured_text_composition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
-          version: '2'
-      type: authoritative
-      id: Tagged_text_representation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: structured_text_composition
+  - type: expression
+    normative_status: preferred
+    designation: structured_text_composition
   domain: 'application module: Tagged_text_representation_mim'
   language_code: eng
   annotations: []

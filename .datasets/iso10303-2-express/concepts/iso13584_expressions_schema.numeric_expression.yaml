@@ -1,30 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.numeric_expression
   localized_concepts:
     eng: 0a303a1e-b7af-5789-83ec-b6bfc638d0a8
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.numeric_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.expression,expression}} that represents the numeric expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.expression,expression}}
+      that represents the numeric expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *numeric_expression* is an expression of which the range is the NUMBER data type defined in 8.1.1 of ISO 10303-11.
+  - content: A *numeric_expression* is an expression of which the range is the NUMBER
+      data type defined in 8.1.1 of ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: numeric_expression
+  - type: expression
+    normative_status: preferred
+    designation: numeric_expression
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

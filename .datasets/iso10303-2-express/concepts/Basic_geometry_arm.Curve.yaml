@@ -1,29 +1,31 @@
+---
 data:
   identifier: Basic_geometry_arm.Curve
   localized_concepts:
     eng: 4cccac26-0f95-5b77-ab00-8626d2062438
   domains:
-    - concept_id: section-Basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+    ref_type: section
 id: Basic_geometry_arm.Curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve
+  - type: expression
+    normative_status: preferred
+    designation: Curve
   domain: 'application module: Basic_geometry_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Cfd_conditions_arm.Mbna_reference_state
   localized_concepts:
     eng: 95eceb5c-dd86-5e3c-9e28-461d47554810
   domains:
-    - concept_id: section-Cfd_conditions_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-      ref_type: section
+  - concept_id: section-Cfd_conditions_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+    ref_type: section
 id: Cfd_conditions_arm.Mbna_reference_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_condition,Mbna_condition}} that represents the mbna reference state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_condition,Mbna_condition}}
+      that represents the mbna reference state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_reference_state** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_condition,Mbna_condition}} which is a list of geometric or state quantities defined at a common location or condition.
+  - content: A **Mbna_reference_state** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm.Mbna_condition,Mbna_condition}}
+      which is a list of geometric or state quantities defined at a common location
+      or condition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_conditions_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_conditions_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_reference_state
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_reference_state
   domain: 'application module: Cfd_conditions_arm'
   language_code: eng
   annotations: []

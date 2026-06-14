@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_shape_arm.Component_path_shape_element
   localized_concepts:
     eng: 414ac2d8-2501-5f43-9110-7d4430a42cc9
   domains:
-    - concept_id: section-Assembly_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_shape_arm
-      ref_type: section
+  - concept_id: section-Assembly_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_shape_arm
+    ref_type: section
 id: Assembly_shape_arm.Component_path_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} that represents the component path shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_shape_arm.Part_shape_element,Part_shape_element}}
+      that represents the component path shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_path_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} of an assembly that identifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}} of an occurrence of a part within this assembly.
+  - content: A **Component_path_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}}
+      of an assembly that identifies a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.Part_shape_element,Part_shape_element}}
+      of an occurrence of a part within this assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_shape_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_path_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: Component_path_shape_element
   domain: 'application module: Assembly_shape_arm'
   language_code: eng
   annotations: []

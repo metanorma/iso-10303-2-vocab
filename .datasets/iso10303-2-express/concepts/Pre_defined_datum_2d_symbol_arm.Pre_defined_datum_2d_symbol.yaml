@@ -1,29 +1,31 @@
+---
 data:
   identifier: Pre_defined_datum_2d_symbol_arm.Pre_defined_datum_2d_symbol
   localized_concepts:
     eng: 88603bc5-4100-5ef4-b0c8-2300429f1bd4
   domains:
-    - concept_id: section-Pre_defined_datum_2d_symbol_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_2d_symbol_arm
-      ref_type: section
+  - concept_id: section-Pre_defined_datum_2d_symbol_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_2d_symbol_arm
+    ref_type: section
 id: Pre_defined_datum_2d_symbol_arm.Pre_defined_datum_2d_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_2d_shape_arm.Planar_shape_model,Planar_shape_model}} that represents the pre defined datum 2d symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_2d_symbol_arm.Planar_shape_model,Planar_shape_model}}
+      that represents the pre defined datum 2d symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_2d_symbol_arm
-          version: '4'
-      type: authoritative
-      id: Pre_defined_datum_2d_symbol_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pre_defined_datum_2d_symbol_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pre_defined_datum_2d_symbol
+  - type: expression
+    normative_status: preferred
+    designation: Pre_defined_datum_2d_symbol
   domain: 'application module: Pre_defined_datum_2d_symbol_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_module_with_macro_component_arm.Assembly_module_macro_component_join_terminal
   localized_concepts:
     eng: 1667d9fb-c957-55fa-afc3-b0fa74acd4e7
   domains:
-    - concept_id: section-Assembly_module_with_macro_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_macro_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm
+    ref_type: section
 id: Assembly_module_with_macro_component_arm.Assembly_module_macro_component_join_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_component_feature_arm.Physical_component_terminal,Physical_component_terminal}} that represents the assembly module macro component join terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm.Physical_component_terminal,Physical_component_terminal}}
+      that represents the assembly module macro component join terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm
-          version: '4'
-      type: authoritative
-      id: Assembly_module_with_macro_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_macro_component_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_module_macro_component_join_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_module_macro_component_join_terminal
   domain: 'application module: Assembly_module_with_macro_component_arm'
   language_code: eng
   annotations: []

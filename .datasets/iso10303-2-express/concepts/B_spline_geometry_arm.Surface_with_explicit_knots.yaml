@@ -1,30 +1,33 @@
+---
 data:
   identifier: B_spline_geometry_arm.Surface_with_explicit_knots
   localized_concepts:
     eng: 292c6b63-b001-5d04-8574-3c1b837131db
   domains:
-    - concept_id: section-B_spline_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
-      ref_type: section
+  - concept_id: section-B_spline_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+    ref_type: section
 id: B_spline_geometry_arm.Surface_with_explicit_knots
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}} that represents the surface with explicit knots {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}}
+      that represents the surface with explicit knots {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_with_explicit_knots** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}} for which the knot values are explicitly given.
+  - content: A **Surface_with_explicit_knots** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}}
+      for which the knot values are explicitly given.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
-          version: '1'
-      type: authoritative
-      id: B_spline_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_with_explicit_knots
+  - type: expression
+    normative_status: preferred
+    designation: Surface_with_explicit_knots
   domain: 'application module: B_spline_geometry_arm'
   language_code: eng
   annotations: []

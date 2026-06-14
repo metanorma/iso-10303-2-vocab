@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_equations_arm.Viscosity_model
   localized_concepts:
     eng: 0b4efec4-3b7b-5933-bdb4-39e032dae513
   domains:
-    - concept_id: section-Cfd_equations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-      ref_type: section
+  - concept_id: section-Cfd_equations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+    ref_type: section
 id: Cfd_equations_arm.Viscosity_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} that represents the viscosity model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}}
+      that represents the viscosity model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Viscosity_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} is the model for relating molecular viscosity (?) to temperature.
+  - content: A **Viscosity_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}}
+      is the model for relating molecular viscosity (?) to temperature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_equations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Viscosity_model
+  - type: expression
+    normative_status: preferred
+    designation: Viscosity_model
   domain: 'application module: Cfd_equations_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: kinematic_structure_schema.spherical_pair_with_range
   localized_concepts:
     eng: 94d89bbf-1516-56e8-973b-5bfa7093ce30
   domains:
-    - concept_id: section-kinematic_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-      ref_type: section
+  - concept_id: section-kinematic_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+    ref_type: section
 id: kinematic_structure_schema.spherical_pair_with_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.spherical_pair,spherical_pair}} that represents the spherical pair with range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.spherical_pair,spherical_pair}}
+      that represents the spherical pair with range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: spherical_pair_with_range
+  - type: expression
+    normative_status: preferred
+    designation: spherical_pair_with_range
   domain: 'resource: kinematic_structure_schema'
   language_code: eng
   annotations: []

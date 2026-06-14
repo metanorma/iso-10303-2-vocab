@@ -1,29 +1,31 @@
+---
 data:
   identifier: kinematic_structure_schema.gear_pair_with_range
   localized_concepts:
     eng: 29aff098-727c-5a18-8245-96b4883cbc15
   domains:
-    - concept_id: section-kinematic_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-      ref_type: section
+  - concept_id: section-kinematic_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+    ref_type: section
 id: kinematic_structure_schema.gear_pair_with_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.gear_pair,gear_pair}} that represents the gear pair with range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.gear_pair,gear_pair}}
+      that represents the gear pair with range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: gear_pair_with_range
+  - type: expression
+    normative_status: preferred
+    designation: gear_pair_with_range
   domain: 'resource: kinematic_structure_schema'
   language_code: eng
   annotations: []

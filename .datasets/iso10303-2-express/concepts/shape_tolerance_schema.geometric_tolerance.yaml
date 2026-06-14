@@ -1,30 +1,32 @@
+---
 data:
   identifier: shape_tolerance_schema.geometric_tolerance
   localized_concepts:
     eng: c311cb52-63a8-5c17-973d-7d12a2d1e8b0
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.geometric_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the geometric tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the geometric tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **geometric_tolerance** is the specification of the allowable range within which a geometrical property of a product may deviate.
+  - content: A **geometric_tolerance** is the specification of the allowable range
+      within which a geometrical property of a product may deviate.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: geometric_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: geometric_tolerance
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

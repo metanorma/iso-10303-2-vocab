@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ap239_work_definition_mim.characterized_applied_action_assignment
   localized_concepts:
     eng: fb14bdbb-dfec-5b46-9d82-a282d71b9fca
   domains:
-    - concept_id: section-Ap239_work_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_work_definition_mim
-      ref_type: section
+  - concept_id: section-Ap239_work_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_work_definition_mim
+    ref_type: section
 id: Ap239_work_definition_mim.characterized_applied_action_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized applied action assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized applied action assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_applied_action_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} in order to apply properties to an action assignment.
+  - content: A **characterized_applied_action_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_mim.applied_action_assignment,applied_action_assignment}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      in order to apply properties to an action assignment.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_work_definition_mim
-          version: '4'
-      type: authoritative
-      id: Ap239_work_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_work_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_applied_action_assignment
+  - type: expression
+    normative_status: preferred
+    designation: characterized_applied_action_assignment
   domain: 'application module: Ap239_work_definition_mim'
   language_code: eng
   annotations: []

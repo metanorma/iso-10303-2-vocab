@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interconnect_module_connection_routing_mim.dielectric_crossover_area
   localized_concepts:
     eng: f89c3c0c-4a27-58c8-b1a3-7a8f2ec6d2c7
   domains:
-    - concept_id: section-Interconnect_module_connection_routing_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
-      ref_type: section
+  - concept_id: section-Interconnect_module_connection_routing_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
+    ref_type: section
 id: Interconnect_module_connection_routing_mim.dielectric_crossover_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dielectric crossover area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the dielectric crossover area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **dielectric_crossover_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm.Dielectric_crossover_area,Dielectric_crossover_area}}.
+  - content: A **dielectric_crossover_area** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm.Dielectric_crossover_area,Dielectric_crossover_area}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
-          version: '2'
-      type: authoritative
-      id: Interconnect_module_connection_routing_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dielectric_crossover_area
+  - type: expression
+    normative_status: preferred
+    designation: dielectric_crossover_area
   domain: 'application module: Interconnect_module_connection_routing_mim'
   language_code: eng
   annotations: []

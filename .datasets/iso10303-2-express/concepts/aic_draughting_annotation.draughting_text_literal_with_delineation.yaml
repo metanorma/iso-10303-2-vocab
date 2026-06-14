@@ -1,29 +1,31 @@
+---
 data:
   identifier: aic_draughting_annotation.draughting_text_literal_with_delineation
   localized_concepts:
     eng: a3494562-1dae-5aff-b00b-9d7938a09efa
   domains:
-    - concept_id: section-aic_draughting_annotation
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
-      ref_type: section
+  - concept_id: section-aic_draughting_annotation
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+    ref_type: section
 id: aic_draughting_annotation.draughting_text_literal_with_delineation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.text_literal_with_delineation,text_literal_with_delineation}} that represents the draughting text literal with delineation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation.text_literal_with_delineation,text_literal_with_delineation}}
+      that represents the draughting text literal with delineation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
-          version: '2'
-      type: authoritative
-      id: aic_draughting_annotation
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_annotation
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: draughting_text_literal_with_delineation
+  - type: expression
+    normative_status: preferred
+    designation: draughting_text_literal_with_delineation
   domain: 'resource: aic_draughting_annotation'
   language_code: eng
   annotations: []

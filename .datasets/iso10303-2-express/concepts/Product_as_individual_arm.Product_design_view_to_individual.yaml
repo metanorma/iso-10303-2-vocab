@@ -1,30 +1,32 @@
+---
 data:
   identifier: Product_as_individual_arm.Product_design_view_to_individual
   localized_concepts:
     eng: 3421322e-e598-5e1a-b17a-dc55bc45952d
   domains:
-    - concept_id: section-Product_as_individual_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-      ref_type: section
+  - concept_id: section-Product_as_individual_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+    ref_type: section
 id: Product_as_individual_arm.Product_design_view_to_individual
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product design view to individual {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product design view to individual {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_design_view_to_individual** is a relationship between a product design, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
+  - content: A **Product_design_view_to_individual** is a relationship between a product
+      design, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
-          version: '5'
-      type: authoritative
-      id: Product_as_individual_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_design_view_to_individual
+  - type: expression
+    normative_status: preferred
+    designation: Product_design_view_to_individual
   domain: 'application module: Product_as_individual_arm'
   language_code: eng
   annotations: []

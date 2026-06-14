@@ -1,29 +1,31 @@
+---
 data:
   identifier: Interconnect_module_to_assembly_module_relationship_arm.Assembly_requirement_for_interconnect_relationship
   localized_concepts:
     eng: 1ef4e22d-112d-5b59-a45e-b0a65cca7285
   domains:
-    - concept_id: section-Interconnect_module_to_assembly_module_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_to_assembly_module_relationship_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_to_assembly_module_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_to_assembly_module_relationship_arm
+    ref_type: section
 id: Interconnect_module_to_assembly_module_relationship_arm.Assembly_requirement_for_interconnect_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_definition_relationship,Part_definition_relationship}} that represents the assembly requirement for interconnect relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_to_assembly_module_relationship_arm.Part_definition_relationship,Part_definition_relationship}}
+      that represents the assembly requirement for interconnect relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_to_assembly_module_relationship_arm
-          version: '4'
-      type: authoritative
-      id: Interconnect_module_to_assembly_module_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_to_assembly_module_relationship_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_requirement_for_interconnect_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_requirement_for_interconnect_relationship
   domain: 'application module: Interconnect_module_to_assembly_module_relationship_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,32 @@
+---
 data:
   identifier: Functional_decomposition_to_interconnect_design_arm.Transmission_line_functional_unit_to_routed_transmission_line_allocation
   localized_concepts:
     eng: 123fd20e-4795-5878-bc20-0e9575aa4d78
   domains:
-    - concept_id: section-Functional_decomposition_to_interconnect_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_interconnect_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_interconnect_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_interconnect_design_arm
+    ref_type: section
 id: Functional_decomposition_to_interconnect_design_arm.Transmission_line_functional_unit_to_routed_transmission_line_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_functional_unit_allocation_to_assembly_component,Design_functional_unit_allocation_to_assembly_component}} that represents the transmission line functional unit to routed transmission line allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_interconnect_design_arm.Design_functional_unit_allocation_to_assembly_component,Design_functional_unit_allocation_to_assembly_component}}
+      that represents the transmission line functional unit to routed transmission
+      line allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_interconnect_design_arm
-          version: '1'
-      type: authoritative
-      id: Functional_decomposition_to_interconnect_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_interconnect_design_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Transmission_line_functional_unit_to_routed_transmission_line_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Transmission_line_functional_unit_to_routed_transmission_line_allocation
   domain: 'application module: Functional_decomposition_to_interconnect_design_arm'
   language_code: eng
   annotations: []

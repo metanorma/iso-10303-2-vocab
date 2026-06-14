@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_arm.Multi_stratum_structured_template
   localized_concepts:
     eng: 73c4499c-9edd-5930-b397-669e961805ba
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+    ref_type: section
 id: Layered_interconnect_complex_template_arm.Multi_stratum_structured_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Structured_template,Structured_template}} that represents the multi stratum structured template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Structured_template,Structured_template}}
+      that represents the multi stratum structured template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Multi_stratum_structured_template
+  - type: expression
+    normative_status: preferred
+    designation: Multi_stratum_structured_template
   domain: 'application module: Layered_interconnect_complex_template_arm'
   language_code: eng
   annotations: []

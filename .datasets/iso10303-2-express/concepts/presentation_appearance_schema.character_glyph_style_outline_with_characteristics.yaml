@@ -1,30 +1,34 @@
+---
 data:
   identifier: presentation_appearance_schema.character_glyph_style_outline_with_characteristics
   localized_concepts:
     eng: 47432ac6-89c1-5da4-a36c-ff2e27d172a1
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.character_glyph_style_outline_with_characteristics
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}} that represents the character glyph style outline with characteristics {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}}
+      that represents the character glyph style outline with characteristics {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **character_glyph_style_outline_with_characteristics** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}} with additional characteristics to be applied to the regions of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}}.
+  - content: A **character_glyph_style_outline_with_characteristics** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}}
+      with additional characteristics to be applied to the regions of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.character_glyph_style_outline,character_glyph_style_outline}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: character_glyph_style_outline_with_characteristics
+  - type: expression
+    normative_status: preferred
+    designation: character_glyph_style_outline_with_characteristics
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

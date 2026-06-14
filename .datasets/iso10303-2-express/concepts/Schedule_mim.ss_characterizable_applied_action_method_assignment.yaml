@@ -1,30 +1,34 @@
+---
 data:
   identifier: Schedule_mim.ss_characterizable_applied_action_method_assignment
   localized_concepts:
     eng: 10eddde9-4cf3-5e4f-8e0d-4715475c5206
   domains:
-    - concept_id: section-Schedule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schedule_mim
-      ref_type: section
+  - concept_id: section-Schedule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schedule_mim
+    ref_type: section
 id: Schedule_mim.ss_characterizable_applied_action_method_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the ss characterizable applied action method assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the ss characterizable applied action method assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **ss_characterizable_applied_action_method_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}}.
+  - content: A **ss_characterizable_applied_action_method_assignment** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schedule_mim
-          version: '2'
-      type: authoritative
-      id: Schedule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schedule_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: ss_characterizable_applied_action_method_assignment
+  - type: expression
+    normative_status: preferred
+    designation: ss_characterizable_applied_action_method_assignment
   domain: 'application module: Schedule_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Product_breakdown_arm.Product_definition_element_relationship
   localized_concepts:
     eng: 57cf4973-3de0-52e5-a5aa-9a7326224fd8
   domains:
-    - concept_id: section-Product_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-      ref_type: section
+  - concept_id: section-Product_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+    ref_type: section
 id: Product_breakdown_arm.Product_definition_element_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition element relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product definition element relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_definition_element_relationship** is a relationship between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} .
+  - content: A **Product_definition_element_relationship** is a relationship between
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_definition,Breakdown_element_definition}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown_element_usage,Breakdown_element_usage}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_relationship,View_definition_relationship}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      .
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
-          version: '4'
-      type: authoritative
-      id: Product_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_definition_element_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Product_definition_element_relationship
   domain: 'application module: Product_breakdown_arm'
   language_code: eng
   annotations: []

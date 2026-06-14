@@ -1,30 +1,32 @@
+---
 data:
   identifier: Work_output_arm.Work_output_assignment
   localized_concepts:
     eng: 2eef9689-ec43-56e7-a4db-f05016ef2427
   domains:
-    - concept_id: section-Work_output_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-      ref_type: section
+  - concept_id: section-Work_output_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+    ref_type: section
 id: Work_output_arm.Work_output_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work output assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the work output assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Work_output_assignment** is an association of a work output statement with the source that produces or delivers the output.
+  - content: A **Work_output_assignment** is an association of a work output statement
+      with the source that produces or delivers the output.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-          version: '1'
-      type: authoritative
-      id: Work_output_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Work_output_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Work_output_assignment
   domain: 'application module: Work_output_arm'
   language_code: eng
   annotations: []

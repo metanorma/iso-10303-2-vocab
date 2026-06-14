@@ -1,30 +1,32 @@
+---
 data:
   identifier: Name_assignment_arm.Name_assignment
   localized_concepts:
     eng: 9f070443-077d-55f4-a07c-29d9621190ca
   domains:
-    - concept_id: section-Name_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Name_assignment_arm
-      ref_type: section
+  - concept_id: section-Name_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Name_assignment_arm
+    ref_type: section
 id: Name_assignment_arm.Name_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the name assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the name assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Name_assignment** is an identification of a name used to designate product data.
+  - content: A **Name_assignment** is an identification of a name used to designate
+      product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Name_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Name_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Name_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Name_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Name_assignment
   domain: 'application module: Name_assignment_arm'
   language_code: eng
   annotations: []

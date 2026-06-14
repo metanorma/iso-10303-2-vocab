@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_environment_observed_arm.Observed_environment_to_definition_view
   localized_concepts:
     eng: a5e21674-824b-5ca2-8724-007bb35c3d63
   domains:
-    - concept_id: section-Product_environment_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-      ref_type: section
+  - concept_id: section-Product_environment_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+    ref_type: section
 id: Product_environment_observed_arm.Observed_environment_to_definition_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the observed environment to definition view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the observed environment to definition view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Observed_environment_to_definition_view** is a relationship between a view of the an observed environment, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Observed_environment_view,Observed_environment_view}}, and a view of the typical environment, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm.Environment_definition_view,Environment_definition_view}}.
+  - content: An **Observed_environment_to_definition_view** is a relationship between
+      a view of the an observed environment, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm.Observed_environment_view,Observed_environment_view}},
+      and a view of the typical environment, represented by {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm.Environment_definition_view,Environment_definition_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-          version: '4'
-      type: authoritative
-      id: Product_environment_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Observed_environment_to_definition_view
+  - type: expression
+    normative_status: preferred
+    designation: Observed_environment_to_definition_view
   domain: 'application module: Product_environment_observed_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Work_output_arm.Work_output_relationship
   localized_concepts:
     eng: c14c1011-decd-5dba-8c1e-44964b5cc230
   domains:
-    - concept_id: section-Work_output_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-      ref_type: section
+  - concept_id: section-Work_output_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+    ref_type: section
 id: Work_output_arm.Work_output_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the work output relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the work output relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Work_output_relationship** is a relationship between two work output statements.
+  - content: A **Work_output_relationship** is a relationship between two work output
+      statements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
-          version: '1'
-      type: authoritative
-      id: Work_output_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Work_output_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Work_output_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Work_output_relationship
   domain: 'application module: Work_output_arm'
   language_code: eng
   annotations: []

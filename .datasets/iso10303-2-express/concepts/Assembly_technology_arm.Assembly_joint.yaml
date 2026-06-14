@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_technology_arm.Assembly_joint
   localized_concepts:
     eng: 15854f86-336d-5433-b24f-0e6a81938830
   domains:
-    - concept_id: section-Assembly_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
-      ref_type: section
+  - concept_id: section-Assembly_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+    ref_type: section
 id: Assembly_technology_arm.Assembly_joint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature_joint,Component_feature_joint}} that represents the assembly joint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm.Component_feature_joint,Component_feature_joint}}
+      that represents the assembly joint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
-          version: '5'
-      type: authoritative
-      id: Assembly_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_joint
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_joint
   domain: 'application module: Assembly_technology_arm'
   language_code: eng
   annotations: []

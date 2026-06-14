@@ -1,29 +1,31 @@
+---
 data:
   identifier: Foundation_state_definition_arm.State_transition_definition
   localized_concepts:
     eng: 549fa9a8-2616-5687-80eb-f1953ab75617
   domains:
-    - concept_id: section-Foundation_state_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
-      ref_type: section
+  - concept_id: section-Foundation_state_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+    ref_type: section
 id: Foundation_state_definition_arm.State_transition_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition_relationship,State_definition_relationship}} that represents the state transition definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm.State_definition_relationship,State_definition_relationship}}
+      that represents the state transition definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
-          version: '2'
-      type: authoritative
-      id: Foundation_state_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_state_definition_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: State_transition_definition
+  - type: expression
+    normative_status: preferred
+    designation: State_transition_definition
   domain: 'application module: Foundation_state_definition_arm'
   language_code: eng
   annotations: []

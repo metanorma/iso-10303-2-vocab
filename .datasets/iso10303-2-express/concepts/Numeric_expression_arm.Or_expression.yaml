@@ -1,30 +1,34 @@
+---
 data:
   identifier: Numeric_expression_arm.Or_expression
   localized_concepts:
     eng: b3c9519a-fbcf-5af2-9ee9-205173d6c9ec
   domains:
-    - concept_id: section-Numeric_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-      ref_type: section
+  - concept_id: section-Numeric_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+    ref_type: section
 id: Numeric_expression_arm.Or_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Multiple_arity_boolean_expression,Multiple_arity_boolean_expression}} that represents the or expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Multiple_arity_boolean_expression,Multiple_arity_boolean_expression}}
+      that represents the or expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Or_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Multiple_arity_boolean_expression,Multiple_arity_boolean_expression}} entity carries the semantics of the 'OR' operator defined in ISO 10303-11 and uses its associativity property to handle multiple arity.
+  - content: An **Or_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Multiple_arity_boolean_expression,Multiple_arity_boolean_expression}}
+      entity carries the semantics of the 'OR' operator defined in ISO 10303-11 and
+      uses its associativity property to handle multiple arity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-          version: '2'
-      type: authoritative
-      id: Numeric_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Or_expression
+  - type: expression
+    normative_status: preferred
+    designation: Or_expression
   domain: 'application module: Numeric_expression_arm'
   language_code: eng
   annotations: []

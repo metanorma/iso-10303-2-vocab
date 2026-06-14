@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.acceleration_unit
   localized_concepts:
     eng: 442e5219-0b53-59e8-a138-079b7783aa1e
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.acceleration_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} that represents the acceleration unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      that represents the acceleration unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **acceleration_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}} in which the acceleration of an object is expressed.
+  - content: An **acceleration_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.derived_unit,derived_unit}}
+      in which the acceleration of an object is expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: acceleration_unit
+  - type: expression
+    normative_status: preferred
+    designation: acceleration_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

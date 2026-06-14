@@ -1,30 +1,33 @@
+---
 data:
   identifier: Alternative_solution_arm.Alternative_solution
   localized_concepts:
     eng: 2d692c62-1464-5faf-8df7-7affef280fa4
   domains:
-    - concept_id: section-Alternative_solution_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
-      ref_type: section
+  - concept_id: section-Alternative_solution_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+    ref_type: section
 id: Alternative_solution_arm.Alternative_solution
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the alternative solution {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the alternative solution {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Alternative_solution** is the identification of one of potentially many mutually exclusive implementations of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element_definition,Functional_element_definition}} or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_element_definition,Physical_element_definition}}.
+  - content: An **Alternative_solution** is the identification of one of potentially
+      many mutually exclusive implementations of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_breakdown_arm.Functional_element_definition,Functional_element_definition}}
+      or of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Physical_element_definition,Physical_element_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
-          version: '4'
-      type: authoritative
-      id: Alternative_solution_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Alternative_solution_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Alternative_solution
+  - type: expression
+    normative_status: preferred
+    designation: Alternative_solution
   domain: 'application module: Alternative_solution_arm'
   language_code: eng
   annotations: []

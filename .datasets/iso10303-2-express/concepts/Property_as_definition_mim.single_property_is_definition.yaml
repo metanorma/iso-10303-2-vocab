@@ -1,30 +1,34 @@
+---
 data:
   identifier: Property_as_definition_mim.single_property_is_definition
   localized_concepts:
     eng: 1bf4c0ff-f273-573c-a67d-637f9fdc45f7
   domains:
-    - concept_id: section-Property_as_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_mim
-      ref_type: section
+  - concept_id: section-Property_as_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_mim
+    ref_type: section
 id: Property_as_definition_mim.single_property_is_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the single property is definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_mim.property_definition,property_definition}}
+      that represents the single property is definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **single_property_is_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that identifies this property as being the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} itself.
+  - content: A **single_property_is_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      that identifies this property as being the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      itself.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_mim
-          version: '2'
-      type: authoritative
-      id: Property_as_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_as_definition_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: single_property_is_definition
+  - type: expression
+    normative_status: preferred
+    designation: single_property_is_definition
   domain: 'application module: Property_as_definition_mim'
   language_code: eng
   annotations: []

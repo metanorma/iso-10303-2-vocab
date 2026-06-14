@@ -1,30 +1,33 @@
+---
 data:
   identifier: Extruded_structure_cross_section_mim.cross_sectional_group_shape_element
   localized_concepts:
     eng: f082d099-0926-55bb-a5bf-2e0a2195c5e4
   domains:
-    - concept_id: section-Extruded_structure_cross_section_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
-      ref_type: section
+  - concept_id: section-Extruded_structure_cross_section_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+    ref_type: section
 id: Extruded_structure_cross_section_mim.cross_sectional_group_shape_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_part_shape_element,cross_sectional_part_shape_element}} that represents the cross sectional group shape element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_part_shape_element,cross_sectional_part_shape_element}}
+      that represents the cross sectional group shape element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cross_sectional_group_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_part_shape_element,cross_sectional_part_shape_element}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}}.
+  - content: A **cross_sectional_group_shape_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_part_shape_element,cross_sectional_part_shape_element}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
-          version: '2'
-      type: authoritative
-      id: Extruded_structure_cross_section_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cross_sectional_group_shape_element
+  - type: expression
+    normative_status: preferred
+    designation: cross_sectional_group_shape_element
   domain: 'application module: Extruded_structure_cross_section_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Procedural_shape_model_arm.Explicit_procedural_shape_representation_relationship
   localized_concepts:
     eng: dc55fc7e-4725-5600-b21f-3d5fcdc44dea
   domains:
-    - concept_id: section-Procedural_shape_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-      ref_type: section
+  - concept_id: section-Procedural_shape_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+    ref_type: section
 id: Procedural_shape_model_arm.Explicit_procedural_shape_representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}} that represents the explicit procedural shape representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Representation_relationship,Representation_relationship}}
+      that represents the explicit procedural shape representation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Explicit_procedural_shape_representation_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}} that relates a procedural shape model to an explicit model of the same shape that is the current result.
+  - content: An **Explicit_procedural_shape_representation_relationship** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}}
+      that relates a procedural shape model to an explicit model of the same shape
+      that is the current result.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-          version: '2'
-      type: authoritative
-      id: Procedural_shape_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Explicit_procedural_shape_representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Explicit_procedural_shape_representation_relationship
   domain: 'application module: Procedural_shape_model_arm'
   language_code: eng
   annotations: []

@@ -1,31 +1,33 @@
+---
 data:
   identifier: presentation_resource_schema.state_variable_with_colour
   localized_concepts:
-    eng: 08047881-8917-5e77-bd31-2d35172dc6cc
+    eng: '08047881-8917-5e77-bd31-2d35172dc6cc'
   domains:
-    - concept_id: section-presentation_resource_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-      ref_type: section
+  - concept_id: section-presentation_resource_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+    ref_type: section
 id: presentation_resource_schema.state_variable_with_colour
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state variable with colour {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state variable with colour {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **state_variable_with_colour** is an association of a single fixed state variable with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour_specification,colour_specification}}.
+  - content: A **state_variable_with_colour** is an association of a single fixed
+      state variable with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.colour_specification,colour_specification}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-          version: '6'
-      type: authoritative
-      id: presentation_resource_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: state_variable_with_colour
+  - type: expression
+    normative_status: preferred
+    designation: state_variable_with_colour
   domain: 'resource: presentation_resource_schema'
   language_code: eng
   annotations: []
-id: 08047881-8917-5e77-bd31-2d35172dc6cc
+id: '08047881-8917-5e77-bd31-2d35172dc6cc'

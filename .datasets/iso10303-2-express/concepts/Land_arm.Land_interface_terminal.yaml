@@ -1,30 +1,34 @@
+---
 data:
   identifier: Land_arm.Land_interface_terminal
   localized_concepts:
     eng: 1bdd0e91-66ea-5fc6-8673-dc586d4633c9
   domains:
-    - concept_id: section-Land_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-      ref_type: section
+  - concept_id: section-Land_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+    ref_type: section
 id: Land_arm.Land_interface_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}} that represents the land interface terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}}
+      that represents the land interface terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Land_interface_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}} included to identify the interface available to be fastened to in the next level of assembly.
+  - content: A **Land_interface_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Laminate_component_interface_terminal,Laminate_component_interface_terminal}}
+      included to identify the interface available to be fastened to in the next level
+      of assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
-          version: '5'
-      type: authoritative
-      id: Land_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Land_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Land_interface_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Land_interface_terminal
   domain: 'application module: Land_arm'
   language_code: eng
   annotations: []

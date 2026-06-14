@@ -1,30 +1,34 @@
+---
 data:
   identifier: Associative_draughting_elements_arm.Annotation_occurrence_associativity
   localized_concepts:
     eng: 6ed5c5d4-4fed-566c-b192-09f1599e6ea1
   domains:
-    - concept_id: section-Associative_draughting_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
-      ref_type: section
+  - concept_id: section-Associative_draughting_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
+    ref_type: section
 id: Associative_draughting_elements_arm.Annotation_occurrence_associativity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the annotation occurrence associativity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the annotation occurrence associativity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Annotation_occurrence_associativity** is an annotation occurrence relationship that relates an element of annotation to the leader or projection curve which visually directs information in the drawing to the element or to the fill area whose boundary is derived from the element.
+  - content: An **Annotation_occurrence_associativity** is an annotation occurrence
+      relationship that relates an element of annotation to the leader or projection
+      curve which visually directs information in the drawing to the element or to
+      the fill area whose boundary is derived from the element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
-          version: '5'
-      type: authoritative
-      id: Associative_draughting_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Associative_draughting_elements_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Annotation_occurrence_associativity
+  - type: expression
+    normative_status: preferred
+    designation: Annotation_occurrence_associativity
   domain: 'application module: Associative_draughting_elements_arm'
   language_code: eng
   annotations: []

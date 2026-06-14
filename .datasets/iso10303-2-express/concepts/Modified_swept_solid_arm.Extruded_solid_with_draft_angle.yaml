@@ -1,30 +1,33 @@
+---
 data:
   identifier: Modified_swept_solid_arm.Extruded_solid_with_draft_angle
   localized_concepts:
     eng: c0539924-ffa9-57d3-bde0-dce02d0ec68a
   domains:
-    - concept_id: section-Modified_swept_solid_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
-      ref_type: section
+  - concept_id: section-Modified_swept_solid_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
+    ref_type: section
 id: Modified_swept_solid_arm.Extruded_solid_with_draft_angle
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm.Extruded_solid_with_trim_conditions,Extruded_solid_with_trim_conditions}} that represents the extruded solid with draft angle {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm.Extruded_solid_with_trim_conditions,Extruded_solid_with_trim_conditions}}
+      that represents the extruded solid with draft angle {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Extruded_solid_with_draft_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm.Extruded_solid_with_trim_conditions,Extruded_solid_with_trim_conditions}} to which a draft angle is applied along the length of the extrusion.
+  - content: An **Extruded_solid_with_draft_angle** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm.Extruded_solid_with_trim_conditions,Extruded_solid_with_trim_conditions}}
+      to which a draft angle is applied along the length of the extrusion.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
-          version: '1'
-      type: authoritative
-      id: Modified_swept_solid_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Modified_swept_solid_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Extruded_solid_with_draft_angle
+  - type: expression
+    normative_status: preferred
+    designation: Extruded_solid_with_draft_angle
   domain: 'application module: Modified_swept_solid_arm'
   language_code: eng
   annotations: []

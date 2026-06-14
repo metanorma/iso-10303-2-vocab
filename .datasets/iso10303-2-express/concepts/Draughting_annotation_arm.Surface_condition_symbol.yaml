@@ -1,30 +1,32 @@
+---
 data:
   identifier: Draughting_annotation_arm.Surface_condition_symbol
   localized_concepts:
     eng: 491698f8-b66b-57c2-a977-233610fee876
   domains:
-    - concept_id: section-Draughting_annotation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
-      ref_type: section
+  - concept_id: section-Draughting_annotation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+    ref_type: section
 id: Draughting_annotation_arm.Surface_condition_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface condition symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface condition symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Surface_condition_symbol** is a pre-defined annotation symbol used to present information about surface conditions.
+  - content: An **Surface_condition_symbol** is a pre-defined annotation symbol used
+      to present information about surface conditions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_annotation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_annotation_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_condition_symbol
+  - type: expression
+    normative_status: preferred
+    designation: Surface_condition_symbol
   domain: 'application module: Draughting_annotation_arm'
   language_code: eng
   annotations: []

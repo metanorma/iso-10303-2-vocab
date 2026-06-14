@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.ground_fact
   localized_concepts:
     eng: 9ad5cde3-8b9d-5de0-b133-32775df577ee
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.ground_fact
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.atomic_formula,atomic_formula}} that represents the ground fact {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.atomic_formula,atomic_formula}}
+      that represents the ground fact {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **ground_fact** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.atomic_formula,atomic_formula}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Ground_fact,Ground_fact}}.
+  - content: An **ground_fact** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.atomic_formula,atomic_formula}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Ground_fact,Ground_fact}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: ground_fact
+  - type: expression
+    normative_status: preferred
+    designation: ground_fact
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: measure_schema.thermodynamic_temperature_unit
   localized_concepts:
     eng: b02f5439-04e6-5eee-b64d-ed49787053d8
   domains:
-    - concept_id: section-measure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-      ref_type: section
+  - concept_id: section-measure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+    ref_type: section
 id: measure_schema.thermodynamic_temperature_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} that represents the thermodynamic temperature unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      that represents the thermodynamic temperature unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **thermodynamic_temperature_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}} in which the degree of heat of a body is expressed.
+  - content: A **thermodynamic_temperature_unit** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.named_unit,named_unit}}
+      in which the degree of heat of a body is expressed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
-          version: '8'
-      type: authoritative
-      id: measure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: thermodynamic_temperature_unit
+  - type: expression
+    normative_status: preferred
+    designation: thermodynamic_temperature_unit
   domain: 'resource: measure_schema'
   language_code: eng
   annotations: []

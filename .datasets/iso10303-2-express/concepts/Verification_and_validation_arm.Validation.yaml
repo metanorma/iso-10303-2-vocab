@@ -1,30 +1,31 @@
+---
 data:
   identifier: Verification_and_validation_arm.Validation
   localized_concepts:
     eng: 73d375e8-b427-5f0d-86eb-4f4aa6b3c1a0
   domains:
-    - concept_id: section-Verification_and_validation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
-      ref_type: section
+  - concept_id: section-Verification_and_validation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+    ref_type: section
 id: Verification_and_validation_arm.Validation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the validation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the validation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Validation** is a subjective assertion that an item is "fit for purpose".
+  - content: A **Validation** is a subjective assertion that an item is "fit for purpose".
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
-          version: '3'
-      type: authoritative
-      id: Verification_and_validation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Verification_and_validation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Validation
+  - type: expression
+    normative_status: preferred
+    designation: Validation
   domain: 'application module: Verification_and_validation_arm'
   language_code: eng
   annotations: []

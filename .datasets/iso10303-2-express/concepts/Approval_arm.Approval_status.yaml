@@ -1,30 +1,31 @@
+---
 data:
   identifier: Approval_arm.Approval_status
   localized_concepts:
     eng: 4cd14d29-78db-5e92-a8d8-d9dbbb5560cc
   domains:
-    - concept_id: section-Approval_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
-      ref_type: section
+  - concept_id: section-Approval_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+    ref_type: section
 id: Approval_arm.Approval_status
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval status {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the approval status {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Approval_status** is a particular rank of approval.
+  - content: An **Approval_status** is a particular rank of approval.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
-          version: '5'
-      type: authoritative
-      id: Approval_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Approval_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Approval_status
+  - type: expression
+    normative_status: preferred
+    designation: Approval_status
   domain: 'application module: Approval_arm'
   language_code: eng
   annotations: []

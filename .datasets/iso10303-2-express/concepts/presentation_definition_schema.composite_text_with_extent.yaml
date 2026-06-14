@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_definition_schema.composite_text_with_extent
   localized_concepts:
     eng: e6055b42-a235-59d3-9a4f-7e7e916bf423
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.composite_text_with_extent
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.composite_text,composite_text}} that represents the composite text with extent {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.composite_text,composite_text}}
+      that represents the composite text with extent {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **composite_text_with_extent** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.composite_text,composite_text}} whose extent is explicitly specified.
+  - content: A **composite_text_with_extent** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.composite_text,composite_text}}
+      whose extent is explicitly specified.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: composite_text_with_extent
+  - type: expression
+    normative_status: preferred
+    designation: composite_text_with_extent
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_geometric_topology_arm.Edge_curve
   localized_concepts:
     eng: 0f3397df-15fb-5eed-802e-6e3b0347ef60
   domains:
-    - concept_id: section-Basic_geometric_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
-      ref_type: section
+  - concept_id: section-Basic_geometric_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+    ref_type: section
 id: Basic_geometric_topology_arm.Edge_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the edge curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the edge curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Edge_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}} that has its geometry defined by a geometric curve.
+  - content: An **Edge_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Edge,Edge}}
+      that has its geometry defined by a geometric curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
-          version: '6'
-      type: authoritative
-      id: Basic_geometric_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Edge_curve
+  - type: expression
+    normative_status: preferred
+    designation: Edge_curve
   domain: 'application module: Basic_geometric_topology_arm'
   language_code: eng
   annotations: []

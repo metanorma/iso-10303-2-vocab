@@ -1,29 +1,31 @@
+---
 data:
   identifier: Task_element_arm.Looping_element
   localized_concepts:
     eng: 8fa28fa2-1dfd-5619-b9f0-bcfa82a69e94
   domains:
-    - concept_id: section-Task_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-      ref_type: section
+  - concept_id: section-Task_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+    ref_type: section
 id: Task_element_arm.Looping_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Structured_task_element,Structured_task_element}} that represents the looping element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Structured_task_element,Structured_task_element}}
+      that represents the looping element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-          version: '1'
-      type: authoritative
-      id: Task_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Looping_element
+  - type: expression
+    normative_status: preferred
+    designation: Looping_element
   domain: 'application module: Task_element_arm'
   language_code: eng
   annotations: []

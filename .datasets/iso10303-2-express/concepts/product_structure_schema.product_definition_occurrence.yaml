@@ -1,30 +1,34 @@
+---
 data:
   identifier: product_structure_schema.product_definition_occurrence
   localized_concepts:
     eng: 88234723-4e8b-5807-bcb8-13e58e8b1bbf
   domains:
-    - concept_id: section-product_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-      ref_type: section
+  - concept_id: section-product_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+    ref_type: section
 id: product_structure_schema.product_definition_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product definition occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_occurrence** is an identified occurrence of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}} or another **product_definition_occurrence** in one or several product structures.
+  - content: A **product_definition_occurrence** is an identified occurrence of a
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}}
+      or another **product_definition_occurrence** in one or several product structures.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-          version: '6'
-      type: authoritative
-      id: product_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_occurrence
   domain: 'resource: product_structure_schema'
   language_code: eng
   annotations: []

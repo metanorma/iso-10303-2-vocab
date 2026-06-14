@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_arm.Row_variable
   localized_concepts:
     eng: 6bc2aee2-4947-551b-b8a5-00f31f4b3f0c
   domains:
-    - concept_id: section-Production_rule_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-      ref_type: section
+  - concept_id: section-Production_rule_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+    ref_type: section
 id: Production_rule_arm.Row_variable
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Abstract_variable,Abstract_variable}} that represents the row variable {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Abstract_variable,Abstract_variable}}
+      that represents the row variable {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Row_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Abstract_variable,Abstract_variable}} with a size that may be more than one.
+  - content: A **Row_variable** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Abstract_variable,Abstract_variable}}
+      with a size that may be more than one.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
-          version: '5'
-      type: authoritative
-      id: Production_rule_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Row_variable
+  - type: expression
+    normative_status: preferred
+    designation: Row_variable
   domain: 'application module: Production_rule_arm'
   language_code: eng
   annotations: []

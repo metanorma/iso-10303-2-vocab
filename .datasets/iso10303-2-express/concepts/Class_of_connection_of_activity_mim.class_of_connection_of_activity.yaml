@@ -1,29 +1,30 @@
+---
 data:
   identifier: Class_of_connection_of_activity_mim.class_of_connection_of_activity
   localized_concepts:
     eng: c93bd370-83c1-5111-8c44-e83572dbe146
   domains:
-    - concept_id: section-Class_of_connection_of_activity_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_connection_of_activity_mim
-      ref_type: section
+  - concept_id: section-Class_of_connection_of_activity_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_connection_of_activity_mim
+    ref_type: section
 id: Class_of_connection_of_activity_mim.class_of_connection_of_activity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the class of connection of activity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the class of connection of activity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_connection_of_activity_mim
-          version: '1'
-      type: authoritative
-      id: Class_of_connection_of_activity_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Class_of_connection_of_activity_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: class_of_connection_of_activity
+  - type: expression
+    normative_status: preferred
+    designation: class_of_connection_of_activity
   domain: 'application module: Class_of_connection_of_activity_mim'
   language_code: eng
   annotations: []

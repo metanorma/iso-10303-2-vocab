@@ -1,29 +1,31 @@
+---
 data:
   identifier: Draughting_element_arm.Annotation_fill_area
   localized_concepts:
     eng: 89811da3-a938-5cf9-a96e-e0ba0888e632
   domains:
-    - concept_id: section-Draughting_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+    ref_type: section
 id: Draughting_element_arm.Annotation_fill_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the annotation fill area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the annotation fill area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-          version: '6'
-      type: authoritative
-      id: Draughting_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Annotation_fill_area
+  - type: expression
+    normative_status: preferred
+    designation: Annotation_fill_area
   domain: 'application module: Draughting_element_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: aic_csg.csg_shape_representation
   localized_concepts:
     eng: 46454f81-95e4-52f6-8171-dc9e3b6473ff
   domains:
-    - concept_id: section-aic_csg
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_csg
-      ref_type: section
+  - concept_id: section-aic_csg
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_csg
+    ref_type: section
 id: aic_csg.csg_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the csg shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_csg.shape_representation,shape_representation}}
+      that represents the csg shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **csg_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that is three-dimensional and that represents the shape of a product using constructive solid geometry operations and techniques.
+  - content: A **csg_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      that is three-dimensional and that represents the shape of a product using constructive
+      solid geometry operations and techniques.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_csg
-          version: '2'
-      type: authoritative
-      id: aic_csg
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_csg
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: csg_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: csg_shape_representation
   domain: 'resource: aic_csg'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: method_definition_schema.action_method_to_select_from
   localized_concepts:
     eng: 234158b4-7bd6-52af-89c8-85cf6349786e
   domains:
-    - concept_id: section-method_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-      ref_type: section
+  - concept_id: section-method_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+    ref_type: section
 id: method_definition_schema.action_method_to_select_from
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that represents the action method to select from {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method,action_method}}
+      that represents the action method to select from {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_to_select_from,action_method_to_select_from}} specifies the number of {{action_method,action_methods}} to be selected from all potential {{action_method,action_methods}} in the collection.
+  - content: The {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_to_select_from,action_method_to_select_from}}
+      specifies the number of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_methods}}
+      to be selected from all potential {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_methods}}
+      in the collection.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-          version: '1'
-      type: authoritative
-      id: method_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_method_to_select_from
+  - type: expression
+    normative_status: preferred
+    designation: action_method_to_select_from
   domain: 'resource: method_definition_schema'
   language_code: eng
   annotations: []

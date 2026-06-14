@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.offset_surface
   localized_concepts:
     eng: 7cabeda1-8825-5a25-afd4-c5b904842fae
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.offset_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} that represents the offset surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}}
+      that represents the offset surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **offset_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} and is a procedural definition of a simple offset surface at a normal distance from the originating surface.
+  - content: A **offset_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}}
+      and is a procedural definition of a simple offset surface at a normal distance
+      from the originating surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: offset_surface
+  - type: expression
+    normative_status: preferred
+    designation: offset_surface
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

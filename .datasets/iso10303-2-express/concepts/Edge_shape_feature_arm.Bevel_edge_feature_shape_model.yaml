@@ -1,30 +1,33 @@
+---
 data:
   identifier: Edge_shape_feature_arm.Bevel_edge_feature_shape_model
   localized_concepts:
     eng: 80b8dab5-cefe-5765-97bf-91215dd8b34d
   domains:
-    - concept_id: section-Edge_shape_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
-      ref_type: section
+  - concept_id: section-Edge_shape_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
+    ref_type: section
 id: Edge_shape_feature_arm.Bevel_edge_feature_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}} that represents the bevel edge feature shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}}
+      that represents the bevel edge feature shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Bevel_edge_feature_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}} that describes a bevelled edge of a feature with a two-dimensional shape.
+  - content: A **Bevel_edge_feature_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}}
+      that describes a bevelled edge of a feature with a two-dimensional shape.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
-          version: '2'
-      type: authoritative
-      id: Edge_shape_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Bevel_edge_feature_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Bevel_edge_feature_shape_model
   domain: 'application module: Edge_shape_feature_arm'
   language_code: eng
   annotations: []

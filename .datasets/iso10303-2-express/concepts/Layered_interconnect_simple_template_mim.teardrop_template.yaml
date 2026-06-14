@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.teardrop_template
   localized_concepts:
     eng: 89c67bef-bb8b-57f1-8830-bd60e82c37b0
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.teardrop_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the teardrop template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the teardrop template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **teardrop_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.parametric_template,parametric_template}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.single_stratum_template,single_stratum_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Teardrop_template,Teardrop_template}}.
+  - content: A **teardrop_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.parametric_template,parametric_template}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.single_stratum_template,single_stratum_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Teardrop_template,Teardrop_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: teardrop_template
+  - type: expression
+    normative_status: preferred
+    designation: teardrop_template
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

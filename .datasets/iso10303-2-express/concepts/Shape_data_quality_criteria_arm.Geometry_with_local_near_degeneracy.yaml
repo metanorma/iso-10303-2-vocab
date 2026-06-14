@@ -1,31 +1,35 @@
+---
 data:
   identifier: Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy
   localized_concepts:
-    eng: 09560732-f238-5109-8025-69607036a7ac
+    eng: '09560732-f238-5109-8025-69607036a7ac'
   domains:
-    - concept_id: section-Shape_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+    ref_type: section
 id: Shape_data_quality_criteria_arm.Geometry_with_local_near_degeneracy
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}} that represents the geometry with local near degeneracy {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}}
+      that represents the geometry with local near degeneracy {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Geometry_with_local_near_degeneracy** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}} that is a supertype of criteria for detecting geometry including locally infinitesimal characteristics.
+  - content: A **Geometry_with_local_near_degeneracy** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm.Inapt_geometry,Inapt_geometry}}
+      that is a supertype of criteria for detecting geometry including locally infinitesimal
+      characteristics.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
-          version: '3'
-      type: authoritative
-      id: Shape_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_criteria_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Geometry_with_local_near_degeneracy
+  - type: expression
+    normative_status: preferred
+    designation: Geometry_with_local_near_degeneracy
   domain: 'application module: Shape_data_quality_criteria_arm'
   language_code: eng
   annotations: []
-id: 09560732-f238-5109-8025-69607036a7ac
+id: '09560732-f238-5109-8025-69607036a7ac'

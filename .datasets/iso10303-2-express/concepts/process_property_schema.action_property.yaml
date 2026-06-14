@@ -1,30 +1,34 @@
+---
 data:
   identifier: process_property_schema.action_property
   localized_concepts:
     eng: aa00ad4d-9b00-52a8-9c4e-719ca30c79c6
   domains:
-    - concept_id: section-process_property_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-      ref_type: section
+  - concept_id: section-process_property_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+    ref_type: section
 id: process_property_schema.action_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the action property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the action property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action_property,action_property}} is the description of the behavior, capabilities, or performance measures that are pertinent to a process, an action to effect a process, or a potential action to effect a process.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action_property,action_property}}
+      is the description of the behavior, capabilities, or performance measures that
+      are pertinent to a process, an action to effect a process, or a potential action
+      to effect a process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-          version: '1'
-      type: authoritative
-      id: process_property_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: action_property
+  - type: expression
+    normative_status: preferred
+    designation: action_property
   domain: 'resource: process_property_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Textual_expression_representation_arm.Text_based_representation_context
   localized_concepts:
     eng: 1635283e-62a0-559d-97b5-fb246a7a0860
   domains:
-    - concept_id: section-Textual_expression_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
-      ref_type: section
+  - concept_id: section-Textual_expression_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
+    ref_type: section
 id: Textual_expression_representation_arm.Text_based_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the text based representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm.Representation_context,Representation_context}}
+      that represents the text based representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Text_based_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} where the representations are text-based.
+  - content: A **Text_based_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}
+      where the representations are text-based.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
-          version: '1'
-      type: authoritative
-      id: Textual_expression_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Textual_expression_representation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Text_based_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: Text_based_representation_context
   domain: 'application module: Textual_expression_representation_arm'
   language_code: eng
   annotations: []

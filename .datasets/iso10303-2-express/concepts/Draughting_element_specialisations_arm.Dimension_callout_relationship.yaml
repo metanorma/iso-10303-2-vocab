@@ -1,30 +1,33 @@
+---
 data:
   identifier: Draughting_element_specialisations_arm.Dimension_callout_relationship
   localized_concepts:
     eng: 37980b11-2473-5b7f-ae22-204988791313
   domains:
-    - concept_id: section-Draughting_element_specialisations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_specialisations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+    ref_type: section
 id: Draughting_element_specialisations_arm.Dimension_callout_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the dimension callout relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the dimension callout relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Dimension_callout_relationship** is a relationship of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Dimension_value,Dimension_value}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Dimension_callout,Dimension_callout}} as either primary or secondary value.
+  - content: A **Dimension_callout_relationship** is a relationship of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Dimension_value,Dimension_value}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Dimension_callout,Dimension_callout}}
+      as either primary or secondary value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_element_specialisations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dimension_callout_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Dimension_callout_relationship
   domain: 'application module: Draughting_element_specialisations_arm'
   language_code: eng
   annotations: []

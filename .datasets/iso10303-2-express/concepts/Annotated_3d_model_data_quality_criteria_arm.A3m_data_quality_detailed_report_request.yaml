@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_detailed_report_request
   localized_concepts:
     eng: 25dde043-0070-5c2a-9b63-392d1fa456e0
   domains:
-    - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+    ref_type: section
 id: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_detailed_report_request
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Detailed_report_request_with_number_of_data,Detailed_report_request_with_number_of_data}} that represents the a3m data quality detailed report request {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.Detailed_report_request_with_number_of_data,Detailed_report_request_with_number_of_data}}
+      that represents the a3m data quality detailed report request {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_data_quality_detailed_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Detailed_report_request_with_number_of_data,Detailed_report_request_with_number_of_data}} that requests a detailed report including a representative value.
+  - content: An **A3m_data_quality_detailed_report_request** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Detailed_report_request_with_number_of_data,Detailed_report_request_with_number_of_data}}
+      that requests a detailed report including a representative value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_data_quality_detailed_report_request
+  - type: expression
+    normative_status: preferred
+    designation: A3m_data_quality_detailed_report_request
   domain: 'application module: Annotated_3d_model_data_quality_criteria_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: topology_schema.face_outer_bound
   localized_concepts:
     eng: 1ab7f11b-a2f4-5d74-bd20-79e3b7022087
   domains:
-    - concept_id: section-topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-      ref_type: section
+  - concept_id: section-topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+    ref_type: section
 id: topology_schema.face_outer_bound
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_bound,face_bound}} that represents the face outer bound {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_bound,face_bound}}
+      that represents the face outer bound {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **face_outer_bound** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_bound,face_bound}}, which carries the additional semantics of defining an outer boundary on the face.
+  - content: A **face_outer_bound** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.face_bound,face_bound}},
+      which carries the additional semantics of defining an outer boundary on the
+      face.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
-          version: '12'
-      type: authoritative
-      id: topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: face_outer_bound
+  - type: expression
+    normative_status: preferred
+    designation: face_outer_bound
   domain: 'resource: topology_schema'
   language_code: eng
   annotations: []

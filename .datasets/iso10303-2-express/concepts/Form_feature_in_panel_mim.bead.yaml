@@ -1,30 +1,33 @@
+---
 data:
   identifier: Form_feature_in_panel_mim.bead
   localized_concepts:
     eng: 82ca3321-7d01-51a0-99e5-523970c6ab08
   domains:
-    - concept_id: section-Form_feature_in_panel_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+    ref_type: section
 id: Form_feature_in_panel_mim.bead
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that represents the bead {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim.feature_definition,feature_definition}}
+      that represents the bead {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **bead** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Bead_feature,Bead_feature}}.
+  - content: A **bead** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_aspect_definition_schema.feature_definition,feature_definition}}
+      that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Bead_feature,Bead_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: bead
+  - type: expression
+    normative_status: preferred
+    designation: bead
   domain: 'application module: Form_feature_in_panel_mim'
   language_code: eng
   annotations: []

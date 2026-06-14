@@ -1,30 +1,36 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criteria_representation
   localized_concepts:
     eng: 11eacfaa-2448-59a1-b883-cf5370b1e38a
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criteria_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_criteria_representation,Data_quality_criteria_representation}} that represents the externally conditioned data quality criteria representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Data_quality_criteria_representation,Data_quality_criteria_representation}}
+      that represents the externally conditioned data quality criteria representation
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Externally_conditioned_data_quality_criteria_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_criteria_representation,Data_quality_criteria_representation}} that represents requirements on data quality based on externally defined acceptance conditions.
+  - content: A **Externally_conditioned_data_quality_criteria_representation** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_criteria_representation,Data_quality_criteria_representation}}
+      that represents requirements on data quality based on externally defined acceptance
+      conditions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Externally_conditioned_data_quality_criteria_representation
+  - type: expression
+    normative_status: preferred
+    designation: Externally_conditioned_data_quality_criteria_representation
   domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
   language_code: eng
   annotations: []

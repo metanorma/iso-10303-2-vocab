@@ -1,29 +1,31 @@
+---
 data:
   identifier: Building_item_arm.Space
   localized_concepts:
     eng: 3a012770-c8b1-5777-9863-2129155cb80f
   domains:
-    - concept_id: section-Building_item_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
-      ref_type: section
+  - concept_id: section-Building_item_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+    ref_type: section
 id: Building_item_arm.Space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}} that represents the space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}}
+      that represents the space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
-          version: '1'
-      type: authoritative
-      id: Building_item_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Space
+  - type: expression
+    normative_status: preferred
+    designation: Space
   domain: 'application module: Building_item_arm'
   language_code: eng
   annotations: []

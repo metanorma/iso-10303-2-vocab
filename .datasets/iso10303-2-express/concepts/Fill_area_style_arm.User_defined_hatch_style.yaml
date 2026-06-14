@@ -1,29 +1,31 @@
+---
 data:
   identifier: Fill_area_style_arm.User_defined_hatch_style
   localized_concepts:
     eng: 734ab54f-7f66-5ef3-b17e-57b9bd62fff8
   domains:
-    - concept_id: section-Fill_area_style_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-      ref_type: section
+  - concept_id: section-Fill_area_style_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+    ref_type: section
 id: Fill_area_style_arm.User_defined_hatch_style
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}} that represents the user defined hatch style {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm.Hatch_style,Hatch_style}}
+      that represents the user defined hatch style {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
-          version: '3'
-      type: authoritative
-      id: Fill_area_style_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fill_area_style_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: User_defined_hatch_style
+  - type: expression
+    normative_status: preferred
+    designation: User_defined_hatch_style
   domain: 'application module: Fill_area_style_arm'
   language_code: eng
   annotations: []

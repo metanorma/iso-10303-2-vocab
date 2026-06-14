@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_component_placement_requirements_arm.Mounting_restriction_area
   localized_concepts:
     eng: 5659a817-ea03-505a-b605-05bb7db471d1
   domains:
-    - concept_id: section-Assembly_component_placement_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-      ref_type: section
+  - concept_id: section-Assembly_component_placement_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+    ref_type: section
 id: Assembly_component_placement_requirements_arm.Mounting_restriction_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_feature_shape_element_arm.Non_feature_shape_element,Non_feature_shape_element}} that represents the mounting restriction area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm.Non_feature_shape_element,Non_feature_shape_element}}
+      that represents the mounting restriction area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
-          version: '6'
-      type: authoritative
-      id: Assembly_component_placement_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_placement_requirements_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mounting_restriction_area
+  - type: expression
+    normative_status: preferred
+    designation: Mounting_restriction_area
   domain: 'application module: Assembly_component_placement_requirements_arm'
   language_code: eng
   annotations: []

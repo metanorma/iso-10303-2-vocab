@@ -1,29 +1,31 @@
+---
 data:
   identifier: Product_group_mim.product_group_context
   localized_concepts:
     eng: 64d54d8c-fe4b-5b49-8fd4-47e78d46e7c1
   domains:
-    - concept_id: section-Product_group_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
-      ref_type: section
+  - concept_id: section-Product_group_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+    ref_type: section
 id: Product_group_mim.product_group_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualified_measure_schema.descriptive_representation_item,descriptive_representation_item}} that represents the product group context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim.descriptive_representation_item,descriptive_representation_item}}
+      that represents the product group context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
-          version: '3'
-      type: authoritative
-      id: Product_group_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_group_context
+  - type: expression
+    normative_status: preferred
+    designation: product_group_context
   domain: 'application module: Product_group_mim'
   language_code: eng
   annotations: []

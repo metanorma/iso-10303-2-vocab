@@ -1,32 +1,34 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.plane_angle_and_ratio_pair
   localized_concepts:
     eng: 02b85e7e-bb1f-5e3c-a183-e55ea21b0827
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.plane_angle_and_ratio_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} that represents the plane angle and ratio pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.founded_item,founded_item}}
+      that represents the plane angle and ratio pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **plane_angle_and_ratio_pair**
-        is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents the measured value that consists of a {{plane_angle_measure,plane_angle_measure}} and a ratio of curvature radius change.
+  - content: |-
+      A **plane_angle_and_ratio_pair**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.founded_item,founded_item}} and represents the measured value that consists of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:measure_schema.plane_angle_measure,plane_angle_measure}} and a ratio of curvature radius change.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: plane_angle_and_ratio_pair
+  - type: expression
+    normative_status: preferred
+    designation: plane_angle_and_ratio_pair
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

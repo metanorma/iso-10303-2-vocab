@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_structure_schema.product_definition_usage
   localized_concepts:
     eng: 4f468915-c6f2-5d14-9328-a81f47315f3c
   domains:
-    - concept_id: section-product_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-      ref_type: section
+  - concept_id: section-product_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+    ref_type: section
 id: product_structure_schema.product_definition_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the product definition usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_relationship,product_definition_relationship}}
+      that represents the product definition usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that specifies a directed association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} in which the {{related_product_definition,related_product_definition}} is used in the context of the {{relating_product_definition,relating_product_definition}}.
+  - content: A **product_definition_usage** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that specifies a directed association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      in which the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship.related_product_definition,related_product_definition}}
+      is used in the context of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship.relating_product_definition,relating_product_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-          version: '6'
-      type: authoritative
-      id: product_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_usage
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_usage
   domain: 'resource: product_structure_schema'
   language_code: eng
   annotations: []

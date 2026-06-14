@@ -1,29 +1,31 @@
+---
 data:
   identifier: Issue_mim.issue
   localized_concepts:
     eng: cda8bda6-61e4-5262-9994-91a828018ebc
   domains:
-    - concept_id: section-Issue_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
-      ref_type: section
+  - concept_id: section-Issue_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
+    ref_type: section
 id: Issue_mim.issue
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_mim.observation,observation}} that represents the issue {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim.observation,observation}}
+      that represents the issue {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
-          version: '1'
-      type: authoritative
-      id: Issue_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Issue_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: issue
+  - type: expression
+    normative_status: preferred
+    designation: issue
   domain: 'application module: Issue_mim'
   language_code: eng
   annotations: []

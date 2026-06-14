@@ -1,30 +1,33 @@
+---
 data:
   identifier: Planned_characteristic_mim.evaluated_characteristic
   localized_concepts:
     eng: 999ad596-9b90-58a0-8259-2df61880578d
   domains:
-    - concept_id: section-Planned_characteristic_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
-      ref_type: section
+  - concept_id: section-Planned_characteristic_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
+    ref_type: section
 id: Planned_characteristic_mim.evaluated_characteristic
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the evaluated characteristic {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the evaluated characteristic {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **evaluated_characteristic** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm.Evaluated_characteristic,Evaluated_characteristic}}.
+  - content: An **evaluated_characteristic** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_arm.Evaluated_characteristic,Evaluated_characteristic}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
-          version: '4'
-      type: authoritative
-      id: Planned_characteristic_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Planned_characteristic_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: evaluated_characteristic
+  - type: expression
+    normative_status: preferred
+    designation: evaluated_characteristic
   domain: 'application module: Planned_characteristic_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Functional_decomposition_to_design_arm.Design_composition_path
   localized_concepts:
     eng: dbe7dea8-37ac-56b6-87f2-b01c1a01a1c9
   domains:
-    - concept_id: section-Functional_decomposition_to_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+    ref_type: section
 id: Functional_decomposition_to_design_arm.Design_composition_path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design composition path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design composition path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Design_composition_path** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}} that together compose one path through the complete functional definition that has the **design_functional_unit** as a reference to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_definition,Functional_unit_definition}} that is the leaf node.
+  - content: A **Design_composition_path** is a collection of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}}
+      that together compose one path through the complete functional definition that
+      has the **design_functional_unit** as a reference to the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_usage_view_arm.Functional_unit_definition,Functional_unit_definition}}
+      that is the leaf node.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_composition_path
+  - type: expression
+    normative_status: preferred
+    designation: Design_composition_path
   domain: 'application module: Functional_decomposition_to_design_arm'
   language_code: eng
   annotations: []

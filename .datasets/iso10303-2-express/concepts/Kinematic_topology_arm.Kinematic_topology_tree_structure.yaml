@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_topology_arm.Kinematic_topology_tree_structure
   localized_concepts:
     eng: b81a71a8-77d7-50b5-a0b4-cf02916208bc
   domains:
-    - concept_id: section-Kinematic_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-      ref_type: section
+  - concept_id: section-Kinematic_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+    ref_type: section
 id: Kinematic_topology_arm.Kinematic_topology_tree_structure
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_topology_directed_structure,Kinematic_topology_directed_structure}} that represents the kinematic topology tree structure {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Kinematic_topology_directed_structure,Kinematic_topology_directed_structure}}
+      that represents the kinematic topology tree structure {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-          version: '1'
-      type: authoritative
-      id: Kinematic_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Kinematic_topology_tree_structure
+  - type: expression
+    normative_status: preferred
+    designation: Kinematic_topology_tree_structure
   domain: 'application module: Kinematic_topology_arm'
   language_code: eng
   annotations: []

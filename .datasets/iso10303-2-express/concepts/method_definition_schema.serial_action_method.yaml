@@ -1,30 +1,34 @@
+---
 data:
   identifier: method_definition_schema.serial_action_method
   localized_concepts:
     eng: c39d3d03-7deb-5f9e-b926-2b68eaf9f9fb
   domains:
-    - concept_id: section-method_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-      ref_type: section
+  - concept_id: section-method_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+    ref_type: section
 id: method_definition_schema.serial_action_method
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} that represents the serial action method {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.action_method_relationship,action_method_relationship}}
+      that represents the serial action method {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.serial_action_method,serial_action_method}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}} that is specified as part of a process.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema.serial_action_method,serial_action_method}}
+      is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method_relationship,action_method_relationship}}
+      that is specified as part of a process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
-          version: '1'
-      type: authoritative
-      id: method_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:method_definition_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: serial_action_method
+  - type: expression
+    normative_status: preferred
+    designation: serial_action_method
   domain: 'resource: method_definition_schema'
   language_code: eng
   annotations: []

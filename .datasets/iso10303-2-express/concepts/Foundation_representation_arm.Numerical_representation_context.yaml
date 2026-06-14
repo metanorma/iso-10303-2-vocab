@@ -1,30 +1,33 @@
+---
 data:
   identifier: Foundation_representation_arm.Numerical_representation_context
   localized_concepts:
     eng: a530d7da-9e0f-5b4e-b6fa-ae31f9501158
   domains:
-    - concept_id: section-Foundation_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-      ref_type: section
+  - concept_id: section-Foundation_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+    ref_type: section
 id: Foundation_representation_arm.Numerical_representation_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} that represents the numerical representation context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}
+      that represents the numerical representation context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Numerical_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}} in which units and uncertainties may be defined.
+  - content: A **Numerical_representation_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}
+      in which units and uncertainties may be defined.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
-          version: '6'
-      type: authoritative
-      id: Foundation_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Numerical_representation_context
+  - type: expression
+    normative_status: preferred
+    designation: Numerical_representation_context
   domain: 'application module: Foundation_representation_arm'
   language_code: eng
   annotations: []

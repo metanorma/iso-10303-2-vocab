@@ -1,29 +1,31 @@
+---
 data:
   identifier: Non_manifold_surface_arm.Non_manifold_shape_representation
   localized_concepts:
     eng: e36ff673-10bd-5b41-8513-0806a8414eab
   domains:
-    - concept_id: section-Non_manifold_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_manifold_surface_arm
-      ref_type: section
+  - concept_id: section-Non_manifold_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_manifold_surface_arm
+    ref_type: section
 id: Non_manifold_surface_arm.Non_manifold_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the non manifold shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_manifold_surface_arm.Geometric_model,Geometric_model}}
+      that represents the non manifold shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_manifold_surface_arm
-          version: '2'
-      type: authoritative
-      id: Non_manifold_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Non_manifold_surface_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Non_manifold_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Non_manifold_shape_representation
   domain: 'application module: Non_manifold_surface_arm'
   language_code: eng
   annotations: []

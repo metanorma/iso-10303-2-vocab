@@ -1,29 +1,31 @@
+---
 data:
   identifier: draughting_element_schema.dimension_curve_terminator
   localized_concepts:
     eng: c5186015-566b-5bc5-b3b9-8fcda0b70969
   domains:
-    - concept_id: section-draughting_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-      ref_type: section
+  - concept_id: section-draughting_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+    ref_type: section
 id: draughting_element_schema.dimension_curve_terminator
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.terminator_symbol,terminator_symbol}} that represents the dimension curve terminator {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.terminator_symbol,terminator_symbol}}
+      that represents the dimension curve terminator {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-          version: '7'
-      type: authoritative
-      id: draughting_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: dimension_curve_terminator
+  - type: expression
+    normative_status: preferred
+    designation: dimension_curve_terminator
   domain: 'resource: draughting_element_schema'
   language_code: eng
   annotations: []

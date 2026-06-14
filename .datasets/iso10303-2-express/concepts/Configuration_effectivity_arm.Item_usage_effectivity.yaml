@@ -1,30 +1,32 @@
+---
 data:
   identifier: Configuration_effectivity_arm.Item_usage_effectivity
   localized_concepts:
     eng: 9dc7cadb-4ac0-576c-945d-dfddc574a63f
   domains:
-    - concept_id: section-Configuration_effectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm
-      ref_type: section
+  - concept_id: section-Configuration_effectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm
+    ref_type: section
 id: Configuration_effectivity_arm.Item_usage_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the item usage effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the item usage effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Item_usage_effectivity** is an effectivity domain that constrains the use of a product with or within another product, in the context of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}}.
+  - content: An **Item_usage_effectivity** is an effectivity domain that constrains
+      the use of a product with or within another product, in the context of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_item_arm.Product_configuration,Product_configuration}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm
-          version: '3'
-      type: authoritative
-      id: Configuration_effectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Configuration_effectivity_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Item_usage_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: Item_usage_effectivity
   domain: 'application module: Configuration_effectivity_arm'
   language_code: eng
   annotations: []

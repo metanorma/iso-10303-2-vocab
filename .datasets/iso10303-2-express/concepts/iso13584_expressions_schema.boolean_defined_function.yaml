@@ -1,30 +1,32 @@
+---
 data:
   identifier: iso13584_expressions_schema.boolean_defined_function
   localized_concepts:
     eng: 2e26ae04-8e91-5042-9bd0-11fd83c335f1
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.boolean_defined_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boolean defined function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the boolean defined function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *boolean_defined_function* is any application-defined operator of which the range is the BOOLEAN data type defined in ISO 10303-11.
+  - content: A *boolean_defined_function* is any application-defined operator of which
+      the range is the BOOLEAN data type defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: boolean_defined_function
+  - type: expression
+    normative_status: preferred
+    designation: boolean_defined_function
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

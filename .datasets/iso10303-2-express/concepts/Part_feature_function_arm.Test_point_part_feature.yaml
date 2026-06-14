@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_feature_function_arm.Test_point_part_feature
   localized_concepts:
     eng: 2b64f347-c0c7-5bcf-86de-410ce1f7ce55
   domains:
-    - concept_id: section-Part_feature_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-      ref_type: section
+  - concept_id: section-Part_feature_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+    ref_type: section
 id: Part_feature_function_arm.Test_point_part_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm.Part_tooling_feature,Part_tooling_feature}} that represents the test point part feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm.Part_tooling_feature,Part_tooling_feature}}
+      that represents the test point part feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-          version: '4'
-      type: authoritative
-      id: Part_feature_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Test_point_part_feature
+  - type: expression
+    normative_status: preferred
+    designation: Test_point_part_feature
   domain: 'application module: Part_feature_function_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_topology_arm.Kinematic_topology_network_structure
   localized_concepts:
     eng: d5747603-74e1-55fc-a8b8-cebbe901f7f0
   domains:
-    - concept_id: section-Kinematic_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-      ref_type: section
+  - concept_id: section-Kinematic_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+    ref_type: section
 id: Kinematic_topology_arm.Kinematic_topology_network_structure
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the kinematic topology network structure {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm.Representation,Representation}}
+      that represents the kinematic topology network structure {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
-          version: '1'
-      type: authoritative
-      id: Kinematic_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_topology_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Kinematic_topology_network_structure
+  - type: expression
+    normative_status: preferred
+    designation: Kinematic_topology_network_structure
   domain: 'application module: Kinematic_topology_arm'
   language_code: eng
   annotations: []

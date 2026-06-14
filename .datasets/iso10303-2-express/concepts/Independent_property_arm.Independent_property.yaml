@@ -1,30 +1,31 @@
+---
 data:
   identifier: Independent_property_arm.Independent_property
   localized_concepts:
     eng: d8241fcf-cef0-55c0-8cb2-fb5c3f271cf2
   domains:
-    - concept_id: section-Independent_property_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm
-      ref_type: section
+  - concept_id: section-Independent_property_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm
+    ref_type: section
 id: Independent_property_arm.Independent_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the independent property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the independent property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Independent_property** is a type of property.
+  - content: An **Independent_property** is a type of property.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm
-          version: '1'
-      type: authoritative
-      id: Independent_property_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Independent_property
+  - type: expression
+    normative_status: preferred
+    designation: Independent_property
   domain: 'application module: Independent_property_arm'
   language_code: eng
   annotations: []

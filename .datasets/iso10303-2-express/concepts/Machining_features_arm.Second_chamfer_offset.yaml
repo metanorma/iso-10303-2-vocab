@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Second_chamfer_offset
   localized_concepts:
     eng: 1a31d4b8-2c08-54b1-b3e6-669ab409f367
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Second_chamfer_offset
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Second_chamfer_parameter,Second_chamfer_parameter}} that represents the second chamfer offset {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Second_chamfer_parameter,Second_chamfer_parameter}}
+      that represents the second chamfer offset {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Second_chamfer_offset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Second_chamfer_parameter,Second_chamfer_parameter}} that is the amount of length offset from a face for creating a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Chamfer,Chamfer}} feature.
+  - content: A **Second_chamfer_offset** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Second_chamfer_parameter,Second_chamfer_parameter}}
+      that is the amount of length offset from a face for creating a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Chamfer,Chamfer}}
+      feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Second_chamfer_offset
+  - type: expression
+    normative_status: preferred
+    designation: Second_chamfer_offset
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

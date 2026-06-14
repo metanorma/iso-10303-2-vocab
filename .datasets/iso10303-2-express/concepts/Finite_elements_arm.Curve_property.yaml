@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_elements_arm.Curve_property
   localized_concepts:
     eng: 903b360c-f5f2-55db-9f51-fe654c59214d
   domains:
-    - concept_id: section-Finite_elements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-      ref_type: section
+  - concept_id: section-Finite_elements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+    ref_type: section
 id: Finite_elements_arm.Curve_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the curve property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the curve property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Curve_property** is the association of material and geometric properties to a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Curve_element,Curve_element}} objects.
+  - content: A **Curve_property** is the association of material and geometric properties
+      to a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Curve_element,Curve_element}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
-          version: '2'
-      type: authoritative
-      id: Finite_elements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Curve_property
+  - type: expression
+    normative_status: preferred
+    designation: Curve_property
   domain: 'application module: Finite_elements_arm'
   language_code: eng
   annotations: []

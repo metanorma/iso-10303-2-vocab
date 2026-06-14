@@ -1,30 +1,34 @@
+---
 data:
   identifier: Building_structure_arm.Item_assembly
   localized_concepts:
     eng: fbadbe20-dadd-5837-88dd-e0c66055845a
   domains:
-    - concept_id: section-Building_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-      ref_type: section
+  - concept_id: section-Building_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+    ref_type: section
 id: Building_structure_arm.Item_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the item assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Product_view_definition,Product_view_definition}}
+      that represents the item assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Item_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that defines a view of an assembly of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}} instances or **Item_assembly** instances.
+  - content: An **Item_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that defines a view of an assembly of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_item,Building_item}}
+      instances or **Item_assembly** instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-          version: '1'
-      type: authoritative
-      id: Building_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Item_assembly
+  - type: expression
+    normative_status: preferred
+    designation: Item_assembly
   domain: 'application module: Building_structure_arm'
   language_code: eng
   annotations: []

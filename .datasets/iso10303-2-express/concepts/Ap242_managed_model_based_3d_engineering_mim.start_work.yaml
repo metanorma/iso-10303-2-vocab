@@ -1,30 +1,35 @@
+---
 data:
   identifier: Ap242_managed_model_based_3d_engineering_mim.start_work
   localized_concepts:
     eng: f1dd7d6f-138d-5836-a2ba-e93292f07272
   domains:
-    - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-      ref_type: section
+  - concept_id: section-Ap242_managed_model_based_3d_engineering_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+    ref_type: section
 id: Ap242_managed_model_based_3d_engineering_mim.start_work
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that represents the start work {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim.action_assignment,action_assignment}}
+      that represents the start work {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **start_work** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}} that identifies the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.start_request,start_request}} that have been fulfilled and, as a result, have established a new version of a product.
+  - content: A **start_work** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.action_assignment,action_assignment}}
+      that identifies the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim.start_request,start_request}}
+      that have been fulfilled and, as a result, have established a new version of
+      a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
-          version: '5'
-      type: authoritative
-      id: Ap242_managed_model_based_3d_engineering_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap242_managed_model_based_3d_engineering_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: start_work
+  - type: expression
+    normative_status: preferred
+    designation: start_work
   domain: 'application module: Ap242_managed_model_based_3d_engineering_mim'
   language_code: eng
   annotations: []

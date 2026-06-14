@@ -1,30 +1,34 @@
+---
 data:
   identifier: System_breakdown_arm.System_breakdown
   localized_concepts:
     eng: dafeb2c2-228f-54c8-a35f-e35557df9a2c
   domains:
-    - concept_id: section-System_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
-      ref_type: section
+  - concept_id: section-System_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+    ref_type: section
 id: System_breakdown_arm.System_breakdown
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} that represents the system breakdown {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm.Breakdown,Breakdown}}
+      that represents the system breakdown {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **System_breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} that identifies a partitioning of a system into a set of related elements so as to form explicit, assembly - component views that comprise the system elements.
+  - content: A **System_breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}}
+      that identifies a partitioning of a system into a set of related elements so
+      as to form explicit, assembly - component views that comprise the system elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
-          version: '1'
-      type: authoritative
-      id: System_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:System_breakdown_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: System_breakdown
+  - type: expression
+    normative_status: preferred
+    designation: System_breakdown
   domain: 'application module: System_breakdown_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometric_model_schema.area_with_outer_boundary
   localized_concepts:
     eng: 22c7424a-4539-55ac-a008-f1be7d8cd3b3
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.area_with_outer_boundary
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_2d,half_space_2d}} that represents the area with outer boundary {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_2d,half_space_2d}}
+      that represents the area with outer boundary {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **area_with_outer_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_2d,half_space_2d}} which is the finite interior of a closed curve.
+  - content: An **area_with_outer_boundary** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_2d,half_space_2d}}
+      which is the finite interior of a closed curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: area_with_outer_boundary
+  - type: expression
+    normative_status: preferred
+    designation: area_with_outer_boundary
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: counterbore_countersink_schema.counterbore_hole_occurrence_in_assembly
   localized_concepts:
     eng: 15a7fb78-e8aa-5a54-a874-6b01f686ad39
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.counterbore_hole_occurrence_in_assembly
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_occurrence,counterbore_hole_occurrence}} that represents the counterbore hole occurrence in assembly {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_occurrence,counterbore_hole_occurrence}}
+      that represents the counterbore hole occurrence in assembly {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **counterbore_hole_occurrence_in_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_occurrence,counterbore_hole_occurrence}} that is associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that is an assembly.
+  - content: A **counterbore_hole_occurrence_in_assembly** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterbore_hole_occurrence,counterbore_hole_occurrence}}
+      that is associated with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that is an assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: counterbore_hole_occurrence_in_assembly
+  - type: expression
+    normative_status: preferred
+    designation: counterbore_hole_occurrence_in_assembly
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

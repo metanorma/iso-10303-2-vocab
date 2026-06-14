@@ -1,30 +1,36 @@
+---
 data:
   identifier: Printed_physical_layout_template_mim.printed_part_template_terminal_connection_zone_category
   localized_concepts:
     eng: 0ef1c9b5-c45e-5d32-a400-5bee80062ac5
   domains:
-    - concept_id: section-Printed_physical_layout_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+    ref_type: section
 id: Printed_physical_layout_template_mim.printed_part_template_terminal_connection_zone_category
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the printed part template terminal connection zone category {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim.group,group}}
+      that represents the printed part template terminal connection zone category
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **printed_part_template_terminal_connection_zone_category** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that specifies either an 'area edge segment', a 'curve edge segment', a 'surface area', or a 'surface point' for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}}.
+  - content: A **printed_part_template_terminal_connection_zone_category** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that specifies
+      either an 'area edge segment', a 'curve edge segment', a 'surface area', or
+      a 'surface point' for a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_part_template_terminal,Printed_part_template_terminal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: printed_part_template_terminal_connection_zone_category
+  - type: expression
+    normative_status: preferred
+    designation: printed_part_template_terminal_connection_zone_category
   domain: 'application module: Printed_physical_layout_template_mim'
   language_code: eng
   annotations: []

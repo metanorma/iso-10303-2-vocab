@@ -1,32 +1,34 @@
+---
 data:
   identifier: geometric_model_schema.surface_curve_swept_face_solid
   localized_concepts:
     eng: 8a6cefc7-a962-59c2-b565-332c8687f9d5
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.surface_curve_swept_face_solid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_face_solid,swept_face_solid}} that represents the surface curve swept face solid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_face_solid,swept_face_solid}}
+      that represents the surface curve swept face solid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **surface_curve_swept_face_solid** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_face_solid,swept_face_solid}} which is the result of sweeping a face along a **directrix** lying on a **reference_surface**.
+  - content: |-
+      A **surface_curve_swept_face_solid** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.swept_face_solid,swept_face_solid}} which is the result of sweeping a face along a **directrix** lying on a **reference_surface**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_curve_swept_face_solid
+  - type: expression
+    normative_status: preferred
+    designation: surface_curve_swept_face_solid
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

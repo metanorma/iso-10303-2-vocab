@@ -1,30 +1,32 @@
+---
 data:
   identifier: Drawing_definition_arm.Draughting_title
   localized_concepts:
     eng: c3f98bd9-a864-5058-88da-419afa01be41
   domains:
-    - concept_id: section-Drawing_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_arm
-      ref_type: section
+  - concept_id: section-Drawing_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_arm
+    ref_type: section
 id: Drawing_definition_arm.Draughting_title
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the draughting title {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the draughting title {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Draughting_title** is a brief text describing the contents of the drawing or drawing sheet.
+  - content: A **Draughting_title** is a brief text describing the contents of the
+      drawing or drawing sheet.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_arm
-          version: '4'
-      type: authoritative
-      id: Drawing_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_definition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Draughting_title
+  - type: expression
+    normative_status: preferred
+    designation: Draughting_title
   domain: 'application module: Drawing_definition_arm'
   language_code: eng
   annotations: []

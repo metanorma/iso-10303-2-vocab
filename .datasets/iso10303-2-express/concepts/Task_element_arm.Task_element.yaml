@@ -1,29 +1,31 @@
+---
 data:
   identifier: Task_element_arm.Task_element
   localized_concepts:
     eng: 01a20e24-16bb-56f8-94e5-ef319b89f80a
   domains:
-    - concept_id: section-Task_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-      ref_type: section
+  - concept_id: section-Task_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+    ref_type: section
 id: Task_element_arm.Task_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_arm.Activity_method,Activity_method}} that represents the task element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm.Activity_method,Activity_method}}
+      that represents the task element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
-          version: '1'
-      type: authoritative
-      id: Task_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Task_element
+  - type: expression
+    normative_status: preferred
+    designation: Task_element
   domain: 'application module: Task_element_arm'
   language_code: eng
   annotations: []

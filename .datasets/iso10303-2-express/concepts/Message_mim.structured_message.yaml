@@ -1,30 +1,33 @@
+---
 data:
   identifier: Message_mim.structured_message
   localized_concepts:
     eng: afbc1664-db80-57cc-8105-5544a3ea6fda
   domains:
-    - concept_id: section-Message_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-      ref_type: section
+  - concept_id: section-Message_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+    ref_type: section
 id: Message_mim.structured_message
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} that represents the structured message {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim.product,product}}
+      that represents the structured message {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **structured_message** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}, used to implement {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm.Message,Message}}.
+  - content: A **structured_message** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}},
+      used to implement {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_arm.Message,Message}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
-          version: '2'
-      type: authoritative
-      id: Message_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Message_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: structured_message
+  - type: expression
+    normative_status: preferred
+    designation: structured_message
   domain: 'application module: Message_mim'
   language_code: eng
   annotations: []

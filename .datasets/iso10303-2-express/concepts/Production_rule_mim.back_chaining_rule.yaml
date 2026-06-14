@@ -1,30 +1,33 @@
+---
 data:
   identifier: Production_rule_mim.back_chaining_rule
   localized_concepts:
     eng: 57fa527b-44e0-57f6-9dc2-4e3a1fa8871b
   domains:
-    - concept_id: section-Production_rule_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-      ref_type: section
+  - concept_id: section-Production_rule_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+    ref_type: section
 id: Production_rule_mim.back_chaining_rule
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}} that represents the back chaining rule {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}}
+      that represents the back chaining rule {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **back_chaining_rule** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Back_chaining_rule,Back_chaining_rule}}.
+  - content: An **back_chaining_rule** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim.rule_definition,rule_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_arm.Back_chaining_rule,Back_chaining_rule}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
-          version: '5'
-      type: authoritative
-      id: Production_rule_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Production_rule_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: back_chaining_rule
+  - type: expression
+    normative_status: preferred
+    designation: back_chaining_rule
   domain: 'application module: Production_rule_mim'
   language_code: eng
   annotations: []

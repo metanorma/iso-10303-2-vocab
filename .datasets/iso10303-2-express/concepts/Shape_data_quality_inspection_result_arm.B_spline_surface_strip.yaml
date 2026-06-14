@@ -1,32 +1,33 @@
+---
 data:
   identifier: Shape_data_quality_inspection_result_arm.B_spline_surface_strip
   localized_concepts:
     eng: cc98039c-9596-5715-82c8-8769a0b774d4
   domains:
-    - concept_id: section-Shape_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+    ref_type: section
 id: Shape_data_quality_inspection_result_arm.B_spline_surface_strip
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the b spline surface strip {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the b spline surface strip {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **B_spline_surface_strip** is the representation of
-        a location by specifying a surface strip of the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}}.
+  - content: |-
+      A **B_spline_surface_strip** is the representation of
+      a location by specifying a surface strip of the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:B_spline_geometry_arm.B_spline_surface,B_spline_surface}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-          version: '2'
-      type: authoritative
-      id: Shape_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: B_spline_surface_strip
+  - type: expression
+    normative_status: preferred
+    designation: B_spline_surface_strip
   domain: 'application module: Shape_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []

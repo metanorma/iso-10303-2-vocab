@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_external_reference_arm.Part_terminal_external_reference
   localized_concepts:
     eng: a9d5ae84-8197-5028-b959-432f755cc599
   domains:
-    - concept_id: section-Part_external_reference_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
-      ref_type: section
+  - concept_id: section-Part_external_reference_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
+    ref_type: section
 id: Part_external_reference_arm.Part_terminal_external_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_shape_arm.General_part_feature,General_part_feature}} that represents the part terminal external reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm.General_part_feature,General_part_feature}}
+      that represents the part terminal external reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
-          version: '4'
-      type: authoritative
-      id: Part_external_reference_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_external_reference_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_terminal_external_reference
+  - type: expression
+    normative_status: preferred
+    designation: Part_terminal_external_reference
   domain: 'application module: Part_external_reference_arm'
   language_code: eng
   annotations: []

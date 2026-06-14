@@ -1,30 +1,33 @@
+---
 data:
   identifier: Datum_and_datum_systems_arm.Datum_reference_modifier_with_value
   localized_concepts:
     eng: ad81d9e6-235b-52da-93fd-0bb5f4a45d8c
   domains:
-    - concept_id: section-Datum_and_datum_systems_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+    ref_type: section
 id: Datum_and_datum_systems_arm.Datum_reference_modifier_with_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the datum reference modifier with value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the datum reference modifier with value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Datum_reference_modifier_with_value** is an association between a **modifier_type** and a **modifier_value** that defines the specific boundary size of the associated feature for establishing a datum.
+  - content: A **Datum_reference_modifier_with_value** is an association between a
+      **modifier_type** and a **modifier_value** that defines the specific boundary
+      size of the associated feature for establishing a datum.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_reference_modifier_with_value
+  - type: expression
+    normative_status: preferred
+    designation: Datum_reference_modifier_with_value
   domain: 'application module: Datum_and_datum_systems_arm'
   language_code: eng
   annotations: []

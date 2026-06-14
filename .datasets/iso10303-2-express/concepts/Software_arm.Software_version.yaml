@@ -1,29 +1,31 @@
+---
 data:
   identifier: Software_arm.Software_version
   localized_concepts:
     eng: 8433049d-a9ce-51b6-b3f8-db1220363b0f
   domains:
-    - concept_id: section-Software_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
-      ref_type: section
+  - concept_id: section-Software_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
+    ref_type: section
 id: Software_arm.Software_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_version,Information_version}} that represents the software version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm.Information_version,Information_version}}
+      that represents the software version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
-          version: '2'
-      type: authoritative
-      id: Software_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Software_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Software_version
+  - type: expression
+    normative_status: preferred
+    designation: Software_version
   domain: 'application module: Software_arm'
   language_code: eng
   annotations: []

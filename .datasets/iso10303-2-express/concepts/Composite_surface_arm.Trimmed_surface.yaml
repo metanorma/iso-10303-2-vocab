@@ -1,30 +1,34 @@
+---
 data:
   identifier: Composite_surface_arm.Trimmed_surface
   localized_concepts:
     eng: 167c58a1-2d50-5ff0-81ca-f69f2c0aea95
   domains:
-    - concept_id: section-Composite_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
-      ref_type: section
+  - concept_id: section-Composite_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+    ref_type: section
 id: Composite_surface_arm.Trimmed_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} that represents the trimmed surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm.Bounded_surface,Bounded_surface}}
+      that represents the trimmed surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Trimmed_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}} in which the boundaries are the constant parametric lines u1 = u1, u2 = u2, v1 = v1 and v2 = v2.
+  - content: A **Trimmed_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Bounded_surface,Bounded_surface}}
+      in which the boundaries are the constant parametric lines u1 = u1, u2 = u2,
+      v1 = v1 and v2 = v2.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
-          version: '2'
-      type: authoritative
-      id: Composite_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_surface_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Trimmed_surface
+  - type: expression
+    normative_status: preferred
+    designation: Trimmed_surface
   domain: 'application module: Composite_surface_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Datum_and_datum_systems_arm.Datum_system_with_associated_model_coordinate_system
   localized_concepts:
     eng: 8bd24f44-ebfa-5ebb-94a7-8c8d0831502e
   domains:
-    - concept_id: section-Datum_and_datum_systems_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-      ref_type: section
+  - concept_id: section-Datum_and_datum_systems_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+    ref_type: section
 id: Datum_and_datum_systems_arm.Datum_system_with_associated_model_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the datum system with associated model coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the datum system with associated model coordinate
+      system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Datum_system_with_associated_model_coordinate_system** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Axis_placement_shape_element,Axis_placement_shape_element}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_system,Datum_system}} to represent the relation between a datum system and a model coordinate system as defined in ISO 16792.
+  - content: A **Datum_system_with_associated_model_coordinate_system** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Axis_placement_shape_element,Axis_placement_shape_element}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm.Datum_system,Datum_system}}
+      to represent the relation between a datum system and a model coordinate system
+      as defined in ISO 16792.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
-          version: '1'
-      type: authoritative
-      id: Datum_and_datum_systems_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_and_datum_systems_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_system_with_associated_model_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: Datum_system_with_associated_model_coordinate_system
   domain: 'application module: Datum_and_datum_systems_arm'
   language_code: eng
   annotations: []

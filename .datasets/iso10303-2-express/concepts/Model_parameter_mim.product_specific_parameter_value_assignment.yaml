@@ -1,30 +1,34 @@
+---
 data:
   identifier: Model_parameter_mim.product_specific_parameter_value_assignment
   localized_concepts:
     eng: 7836c7ef-5c6b-5f36-9ba2-22333fa78af7
   domains:
-    - concept_id: section-Model_parameter_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
-      ref_type: section
+  - concept_id: section-Model_parameter_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+    ref_type: section
 id: Model_parameter_mim.product_specific_parameter_value_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product specific parameter value assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product specific parameter value assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_specific_parameter_value_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_related_product_category,product_related_product_category}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Product_specific_parameter_value_assignment,Product_specific_parameter_value_assignment}}.
+  - content: A **product_specific_parameter_value_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_related_product_category,product_related_product_category}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_arm.Product_specific_parameter_value_assignment,Product_specific_parameter_value_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
-          version: '5'
-      type: authoritative
-      id: Model_parameter_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Model_parameter_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_specific_parameter_value_assignment
+  - type: expression
+    normative_status: preferred
+    designation: product_specific_parameter_value_assignment
   domain: 'application module: Model_parameter_mim'
   language_code: eng
   annotations: []

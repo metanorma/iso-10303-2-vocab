@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_model_arm.Mbna_zone
   localized_concepts:
     eng: 998eff10-bee6-5007-9db9-ad36bde202f1
   domains:
-    - concept_id: section-Cfd_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-      ref_type: section
+  - concept_id: section-Cfd_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+    ref_type: section
 id: Cfd_model_arm.Mbna_zone
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain_with_mesh,Model_product_domain_with_mesh}} that represents the mbna zone {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Model_product_domain_with_mesh,Model_product_domain_with_mesh}}
+      that represents the mbna zone {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mbna_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain_with_mesh,Model_product_domain_with_mesh}} that collects the information pertinent to an individual multiblock zone.
+  - content: A **Mbna_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain_with_mesh,Model_product_domain_with_mesh}}
+      that collects the information pertinent to an individual multiblock zone.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mbna_zone
+  - type: expression
+    normative_status: preferred
+    designation: Mbna_zone
   domain: 'application module: Cfd_model_arm'
   language_code: eng
   annotations: []

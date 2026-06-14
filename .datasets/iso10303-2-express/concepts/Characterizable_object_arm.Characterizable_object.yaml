@@ -1,30 +1,32 @@
+---
 data:
   identifier: Characterizable_object_arm.Characterizable_object
   localized_concepts:
     eng: b7b173b9-6c8e-5fe9-a1f0-fb18b3e6c033
   domains:
-    - concept_id: section-Characterizable_object_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm
-      ref_type: section
+  - concept_id: section-Characterizable_object_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm
+    ref_type: section
 id: Characterizable_object_arm.Characterizable_object
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterizable object {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterizable object {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Characterizable_object** is an object that may be characterized with properties but cannot be considered as a product or an activity.
+  - content: A **Characterizable_object** is an object that may be characterized with
+      properties but cannot be considered as a product or an activity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm
-          version: '6'
-      type: authoritative
-      id: Characterizable_object_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterizable_object_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Characterizable_object
+  - type: expression
+    normative_status: preferred
+    designation: Characterizable_object
   domain: 'application module: Characterizable_object_arm'
   language_code: eng
   annotations: []

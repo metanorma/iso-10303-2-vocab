@@ -1,30 +1,33 @@
+---
 data:
   identifier: Discrete_shield_mim.routed_physical_shield
   localized_concepts:
     eng: 0cf05d47-9abb-54d9-bb19-2156e82f67c5
   domains:
-    - concept_id: section-Discrete_shield_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
-      ref_type: section
+  - concept_id: section-Discrete_shield_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
+    ref_type: section
 id: Discrete_shield_mim.routed_physical_shield
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the routed physical shield {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the routed physical shield {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **routed_physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim.physical_shield,physical_shield}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim.routed_physical_component,routed_physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Routed_physical_shield,Routed_physical_shield}}.
+  - content: A **routed_physical_shield** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim.physical_shield,physical_shield}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_mim.routed_physical_component,routed_physical_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_arm.Routed_physical_shield,Routed_physical_shield}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
-          version: '4'
-      type: authoritative
-      id: Discrete_shield_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Discrete_shield_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: routed_physical_shield
+  - type: expression
+    normative_status: preferred
+    designation: routed_physical_shield
   domain: 'application module: Discrete_shield_mim'
   language_code: eng
   annotations: []

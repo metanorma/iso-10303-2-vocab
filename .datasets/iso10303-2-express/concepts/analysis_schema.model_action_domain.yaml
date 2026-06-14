@@ -1,29 +1,31 @@
+---
 data:
   identifier: analysis_schema.model_action_domain
   localized_concepts:
     eng: 8bd9f21c-f6b6-5913-86f7-41cd8b08ddba
   domains:
-    - concept_id: section-analysis_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-      ref_type: section
+  - concept_id: section-analysis_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+    ref_type: section
 id: analysis_schema.model_action_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}} that represents the model action domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.numerical_model,numerical_model}}
+      that represents the model action domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
-          version: '1'
-      type: authoritative
-      id: analysis_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: model_action_domain
+  - type: expression
+    normative_status: preferred
+    designation: model_action_domain
   domain: 'resource: analysis_schema'
   language_code: eng
   annotations: []

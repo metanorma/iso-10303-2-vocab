@@ -1,30 +1,32 @@
+---
 data:
   identifier: External_item_identification_assignment_arm.External_source_identification
   localized_concepts:
     eng: 614a954a-d235-5891-9a6c-a4312e4aeba2
   domains:
-    - concept_id: section-External_item_identification_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
-      ref_type: section
+  - concept_id: section-External_item_identification_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+    ref_type: section
 id: External_item_identification_assignment_arm.External_source_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the external source identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the external source identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **External_source_identification** is the identification of the source where an item, or the components of an item, can be found.
+  - content: An **External_source_identification** is the identification of the source
+      where an item, or the components of an item, can be found.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
-          version: '2'
-      type: authoritative
-      id: External_item_identification_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: External_source_identification
+  - type: expression
+    normative_status: preferred
+    designation: External_source_identification
   domain: 'application module: External_item_identification_assignment_arm'
   language_code: eng
   annotations: []

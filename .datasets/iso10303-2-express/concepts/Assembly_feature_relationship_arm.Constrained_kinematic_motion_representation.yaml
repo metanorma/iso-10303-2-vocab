@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_feature_relationship_arm.Constrained_kinematic_motion_representation
   localized_concepts:
     eng: 317cbed5-2fd8-51ab-a3c9-72896d16dcb8
   domains:
-    - concept_id: section-Assembly_feature_relationship_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-      ref_type: section
+  - concept_id: section-Assembly_feature_relationship_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+    ref_type: section
 id: Assembly_feature_relationship_arm.Constrained_kinematic_motion_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_relationship_with_placement_transformation,Geometric_relationship_with_placement_transformation}} that represents the constrained kinematic motion representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm.Geometric_relationship_with_placement_transformation,Geometric_relationship_with_placement_transformation}}
+      that represents the constrained kinematic motion representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Constrained_kinematic_motion_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_relationship_with_placement_transformation,Geometric_relationship_with_placement_transformation}} that represents a kinematic motion constrained by a kinematic pair between a pair of assembly features.
+  - content: A **Constrained_kinematic_motion_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Contextual_shape_positioning_arm.Geometric_relationship_with_placement_transformation,Geometric_relationship_with_placement_transformation}}
+      that represents a kinematic motion constrained by a kinematic pair between a
+      pair of assembly features.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_feature_relationship_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_feature_relationship_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Constrained_kinematic_motion_representation
+  - type: expression
+    normative_status: preferred
+    designation: Constrained_kinematic_motion_representation
   domain: 'application module: Assembly_feature_relationship_arm'
   language_code: eng
   annotations: []

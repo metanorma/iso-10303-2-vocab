@@ -1,30 +1,32 @@
+---
 data:
   identifier: Project_management_mim.prjm_characterizable_state_type_assignment
   localized_concepts:
     eng: 2a7092aa-4f4e-5f5b-b561-24c252b0b27f
   domains:
-    - concept_id: section-Project_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-      ref_type: section
+  - concept_id: section-Project_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+    ref_type: section
 id: Project_management_mim.prjm_characterizable_state_type_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the prjm characterizable state type assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the prjm characterizable state type assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **prjm_characterizable_state_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_assignment,state_type_assignment}}.
+  - content: A **prjm_characterizable_state_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type_assignment,state_type_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-          version: '2'
-      type: authoritative
-      id: Project_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: prjm_characterizable_state_type_assignment
+  - type: expression
+    normative_status: preferred
+    designation: prjm_characterizable_state_type_assignment
   domain: 'application module: Project_management_mim'
   language_code: eng
   annotations: []

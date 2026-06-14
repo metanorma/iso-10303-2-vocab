@@ -1,30 +1,32 @@
+---
 data:
   identifier: Ply_orientation_specification_arm.Ply_orientation_angle
   localized_concepts:
-    eng: 09550651-533e-5b42-9738-ba5620852257
+    eng: '09550651-533e-5b42-9738-ba5620852257'
   domains:
-    - concept_id: section-Ply_orientation_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-      ref_type: section
+  - concept_id: section-Ply_orientation_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+    ref_type: section
 id: Ply_orientation_specification_arm.Ply_orientation_angle
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}} that represents the ply orientation angle {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm.Representation_relationship,Representation_relationship}}
+      that represents the ply orientation angle {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
-          version: '5'
-      type: authoritative
-      id: Ply_orientation_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ply_orientation_specification_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Ply_orientation_angle
+  - type: expression
+    normative_status: preferred
+    designation: Ply_orientation_angle
   domain: 'application module: Ply_orientation_specification_arm'
   language_code: eng
   annotations: []
-id: 09550651-533e-5b42-9738-ba5620852257
+id: '09550651-533e-5b42-9738-ba5620852257'

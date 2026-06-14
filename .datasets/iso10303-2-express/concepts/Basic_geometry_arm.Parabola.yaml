@@ -1,30 +1,34 @@
+---
 data:
   identifier: Basic_geometry_arm.Parabola
   localized_concepts:
     eng: 52b6604f-3153-5682-88b0-7765bd52d2d9
   domains:
-    - concept_id: section-Basic_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-      ref_type: section
+  - concept_id: section-Basic_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+    ref_type: section
 id: Basic_geometry_arm.Parabola
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} that represents the parabola {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}}
+      that represents the parabola {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Parabola** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}} which is an unbounded curve produced by intersecting a cone with a plane parallel to a generating line at an angle to its central axis equal to the semi-angle.
+  - content: A **Parabola** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Conic,Conic}}
+      which is an unbounded curve produced by intersecting a cone with a plane parallel
+      to a generating line at an angle to its central axis equal to the semi-angle.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Basic_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Parabola
+  - type: expression
+    normative_status: preferred
+    designation: Parabola
   domain: 'application module: Basic_geometry_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: fea_scalar_vector_tensor_schema.tensor_representation_item
   localized_concepts:
     eng: 0eb6f6b9-8028-54f6-a2a8-13a67d439263
   domains:
-    - concept_id: section-fea_scalar_vector_tensor_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema
-      ref_type: section
+  - concept_id: section-fea_scalar_vector_tensor_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema
+    ref_type: section
 id: fea_scalar_vector_tensor_schema.tensor_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the tensor representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema.representation_item,representation_item}}
+      that represents the tensor representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema.tensor_representation_item,tensor_representation_item}} is the value of a field variable within the context of a representation.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema.tensor_representation_item,tensor_representation_item}}
+      is the value of a field variable within the context of a representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema
-          version: '3'
-      type: authoritative
-      id: fea_scalar_vector_tensor_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:fea_scalar_vector_tensor_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tensor_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: tensor_representation_item
   domain: 'resource: fea_scalar_vector_tensor_schema'
   language_code: eng
   annotations: []

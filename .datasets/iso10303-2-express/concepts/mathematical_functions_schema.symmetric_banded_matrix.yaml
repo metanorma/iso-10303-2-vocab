@@ -1,30 +1,33 @@
+---
 data:
   identifier: mathematical_functions_schema.symmetric_banded_matrix
   localized_concepts:
     eng: c3502555-c6e2-56b1-92d8-8d637fd90b8b
   domains:
-    - concept_id: section-mathematical_functions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-      ref_type: section
+  - concept_id: section-mathematical_functions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+    ref_type: section
 id: mathematical_functions_schema.symmetric_banded_matrix
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.symmetric_matrix,symmetric_matrix}} that represents the symmetric banded matrix {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.symmetric_matrix,symmetric_matrix}}
+      that represents the symmetric banded matrix {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.symmetric_matrix,symmetric_matrix}} represents symmetric banded matrices.
+  - content: This type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema.symmetric_matrix,symmetric_matrix}}
+      represents symmetric banded matrices.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
-          version: '4'
-      type: authoritative
-      id: mathematical_functions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mathematical_functions_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: symmetric_banded_matrix
+  - type: expression
+    normative_status: preferred
+    designation: symmetric_banded_matrix
   domain: 'resource: mathematical_functions_schema'
   language_code: eng
   annotations: []

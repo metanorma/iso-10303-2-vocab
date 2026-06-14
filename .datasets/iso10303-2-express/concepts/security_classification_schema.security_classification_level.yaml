@@ -1,30 +1,32 @@
+---
 data:
   identifier: security_classification_schema.security_classification_level
   localized_concepts:
     eng: e3a6c8e1-9ae0-5ee3-a74a-0026ac26f90e
   domains:
-    - concept_id: section-security_classification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:security_classification_schema
-      ref_type: section
+  - concept_id: section-security_classification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:security_classification_schema
+    ref_type: section
 id: security_classification_schema.security_classification_level
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the security classification level {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the security classification level {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **security_classification_level** is a category of security required for product data protection.
+  - content: A **security_classification_level** is a category of security required
+      for product data protection.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:security_classification_schema
-          version: '3'
-      type: authoritative
-      id: security_classification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:security_classification_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: security_classification_level
+  - type: expression
+    normative_status: preferred
+    designation: security_classification_level
   domain: 'resource: security_classification_schema'
   language_code: eng
   annotations: []

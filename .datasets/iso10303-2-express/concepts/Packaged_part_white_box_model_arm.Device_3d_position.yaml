@@ -1,30 +1,32 @@
+---
 data:
   identifier: Packaged_part_white_box_model_arm.Device_3d_position
   localized_concepts:
     eng: 26aeeceb-44de-5038-a207-a9414a474ab8
   domains:
-    - concept_id: section-Packaged_part_white_box_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
-      ref_type: section
+  - concept_id: section-Packaged_part_white_box_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+    ref_type: section
 id: Packaged_part_white_box_model_arm.Device_3d_position
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the device 3d position {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the device 3d position {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Device_3d_position** is the location in three dimensions of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Part_device,Part_device}} within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
+  - content: A **Device_3d_position** is the location in three dimensions of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm.Part_device,Part_device}}
+      within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_black_box_model_arm.Packaged_part,Packaged_part}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
-          version: '3'
-      type: authoritative
-      id: Packaged_part_white_box_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_part_white_box_model_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Device_3d_position
+  - type: expression
+    normative_status: preferred
+    designation: Device_3d_position
   domain: 'application module: Packaged_part_white_box_model_arm'
   language_code: eng
   annotations: []

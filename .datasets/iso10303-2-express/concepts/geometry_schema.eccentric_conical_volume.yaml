@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometry_schema.eccentric_conical_volume
   localized_concepts:
     eng: a887cf7d-1657-5531-a02e-92a11b935389
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.eccentric_conical_volume
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} that represents the eccentric conical volume {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}}
+      that represents the eccentric conical volume {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **eccentric_conical_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}} in the form of a skew cone.
+  - content: A **eccentric_conical_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.volume,volume}}
+      in the form of a skew cone.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: eccentric_conical_volume
+  - type: expression
+    normative_status: preferred
+    designation: eccentric_conical_volume
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,30 @@
+---
 data:
   identifier: Property_identification_arm.Identification_of_property
   localized_concepts:
     eng: a763a9e5-9b06-57dc-9898-3f0626fe078f
   domains:
-    - concept_id: section-Property_identification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
-      ref_type: section
+  - concept_id: section-Property_identification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
+    ref_type: section
 id: Property_identification_arm.Identification_of_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the identification of property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the identification of property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
-          version: '1'
-      type: authoritative
-      id: Property_identification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_identification_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Identification_of_property
+  - type: expression
+    normative_status: preferred
+    designation: Identification_of_property
   domain: 'application module: Property_identification_arm'
   language_code: eng
   annotations: []

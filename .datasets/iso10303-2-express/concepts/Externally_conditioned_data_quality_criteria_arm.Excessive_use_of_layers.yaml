@@ -1,31 +1,36 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_layers
   localized_concepts:
-    eng: 008ff37d-946d-57a0-9a65-790ab5301a71
+    eng: '008ff37d-946d-57a0-9a65-790ab5301a71'
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_layers
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents the excessive use of layers {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}}
+      that represents the excessive use of layers {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Excessive_use_of_layers** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}} that represents a criterion detecting any violation of an agreement about the number of instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm.Layer,Layer}} entity.
+  - content: A **Excessive_use_of_layers** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Use_of_restricted_functionality,Use_of_restricted_functionality}}
+      that represents a criterion detecting any violation of an agreement about the
+      number of instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layer_assignment_arm.Layer,Layer}}
+      entity.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Excessive_use_of_layers
+  - type: expression
+    normative_status: preferred
+    designation: Excessive_use_of_layers
   domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
   language_code: eng
   annotations: []
-id: 008ff37d-946d-57a0-9a65-790ab5301a71
+id: '008ff37d-946d-57a0-9a65-790ab5301a71'

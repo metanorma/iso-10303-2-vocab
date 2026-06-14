@@ -1,30 +1,35 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_mim.design_specific_stratum_technology_mapping_relationship
   localized_concepts:
     eng: 8d37d672-0423-5880-ac1d-9351347859a0
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+    ref_type: section
 id: Layered_interconnect_complex_template_mim.design_specific_stratum_technology_mapping_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design specific stratum technology mapping relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design specific stratum technology mapping relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **design_specific_stratum_technology_mapping_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_technology_mapping_relationship,stratum_technology_mapping_relationship}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Design_specific_stratum_technology_mapping_relationship,Design_specific_stratum_technology_mapping_relationship}}.
+  - content: A **design_specific_stratum_technology_mapping_relationship** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.stratum_technology_mapping_relationship,stratum_technology_mapping_relationship}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Design_specific_stratum_technology_mapping_relationship,Design_specific_stratum_technology_mapping_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: design_specific_stratum_technology_mapping_relationship
+  - type: expression
+    normative_status: preferred
+    designation: design_specific_stratum_technology_mapping_relationship
   domain: 'application module: Layered_interconnect_complex_template_mim'
   language_code: eng
   annotations: []

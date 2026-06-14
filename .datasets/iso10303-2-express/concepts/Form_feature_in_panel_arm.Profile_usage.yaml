@@ -1,29 +1,31 @@
+---
 data:
   identifier: Form_feature_in_panel_arm.Profile_usage
   localized_concepts:
     eng: cd060ea2-c166-5ec5-892b-c3b597a6bdb5
   domains:
-    - concept_id: section-Form_feature_in_panel_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+    ref_type: section
 id: Form_feature_in_panel_arm.Profile_usage
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the profile usage {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Shape_element_relationship,Shape_element_relationship}}
+      that represents the profile usage {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Profile_usage
+  - type: expression
+    normative_status: preferred
+    designation: Profile_usage
   domain: 'application module: Form_feature_in_panel_arm'
   language_code: eng
   annotations: []

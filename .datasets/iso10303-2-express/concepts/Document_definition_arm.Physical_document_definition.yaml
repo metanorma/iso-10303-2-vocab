@@ -1,29 +1,31 @@
+---
 data:
   identifier: Document_definition_arm.Physical_document_definition
   localized_concepts:
     eng: fb95af78-d77f-5d32-ad6e-fa6ec81ae0b9
   domains:
-    - concept_id: section-Document_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
-      ref_type: section
+  - concept_id: section-Document_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+    ref_type: section
 id: Document_definition_arm.Physical_document_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}} that represents the physical document definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}}
+      that represents the physical document definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
-          version: '1'
-      type: authoritative
-      id: Document_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_document_definition
+  - type: expression
+    normative_status: preferred
+    designation: Physical_document_definition
   domain: 'application module: Document_definition_arm'
   language_code: eng
   annotations: []

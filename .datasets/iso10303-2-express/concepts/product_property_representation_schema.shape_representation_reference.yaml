@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_property_representation_schema.shape_representation_reference
   localized_concepts:
     eng: 0fd0308c-9a77-5781-8f94-24829e3285de
   domains:
-    - concept_id: section-product_property_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
-      ref_type: section
+  - concept_id: section-product_property_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+    ref_type: section
 id: product_property_representation_schema.shape_representation_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_reference,representation_reference}} that represents the shape representation reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.representation_reference,representation_reference}}
+      that represents the shape representation reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_representation_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_reference,representation_reference}} in which the referenced data type is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}.
+  - content: A **shape_representation_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_reference,representation_reference}}
+      in which the referenced data type is a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
-          version: '10'
-      type: authoritative
-      id: product_property_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_representation_reference
+  - type: expression
+    normative_status: preferred
+    designation: shape_representation_reference
   domain: 'resource: product_property_representation_schema'
   language_code: eng
   annotations: []

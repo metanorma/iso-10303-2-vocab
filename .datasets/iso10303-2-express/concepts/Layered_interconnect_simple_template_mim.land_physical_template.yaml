@@ -1,34 +1,36 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.land_physical_template
   localized_concepts:
     eng: bd8879e2-47ae-5cb1-8651-1db60569e9b5
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.land_physical_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.stratum_feature_template,stratum_feature_template}} that represents the land physical template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.stratum_feature_template,stratum_feature_template}}
+      that represents the land physical template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **land_physical_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.stratum_feature_template,stratum_feature_template}} that implements the ARM concepts of:
+  - content: |-
+      A **land_physical_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.stratum_feature_template,stratum_feature_template}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Default_attachment_size_based_land_physical_template,Default_attachment_size_based_land_physical_template}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_physical_template,Land_physical_template}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Default_attachment_size_based_land_physical_template,Default_attachment_size_based_land_physical_template}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Land_physical_template,Land_physical_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: land_physical_template
+  - type: expression
+    normative_status: preferred
+    designation: land_physical_template
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

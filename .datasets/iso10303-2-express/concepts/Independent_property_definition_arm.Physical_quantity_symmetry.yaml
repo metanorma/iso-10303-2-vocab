@@ -1,29 +1,30 @@
+---
 data:
   identifier: Independent_property_definition_arm.Physical_quantity_symmetry
   localized_concepts:
     eng: 352bdee8-74c3-5df2-af1a-ba212dee440e
   domains:
-    - concept_id: section-Independent_property_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
-      ref_type: section
+  - concept_id: section-Independent_property_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
+    ref_type: section
 id: Independent_property_definition_arm.Physical_quantity_symmetry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical quantity symmetry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical quantity symmetry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
-          version: '1'
-      type: authoritative
-      id: Independent_property_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_quantity_symmetry
+  - type: expression
+    normative_status: preferred
+    designation: Physical_quantity_symmetry
   domain: 'application module: Independent_property_definition_arm'
   language_code: eng
   annotations: []

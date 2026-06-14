@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analysis_assignment_mim.analysis_assignment
   localized_concepts:
     eng: 3566735a-6c90-592c-b8e1-300c889beac8
   domains:
-    - concept_id: section-Analysis_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
-      ref_type: section
+  - concept_id: section-Analysis_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+    ref_type: section
 id: Analysis_assignment_mim.analysis_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that represents the analysis assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim.group,group}}
+      that represents the analysis assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **analysis_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} that is used to identify the item analysed.
+  - content: A **analysis_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}}
+      that is used to identify the item analysed.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Analysis_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: analysis_assignment
+  - type: expression
+    normative_status: preferred
+    designation: analysis_assignment
   domain: 'application module: Analysis_assignment_mim'
   language_code: eng
   annotations: []

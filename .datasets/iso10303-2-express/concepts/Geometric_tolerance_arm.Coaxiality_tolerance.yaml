@@ -1,30 +1,34 @@
+---
 data:
   identifier: Geometric_tolerance_arm.Coaxiality_tolerance
   localized_concepts:
     eng: 6746f0fd-7f5b-554a-80a2-9cb5e9f91c9f
   domains:
-    - concept_id: section-Geometric_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-      ref_type: section
+  - concept_id: section-Geometric_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+    ref_type: section
 id: Geometric_tolerance_arm.Coaxiality_tolerance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that represents the coaxiality tolerance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that represents the coaxiality tolerance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Coaxiality_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}} that constrains a centre point or plane of a surface of revolution, or of circular elements, about a datum feature.
+  - content: A **Coaxiality_tolerance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm.Geometric_tolerance,Geometric_tolerance}}
+      that constrains a centre point or plane of a surface of revolution, or of circular
+      elements, about a datum feature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
-          version: '10'
-      type: authoritative
-      id: Geometric_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_tolerance_arm
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Coaxiality_tolerance
+  - type: expression
+    normative_status: preferred
+    designation: Coaxiality_tolerance
   domain: 'application module: Geometric_tolerance_arm'
   language_code: eng
   annotations: []

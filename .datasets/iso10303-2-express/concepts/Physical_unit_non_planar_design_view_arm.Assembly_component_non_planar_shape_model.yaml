@@ -1,29 +1,31 @@
+---
 data:
   identifier: Physical_unit_non_planar_design_view_arm.Assembly_component_non_planar_shape_model
   localized_concepts:
     eng: 2382b724-ff5a-5dc0-b3d3-16c00082673b
   domains:
-    - concept_id: section-Physical_unit_non_planar_design_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_non_planar_design_view_arm
-      ref_type: section
+  - concept_id: section-Physical_unit_non_planar_design_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_non_planar_design_view_arm
+    ref_type: section
 id: Physical_unit_non_planar_design_view_arm.Assembly_component_non_planar_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Manifold_subsurface_arm.Manifold_subsurface_model,Manifold_subsurface_model}} that represents the assembly component non planar shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_non_planar_design_view_arm.Manifold_subsurface_model,Manifold_subsurface_model}}
+      that represents the assembly component non planar shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_non_planar_design_view_arm
-          version: '4'
-      type: authoritative
-      id: Physical_unit_non_planar_design_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_non_planar_design_view_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_component_non_planar_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_component_non_planar_shape_model
   domain: 'application module: Physical_unit_non_planar_design_view_arm'
   language_code: eng
   annotations: []

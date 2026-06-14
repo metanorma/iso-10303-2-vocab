@@ -1,32 +1,34 @@
+---
 data:
   identifier: uuid_attribute_schema.v5_uuid_attribute
   localized_concepts:
     eng: 9c535d87-bcd2-539b-bfa7-09533d722899
   domains:
-    - concept_id: section-uuid_attribute_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
-      ref_type: section
+  - concept_id: section-uuid_attribute_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+    ref_type: section
 id: uuid_attribute_schema.v5_uuid_attribute
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema.uuid_attribute,uuid_attribute}} that represents the v5 uuid attribute {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema.uuid_attribute,uuid_attribute}}
+      that represents the v5 uuid attribute {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **v5_uuid_attribute** is a type of
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema.uuid_attribute,uuid_attribute}} that conforms to version 5 of the relevant standard.
+  - content: |-
+      A **v5_uuid_attribute** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema.uuid_attribute,uuid_attribute}} that conforms to version 5 of the relevant standard.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
-          version: '1'
-      type: authoritative
-      id: uuid_attribute_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:uuid_attribute_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: v5_uuid_attribute
+  - type: expression
+    normative_status: preferred
+    designation: v5_uuid_attribute
   domain: 'resource: uuid_attribute_schema'
   language_code: eng
   annotations: []

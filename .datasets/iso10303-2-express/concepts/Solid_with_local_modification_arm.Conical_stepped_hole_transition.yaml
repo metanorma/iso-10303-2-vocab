@@ -1,30 +1,34 @@
+---
 data:
   identifier: Solid_with_local_modification_arm.Conical_stepped_hole_transition
   localized_concepts:
     eng: 827ca581-b820-52f5-88a0-cc0f7311fcd8
   domains:
-    - concept_id: section-Solid_with_local_modification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-      ref_type: section
+  - concept_id: section-Solid_with_local_modification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+    ref_type: section
 id: Solid_with_local_modification_arm.Conical_stepped_hole_transition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the conical stepped hole transition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the conical stepped hole transition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Conical_stepped_hole_transition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} is a conical face interposed at a junction between two cylindrical segments of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}}.
+  - content: A **Conical_stepped_hole_transition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      is a conical face interposed at a junction between two cylindrical segments
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_stepped_round_hole,Solid_with_stepped_round_hole}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-          version: '3'
-      type: authoritative
-      id: Solid_with_local_modification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Conical_stepped_hole_transition
+  - type: expression
+    normative_status: preferred
+    designation: Conical_stepped_hole_transition
   domain: 'application module: Solid_with_local_modification_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Building_structure_arm.Building
   localized_concepts:
     eng: 8a68961d-018a-576d-82de-2d3bce86d24e
   domains:
-    - concept_id: section-Building_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-      ref_type: section
+  - concept_id: section-Building_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+    ref_type: section
 id: Building_structure_arm.Building
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the building {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Product_view_definition,Product_view_definition}}
+      that represents the building {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Building** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that defines a version of a construction works, that has the provision of shelter for its occupants or contents as one of its main purposes and is usually enclosed and designed to stand permanently in one place.
+  - content: A **Building** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that defines a version of a construction works, that has the provision of shelter
+      for its occupants or contents as one of its main purposes and is usually enclosed
+      and designed to stand permanently in one place.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-          version: '1'
-      type: authoritative
-      id: Building_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Building
+  - type: expression
+    normative_status: preferred
+    designation: Building
   domain: 'application module: Building_structure_arm'
   language_code: eng
   annotations: []

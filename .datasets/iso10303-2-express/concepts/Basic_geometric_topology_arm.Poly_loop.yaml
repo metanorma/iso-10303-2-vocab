@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_geometric_topology_arm.Poly_loop
   localized_concepts:
     eng: 5ac9b69c-3bab-5ca5-af24-7ba7e631be11
   domains:
-    - concept_id: section-Basic_geometric_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
-      ref_type: section
+  - concept_id: section-Basic_geometric_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+    ref_type: section
 id: Basic_geometric_topology_arm.Poly_loop
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the poly loop {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the poly loop {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Poly_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Loop,Loop}} with straight edges bounding a planar region in space.
+  - content: A **Poly_loop** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Loop,Loop}}
+      with straight edges bounding a planar region in space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
-          version: '6'
-      type: authoritative
-      id: Basic_geometric_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Poly_loop
+  - type: expression
+    normative_status: preferred
+    designation: Poly_loop
   domain: 'application module: Basic_geometric_topology_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Rectangular_open_pocket
   localized_concepts:
     eng: 519d9148-0c71-5052-8b9d-1c7e36025117
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Rectangular_open_pocket
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}} that represents the rectangular open pocket {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}}
+      that represents the rectangular open pocket {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Rectangular_open_pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}} that is an open profile with opposite sides that are of equal length and with one side that does not make contact with the part.
+  - content: A **Rectangular_open_pocket** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Pocket,Pocket}}
+      that is an open profile with opposite sides that are of equal length and with
+      one side that does not make contact with the part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rectangular_open_pocket
+  - type: expression
+    normative_status: preferred
+    designation: Rectangular_open_pocket
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

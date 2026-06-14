@@ -1,30 +1,32 @@
+---
 data:
   identifier: document_schema.document_type
   localized_concepts:
     eng: d1ddd06d-b57a-5602-a5a9-ad2c12027b59
   domains:
-    - concept_id: section-document_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
-      ref_type: section
+  - concept_id: section-document_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+    ref_type: section
 id: document_schema.document_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the document type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **document_type** is the kind of data that a formal standard or document may provide information about.
+  - content: A **document_type** is the kind of data that a formal standard or document
+      may provide information about.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
-          version: '4'
-      type: authoritative
-      id: document_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: document_type
+  - type: expression
+    normative_status: preferred
+    designation: document_type
   domain: 'resource: document_schema'
   language_code: eng
   annotations: []

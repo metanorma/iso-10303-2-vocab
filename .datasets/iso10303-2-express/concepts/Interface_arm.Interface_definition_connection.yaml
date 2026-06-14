@@ -1,30 +1,35 @@
+---
 data:
   identifier: Interface_arm.Interface_definition_connection
   localized_concepts:
     eng: 49f3b7bf-2f6d-5591-809a-6059561c4fa1
   domains:
-    - concept_id: section-Interface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-      ref_type: section
+  - concept_id: section-Interface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+    ref_type: section
 id: Interface_arm.Interface_definition_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the interface definition connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the interface definition connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_definition_connection** is an interconnection between a connected pair of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_definition,Interface_connector_definition}}s or, if the point of interconnection is not specified, the interconnection between a pair of views ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}s) on products.
+  - content: An **Interface_definition_connection** is an interconnection between
+      a connected pair of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connector_definition,Interface_connector_definition}}s
+      or, if the point of interconnection is not specified, the interconnection between
+      a pair of views ({{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}s)
+      on products.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-          version: '5'
-      type: authoritative
-      id: Interface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_definition_connection
+  - type: expression
+    normative_status: preferred
+    designation: Interface_definition_connection
   domain: 'application module: Interface_arm'
   language_code: eng
   annotations: []

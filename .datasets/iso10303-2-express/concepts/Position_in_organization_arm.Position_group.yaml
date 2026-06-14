@@ -1,30 +1,32 @@
+---
 data:
   identifier: Position_in_organization_arm.Position_group
   localized_concepts:
     eng: c164a85a-fe4c-5c14-8fdd-a3c9f23fec9c
   domains:
-    - concept_id: section-Position_in_organization_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-      ref_type: section
+  - concept_id: section-Position_in_organization_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+    ref_type: section
 id: Position_in_organization_arm.Position_group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the position group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Position_group** is a group for collecting people in their positions to cooperate in an assignment.
+  - content: A **Position_group** is a group for collecting people in their positions
+      to cooperate in an assignment.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-          version: '1'
-      type: authoritative
-      id: Position_in_organization_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Position_group
+  - type: expression
+    normative_status: preferred
+    designation: Position_group
   domain: 'application module: Position_in_organization_arm'
   language_code: eng
   annotations: []

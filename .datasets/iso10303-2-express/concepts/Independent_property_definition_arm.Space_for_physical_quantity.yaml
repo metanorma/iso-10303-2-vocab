@@ -1,29 +1,31 @@
+---
 data:
   identifier: Independent_property_definition_arm.Space_for_physical_quantity
   localized_concepts:
     eng: ea8a77cc-54af-566b-aa3a-7eec9bacd7c7
   domains:
-    - concept_id: section-Independent_property_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
-      ref_type: section
+  - concept_id: section-Independent_property_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
+    ref_type: section
 id: Independent_property_definition_arm.Space_for_physical_quantity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property_relationship,Independent_property_relationship}} that represents the space for physical quantity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm.Independent_property_relationship,Independent_property_relationship}}
+      that represents the space for physical quantity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
-          version: '1'
-      type: authoritative
-      id: Independent_property_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_definition_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Space_for_physical_quantity
+  - type: expression
+    normative_status: preferred
+    designation: Space_for_physical_quantity
   domain: 'application module: Independent_property_definition_arm'
   language_code: eng
   annotations: []

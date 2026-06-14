@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Spherical_hole_bottom
   localized_concepts:
     eng: c1a860b1-4f73-50d2-94f5-128359854a61
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Spherical_hole_bottom
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that represents the spherical hole bottom {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}}
+      that represents the spherical hole bottom {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Spherical_hole_bottom** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}} that is a bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}} which is concentric about an axis and defined by a radius.
+  - content: A **Spherical_hole_bottom** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Blind_bottom_condition,Blind_bottom_condition}}
+      that is a bottom of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Round_hole,Round_hole}}
+      which is concentric about an axis and defined by a radius.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Spherical_hole_bottom
+  - type: expression
+    normative_status: preferred
+    designation: Spherical_hole_bottom
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

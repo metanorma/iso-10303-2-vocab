@@ -1,30 +1,33 @@
+---
 data:
   identifier: Elemental_topology_arm.Face_bound
   localized_concepts:
     eng: fc477983-44fe-5bb8-8cae-50f7b6769994
   domains:
-    - concept_id: section-Elemental_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-      ref_type: section
+  - concept_id: section-Elemental_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+    ref_type: section
 id: Elemental_topology_arm.Face_bound
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that represents the face bound {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}}
+      that represents the face bound {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Face_bound** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}} that is the usage of a loop for bounding a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}}.
+  - content: A **Face_bound** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Detailed_topological_model_element,Detailed_topological_model_element}}
+      that is the usage of a loop for bounding a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm.Face,Face}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
-          version: '7'
-      type: authoritative
-      id: Elemental_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_topology_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Face_bound
+  - type: expression
+    normative_status: preferred
+    designation: Face_bound
   domain: 'application module: Elemental_topology_arm'
   language_code: eng
   annotations: []

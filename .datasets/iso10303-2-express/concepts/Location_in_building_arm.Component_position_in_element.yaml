@@ -1,30 +1,34 @@
+---
 data:
   identifier: Location_in_building_arm.Component_position_in_element
   localized_concepts:
     eng: 65a55c4b-070b-5a42-b55a-ecfb1a686a2f
   domains:
-    - concept_id: section-Location_in_building_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_in_building_arm
-      ref_type: section
+  - concept_id: section-Location_in_building_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_in_building_arm
+    ref_type: section
 id: Location_in_building_arm.Component_position_in_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the component position in element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the component position in element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Component_position_in_element** is the specification of the placement of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}}, which is represented in its own coordinate space, in the coordinate space of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}}.
+  - content: A **Component_position_in_element** is the specification of the placement
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_arm.Building_element_component,Building_element_component}},
+      which is represented in its own coordinate space, in the coordinate space of
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_item_arm.Building_element,Building_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_in_building_arm
-          version: '1'
-      type: authoritative
-      id: Location_in_building_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_in_building_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_position_in_element
+  - type: expression
+    normative_status: preferred
+    designation: Component_position_in_element
   domain: 'application module: Location_in_building_arm'
   language_code: eng
   annotations: []

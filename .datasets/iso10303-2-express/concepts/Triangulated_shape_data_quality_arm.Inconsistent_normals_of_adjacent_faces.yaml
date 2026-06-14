@@ -1,30 +1,34 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.Inconsistent_normals_of_adjacent_faces
   localized_concepts:
     eng: 6d855534-d4ee-5c4d-9be3-145bcdeb1235
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.Inconsistent_normals_of_adjacent_faces
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that represents the inconsistent normals of adjacent faces {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}}
+      that represents the inconsistent normals of adjacent faces {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Inconsistent_normals_of_adjacent_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that asserts that a pair of adjacent triangulated faces sharing a common edge have opposite directions of normal.
+  - content: An **Inconsistent_normals_of_adjacent_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}}
+      that asserts that a pair of adjacent triangulated faces sharing a common edge
+      have opposite directions of normal.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Inconsistent_normals_of_adjacent_faces
+  - type: expression
+    normative_status: preferred
+    designation: Inconsistent_normals_of_adjacent_faces
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

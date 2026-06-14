@@ -1,30 +1,35 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_inspection_result_arm.Equivalence_instance_report_item_with_notable_instances
   localized_concepts:
     eng: 8b1b41eb-8068-58a4-a7e8-74e02313681e
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_inspection_result_arm.Equivalence_instance_report_item_with_notable_instances
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report_item,A3m_equivalence_inspection_instance_report_item}} that represents the equivalence instance report item with notable instances {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report_item,A3m_equivalence_inspection_instance_report_item}}
+      that represents the equivalence instance report item with notable instances
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Equivalence_instance_report_item_with_notable_instances** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report_item,A3m_equivalence_inspection_instance_report_item}} and has information on pairs of notable measured values and difference information.
+  - content: An **Equivalence_instance_report_item_with_notable_instances** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_instance_report_item,A3m_equivalence_inspection_instance_report_item}}
+      and has information on pairs of notable measured values and difference information.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Equivalence_instance_report_item_with_notable_instances
+  - type: expression
+    normative_status: preferred
+    designation: Equivalence_instance_report_item_with_notable_instances
   domain: 'application module: Annotated_3d_model_equivalence_inspection_result_arm'
   language_code: eng
   annotations: []

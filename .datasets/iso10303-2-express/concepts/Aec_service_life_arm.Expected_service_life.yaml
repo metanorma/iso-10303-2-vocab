@@ -1,30 +1,33 @@
+---
 data:
   identifier: Aec_service_life_arm.Expected_service_life
   localized_concepts:
     eng: ac528863-655a-5a21-ac90-a4086a6ca10a
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Expected_service_life
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that represents the expected service life {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}
+      that represents the expected service life {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Expected_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that is predicted to take place if current operating conditions continue.
+  - content: A **Expected_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}
+      that is predicted to take place if current operating conditions continue.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Expected_service_life
+  - type: expression
+    normative_status: preferred
+    designation: Expected_service_life
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

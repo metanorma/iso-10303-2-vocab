@@ -1,30 +1,33 @@
+---
 data:
   identifier: Measure_representation_arm.Property_value_representation
   localized_concepts:
     eng: 49fa98a7-caf3-5e5f-a321-19476512f90f
   domains:
-    - concept_id: section-Measure_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm
-      ref_type: section
+  - concept_id: section-Measure_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm
+    ref_type: section
 id: Measure_representation_arm.Property_value_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the property value representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm.Representation,Representation}}
+      that represents the property value representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Property_value_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents one or more quantity values.
+  - content: A **Property_value_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}
+      that represents one or more quantity values.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm
-          version: '3'
-      type: authoritative
-      id: Measure_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Measure_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Property_value_representation
+  - type: expression
+    normative_status: preferred
+    designation: Property_value_representation
   domain: 'application module: Measure_representation_arm'
   language_code: eng
   annotations: []

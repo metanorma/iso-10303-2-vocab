@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_mim.single_stratum_template
   localized_concepts:
     eng: 31369d41-5863-5685-a799-5d424300dc58
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+    ref_type: section
 id: Layered_interconnect_simple_template_mim.single_stratum_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim.part_template_definition,part_template_definition}} that represents the single stratum template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim.part_template_definition,part_template_definition}}
+      that represents the single stratum template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **single_stratum_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim.part_template_definition,part_template_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Single_stratum_template,Single_stratum_template}}.
+  - content: A **single_stratum_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_template_mim.part_template_definition,part_template_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Single_stratum_template,Single_stratum_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: single_stratum_template
+  - type: expression
+    normative_status: preferred
+    designation: single_stratum_template
   domain: 'application module: Layered_interconnect_simple_template_mim'
   language_code: eng
   annotations: []

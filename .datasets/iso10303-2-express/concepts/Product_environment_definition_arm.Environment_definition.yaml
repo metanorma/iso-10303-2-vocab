@@ -1,30 +1,35 @@
+---
 data:
   identifier: Product_environment_definition_arm.Environment_definition
   localized_concepts:
     eng: 29d99010-3aa8-5ee6-88f8-4246201df53e
   domains:
-    - concept_id: section-Product_environment_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
-      ref_type: section
+  - concept_id: section-Product_environment_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+    ref_type: section
 id: Product_environment_definition_arm.Environment_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that represents the environment definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm.Product,Product}}
+      that represents the environment definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Environment_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}} that is used to identify the definition of typical environment in which a product or product related activity is to be, has been or is planned to be deployed in, operated in, or supported in.
+  - content: An **Environment_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}
+      that is used to identify the definition of typical environment in which a product
+      or product related activity is to be, has been or is planned to be deployed
+      in, operated in, or supported in.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
-          version: '4'
-      type: authoritative
-      id: Product_environment_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Environment_definition
+  - type: expression
+    normative_status: preferred
+    designation: Environment_definition
   domain: 'application module: Product_environment_definition_arm'
   language_code: eng
   annotations: []

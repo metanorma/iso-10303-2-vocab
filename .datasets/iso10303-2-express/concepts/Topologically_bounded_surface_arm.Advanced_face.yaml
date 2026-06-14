@@ -1,30 +1,33 @@
+---
 data:
   identifier: Topologically_bounded_surface_arm.Advanced_face
   localized_concepts:
     eng: 6637801c-ef6a-5107-afa6-8e6f8d134c77
   domains:
-    - concept_id: section-Topologically_bounded_surface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Topologically_bounded_surface_arm
-      ref_type: section
+  - concept_id: section-Topologically_bounded_surface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Topologically_bounded_surface_arm
+    ref_type: section
 id: Topologically_bounded_surface_arm.Advanced_face
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometric_topology_arm.Face_surface,Face_surface}} that represents the advanced face {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Topologically_bounded_surface_arm.Face_surface,Face_surface}}
+      that represents the advanced face {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Advanced_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that defines an oriented face.
+  - content: An **Advanced_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that defines an oriented face.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Topologically_bounded_surface_arm
-          version: '3'
-      type: authoritative
-      id: Topologically_bounded_surface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Topologically_bounded_surface_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Advanced_face
+  - type: expression
+    normative_status: preferred
+    designation: Advanced_face
   domain: 'application module: Topologically_bounded_surface_arm'
   language_code: eng
   annotations: []

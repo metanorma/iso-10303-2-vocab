@@ -1,32 +1,34 @@
+---
 data:
   identifier: equations_schema.gas_model
   localized_concepts:
     eng: b286a7ab-cbd8-5cf5-97b1-59ddb81787dd
   domains:
-    - concept_id: section-equations_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-      ref_type: section
+  - concept_id: section-equations_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+    ref_type: section
 id: equations_schema.gas_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}} that represents the gas model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}}
+      that represents the gas model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A *gas_model* is the equation of state model used in the governing
-        equations to relate pressure, temperature and density.
+  - content: |-
+      A *gas_model* is the equation of state model used in the governing
+      equations to relate pressure, temperature and density.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-          version: '1'
-      type: authoritative
-      id: equations_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: gas_model
+  - type: expression
+    normative_status: preferred
+    designation: gas_model
   domain: 'resource: equations_schema'
   language_code: eng
   annotations: []

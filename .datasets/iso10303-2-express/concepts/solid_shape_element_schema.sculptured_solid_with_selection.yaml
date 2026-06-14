@@ -1,29 +1,31 @@
+---
 data:
   identifier: solid_shape_element_schema.sculptured_solid_with_selection
   localized_concepts:
     eng: 52c2e721-bf1f-5a87-89c0-45f80ed091cb
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.sculptured_solid_with_selection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.sculptured_solid,sculptured_solid}} that represents the sculptured solid with selection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.sculptured_solid,sculptured_solid}}
+      that represents the sculptured solid with selection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: sculptured_solid_with_selection
+  - type: expression
+    normative_status: preferred
+    designation: sculptured_solid_with_selection
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

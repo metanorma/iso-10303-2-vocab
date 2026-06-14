@@ -1,30 +1,35 @@
+---
 data:
   identifier: Mesh_topology_arm.Array_based_unstructured_mesh
   localized_concepts:
     eng: 658e01d4-d298-5d0a-8450-72623314fef3
   domains:
-    - concept_id: section-Mesh_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-      ref_type: section
+  - concept_id: section-Mesh_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+    ref_type: section
 id: Mesh_topology_arm.Array_based_unstructured_mesh
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}} that represents the array based unstructured mesh {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}}
+      that represents the array based unstructured mesh {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Array_based_unstructured_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}} that is a representation of an unstructured mesh designed to minimise the amount of data by not requiring explicit identification of the vertices of the cells in the mesh.
+  - content: An **Array_based_unstructured_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Unstructured_mesh,Unstructured_mesh}}
+      that is a representation of an unstructured mesh designed to minimise the amount
+      of data by not requiring explicit identification of the vertices of the cells
+      in the mesh.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-          version: '2'
-      type: authoritative
-      id: Mesh_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Array_based_unstructured_mesh
+  - type: expression
+    normative_status: preferred
+    designation: Array_based_unstructured_mesh
   domain: 'application module: Mesh_topology_arm'
   language_code: eng
   annotations: []

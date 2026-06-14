@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_2d_shape_arm.Component_2d_edge_location
   localized_concepts:
     eng: 876a0dd3-6aa3-50b5-a7a8-f1722b15a560
   domains:
-    - concept_id: section-Assembly_2d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-      ref_type: section
+  - concept_id: section-Assembly_2d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+    ref_type: section
 id: Assembly_2d_shape_arm.Component_2d_edge_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_2d_design_view_arm.Component_2d_location,Component_2d_location}} that represents the component 2d edge location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm.Component_2d_location,Component_2d_location}}
+      that represents the component 2d edge location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_2d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_2d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Component_2d_edge_location
+  - type: expression
+    normative_status: preferred
+    designation: Component_2d_edge_location
   domain: 'application module: Assembly_2d_shape_arm'
   language_code: eng
   annotations: []

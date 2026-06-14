@@ -1,35 +1,37 @@
+---
 data:
   identifier: structural_response_representation_schema.constant_surface_3d_element_coordinate_system
   localized_concepts:
     eng: 8bfb1131-0a76-5bdf-969c-1d59db374f44
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.constant_surface_3d_element_coordinate_system
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}} that represents the constant surface 3d element coordinate system {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_representation_item,fea_representation_item}}
+      that represents the constant surface 3d element coordinate system {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.constant_surface_3d_element_coordinate_system,constant_surface_3d_element_coordinate_system}} is an aligned orthogonal coordinate system for a surface 3D element, and is defined for each point on the surface as follows:
+  - content: |-
+      A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.constant_surface_3d_element_coordinate_system,constant_surface_3d_element_coordinate_system}} is an aligned orthogonal coordinate system for a surface 3D element, and is defined for each point on the surface as follows:
 
-        * an intermediate orthogonal coordinate system is derived from the parametric coordinate system at the centroid of the element in the way specified for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.parametric_surface_3d_element_coordinate_system,parametric_surface_3d_element_coordinate_system}};
+      * an intermediate orthogonal coordinate system is derived from the parametric coordinate system at the centroid of the element in the way specified for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.parametric_surface_3d_element_coordinate_system,parametric_surface_3d_element_coordinate_system}};
 
-        * an aligned orthogonal coordinate system is derived from this intermediate orthogonal system in the way specified for entity {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.aligned_surface_3d_element_coordinate_system,aligned_surface_3d_element_coordinate_system}}.
+      * an aligned orthogonal coordinate system is derived from this intermediate orthogonal system in the way specified for entity {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.aligned_surface_3d_element_coordinate_system,aligned_surface_3d_element_coordinate_system}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: constant_surface_3d_element_coordinate_system
+  - type: expression
+    normative_status: preferred
+    designation: constant_surface_3d_element_coordinate_system
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

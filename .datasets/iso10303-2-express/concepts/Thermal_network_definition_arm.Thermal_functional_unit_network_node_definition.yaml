@@ -1,29 +1,31 @@
+---
 data:
   identifier: Thermal_network_definition_arm.Thermal_functional_unit_network_node_definition
   localized_concepts:
     eng: 5c10b4fd-f4af-5dcf-ad33-dd904e636899
   domains:
-    - concept_id: section-Thermal_network_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
-      ref_type: section
+  - concept_id: section-Thermal_network_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
+    ref_type: section
 id: Thermal_network_definition_arm.Thermal_functional_unit_network_node_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_node_definition,Functional_unit_network_node_definition}} that represents the thermal functional unit network node definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm.Functional_unit_network_node_definition,Functional_unit_network_node_definition}}
+      that represents the thermal functional unit network node definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
-          version: '5'
-      type: authoritative
-      id: Thermal_network_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Thermal_network_definition_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Thermal_functional_unit_network_node_definition
+  - type: expression
+    normative_status: preferred
+    designation: Thermal_functional_unit_network_node_definition
   domain: 'application module: Thermal_network_definition_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_view_definition_arm.Product_definition_exchange_context
   localized_concepts:
     eng: dd831df0-08c4-52bd-8d93-72e809d977ea
   domains:
-    - concept_id: section-Product_view_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
-      ref_type: section
+  - concept_id: section-Product_view_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+    ref_type: section
 id: Product_view_definition_arm.Product_definition_exchange_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Additional_view_definition_context,Additional_view_definition_context}} that represents the product definition exchange context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Additional_view_definition_context,Additional_view_definition_context}}
+      that represents the product definition exchange context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_definition_exchange_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Additional_view_definition_context,Additional_view_definition_context}} that provides the default_unit, default_language and/or default_context used for identification and descriptions.
+  - content: A **Product_definition_exchange_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Additional_view_definition_context,Additional_view_definition_context}}
+      that provides the default_unit, default_language and/or default_context used
+      for identification and descriptions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
-          version: '5'
-      type: authoritative
-      id: Product_view_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_definition_exchange_context
+  - type: expression
+    normative_status: preferred
+    designation: Product_definition_exchange_context
   domain: 'application module: Product_view_definition_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Description_assignment_arm.Description_text_assignment_relationship
   localized_concepts:
     eng: b93ba43b-d13c-541e-ba45-3c8fb8833e0a
   domains:
-    - concept_id: section-Description_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
-      ref_type: section
+  - concept_id: section-Description_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
+    ref_type: section
 id: Description_assignment_arm.Description_text_assignment_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the description text assignment relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the description text assignment relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Description_text_assignment_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm.Description_text_assignment,Description_text_assignment}} objects.
+  - content: A **Description_text_assignment_relationship** is a relationship between
+      two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm.Description_text_assignment,Description_text_assignment}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
-          version: '4'
-      type: authoritative
-      id: Description_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Description_assignment_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Description_text_assignment_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Description_text_assignment_relationship
   domain: 'application module: Description_assignment_arm'
   language_code: eng
   annotations: []

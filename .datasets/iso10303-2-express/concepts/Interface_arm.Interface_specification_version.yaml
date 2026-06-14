@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interface_arm.Interface_specification_version
   localized_concepts:
     eng: 02c48073-9a67-59cc-b749-acccf8e91206
   domains:
-    - concept_id: section-Interface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-      ref_type: section
+  - concept_id: section-Interface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+    ref_type: section
 id: Interface_arm.Interface_specification_version
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that represents the interface specification version {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Product_version,Product_version}}
+      that represents the interface specification version {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interface_specification_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}} that identifies a version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_specification,Interface_specification}}.
+  - content: An **Interface_specification_version** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}
+      that identifies a version of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_specification,Interface_specification}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-          version: '5'
-      type: authoritative
-      id: Interface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interface_specification_version
+  - type: expression
+    normative_status: preferred
+    designation: Interface_specification_version
   domain: 'application module: Interface_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Surface_conditions_arm.Surface_texture
   localized_concepts:
     eng: 00d6cbf4-ffe1-5c52-925b-c6f07c495a07
   domains:
-    - concept_id: section-Surface_conditions_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
-      ref_type: section
+  - concept_id: section-Surface_conditions_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+    ref_type: section
 id: Surface_conditions_arm.Surface_texture
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that represents the surface texture {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}}
+      that represents the surface texture {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_texture** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}} that represent surface texture requirements as defined in ISO 1302:2002.
+  - content: A **Surface_texture** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm.Surface_condition,Surface_condition}}
+      that represent surface texture requirements as defined in ISO 1302:2002.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
-          version: '7'
-      type: authoritative
-      id: Surface_conditions_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Surface_conditions_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_texture
+  - type: expression
+    normative_status: preferred
+    designation: Surface_texture
   domain: 'application module: Surface_conditions_arm'
   language_code: eng
   annotations: []

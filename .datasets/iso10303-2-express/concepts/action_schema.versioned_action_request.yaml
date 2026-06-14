@@ -1,30 +1,31 @@
+---
 data:
   identifier: action_schema.versioned_action_request
   localized_concepts:
     eng: 9a43b733-8dbd-52d0-a3f9-cf2f6a66041d
   domains:
-    - concept_id: section-action_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
-      ref_type: section
+  - concept_id: section-action_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+    ref_type: section
 id: action_schema.versioned_action_request
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the versioned action request {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the versioned action request {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **versioned_action_request** is a specification of a desired result.
+  - content: A **versioned_action_request** is a specification of a desired result.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
-          version: '9'
-      type: authoritative
-      id: action_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: versioned_action_request
+  - type: expression
+    normative_status: preferred
+    designation: versioned_action_request
   domain: 'resource: action_schema'
   language_code: eng
   annotations: []

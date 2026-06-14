@@ -1,30 +1,34 @@
+---
 data:
   identifier: Functional_assignment_to_part_arm.Part_terminal
   localized_concepts:
     eng: c259e830-9745-537c-9651-6d4498b2aaf3
   domains:
-    - concept_id: section-Functional_assignment_to_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+    ref_type: section
 id: Functional_assignment_to_part_arm.Part_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the part terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_feature,Part_feature}}
+      that represents the part terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} provided to support a specific, identified, feature on a product that may be used to access electrical or other domain functional aspects.
+  - content: A **Part_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}}
+      provided to support a specific, identified, feature on a product that may be
+      used to access electrical or other domain functional aspects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Part_terminal
   domain: 'application module: Functional_assignment_to_part_arm'
   language_code: eng
   annotations: []

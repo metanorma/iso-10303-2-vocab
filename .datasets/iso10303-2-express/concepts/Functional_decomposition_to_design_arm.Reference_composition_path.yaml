@@ -1,30 +1,32 @@
+---
 data:
   identifier: Functional_decomposition_to_design_arm.Reference_composition_path
   localized_concepts:
     eng: 47d26952-f32f-5685-89e3-50d56a45d6c4
   domains:
-    - concept_id: section-Functional_decomposition_to_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+    ref_type: section
 id: Functional_decomposition_to_design_arm.Reference_composition_path
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the reference composition path {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the reference composition path {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Reference_composition_path** is one path through the function reference network graph.
+  - content: A **Reference_composition_path** is one path through the function reference
+      network graph.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Reference_composition_path
+  - type: expression
+    normative_status: preferred
+    designation: Reference_composition_path
   domain: 'application module: Functional_decomposition_to_design_arm'
   language_code: eng
   annotations: []

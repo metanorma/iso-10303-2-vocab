@@ -1,30 +1,33 @@
+---
 data:
   identifier: aic_draughting_elements.angular_dimension
   localized_concepts:
     eng: b4926c4c-b1b4-5541-a3e0-c2511d979f19
   domains:
-    - concept_id: section-aic_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+    ref_type: section
 id: aic_draughting_elements.angular_dimension
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} that represents the angular dimension {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements.dimension_curve_directed_callout,dimension_curve_directed_callout}}
+      that represents the angular dimension {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **angular_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}} directed by a dimension curve that presents a value of angular distance measure.
+  - content: An **angular_dimension** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.dimension_curve_directed_callout,dimension_curve_directed_callout}}
+      directed by a dimension curve that presents a value of angular distance measure.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
-          version: '2'
-      type: authoritative
-      id: aic_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_draughting_elements
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: angular_dimension
+  - type: expression
+    normative_status: preferred
+    designation: angular_dimension
   domain: 'resource: aic_draughting_elements'
   language_code: eng
   annotations: []

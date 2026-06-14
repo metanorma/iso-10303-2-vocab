@@ -1,30 +1,34 @@
+---
 data:
   identifier: Collection_identification_and_version_mim.collection_view_definition
   localized_concepts:
     eng: c68c65f5-ac5c-5afd-8192-32aa9af73b62
   domains:
-    - concept_id: section-Collection_identification_and_version_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-      ref_type: section
+  - concept_id: section-Collection_identification_and_version_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+    ref_type: section
 id: Collection_identification_and_version_mim.collection_view_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the collection view definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.product_definition,product_definition}}
+      that represents the collection view definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **collection_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents a characterization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_version,collection_version}} relevant in one or more application domains and for one or more life cycle stages.
+  - content: A **collection_view_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that represents a characterization of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_version,collection_version}}
+      relevant in one or more application domains and for one or more life cycle stages.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-          version: '1'
-      type: authoritative
-      id: Collection_identification_and_version_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: collection_view_definition
+  - type: expression
+    normative_status: preferred
+    designation: collection_view_definition
   domain: 'application module: Collection_identification_and_version_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: product_concept_schema.concept_feature_relationship
   localized_concepts:
     eng: 0cf19e3b-5ff0-554d-82bc-d0727635ad1e
   domains:
-    - concept_id: section-product_concept_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-      ref_type: section
+  - concept_id: section-product_concept_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+    ref_type: section
 id: product_concept_schema.concept_feature_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the concept feature relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the concept feature relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **concept_feature_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}.
+  - content: A **concept_feature_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema.product_concept_feature,product_concept_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
-          version: '2'
-      type: authoritative
-      id: product_concept_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_concept_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: concept_feature_relationship
+  - type: expression
+    normative_status: preferred
+    designation: concept_feature_relationship
   domain: 'resource: product_concept_schema'
   language_code: eng
   annotations: []

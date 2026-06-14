@@ -1,29 +1,31 @@
+---
 data:
   identifier: Form_feature_in_panel_arm.Compound_feature_in_panel_element_relationship
   localized_concepts:
     eng: ba883488-1860-5232-8064-a24b11a4480f
   domains:
-    - concept_id: section-Form_feature_in_panel_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-      ref_type: section
+  - concept_id: section-Form_feature_in_panel_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+    ref_type: section
 id: Form_feature_in_panel_arm.Compound_feature_in_panel_element_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_property_assignment_arm.Shape_element_relationship,Shape_element_relationship}} that represents the compound feature in panel element relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm.Shape_element_relationship,Shape_element_relationship}}
+      that represents the compound feature in panel element relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
-          version: '4'
-      type: authoritative
-      id: Form_feature_in_panel_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Form_feature_in_panel_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Compound_feature_in_panel_element_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Compound_feature_in_panel_element_relationship
   domain: 'application module: Form_feature_in_panel_arm'
   language_code: eng
   annotations: []

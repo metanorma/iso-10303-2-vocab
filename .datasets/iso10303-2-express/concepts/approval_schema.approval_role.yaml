@@ -1,30 +1,31 @@
+---
 data:
   identifier: approval_schema.approval_role
   localized_concepts:
     eng: d8e09753-7643-5467-86d7-92c41d7e70de
   domains:
-    - concept_id: section-approval_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-      ref_type: section
+  - concept_id: section-approval_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+    ref_type: section
 id: approval_schema.approval_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the approval role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **approval_role** is a definition of a function.
+  - content: An **approval_role** is a definition of a function.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-          version: '7'
-      type: authoritative
-      id: approval_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: approval_role
+  - type: expression
+    normative_status: preferred
+    designation: approval_role
   domain: 'resource: approval_schema'
   language_code: eng
   annotations: []

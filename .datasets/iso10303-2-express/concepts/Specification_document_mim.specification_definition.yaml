@@ -1,41 +1,43 @@
+---
 data:
   identifier: Specification_document_mim.specification_definition
   localized_concepts:
     eng: 4928b014-d76c-5278-b51c-1f0792c11618
   domains:
-    - concept_id: section-Specification_document_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
-      ref_type: section
+  - concept_id: section-Specification_document_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+    ref_type: section
 id: Specification_document_mim.specification_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the specification definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim.product_definition,product_definition}}
+      that represents the specification definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An **specification_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} which implements the ARM concepts of:
+  - content: |-
+      An **specification_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} which implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Fabrication_technology_specification,Fabrication_technology_specification}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Interface_specification_document_definition,Interface_specification_document_definition}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Language_reference_manual,Language_reference_manual}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Material_specification,Material_specification}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Process_specification,Process_specification}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Surface_finish_specification,Surface_finish_specification}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Test_specification,Test_specification}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Design_specification,Design_specification}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Fabrication_technology_specification,Fabrication_technology_specification}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Interface_specification_document_definition,Interface_specification_document_definition}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Language_reference_manual,Language_reference_manual}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Material_specification,Material_specification}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Process_specification,Process_specification}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Surface_finish_specification,Surface_finish_specification}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Test_specification,Test_specification}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
-          version: '4'
-      type: authoritative
-      id: Specification_document_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: specification_definition
+  - type: expression
+    normative_status: preferred
+    designation: specification_definition
   domain: 'application module: Specification_document_mim'
   language_code: eng
   annotations: []

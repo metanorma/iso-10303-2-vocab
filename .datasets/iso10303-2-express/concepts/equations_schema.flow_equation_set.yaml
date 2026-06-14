@@ -1,30 +1,33 @@
+---
 data:
   identifier: equations_schema.flow_equation_set
   localized_concepts:
     eng: 4573fbb3-a537-5ffb-8144-cc5e4410b9a5
   domains:
-    - concept_id: section-equations_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-      ref_type: section
+  - concept_id: section-equations_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+    ref_type: section
 id: equations_schema.flow_equation_set
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation_set,mbna_equation_set}} that represents the flow equation set {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_equation_set,mbna_equation_set}}
+      that represents the flow equation set {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *flow_equation_set* is a *mbna_equation_set* providing a general description of governing flow equations.
+  - content: A *flow_equation_set* is a *mbna_equation_set* providing a general description
+      of governing flow equations.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-          version: '1'
-      type: authoritative
-      id: equations_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: flow_equation_set
+  - type: expression
+    normative_status: preferred
+    designation: flow_equation_set
   domain: 'resource: equations_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,35 @@
+---
 data:
   identifier: Parameterization_and_variational_representation_arm.Generated_finite_numeric_space
   localized_concepts:
     eng: daad7f4e-5dd5-5d46-b3fa-1a4df3f367e5
   domains:
-    - concept_id: section-Parameterization_and_variational_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-      ref_type: section
+  - concept_id: section-Parameterization_and_variational_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+    ref_type: section
 id: Parameterization_and_variational_representation_arm.Generated_finite_numeric_space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}} that represents the generated finite numeric space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Maths_space,Maths_space}}
+      that represents the generated finite numeric space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Generated_finite_numeric_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}} that defines a finite space of numerical values whose members are not enumerated but are specified in terms of a starting value and an increment, corresponding to practice in many computer programming languages.
+  - content: A **Generated_finite_numeric_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}}
+      that defines a finite space of numerical values whose members are not enumerated
+      but are specified in terms of a starting value and an increment, corresponding
+      to practice in many computer programming languages.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
-          version: '3'
-      type: authoritative
-      id: Parameterization_and_variational_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Generated_finite_numeric_space
+  - type: expression
+    normative_status: preferred
+    designation: Generated_finite_numeric_space
   domain: 'application module: Parameterization_and_variational_representation_arm'
   language_code: eng
   annotations: []

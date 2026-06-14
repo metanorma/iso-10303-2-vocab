@@ -1,30 +1,36 @@
+---
 data:
   identifier: Kinematic_state_arm.Mechanism_state_representation
   localized_concepts:
     eng: 013fe17c-a812-5828-b85f-acf1cc88e1dd
   domains:
-    - concept_id: section-Kinematic_state_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
-      ref_type: section
+  - concept_id: section-Kinematic_state_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+    ref_type: section
 id: Kinematic_state_arm.Mechanism_state_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the mechanism state representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Representation,Representation}}
+      that represents the mechanism state representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mechanism_state_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that specifies a particular state of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}} by applying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Pair_value,Pair_value}}s for each {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}} of the underlying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
+  - content: A **Mechanism_state_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}
+      that specifies a particular state of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}
+      by applying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm.Pair_value,Pair_value}}s
+      for each {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Kinematic_pair,Kinematic_pair}}
+      of the underlying {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_structure_arm.Mechanism_representation,Mechanism_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
-          version: '2'
-      type: authoritative
-      id: Kinematic_state_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_state_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mechanism_state_representation
+  - type: expression
+    normative_status: preferred
+    designation: Mechanism_state_representation
   domain: 'application module: Kinematic_state_arm'
   language_code: eng
   annotations: []

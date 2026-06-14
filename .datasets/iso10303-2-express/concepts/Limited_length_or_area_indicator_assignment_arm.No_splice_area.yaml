@@ -1,31 +1,36 @@
+---
 data:
   identifier: Limited_length_or_area_indicator_assignment_arm.No_splice_area
   localized_concepts:
-    eng: 009f0554-2f77-5e11-84ed-d5a262ff0002
+    eng: '009f0554-2f77-5e11-84ed-d5a262ff0002'
   domains:
-    - concept_id: section-Limited_length_or_area_indicator_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-      ref_type: section
+  - concept_id: section-Limited_length_or_area_indicator_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+    ref_type: section
 id: Limited_length_or_area_indicator_assignment_arm.No_splice_area
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}} that represents the no splice area {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm.Area_based_llai,Area_based_llai}}
+      that represents the no splice area {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **No_splice_area** is a type of **Area_based_llai** that defines a specific region of a part with a requirement for one or more indicated ply levels to be a continuous layer of material, without splices, within the specified area.
+  - content: A **No_splice_area** is a type of **Area_based_llai** that defines a
+      specific region of a part with a requirement for one or more indicated ply levels
+      to be a continuous layer of material, without splices, within the specified
+      area.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
-          version: '1'
-      type: authoritative
-      id: Limited_length_or_area_indicator_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Limited_length_or_area_indicator_assignment_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: No_splice_area
+  - type: expression
+    normative_status: preferred
+    designation: No_splice_area
   domain: 'application module: Limited_length_or_area_indicator_assignment_arm'
   language_code: eng
   annotations: []
-id: 009f0554-2f77-5e11-84ed-d5a262ff0002
+id: '009f0554-2f77-5e11-84ed-d5a262ff0002'

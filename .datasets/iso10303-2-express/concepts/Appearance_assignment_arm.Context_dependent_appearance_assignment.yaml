@@ -1,30 +1,34 @@
+---
 data:
   identifier: Appearance_assignment_arm.Context_dependent_appearance_assignment
   localized_concepts:
     eng: a25f1875-60bc-589b-ae6c-a57bb60a7917
   domains:
-    - concept_id: section-Appearance_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-      ref_type: section
+  - concept_id: section-Appearance_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+    ref_type: section
 id: Appearance_assignment_arm.Context_dependent_appearance_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Appearance_assignment,Appearance_assignment}} that represents the context dependent appearance assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Appearance_assignment,Appearance_assignment}}
+      that represents the context dependent appearance assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Context_dependent_appearance_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Appearance_assignment,Appearance_assignment}} that identifies visual characteristics that apply in the context of a viewing context.
+  - content: A **Context_dependent_appearance_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm.Appearance_assignment,Appearance_assignment}}
+      that identifies visual characteristics that apply in the context of a viewing
+      context.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-          version: '9'
-      type: authoritative
-      id: Appearance_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Context_dependent_appearance_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Context_dependent_appearance_assignment
   domain: 'application module: Appearance_assignment_arm'
   language_code: eng
   annotations: []

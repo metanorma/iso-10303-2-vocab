@@ -1,30 +1,35 @@
+---
 data:
   identifier: presentation_definition_schema.annotation_table_occurrence
   localized_concepts:
     eng: 6b1ed667-2eb2-5b5e-8c24-4389aad18d81
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.annotation_table_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}} that represents the annotation table occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}}
+      that represents the annotation table occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **annotation_table_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}} An **annotation_table_occurrence** is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_table,annotation_table}} with a style assignment or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_table,defined_table}} with a style assignment.
+  - content: An **annotation_table_occurrence** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_symbol_occurrence,annotation_symbol_occurrence}}
+      An **annotation_table_occurrence** is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.annotation_table,annotation_table}}
+      with a style assignment or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.defined_table,defined_table}}
+      with a style assignment.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: annotation_table_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: annotation_table_occurrence
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

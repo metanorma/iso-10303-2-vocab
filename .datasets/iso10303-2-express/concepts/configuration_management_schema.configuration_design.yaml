@@ -1,30 +1,32 @@
+---
 data:
   identifier: configuration_management_schema.configuration_design
   localized_concepts:
     eng: 711f2642-4c2a-50d7-ba52-53c5a938c331
   domains:
-    - concept_id: section-configuration_management_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
-      ref_type: section
+  - concept_id: section-configuration_management_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+    ref_type: section
 id: configuration_management_schema.configuration_design
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the configuration design {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the configuration design {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **configuration_design** is a relationship that relates a configuration item and a product design intended to implement that item.
+  - content: A **configuration_design** is a relationship that relates a configuration
+      item and a product design intended to implement that item.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
-          version: '4'
-      type: authoritative
-      id: configuration_management_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: configuration_design
+  - type: expression
+    normative_status: preferred
+    designation: configuration_design
   domain: 'resource: configuration_management_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: Experience_arm.Experience_type
   localized_concepts:
     eng: 3294d18b-ccd4-5b21-9420-547de7240a0f
   domains:
-    - concept_id: section-Experience_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
-      ref_type: section
+  - concept_id: section-Experience_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+    ref_type: section
 id: Experience_arm.Experience_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the experience type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Experience_type** is a category or class of experience.
+  - content: An **Experience_type** is a category or class of experience.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
-          version: '1'
-      type: authoritative
-      id: Experience_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Experience_type
+  - type: expression
+    normative_status: preferred
+    designation: Experience_type
   domain: 'application module: Experience_arm'
   language_code: eng
   annotations: []

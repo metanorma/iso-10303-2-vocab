@@ -1,30 +1,34 @@
+---
 data:
   identifier: Physical_breakdown_arm.Physical_breakdown
   localized_concepts:
     eng: ec14c649-979e-54bb-bfa8-6f86cbfb6b0d
   domains:
-    - concept_id: section-Physical_breakdown_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
-      ref_type: section
+  - concept_id: section-Physical_breakdown_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+    ref_type: section
 id: Physical_breakdown_arm.Physical_breakdown
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} that represents the physical breakdown {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm.Breakdown,Breakdown}}
+      that represents the physical breakdown {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}} that identifies a partitioning of a product into a set of related physical elements so as to form explicit, parent-child views that comprise the product elements.
+  - content: A **Physical_breakdown** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_breakdown_arm.Breakdown,Breakdown}}
+      that identifies a partitioning of a product into a set of related physical elements
+      so as to form explicit, parent-child views that comprise the product elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
-          version: '2'
-      type: authoritative
-      id: Physical_breakdown_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_breakdown_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_breakdown
+  - type: expression
+    normative_status: preferred
+    designation: Physical_breakdown
   domain: 'application module: Physical_breakdown_arm'
   language_code: eng
   annotations: []

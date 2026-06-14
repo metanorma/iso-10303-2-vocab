@@ -1,36 +1,37 @@
+---
 data:
   identifier: Fea_definition_relationships_arm.State_view_relationship
   localized_concepts:
     eng: 59f2e983-6d57-5f27-ba73-9f2ffbcf1611
   domains:
-    - concept_id: section-Fea_definition_relationships_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-      ref_type: section
+  - concept_id: section-Fea_definition_relationships_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+    ref_type: section
 id: Fea_definition_relationships_arm.State_view_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state view relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state view relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **State_view_relationship** is a relationship between:
+  - content: |-
+      A **State_view_relationship** is a relationship between:
 
-        * an idealisation of a state for analysis; and
-        * a discretised state analysis model,
+      * an idealisation of a state for analysis; and
+      * a discretised state analysis model,
 
-        that indicates the discretised state analysis model is a model of the idealised state created for the purpose of numerical analysis.
+      that indicates the discretised state analysis model is a model of the idealised state created for the purpose of numerical analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
-          version: '2'
-      type: authoritative
-      id: Fea_definition_relationships_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fea_definition_relationships_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: State_view_relationship
+  - type: expression
+    normative_status: preferred
+    designation: State_view_relationship
   domain: 'application module: Fea_definition_relationships_arm'
   language_code: eng
   annotations: []

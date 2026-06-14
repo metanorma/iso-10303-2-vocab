@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interface_arm.Connection_definition_to_connection
   localized_concepts:
     eng: 8f30fe19-95c6-596f-ab4d-a728aa5f4d21
   domains:
-    - concept_id: section-Interface_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-      ref_type: section
+  - concept_id: section-Interface_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+    ref_type: section
 id: Interface_arm.Connection_definition_to_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the connection definition to connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the connection definition to connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Connection_definition_to_connection** is a relationship between a designed connection, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_definition_connection,Interface_definition_connection}}, and an actual connection to meet the design represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connection,Interface_connection}}.
+  - content: A **Connection_definition_to_connection** is a relationship between a
+      designed connection, represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_definition_connection,Interface_definition_connection}},
+      and an actual connection to meet the design represented by an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm.Interface_connection,Interface_connection}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
-          version: '5'
-      type: authoritative
-      id: Interface_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interface_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Connection_definition_to_connection
+  - type: expression
+    normative_status: preferred
+    designation: Connection_definition_to_connection
   domain: 'application module: Interface_arm'
   language_code: eng
   annotations: []

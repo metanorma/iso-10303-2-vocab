@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Structured_layout_component
   localized_concepts:
     eng: 8acc58ce-8f1a-54c9-8570-9f1ff4c85120
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Structured_layout_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_group_component,Assembly_group_component}} that represents the structured layout component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Assembly_group_component,Assembly_group_component}}
+      that represents the structured layout component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Structured_layout_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_group_component,Assembly_group_component}} specialized for interconnect layout purposes.
+  - content: A **Structured_layout_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_grouping_arm.Assembly_group_component,Assembly_group_component}}
+      specialized for interconnect layout purposes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Structured_layout_component
+  - type: expression
+    normative_status: preferred
+    designation: Structured_layout_component
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

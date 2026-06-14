@@ -1,32 +1,35 @@
+---
 data:
   identifier: Shape_data_quality_inspection_result_arm.Shape_data_quality_inspected_shape_and_result_relationship
   localized_concepts:
     eng: cac747bd-ba4a-5969-8984-3e70e1a69a20
   domains:
-    - concept_id: section-Shape_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Shape_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+    ref_type: section
 id: Shape_data_quality_inspection_result_arm.Shape_data_quality_inspected_shape_and_result_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}} that represents the shape data quality inspected shape and result relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Representation_relationship,Representation_relationship}}
+      that represents the shape data quality inspected shape and result relationship
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Shape_data_quality_inspected_shape_and_result_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}}
-        and it represents the relationship between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_result_representation,Shape_data_quality_inspection_result_representation}} representing the inspection results and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} representing the inspection target product shape data.
+  - content: |-
+      A **Shape_data_quality_inspected_shape_and_result_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}}
+      and it represents the relationship between {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm.Shape_data_quality_inspection_result_representation,Shape_data_quality_inspection_result_representation}} representing the inspection results and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} representing the inspection target product shape data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
-          version: '2'
-      type: authoritative
-      id: Shape_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_data_quality_inspection_result_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Shape_data_quality_inspected_shape_and_result_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Shape_data_quality_inspected_shape_and_result_relationship
   domain: 'application module: Shape_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []

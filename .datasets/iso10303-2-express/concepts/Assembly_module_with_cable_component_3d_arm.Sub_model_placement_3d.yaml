@@ -1,30 +1,34 @@
+---
 data:
   identifier: Assembly_module_with_cable_component_3d_arm.Sub_model_placement_3d
   localized_concepts:
     eng: 3ef70502-8a30-5976-bd84-003c3ea1e898
   domains:
-    - concept_id: section-Assembly_module_with_cable_component_3d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
-      ref_type: section
+  - concept_id: section-Assembly_module_with_cable_component_3d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
+    ref_type: section
 id: Assembly_module_with_cable_component_3d_arm.Sub_model_placement_3d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the sub model placement 3d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the sub model placement 3d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Sub_model_placement_3d** is the **placement** of the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm.Packaged_connector,Packaged_connector}} from a cable shape sub model in a usage view into the current design view as referenced by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_2d_arm.Routed_cable_component_2d_shape_model,Routed_cable_component_2d_shape_model}} or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm.Routed_cable_component_3d_shape_model,Routed_cable_component_3d_shape_model}}.
+  - content: A **Sub_model_placement_3d** is the **placement** of the shape of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Packaged_connector_model_arm.Packaged_connector,Packaged_connector}}
+      from a cable shape sub model in a usage view into the current design view as
+      referenced by an instance of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_2d_arm.Routed_cable_component_2d_shape_model,Routed_cable_component_2d_shape_model}}
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm.Routed_cable_component_3d_shape_model,Routed_cable_component_3d_shape_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
-          version: '2'
-      type: authoritative
-      id: Assembly_module_with_cable_component_3d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_cable_component_3d_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Sub_model_placement_3d
+  - type: expression
+    normative_status: preferred
+    designation: Sub_model_placement_3d
   domain: 'application module: Assembly_module_with_cable_component_3d_arm'
   language_code: eng
   annotations: []

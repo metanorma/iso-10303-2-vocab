@@ -1,30 +1,33 @@
+---
 data:
   identifier: Basic_data_representation_arm.Boolean_representation_item
   localized_concepts:
     eng: a28bb19b-1441-5df4-8f6f-41d0f25ca1ed
   domains:
-    - concept_id: section-Basic_data_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
-      ref_type: section
+  - concept_id: section-Basic_data_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+    ref_type: section
 id: Basic_data_representation_arm.Boolean_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the boolean representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm.Representation_item,Representation_item}}
+      that represents the boolean representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Boolean_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} whose value is either true or false.
+  - content: A **Boolean_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      whose value is either true or false.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
-          version: '3'
-      type: authoritative
-      id: Basic_data_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_data_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Boolean_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: Boolean_representation_item
   domain: 'application module: Basic_data_representation_arm'
   language_code: eng
   annotations: []

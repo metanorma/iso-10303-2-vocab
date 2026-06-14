@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_assembly_mim.different_assembly_volume
   localized_concepts:
     eng: 7cf4ef65-2236-5fd4-b8fe-abe26566d734
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_assembly_mim.different_assembly_volume
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_representative_assembly_property_value,a3m_equivalence_criterion_of_representative_assembly_property_value}} that represents the different assembly volume {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_representative_assembly_property_value,a3m_equivalence_criterion_of_representative_assembly_property_value}}
+      that represents the different assembly volume {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **different_assembly_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_representative_assembly_property_value,a3m_equivalence_criterion_of_representative_assembly_property_value}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.Different_assembly_volume,Different_assembly_volume}}.
+  - content: A **different_assembly_volume** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_representative_assembly_property_value,a3m_equivalence_criterion_of_representative_assembly_property_value}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.Different_assembly_volume,Different_assembly_volume}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_assembly_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: different_assembly_volume
+  - type: expression
+    normative_status: preferred
+    designation: different_assembly_volume
   domain: 'application module: Annotated_3d_model_equivalence_assembly_mim'
   language_code: eng
   annotations: []

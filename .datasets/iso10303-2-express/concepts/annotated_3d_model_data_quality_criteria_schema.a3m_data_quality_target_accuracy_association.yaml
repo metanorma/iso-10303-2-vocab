@@ -1,30 +1,34 @@
+---
 data:
   identifier: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_target_accuracy_association
   localized_concepts:
     eng: 3cf89066-320d-51fc-8f8b-43d5f4a4d45e
   domains:
-    - concept_id: section-annotated_3d_model_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-annotated_3d_model_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+    ref_type: section
 id: annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_target_accuracy_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the a3m data quality target accuracy association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the a3m data quality target accuracy association
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_data_quality_target_accuracy_association** is provided to associate a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_measurement_accuracy,shape_measurement_accuracy}} to an {{a3m_accuracy_associated_target_select,a3m_accuracy_associated_target_select}}.
+  - content: An **a3m_data_quality_target_accuracy_association** is provided to associate
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_measurement_accuracy,shape_measurement_accuracy}}
+      to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_accuracy_associated_target_select,a3m_accuracy_associated_target_select}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
-          version: '3'
-      type: authoritative
-      id: annotated_3d_model_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_data_quality_target_accuracy_association
+  - type: expression
+    normative_status: preferred
+    designation: a3m_data_quality_target_accuracy_association
   domain: 'resource: annotated_3d_model_data_quality_criteria_schema'
   language_code: eng
   annotations: []

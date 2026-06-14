@@ -1,30 +1,33 @@
+---
 data:
   identifier: Edge_shape_feature_arm.Step_edge_feature_shape_model
   localized_concepts:
     eng: 0de4edf0-79cd-5587-a150-7a6fc0dd408d
   domains:
-    - concept_id: section-Edge_shape_feature_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
-      ref_type: section
+  - concept_id: section-Edge_shape_feature_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
+    ref_type: section
 id: Edge_shape_feature_arm.Step_edge_feature_shape_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}} that represents the step edge feature shape model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}}
+      that represents the step edge feature shape model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Step_edge_feature_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}} that is the two-dimensional definition of the construction of a step edge.
+  - content: A **Step_edge_feature_shape_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm.Edge_shape_model,Edge_shape_model}}
+      that is the two-dimensional definition of the construction of a step edge.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
-          version: '2'
-      type: authoritative
-      id: Edge_shape_feature_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Edge_shape_feature_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Step_edge_feature_shape_model
+  - type: expression
+    normative_status: preferred
+    designation: Step_edge_feature_shape_model
   domain: 'application module: Edge_shape_feature_arm'
   language_code: eng
   annotations: []

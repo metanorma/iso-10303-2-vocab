@@ -1,30 +1,34 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_assembly_data_structure
   localized_concepts:
     eng: f82b48df-f271-5c66-9781-4e9043440a9a
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_assembly_data_structure
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_for_assembly,a3m_equivalence_criterion_for_assembly}} that represents the a3m equivalence criterion of assembly data structure {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_for_assembly,a3m_equivalence_criterion_for_assembly}}
+      that represents the a3m equivalence criterion of assembly data structure {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_equivalence_criterion_of_assembly_data_structure** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_for_assembly,a3m_equivalence_criterion_for_assembly}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_assembly_data_structure,A3m_equivalence_criterion_of_assembly_data_structure}}.
+  - content: An **a3m_equivalence_criterion_of_assembly_data_structure** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_for_assembly,a3m_equivalence_criterion_for_assembly}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_criterion_of_assembly_data_structure,A3m_equivalence_criterion_of_assembly_data_structure}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_assembly_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_equivalence_criterion_of_assembly_data_structure
+  - type: expression
+    normative_status: preferred
+    designation: a3m_equivalence_criterion_of_assembly_data_structure
   domain: 'application module: Annotated_3d_model_equivalence_assembly_mim'
   language_code: eng
   annotations: []

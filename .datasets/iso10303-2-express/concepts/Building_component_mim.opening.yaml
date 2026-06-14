@@ -1,30 +1,34 @@
+---
 data:
   identifier: Building_component_mim.opening
   localized_concepts:
     eng: bd90bb37-2d0d-5c6a-8cf9-aecb8e65e96c
   domains:
-    - concept_id: section-Building_component_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
-      ref_type: section
+  - concept_id: section-Building_component_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+    ref_type: section
 id: Building_component_mim.opening
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim.negative_component,negative_component}} that represents the opening {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim.negative_component,negative_component}}
+      that represents the opening {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **opening** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim.negative_component,negative_component}} that represents a volume of space that passes through a structural or enclosing element and serves a functional purpose.
+  - content: An **opening** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim.negative_component,negative_component}}
+      that represents a volume of space that passes through a structural or enclosing
+      element and serves a functional purpose.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
-          version: '1'
-      type: authoritative
-      id: Building_component_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_component_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: opening
+  - type: expression
+    normative_status: preferred
+    designation: opening
   domain: 'application module: Building_component_mim'
   language_code: eng
   annotations: []

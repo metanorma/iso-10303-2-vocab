@@ -1,30 +1,32 @@
+---
 data:
   identifier: Change_management_arm.Change_element
   localized_concepts:
     eng: f5f23dfd-ee03-5588-862a-39e021780810
   domains:
-    - concept_id: section-Change_management_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
-      ref_type: section
+  - concept_id: section-Change_management_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+    ref_type: section
 id: Change_management_arm.Change_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the change element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the change element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Change_element** is the representation of a detailed change within a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change,Change}}.
+  - content: A **Change_element** is the representation of a detailed change within
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm.Change,Change}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
-          version: '3'
-      type: authoritative
-      id: Change_management_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Change_management_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Change_element
+  - type: expression
+    normative_status: preferred
+    designation: Change_element
   domain: 'application module: Change_management_arm'
   language_code: eng
   annotations: []

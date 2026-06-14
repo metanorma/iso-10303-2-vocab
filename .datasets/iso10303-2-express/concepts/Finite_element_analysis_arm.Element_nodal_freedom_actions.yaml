@@ -1,30 +1,33 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Element_nodal_freedom_actions
   localized_concepts:
     eng: 5d0d0bdb-08c8-5b4b-af59-50f569b88263
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Element_nodal_freedom_actions
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}} that represents the element nodal freedom actions {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}}
+      that represents the element nodal freedom actions {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Element_nodal_freedom_actions** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}} that represents the values of nodal action for an element.
+  - content: An **Element_nodal_freedom_actions** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Fe_analysis_state_definition,Fe_analysis_state_definition}}
+      that represents the values of nodal action for an element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Element_nodal_freedom_actions
+  - type: expression
+    normative_status: preferred
+    designation: Element_nodal_freedom_actions
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

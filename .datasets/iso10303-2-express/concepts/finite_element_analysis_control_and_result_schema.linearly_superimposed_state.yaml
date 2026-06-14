@@ -1,30 +1,34 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.linearly_superimposed_state
   localized_concepts:
     eng: 7f69aa20-3ae5-5bdf-9605-13530abc5eb9
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.linearly_superimposed_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}} that represents the linearly superimposed state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}}
+      that represents the linearly superimposed state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.linearly_superimposed_state,linearly_superimposed_state}} is some of the information for the state that is calculated by a combination of previously calculated and/or specified steps.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.linearly_superimposed_state,linearly_superimposed_state}}
+      is some of the information for the state that is calculated by a combination
+      of previously calculated and/or specified steps.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: linearly_superimposed_state
+  - type: expression
+    normative_status: preferred
+    designation: linearly_superimposed_state
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

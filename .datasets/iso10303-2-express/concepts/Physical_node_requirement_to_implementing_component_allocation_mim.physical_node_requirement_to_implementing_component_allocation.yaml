@@ -1,30 +1,36 @@
+---
 data:
   identifier: Physical_node_requirement_to_implementing_component_allocation_mim.physical_node_requirement_to_implementing_component_allocation
   localized_concepts:
     eng: 76199f86-565f-5c2f-b332-0d27f1139b6a
   domains:
-    - concept_id: section-Physical_node_requirement_to_implementing_component_allocation_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_mim
-      ref_type: section
+  - concept_id: section-Physical_node_requirement_to_implementing_component_allocation_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_mim
+    ref_type: section
 id: Physical_node_requirement_to_implementing_component_allocation_mim.physical_node_requirement_to_implementing_component_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical node requirement to implementing component allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical node requirement to implementing component
+      allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_node_requirement_to_implementing_component_allocation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that is the allocation of a physical node to the component that is partially or wholly responsible for implementing that node in the assembly.
+  - content: A **physical_node_requirement_to_implementing_component_allocation**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that is the allocation of a physical node to the component that is partially
+      or wholly responsible for implementing that node in the assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_mim
-          version: '4'
-      type: authoritative
-      id: Physical_node_requirement_to_implementing_component_allocation_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_node_requirement_to_implementing_component_allocation_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_node_requirement_to_implementing_component_allocation
+  - type: expression
+    normative_status: preferred
+    designation: physical_node_requirement_to_implementing_component_allocation
   domain: 'application module: Physical_node_requirement_to_implementing_component_allocation_mim'
   language_code: eng
   annotations: []

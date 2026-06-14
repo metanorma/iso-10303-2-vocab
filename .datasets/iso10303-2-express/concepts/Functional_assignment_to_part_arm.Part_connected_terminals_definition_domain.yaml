@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_assignment_to_part_arm.Part_connected_terminals_definition_domain
   localized_concepts:
     eng: ce15c962-ac93-5b73-bd7a-813f62805398
   domains:
-    - concept_id: section-Functional_assignment_to_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+    ref_type: section
 id: Functional_assignment_to_part_arm.Part_connected_terminals_definition_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part connected terminals definition domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part connected terminals definition domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_connected_terminals_definition_domain** is is the application of a domain name to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}} to support cases where domains other than pure electrical are required.
+  - content: A **Part_connected_terminals_definition_domain** is is the application
+      of a domain name to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}}
+      to support cases where domains other than pure electrical are required.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_connected_terminals_definition_domain
+  - type: expression
+    normative_status: preferred
+    designation: Part_connected_terminals_definition_domain
   domain: 'application module: Functional_assignment_to_part_arm'
   language_code: eng
   annotations: []

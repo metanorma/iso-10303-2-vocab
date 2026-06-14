@@ -1,30 +1,34 @@
+---
 data:
   identifier: Elemental_geometric_shape_arm.Axis_placement
   localized_concepts:
     eng: 764af85e-938e-5e9d-a096-b03ecd783280
   domains:
-    - concept_id: section-Elemental_geometric_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-      ref_type: section
+  - concept_id: section-Elemental_geometric_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+    ref_type: section
 id: Elemental_geometric_shape_arm.Axis_placement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that represents the axis placement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that represents the axis placement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Axis_placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}} that locates and orient a geometric item with respect to the coordinate system of its {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_coordinate_space,Geometric_coordinate_space}}.
+  - content: An **Axis_placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Detailed_geometric_model_element,Detailed_geometric_model_element}}
+      that locates and orient a geometric item with respect to the coordinate system
+      of its {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_coordinate_space,Geometric_coordinate_space}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
-          version: '12'
-      type: authoritative
-      id: Elemental_geometric_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Axis_placement
+  - type: expression
+    normative_status: preferred
+    designation: Axis_placement
   domain: 'application module: Elemental_geometric_shape_arm'
   language_code: eng
   annotations: []

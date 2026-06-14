@@ -1,30 +1,34 @@
+---
 data:
   identifier: Collection_identification_and_version_mim.collection_assignment
   localized_concepts:
     eng: b5fd298f-5059-5716-8865-f347bbd0c320
   domains:
-    - concept_id: section-Collection_identification_and_version_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-      ref_type: section
+  - concept_id: section-Collection_identification_and_version_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+    ref_type: section
 id: Collection_identification_and_version_mim.collection_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}} that represents the collection assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.applied_group_assignment,applied_group_assignment}}
+      that represents the collection assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **collection_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}} that is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_view_definition,collection_view_definition}} with the object to which the information collection has relevance.
+  - content: An **collection_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Group_mim.applied_group_assignment,applied_group_assignment}}
+      that is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim.collection_view_definition,collection_view_definition}}
+      with the object to which the information collection has relevance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
-          version: '1'
-      type: authoritative
-      id: Collection_identification_and_version_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Collection_identification_and_version_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: collection_assignment
+  - type: expression
+    normative_status: preferred
+    designation: collection_assignment
   domain: 'application module: Collection_identification_and_version_mim'
   language_code: eng
   annotations: []

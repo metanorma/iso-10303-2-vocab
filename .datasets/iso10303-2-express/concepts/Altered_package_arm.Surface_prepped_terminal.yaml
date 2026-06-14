@@ -1,30 +1,35 @@
+---
 data:
   identifier: Altered_package_arm.Surface_prepped_terminal
   localized_concepts:
     eng: 55afea83-ff6f-5ffc-9d4a-f5c892079afc
   domains:
-    - concept_id: section-Altered_package_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
-      ref_type: section
+  - concept_id: section-Altered_package_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
+    ref_type: section
 id: Altered_package_arm.Surface_prepped_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}} that represents the surface prepped terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}}
+      that represents the surface prepped terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Surface_prepped_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}} that defines the result of a modification to its surface condition, for solderability or other reasons, prior to its installation on an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component,Interconnect_module_component}} during the assembly of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}}.
+  - content: A **Surface_prepped_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}}
+      that defines the result of a modification to its surface condition, for solderability
+      or other reasons, prior to its installation on an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Interconnect_module_component,Interconnect_module_component}}
+      during the assembly of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_interconnect_component_arm.Layered_assembly_module_design_view,Layered_assembly_module_design_view}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
-          version: '4'
-      type: authoritative
-      id: Altered_package_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Surface_prepped_terminal
+  - type: expression
+    normative_status: preferred
+    designation: Surface_prepped_terminal
   domain: 'application module: Altered_package_arm'
   language_code: eng
   annotations: []

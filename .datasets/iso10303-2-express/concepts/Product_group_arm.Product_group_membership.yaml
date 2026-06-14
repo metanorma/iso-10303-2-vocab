@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_group_arm.Product_group_membership
   localized_concepts:
     eng: 797ea4ae-400e-5819-95cc-88e503ab1c85
   domains:
-    - concept_id: section-Product_group_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
-      ref_type: section
+  - concept_id: section-Product_group_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+    ref_type: section
 id: Product_group_arm.Product_group_membership
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product group membership {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product group membership {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_group_membership** is an identification of an instance of an entity defined in the type {{product_select,product_select}} that belongs to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.Product_group,Product_group}}.
+  - content: A **Product_group_membership** is an identification of an instance of
+      an entity defined in the type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.product_select,product_select}}
+      that belongs to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.Product_group,Product_group}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
-          version: '3'
-      type: authoritative
-      id: Product_group_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_group_membership
+  - type: expression
+    normative_status: preferred
+    designation: Product_group_membership
   domain: 'application module: Product_group_arm'
   language_code: eng
   annotations: []

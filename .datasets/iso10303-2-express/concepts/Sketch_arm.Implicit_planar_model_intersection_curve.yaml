@@ -1,30 +1,34 @@
+---
 data:
   identifier: Sketch_arm.Implicit_planar_model_intersection_curve
   localized_concepts:
     eng: c2732c0b-d139-5547-8afc-09978f8a7c54
   domains:
-    - concept_id: section-Sketch_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-      ref_type: section
+  - concept_id: section-Sketch_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+    ref_type: section
 id: Sketch_arm.Implicit_planar_model_intersection_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the implicit planar model intersection curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the implicit planar model intersection curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Implicit_planar_model_intersection_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item,Auxiliary_geometric_representation_item}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Curve,Curve}} that is an implicit representation for an imported intersection curve in the plane of a positioned sketch instance.
+  - content: A **Implicit_planar_model_intersection_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Parameterization_and_variational_representation_arm.Auxiliary_geometric_representation_item,Auxiliary_geometric_representation_item}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Basic_geometry_arm.Curve,Curve}}
+      that is an implicit representation for an imported intersection curve in the
+      plane of a positioned sketch instance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
-          version: '3'
-      type: authoritative
-      id: Sketch_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sketch_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Implicit_planar_model_intersection_curve
+  - type: expression
+    normative_status: preferred
+    designation: Implicit_planar_model_intersection_curve
   domain: 'application module: Sketch_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: sketch_schema.implicit_point_on_plane
   localized_concepts:
     eng: 59bd5af5-babe-5f97-9a49-53f77eade2c5
   domains:
-    - concept_id: section-sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-      ref_type: section
+  - concept_id: section-sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+    ref_type: section
 id: sketch_schema.implicit_point_on_plane
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the implicit point on plane {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the implicit point on plane {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type *implicit_point_on_plane* is a type of *point*, and also of *auxiliary_geometric_representation_item*.
+  - content: The entity data type *implicit_point_on_plane* is a type of *point*,
+      and also of *auxiliary_geometric_representation_item*.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-          version: '4'
-      type: authoritative
-      id: sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: implicit_point_on_plane
+  - type: expression
+    normative_status: preferred
+    designation: implicit_point_on_plane
   domain: 'resource: sketch_schema'
   language_code: eng
   annotations: []

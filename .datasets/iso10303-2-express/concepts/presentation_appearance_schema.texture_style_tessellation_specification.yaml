@@ -1,30 +1,34 @@
+---
 data:
   identifier: presentation_appearance_schema.texture_style_tessellation_specification
   localized_concepts:
     eng: 1baf8371-3a89-57d1-8666-96d911398932
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.texture_style_tessellation_specification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.texture_style_specification,texture_style_specification}} that represents the texture style tessellation specification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.texture_style_specification,texture_style_specification}}
+      that represents the texture style tessellation specification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **texture_style_tessellation_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.texture_style_specification,texture_style_specification}} an abstract entity that defines a visual texture to be assigned to tessellated geometry.
+  - content: A **texture_style_tessellation_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.texture_style_specification,texture_style_specification}}
+      an abstract entity that defines a visual texture to be assigned to tessellated
+      geometry.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: texture_style_tessellation_specification
+  - type: expression
+    normative_status: preferred
+    designation: texture_style_tessellation_specification
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

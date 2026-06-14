@@ -1,30 +1,33 @@
+---
 data:
   identifier: variational_representation_schema.auxiliary_geometric_representation_item
   localized_concepts:
     eng: fdd48953-156c-5eec-ba5f-58fffc7c8ea6
   domains:
-    - concept_id: section-variational_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
-      ref_type: section
+  - concept_id: section-variational_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+    ref_type: section
 id: variational_representation_schema.auxiliary_geometric_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the auxiliary geometric representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the auxiliary geometric representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.auxiliary_geometric_representation_item,auxiliary_geometric_representation_item}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} and also a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}.
+  - content: The entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.auxiliary_geometric_representation_item,auxiliary_geometric_representation_item}}
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      and also a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema.variational_representation_item,variational_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
-          version: '4'
-      type: authoritative
-      id: variational_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:variational_representation_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: auxiliary_geometric_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: auxiliary_geometric_representation_item
   domain: 'resource: variational_representation_schema'
   language_code: eng
   annotations: []

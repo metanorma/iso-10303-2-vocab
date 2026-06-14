@@ -1,30 +1,33 @@
+---
 data:
   identifier: Attachment_slot_mim.attachment_slot_design
   localized_concepts:
     eng: cd167d16-a97f-52e9-959c-02ac70f50d45
   domains:
-    - concept_id: section-Attachment_slot_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
-      ref_type: section
+  - concept_id: section-Attachment_slot_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+    ref_type: section
 id: Attachment_slot_mim.attachment_slot_design
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that represents the attachment slot design {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim.product_definition_formation,product_definition_formation}}
+      that represents the attachment slot design {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **attachment_slot_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}} that identifies a design version of an attachment slot.
+  - content: An **attachment_slot_design** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}
+      that identifies a design version of an attachment slot.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
-          version: '2'
-      type: authoritative
-      id: Attachment_slot_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Attachment_slot_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: attachment_slot_design
+  - type: expression
+    normative_status: preferred
+    designation: attachment_slot_design
   domain: 'application module: Attachment_slot_mim'
   language_code: eng
   annotations: []

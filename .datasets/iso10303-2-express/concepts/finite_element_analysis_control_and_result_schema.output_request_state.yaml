@@ -1,35 +1,37 @@
+---
 data:
   identifier: finite_element_analysis_control_and_result_schema.output_request_state
   localized_concepts:
     eng: 36064165-ea43-5fa7-b29f-e345d20e3b96
   domains:
-    - concept_id: section-finite_element_analysis_control_and_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-      ref_type: section
+  - concept_id: section-finite_element_analysis_control_and_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+    ref_type: section
 id: finite_element_analysis_control_and_result_schema.output_request_state
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}} that represents the output request state {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state,state}}
+      that represents the output request state {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.output_request_state,output_request_state}} is the computer readable output to be produced by an finite element analysis system as follows:
+  - content: |-
+      An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.output_request_state,output_request_state}} is the computer readable output to be produced by an finite element analysis system as follows:
 
-        * the attributes of the entity provide administrative information for the state of output;
-        * details of the information to be produced by the finite element analysis system are supplied by the
-        {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state_definition,state_definition}} entities that reference it.
+      * the attributes of the entity provide administrative information for the state of output;
+      * details of the information to be produced by the finite element analysis system are supplied by the
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema.state_definition,state_definition}} entities that reference it.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
-          version: '3'
-      type: authoritative
-      id: finite_element_analysis_control_and_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:finite_element_analysis_control_and_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: output_request_state
+  - type: expression
+    normative_status: preferred
+    designation: output_request_state
   domain: 'resource: finite_element_analysis_control_and_result_schema'
   language_code: eng
   annotations: []

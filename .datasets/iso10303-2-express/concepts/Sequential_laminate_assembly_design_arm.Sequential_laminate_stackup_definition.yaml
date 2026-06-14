@@ -1,30 +1,33 @@
+---
 data:
   identifier: Sequential_laminate_assembly_design_arm.Sequential_laminate_stackup_definition
   localized_concepts:
     eng: 8e2682d4-d609-57c7-9034-f585d1a4f982
   domains:
-    - concept_id: section-Sequential_laminate_assembly_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-      ref_type: section
+  - concept_id: section-Sequential_laminate_assembly_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+    ref_type: section
 id: Sequential_laminate_assembly_design_arm.Sequential_laminate_stackup_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} that represents the sequential laminate stackup definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Assembly_definition,Assembly_definition}}
+      that represents the sequential laminate stackup definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Sequential_laminate_stackup_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} that is a representation of the information in a fabrication stackup view.
+  - content: A **Sequential_laminate_stackup_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}}
+      that is a representation of the information in a fabrication stackup view.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
-          version: '5'
-      type: authoritative
-      id: Sequential_laminate_assembly_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Sequential_laminate_stackup_definition
+  - type: expression
+    normative_status: preferred
+    designation: Sequential_laminate_stackup_definition
   domain: 'application module: Sequential_laminate_assembly_design_arm'
   language_code: eng
   annotations: []

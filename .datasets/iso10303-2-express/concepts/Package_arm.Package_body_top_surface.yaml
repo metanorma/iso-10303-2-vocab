@@ -1,30 +1,34 @@
+---
 data:
   identifier: Package_arm.Package_body_top_surface
   localized_concepts:
     eng: 71a956d4-7c63-55ab-a23e-8eff0b1636c6
   domains:
-    - concept_id: section-Package_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
-      ref_type: section
+  - concept_id: section-Package_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+    ref_type: section
 id: Package_arm.Package_body_top_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_surface,Package_body_surface}} that represents the package body top surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_surface,Package_body_surface}}
+      that represents the package body top surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Package_body_top_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_surface,Package_body_surface}} that is visible from any observer located so as to place the component on a substrate.
+  - content: A **Package_body_top_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_body_surface,Package_body_surface}}
+      that is visible from any observer located so as to place the component on a
+      substrate.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
-          version: '7'
-      type: authoritative
-      id: Package_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Package_body_top_surface
+  - type: expression
+    normative_status: preferred
+    designation: Package_body_top_surface
   domain: 'application module: Package_arm'
   language_code: eng
   annotations: []

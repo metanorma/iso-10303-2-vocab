@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ap239_task_specification_resourced_mim.characterized_applied_action_method_assignment
   localized_concepts:
     eng: 9b38b92d-54a0-56f9-a07c-a7c8a8f470ea
   domains:
-    - concept_id: section-Ap239_task_specification_resourced_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_task_specification_resourced_mim
-      ref_type: section
+  - concept_id: section-Ap239_task_specification_resourced_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_task_specification_resourced_mim
+    ref_type: section
 id: Ap239_task_specification_resourced_mim.characterized_applied_action_method_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized applied action method assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized applied action method assignment
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_applied_action_method_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}} to which properties can be associated.
+  - content: A **characterized_applied_action_method_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_mim.applied_action_method_assignment,applied_action_method_assignment}}
+      to which properties can be associated.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_task_specification_resourced_mim
-          version: '4'
-      type: authoritative
-      id: Ap239_task_specification_resourced_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_task_specification_resourced_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_applied_action_method_assignment
+  - type: expression
+    normative_status: preferred
+    designation: characterized_applied_action_method_assignment
   domain: 'application module: Ap239_task_specification_resourced_mim'
   language_code: eng
   annotations: []

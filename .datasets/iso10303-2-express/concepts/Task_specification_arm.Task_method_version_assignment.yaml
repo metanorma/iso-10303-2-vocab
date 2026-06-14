@@ -1,29 +1,31 @@
+---
 data:
   identifier: Task_specification_arm.Task_method_version_assignment
   localized_concepts:
     eng: f99d0dca-2305-5678-9677-b1c4b0a4d3f1
   domains:
-    - concept_id: section-Task_specification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-      ref_type: section
+  - concept_id: section-Task_specification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+    ref_type: section
 id: Task_specification_arm.Task_method_version_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Activity_method_assignment_arm.Applied_activity_method_assignment,Applied_activity_method_assignment}} that represents the task method version assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm.Applied_activity_method_assignment,Applied_activity_method_assignment}}
+      that represents the task method version assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
-          version: '2'
-      type: authoritative
-      id: Task_specification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_specification_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Task_method_version_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Task_method_version_assignment
   domain: 'application module: Task_specification_arm'
   language_code: eng
   annotations: []

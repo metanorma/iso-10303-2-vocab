@@ -1,30 +1,34 @@
+---
 data:
   identifier: structural_response_representation_schema.fea_mass_density
   localized_concepts:
     eng: d5ec6ecf-9f3b-5226-87ac-2cb72bcb4945
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.fea_mass_density
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_material_property_representation_item,fea_material_property_representation_item}} that represents the fea mass density {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_material_property_representation_item,fea_material_property_representation_item}}
+      that represents the fea mass density {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_mass_density,fea_mass_density}} is the mass of *fea_material* per unit volume of an element in a strain free state.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_mass_density,fea_mass_density}}
+      is the mass of *fea_material* per unit volume of an element in a strain free
+      state.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fea_mass_density
+  - type: expression
+    normative_status: preferred
+    designation: fea_mass_density
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: representation_schema.definitional_representation_relationship
   localized_concepts:
     eng: dff4dae7-1fd6-5db0-8982-6410f7753f09
   domains:
-    - concept_id: section-representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-      ref_type: section
+  - concept_id: section-representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+    ref_type: section
 id: representation_schema.definitional_representation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the definitional representation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}}
+      that represents the definitional representation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-          version: '8'
-      type: authoritative
-      id: representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: definitional_representation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: definitional_representation_relationship
   domain: 'resource: representation_schema'
   language_code: eng
   annotations: []

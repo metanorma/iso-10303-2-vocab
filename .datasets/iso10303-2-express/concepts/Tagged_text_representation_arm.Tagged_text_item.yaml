@@ -1,30 +1,33 @@
+---
 data:
   identifier: Tagged_text_representation_arm.Tagged_text_item
   localized_concepts:
     eng: 494572bf-1571-58a1-bbbd-a7c9a1563f9a
   domains:
-    - concept_id: section-Tagged_text_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
-      ref_type: section
+  - concept_id: section-Tagged_text_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
+    ref_type: section
 id: Tagged_text_representation_arm.Tagged_text_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} that represents the tagged text item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm.String_representation_item,String_representation_item}}
+      that represents the tagged text item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tagged_text_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}} where the text content and markup appear in the text string.
+  - content: A **Tagged_text_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.String_representation_item,String_representation_item}}
+      where the text content and markup appear in the text string.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
-          version: '2'
-      type: authoritative
-      id: Tagged_text_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Tagged_text_representation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tagged_text_item
+  - type: expression
+    normative_status: preferred
+    designation: Tagged_text_item
   domain: 'application module: Tagged_text_representation_arm'
   language_code: eng
   annotations: []

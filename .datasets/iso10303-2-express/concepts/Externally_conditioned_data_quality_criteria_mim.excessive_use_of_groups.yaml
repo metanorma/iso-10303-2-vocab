@@ -1,30 +1,33 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_mim.excessive_use_of_groups
   localized_concepts:
     eng: 7fbf42f5-f746-5eaa-b17c-8fab23325038
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_mim.excessive_use_of_groups
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that represents the excessive use of groups {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that represents the excessive use of groups {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **excessive_use_of_groups** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_groups,Excessive_use_of_groups}}.
+  - content: A **excessive_use_of_groups** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim.externally_conditioned_data_quality_criterion,externally_conditioned_data_quality_criterion}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Excessive_use_of_groups,Excessive_use_of_groups}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: excessive_use_of_groups
+  - type: expression
+    normative_status: preferred
+    designation: excessive_use_of_groups
   domain: 'application module: Externally_conditioned_data_quality_criteria_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: Extended_person_organization_arm.Person_name_component
   localized_concepts:
     eng: 9a03c0bc-e0f0-52b9-a21c-a3de683f8771
   domains:
-    - concept_id: section-Extended_person_organization_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
-      ref_type: section
+  - concept_id: section-Extended_person_organization_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+    ref_type: section
 id: Extended_person_organization_arm.Person_name_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the person name component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the person name component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Person_name_component** is an element of a name.
+  - content: A **Person_name_component** is an element of a name.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
-          version: '1'
-      type: authoritative
-      id: Extended_person_organization_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extended_person_organization_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Person_name_component
+  - type: expression
+    normative_status: preferred
+    designation: Person_name_component
   domain: 'application module: Extended_person_organization_arm'
   language_code: eng
   annotations: []

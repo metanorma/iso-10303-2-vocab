@@ -1,30 +1,34 @@
+---
 data:
   identifier: procedural_sketch_schema.create_circle_concentric
   localized_concepts:
     eng: 777149d4-7203-51b4-adba-c189e81fbd1e
   domains:
-    - concept_id: section-procedural_sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-      ref_type: section
+  - concept_id: section-procedural_sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+    ref_type: section
 id: procedural_sketch_schema.create_circle_concentric
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circle,create_circle}} that represents the create circle concentric {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema.create_circle,create_circle}}
+      that represents the create circle concentric {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *create_circle_concentric* is a type of *create_circle* that creates a circle that has a specified radius and the same centre point as a reference circle or circular arc.
+  - content: A *create_circle_concentric* is a type of *create_circle* that creates
+      a circle that has a specified radius and the same centre point as a reference
+      circle or circular arc.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
-          version: '1'
-      type: authoritative
-      id: procedural_sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_sketch_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: create_circle_concentric
+  - type: expression
+    normative_status: preferred
+    designation: create_circle_concentric
   domain: 'resource: procedural_sketch_schema'
   language_code: eng
   annotations: []

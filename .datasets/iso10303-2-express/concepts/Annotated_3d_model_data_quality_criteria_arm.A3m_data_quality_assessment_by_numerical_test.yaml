@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_assessment_by_numerical_test
   localized_concepts:
     eng: 838745c8-55b3-5f18-ad26-7ffb26d0feb9
   domains:
-    - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+    ref_type: section
 id: Annotated_3d_model_data_quality_criteria_arm.A3m_data_quality_assessment_by_numerical_test
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_assessment_specification,Data_quality_assessment_specification}} that represents the a3m data quality assessment by numerical test {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm.Data_quality_assessment_specification,Data_quality_assessment_specification}}
+      that represents the a3m data quality assessment by numerical test {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_data_quality_assessment_by_numerical_test** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_assessment_specification,Data_quality_assessment_specification}} that represents an assessment specification by a numerical test.
+  - content: An **A3m_data_quality_assessment_by_numerical_test** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_criteria_arm.Data_quality_assessment_specification,Data_quality_assessment_specification}}
+      that represents an assessment specification by a numerical test.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_data_quality_assessment_by_numerical_test
+  - type: expression
+    normative_status: preferred
+    designation: A3m_data_quality_assessment_by_numerical_test
   domain: 'application module: Annotated_3d_model_data_quality_criteria_arm'
   language_code: eng
   annotations: []

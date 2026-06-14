@@ -1,46 +1,48 @@
+---
 data:
   identifier: Qualified_measure_arm.Pre_defined_type_qualifier
   localized_concepts:
     eng: 4dc9a373-abf5-5174-9ded-d8de35d9de24
   domains:
-    - concept_id: section-Qualified_measure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-      ref_type: section
+  - concept_id: section-Qualified_measure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+    ref_type: section
 id: Qualified_measure_arm.Pre_defined_type_qualifier
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}} that represents the pre defined type qualifier {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}}
+      that represents the pre defined type qualifier {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Pre_defined_type_qualifier** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}} whose {{name,name}} has predefined value as specified in constant {{pre_defined_type_qualifiers,pre_defined_type_qualifiers}}:
+  - content: |-
+      A **Pre_defined_type_qualifier** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier,Type_qualifier}} whose {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.Type_qualifier.name,name}} has predefined value as specified in constant {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm.pre_defined_type_qualifiers,pre_defined_type_qualifiers}}:
 
-        * 'minimum': the value is a minimum value;
-        * 'maximum': the value is a maximum value;
-        * 'nominal': the value is a nominal value;
-        * 'specified': the value has been specified;
-        * 'typical': the value is typical;
-        * 'calculated': the value has been calculated;
-        * 'designed': the value represents a value intended by the design;
-        * 'estimated': the value has been estimated;
-        * 'measured': the value has been measured;
-        * 'required': the value represents a requirement;
-        * 'set point': the value is used as an initialization value;
-        * 'basic': the value is a basic value;
-        * 'lower deviation': the value is maximum deviation in the negative direction from the nominal or basic value;
-        * 'upper deviation': the value is maximum deviation in the positive direction from the nominal or basic value.
+      * 'minimum': the value is a minimum value;
+      * 'maximum': the value is a maximum value;
+      * 'nominal': the value is a nominal value;
+      * 'specified': the value has been specified;
+      * 'typical': the value is typical;
+      * 'calculated': the value has been calculated;
+      * 'designed': the value represents a value intended by the design;
+      * 'estimated': the value has been estimated;
+      * 'measured': the value has been measured;
+      * 'required': the value represents a requirement;
+      * 'set point': the value is used as an initialization value;
+      * 'basic': the value is a basic value;
+      * 'lower deviation': the value is maximum deviation in the negative direction from the nominal or basic value;
+      * 'upper deviation': the value is maximum deviation in the positive direction from the nominal or basic value.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
-          version: '4'
-      type: authoritative
-      id: Qualified_measure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualified_measure_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Pre_defined_type_qualifier
+  - type: expression
+    normative_status: preferred
+    designation: Pre_defined_type_qualifier
   domain: 'application module: Qualified_measure_arm'
   language_code: eng
   annotations: []

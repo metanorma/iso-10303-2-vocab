@@ -1,30 +1,34 @@
+---
 data:
   identifier: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_instance_report_item
   localized_concepts:
     eng: bbd30705-f061-5644-a4bb-01397a91df11
   domains:
-    - concept_id: section-product_data_equivalence_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
-      ref_type: section
+  - concept_id: section-product_data_equivalence_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+    ref_type: section
 id: product_data_equivalence_inspection_result_schema.data_equivalence_inspection_instance_report_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents the data equivalence inspection instance report item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema.representation_item,representation_item}}
+      that represents the data equivalence inspection instance report item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **data_equivalence_inspection_instance_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} that represents a detailed inspection result for a pair of inspected elements of the specified product data.
+  - content: A **data_equivalence_inspection_instance_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      that represents a detailed inspection result for a pair of inspected elements
+      of the specified product data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: product_data_equivalence_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: data_equivalence_inspection_instance_report_item
+  - type: expression
+    normative_status: preferred
+    designation: data_equivalence_inspection_instance_report_item
   domain: 'resource: product_data_equivalence_inspection_result_schema'
   language_code: eng
   annotations: []

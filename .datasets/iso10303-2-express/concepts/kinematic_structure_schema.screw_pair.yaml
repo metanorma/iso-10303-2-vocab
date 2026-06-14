@@ -1,29 +1,31 @@
+---
 data:
   identifier: kinematic_structure_schema.screw_pair
   localized_concepts:
     eng: a6371bdf-d28c-57e8-be33-24d5364d55cc
   domains:
-    - concept_id: section-kinematic_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-      ref_type: section
+  - concept_id: section-kinematic_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+    ref_type: section
 id: kinematic_structure_schema.screw_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.low_order_kinematic_pair_with_motion_coupling,low_order_kinematic_pair_with_motion_coupling}} that represents the screw pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.low_order_kinematic_pair_with_motion_coupling,low_order_kinematic_pair_with_motion_coupling}}
+      that represents the screw pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: screw_pair
+  - type: expression
+    normative_status: preferred
+    designation: screw_pair
   domain: 'resource: kinematic_structure_schema'
   language_code: eng
   annotations: []

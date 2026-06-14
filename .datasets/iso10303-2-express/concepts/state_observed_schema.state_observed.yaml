@@ -1,30 +1,32 @@
+---
 data:
   identifier: state_observed_schema.state_observed
   localized_concepts:
     eng: 57af8ab6-9f4a-5be2-bf37-cff3cc841db6
   domains:
-    - concept_id: section-state_observed_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-      ref_type: section
+  - concept_id: section-state_observed_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+    ref_type: section
 id: state_observed_schema.state_observed
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state observed {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state observed {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **state_observed** is the existence of a mode of being for a period of time.
+  - content: A **state_observed** is the existence of a mode of being for a period
+      of time.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
-          version: '3'
-      type: authoritative
-      id: state_observed_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_observed_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: state_observed
+  - type: expression
+    normative_status: preferred
+    designation: state_observed
   domain: 'resource: state_observed_schema'
   language_code: eng
   annotations: []

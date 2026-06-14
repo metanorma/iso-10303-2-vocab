@@ -1,29 +1,31 @@
+---
 data:
   identifier: product_definition_schema.product_definition_effectivity
   localized_concepts:
     eng: a0b3ab2e-51d8-5094-90cf-ac0298bd90dd
   domains:
-    - concept_id: section-product_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-      ref_type: section
+  - concept_id: section-product_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+    ref_type: section
 id: product_definition_schema.product_definition_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the product definition effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.effectivity,effectivity}}
+      that represents the product definition effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-          version: '10'
-      type: authoritative
-      id: product_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_effectivity
   domain: 'resource: product_definition_schema'
   language_code: eng
   annotations: []

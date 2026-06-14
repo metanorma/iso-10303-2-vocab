@@ -1,30 +1,32 @@
+---
 data:
   identifier: Draughting_element_arm.Draughting_callout_relationship
   localized_concepts:
     eng: 6ede4dc3-2489-51c9-a6c0-647dfdcbdf46
   domains:
-    - concept_id: section-Draughting_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+    ref_type: section
 id: Draughting_element_arm.Draughting_callout_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the draughting callout relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the draughting callout relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Draughting_callout_relationship** is a logical relationship between two annotation groups which appear on an annotated model.
+  - content: A **Draughting_callout_relationship** is a logical relationship between
+      two annotation groups which appear on an annotated model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
-          version: '6'
-      type: authoritative
-      id: Draughting_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Draughting_callout_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Draughting_callout_relationship
   domain: 'application module: Draughting_element_arm'
   language_code: eng
   annotations: []

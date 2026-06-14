@@ -1,30 +1,33 @@
+---
 data:
   identifier: Procedural_shape_model_arm.User_selected_shape_elements
   localized_concepts:
     eng: 32794312-09a8-58a4-8f94-6a527fb7deea
   domains:
-    - concept_id: section-Procedural_shape_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-      ref_type: section
+  - concept_id: section-Procedural_shape_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+    ref_type: section
 id: Procedural_shape_model_arm.User_selected_shape_elements
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the user selected shape elements {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.Representation_item,Representation_item}}
+      that represents the user selected shape elements {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **User_selected_shape_elements** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that provides a reference to one or more {{shape_model_element,shape_model_element}}s.
+  - content: A **User_selected_shape_elements** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      that provides a reference to one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm.shape_model_element,shape_model_element}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
-          version: '2'
-      type: authoritative
-      id: Procedural_shape_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Procedural_shape_model_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: User_selected_shape_elements
+  - type: expression
+    normative_status: preferred
+    designation: User_selected_shape_elements
   domain: 'application module: Procedural_shape_model_arm'
   language_code: eng
   annotations: []

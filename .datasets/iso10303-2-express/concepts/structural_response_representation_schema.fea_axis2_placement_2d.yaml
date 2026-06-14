@@ -1,30 +1,34 @@
+---
 data:
   identifier: structural_response_representation_schema.fea_axis2_placement_2d
   localized_concepts:
     eng: 8e0a3193-a9f4-535b-b21f-94dbc7258c66
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.fea_axis2_placement_2d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.axis2_placement_2d,axis2_placement_2d}} that represents the fea axis2 placement 2d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.axis2_placement_2d,axis2_placement_2d}}
+      that represents the fea axis2 placement 2d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_axis2_placement_2d,fea_axis2_placement_2d}} is a location and orientation in 2D space, and declares that the Placement Coordinate System may be either Cartesian, Cylindrical, or Spherical.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_axis2_placement_2d,fea_axis2_placement_2d}}
+      is a location and orientation in 2D space, and declares that the Placement Coordinate
+      System may be either Cartesian, Cylindrical, or Spherical.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fea_axis2_placement_2d
+  - type: expression
+    normative_status: preferred
+    designation: fea_axis2_placement_2d
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

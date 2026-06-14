@@ -1,30 +1,34 @@
+---
 data:
   identifier: Qualifications_mim.applied_qualification_type_assignment
   localized_concepts:
     eng: a1a5ec81-53fa-5437-91cc-45fb7c7f1bc4
   domains:
-    - concept_id: section-Qualifications_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim
-      ref_type: section
+  - concept_id: section-Qualifications_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim
+    ref_type: section
 id: Qualifications_mim.applied_qualification_type_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.qualification_type_assignment,qualification_type_assignment}} that represents the applied qualification type assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim.qualification_type_assignment,qualification_type_assignment}}
+      that represents the applied qualification type assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_qualification_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.qualification_type_assignment,qualification_type_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema.qualification_type,qualification_type}} to instances of entity data types listed in {{person_organization_item,person_organization_item}}.
+  - content: An **applied_qualification_type_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.qualification_type_assignment,qualification_type_assignment}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema.qualification_type,qualification_type}}
+      to instances of entity data types listed in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim.person_organization_item,person_organization_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim
-          version: '1'
-      type: authoritative
-      id: Qualifications_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_qualification_type_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_qualification_type_assignment
   domain: 'application module: Qualifications_mim'
   language_code: eng
   annotations: []

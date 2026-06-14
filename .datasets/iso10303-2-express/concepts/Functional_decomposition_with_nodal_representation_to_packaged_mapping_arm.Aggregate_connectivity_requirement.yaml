@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm.Aggregate_connectivity_requirement
   localized_concepts:
     eng: 0bb3196a-5c48-52d3-92ee-64995af34ef6
   domains:
-    - concept_id: section-Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
+    ref_type: section
 id: Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm.Aggregate_connectivity_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the aggregate connectivity requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the aggregate connectivity requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Aggregate_connectivity_requirement** is the set of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_node_definition,Functional_unit_network_node_definition}} that are determined by a mapping application to be linked with a transitive closure based on a property of each member of the set.
+  - content: An **Aggregate_connectivity_requirement** is the set of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit_network_node_definition,Functional_unit_network_node_definition}}
+      that are determined by a mapping application to be linked with a transitive
+      closure based on a property of each member of the set.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
-          version: '1'
-      type: authoritative
-      id: Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Aggregate_connectivity_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Aggregate_connectivity_requirement
   domain: 'application module: Functional_decomposition_with_nodal_representation_to_packaged_mapping_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_assignment_to_part_arm.Part_connected_terminals_structure_definition
   localized_concepts:
     eng: 7f110ebf-dc79-5638-a554-4d52739da84f
   domains:
-    - concept_id: section-Functional_assignment_to_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+    ref_type: section
 id: Functional_assignment_to_part_arm.Part_connected_terminals_structure_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}} that represents the part connected terminals structure definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}}
+      that represents the part connected terminals structure definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_connected_terminals_structure_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}} that has a structure.
+  - content: A **Part_connected_terminals_structure_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_definition,Part_connected_terminals_definition}}
+      that has a structure.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_connected_terminals_structure_definition
+  - type: expression
+    normative_status: preferred
+    designation: Part_connected_terminals_structure_definition
   domain: 'application module: Functional_assignment_to_part_arm'
   language_code: eng
   annotations: []

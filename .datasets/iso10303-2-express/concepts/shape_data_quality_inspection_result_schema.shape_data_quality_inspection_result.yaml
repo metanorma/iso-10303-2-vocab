@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result
   localized_concepts:
     eng: c9016017-7c47-5125-8267-5404242c0d65
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.shape_data_quality_inspection_result
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_result,data_quality_inspection_result}} that represents the shape data quality inspection result {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.data_quality_inspection_result,data_quality_inspection_result}}
+      that represents the shape data quality inspection result {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_data_quality_inspection_result
+  - type: expression
+    normative_status: preferred
+    designation: shape_data_quality_inspection_result
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

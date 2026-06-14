@@ -1,29 +1,31 @@
+---
 data:
   identifier: Constructive_solid_geometry_2d_mim.curve_style_parameters_representation
   localized_concepts:
     eng: 6d1c89fe-4614-5cf4-86e7-3910fdef3abf
   domains:
-    - concept_id: section-Constructive_solid_geometry_2d_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim
-      ref_type: section
+  - concept_id: section-Constructive_solid_geometry_2d_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim
+    ref_type: section
 id: Constructive_solid_geometry_2d_mim.curve_style_parameters_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the curve style parameters representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim.representation,representation}}
+      that represents the curve style parameters representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim
-          version: '6'
-      type: authoritative
-      id: Constructive_solid_geometry_2d_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: curve_style_parameters_representation
+  - type: expression
+    normative_status: preferred
+    designation: curve_style_parameters_representation
   domain: 'application module: Constructive_solid_geometry_2d_mim'
   language_code: eng
   annotations: []

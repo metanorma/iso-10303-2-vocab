@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_state_schema.pair_value
   localized_concepts:
     eng: 003b4f52-e082-587c-be83-88b13316b02a
   domains:
-    - concept_id: section-kinematic_state_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-      ref_type: section
+  - concept_id: section-kinematic_state_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+    ref_type: section
 id: kinematic_state_schema.pair_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the pair value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the pair value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **pair_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that is a configuration of the two links that join a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}}.
+  - content: A **pair_value** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that is a configuration of the two links that join a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_structure_schema.kinematic_pair,kinematic_pair}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_state_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: pair_value
+  - type: expression
+    normative_status: preferred
+    designation: pair_value
   domain: 'resource: kinematic_state_schema'
   language_code: eng
   annotations: []

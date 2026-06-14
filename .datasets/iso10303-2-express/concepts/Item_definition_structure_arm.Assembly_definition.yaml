@@ -1,30 +1,33 @@
+---
 data:
   identifier: Item_definition_structure_arm.Assembly_definition
   localized_concepts:
     eng: 8f852391-8e6f-5182-8adf-fdee8dd568e6
   domains:
-    - concept_id: section-Item_definition_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-      ref_type: section
+  - concept_id: section-Item_definition_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+    ref_type: section
 id: Item_definition_structure_arm.Assembly_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} that represents the assembly definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Part_view_definition,Part_view_definition}}
+      that represents the assembly definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Assembly_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}} that characterizes a part version which may contain several components.
+  - content: An **Assembly_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_view_definition_arm.Part_view_definition,Part_view_definition}}
+      that characterizes a part version which may contain several components.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-          version: '6'
-      type: authoritative
-      id: Item_definition_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Assembly_definition
+  - type: expression
+    normative_status: preferred
+    designation: Assembly_definition
   domain: 'application module: Item_definition_structure_arm'
   language_code: eng
   annotations: []

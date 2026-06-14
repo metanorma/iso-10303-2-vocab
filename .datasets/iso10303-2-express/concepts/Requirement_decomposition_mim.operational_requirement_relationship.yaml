@@ -1,30 +1,33 @@
+---
 data:
   identifier: Requirement_decomposition_mim.operational_requirement_relationship
   localized_concepts:
     eng: 4fd2daac-457b-5825-8bef-b1a990c930fd
   domains:
-    - concept_id: section-Requirement_decomposition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
-      ref_type: section
+  - concept_id: section-Requirement_decomposition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
+    ref_type: section
 id: Requirement_decomposition_mim.operational_requirement_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the operational requirement relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the operational requirement relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **operational_requirement_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Operational_requirement_relationship,Operational_requirement_relationship}}.
+  - content: A **operational_requirement_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Operational_requirement_relationship,Operational_requirement_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
-          version: '4'
-      type: authoritative
-      id: Requirement_decomposition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: operational_requirement_relationship
+  - type: expression
+    normative_status: preferred
+    designation: operational_requirement_relationship
   domain: 'application module: Requirement_decomposition_mim'
   language_code: eng
   annotations: []

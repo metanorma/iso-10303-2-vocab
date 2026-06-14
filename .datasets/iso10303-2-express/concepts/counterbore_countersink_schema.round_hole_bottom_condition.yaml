@@ -1,30 +1,32 @@
+---
 data:
   identifier: counterbore_countersink_schema.round_hole_bottom_condition
   localized_concepts:
     eng: a14bf838-aaf9-53f2-94e2-28e66ab46f7c
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.round_hole_bottom_condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the round hole bottom condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the round hole bottom condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **round_hole_bottom_condition** is a set of data elements locally that describe the shape of a hole that does not go through the entire part.
+  - content: A **round_hole_bottom_condition** is a set of data elements locally that
+      describe the shape of a hole that does not go through the entire part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: round_hole_bottom_condition
+  - type: expression
+    normative_status: preferred
+    designation: round_hole_bottom_condition
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Multi_linguism_arm.Attribute_translation_assignment
   localized_concepts:
     eng: e533ec49-813a-576a-b502-812f37537573
   domains:
-    - concept_id: section-Multi_linguism_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
-      ref_type: section
+  - concept_id: section-Multi_linguism_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
+    ref_type: section
 id: Multi_linguism_arm.Attribute_translation_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the attribute translation assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the attribute translation assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Attribute_translation_assignment** is the assignment of a translation to a text attribute of an instance.
+  - content: An **Attribute_translation_assignment** is the assignment of a translation
+      to a text attribute of an instance.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
-          version: '2'
-      type: authoritative
-      id: Multi_linguism_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Multi_linguism_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Attribute_translation_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Attribute_translation_assignment
   domain: 'application module: Multi_linguism_arm'
   language_code: eng
   annotations: []

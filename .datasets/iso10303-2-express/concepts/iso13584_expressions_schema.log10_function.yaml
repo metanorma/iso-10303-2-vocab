@@ -1,30 +1,33 @@
+---
 data:
   identifier: iso13584_expressions_schema.log10_function
   localized_concepts:
     eng: a0a89881-6431-5261-825a-62352d3f2065
   domains:
-    - concept_id: section-iso13584_expressions_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-      ref_type: section
+  - concept_id: section-iso13584_expressions_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+    ref_type: section
 id: iso13584_expressions_schema.log10_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_function_call,unary_function_call}} that represents the log10 function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema.unary_function_call,unary_function_call}}
+      that represents the log10 function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The *log10_function* entity carries the semantics of the EXPRESS 'LOG10' function defined in ISO 10303-11.
+  - content: The *log10_function* entity carries the semantics of the EXPRESS 'LOG10'
+      function defined in ISO 10303-11.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
-          version: '1'
-      type: authoritative
-      id: iso13584_expressions_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_expressions_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: log10_function
+  - type: expression
+    normative_status: preferred
+    designation: log10_function
   domain: 'resource: iso13584_expressions_schema'
   language_code: eng
   annotations: []

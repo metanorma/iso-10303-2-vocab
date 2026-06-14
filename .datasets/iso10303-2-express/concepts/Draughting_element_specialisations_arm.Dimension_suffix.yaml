@@ -1,29 +1,31 @@
+---
 data:
   identifier: Draughting_element_specialisations_arm.Dimension_suffix
   localized_concepts:
     eng: 74f69d8a-5194-573e-8c94-a85830323003
   domains:
-    - concept_id: section-Draughting_element_specialisations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_specialisations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+    ref_type: section
 id: Draughting_element_specialisations_arm.Dimension_suffix
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}} that represents the dimension suffix {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}}
+      that represents the dimension suffix {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_element_specialisations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dimension_suffix
+  - type: expression
+    normative_status: preferred
+    designation: Dimension_suffix
   domain: 'application module: Draughting_element_specialisations_arm'
   language_code: eng
   annotations: []

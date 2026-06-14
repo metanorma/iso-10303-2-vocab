@@ -1,30 +1,33 @@
+---
 data:
   identifier: Interconnect_module_usage_view_arm.Interconnect_module_usage_view
   localized_concepts:
     eng: e1c1ca02-3334-5405-a473-97d2810a43d7
   domains:
-    - concept_id: section-Interconnect_module_usage_view_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_usage_view_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+    ref_type: section
 id: Interconnect_module_usage_view_arm.Interconnect_module_usage_view
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_usage_view,Part_usage_view}} that represents the interconnect module usage view {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm.Part_usage_view,Part_usage_view}}
+      that represents the interconnect module usage view {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Interconnect_module_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_usage_view,Part_usage_view}} to support the application of an interconnect in an assembly.
+  - content: An **Interconnect_module_usage_view** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_usage_view,Part_usage_view}}
+      to support the application of an interconnect in an assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
-          version: '5'
-      type: authoritative
-      id: Interconnect_module_usage_view_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_usage_view_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Interconnect_module_usage_view
+  - type: expression
+    normative_status: preferred
+    designation: Interconnect_module_usage_view
   domain: 'application module: Interconnect_module_usage_view_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Property_space_arm.Standard_tensor_order_and_symmetry
   localized_concepts:
     eng: 2ea9e9a2-7496-57f1-8b4d-0e3ee0e92e88
   domains:
-    - concept_id: section-Property_space_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
-      ref_type: section
+  - concept_id: section-Property_space_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
+    ref_type: section
 id: Property_space_arm.Standard_tensor_order_and_symmetry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm.Tensor_order_and_symmetry_by_library_reference,Tensor_order_and_symmetry_by_library_reference}} that represents the standard tensor order and symmetry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm.Tensor_order_and_symmetry_by_library_reference,Tensor_order_and_symmetry_by_library_reference}}
+      that represents the standard tensor order and symmetry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
-          version: '1'
-      type: authoritative
-      id: Property_space_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_space_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Standard_tensor_order_and_symmetry
+  - type: expression
+    normative_status: preferred
+    designation: Standard_tensor_order_and_symmetry
   domain: 'application module: Property_space_arm'
   language_code: eng
   annotations: []

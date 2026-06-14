@@ -1,29 +1,31 @@
+---
 data:
   identifier: Derived_shape_element_arm.Tangent_plane
   localized_concepts:
     eng: 8af36298-76c4-5047-ad69-2acee96dcee4
   domains:
-    - concept_id: section-Derived_shape_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-      ref_type: section
+  - concept_id: section-Derived_shape_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+    ref_type: section
 id: Derived_shape_element_arm.Tangent_plane
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Tangent,Tangent}} that represents the tangent plane {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm.Tangent,Tangent}}
+      that represents the tangent plane {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
-          version: '5'
-      type: authoritative
-      id: Derived_shape_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Derived_shape_element_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tangent_plane
+  - type: expression
+    normative_status: preferred
+    designation: Tangent_plane
   domain: 'application module: Derived_shape_element_arm'
   language_code: eng
   annotations: []

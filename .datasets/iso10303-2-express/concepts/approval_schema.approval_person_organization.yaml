@@ -1,30 +1,32 @@
+---
 data:
   identifier: approval_schema.approval_person_organization
   localized_concepts:
     eng: 63798d31-fd4c-5581-9e6b-30353a8148f3
   domains:
-    - concept_id: section-approval_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-      ref_type: section
+  - concept_id: section-approval_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+    ref_type: section
 id: approval_schema.approval_person_organization
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the approval person organization {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the approval person organization {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **approval_person_organization** is an association between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}} and a given person, organization or person in the context of an organization.
+  - content: An **approval_person_organization** is an association between an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema.approval,approval}}
+      and a given person, organization or person in the context of an organization.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
-          version: '7'
-      type: authoritative
-      id: approval_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:approval_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: approval_person_organization
+  - type: expression
+    normative_status: preferred
+    designation: approval_person_organization
   domain: 'resource: approval_schema'
   language_code: eng
   annotations: []

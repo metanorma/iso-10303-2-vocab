@@ -1,30 +1,36 @@
+---
 data:
   identifier: aic_associative_draughting_elements.shape_aspect_associativity
   localized_concepts:
     eng: b73c3e2b-3569-51fb-9e1c-9e20a0fec10e
   domains:
-    - concept_id: section-aic_associative_draughting_elements
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
-      ref_type: section
+  - concept_id: section-aic_associative_draughting_elements
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+    ref_type: section
 id: aic_associative_draughting_elements.shape_aspect_associativity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that represents the shape aspect associativity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements.shape_aspect_relationship,shape_aspect_relationship}}
+      that represents the shape aspect associativity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shape_aspect_associativity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that relates an element of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} to the leader or projection curve which visually directs information in the drawing to the element or to the fill area boundary that is derived from the element.
+  - content: A **shape_aspect_associativity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that relates an element of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      to the leader or projection curve which visually directs information in the
+      drawing to the element or to the fill area boundary that is derived from the
+      element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
-          version: '3'
-      type: authoritative
-      id: aic_associative_draughting_elements
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_associative_draughting_elements
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shape_aspect_associativity
+  - type: expression
+    normative_status: preferred
+    designation: shape_aspect_associativity
   domain: 'resource: aic_associative_draughting_elements'
   language_code: eng
   annotations: []

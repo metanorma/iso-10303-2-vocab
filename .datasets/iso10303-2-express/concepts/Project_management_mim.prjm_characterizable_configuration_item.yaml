@@ -1,30 +1,32 @@
+---
 data:
   identifier: Project_management_mim.prjm_characterizable_configuration_item
   localized_concepts:
     eng: f6bc1faa-96a3-580f-b0c9-b41a35bdc954
   domains:
-    - concept_id: section-Project_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-      ref_type: section
+  - concept_id: section-Project_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+    ref_type: section
 id: Project_management_mim.prjm_characterizable_configuration_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the prjm characterizable configuration item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the prjm characterizable configuration item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **prjm_characterizable_configuration_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}}.
+  - content: A **prjm_characterizable_configuration_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:configuration_management_schema.configuration_item,configuration_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
-          version: '2'
-      type: authoritative
-      id: Project_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_management_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: prjm_characterizable_configuration_item
+  - type: expression
+    normative_status: preferred
+    designation: prjm_characterizable_configuration_item
   domain: 'application module: Project_management_mim'
   language_code: eng
   annotations: []

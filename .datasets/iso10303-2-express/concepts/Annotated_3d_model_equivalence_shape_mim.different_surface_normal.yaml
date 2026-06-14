@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_mim.different_surface_normal
   localized_concepts:
     eng: f70b5cdc-e5e1-5e1d-aff2-958c71c558bd
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_mim.different_surface_normal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the different surface normal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the different surface normal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **different_surface_normal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_detailed_shape_data_content,a3m_equivalence_criterion_of_detailed_shape_data_content}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_surface_normal,Different_surface_normal}}.
+  - content: A **different_surface_normal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim.a3m_equivalence_criterion_of_detailed_shape_data_content,a3m_equivalence_criterion_of_detailed_shape_data_content}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_inspection_requirement_with_values,a3m_equivalence_inspection_requirement_with_values}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.Different_surface_normal,Different_surface_normal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: different_surface_normal
+  - type: expression
+    normative_status: preferred
+    designation: different_surface_normal
   domain: 'application module: Annotated_3d_model_equivalence_shape_mim'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: procedural_model_schema.explicit_procedural_representation_item_relationship
   localized_concepts:
     eng: 12b4eb0d-062d-57a0-aecd-2ac985727b81
   domains:
-    - concept_id: section-procedural_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-      ref_type: section
+  - concept_id: section-procedural_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+    ref_type: section
 id: procedural_model_schema.explicit_procedural_representation_item_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item_relationship,representation_item_relationship}} that represents the explicit procedural representation item relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.representation_item_relationship,representation_item_relationship}}
+      that represents the explicit procedural representation item relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-          version: '2'
-      type: authoritative
-      id: procedural_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: explicit_procedural_representation_item_relationship
+  - type: expression
+    normative_status: preferred
+    designation: explicit_procedural_representation_item_relationship
   domain: 'resource: procedural_model_schema'
   language_code: eng
   annotations: []

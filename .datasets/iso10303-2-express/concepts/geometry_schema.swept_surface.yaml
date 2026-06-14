@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometry_schema.swept_surface
   localized_concepts:
     eng: ab8a8f06-c7a9-5ec7-b295-787cce0ec389
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.swept_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}} that represents the swept surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}}
+      that represents the swept surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **swept_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}}, that is constructed by sweeping a curve along another curve.
+  - content: A **swept_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.surface,surface}},
+      that is constructed by sweeping a curve along another curve.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: swept_surface
+  - type: expression
+    normative_status: preferred
+    designation: swept_surface
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

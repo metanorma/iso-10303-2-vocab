@@ -1,30 +1,35 @@
+---
 data:
   identifier: Process_plan_arm.Same_time_machining_relationship
   localized_concepts:
     eng: ab52a4d6-e05e-56af-b4a5-760d1f717829
   domains:
-    - concept_id: section-Process_plan_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-      ref_type: section
+  - concept_id: section-Process_plan_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+    ref_type: section
 id: Process_plan_arm.Same_time_machining_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Part_occurrence_relationship,Part_occurrence_relationship}} that represents the same time machining relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Part_occurrence_relationship,Part_occurrence_relationship}}
+      that represents the same time machining relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Same_time_machining_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Part_occurrence_relationship,Part_occurrence_relationship}} A **Same_time_machining_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} objects that specifies that those two objects shall be manufactured together within the same {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_occurrence,Process_operation_occurrence}}.
+  - content: A **Same_time_machining_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_control_arm.Part_occurrence_relationship,Part_occurrence_relationship}}
+      A **Same_time_machining_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}}
+      objects that specifies that those two objects shall be manufactured together
+      within the same {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm.Process_operation_occurrence,Process_operation_occurrence}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
-          version: '4'
-      type: authoritative
-      id: Process_plan_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Process_plan_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Same_time_machining_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Same_time_machining_relationship
   domain: 'application module: Process_plan_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: process_property_schema.property_process
   localized_concepts:
     eng: bd4e4fbc-ac68-56ed-aefc-bc4cf9828a64
   domains:
-    - concept_id: section-process_property_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-      ref_type: section
+  - concept_id: section-process_property_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+    ref_type: section
 id: process_property_schema.property_process
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that represents the property process {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.action,action}}
+      that represents the property process {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.property_process,property_process}} is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}} that produces or results in a specific aspect of a product.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema.property_process,property_process}}
+      is an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action,action}}
+      that produces or results in a specific aspect of a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
-          version: '1'
-      type: authoritative
-      id: process_property_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:process_property_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: property_process
+  - type: expression
+    normative_status: preferred
+    designation: property_process
   domain: 'resource: process_property_schema'
   language_code: eng
   annotations: []

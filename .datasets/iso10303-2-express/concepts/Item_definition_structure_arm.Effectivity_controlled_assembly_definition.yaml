@@ -1,30 +1,36 @@
+---
 data:
   identifier: Item_definition_structure_arm.Effectivity_controlled_assembly_definition
   localized_concepts:
     eng: 88f7e16d-05be-5792-b8ad-94c868d193ad
   domains:
-    - concept_id: section-Item_definition_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-      ref_type: section
+  - concept_id: section-Item_definition_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+    ref_type: section
 id: Item_definition_structure_arm.Effectivity_controlled_assembly_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} that represents the effectivity controlled assembly definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}}
+      that represents the effectivity controlled assembly definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Effectivity_controlled_assembly_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}} where all {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}} that are related to it by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}} (or subtype) must have an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Manufacturing_configuration_effectivity_arm.Manufacturing_configuration,Manufacturing_configuration}} to be valid for this assembly.
+  - content: An **Effectivity_controlled_assembly_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm.Assembly_definition,Assembly_definition}}
+      where all {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}}
+      that are related to it by a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_relationship_arm.View_definition_usage,View_definition_usage}}
+      (or subtype) must have an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Manufacturing_configuration_effectivity_arm.Manufacturing_configuration,Manufacturing_configuration}}
+      to be valid for this assembly.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
-          version: '6'
-      type: authoritative
-      id: Item_definition_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Item_definition_structure_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Effectivity_controlled_assembly_definition
+  - type: expression
+    normative_status: preferred
+    designation: Effectivity_controlled_assembly_definition
   domain: 'application module: Item_definition_structure_arm'
   language_code: eng
   annotations: []

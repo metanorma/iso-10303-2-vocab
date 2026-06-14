@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_shape_arm.Different_centroid
   localized_concepts:
     eng: 1ba9d1a7-6750-5ecf-bea9-c8d1922a1930
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_shape_arm.Different_centroid
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}} that represents the different centroid {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}}
+      that represents the different centroid {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Different_centroid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}} that asserts that centroids of two compared shape models are different.
+  - content: A **Different_centroid** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm.A3m_equivalence_criterion_of_representative_shape_property_value,A3m_equivalence_criterion_of_representative_shape_property_value}}
+      that asserts that centroids of two compared shape models are different.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_shape_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Different_centroid
+  - type: expression
+    normative_status: preferred
+    designation: Different_centroid
   domain: 'application module: Annotated_3d_model_equivalence_shape_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,32 @@
+---
 data:
   identifier: Qualifications_arm.Qualification_type
   localized_concepts:
     eng: 7175f4be-0cbe-56e0-b69d-5ef7397e20f0
   domains:
-    - concept_id: section-Qualifications_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
-      ref_type: section
+  - concept_id: section-Qualifications_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
+    ref_type: section
 id: Qualifications_arm.Qualification_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualification type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the qualification type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Qualification_type** is the identification of a definitive recognition as a practitioner.
+  - content: A **Qualification_type** is the identification of a definitive recognition
+      as a practitioner.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
-          version: '1'
-      type: authoritative
-      id: Qualifications_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Qualifications_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Qualification_type
+  - type: expression
+    normative_status: preferred
+    designation: Qualification_type
   domain: 'application module: Qualifications_arm'
   language_code: eng
   annotations: []

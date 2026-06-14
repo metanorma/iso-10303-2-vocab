@@ -1,30 +1,36 @@
+---
 data:
   identifier: Product_group_arm.Product_group
   localized_concepts:
     eng: 9f8d27f1-cb7c-5567-aa2b-448076a96e37
   domains:
-    - concept_id: section-Product_group_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
-      ref_type: section
+  - concept_id: section-Product_group_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+    ref_type: section
 id: Product_group_arm.Product_group
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product group {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product group {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_group** is an identification of a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm.Product_concept,Product_concept}}s, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}s, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.Product_group,Product_group}}s, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}s or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual,Product_as_individual}}s that have been grouped together.
+  - content: A **Product_group** is an identification of a set of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_concept_identification_arm.Product_concept,Product_concept}}s,
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_identification_arm.Product,Product}}s,
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm.Product_group,Product_group}}s,
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_version_arm.Product_version,Product_version}}s
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_as_individual_arm.Product_as_individual,Product_as_individual}}s
+      that have been grouped together.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
-          version: '3'
-      type: authoritative
-      id: Product_group_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_group_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_group
+  - type: expression
+    normative_status: preferred
+    designation: Product_group
   domain: 'application module: Product_group_arm'
   language_code: eng
   annotations: []

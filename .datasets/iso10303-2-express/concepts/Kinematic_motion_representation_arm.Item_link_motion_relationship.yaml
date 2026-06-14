@@ -1,29 +1,31 @@
+---
 data:
   identifier: Kinematic_motion_representation_arm.Item_link_motion_relationship
   localized_concepts:
     eng: 5f12c386-1903-5bcf-89ea-4059492d2be4
   domains:
-    - concept_id: section-Kinematic_motion_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-      ref_type: section
+  - concept_id: section-Kinematic_motion_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+    ref_type: section
 id: Kinematic_motion_representation_arm.Item_link_motion_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Link_motion_relationship,Link_motion_relationship}} that represents the item link motion relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Link_motion_relationship,Link_motion_relationship}}
+      that represents the item link motion relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-          version: '3'
-      type: authoritative
-      id: Kinematic_motion_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Item_link_motion_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Item_link_motion_relationship
   domain: 'application module: Kinematic_motion_representation_arm'
   language_code: eng
   annotations: []

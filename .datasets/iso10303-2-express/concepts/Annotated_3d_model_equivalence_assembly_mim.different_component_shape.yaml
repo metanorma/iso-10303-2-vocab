@@ -1,30 +1,33 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_assembly_mim.different_component_shape
   localized_concepts:
     eng: 7d6fa004-ff02-5130-b645-6851c6af9a67
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_assembly_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+    ref_type: section
 id: Annotated_3d_model_equivalence_assembly_mim.different_component_shape
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_component_property_difference,a3m_equivalence_criterion_of_component_property_difference}} that represents the different component shape {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_component_property_difference,a3m_equivalence_criterion_of_component_property_difference}}
+      that represents the different component shape {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **different_component_shape** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_component_property_difference,a3m_equivalence_criterion_of_component_property_difference}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.Different_component_shape,Different_component_shape}}.
+  - content: A **different_component_shape** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim.a3m_equivalence_criterion_of_component_property_difference,a3m_equivalence_criterion_of_component_property_difference}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.Different_component_shape,Different_component_shape}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_assembly_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: different_component_shape
+  - type: expression
+    normative_status: preferred
+    designation: different_component_shape
   domain: 'application module: Annotated_3d_model_equivalence_assembly_mim'
   language_code: eng
   annotations: []

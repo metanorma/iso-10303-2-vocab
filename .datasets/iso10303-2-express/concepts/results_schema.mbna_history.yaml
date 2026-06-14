@@ -1,30 +1,32 @@
+---
 data:
   identifier: results_schema.mbna_history
   localized_concepts:
     eng: aee061c4-7ea9-59c0-afc0-04c12e7526a6
   domains:
-    - concept_id: section-results_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
-      ref_type: section
+  - concept_id: section-results_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+    ref_type: section
 id: results_schema.mbna_history
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema.mbna_result,mbna_result}} that represents the mbna history {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema.mbna_result,mbna_result}}
+      that represents the mbna history {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An *mbna_history* is solver convergence history information.
+  - content: An *mbna_history* is solver convergence history information.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
-          version: '1'
-      type: authoritative
-      id: results_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:results_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mbna_history
+  - type: expression
+    normative_status: preferred
+    designation: mbna_history
   domain: 'resource: results_schema'
   language_code: eng
   annotations: []

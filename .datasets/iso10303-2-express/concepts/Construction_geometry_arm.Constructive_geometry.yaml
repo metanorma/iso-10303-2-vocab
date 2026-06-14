@@ -1,30 +1,34 @@
+---
 data:
   identifier: Construction_geometry_arm.Constructive_geometry
   localized_concepts:
     eng: 45ff23b9-0ebb-572a-871a-72d2cd7f2a2d
   domains:
-    - concept_id: section-Construction_geometry_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
-      ref_type: section
+  - concept_id: section-Construction_geometry_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
+    ref_type: section
 id: Construction_geometry_arm.Constructive_geometry
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the constructive geometry {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm.Representation,Representation}}
+      that represents the constructive geometry {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Constructive_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that contains a collection of geometric elements used to support the definition of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}.
+  - content: A **Constructive_geometry** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}
+      that contains a collection of geometric elements used to support the definition
+      of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
-          version: '7'
-      type: authoritative
-      id: Construction_geometry_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Construction_geometry_arm
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Constructive_geometry
+  - type: expression
+    normative_status: preferred
+    designation: Constructive_geometry
   domain: 'application module: Construction_geometry_arm'
   language_code: eng
   annotations: []

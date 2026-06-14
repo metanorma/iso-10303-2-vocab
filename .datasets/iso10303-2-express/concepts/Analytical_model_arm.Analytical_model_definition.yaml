@@ -1,29 +1,31 @@
+---
 data:
   identifier: Analytical_model_arm.Analytical_model_definition
   localized_concepts:
     eng: 5fdf5aaf-2deb-548d-a1e2-532f5688935f
   domains:
-    - concept_id: section-Analytical_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-      ref_type: section
+  - concept_id: section-Analytical_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+    ref_type: section
 id: Analytical_model_arm.Analytical_model_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Information_product_arm.Information_definition,Information_definition}} that represents the analytical model definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm.Information_definition,Information_definition}}
+      that represents the analytical model definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
-          version: '5'
-      type: authoritative
-      id: Analytical_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analytical_model_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Analytical_model_definition
+  - type: expression
+    normative_status: preferred
+    designation: Analytical_model_definition
   domain: 'application module: Analytical_model_arm'
   language_code: eng
   annotations: []

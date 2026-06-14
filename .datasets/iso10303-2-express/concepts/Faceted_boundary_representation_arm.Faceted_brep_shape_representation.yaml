@@ -1,29 +1,31 @@
+---
 data:
   identifier: Faceted_boundary_representation_arm.Faceted_brep_shape_representation
   localized_concepts:
     eng: 5f50379c-b40c-5065-a9ea-5a081eedac17
   domains:
-    - concept_id: section-Faceted_boundary_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Faceted_boundary_representation_arm
-      ref_type: section
+  - concept_id: section-Faceted_boundary_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Faceted_boundary_representation_arm
+    ref_type: section
 id: Faceted_boundary_representation_arm.Faceted_brep_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the faceted brep shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Faceted_boundary_representation_arm.Geometric_model,Geometric_model}}
+      that represents the faceted brep shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Faceted_boundary_representation_arm
-          version: '2'
-      type: authoritative
-      id: Faceted_boundary_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Faceted_boundary_representation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Faceted_brep_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: Faceted_brep_shape_representation
   domain: 'application module: Faceted_boundary_representation_arm'
   language_code: eng
   annotations: []

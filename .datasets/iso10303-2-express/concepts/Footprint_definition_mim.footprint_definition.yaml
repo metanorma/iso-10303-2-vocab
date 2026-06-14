@@ -1,30 +1,33 @@
+---
 data:
   identifier: Footprint_definition_mim.footprint_definition
   localized_concepts:
     eng: 36fc32a3-37f9-528d-9768-863fa58741be
   domains:
-    - concept_id: section-Footprint_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
-      ref_type: section
+  - concept_id: section-Footprint_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+    ref_type: section
 id: Footprint_definition_mim.footprint_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}} that represents the footprint definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}}
+      that represents the footprint definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **footprint_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}} that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Footprint_definition,Footprint_definition}}.
+  - content: A **footprint_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim.generic_footprint_definition,generic_footprint_definition}}
+      that implements the ARM concepts of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_arm.Footprint_definition,Footprint_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
-          version: '6'
-      type: authoritative
-      id: Footprint_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Footprint_definition_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: footprint_definition
+  - type: expression
+    normative_status: preferred
+    designation: footprint_definition
   domain: 'application module: Footprint_definition_mim'
   language_code: eng
   annotations: []

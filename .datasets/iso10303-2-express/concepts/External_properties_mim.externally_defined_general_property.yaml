@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_properties_mim.externally_defined_general_property
   localized_concepts:
     eng: 2358595f-8305-5941-a3ce-69e6419b67d9
   domains:
-    - concept_id: section-External_properties_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_mim
-      ref_type: section
+  - concept_id: section-External_properties_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_mim
+    ref_type: section
 id: External_properties_mim.externally_defined_general_property
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined general property {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally defined general property {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **externally_defined_general_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_arm.External_library_property,External_library_property}}.
+  - content: An **externally_defined_general_property** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.general_property,general_property}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_arm.External_library_property,External_library_property}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_mim
-          version: '4'
-      type: authoritative
-      id: External_properties_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_properties_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_defined_general_property
+  - type: expression
+    normative_status: preferred
+    designation: externally_defined_general_property
   domain: 'application module: External_properties_mim'
   language_code: eng
   annotations: []

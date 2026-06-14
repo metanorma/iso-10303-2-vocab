@@ -1,30 +1,32 @@
+---
 data:
   identifier: Mesh_topology_arm.Rind
   localized_concepts:
     eng: b8da2e7d-c1e4-54ec-919a-48fbc4530cb8
   domains:
-    - concept_id: section-Mesh_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-      ref_type: section
+  - concept_id: section-Mesh_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+    ref_type: section
 id: Mesh_topology_arm.Rind
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the rind {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the rind {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Rind** is the number of rind planes associated with a structured mesh.
+  - content: A **Rind** is the number of rind planes associated with a structured
+      mesh.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-          version: '2'
-      type: authoritative
-      id: Mesh_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Rind
+  - type: expression
+    normative_status: preferred
+    designation: Rind
   domain: 'application module: Mesh_topology_arm'
   language_code: eng
   annotations: []

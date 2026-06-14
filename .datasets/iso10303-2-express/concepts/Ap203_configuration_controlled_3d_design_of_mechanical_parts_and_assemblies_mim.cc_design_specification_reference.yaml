@@ -1,30 +1,34 @@
+---
 data:
   identifier: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_specification_reference
   localized_concepts:
     eng: 7cd5d88b-833d-5ca0-a57c-8805517c0fd8
   domains:
-    - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      ref_type: section
+  - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    ref_type: section
 id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_specification_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.document_reference,document_reference}} that represents the cc design specification reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.document_reference,document_reference}}
+      that represents the cc design specification reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cc_design_specification_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.document_reference,document_reference}} that relates a reference to a specification to a complete definition of a product or to some aspect of its shape.
+  - content: A **cc_design_specification_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.document_reference,document_reference}}
+      that relates a reference to a specification to a complete definition of a product
+      or to some aspect of its shape.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-          version: '3'
-      type: authoritative
-      id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_specification_reference
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_specification_reference
   domain: 'application module: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim'
   language_code: eng
   annotations: []

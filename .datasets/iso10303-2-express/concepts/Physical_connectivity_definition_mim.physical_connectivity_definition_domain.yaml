@@ -1,31 +1,34 @@
+---
 data:
   identifier: Physical_connectivity_definition_mim.physical_connectivity_definition_domain
   localized_concepts:
-    eng: 0066581c-d213-5750-a9f9-750ee02b00aa
+    eng: '0066581c-d213-5750-a9f9-750ee02b00aa'
   domains:
-    - concept_id: section-Physical_connectivity_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
-      ref_type: section
+  - concept_id: section-Physical_connectivity_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+    ref_type: section
 id: Physical_connectivity_definition_mim.physical_connectivity_definition_domain
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that represents the physical connectivity definition domain {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim.property_definition,property_definition}}
+      that represents the physical connectivity definition domain {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_connectivity_definition_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition_domain,Physical_connectivity_definition_domain}}.
+  - content: A **physical_connectivity_definition_domain** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Physical_connectivity_definition_domain,Physical_connectivity_definition_domain}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
-          version: '5'
-      type: authoritative
-      id: Physical_connectivity_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_connectivity_definition_domain
+  - type: expression
+    normative_status: preferred
+    designation: physical_connectivity_definition_domain
   domain: 'application module: Physical_connectivity_definition_mim'
   language_code: eng
   annotations: []
-id: 0066581c-d213-5750-a9f9-750ee02b00aa
+id: '0066581c-d213-5750-a9f9-750ee02b00aa'

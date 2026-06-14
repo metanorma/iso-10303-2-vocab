@@ -1,30 +1,37 @@
+---
 data:
   identifier: Functional_decomposition_to_design_arm.Design_functional_unit_allocation_to_reference_functional_unit
   localized_concepts:
     eng: 9f7ac52a-85a8-512c-9660-1aab1626bc3e
   domains:
-    - concept_id: section-Functional_decomposition_to_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-      ref_type: section
+  - concept_id: section-Functional_decomposition_to_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+    ref_type: section
 id: Functional_decomposition_to_design_arm.Design_functional_unit_allocation_to_reference_functional_unit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the design functional unit allocation to reference functional unit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the design functional unit allocation to reference
+      functional unit {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Design_functional_unit_allocation_to_reference_functional_unit** is an assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}} to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}} in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Reference_composition_path,Reference_composition_path}} for the functional definition of a product.
+  - content: A **Design_functional_unit_allocation_to_reference_functional_unit**
+      is an assignment of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}}
+      in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Design_composition_path,Design_composition_path}}
+      to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Network_functional_design_view_arm.Functional_unit,Functional_unit}}
+      in a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm.Reference_composition_path,Reference_composition_path}}
+      for the functional definition of a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
-          version: '4'
-      type: authoritative
-      id: Functional_decomposition_to_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_decomposition_to_design_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Design_functional_unit_allocation_to_reference_functional_unit
+  - type: expression
+    normative_status: preferred
+    designation: Design_functional_unit_allocation_to_reference_functional_unit
   domain: 'application module: Functional_decomposition_to_design_arm'
   language_code: eng
   annotations: []

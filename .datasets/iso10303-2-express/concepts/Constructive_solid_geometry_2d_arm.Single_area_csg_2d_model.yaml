@@ -1,30 +1,33 @@
+---
 data:
   identifier: Constructive_solid_geometry_2d_arm.Single_area_csg_2d_model
   localized_concepts:
     eng: c40c2989-41b9-53c4-b7e2-14f18ddba837
   domains:
-    - concept_id: section-Constructive_solid_geometry_2d_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-      ref_type: section
+  - concept_id: section-Constructive_solid_geometry_2d_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+    ref_type: section
 id: Constructive_solid_geometry_2d_arm.Single_area_csg_2d_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Csg_2d_model,Csg_2d_model}} that represents the single area csg 2d model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Csg_2d_model,Csg_2d_model}}
+      that represents the single area csg 2d model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Single_area_csg_2d_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Csg_2d_model,Csg_2d_model}} that describes the area of a simple geometric two-dimensional primitive.
+  - content: A **Single_area_csg_2d_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Csg_2d_model,Csg_2d_model}}
+      that describes the area of a simple geometric two-dimensional primitive.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
-          version: '6'
-      type: authoritative
-      id: Constructive_solid_geometry_2d_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Single_area_csg_2d_model
+  - type: expression
+    normative_status: preferred
+    designation: Single_area_csg_2d_model
   domain: 'application module: Constructive_solid_geometry_2d_arm'
   language_code: eng
   annotations: []

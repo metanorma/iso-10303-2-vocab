@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.surface_with_excessive_patches_in_one_direction
   localized_concepts:
     eng: e47311e2-539f-57a9-a0df-6d8cca0dc397
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.surface_with_excessive_patches_in_one_direction
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.overcomplex_geometry,overcomplex_geometry}} that represents the surface with excessive patches in one direction {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.overcomplex_geometry,overcomplex_geometry}}
+      that represents the surface with excessive patches in one direction {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_with_excessive_patches_in_one_direction
+  - type: expression
+    normative_status: preferred
+    designation: surface_with_excessive_patches_in_one_direction
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

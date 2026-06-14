@@ -1,30 +1,33 @@
+---
 data:
   identifier: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_contract
   localized_concepts:
     eng: e45bc771-9319-570c-a571-a4a45ad1cdee
   domains:
-    - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-      ref_type: section
+  - concept_id: section-Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+    ref_type: section
 id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.cc_design_contract
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that represents the cc design contract {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim.contract_assignment,contract_assignment}}
+      that represents the cc design contract {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cc_design_contract** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}} that relates a contract to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
+  - content: A **cc_design_contract** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.contract_assignment,contract_assignment}}
+      that relates a contract to a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_formation,product_definition_formation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
-          version: '3'
-      type: authoritative
-      id: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cc_design_contract
+  - type: expression
+    normative_status: preferred
+    designation: cc_design_contract
   domain: 'application module: Ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim'
   language_code: eng
   annotations: []

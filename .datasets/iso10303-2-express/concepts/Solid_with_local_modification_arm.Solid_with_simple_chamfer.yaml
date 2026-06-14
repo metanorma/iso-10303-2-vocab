@@ -1,30 +1,34 @@
+---
 data:
   identifier: Solid_with_local_modification_arm.Solid_with_simple_chamfer
   localized_concepts:
     eng: 7d5b2566-a138-52a1-bfa4-8290e1cb2b28
   domains:
-    - concept_id: section-Solid_with_local_modification_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-      ref_type: section
+  - concept_id: section-Solid_with_local_modification_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+    ref_type: section
 id: Solid_with_local_modification_arm.Solid_with_simple_chamfer
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_edge_modification,Solid_with_edge_modification}} that represents the solid with simple chamfer {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_edge_modification,Solid_with_edge_modification}}
+      that represents the solid with simple chamfer {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Solid_with_simple_chamfer** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_edge_modification,Solid_with_edge_modification}} in which the modified edges are chamfered connecting points at equal distances from the modified edge on adjacent faces.
+  - content: A **Solid_with_simple_chamfer** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm.Solid_with_edge_modification,Solid_with_edge_modification}}
+      in which the modified edges are chamfered connecting points at equal distances
+      from the modified edge on adjacent faces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
-          version: '3'
-      type: authoritative
-      id: Solid_with_local_modification_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Solid_with_local_modification_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Solid_with_simple_chamfer
+  - type: expression
+    normative_status: preferred
+    designation: Solid_with_simple_chamfer
   domain: 'application module: Solid_with_local_modification_arm'
   language_code: eng
   annotations: []

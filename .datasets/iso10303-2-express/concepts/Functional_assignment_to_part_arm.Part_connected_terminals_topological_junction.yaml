@@ -1,30 +1,34 @@
+---
 data:
   identifier: Functional_assignment_to_part_arm.Part_connected_terminals_topological_junction
   localized_concepts:
     eng: 0376e121-a8a4-5d04-a5b8-02cb078e6273
   domains:
-    - concept_id: section-Functional_assignment_to_part_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+    ref_type: section
 id: Functional_assignment_to_part_arm.Part_connected_terminals_topological_junction
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part connected terminals topological junction {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part connected terminals topological junction
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_connected_terminals_topological_junction** is used when at least three {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}} are connected and the explicit topology must be stated.
+  - content: A **Part_connected_terminals_topological_junction** is used when at least
+      three {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_terminal,Part_terminal}}
+      are connected and the explicit topology must be stated.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_connected_terminals_topological_junction
+  - type: expression
+    normative_status: preferred
+    designation: Part_connected_terminals_topological_junction
   domain: 'application module: Functional_assignment_to_part_arm'
   language_code: eng
   annotations: []

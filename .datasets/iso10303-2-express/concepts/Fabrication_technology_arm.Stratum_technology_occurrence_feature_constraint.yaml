@@ -1,29 +1,31 @@
+---
 data:
   identifier: Fabrication_technology_arm.Stratum_technology_occurrence_feature_constraint
   localized_concepts:
     eng: 7c541beb-f774-5a6b-b67d-d952f7ae70b7
   domains:
-    - concept_id: section-Fabrication_technology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-      ref_type: section
+  - concept_id: section-Fabrication_technology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+    ref_type: section
 id: Fabrication_technology_arm.Stratum_technology_occurrence_feature_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}} that represents the stratum technology occurrence feature constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology_occurrence_relationship,Stratum_technology_occurrence_relationship}}
+      that represents the stratum technology occurrence feature constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Stratum_technology_occurrence_feature_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Stratum_technology_occurrence_feature_constraint
   domain: 'application module: Fabrication_technology_arm'
   language_code: eng
   annotations: []

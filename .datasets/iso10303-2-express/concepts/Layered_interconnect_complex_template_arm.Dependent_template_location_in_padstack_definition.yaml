@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_complex_template_arm.Dependent_template_location_in_padstack_definition
   localized_concepts:
     eng: 9b3d8f43-be08-5567-965a-6cd2116c3517
   domains:
-    - concept_id: section-Layered_interconnect_complex_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_complex_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+    ref_type: section
 id: Layered_interconnect_complex_template_arm.Dependent_template_location_in_padstack_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Stratum_specific_template_location,Stratum_specific_template_location}} that represents the dependent template location in padstack definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm.Stratum_specific_template_location,Stratum_specific_template_location}}
+      that represents the dependent template location in padstack definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
-          version: '5'
-      type: authoritative
-      id: Layered_interconnect_complex_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_complex_template_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Dependent_template_location_in_padstack_definition
+  - type: expression
+    normative_status: preferred
+    designation: Dependent_template_location_in_padstack_definition
   domain: 'application module: Layered_interconnect_complex_template_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Drawing_structure_and_administration_arm.Drawing_revision
   localized_concepts:
     eng: ba3a7e11-1394-5b40-8320-5424213bf05f
   domains:
-    - concept_id: section-Drawing_structure_and_administration_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_structure_and_administration_arm
-      ref_type: section
+  - concept_id: section-Drawing_structure_and_administration_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_structure_and_administration_arm
+    ref_type: section
 id: Drawing_structure_and_administration_arm.Drawing_revision
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}} that represents the drawing revision {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_structure_and_administration_arm.Representation,Representation}}
+      that represents the drawing revision {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_structure_and_administration_arm
-          version: '1'
-      type: authoritative
-      id: Drawing_structure_and_administration_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Drawing_structure_and_administration_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Drawing_revision
+  - type: expression
+    normative_status: preferred
+    designation: Drawing_revision
   domain: 'application module: Drawing_structure_and_administration_arm'
   language_code: eng
   annotations: []

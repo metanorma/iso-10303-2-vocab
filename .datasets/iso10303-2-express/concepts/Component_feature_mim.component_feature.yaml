@@ -1,30 +1,33 @@
+---
 data:
   identifier: Component_feature_mim.component_feature
   localized_concepts:
     eng: eec57d6e-25e3-55f0-96c4-ba9a0017c697
   domains:
-    - concept_id: section-Component_feature_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-      ref_type: section
+  - concept_id: section-Component_feature_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+    ref_type: section
 id: Component_feature_mim.component_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that represents the component feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim.shape_aspect,shape_aspect}}
+      that represents the component feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **component_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}}.
+  - content: A **component_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_arm.Component_feature,Component_feature}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
-          version: '5'
-      type: authoritative
-      id: Component_feature_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Component_feature_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: component_feature
+  - type: expression
+    normative_status: preferred
+    designation: component_feature
   domain: 'application module: Component_feature_mim'
   language_code: eng
   annotations: []

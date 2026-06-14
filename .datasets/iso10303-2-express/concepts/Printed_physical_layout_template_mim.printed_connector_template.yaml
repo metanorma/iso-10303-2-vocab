@@ -1,30 +1,33 @@
+---
 data:
   identifier: Printed_physical_layout_template_mim.printed_connector_template
   localized_concepts:
     eng: dfc95b6f-f23a-53b8-9659-50accd4487ee
   domains:
-    - concept_id: section-Printed_physical_layout_template_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
-      ref_type: section
+  - concept_id: section-Printed_physical_layout_template_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+    ref_type: section
 id: Printed_physical_layout_template_mim.printed_connector_template
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim.printed_part_template,printed_part_template}} that represents the printed connector template {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim.printed_part_template,printed_part_template}}
+      that represents the printed connector template {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **printed_connector_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim.printed_part_template,printed_part_template}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template,Printed_connector_template}}.
+  - content: A **printed_connector_template** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim.printed_part_template,printed_part_template}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_arm.Printed_connector_template,Printed_connector_template}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
-          version: '6'
-      type: authoritative
-      id: Printed_physical_layout_template_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Printed_physical_layout_template_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: printed_connector_template
+  - type: expression
+    normative_status: preferred
+    designation: printed_connector_template
   domain: 'application module: Printed_physical_layout_template_mim'
   language_code: eng
   annotations: []

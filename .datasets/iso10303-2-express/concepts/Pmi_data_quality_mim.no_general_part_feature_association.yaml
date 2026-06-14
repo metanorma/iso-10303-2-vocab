@@ -1,30 +1,33 @@
+---
 data:
   identifier: Pmi_data_quality_mim.no_general_part_feature_association
   localized_concepts:
     eng: 3cae9c6a-ab48-510d-882c-dac8ee531771
   domains:
-    - concept_id: section-Pmi_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-      ref_type: section
+  - concept_id: section-Pmi_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+    ref_type: section
 id: Pmi_data_quality_mim.no_general_part_feature_association
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}} that represents the no general part feature association {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}}
+      that represents the no general part feature association {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **no_general_part_feature_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.No_general_part_feature_association,No_general_part_feature_association}}.
+  - content: A **no_general_part_feature_association** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim.erroneous_relation_of_pmi_and_feature,erroneous_relation_of_pmi_and_feature}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_arm.No_general_part_feature_association,No_general_part_feature_association}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Pmi_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Pmi_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: no_general_part_feature_association
+  - type: expression
+    normative_status: preferred
+    designation: no_general_part_feature_association
   domain: 'application module: Pmi_data_quality_mim'
   language_code: eng
   annotations: []

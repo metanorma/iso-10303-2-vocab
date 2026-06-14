@@ -1,30 +1,35 @@
+---
 data:
   identifier: Part_feature_location_arm.Usage_concept_usage_relationship
   localized_concepts:
     eng: 137b7dba-5cb4-5c08-ad2a-579e5a2463ab
   domains:
-    - concept_id: section-Part_feature_location_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm
-      ref_type: section
+  - concept_id: section-Part_feature_location_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm
+    ref_type: section
 id: Part_feature_location_arm.Usage_concept_usage_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}} that represents the usage concept usage relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm.Geometric_placement_operation,Geometric_placement_operation}}
+      that represents the usage concept usage relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Usage_concept_usage_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}} A **Usage_concept_usage_relationship** is the association between a {{usage_concept,usage_concept}} as a source and a {{feature_or_non_feature_usage,feature_or_non_feature_usage}} as a target.
+  - content: A **Usage_concept_usage_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}}
+      A **Usage_concept_usage_relationship** is the association between a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm.usage_concept,usage_concept}}
+      as a source and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm.feature_or_non_feature_usage,feature_or_non_feature_usage}}
+      as a target.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm
-          version: '4'
-      type: authoritative
-      id: Part_feature_location_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_location_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Usage_concept_usage_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Usage_concept_usage_relationship
   domain: 'application module: Part_feature_location_arm'
   language_code: eng
   annotations: []

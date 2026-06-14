@@ -1,29 +1,31 @@
+---
 data:
   identifier: Building_structure_arm.Building_level
   localized_concepts:
     eng: ce65c56c-4920-594b-a208-586ae455a12f
   domains:
-    - concept_id: section-Building_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-      ref_type: section
+  - concept_id: section-Building_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+    ref_type: section
 id: Building_structure_arm.Building_level
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the building level {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm.Product_view_definition,Product_view_definition}}
+      that represents the building level {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
-          version: '1'
-      type: authoritative
-      id: Building_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Building_structure_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Building_level
+  - type: expression
+    normative_status: preferred
+    designation: Building_level
   domain: 'application module: Building_structure_arm'
   language_code: eng
   annotations: []

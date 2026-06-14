@@ -1,30 +1,33 @@
+---
 data:
   identifier: domain_schema.grid_coordinates
   localized_concepts:
     eng: 7936835f-8576-5476-ab08-38bd87acb409
   domains:
-    - concept_id: section-domain_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:domain_schema
-      ref_type: section
+  - concept_id: section-domain_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:domain_schema
+    ref_type: section
 id: domain_schema.grid_coordinates
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:analysis_schema.model_property_distribution,model_property_distribution}} that represents the grid coordinates {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:domain_schema.model_property_distribution,model_property_distribution}}
+      that represents the grid coordinates {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *grid_coordinates* is the physical coordinates of the vertices of a mesh.
+  - content: A *grid_coordinates* is the physical coordinates of the vertices of a
+      mesh.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:domain_schema
-          version: '2'
-      type: authoritative
-      id: domain_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:domain_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: grid_coordinates
+  - type: expression
+    normative_status: preferred
+    designation: grid_coordinates
   domain: 'resource: domain_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_resource_schema.draughting_pre_defined_text_font
   localized_concepts:
     eng: 565ce2f5-89da-5bb2-ac87-ff5c57549465
   domains:
-    - concept_id: section-presentation_resource_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-      ref_type: section
+  - concept_id: section-presentation_resource_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+    ref_type: section
 id: presentation_resource_schema.draughting_pre_defined_text_font
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_text_font,pre_defined_text_font}} that represents the draughting pre defined text font {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_text_font,pre_defined_text_font}}
+      that represents the draughting pre defined text font {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **draughting_pre_defined_text_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_text_font,pre_defined_text_font}} that shall be defined by ISO 3098.
+  - content: A **draughting_pre_defined_text_font** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema.pre_defined_text_font,pre_defined_text_font}}
+      that shall be defined by ISO 3098.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-          version: '6'
-      type: authoritative
-      id: presentation_resource_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: draughting_pre_defined_text_font
+  - type: expression
+    normative_status: preferred
+    designation: draughting_pre_defined_text_font
   domain: 'resource: presentation_resource_schema'
   language_code: eng
   annotations: []

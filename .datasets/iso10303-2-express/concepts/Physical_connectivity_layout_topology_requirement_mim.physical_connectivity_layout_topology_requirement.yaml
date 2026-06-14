@@ -1,30 +1,35 @@
+---
 data:
   identifier: Physical_connectivity_layout_topology_requirement_mim.physical_connectivity_layout_topology_requirement
   localized_concepts:
     eng: 86e82693-525c-503b-bdb7-ffced6c80e2e
   domains:
-    - concept_id: section-Physical_connectivity_layout_topology_requirement_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
-      ref_type: section
+  - concept_id: section-Physical_connectivity_layout_topology_requirement_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
+    ref_type: section
 id: Physical_connectivity_layout_topology_requirement_mim.physical_connectivity_layout_topology_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the physical connectivity layout topology requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the physical connectivity layout topology requirement
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_connectivity_layout_topology_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_requirement,Physical_connectivity_layout_topology_requirement}}.
+  - content: A **physical_connectivity_layout_topology_requirement** is a type of
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:group_schema.group,group}} and a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_mim.predefined_requirement_view_definition,predefined_requirement_view_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_arm.Physical_connectivity_layout_topology_requirement,Physical_connectivity_layout_topology_requirement}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
-          version: '1'
-      type: authoritative
-      id: Physical_connectivity_layout_topology_requirement_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_layout_topology_requirement_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_connectivity_layout_topology_requirement
+  - type: expression
+    normative_status: preferred
+    designation: physical_connectivity_layout_topology_requirement
   domain: 'application module: Physical_connectivity_layout_topology_requirement_mim'
   language_code: eng
   annotations: []

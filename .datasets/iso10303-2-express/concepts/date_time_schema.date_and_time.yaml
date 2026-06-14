@@ -1,30 +1,31 @@
+---
 data:
   identifier: date_time_schema.date_and_time
   localized_concepts:
     eng: 7c126adc-781b-5264-9934-8340360aab2d
   domains:
-    - concept_id: section-date_time_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-      ref_type: section
+  - concept_id: section-date_time_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+    ref_type: section
 id: date_time_schema.date_and_time
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the date and time {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the date and time {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **date_and_time** is a moment of time on a particular day.
+  - content: A **date_and_time** is a moment of time on a particular day.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
-          version: '8'
-      type: authoritative
-      id: date_time_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: date_and_time
+  - type: expression
+    normative_status: preferred
+    designation: date_and_time
   domain: 'resource: date_time_schema'
   language_code: eng
   annotations: []

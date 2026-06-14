@@ -1,30 +1,34 @@
+---
 data:
   identifier: Specification_document_arm.Material_specification
   localized_concepts:
     eng: 1cfdb6a7-8460-5ab3-9fce-f3674eefd69c
   domains:
-    - concept_id: section-Specification_document_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-      ref_type: section
+  - concept_id: section-Specification_document_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+    ref_type: section
 id: Specification_document_arm.Material_specification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that represents the material specification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}}
+      that represents the material specification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Material_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}} that specifies properties applicable to raw material, mixtures, or semi-fabricated material that are used in the fabrication of a product.
+  - content: A **Material_specification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm.Specification_definition,Specification_definition}}
+      that specifies properties applicable to raw material, mixtures, or semi-fabricated
+      material that are used in the fabrication of a product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
-          version: '4'
-      type: authoritative
-      id: Specification_document_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Specification_document_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Material_specification
+  - type: expression
+    normative_status: preferred
+    designation: Material_specification
   domain: 'application module: Specification_document_arm'
   language_code: eng
   annotations: []

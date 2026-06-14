@@ -1,30 +1,32 @@
+---
 data:
   identifier: File_identification_mim.document_file
   localized_concepts:
     eng: 97b05fd6-952f-51e0-95b5-bf8d0b31c519
   domains:
-    - concept_id: section-File_identification_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_mim
-      ref_type: section
+  - concept_id: section-File_identification_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_mim
+    ref_type: section
 id: File_identification_mim.document_file
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document file {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the document file {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **document_file** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}} and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  - content: A **document_file** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema.document,document}}
+      and of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_mim
-          version: '4'
-      type: authoritative
-      id: File_identification_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:File_identification_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: document_file
+  - type: expression
+    normative_status: preferred
+    designation: document_file
   domain: 'application module: File_identification_mim'
   language_code: eng
   annotations: []

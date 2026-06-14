@@ -1,30 +1,34 @@
+---
 data:
   identifier: assembly_constraint_schema.fixed_constituent_assembly_constraint
   localized_concepts:
     eng: 8af046a0-302b-5b7f-9e5e-0070d44efa68
   domains:
-    - concept_id: section-assembly_constraint_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
-      ref_type: section
+  - concept_id: section-assembly_constraint_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+    ref_type: section
 id: assembly_constraint_schema.fixed_constituent_assembly_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the fixed constituent assembly constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the fixed constituent assembly constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.fixed_constituent_assembly_constraint,fixed_constituent_assembly_constraint}} is a common subtype of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.assembly_geometric_constraint,assembly_geometric_constraint}} as defined in this document and *fixed_element_geometric_constraint* as defined in clause 7 of ISO 10303.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.fixed_constituent_assembly_constraint,fixed_constituent_assembly_constraint}}
+      is a common subtype of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema.assembly_geometric_constraint,assembly_geometric_constraint}}
+      as defined in this document and *fixed_element_geometric_constraint* as defined
+      in clause 7 of ISO 10303.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
-          version: '3'
-      type: authoritative
-      id: assembly_constraint_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:assembly_constraint_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fixed_constituent_assembly_constraint
+  - type: expression
+    normative_status: preferred
+    designation: fixed_constituent_assembly_constraint
   domain: 'resource: assembly_constraint_schema'
   language_code: eng
   annotations: []

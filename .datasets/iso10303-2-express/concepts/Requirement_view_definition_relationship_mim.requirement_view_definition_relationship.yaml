@@ -1,30 +1,33 @@
+---
 data:
   identifier: Requirement_view_definition_relationship_mim.requirement_view_definition_relationship
   localized_concepts:
     eng: 2cb90a12-590a-57bf-933d-80b99230c8fe
   domains:
-    - concept_id: section-Requirement_view_definition_relationship_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_mim
-      ref_type: section
+  - concept_id: section-Requirement_view_definition_relationship_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_mim
+    ref_type: section
 id: Requirement_view_definition_relationship_mim.requirement_view_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the requirement view definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_mim.product_definition_relationship,product_definition_relationship}}
+      that represents the requirement view definition relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **requirement_view_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}}.
+  - content: A **requirement_view_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_arm.Requirement_view_definition_relationship,Requirement_view_definition_relationship}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_mim
-          version: '4'
-      type: authoritative
-      id: Requirement_view_definition_relationship_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_view_definition_relationship_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: requirement_view_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: requirement_view_definition_relationship
   domain: 'application module: Requirement_view_definition_relationship_mim'
   language_code: eng
   annotations: []

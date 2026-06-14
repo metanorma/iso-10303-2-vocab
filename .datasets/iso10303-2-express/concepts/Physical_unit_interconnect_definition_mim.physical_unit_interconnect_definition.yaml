@@ -1,30 +1,33 @@
+---
 data:
   identifier: Physical_unit_interconnect_definition_mim.physical_unit_interconnect_definition
   localized_concepts:
     eng: 4bcc827a-843b-5afd-9132-1ac5d7b988a2
   domains:
-    - concept_id: section-Physical_unit_interconnect_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
-      ref_type: section
+  - concept_id: section-Physical_unit_interconnect_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
+    ref_type: section
 id: Physical_unit_interconnect_definition_mim.physical_unit_interconnect_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the physical unit interconnect definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim.product_definition,product_definition}}
+      that represents the physical unit interconnect definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **physical_unit_interconnect_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm.Physical_unit_interconnect_definition,Physical_unit_interconnect_definition}}.
+  - content: A **physical_unit_interconnect_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_arm.Physical_unit_interconnect_definition,Physical_unit_interconnect_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
-          version: '4'
-      type: authoritative
-      id: Physical_unit_interconnect_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_interconnect_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: physical_unit_interconnect_definition
+  - type: expression
+    normative_status: preferred
+    designation: physical_unit_interconnect_definition
   domain: 'application module: Physical_unit_interconnect_definition_mim'
   language_code: eng
   annotations: []

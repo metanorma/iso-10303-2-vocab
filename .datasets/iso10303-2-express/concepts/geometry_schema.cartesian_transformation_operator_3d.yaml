@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.cartesian_transformation_operator_3d
   localized_concepts:
     eng: 609bc365-253b-5eaf-931a-7cbfb5f1f7aa
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.cartesian_transformation_operator_3d
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_transformation_operator,cartesian_transformation_operator}} that represents the cartesian transformation operator 3d {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_transformation_operator,cartesian_transformation_operator}}
+      that represents the cartesian transformation operator 3d {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cartesian_transformation_operator_3d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_transformation_operator,cartesian_transformation_operator}}, that defines a geometric transformation in three-dimensional space composed of translation, rotation, mirroring and uniform scaling.
+  - content: A **cartesian_transformation_operator_3d** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.cartesian_transformation_operator,cartesian_transformation_operator}},
+      that defines a geometric transformation in three-dimensional space composed
+      of translation, rotation, mirroring and uniform scaling.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cartesian_transformation_operator_3d
+  - type: expression
+    normative_status: preferred
+    designation: cartesian_transformation_operator_3d
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

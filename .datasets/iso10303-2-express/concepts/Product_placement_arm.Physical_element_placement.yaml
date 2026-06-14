@@ -1,30 +1,33 @@
+---
 data:
   identifier: Product_placement_arm.Physical_element_placement
   localized_concepts:
     eng: 5e7bd061-e21c-51c7-91ab-0fb9646e87bf
   domains:
-    - concept_id: section-Product_placement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
-      ref_type: section
+  - concept_id: section-Product_placement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
+    ref_type: section
 id: Product_placement_arm.Physical_element_placement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm.Occurrence_placement,Occurrence_placement}} that represents the physical element placement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm.Occurrence_placement,Occurrence_placement}}
+      that represents the physical element placement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Physical_element_placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm.Occurrence_placement,Occurrence_placement}} that specifies the placement of an occurrence of a version of physical element.
+  - content: A **Physical_element_placement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm.Occurrence_placement,Occurrence_placement}}
+      that specifies the placement of an occurrence of a version of physical element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
-          version: '5'
-      type: authoritative
-      id: Product_placement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Physical_element_placement
+  - type: expression
+    normative_status: preferred
+    designation: Physical_element_placement
   domain: 'application module: Product_placement_arm'
   language_code: eng
   annotations: []

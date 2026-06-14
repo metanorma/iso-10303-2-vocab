@@ -1,30 +1,31 @@
+---
 data:
   identifier: Part_feature_grouping_arm.Part_linear_array_feature_link
   localized_concepts:
     eng: 8d569f1a-3f41-567e-a4de-e68e92874d76
   domains:
-    - concept_id: section-Part_feature_grouping_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-      ref_type: section
+  - concept_id: section-Part_feature_grouping_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+    ref_type: section
 id: Part_feature_grouping_arm.Part_linear_array_feature_link
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part linear array feature link {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part linear array feature link {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Part_linear_array_feature_link** is a means to associate two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_linear_array_feature,Part_linear_array_feature}}s.
+  - content: A **Part_linear_array_feature_link** is a means to associate two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm.Part_linear_array_feature,Part_linear_array_feature}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
-          version: '3'
-      type: authoritative
-      id: Part_feature_grouping_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_grouping_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_linear_array_feature_link
+  - type: expression
+    normative_status: preferred
+    designation: Part_linear_array_feature_link
   domain: 'application module: Part_feature_grouping_arm'
   language_code: eng
   annotations: []

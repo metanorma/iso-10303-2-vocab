@@ -1,30 +1,33 @@
+---
 data:
   identifier: Extruded_structure_cross_section_mim.cross_sectional_group_shape_element_with_lacing
   localized_concepts:
     eng: d2062f1d-fd6b-5875-a8bf-1375b88fd131
   domains:
-    - concept_id: section-Extruded_structure_cross_section_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
-      ref_type: section
+  - concept_id: section-Extruded_structure_cross_section_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+    ref_type: section
 id: Extruded_structure_cross_section_mim.cross_sectional_group_shape_element_with_lacing
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_group_shape_element,cross_sectional_group_shape_element}} that represents the cross sectional group shape element with lacing {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_group_shape_element,cross_sectional_group_shape_element}}
+      that represents the cross sectional group shape element with lacing {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **cross_sectional_group_shape_element_with_lacing** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_group_shape_element,cross_sectional_group_shape_element}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element_with_lacing,Cross_sectional_group_shape_element_with_lacing}}.
+  - content: A **cross_sectional_group_shape_element_with_lacing** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim.cross_sectional_group_shape_element,cross_sectional_group_shape_element}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element_with_lacing,Cross_sectional_group_shape_element_with_lacing}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
-          version: '2'
-      type: authoritative
-      id: Extruded_structure_cross_section_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: cross_sectional_group_shape_element_with_lacing
+  - type: expression
+    normative_status: preferred
+    designation: cross_sectional_group_shape_element_with_lacing
   domain: 'application module: Extruded_structure_cross_section_mim'
   language_code: eng
   annotations: []

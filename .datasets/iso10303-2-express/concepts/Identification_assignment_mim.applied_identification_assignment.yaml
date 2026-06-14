@@ -1,30 +1,34 @@
+---
 data:
   identifier: Identification_assignment_mim.applied_identification_assignment
   localized_concepts:
     eng: 222603a2-eb8c-5838-a23f-10a8d26b2773
   domains:
-    - concept_id: section-Identification_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim
-      ref_type: section
+  - concept_id: section-Identification_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim
+    ref_type: section
 id: Identification_assignment_mim.applied_identification_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.identification_assignment,identification_assignment}} that represents the applied identification assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim.identification_assignment,identification_assignment}}
+      that represents the applied identification assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_identification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.identification_assignment,identification_assignment}} that assigns an identifier to a set of instances of the entity types listed in {{identification_item,identification_item}}.
+  - content: An **applied_identification_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.identification_assignment,identification_assignment}}
+      that assigns an identifier to a set of instances of the entity types listed
+      in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim.identification_item,identification_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim
-          version: '2'
-      type: authoritative
-      id: Identification_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Identification_assignment_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_identification_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_identification_assignment
   domain: 'application module: Identification_assignment_mim'
   language_code: eng
   annotations: []

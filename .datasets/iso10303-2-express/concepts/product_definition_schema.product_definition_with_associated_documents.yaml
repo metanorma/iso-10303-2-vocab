@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_definition_schema.product_definition_with_associated_documents
   localized_concepts:
     eng: 988af5bf-78fa-5b4f-8786-1852fd2a4e50
   domains:
-    - concept_id: section-product_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-      ref_type: section
+  - concept_id: section-product_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+    ref_type: section
 id: product_definition_schema.product_definition_with_associated_documents
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} that represents the product definition with associated documents {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      that represents the product definition with associated documents {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_with_associated_documents** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}} in which the associated documents participate in the definition of the product.
+  - content: A **product_definition_with_associated_documents** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition,product_definition}}
+      in which the associated documents participate in the definition of the product.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
-          version: '10'
-      type: authoritative
-      id: product_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema
+        version: '10'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_with_associated_documents
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_with_associated_documents
   domain: 'resource: product_definition_schema'
   language_code: eng
   annotations: []

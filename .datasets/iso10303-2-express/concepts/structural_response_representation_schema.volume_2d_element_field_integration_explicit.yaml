@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.volume_2d_element_field_integration_explicit
   localized_concepts:
     eng: 5c3c5721-fa31-5a13-a8f8-16293c12e144
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.volume_2d_element_field_integration_explicit
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the volume 2d element field integration explicit {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the volume 2d element field integration explicit
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.volume_2d_element_field_integration_explicit,volume_2d_element_field_integration_explicit}} is the explicit numerical integration for a volume 2D element.
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.volume_2d_element_field_integration_explicit,volume_2d_element_field_integration_explicit}}
+      is the explicit numerical integration for a volume 2D element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: volume_2d_element_field_integration_explicit
+  - type: expression
+    normative_status: preferred
+    designation: volume_2d_element_field_integration_explicit
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

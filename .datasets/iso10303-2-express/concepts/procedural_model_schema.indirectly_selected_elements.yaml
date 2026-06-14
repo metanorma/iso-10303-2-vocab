@@ -1,30 +1,35 @@
+---
 data:
   identifier: procedural_model_schema.indirectly_selected_elements
   localized_concepts:
     eng: f7e6d00d-092f-5328-bb35-194e4f78ec7f
   domains:
-    - concept_id: section-procedural_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-      ref_type: section
+  - concept_id: section-procedural_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+    ref_type: section
 id: procedural_model_schema.indirectly_selected_elements
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}} that represents the indirectly selected elements {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}}
+      that represents the indirectly selected elements {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.indirectly_selected_elements,indirectly_selected_elements}} is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}} indicating that the explicitly selected element(s) are intended to be representative of some other related element or elements.
+  - content: The entity data type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.indirectly_selected_elements,indirectly_selected_elements}}
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema.user_selected_elements,user_selected_elements}}
+      indicating that the explicitly selected element(s) are intended to be representative
+      of some other related element or elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
-          version: '2'
-      type: authoritative
-      id: procedural_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:procedural_model_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: indirectly_selected_elements
+  - type: expression
+    normative_status: preferred
+    designation: indirectly_selected_elements
   domain: 'resource: procedural_model_schema'
   language_code: eng
   annotations: []

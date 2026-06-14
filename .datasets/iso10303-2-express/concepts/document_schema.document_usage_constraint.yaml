@@ -1,30 +1,33 @@
+---
 data:
   identifier: document_schema.document_usage_constraint
   localized_concepts:
     eng: 201483c3-d89c-5632-9e4d-c7fdff0e6c30
   domains:
-    - concept_id: section-document_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
-      ref_type: section
+  - concept_id: section-document_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+    ref_type: section
 id: document_schema.document_usage_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document usage constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the document usage constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **document_usage_constraint** is an identification of a specific subject area or aspect from within a document and gives the relevant information or text that applies.
+  - content: A **document_usage_constraint** is an identification of a specific subject
+      area or aspect from within a document and gives the relevant information or
+      text that applies.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
-          version: '4'
-      type: authoritative
-      id: document_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:document_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: document_usage_constraint
+  - type: expression
+    normative_status: preferred
+    designation: document_usage_constraint
   domain: 'resource: document_schema'
   language_code: eng
   annotations: []

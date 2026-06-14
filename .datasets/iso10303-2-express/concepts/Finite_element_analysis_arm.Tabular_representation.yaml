@@ -1,29 +1,31 @@
+---
 data:
   identifier: Finite_element_analysis_arm.Tabular_representation
   localized_concepts:
     eng: 89a2f565-8715-5efc-b802-979d924ef383
   domains:
-    - concept_id: section-Finite_element_analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-      ref_type: section
+  - concept_id: section-Finite_element_analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+    ref_type: section
 id: Finite_element_analysis_arm.Tabular_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Analysis_report_representation,Analysis_report_representation}} that represents the tabular representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm.Analysis_report_representation,Analysis_report_representation}}
+      that represents the tabular representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tabular_representation
+  - type: expression
+    normative_status: preferred
+    designation: Tabular_representation
   domain: 'application module: Finite_element_analysis_arm'
   language_code: eng
   annotations: []

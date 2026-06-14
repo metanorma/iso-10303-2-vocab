@@ -1,30 +1,31 @@
+---
 data:
   identifier: Generic_expression_arm.Environment
   localized_concepts:
     eng: 6cb0488c-2960-56c2-b4c4-31f6485594a5
   domains:
-    - concept_id: section-Generic_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-      ref_type: section
+  - concept_id: section-Generic_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+    ref_type: section
 id: Generic_expression_arm.Environment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the environment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the environment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Environment** is an association between syntax and semantics.
+  - content: An **Environment** is an association between syntax and semantics.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-          version: '3'
-      type: authoritative
-      id: Generic_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Environment
+  - type: expression
+    normative_status: preferred
+    designation: Environment
   domain: 'application module: Generic_expression_arm'
   language_code: eng
   annotations: []

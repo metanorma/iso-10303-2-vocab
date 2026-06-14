@@ -1,30 +1,33 @@
+---
 data:
   identifier: Kinematic_motion_representation_arm.Kinematic_path_segment
   localized_concepts:
     eng: 1988075b-b0cf-5fbf-8088-2a5a7e032504
   domains:
-    - concept_id: section-Kinematic_motion_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-      ref_type: section
+  - concept_id: section-Kinematic_motion_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+    ref_type: section
 id: Kinematic_motion_representation_arm.Kinematic_path_segment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the kinematic path segment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the kinematic path segment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Kinematic_path_segment** is either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Path_node,Path_node}} or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Curve_based_path_with_orientation,Curve_based_path_with_orientation}}, which defines one of potentially several segments of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path,Kinematic_path}}.
+  - content: A **Kinematic_path_segment** is either a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Path_node,Path_node}}
+      or a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Curve_based_path_with_orientation,Curve_based_path_with_orientation}},
+      which defines one of potentially several segments of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm.Kinematic_path,Kinematic_path}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
-          version: '3'
-      type: authoritative
-      id: Kinematic_motion_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Kinematic_motion_representation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Kinematic_path_segment
+  - type: expression
+    normative_status: preferred
+    designation: Kinematic_path_segment
   domain: 'application module: Kinematic_motion_representation_arm'
   language_code: eng
   annotations: []

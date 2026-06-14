@@ -1,30 +1,34 @@
+---
 data:
   identifier: aic_manifold_subsurface.manifold_subsurface_shape_representation
   localized_concepts:
     eng: 656f9b0b-227f-51ca-a207-396fd7bbe91d
   domains:
-    - concept_id: section-aic_manifold_subsurface
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_manifold_subsurface
-      ref_type: section
+  - concept_id: section-aic_manifold_subsurface
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_manifold_subsurface
+    ref_type: section
 id: aic_manifold_subsurface.manifold_subsurface_shape_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the manifold subsurface shape representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_manifold_subsurface.shape_representation,shape_representation}}
+      that represents the manifold subsurface shape representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **manifold_subsurface_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} in which the shape of a product is represented by specialisations of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_face_sub_set,connected_face_sub_set}} entities.
+  - content: A **manifold_subsurface_shape_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      in which the shape of a product is represented by specialisations of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.connected_face_sub_set,connected_face_sub_set}}
+      entities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_manifold_subsurface
-          version: '2'
-      type: authoritative
-      id: aic_manifold_subsurface
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:aic_manifold_subsurface
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: manifold_subsurface_shape_representation
+  - type: expression
+    normative_status: preferred
+    designation: manifold_subsurface_shape_representation
   domain: 'resource: aic_manifold_subsurface'
   language_code: eng
   annotations: []

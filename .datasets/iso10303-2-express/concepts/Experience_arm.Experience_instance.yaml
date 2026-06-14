@@ -1,30 +1,33 @@
+---
 data:
   identifier: Experience_arm.Experience_instance
   localized_concepts:
     eng: 67d6f7ee-90fc-560d-83d9-c8c9a610282d
   domains:
-    - concept_id: section-Experience_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
-      ref_type: section
+  - concept_id: section-Experience_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+    ref_type: section
 id: Experience_arm.Experience_instance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the experience instance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the experience instance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Experience_instance** is a particular eposide of contact with and/or observation of facts or events which contributes to the accumulation of knowledge or skill.
+  - content: An **Experience_instance** is a particular eposide of contact with and/or
+      observation of facts or events which contributes to the accumulation of knowledge
+      or skill.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
-          version: '1'
-      type: authoritative
-      id: Experience_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Experience_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Experience_instance
+  - type: expression
+    normative_status: preferred
+    designation: Experience_instance
   domain: 'application module: Experience_arm'
   language_code: eng
   annotations: []

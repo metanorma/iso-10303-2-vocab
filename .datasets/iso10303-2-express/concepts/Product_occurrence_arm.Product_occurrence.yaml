@@ -1,29 +1,31 @@
+---
 data:
   identifier: Product_occurrence_arm.Product_occurrence
   localized_concepts:
     eng: eaabcf44-46a6-568b-bd35-ebc40930f790
   domains:
-    - concept_id: section-Product_occurrence_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
-      ref_type: section
+  - concept_id: section-Product_occurrence_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+    ref_type: section
 id: Product_occurrence_arm.Product_occurrence
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that represents the product occurrence {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_view_definition,Product_view_definition}}
+      that represents the product occurrence {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
-          version: '5'
-      type: authoritative
-      id: Product_occurrence_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_occurrence
+  - type: expression
+    normative_status: preferred
+    designation: Product_occurrence
   domain: 'application module: Product_occurrence_arm'
   language_code: eng
   annotations: []

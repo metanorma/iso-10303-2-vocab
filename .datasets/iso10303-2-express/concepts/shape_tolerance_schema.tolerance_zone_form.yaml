@@ -1,30 +1,31 @@
+---
 data:
   identifier: shape_tolerance_schema.tolerance_zone_form
   localized_concepts:
     eng: 2ba81cd9-0855-5b84-bbec-f6a3fdbfe40f
   domains:
-    - concept_id: section-shape_tolerance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-      ref_type: section
+  - concept_id: section-shape_tolerance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+    ref_type: section
 id: shape_tolerance_schema.tolerance_zone_form
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tolerance zone form {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tolerance zone form {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **tolerance_zone_form** is a description of the shape of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone,tolerance_zone}}.
+  - content: A **tolerance_zone_form** is a description of the shape of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema.tolerance_zone,tolerance_zone}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
-          version: '8'
-      type: authoritative
-      id: shape_tolerance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_tolerance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tolerance_zone_form
+  - type: expression
+    normative_status: preferred
+    designation: tolerance_zone_form
   domain: 'resource: shape_tolerance_schema'
   language_code: eng
   annotations: []

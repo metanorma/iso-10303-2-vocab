@@ -1,30 +1,34 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.Non_manifold_at_triangle_vertex
   localized_concepts:
     eng: 19e06a64-8c8e-5a55-b76f-26f42f6f12c1
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.Non_manifold_at_triangle_vertex
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that represents the non manifold at triangle vertex {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}}
+      that represents the non manifold at triangle vertex {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Non_manifold_at_triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}} that asserts that all of the triangles connected to the identified triangle_vertex form a non-manifold surface.
+  - content: A **Non_manifold_at_triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.A3m_erroneous_triangulated_shape_data,A3m_erroneous_triangulated_shape_data}}
+      that asserts that all of the triangles connected to the identified triangle_vertex
+      form a non-manifold surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Non_manifold_at_triangle_vertex
+  - type: expression
+    normative_status: preferred
+    designation: Non_manifold_at_triangle_vertex
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

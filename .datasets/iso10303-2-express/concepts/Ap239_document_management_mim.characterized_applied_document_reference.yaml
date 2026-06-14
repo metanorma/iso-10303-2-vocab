@@ -1,30 +1,32 @@
+---
 data:
   identifier: Ap239_document_management_mim.characterized_applied_document_reference
   localized_concepts:
     eng: 1de8959a-86c7-5c18-9c49-d6001be7cd67
   domains:
-    - concept_id: section-Ap239_document_management_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
-      ref_type: section
+  - concept_id: section-Ap239_document_management_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
+    ref_type: section
 id: Ap239_document_management_mim.characterized_applied_document_reference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the characterized applied document reference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the characterized applied document reference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **characterized_applied_document_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim.applied_document_reference,applied_document_reference}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
+  - content: A **characterized_applied_document_reference** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_assignment_mim.applied_document_reference,applied_document_reference}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
-          version: '4'
-      type: authoritative
-      id: Ap239_document_management_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Ap239_document_management_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: characterized_applied_document_reference
+  - type: expression
+    normative_status: preferred
+    designation: characterized_applied_document_reference
   domain: 'application module: Ap239_document_management_mim'
   language_code: eng
   annotations: []

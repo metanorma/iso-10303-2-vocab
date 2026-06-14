@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_environment_definition_mim.environment_view_definition_relationship
   localized_concepts:
     eng: 6c954e23-4ac9-5493-a134-cf0e3336e493
   domains:
-    - concept_id: section-Product_environment_definition_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
-      ref_type: section
+  - concept_id: section-Product_environment_definition_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+    ref_type: section
 id: Product_environment_definition_mim.environment_view_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents the environment view definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.product_definition_relationship,product_definition_relationship}}
+      that represents the environment view definition relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **environment_view_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}} that represents an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.environment_definition_view,environment_definition_view}} objects.
+  - content: An **environment_view_definition_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product_definition_relationship,product_definition_relationship}}
+      that represents an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim.environment_definition_view,environment_definition_view}}
+      objects.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
-          version: '4'
-      type: authoritative
-      id: Product_environment_definition_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_definition_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: environment_view_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: environment_view_definition_relationship
   domain: 'application module: Product_environment_definition_mim'
   language_code: eng
   annotations: []

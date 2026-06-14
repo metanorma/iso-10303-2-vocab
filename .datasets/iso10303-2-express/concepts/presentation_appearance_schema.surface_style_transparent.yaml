@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_appearance_schema.surface_style_transparent
   localized_concepts:
     eng: d57e42ba-b236-5892-bb0b-5d5bdb4195c0
   domains:
-    - concept_id: section-presentation_appearance_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-      ref_type: section
+  - concept_id: section-presentation_appearance_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+    ref_type: section
 id: presentation_appearance_schema.surface_style_transparent
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the surface style transparent {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the surface style transparent {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **surface_style_transparent** is the surface rendering property that specifies the degree of transparency of a surface.
+  - content: A **surface_style_transparent** is the surface rendering property that
+      specifies the degree of transparency of a surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
-          version: '8'
-      type: authoritative
-      id: presentation_appearance_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_style_transparent
+  - type: expression
+    normative_status: preferred
+    designation: surface_style_transparent
   domain: 'resource: presentation_appearance_schema'
   language_code: eng
   annotations: []

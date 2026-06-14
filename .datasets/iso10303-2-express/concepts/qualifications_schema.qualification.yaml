@@ -1,30 +1,32 @@
+---
 data:
   identifier: qualifications_schema.qualification
   localized_concepts:
     eng: 8809a0ec-7839-57cf-a26c-3dd4dc5b465a
   domains:
-    - concept_id: section-qualifications_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
-      ref_type: section
+  - concept_id: section-qualifications_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+    ref_type: section
 id: qualifications_schema.qualification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the qualification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the qualification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **qualification** is a particular instance of the formal identification of a capability or aptitude in a specific person or organization.
+  - content: A **qualification** is a particular instance of the formal identification
+      of a capability or aptitude in a specific person or organization.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
-          version: '6'
-      type: authoritative
-      id: qualifications_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:qualifications_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: qualification
+  - type: expression
+    normative_status: preferred
+    designation: qualification
   domain: 'resource: qualifications_schema'
   language_code: eng
   annotations: []

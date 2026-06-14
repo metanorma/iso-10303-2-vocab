@@ -1,30 +1,32 @@
+---
 data:
   identifier: sketch_schema.positioned_sketch
   localized_concepts:
     eng: 59ceafbd-bfc3-55be-964a-b704e4c21cbc
   domains:
-    - concept_id: section-sketch_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-      ref_type: section
+  - concept_id: section-sketch_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+    ref_type: section
 id: sketch_schema.positioned_sketch
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the positioned sketch {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the positioned sketch {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: The entity data type *positioned_sketch* is a type of *geometric_representation_item*.
+  - content: The entity data type *positioned_sketch* is a type of *geometric_representation_item*.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
-          version: '4'
-      type: authoritative
-      id: sketch_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:sketch_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: positioned_sketch
+  - type: expression
+    normative_status: preferred
+    designation: positioned_sketch
   domain: 'resource: sketch_schema'
   language_code: eng
   annotations: []

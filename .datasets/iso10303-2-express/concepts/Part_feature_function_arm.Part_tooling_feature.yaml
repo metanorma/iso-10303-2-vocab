@@ -1,29 +1,31 @@
+---
 data:
   identifier: Part_feature_function_arm.Part_tooling_feature
   localized_concepts:
     eng: 26bd876b-2962-5637-9b0e-8d4577299c40
   domains:
-    - concept_id: section-Part_feature_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-      ref_type: section
+  - concept_id: section-Part_feature_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+    ref_type: section
 id: Part_feature_function_arm.Part_tooling_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_unit_usage_view_arm.Part_feature,Part_feature}} that represents the part tooling feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm.Part_feature,Part_feature}}
+      that represents the part tooling feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
-          version: '4'
-      type: authoritative
-      id: Part_feature_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Part_feature_function_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Part_tooling_feature
+  - type: expression
+    normative_status: preferred
+    designation: Part_tooling_feature
   domain: 'application module: Part_feature_function_arm'
   language_code: eng
   annotations: []

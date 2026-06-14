@@ -1,30 +1,32 @@
+---
 data:
   identifier: state_type_schema.state_type_assignment
   localized_concepts:
     eng: 64c875de-ce1c-5fcf-ab3c-72780166a605
   domains:
-    - concept_id: section-state_type_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
-      ref_type: section
+  - concept_id: section-state_type_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+    ref_type: section
 id: state_type_schema.state_type_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the state type assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the state type assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **state_type_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}} with product or activity data.
+  - content: A **state_type_assignment** is an association of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema.state_type,state_type}}
+      with product or activity data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
-          version: '1'
-      type: authoritative
-      id: state_type_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:state_type_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: state_type_assignment
+  - type: expression
+    normative_status: preferred
+    designation: state_type_assignment
   domain: 'resource: state_type_schema'
   language_code: eng
   annotations: []

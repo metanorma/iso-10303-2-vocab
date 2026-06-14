@@ -1,30 +1,32 @@
+---
 data:
   identifier: Appearance_assignment_arm.Appearance_assignment
   localized_concepts:
     eng: 3b07aa51-c7d5-5632-9503-1003fa7b8222
   domains:
-    - concept_id: section-Appearance_assignment_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-      ref_type: section
+  - concept_id: section-Appearance_assignment_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+    ref_type: section
 id: Appearance_assignment_arm.Appearance_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the appearance assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the appearance assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Appearance_assignment** is the identification of the characteristics of visual appearance of geometric or annotation elements.
+  - content: An **Appearance_assignment** is the identification of the characteristics
+      of visual appearance of geometric or annotation elements.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
-          version: '9'
-      type: authoritative
-      id: Appearance_assignment_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Appearance_assignment_arm
+        version: '9'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Appearance_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Appearance_assignment
   domain: 'application module: Appearance_assignment_arm'
   language_code: eng
   annotations: []

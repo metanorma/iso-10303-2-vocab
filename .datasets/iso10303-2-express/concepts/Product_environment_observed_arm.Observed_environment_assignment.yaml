@@ -1,30 +1,32 @@
+---
 data:
   identifier: Product_environment_observed_arm.Observed_environment_assignment
   localized_concepts:
     eng: 4d811ca1-5014-5adf-8f37-6ec7c770b1bf
   domains:
-    - concept_id: section-Product_environment_observed_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-      ref_type: section
+  - concept_id: section-Product_environment_observed_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+    ref_type: section
 id: Product_environment_observed_arm.Observed_environment_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the observed environment assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the observed environment assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Observed_environment_assignment** is an assignment of a product or product related items to the environment in which it is or has operated.
+  - content: An **Observed_environment_assignment** is an assignment of a product
+      or product related items to the environment in which it is or has operated.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
-          version: '4'
-      type: authoritative
-      id: Product_environment_observed_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_environment_observed_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Observed_environment_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Observed_environment_assignment
   domain: 'application module: Product_environment_observed_arm'
   language_code: eng
   annotations: []

@@ -1,29 +1,31 @@
+---
 data:
   identifier: Schematic_element_arm.Explicit_schematic_element_definition
   localized_concepts:
     eng: 3e815e08-0a57-5375-a1a5-d6af5070bf26
   domains:
-    - concept_id: section-Schematic_element_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm
-      ref_type: section
+  - concept_id: section-Schematic_element_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm
+    ref_type: section
 id: Schematic_element_arm.Explicit_schematic_element_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm.Schematic_element_definition,Schematic_element_definition}} that represents the explicit schematic element definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm.Schematic_element_definition,Schematic_element_definition}}
+      that represents the explicit schematic element definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm
-          version: '1'
-      type: authoritative
-      id: Schematic_element_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_element_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Explicit_schematic_element_definition
+  - type: expression
+    normative_status: preferred
+    designation: Explicit_schematic_element_definition
   domain: 'application module: Schematic_element_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Composite_constituent_shape_mim.composite_sheet_representation
   localized_concepts:
     eng: 0e3f8923-577b-5f78-a5d7-0d219615d1c1
   domains:
-    - concept_id: section-Composite_constituent_shape_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_mim
-      ref_type: section
+  - concept_id: section-Composite_constituent_shape_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_mim
+    ref_type: section
 id: Composite_constituent_shape_mim.composite_sheet_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that represents the composite sheet representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_mim.shape_representation,shape_representation}}
+      that represents the composite sheet representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **composite_sheet_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm.Composite_sheet_representation,Composite_sheet_representation}}.
+  - content: A **composite_sheet_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_representation_schema.shape_representation,shape_representation}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_arm.Composite_sheet_representation,Composite_sheet_representation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_mim
-          version: '7'
-      type: authoritative
-      id: Composite_constituent_shape_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Composite_constituent_shape_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: composite_sheet_representation
+  - type: expression
+    normative_status: preferred
+    designation: composite_sheet_representation
   domain: 'application module: Composite_constituent_shape_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Dimension_tolerance_arm.Tolerance_range
   localized_concepts:
     eng: fee7d74b-d256-5737-a882-d0ed37860704
   domains:
-    - concept_id: section-Dimension_tolerance_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-      ref_type: section
+  - concept_id: section-Dimension_tolerance_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+    ref_type: section
 id: Dimension_tolerance_arm.Tolerance_range
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tolerance range {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tolerance range {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tolerance_range** is a pair of numbers representing the range in which a {{dimension_value,dimension_value}} shall lie.
+  - content: A **Tolerance_range** is a pair of numbers representing the range in
+      which a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm.Geometric_dimension.dimension_value,dimension_value}}
+      shall lie.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
-          version: '8'
-      type: authoritative
-      id: Dimension_tolerance_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_arm
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tolerance_range
+  - type: expression
+    normative_status: preferred
+    designation: Tolerance_range
   domain: 'application module: Dimension_tolerance_arm'
   language_code: eng
   annotations: []

@@ -1,36 +1,37 @@
+---
 data:
   identifier: Set_theory_arm.Same_membership
   localized_concepts:
     eng: 8fb7c04f-c8b8-576b-9ddb-e9ba263826f9
   domains:
-    - concept_id: section-Set_theory_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-      ref_type: section
+  - concept_id: section-Set_theory_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+    ref_type: section
 id: Set_theory_arm.Same_membership
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the same membership {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the same membership {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **Same_membership** is a relationship that is between:
+  - content: |-
+      A **Same_membership** is a relationship that is between:
 
-        * set stem:[S_1], and
-        * set stem:[S_2],
+      * set stem:[S_1], and
+      * set stem:[S_2],
 
-        that indicates the sets have the same members, that is they are equal.
+      that indicates the sets have the same members, that is they are equal.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
-          version: '1'
-      type: authoritative
-      id: Set_theory_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Set_theory_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Same_membership
+  - type: expression
+    normative_status: preferred
+    designation: Same_membership
   domain: 'application module: Set_theory_arm'
   language_code: eng
   annotations: []

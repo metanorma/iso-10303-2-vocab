@@ -1,30 +1,33 @@
+---
 data:
   identifier: structural_response_representation_schema.volume_element_location
   localized_concepts:
     eng: 7f4196ad-0c41-5a71-96d7-ad0af0c7a63f
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.volume_element_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the volume element location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the volume element location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.volume_element_location,volume_element_location}} is a location within a volume element, and specifies its parametric coordinates stem:[xi], stem:[eta] and stem:[zeta].
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.volume_element_location,volume_element_location}}
+      is a location within a volume element, and specifies its parametric coordinates
+      stem:[xi], stem:[eta] and stem:[zeta].
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: volume_element_location
+  - type: expression
+    normative_status: preferred
+    designation: volume_element_location
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

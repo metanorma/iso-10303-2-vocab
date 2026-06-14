@@ -1,30 +1,35 @@
+---
 data:
   identifier: Date_time_assignment_mim.applied_date_assignment
   localized_concepts:
     eng: 91d6638a-ad9a-5764-9339-1b4f7355a775
   domains:
-    - concept_id: section-Date_time_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim
-      ref_type: section
+  - concept_id: section-Date_time_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim
+    ref_type: section
 id: Date_time_assignment_mim.applied_date_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_assignment,date_assignment}} that represents the applied date assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim.date_assignment,date_assignment}}
+      that represents the applied date assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_date_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_assignment,date_assignment}} that assigns a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}} to instances of entity data types listed in {{date_item,date_item}} and its extensions.
+  - content: An **applied_date_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.date_assignment,date_assignment}}
+      that assigns a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.date,date}}
+      to instances of entity data types listed in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim.date_item,date_item}}
+      and its extensions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim
-          version: '2'
-      type: authoritative
-      id: Date_time_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Date_time_assignment_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_date_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_date_assignment
   domain: 'application module: Date_time_assignment_mim'
   language_code: eng
   annotations: []

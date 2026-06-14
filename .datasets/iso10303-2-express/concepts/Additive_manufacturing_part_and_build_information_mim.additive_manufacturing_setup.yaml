@@ -1,30 +1,33 @@
+---
 data:
   identifier: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup
   localized_concepts:
     eng: 76fe2f9e-b893-5e86-8900-3b96d6cb5207
   domains:
-    - concept_id: section-Additive_manufacturing_part_and_build_information_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-      ref_type: section
+  - concept_id: section-Additive_manufacturing_part_and_build_information_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+    ref_type: section
 id: Additive_manufacturing_part_and_build_information_mim.additive_manufacturing_setup
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} that represents the additive manufacturing setup {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim.product,product}}
+      that represents the additive manufacturing setup {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **additive_manufacturing_setup** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}} that specifies the setup for one or more workpieces.
+  - content: An **additive_manufacturing_setup** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.product,product}}
+      that specifies the setup for one or more workpieces.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
-          version: '2'
-      type: authoritative
-      id: Additive_manufacturing_part_and_build_information_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Additive_manufacturing_part_and_build_information_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: additive_manufacturing_setup
+  - type: expression
+    normative_status: preferred
+    designation: additive_manufacturing_setup
   domain: 'application module: Additive_manufacturing_part_and_build_information_mim'
   language_code: eng
   annotations: []

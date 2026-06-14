@@ -1,30 +1,35 @@
+---
 data:
   identifier: Event_assignment_mim.applied_event_occurrence_assignment
   localized_concepts:
     eng: 18f24863-a4a8-5438-8aa0-7ae55ccece80
   domains:
-    - concept_id: section-Event_assignment_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim
-      ref_type: section
+  - concept_id: section-Event_assignment_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim
+    ref_type: section
 id: Event_assignment_mim.applied_event_occurrence_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.event_occurrence_assignment,event_occurrence_assignment}} that represents the applied event occurrence assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim.event_occurrence_assignment,event_occurrence_assignment}}
+      that represents the applied event occurrence assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_event_occurrence_assignment** is a type of {{event_occurrence_item,event_occurrence_item}} that assigns an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}} to an {{event_occurrence_item,event_occurrence_item}} .
+  - content: An **applied_event_occurrence_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim.event_occurrence_item,event_occurrence_item}}
+      that assigns an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:date_time_schema.event_occurrence,event_occurrence}}
+      to an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim.event_occurrence_item,event_occurrence_item}}
+      .
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim
-          version: '1'
-      type: authoritative
-      id: Event_assignment_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Event_assignment_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_event_occurrence_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_event_occurrence_assignment
   domain: 'application module: Event_assignment_mim'
   language_code: eng
   annotations: []

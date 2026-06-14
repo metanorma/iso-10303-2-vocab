@@ -1,30 +1,35 @@
+---
 data:
   identifier: mesh_connectivity_schema.matched_mesh_connection
   localized_concepts:
     eng: 9a836626-3b27-5d2e-baf9-c1081449e96f
   domains:
-    - concept_id: section-mesh_connectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-      ref_type: section
+  - concept_id: section-mesh_connectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+    ref_type: section
 id: mesh_connectivity_schema.matched_mesh_connection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mesh_connectivity,mesh_connectivity}} that represents the matched mesh connection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.mesh_connectivity,mesh_connectivity}}
+      that represents the matched mesh connection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.matched_mesh_connection,matched_mesh_connection}} contains connectivity information for a mesh interface patch that is abutting with 1-to-1 matching between adjacent structured mesh indices (also referred to as C0 connectivity).
+  - content: A {{urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema.matched_mesh_connection,matched_mesh_connection}}
+      contains connectivity information for a mesh interface patch that is abutting
+      with 1-to-1 matching between adjacent structured mesh indices (also referred
+      to as C0 connectivity).
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
-          version: '3'
-      type: authoritative
-      id: mesh_connectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:mesh_connectivity_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: matched_mesh_connection
+  - type: expression
+    normative_status: preferred
+    designation: matched_mesh_connection
   domain: 'resource: mesh_connectivity_schema'
   language_code: eng
   annotations: []

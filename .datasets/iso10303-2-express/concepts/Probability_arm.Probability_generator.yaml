@@ -1,29 +1,31 @@
+---
 data:
   identifier: Probability_arm.Probability_generator
   localized_concepts:
     eng: 77450dc3-d7be-57f7-9742-369e352438a6
   domains:
-    - concept_id: section-Probability_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
-      ref_type: section
+  - concept_id: section-Probability_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
+    ref_type: section
 id: Probability_arm.Probability_generator
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} that represents the probability generator {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm.Representation_item,Representation_item}}
+      that represents the probability generator {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
-          version: '3'
-      type: authoritative
-      id: Probability_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Probability_generator
+  - type: expression
+    normative_status: preferred
+    designation: Probability_generator
   domain: 'application module: Probability_arm'
   language_code: eng
   annotations: []

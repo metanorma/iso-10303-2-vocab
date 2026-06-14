@@ -1,30 +1,34 @@
+---
 data:
   identifier: risk_schema.contained_acceptance
   localized_concepts:
     eng: 27b94a13-b539-556b-9e04-94afd9321c32
   domains:
-    - concept_id: section-risk_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-      ref_type: section
+  - concept_id: section-risk_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+    ref_type: section
 id: risk_schema.contained_acceptance
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that represents the contained acceptance {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that represents the contained acceptance {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **contained_acceptance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}} that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_acceptance,risk_acceptance}} with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_control,risk_control}}.
+  - content: A **contained_acceptance** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_activity_structure,risk_activity_structure}}
+      that associates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_acceptance,risk_acceptance}}
+      with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema.risk_control,risk_control}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
-          version: '1'
-      type: authoritative
-      id: risk_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:risk_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: contained_acceptance
+  - type: expression
+    normative_status: preferred
+    designation: contained_acceptance
   domain: 'resource: risk_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: effectivity_schema.condition
   localized_concepts:
     eng: 2bcb79f1-e725-5d00-9da9-f178feceb7c3
   domains:
-    - concept_id: section-effectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-      ref_type: section
+  - concept_id: section-effectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+    ref_type: section
 id: effectivity_schema.condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that represents the condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.action_method,action_method}}
+      that represents the condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}} that must be fulfilled before a statement or relationship becomes valid.
+  - content: A **condition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:action_schema.action_method,action_method}}
+      that must be fulfilled before a statement or relationship becomes valid.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-          version: '8'
-      type: authoritative
-      id: effectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: condition
+  - type: expression
+    normative_status: preferred
+    designation: condition
   domain: 'resource: effectivity_schema'
   language_code: eng
   annotations: []

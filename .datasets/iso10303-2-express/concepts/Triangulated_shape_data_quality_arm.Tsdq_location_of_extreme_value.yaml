@@ -1,30 +1,32 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_arm.Tsdq_location_of_extreme_value
   localized_concepts:
     eng: 4cd36cee-af23-5b19-9cee-64637f175fb0
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+    ref_type: section
 id: Triangulated_shape_data_quality_arm.Tsdq_location_of_extreme_value
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the tsdq location of extreme value {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the tsdq location of extreme value {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Tsdq_location_of_extreme_value** is the assignment of a location of extreme value to a triangulate shape element.
+  - content: A **Tsdq_location_of_extreme_value** is the assignment of a location
+      of extreme value to a triangulate shape element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Tsdq_location_of_extreme_value
+  - type: expression
+    normative_status: preferred
+    designation: Tsdq_location_of_extreme_value
   domain: 'application module: Triangulated_shape_data_quality_arm'
   language_code: eng
   annotations: []

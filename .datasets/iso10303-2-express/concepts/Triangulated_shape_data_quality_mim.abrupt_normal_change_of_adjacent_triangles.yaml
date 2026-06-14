@@ -1,30 +1,33 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.abrupt_normal_change_of_adjacent_triangles
   localized_concepts:
     eng: c1144421-059a-5e76-8130-6950556b4a49
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.abrupt_normal_change_of_adjacent_triangles
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that represents the abrupt normal change of adjacent triangles {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that represents the abrupt normal change of adjacent triangles {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **abrupt_normal_change_of_adjacent_triangles** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Abrupt_normal_change_of_adjacent_triangles,Abrupt_normal_change_of_adjacent_triangles}}.
+  - content: An **abrupt_normal_change_of_adjacent_triangles** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_inapt_triangulated_shape_data,a3m_inapt_triangulated_shape_data}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_arm.Abrupt_normal_change_of_adjacent_triangles,Abrupt_normal_change_of_adjacent_triangles}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: abrupt_normal_change_of_adjacent_triangles
+  - type: expression
+    normative_status: preferred
+    designation: abrupt_normal_change_of_adjacent_triangles
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

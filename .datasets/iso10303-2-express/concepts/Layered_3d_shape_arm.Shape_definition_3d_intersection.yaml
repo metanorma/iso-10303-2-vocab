@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_3d_shape_arm.Shape_definition_3d_intersection
   localized_concepts:
     eng: 920d718d-4fa4-5794-9428-a0d3381133bc
   domains:
-    - concept_id: section-Layered_3d_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_arm
-      ref_type: section
+  - concept_id: section-Layered_3d_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_arm
+    ref_type: section
 id: Layered_3d_shape_arm.Shape_definition_3d_intersection
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Geometric_model_relationship_arm.Geometric_model_relationship,Geometric_model_relationship}} that represents the shape definition 3d intersection {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_arm.Geometric_model_relationship,Geometric_model_relationship}}
+      that represents the shape definition 3d intersection {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_arm
-          version: '2'
-      type: authoritative
-      id: Layered_3d_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_3d_shape_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Shape_definition_3d_intersection
+  - type: expression
+    normative_status: preferred
+    designation: Shape_definition_3d_intersection
   domain: 'application module: Layered_3d_shape_arm'
   language_code: eng
   annotations: []

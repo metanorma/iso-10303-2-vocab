@@ -1,30 +1,32 @@
+---
 data:
   identifier: Condition_evaluation_arm.Condition_evaluation_relationship
   localized_concepts:
     eng: b9965d9b-ec99-5ccb-b5fa-03905c6d537e
   domains:
-    - concept_id: section-Condition_evaluation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
-      ref_type: section
+  - concept_id: section-Condition_evaluation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+    ref_type: section
 id: Condition_evaluation_arm.Condition_evaluation_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition evaluation relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the condition evaluation relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Condition_evaluation_relationship** is a relationship between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm.Condition_evaluation,Condition_evaluation}}s.
+  - content: A **Condition_evaluation_relationship** is a relationship between two
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm.Condition_evaluation,Condition_evaluation}}s.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
-          version: '2'
-      type: authoritative
-      id: Condition_evaluation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_evaluation_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Condition_evaluation_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Condition_evaluation_relationship
   domain: 'application module: Condition_evaluation_arm'
   language_code: eng
   annotations: []

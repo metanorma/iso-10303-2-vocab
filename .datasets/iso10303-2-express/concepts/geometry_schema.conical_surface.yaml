@@ -1,30 +1,34 @@
+---
 data:
   identifier: geometry_schema.conical_surface
   localized_concepts:
     eng: 588efd75-2aff-5e34-8995-813bb226578c
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.conical_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}} that represents the conical surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}}
+      that represents the conical surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **conical_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}}, which could be produced by revolving a line in 3-dimensional space about any intersecting line.
+  - content: A **conical_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}},
+      which could be produced by revolving a line in 3-dimensional space about any
+      intersecting line.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: conical_surface
+  - type: expression
+    normative_status: preferred
+    designation: conical_surface
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

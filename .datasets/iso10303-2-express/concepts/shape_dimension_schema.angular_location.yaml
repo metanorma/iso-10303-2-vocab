@@ -1,29 +1,31 @@
+---
 data:
   identifier: shape_dimension_schema.angular_location
   localized_concepts:
     eng: 1b7bd664-da89-5001-a53f-622fbfdcc313
   domains:
-    - concept_id: section-shape_dimension_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-      ref_type: section
+  - concept_id: section-shape_dimension_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+    ref_type: section
 id: shape_dimension_schema.angular_location
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}} that represents the angular location {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_location,dimensional_location}}
+      that represents the angular location {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
-          version: '5'
-      type: authoritative
-      id: shape_dimension_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: angular_location
+  - type: expression
+    normative_status: preferred
+    designation: angular_location
   domain: 'resource: shape_dimension_schema'
   language_code: eng
   annotations: []

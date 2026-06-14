@@ -1,30 +1,34 @@
+---
 data:
   identifier: Type_of_person_mim.applied_person_type_definition_assignment
   localized_concepts:
     eng: 0fd99966-f61e-5e07-b0b6-e2b507ba1379
   domains:
-    - concept_id: section-Type_of_person_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
-      ref_type: section
+  - concept_id: section-Type_of_person_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
+    ref_type: section
 id: Type_of_person_mim.applied_person_type_definition_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_definition_assignment,person_type_definition_assignment}} that represents the applied person type definition assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim.person_type_definition_assignment,person_type_definition_assignment}}
+      that represents the applied person type definition assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **applied_person_type_definition_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_definition_assignment,person_type_definition_assignment}} that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_type_definition,person_type_definition}} to instances of entity data types listed in {{person_type_item,person_type_item}}.
+  - content: An **applied_person_type_definition_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.person_type_definition_assignment,person_type_definition_assignment}}
+      that relates a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:person_organization_schema.person_type_definition,person_type_definition}}
+      to instances of entity data types listed in {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim.person_type_item,person_type_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
-          version: '1'
-      type: authoritative
-      id: Type_of_person_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Type_of_person_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_person_type_definition_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_person_type_definition_assignment
   domain: 'application module: Type_of_person_mim'
   language_code: eng
   annotations: []

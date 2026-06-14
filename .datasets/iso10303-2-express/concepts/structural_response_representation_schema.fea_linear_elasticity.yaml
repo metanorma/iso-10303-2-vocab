@@ -1,30 +1,34 @@
+---
 data:
   identifier: structural_response_representation_schema.fea_linear_elasticity
   localized_concepts:
     eng: 7782c69c-ff04-5772-af8e-5d874b0ed2ac
   domains:
-    - concept_id: section-structural_response_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-      ref_type: section
+  - concept_id: section-structural_response_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+    ref_type: section
 id: structural_response_representation_schema.fea_linear_elasticity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_material_property_representation_item,fea_material_property_representation_item}} that represents the fea linear elasticity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_material_property_representation_item,fea_material_property_representation_item}}
+      that represents the fea linear elasticity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_linear_elasticity,fea_linear_elasticity}} is the collection of mechanical material properties representing a linear response of an *fea_material* to a small change in strain at a constant temperature.
+  - content: An {{urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema.fea_linear_elasticity,fea_linear_elasticity}}
+      is the collection of mechanical material properties representing a linear response
+      of an *fea_material* to a small change in strain at a constant temperature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
-          version: '3'
-      type: authoritative
-      id: structural_response_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:structural_response_representation_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: fea_linear_elasticity
+  - type: expression
+    normative_status: preferred
+    designation: fea_linear_elasticity
   domain: 'resource: structural_response_representation_schema'
   language_code: eng
   annotations: []

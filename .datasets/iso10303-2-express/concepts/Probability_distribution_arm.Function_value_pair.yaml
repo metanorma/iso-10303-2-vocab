@@ -1,30 +1,32 @@
+---
 data:
   identifier: Probability_distribution_arm.Function_value_pair
   localized_concepts:
     eng: 1e72d688-f6cb-59eb-b3d8-fa4c92e91a75
   domains:
-    - concept_id: section-Probability_distribution_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
-      ref_type: section
+  - concept_id: section-Probability_distribution_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+    ref_type: section
 id: Probability_distribution_arm.Function_value_pair
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the function value pair {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the function value pair {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Function_value_pair** is a single random variable/value pair, thus defining a single point on the distribution curve of a numerically defined distribution.
+  - content: A **Function_value_pair** is a single random variable/value pair, thus
+      defining a single point on the distribution curve of a numerically defined distribution.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
-          version: '3'
-      type: authoritative
-      id: Probability_distribution_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Probability_distribution_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Function_value_pair
+  - type: expression
+    normative_status: preferred
+    designation: Function_value_pair
   domain: 'application module: Probability_distribution_arm'
   language_code: eng
   annotations: []

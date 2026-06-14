@@ -1,30 +1,32 @@
+---
 data:
   identifier: Numeric_expression_arm.Boolean_literal
   localized_concepts:
     eng: 6dc1a7f4-f97d-5566-ac85-81ad6696395e
   domains:
-    - concept_id: section-Numeric_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-      ref_type: section
+  - concept_id: section-Numeric_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+    ref_type: section
 id: Numeric_expression_arm.Boolean_literal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the boolean literal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the boolean literal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Boolean_literal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Simple_boolean_expression,Simple_boolean_expression}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_literal,Generic_literal}}.
+  - content: A **Boolean_literal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Simple_boolean_expression,Simple_boolean_expression}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_literal,Generic_literal}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
-          version: '2'
-      type: authoritative
-      id: Numeric_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Boolean_literal
+  - type: expression
+    normative_status: preferred
+    designation: Boolean_literal
   domain: 'application module: Numeric_expression_arm'
   language_code: eng
   annotations: []

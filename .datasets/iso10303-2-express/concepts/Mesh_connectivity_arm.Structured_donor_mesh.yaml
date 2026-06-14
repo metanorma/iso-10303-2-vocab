@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mesh_connectivity_arm.Structured_donor_mesh
   localized_concepts:
     eng: f66aecc0-e8e5-5561-8d0b-4611d81d4f31
   domains:
-    - concept_id: section-Mesh_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
-      ref_type: section
+  - concept_id: section-Mesh_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+    ref_type: section
 id: Mesh_connectivity_arm.Structured_donor_mesh
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_donor_mesh,Mismatched_donor_mesh}} that represents the structured donor mesh {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_donor_mesh,Mismatched_donor_mesh}}
+      that represents the structured donor mesh {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Structured_donor_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_donor_mesh,Mismatched_donor_mesh}} that is structured.
+  - content: A **Structured_donor_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm.Mismatched_donor_mesh,Mismatched_donor_mesh}}
+      that is structured.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
-          version: '1'
-      type: authoritative
-      id: Mesh_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_connectivity_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Structured_donor_mesh
+  - type: expression
+    normative_status: preferred
+    designation: Structured_donor_mesh
   domain: 'application module: Mesh_connectivity_arm'
   language_code: eng
   annotations: []

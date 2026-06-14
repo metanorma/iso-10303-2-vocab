@@ -1,29 +1,31 @@
+---
 data:
   identifier: Draughting_element_specialisations_arm.Datum_target_callout
   localized_concepts:
     eng: 6e9835e0-8423-5b64-8f3d-9e21afea6c09
   domains:
-    - concept_id: section-Draughting_element_specialisations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-      ref_type: section
+  - concept_id: section-Draughting_element_specialisations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+    ref_type: section
 id: Draughting_element_specialisations_arm.Datum_target_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}} that represents the datum target callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Draughting_element,Draughting_element}}
+      that represents the datum target callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
-          version: '4'
-      type: authoritative
-      id: Draughting_element_specialisations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_target_callout
+  - type: expression
+    normative_status: preferred
+    designation: Datum_target_callout
   domain: 'application module: Draughting_element_specialisations_arm'
   language_code: eng
   annotations: []

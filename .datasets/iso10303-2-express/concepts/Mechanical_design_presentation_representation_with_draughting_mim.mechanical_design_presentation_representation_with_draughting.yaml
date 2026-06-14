@@ -1,30 +1,35 @@
+---
 data:
   identifier: Mechanical_design_presentation_representation_with_draughting_mim.mechanical_design_presentation_representation_with_draughting
   localized_concepts:
     eng: 220ce187-c5a0-5570-99da-46b13538fe51
   domains:
-    - concept_id: section-Mechanical_design_presentation_representation_with_draughting_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
-      ref_type: section
+  - concept_id: section-Mechanical_design_presentation_representation_with_draughting_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
+    ref_type: section
 id: Mechanical_design_presentation_representation_with_draughting_mim.mechanical_design_presentation_representation_with_draughting
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that represents the mechanical design presentation representation with draughting {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim.representation,representation}}
+      that represents the mechanical design presentation representation with draughting
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **mechanical_design_presentation_representation_with_draughting** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_arm.Mechanical_design_presentation_representation_with_draughting,Mechanical_design_presentation_representation_with_draughting}}.
+  - content: A **mechanical_design_presentation_representation_with_draughting** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_arm.Mechanical_design_presentation_representation_with_draughting,Mechanical_design_presentation_representation_with_draughting}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
-          version: '5'
-      type: authoritative
-      id: Mechanical_design_presentation_representation_with_draughting_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_presentation_representation_with_draughting_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: mechanical_design_presentation_representation_with_draughting
+  - type: expression
+    normative_status: preferred
+    designation: mechanical_design_presentation_representation_with_draughting
   domain: 'application module: Mechanical_design_presentation_representation_with_draughting_mim'
   language_code: eng
   annotations: []

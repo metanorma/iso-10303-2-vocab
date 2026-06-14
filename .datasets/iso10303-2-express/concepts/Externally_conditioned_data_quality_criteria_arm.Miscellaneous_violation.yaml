@@ -1,30 +1,35 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation
   localized_concepts:
     eng: 85dc1383-8a18-5450-ad07-cae97fb0a426
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_criteria_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_criteria_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_criteria_arm.Miscellaneous_violation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents the miscellaneous violation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}}
+      that represents the miscellaneous violation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Miscellaneous_violation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}} that represents a criterion detecting miscellaneous violation against the agreement such as names or attribute values not in accordance with the agreement and elements that are not referenced, used or consistent.
+  - content: A **Miscellaneous_violation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm.Externally_conditioned_data_quality_criterion,Externally_conditioned_data_quality_criterion}}
+      that represents a criterion detecting miscellaneous violation against the agreement
+      such as names or attribute values not in accordance with the agreement and elements
+      that are not referenced, used or consistent.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_criteria_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_criteria_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Miscellaneous_violation
+  - type: expression
+    normative_status: preferred
+    designation: Miscellaneous_violation
   domain: 'application module: Externally_conditioned_data_quality_criteria_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: presentation_definition_schema.symbol_representation_with_blanking_box
   localized_concepts:
     eng: 508e2a3f-a75f-5e39-acbe-ea1f2e716fef
   domains:
-    - concept_id: section-presentation_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-      ref_type: section
+  - concept_id: section-presentation_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+    ref_type: section
 id: presentation_definition_schema.symbol_representation_with_blanking_box
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that represents the symbol representation with blanking box {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}}
+      that represents the symbol representation with blanking box {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **symbol_representation_with_blanking_box** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}} that includes a box which blanks out all other elements in the box.
+  - content: A **symbol_representation_with_blanking_box** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema.symbol_representation,symbol_representation}}
+      that includes a box which blanks out all other elements in the box.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
-          version: '8'
-      type: authoritative
-      id: presentation_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_definition_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: symbol_representation_with_blanking_box
+  - type: expression
+    normative_status: preferred
+    designation: symbol_representation_with_blanking_box
   domain: 'resource: presentation_definition_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: effectivity_schema.serial_numbered_effectivity
   localized_concepts:
     eng: 92817ed9-ada3-5771-b5a7-ec265f8f40dd
   domains:
-    - concept_id: section-effectivity_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-      ref_type: section
+  - concept_id: section-effectivity_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+    ref_type: section
 id: effectivity_schema.serial_numbered_effectivity
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} that represents the serial numbered effectivity {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      that represents the serial numbered effectivity {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **serial_numbered_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}} for which the domain of applicability is defined as a possibly open-ended interval of serial numbers.
+  - content: A **serial_numbered_effectivity** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema.effectivity,effectivity}}
+      for which the domain of applicability is defined as a possibly open-ended interval
+      of serial numbers.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
-          version: '8'
-      type: authoritative
-      id: effectivity_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:effectivity_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: serial_numbered_effectivity
+  - type: expression
+    normative_status: preferred
+    designation: serial_numbered_effectivity
   domain: 'resource: effectivity_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,34 @@
+---
 data:
   identifier: Product_placement_arm.Occurrence_placement
   localized_concepts:
     eng: 514482ff-1f40-5725-b4c9-00eb8e1a4d59
   domains:
-    - concept_id: section-Product_placement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
-      ref_type: section
+  - concept_id: section-Product_placement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
+    ref_type: section
 id: Product_placement_arm.Occurrence_placement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the occurrence placement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the occurrence placement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Occurrence_placement** is the specification of the placement of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}}, which is defined in its own coordinate space, in the coordinate space of a reference physical element.
+  - content: An **Occurrence_placement** is the specification of the placement of
+      a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_occurrence_arm.Product_occurrence,Product_occurrence}},
+      which is defined in its own coordinate space, in the coordinate space of a reference
+      physical element.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
-          version: '5'
-      type: authoritative
-      id: Product_placement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_placement_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Occurrence_placement
+  - type: expression
+    normative_status: preferred
+    designation: Occurrence_placement
   domain: 'application module: Product_placement_arm'
   language_code: eng
   annotations: []

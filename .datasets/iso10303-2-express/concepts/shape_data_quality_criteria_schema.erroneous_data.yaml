@@ -1,30 +1,34 @@
+---
 data:
   identifier: shape_data_quality_criteria_schema.erroneous_data
   localized_concepts:
     eng: 6dcac9d8-d0cf-5189-a636-4c0404a22fb1
   domains:
-    - concept_id: section-shape_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+    ref_type: section
 id: shape_data_quality_criteria_schema.erroneous_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_data_quality_criterion,shape_data_quality_criterion}} that represents the erroneous data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_data_quality_criterion,shape_data_quality_criterion}}
+      that represents the erroneous data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **erroneous_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_data_quality_criterion,shape_data_quality_criterion}} that is a supertype of criteria for detecting a mathematically invalid shape data.
+  - content: An **erroneous_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema.shape_data_quality_criterion,shape_data_quality_criterion}}
+      that is a supertype of criteria for detecting a mathematically invalid shape
+      data.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: erroneous_data
+  - type: expression
+    normative_status: preferred
+    designation: erroneous_data
   domain: 'resource: shape_data_quality_criteria_schema'
   language_code: eng
   annotations: []

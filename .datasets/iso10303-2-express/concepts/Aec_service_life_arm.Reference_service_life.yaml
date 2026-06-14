@@ -1,30 +1,33 @@
+---
 data:
   identifier: Aec_service_life_arm.Reference_service_life
   localized_concepts:
     eng: 011f8cfc-6154-5b99-b0dc-dd400db6af85
   domains:
-    - concept_id: section-Aec_service_life_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-      ref_type: section
+  - concept_id: section-Aec_service_life_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+    ref_type: section
 id: Aec_service_life_arm.Reference_service_life
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that represents the reference service life {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}
+      that represents the reference service life {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Reference_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}} that is predicted to take place under reference operating conditions.
+  - content: A **Reference_service_life** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm.Service_life,Service_life}}
+      that is predicted to take place under reference operating conditions.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
-          version: '1'
-      type: authoritative
-      id: Aec_service_life_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Aec_service_life_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Reference_service_life
+  - type: expression
+    normative_status: preferred
+    designation: Reference_service_life
   domain: 'application module: Aec_service_life_arm'
   language_code: eng
   annotations: []

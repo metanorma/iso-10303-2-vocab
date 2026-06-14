@@ -1,30 +1,33 @@
+---
 data:
   identifier: annotated_3d_model_data_quality_inspection_result_schema.triangle_vertex
   localized_concepts:
     eng: e1673f9c-59bd-5a9e-b283-83d9b4695883
   domains:
-    - concept_id: section-annotated_3d_model_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-annotated_3d_model_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
+    ref_type: section
 id: annotated_3d_model_data_quality_inspection_result_schema.triangle_vertex
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.triangulated_face_element,triangulated_face_element}} that represents the triangle vertex {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.triangulated_face_element,triangulated_face_element}}
+      that represents the triangle vertex {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.triangulated_face_element,triangulated_face_element}} that specifies a vertex of the triangle specified in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.triangulated_face,triangulated_face}}.
+  - content: A **triangle_vertex** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema.triangulated_face_element,triangulated_face_element}}
+      that specifies a vertex of the triangle specified in the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.triangulated_face,triangulated_face}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
-          version: '3'
-      type: authoritative
-      id: annotated_3d_model_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_inspection_result_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: triangle_vertex
+  - type: expression
+    normative_status: preferred
+    designation: triangle_vertex
   domain: 'resource: annotated_3d_model_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

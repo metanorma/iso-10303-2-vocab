@@ -1,30 +1,34 @@
+---
 data:
   identifier: representation_schema.global_uncertainty_assigned_context
   localized_concepts:
     eng: 942cadeb-a3a1-5503-a63e-d8e9eeb30596
   domains:
-    - concept_id: section-representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-      ref_type: section
+  - concept_id: section-representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+    ref_type: section
 id: representation_schema.global_uncertainty_assigned_context
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that represents the global uncertainty assigned context {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}
+      that represents the global uncertainty assigned context {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **global_uncertainty_assigned_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}} that specifies uncertainty for the elements of representation that are associated with it.
+  - content: A **global_uncertainty_assigned_context** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}
+      that specifies uncertainty for the elements of representation that are associated
+      with it.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-          version: '8'
-      type: authoritative
-      id: representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: global_uncertainty_assigned_context
+  - type: expression
+    normative_status: preferred
+    designation: global_uncertainty_assigned_context
   domain: 'resource: representation_schema'
   language_code: eng
   annotations: []

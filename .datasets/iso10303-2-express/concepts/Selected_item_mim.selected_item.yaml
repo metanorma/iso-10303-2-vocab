@@ -1,30 +1,34 @@
+---
 data:
   identifier: Selected_item_mim.selected_item
   localized_concepts:
     eng: 658018ad-5752-536d-9327-9f878eb07294
   domains:
-    - concept_id: section-Selected_item_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-      ref_type: section
+  - concept_id: section-Selected_item_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+    ref_type: section
 id: Selected_item_mim.selected_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} that represents the selected item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim.class,class}}
+      that represents the selected item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **selected_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}} used to classify identified product or activity data as being significant for configuration management purposes.
+  - content: A **selected_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:classification_schema.class,class}}
+      used to classify identified product or activity data as being significant for
+      configuration management purposes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
-          version: '2'
-      type: authoritative
-      id: Selected_item_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Selected_item_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: selected_item
+  - type: expression
+    normative_status: preferred
+    designation: selected_item
   domain: 'application module: Selected_item_mim'
   language_code: eng
   annotations: []

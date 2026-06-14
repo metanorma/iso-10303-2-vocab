@@ -1,30 +1,35 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_inspection_result_mim.externally_conditioned_data_quality_inspection_instance_report_item
   localized_concepts:
     eng: 90e660c9-2d01-53d9-b801-be3f6627238e
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_inspection_result_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_mim
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_inspection_result_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_mim
+    ref_type: section
 id: Externally_conditioned_data_quality_inspection_result_mim.externally_conditioned_data_quality_inspection_instance_report_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report_item,data_quality_inspection_instance_report_item}} that represents the externally conditioned data quality inspection instance report item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_mim.data_quality_inspection_instance_report_item,data_quality_inspection_instance_report_item}}
+      that represents the externally conditioned data quality inspection instance
+      report item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **externally_conditioned_data_quality_inspection_instance_report_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report_item,data_quality_inspection_instance_report_item}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_instance_report_item,Externally_conditioned_data_quality_inspection_instance_report_item}}.
+  - content: A **externally_conditioned_data_quality_inspection_instance_report_item**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_inspection_result_schema.data_quality_inspection_instance_report_item,data_quality_inspection_instance_report_item}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_instance_report_item,Externally_conditioned_data_quality_inspection_instance_report_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_mim
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_inspection_result_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_conditioned_data_quality_inspection_instance_report_item
+  - type: expression
+    normative_status: preferred
+    designation: externally_conditioned_data_quality_inspection_instance_report_item
   domain: 'application module: Externally_conditioned_data_quality_inspection_result_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Functional_assignment_to_part_mim.part_connected_terminals_element
   localized_concepts:
     eng: ad77ce1b-6ad2-5776-818b-5b59f00ac771
   domains:
-    - concept_id: section-Functional_assignment_to_part_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-      ref_type: section
+  - concept_id: section-Functional_assignment_to_part_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+    ref_type: section
 id: Functional_assignment_to_part_mim.part_connected_terminals_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the part connected terminals element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the part connected terminals element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **part_connected_terminals_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}} and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_element,Part_connected_terminals_element}}.
+  - content: A **part_connected_terminals_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect,shape_aspect}}
+      and a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.shape_aspect_relationship,shape_aspect_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_arm.Part_connected_terminals_element,Part_connected_terminals_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
-          version: '3'
-      type: authoritative
-      id: Functional_assignment_to_part_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Functional_assignment_to_part_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: part_connected_terminals_element
+  - type: expression
+    normative_status: preferred
+    designation: part_connected_terminals_element
   domain: 'application module: Functional_assignment_to_part_mim'
   language_code: eng
   annotations: []

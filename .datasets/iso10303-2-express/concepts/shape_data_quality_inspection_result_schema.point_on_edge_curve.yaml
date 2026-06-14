@@ -1,32 +1,34 @@
+---
 data:
   identifier: shape_data_quality_inspection_result_schema.point_on_edge_curve
   localized_concepts:
     eng: 901b867c-5ac2-5a23-b751-63a814a52159
   domains:
-    - concept_id: section-shape_data_quality_inspection_result_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-      ref_type: section
+  - concept_id: section-shape_data_quality_inspection_result_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+    ref_type: section
 id: shape_data_quality_inspection_result_schema.point_on_edge_curve
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_curve,point_on_curve}} that represents the point on edge curve {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema.point_on_curve,point_on_curve}}
+      that represents the point on edge curve {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **point_on_edge_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_curve,point_on_curve}}
-        that represents a location on the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}}.
+  - content: |-
+      A **point_on_edge_curve** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.point_on_curve,point_on_curve}}
+      that represents a location on the identified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.edge_curve,edge_curve}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
-          version: '2'
-      type: authoritative
-      id: shape_data_quality_inspection_result_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_data_quality_inspection_result_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: point_on_edge_curve
+  - type: expression
+    normative_status: preferred
+    designation: point_on_edge_curve
   domain: 'resource: shape_data_quality_inspection_result_schema'
   language_code: eng
   annotations: []

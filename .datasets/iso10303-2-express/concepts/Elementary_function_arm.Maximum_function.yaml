@@ -1,29 +1,31 @@
+---
 data:
   identifier: Elementary_function_arm.Maximum_function
   localized_concepts:
     eng: 6175a1ea-7c83-5704-ae84-3ad6f2fea442
   domains:
-    - concept_id: section-Elementary_function_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-      ref_type: section
+  - concept_id: section-Elementary_function_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+    ref_type: section
 id: Elementary_function_arm.Maximum_function
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numeric_expression_arm.Multiple_arity_function_call,Multiple_arity_function_call}} that represents the maximum function {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm.Multiple_arity_function_call,Multiple_arity_function_call}}
+      that represents the maximum function {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
-          version: '2'
-      type: authoritative
-      id: Elementary_function_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Elementary_function_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Maximum_function
+  - type: expression
+    normative_status: preferred
+    designation: Maximum_function
   domain: 'application module: Elementary_function_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: systems_engineering_representation_schema.state_based_behaviour_representation_item
   localized_concepts:
     eng: 5a1ef11c-f639-5042-9105-1e5d3e29181e
   domains:
-    - concept_id: section-systems_engineering_representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-      ref_type: section
+  - concept_id: section-systems_engineering_representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+    ref_type: section
 id: systems_engineering_representation_schema.state_based_behaviour_representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}} that represents the state based behaviour representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}}
+      that represents the state based behaviour representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **state_based_behaviour_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}} used in the definition of state-based behaviour model.
+  - content: A **state_based_behaviour_representation_item** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema.representation_proxy_item,representation_proxy_item}}
+      used in the definition of state-based behaviour model.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
-          version: '2'
-      type: authoritative
-      id: systems_engineering_representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:systems_engineering_representation_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: state_based_behaviour_representation_item
+  - type: expression
+    normative_status: preferred
+    designation: state_based_behaviour_representation_item
   domain: 'resource: systems_engineering_representation_schema'
   language_code: eng
   annotations: []

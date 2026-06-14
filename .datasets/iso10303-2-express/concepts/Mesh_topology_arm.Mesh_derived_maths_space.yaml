@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mesh_topology_arm.Mesh_derived_maths_space
   localized_concepts:
     eng: 42fe054e-334c-5f94-8d90-f5b3a19f9383
   domains:
-    - concept_id: section-Mesh_topology_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-      ref_type: section
+  - concept_id: section-Mesh_topology_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+    ref_type: section
 id: Mesh_topology_arm.Mesh_derived_maths_space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}} that represents the mesh derived maths space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Maths_space,Maths_space}}
+      that represents the mesh derived maths space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Mesh_derived_maths_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}} that associates data values and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}.
+  - content: A **Mesh_derived_maths_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Maths_space_arm.Maths_space,Maths_space}}
+      that associates data values and a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
-          version: '2'
-      type: authoritative
-      id: Mesh_topology_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Mesh_derived_maths_space
+  - type: expression
+    normative_status: preferred
+    designation: Mesh_derived_maths_space
   domain: 'application module: Mesh_topology_arm'
   language_code: eng
   annotations: []

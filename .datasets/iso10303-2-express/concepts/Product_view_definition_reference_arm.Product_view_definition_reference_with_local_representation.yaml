@@ -1,30 +1,36 @@
+---
 data:
   identifier: Product_view_definition_reference_arm.Product_view_definition_reference_with_local_representation
   localized_concepts:
     eng: 8ceb6fed-6732-5638-ad42-badfd94df4bf
   domains:
-    - concept_id: section-Product_view_definition_reference_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
-      ref_type: section
+  - concept_id: section-Product_view_definition_reference_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+    ref_type: section
 id: Product_view_definition_reference_arm.Product_view_definition_reference_with_local_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product view definition reference with local representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product view definition reference with local
+      representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Product_view_definition_reference_with_local_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm.Generic_product_view_definition_reference,Generic_product_view_definition_reference}} that represents an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} by a local {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}} that provides only minimal information.
+  - content: A **Product_view_definition_reference_with_local_representation** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm.Generic_product_view_definition_reference,Generic_product_view_definition_reference}}
+      that represents an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      by a local {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_arm.Product_view_definition,Product_view_definition}}
+      that provides only minimal information.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
-          version: '2'
-      type: authoritative
-      id: Product_view_definition_reference_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_view_definition_reference_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Product_view_definition_reference_with_local_representation
+  - type: expression
+    normative_status: preferred
+    designation: Product_view_definition_reference_with_local_representation
   domain: 'application module: Product_view_definition_reference_arm'
   language_code: eng
   annotations: []

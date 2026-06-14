@@ -1,30 +1,33 @@
+---
 data:
   identifier: Mechanical_design_features_and_requirements_arm.Simplified_md_counterbore_hole_definition
   localized_concepts:
     eng: f400b624-2165-5e0d-81ff-1826d1f81c8e
   domains:
-    - concept_id: section-Mechanical_design_features_and_requirements_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-      ref_type: section
+  - concept_id: section-Mechanical_design_features_and_requirements_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+    ref_type: section
 id: Mechanical_design_features_and_requirements_arm.Simplified_md_counterbore_hole_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_definition,Md_counterbore_hole_definition}} that represents the simplified md counterbore hole definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_definition,Md_counterbore_hole_definition}}
+      that represents the simplified md counterbore hole definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Simplified_md_counterbore_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_definition,Md_counterbore_hole_definition}} that provides the minimal or no geometric definition for the hole.
+  - content: A **Simplified_md_counterbore_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm.Md_counterbore_hole_definition,Md_counterbore_hole_definition}}
+      that provides the minimal or no geometric definition for the hole.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
-          version: '3'
-      type: authoritative
-      id: Mechanical_design_features_and_requirements_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Mechanical_design_features_and_requirements_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Simplified_md_counterbore_hole_definition
+  - type: expression
+    normative_status: preferred
+    designation: Simplified_md_counterbore_hole_definition
   domain: 'application module: Mechanical_design_features_and_requirements_arm'
   language_code: eng
   annotations: []

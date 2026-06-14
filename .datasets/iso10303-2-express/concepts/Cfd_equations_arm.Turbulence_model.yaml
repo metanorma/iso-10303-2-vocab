@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_equations_arm.Turbulence_model
   localized_concepts:
     eng: 81e59ede-07b8-5c02-a63a-cf8ebe3a84b5
   domains:
-    - concept_id: section-Cfd_equations_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-      ref_type: section
+  - concept_id: section-Cfd_equations_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+    ref_type: section
 id: Cfd_equations_arm.Turbulence_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} that represents the turbulence model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}}
+      that represents the turbulence model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Turbulence_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}} that is the equation set used to model the turbulence quantities.
+  - content: A **Turbulence_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm.Mbna_behaviour_model,Mbna_behaviour_model}}
+      that is the equation set used to model the turbulence quantities.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_equations_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_equations_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Turbulence_model
+  - type: expression
+    normative_status: preferred
+    designation: Turbulence_model
   domain: 'application module: Cfd_equations_arm'
   language_code: eng
   annotations: []

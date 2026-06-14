@@ -1,30 +1,33 @@
+---
 data:
   identifier: Layered_interconnect_module_design_mim.electrical_isolation_laminate_component
   localized_concepts:
     eng: 912958f7-e7ad-5817-ba77-9b3c3fa714ce
   domains:
-    - concept_id: section-Layered_interconnect_module_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+    ref_type: section
 id: Layered_interconnect_module_design_mim.electrical_isolation_laminate_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_laminate_component,material_removal_laminate_component}} that represents the electrical isolation laminate component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_laminate_component,material_removal_laminate_component}}
+      that represents the electrical isolation laminate component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **electrical_isolation_laminate_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_laminate_component,material_removal_laminate_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Electrical_isolation_laminate_component,Electrical_isolation_laminate_component}}.
+  - content: A **electrical_isolation_laminate_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim.material_removal_laminate_component,material_removal_laminate_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Electrical_isolation_laminate_component,Electrical_isolation_laminate_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_mim
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: electrical_isolation_laminate_component
+  - type: expression
+    normative_status: preferred
+    designation: electrical_isolation_laminate_component
   domain: 'application module: Layered_interconnect_module_design_mim'
   language_code: eng
   annotations: []

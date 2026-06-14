@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Diamond_knurl
   localized_concepts:
     eng: d36eaf62-ca7b-5559-8088-72d3a0107dbc
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Diamond_knurl
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}} that represents the diamond knurl {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}}
+      that represents the diamond knurl {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Diamond_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}} that is a knurl ridge that is doubly helical, a left-hand and a right-hand helix, about the axis of a surface, with equal spacing of the two.
+  - content: A **Diamond_knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Turned_knurl,Turned_knurl}}
+      that is a knurl ridge that is doubly helical, a left-hand and a right-hand helix,
+      about the axis of a surface, with equal spacing of the two.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Diamond_knurl
+  - type: expression
+    normative_status: preferred
+    designation: Diamond_knurl
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Risk_definition_arm.Risk_relationship
   localized_concepts:
     eng: 0ef241cb-7901-5f1b-bd8d-1a5237c2b148
   domains:
-    - concept_id: section-Risk_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-      ref_type: section
+  - concept_id: section-Risk_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+    ref_type: section
 id: Risk_definition_arm.Risk_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm.Product_relationship,Product_relationship}} that represents the risk relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Product_relationship,Product_relationship}}
+      that represents the risk relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Risk_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm.Product_relationship,Product_relationship}} and an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk,Risk}}.
+  - content: A **Risk_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_relationship_arm.Product_relationship,Product_relationship}}
+      and an association between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm.Risk,Risk}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
-          version: '3'
-      type: authoritative
-      id: Risk_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Risk_definition_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Risk_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Risk_relationship
   domain: 'application module: Risk_definition_arm'
   language_code: eng
   annotations: []

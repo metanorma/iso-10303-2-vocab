@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometric_model_schema.boxed_half_space
   localized_concepts:
     eng: 27aafb3d-2005-5cfe-ba10-6989f95c44f0
   domains:
-    - concept_id: section-geometric_model_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-      ref_type: section
+  - concept_id: section-geometric_model_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+    ref_type: section
 id: geometric_model_schema.boxed_half_space
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_solid,half_space_solid}} that represents the boxed half space {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_solid,half_space_solid}}
+      that represents the boxed half space {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **boxed_half_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_solid,half_space_solid}} that is trimmed by a surrounding rectangular box.
+  - content: A **boxed_half_space** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema.half_space_solid,half_space_solid}}
+      that is trimmed by a surrounding rectangular box.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
-          version: '12'
-      type: authoritative
-      id: geometric_model_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometric_model_schema
+        version: '12'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: boxed_half_space
+  - type: expression
+    normative_status: preferred
+    designation: boxed_half_space
   domain: 'resource: geometric_model_schema'
   language_code: eng
   annotations: []

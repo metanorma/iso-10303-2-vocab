@@ -1,30 +1,33 @@
+---
 data:
   identifier: solid_shape_element_schema.solid_with_rectangular_pocket
   localized_concepts:
     eng: 9486d7ca-fc73-5261-892f-81d36553eb49
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.solid_with_rectangular_pocket
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_pocket,solid_with_pocket}} that represents the solid with rectangular pocket {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_pocket,solid_with_pocket}}
+      that represents the solid with rectangular pocket {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *solid_with_rectangular_pocket* is a type of *solid_with_pocket* for which the defining pocket profile is a rectangle, which may have rounded corners.
+  - content: A *solid_with_rectangular_pocket* is a type of *solid_with_pocket* for
+      which the defining pocket profile is a rectangle, which may have rounded corners.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_rectangular_pocket
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_rectangular_pocket
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: geometry_schema.spherical_surface
   localized_concepts:
     eng: 718650d4-7235-5d01-9b2b-5fd3c7072056
   domains:
-    - concept_id: section-geometry_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-      ref_type: section
+  - concept_id: section-geometry_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+    ref_type: section
 id: geometry_schema.spherical_surface
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}} that represents the spherical surface {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}}
+      that represents the spherical surface {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **spherical_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}}, which is at a constant distance (the **radius** {blank}) from a central point.
+  - content: A **spherical_surface** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.elementary_surface,elementary_surface}},
+      which is at a constant distance (the **radius** {blank}) from a central point.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
-          version: '13'
-      type: authoritative
-      id: geometry_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema
+        version: '13'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: spherical_surface
+  - type: expression
+    normative_status: preferred
+    designation: spherical_surface
   domain: 'resource: geometry_schema'
   language_code: eng
   annotations: []

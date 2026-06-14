@@ -1,30 +1,33 @@
+---
 data:
   identifier: General_design_connectivity_arm.Occurrence_contact_feature
   localized_concepts:
     eng: 93ab7be9-fb72-58fb-af76-1220b9896361
   domains:
-    - concept_id: section-General_design_connectivity_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
-      ref_type: section
+  - concept_id: section-General_design_connectivity_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+    ref_type: section
 id: General_design_connectivity_arm.Occurrence_contact_feature
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_shape_feature,Occurrence_shape_feature}} that represents the occurrence contact feature {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_shape_feature,Occurrence_shape_feature}}
+      that represents the occurrence contact feature {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Occurrence_contact_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_shape_feature,Occurrence_shape_feature}} that is intended to be joined with another **Occurrence_contact_feature**.
+  - content: An **Occurrence_contact_feature** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm.Occurrence_shape_feature,Occurrence_shape_feature}}
+      that is intended to be joined with another **Occurrence_contact_feature**.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
-          version: '4'
-      type: authoritative
-      id: General_design_connectivity_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_design_connectivity_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Occurrence_contact_feature
+  - type: expression
+    normative_status: preferred
+    designation: Occurrence_contact_feature
   domain: 'application module: General_design_connectivity_arm'
   language_code: eng
   annotations: []

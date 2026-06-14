@@ -1,30 +1,39 @@
+---
 data:
   identifier: Characterized_representation_arm.Characterized_chain_based_item_within_representation
   localized_concepts:
     eng: f380476c-6737-504e-adaa-df2519fd7053
   domains:
-    - concept_id: section-Characterized_representation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
-      ref_type: section
+  - concept_id: section-Characterized_representation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
+    ref_type: section
 id: Characterized_representation_arm.Characterized_chain_based_item_within_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm.Characterized_item_within_representation,Characterized_item_within_representation}} that represents the characterized chain based item within representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm.Characterized_item_within_representation,Characterized_item_within_representation}}
+      that represents the characterized chain based item within representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Characterized_chain_based_item_within_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm.Characterized_item_within_representation,Characterized_item_within_representation}} for the characterization of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}} through a directed graph of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}}, where the undirected links in the graph can be instances of entity data types {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}}, {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}}, or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}}.
+  - content: A **Characterized_chain_based_item_within_representation** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm.Characterized_item_within_representation,Characterized_item_within_representation}}
+      for the characterization of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_item,Representation_item}}
+      through a directed graph of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation,Representation}},
+      where the undirected links in the graph can be instances of entity data types
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_context,Representation_context}},
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Foundation_representation_arm.Representation_relationship,Representation_relationship}},
+      or {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_placement_operation,Geometric_placement_operation}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
-          version: '1'
-      type: authoritative
-      id: Characterized_representation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Characterized_representation_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Characterized_chain_based_item_within_representation
+  - type: expression
+    normative_status: preferred
+    designation: Characterized_chain_based_item_within_representation
   domain: 'application module: Characterized_representation_arm'
   language_code: eng
   annotations: []

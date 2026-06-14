@@ -1,30 +1,33 @@
+---
 data:
   identifier: kinematic_state_schema.rotation_about_direction
   localized_concepts:
     eng: c87ba314-52e2-56f6-894d-4e4ba9e7711e
   domains:
-    - concept_id: section-kinematic_state_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-      ref_type: section
+  - concept_id: section-kinematic_state_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+    ref_type: section
 id: kinematic_state_schema.rotation_about_direction
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that represents the rotation about direction {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema.geometric_representation_item,geometric_representation_item}}
+      that represents the rotation about direction {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **rotation_about_direction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}} that specifies a rotation in Cartesian coordinate space stem:[RR^3].
+  - content: A **rotation_about_direction** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:geometry_schema.geometric_representation_item,geometric_representation_item}}
+      that specifies a rotation in Cartesian coordinate space stem:[RR^3].
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_state_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_state_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: rotation_about_direction
+  - type: expression
+    normative_status: preferred
+    designation: rotation_about_direction
   domain: 'resource: kinematic_state_schema'
   language_code: eng
   annotations: []

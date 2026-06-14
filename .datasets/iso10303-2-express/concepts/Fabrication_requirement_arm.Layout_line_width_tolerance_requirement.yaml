@@ -1,30 +1,34 @@
+---
 data:
   identifier: Fabrication_requirement_arm.Layout_line_width_tolerance_requirement
   localized_concepts:
     eng: 85757dce-2ba5-5565-b25a-b4c919e12467
   domains:
-    - concept_id: section-Fabrication_requirement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
-      ref_type: section
+  - concept_id: section-Fabrication_requirement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+    ref_type: section
 id: Fabrication_requirement_arm.Layout_line_width_tolerance_requirement
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that represents the layout line width tolerance requirement {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that represents the layout line width tolerance requirement {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Layout_line_width_tolerance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}} that characterizes the line width range that is expected by the design organization to be manufactured for a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}}.
+  - content: A **Layout_line_width_tolerance_requirement** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Predefined_requirement_view_definition,Predefined_requirement_view_definition}}
+      that characterizes the line width range that is expected by the design organization
+      to be manufactured for a particular {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Stratum_technology,Stratum_technology}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
-          version: '3'
-      type: authoritative
-      id: Fabrication_requirement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_requirement_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Layout_line_width_tolerance_requirement
+  - type: expression
+    normative_status: preferred
+    designation: Layout_line_width_tolerance_requirement
   domain: 'application module: Fabrication_requirement_arm'
   language_code: eng
   annotations: []

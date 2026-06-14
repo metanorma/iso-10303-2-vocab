@@ -1,30 +1,32 @@
+---
 data:
   identifier: Condition_arm.Condition
   localized_concepts:
     eng: 155f1f8c-bcee-59d2-ae0f-f213ff85c122
   domains:
-    - concept_id: section-Condition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
-      ref_type: section
+  - concept_id: section-Condition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+    ref_type: section
 id: Condition_arm.Condition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the condition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the condition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Condition** is a definition of the precedent that must be fulfilled before a statement or relationship becomes valid.
+  - content: A **Condition** is a definition of the precedent that must be fulfilled
+      before a statement or relationship becomes valid.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
-          version: '4'
-      type: authoritative
-      id: Condition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Condition_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Condition
+  - type: expression
+    normative_status: preferred
+    designation: Condition
   domain: 'application module: Condition_arm'
   language_code: eng
   annotations: []

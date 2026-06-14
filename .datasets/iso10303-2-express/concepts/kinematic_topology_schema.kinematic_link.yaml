@@ -1,30 +1,34 @@
+---
 data:
   identifier: kinematic_topology_schema.kinematic_link
   localized_concepts:
     eng: caeee1c5-ba74-52e0-849a-f8501d763cf9
   domains:
-    - concept_id: section-kinematic_topology_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-      ref_type: section
+  - concept_id: section-kinematic_topology_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+    ref_type: section
 id: kinematic_topology_schema.kinematic_link
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex,vertex}} that represents the kinematic link {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema.vertex,vertex}}
+      that represents the kinematic link {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **kinematic_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex,vertex}} representation of the topological aspects associated with a rigid part of a mechanism.
+  - content: A **kinematic_link** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_schema.vertex,vertex}}
+      representation of the topological aspects associated with a rigid part of a
+      mechanism.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
-          version: '4'
-      type: authoritative
-      id: kinematic_topology_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:kinematic_topology_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: kinematic_link
+  - type: expression
+    normative_status: preferred
+    designation: kinematic_link
   domain: 'resource: kinematic_topology_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_assessment_by_numerical_test
   localized_concepts:
     eng: a7775a47-5fb4-53a2-863d-2afce8977354
   domains:
-    - concept_id: section-annotated_3d_model_equivalence_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-      ref_type: section
+  - concept_id: section-annotated_3d_model_equivalence_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+    ref_type: section
 id: annotated_3d_model_equivalence_criteria_schema.a3m_equivalence_assessment_by_numerical_test
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_assessment_specification,data_equivalence_assessment_specification}} that represents the a3m equivalence assessment by numerical test {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema.data_equivalence_assessment_specification,data_equivalence_assessment_specification}}
+      that represents the a3m equivalence assessment by numerical test {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **a3m_equivalence_assessment_by_numerical_test** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_assessment_specification,data_equivalence_assessment_specification}} that represents an assessment specification by a numerical test.
+  - content: An **a3m_equivalence_assessment_by_numerical_test** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_equivalence_criteria_schema.data_equivalence_assessment_specification,data_equivalence_assessment_specification}}
+      that represents an assessment specification by a numerical test.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
-          version: '1'
-      type: authoritative
-      id: annotated_3d_model_equivalence_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_equivalence_criteria_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: a3m_equivalence_assessment_by_numerical_test
+  - type: expression
+    normative_status: preferred
+    designation: a3m_equivalence_assessment_by_numerical_test
   domain: 'resource: annotated_3d_model_equivalence_criteria_schema'
   language_code: eng
   annotations: []

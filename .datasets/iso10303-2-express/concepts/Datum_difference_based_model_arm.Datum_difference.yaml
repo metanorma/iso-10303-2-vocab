@@ -1,30 +1,32 @@
+---
 data:
   identifier: Datum_difference_based_model_arm.Datum_difference
   localized_concepts:
     eng: 7ad68020-81d8-5fa5-8776-538abae491cb
   domains:
-    - concept_id: section-Datum_difference_based_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
-      ref_type: section
+  - concept_id: section-Datum_difference_based_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
+    ref_type: section
 id: Datum_difference_based_model_arm.Datum_difference
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the datum difference {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the datum difference {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Datum_difference** is the basis for mapping from a geometric context model into a lexical context model for definitional purposes.
+  - content: A **Datum_difference** is the basis for mapping from a geometric context
+      model into a lexical context model for definitional purposes.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
-          version: '5'
-      type: authoritative
-      id: Datum_difference_based_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Datum_difference_based_model_arm
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Datum_difference
+  - type: expression
+    normative_status: preferred
+    designation: Datum_difference
   domain: 'application module: Datum_difference_based_model_arm'
   language_code: eng
   annotations: []

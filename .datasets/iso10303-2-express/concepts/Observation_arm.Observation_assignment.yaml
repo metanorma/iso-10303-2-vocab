@@ -1,30 +1,33 @@
+---
 data:
   identifier: Observation_arm.Observation_assignment
   localized_concepts:
     eng: f0a710cf-0187-5f4b-a91f-b7bc05ca8fbf
   domains:
-    - concept_id: section-Observation_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
-      ref_type: section
+  - concept_id: section-Observation_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
+    ref_type: section
 id: Observation_arm.Observation_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the observation assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the observation assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Observation_assignment** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation,Observation}} with any item that an observation can be made about, or any item that can be used as part of the observation.
+  - content: An **Observation_assignment** is an association of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm.Observation,Observation}}
+      with any item that an observation can be made about, or any item that can be
+      used as part of the observation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
-          version: '3'
-      type: authoritative
-      id: Observation_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Observation_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Observation_assignment
+  - type: expression
+    normative_status: preferred
+    designation: Observation_assignment
   domain: 'application module: Observation_arm'
   language_code: eng
   annotations: []

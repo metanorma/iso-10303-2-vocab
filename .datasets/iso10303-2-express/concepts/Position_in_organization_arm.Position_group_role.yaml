@@ -1,30 +1,32 @@
+---
 data:
   identifier: Position_in_organization_arm.Position_group_role
   localized_concepts:
     eng: d105dd26-2145-5fb1-b11b-e681c577e069
   domains:
-    - concept_id: section-Position_in_organization_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-      ref_type: section
+  - concept_id: section-Position_in_organization_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+    ref_type: section
 id: Position_in_organization_arm.Position_group_role
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the position group role {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the position group role {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Position_group_role** is the role of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position_group,Position_group}} in an organization.
+  - content: A **Position_group_role** is the role of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm.Position_group,Position_group}}
+      in an organization.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
-          version: '1'
-      type: authoritative
-      id: Position_in_organization_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Position_in_organization_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Position_group_role
+  - type: expression
+    normative_status: preferred
+    designation: Position_group_role
   domain: 'application module: Position_in_organization_arm'
   language_code: eng
   annotations: []

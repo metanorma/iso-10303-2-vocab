@@ -1,30 +1,33 @@
+---
 data:
   identifier: Draughting_element_specialisations_mim.surface_condition_callout
   localized_concepts:
     eng: b3efce22-8d5e-51b9-94b0-ed0bf90c4fbb
   domains:
-    - concept_id: section-Draughting_element_specialisations_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_mim
-      ref_type: section
+  - concept_id: section-Draughting_element_specialisations_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_mim
+    ref_type: section
 id: Draughting_element_specialisations_mim.surface_condition_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that represents the surface condition callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_mim.draughting_callout,draughting_callout}}
+      that represents the surface condition callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **surface_condition_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Surface_condition_callout,Surface_condition_callout}}.
+  - content: A **surface_condition_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_arm.Surface_condition_callout,Surface_condition_callout}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_mim
-          version: '4'
-      type: authoritative
-      id: Draughting_element_specialisations_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Draughting_element_specialisations_mim
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: surface_condition_callout
+  - type: expression
+    normative_status: preferred
+    designation: surface_condition_callout
   domain: 'application module: Draughting_element_specialisations_mim'
   language_code: eng
   annotations: []

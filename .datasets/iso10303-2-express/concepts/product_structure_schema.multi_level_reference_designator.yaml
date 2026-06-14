@@ -1,30 +1,35 @@
+---
 data:
   identifier: product_structure_schema.multi_level_reference_designator
   localized_concepts:
     eng: 0c20d68c-b156-5759-81d1-c10010f15163
   domains:
-    - concept_id: section-product_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-      ref_type: section
+  - concept_id: section-product_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+    ref_type: section
 id: product_structure_schema.multi_level_reference_designator
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} that represents the multi level reference designator {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}}
+      that represents the multi level reference designator {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **multi_level_reference_designator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}} that specifies the relationship between an assembly and a constituent if the assembly is not the immediate parent for the constituent and there are several hierarchical levels between the assembly and the constituent.
+  - content: A **multi_level_reference_designator** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.assembly_component_usage,assembly_component_usage}}
+      that specifies the relationship between an assembly and a constituent if the
+      assembly is not the immediate parent for the constituent and there are several
+      hierarchical levels between the assembly and the constituent.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-          version: '6'
-      type: authoritative
-      id: product_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: multi_level_reference_designator
+  - type: expression
+    normative_status: preferred
+    designation: multi_level_reference_designator
   domain: 'resource: product_structure_schema'
   language_code: eng
   annotations: []

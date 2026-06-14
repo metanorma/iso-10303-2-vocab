@@ -1,30 +1,33 @@
+---
 data:
   identifier: Task_element_mim.looping_element
   localized_concepts:
     eng: e3de8549-5c73-55d0-8651-8e6393332f69
   domains:
-    - concept_id: section-Task_element_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
-      ref_type: section
+  - concept_id: section-Task_element_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+    ref_type: section
 id: Task_element_mim.looping_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that represents the looping element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}
+      that represents the looping element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **looping_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}} that involves repeating another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}.
+  - content: A **looping_element** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}
+      that involves repeating another {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim.task_element,task_element}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
-          version: '1'
-      type: authoritative
-      id: Task_element_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Task_element_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: looping_element
+  - type: expression
+    normative_status: preferred
+    designation: looping_element
   domain: 'application module: Task_element_mim'
   language_code: eng
   annotations: []

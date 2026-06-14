@@ -1,30 +1,33 @@
+---
 data:
   identifier: Analysis_arm.Model_product_domain_with_mesh
   localized_concepts:
     eng: 827baed2-873a-5029-a100-07872ffa398e
   domains:
-    - concept_id: section-Analysis_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-      ref_type: section
+  - concept_id: section-Analysis_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+    ref_type: section
 id: Analysis_arm.Model_product_domain_with_mesh
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain,Model_product_domain}} that represents the model product domain with mesh {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain,Model_product_domain}}
+      that represents the model product domain with mesh {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Model_product_domain_with_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain,Model_product_domain}} that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}.
+  - content: A **Model_product_domain_with_mesh** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm.Model_product_domain,Model_product_domain}}
+      that has a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Mesh_topology_arm.Mesh,Mesh}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
-          version: '1'
-      type: authoritative
-      id: Analysis_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Analysis_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Model_product_domain_with_mesh
+  - type: expression
+    normative_status: preferred
+    designation: Model_product_domain_with_mesh
   domain: 'application module: Analysis_arm'
   language_code: eng
   annotations: []

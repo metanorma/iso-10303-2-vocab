@@ -1,30 +1,34 @@
+---
 data:
   identifier: Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element_with_tubular_cover
   localized_concepts:
     eng: 9f1d3fa9-d298-5812-bd0f-d0fc5cec2440
   domains:
-    - concept_id: section-Extruded_structure_cross_section_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
-      ref_type: section
+  - concept_id: section-Extruded_structure_cross_section_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+    ref_type: section
 id: Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element_with_tubular_cover
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}} that represents the cross sectional group shape element with tubular cover {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}}
+      that represents the cross sectional group shape element with tubular cover {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Cross_sectional_group_shape_element_with_tubular_cover** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}} where the group members are enclosed in a tubular cover.
+  - content: A **Cross_sectional_group_shape_element_with_tubular_cover** is a type
+      of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm.Cross_sectional_group_shape_element,Cross_sectional_group_shape_element}}
+      where the group members are enclosed in a tubular cover.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
-          version: '2'
-      type: authoritative
-      id: Extruded_structure_cross_section_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Extruded_structure_cross_section_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Cross_sectional_group_shape_element_with_tubular_cover
+  - type: expression
+    normative_status: preferred
+    designation: Cross_sectional_group_shape_element_with_tubular_cover
   domain: 'application module: Extruded_structure_cross_section_arm'
   language_code: eng
   annotations: []

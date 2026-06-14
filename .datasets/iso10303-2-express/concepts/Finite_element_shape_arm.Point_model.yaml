@@ -1,30 +1,34 @@
+---
 data:
   identifier: Finite_element_shape_arm.Point_model
   localized_concepts:
     eng: 323156e9-1376-5d66-8bc7-62d058463b4a
   domains:
-    - concept_id: section-Finite_element_shape_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_shape_arm
-      ref_type: section
+  - concept_id: section-Finite_element_shape_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_shape_arm
+    ref_type: section
 id: Finite_element_shape_arm.Point_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that represents the point model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_shape_arm.Geometric_model,Geometric_model}}
+      that represents the point model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Point_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}} that is composed of either points or vertices that are the defining points for the nodes of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}.
+  - content: A **Point_model** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Elemental_geometric_shape_arm.Geometric_model,Geometric_model}}
+      that is composed of either points or vertices that are the defining points for
+      the nodes of an {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_elements_arm.Fea_model,Fea_model}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_shape_arm
-          version: '1'
-      type: authoritative
-      id: Finite_element_shape_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Finite_element_shape_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Point_model
+  - type: expression
+    normative_status: preferred
+    designation: Point_model
   domain: 'application module: Finite_element_shape_arm'
   language_code: eng
   annotations: []

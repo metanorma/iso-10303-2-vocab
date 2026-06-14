@@ -1,30 +1,33 @@
+---
 data:
   identifier: External_representation_item_mim.externally_defined_representation
   localized_concepts:
     eng: 807882ad-78fb-5794-84af-bd907c8c245c
   domains:
-    - concept_id: section-External_representation_item_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_mim
-      ref_type: section
+  - concept_id: section-External_representation_item_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_mim
+    ref_type: section
 id: External_representation_item_mim.externally_defined_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally defined representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **externally_defined_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm.External_representation_item,External_representation_item}}.
+  - content: An **externally_defined_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation,representation}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_arm.External_representation_item,External_representation_item}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_mim
-          version: '2'
-      type: authoritative
-      id: External_representation_item_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:External_representation_item_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_defined_representation
+  - type: expression
+    normative_status: preferred
+    designation: externally_defined_representation
   domain: 'application module: External_representation_item_mim'
   language_code: eng
   annotations: []

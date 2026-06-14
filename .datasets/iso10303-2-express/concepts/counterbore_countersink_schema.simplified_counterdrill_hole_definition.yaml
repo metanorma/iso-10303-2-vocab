@@ -1,30 +1,34 @@
+---
 data:
   identifier: counterbore_countersink_schema.simplified_counterdrill_hole_definition
   localized_concepts:
     eng: ab5c7e3c-049c-5381-b738-8a145c64acf9
   domains:
-    - concept_id: section-counterbore_countersink_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-      ref_type: section
+  - concept_id: section-counterbore_countersink_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+    ref_type: section
 id: counterbore_countersink_schema.simplified_counterdrill_hole_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterdrill_hole_definition,counterdrill_hole_definition}} that represents the simplified counterdrill hole definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterdrill_hole_definition,counterdrill_hole_definition}}
+      that represents the simplified counterdrill hole definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **simplified_counterdrill_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterdrill_hole_definition,counterdrill_hole_definition}} that defines the location and direction of a hole from the drilled surface but does not provide explicit geometry.
+  - content: A **simplified_counterdrill_hole_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema.counterdrill_hole_definition,counterdrill_hole_definition}}
+      that defines the location and direction of a hole from the drilled surface but
+      does not provide explicit geometry.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
-          version: '3'
-      type: authoritative
-      id: counterbore_countersink_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:counterbore_countersink_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: simplified_counterdrill_hole_definition
+  - type: expression
+    normative_status: preferred
+    designation: simplified_counterdrill_hole_definition
   domain: 'resource: counterbore_countersink_schema'
   language_code: eng
   annotations: []

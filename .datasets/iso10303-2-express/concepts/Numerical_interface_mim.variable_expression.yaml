@@ -1,29 +1,31 @@
+---
 data:
   identifier: Numerical_interface_mim.variable_expression
   localized_concepts:
     eng: 9b4764d1-868a-5fed-be9a-53cfc5795975
   domains:
-    - concept_id: section-Numerical_interface_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
-      ref_type: section
+  - concept_id: section-Numerical_interface_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+    ref_type: section
 id: Numerical_interface_mim.variable_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:iso13584_generic_expressions_schema.variable_semantics,variable_semantics}} that represents the variable expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim.variable_semantics,variable_semantics}}
+      that represents the variable expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
-          version: '2'
-      type: authoritative
-      id: Numerical_interface_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Numerical_interface_mim
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: variable_expression
+  - type: expression
+    normative_status: preferred
+    designation: variable_expression
   domain: 'application module: Numerical_interface_mim'
   language_code: eng
   annotations: []

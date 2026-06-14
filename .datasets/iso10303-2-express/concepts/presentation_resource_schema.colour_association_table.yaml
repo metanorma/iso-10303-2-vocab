@@ -1,30 +1,32 @@
+---
 data:
   identifier: presentation_resource_schema.colour_association_table
   localized_concepts:
     eng: 4afa66a1-a7e2-5989-9724-492d7fd37703
   domains:
-    - concept_id: section-presentation_resource_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-      ref_type: section
+  - concept_id: section-presentation_resource_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+    ref_type: section
 id: presentation_resource_schema.colour_association_table
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the colour association table {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the colour association table {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **colour_association_table** is a mapping of a one-dimensional state variable space into a colour space.
+  - content: A **colour_association_table** is a mapping of a one-dimensional state
+      variable space into a colour space.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
-          version: '6'
-      type: authoritative
-      id: presentation_resource_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_resource_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: colour_association_table
+  - type: expression
+    normative_status: preferred
+    designation: colour_association_table
   domain: 'resource: presentation_resource_schema'
   language_code: eng
   annotations: []

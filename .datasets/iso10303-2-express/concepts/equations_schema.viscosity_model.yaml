@@ -1,30 +1,33 @@
+---
 data:
   identifier: equations_schema.viscosity_model
   localized_concepts:
     eng: ad6958d3-3bc1-5856-ad26-037747d3ab70
   domains:
-    - concept_id: section-equations_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-      ref_type: section
+  - concept_id: section-equations_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+    ref_type: section
 id: equations_schema.viscosity_model
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}} that represents the viscosity model {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema.mbna_behaviour_model,mbna_behaviour_model}}
+      that represents the viscosity model {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *viscosity_model* is the model for relating molecular viscosity (latexmath:[\mu]) to temperature.
+  - content: A *viscosity_model* is the model for relating molecular viscosity (latexmath:[\mu])
+      to temperature.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
-          version: '1'
-      type: authoritative
-      id: equations_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:equations_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: viscosity_model
+  - type: expression
+    normative_status: preferred
+    designation: viscosity_model
   domain: 'resource: equations_schema'
   language_code: eng
   annotations: []

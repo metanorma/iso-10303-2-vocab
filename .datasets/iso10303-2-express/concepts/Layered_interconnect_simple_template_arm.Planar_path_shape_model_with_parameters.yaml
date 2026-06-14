@@ -1,29 +1,31 @@
+---
 data:
   identifier: Layered_interconnect_simple_template_arm.Planar_path_shape_model_with_parameters
   localized_concepts:
     eng: 690fada1-de67-51a4-8336-cdef9e2cc6bc
   domains:
-    - concept_id: section-Layered_interconnect_simple_template_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_simple_template_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+    ref_type: section
 id: Layered_interconnect_simple_template_arm.Planar_path_shape_model_with_parameters
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Constructive_solid_geometry_2d_arm.Single_area_csg_2d_model,Single_area_csg_2d_model}} that represents the planar path shape model with parameters {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm.Single_area_csg_2d_model,Single_area_csg_2d_model}}
+      that represents the planar path shape model with parameters {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_simple_template_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_simple_template_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Planar_path_shape_model_with_parameters
+  - type: expression
+    normative_status: preferred
+    designation: Planar_path_shape_model_with_parameters
   domain: 'application module: Layered_interconnect_simple_template_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_model_arm.Fd_zone
   localized_concepts:
     eng: f8004fb2-a73c-5996-9c97-28d40ecc8ea4
   domains:
-    - concept_id: section-Cfd_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-      ref_type: section
+  - concept_id: section-Cfd_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+    ref_type: section
 id: Cfd_model_arm.Fd_zone
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}} that represents the fd zone {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}}
+      that represents the fd zone {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Fd_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}} specifically for a CFD analysis.
+  - content: A **Fd_zone** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_zone,Mbna_zone}}
+      specifically for a CFD analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Fd_zone
+  - type: expression
+    normative_status: preferred
+    designation: Fd_zone
   domain: 'application module: Cfd_model_arm'
   language_code: eng
   annotations: []

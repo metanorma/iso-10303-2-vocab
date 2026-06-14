@@ -1,30 +1,33 @@
+---
 data:
   identifier: Cfd_model_arm.Fd_step
   localized_concepts:
     eng: 5e7bfc8b-28ed-5219-b341-97557a3718a4
   domains:
-    - concept_id: section-Cfd_model_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-      ref_type: section
+  - concept_id: section-Cfd_model_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+    ref_type: section
 id: Cfd_model_arm.Fd_step
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_step,Mbna_step}} that represents the fd step {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_step,Mbna_step}}
+      that represents the fd step {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Fd_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_step,Mbna_step}} that is a single step, or one of a series of steps, in a CFD analysis.
+  - content: A **Fd_step** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm.Mbna_step,Mbna_step}}
+      that is a single step, or one of a series of steps, in a CFD analysis.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
-          version: '1'
-      type: authoritative
-      id: Cfd_model_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Cfd_model_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Fd_step
+  - type: expression
+    normative_status: preferred
+    designation: Fd_step
   domain: 'application module: Cfd_model_arm'
   language_code: eng
   annotations: []

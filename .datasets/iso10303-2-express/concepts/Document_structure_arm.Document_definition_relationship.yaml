@@ -1,30 +1,32 @@
+---
 data:
   identifier: Document_structure_arm.Document_definition_relationship
   localized_concepts:
     eng: a6f24524-569f-5d8a-a227-50a7b19b5e8f
   domains:
-    - concept_id: section-Document_structure_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
-      ref_type: section
+  - concept_id: section-Document_structure_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
+    ref_type: section
 id: Document_structure_arm.Document_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the document definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the document definition relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Document_definition_relationship** is a relationship between two instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}}.
+  - content: A **Document_definition_relationship** is a relationship between two
+      instances of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
-          version: '1'
-      type: authoritative
-      id: Document_structure_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_structure_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Document_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Document_definition_relationship
   domain: 'application module: Document_structure_arm'
   language_code: eng
   annotations: []

@@ -1,30 +1,33 @@
+---
 data:
   identifier: Machining_features_arm.Planar_face
   localized_concepts:
     eng: b47953a4-8a73-56b3-a898-40cce88f5cf8
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Planar_face
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that represents the planar face {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that represents the planar face {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Planar_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}} that is an unbounded planar cut of a part.
+  - content: A **Planar_face** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Multi_axis_feature,Multi_axis_feature}}
+      that is an unbounded planar cut of a part.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Planar_face
+  - type: expression
+    normative_status: preferred
+    designation: Planar_face
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

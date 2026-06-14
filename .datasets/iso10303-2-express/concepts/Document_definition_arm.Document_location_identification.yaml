@@ -1,30 +1,34 @@
+---
 data:
   identifier: Document_definition_arm.Document_location_identification
   localized_concepts:
     eng: e1e83983-a574-5cdb-b274-fd5b70a1099f
   domains:
-    - concept_id: section-Document_definition_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
-      ref_type: section
+  - concept_id: section-Document_definition_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+    ref_type: section
 id: Document_definition_arm.Document_location_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm.External_source_identification,External_source_identification}} that represents the document location identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.External_source_identification,External_source_identification}}
+      that represents the document location identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Document_location_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm.External_source_identification,External_source_identification}} that identifies the location of the components of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}} in an external storage system where they can be found.
+  - content: A **Document_location_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:External_item_identification_assignment_arm.External_source_identification,External_source_identification}}
+      that identifies the location of the components of a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm.Document_definition,Document_definition}}
+      in an external storage system where they can be found.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
-          version: '1'
-      type: authoritative
-      id: Document_definition_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Document_definition_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Document_location_identification
+  - type: expression
+    normative_status: preferred
+    designation: Document_location_identification
   domain: 'application module: Document_definition_arm'
   language_code: eng
   annotations: []

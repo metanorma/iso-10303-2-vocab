@@ -1,30 +1,35 @@
+---
 data:
   identifier: solid_shape_element_schema.solid_with_angle_based_chamfer
   localized_concepts:
     eng: 336a17dc-0a32-5ea2-a2d3-1a0ba626aada
   domains:
-    - concept_id: section-solid_shape_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-      ref_type: section
+  - concept_id: section-solid_shape_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+    ref_type: section
 id: solid_shape_element_schema.solid_with_angle_based_chamfer
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}} that represents the solid with angle based chamfer {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}}
+      that represents the solid with angle based chamfer {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A *solid_with_angle_based_chamfer* is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}} in which the chamfers are defined in terms of an offset curve on one of the faces adjoining at the edge concerned and an offset angle measured with respect to the surface of that face.
+  - content: A *solid_with_angle_based_chamfer* is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.solid_with_chamfered_edges,solid_with_chamfered_edges}}
+      in which the chamfers are defined in terms of an offset curve on one of the
+      faces adjoining at the edge concerned and an offset angle measured with respect
+      to the surface of that face.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
-          version: '3'
-      type: authoritative
-      id: solid_shape_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: solid_with_angle_based_chamfer
+  - type: expression
+    normative_status: preferred
+    designation: solid_with_angle_based_chamfer
   domain: 'resource: solid_shape_element_schema'
   language_code: eng
   annotations: []

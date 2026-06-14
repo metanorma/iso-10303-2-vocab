@@ -1,30 +1,34 @@
+---
 data:
   identifier: Layered_interconnect_module_design_arm.Primary_stratum_indicator_symbol
   localized_concepts:
     eng: b6f24ff2-009d-5a64-8180-6c1496e5756e
   domains:
-    - concept_id: section-Layered_interconnect_module_design_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-      ref_type: section
+  - concept_id: section-Layered_interconnect_module_design_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+    ref_type: section
 id: Layered_interconnect_module_design_arm.Primary_stratum_indicator_symbol
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Single_stratum_special_symbol_component,Single_stratum_special_symbol_component}} that represents the primary stratum indicator symbol {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Single_stratum_special_symbol_component,Single_stratum_special_symbol_component}}
+      that represents the primary stratum indicator symbol {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Primary_stratum_indicator_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Single_stratum_special_symbol_component,Single_stratum_special_symbol_component}} that is used to identify the arbitrarily named primary side of a printed circuit board.
+  - content: A **Primary_stratum_indicator_symbol** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Single_stratum_special_symbol_component,Single_stratum_special_symbol_component}}
+      that is used to identify the arbitrarily named primary side of a printed circuit
+      board.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
-          version: '6'
-      type: authoritative
-      id: Layered_interconnect_module_design_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Primary_stratum_indicator_symbol
+  - type: expression
+    normative_status: preferred
+    designation: Primary_stratum_indicator_symbol
   domain: 'application module: Layered_interconnect_module_design_arm'
   language_code: eng
   annotations: []

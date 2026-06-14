@@ -1,30 +1,34 @@
+---
 data:
   identifier: Interconnect_module_connection_routing_arm.Junction_vertex_allocation
   localized_concepts:
     eng: a494da6f-1b6f-5c94-af8d-35b0af18022e
   domains:
-    - concept_id: section-Interconnect_module_connection_routing_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
-      ref_type: section
+  - concept_id: section-Interconnect_module_connection_routing_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+    ref_type: section
 id: Interconnect_module_connection_routing_arm.Junction_vertex_allocation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the junction vertex allocation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the junction vertex allocation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Junction_vertex_allocation** is the relationship that specifies one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layer_connection_point,Layer_connection_point}} to which a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Topological_junction,Topological_junction}} is mapped during the layout routing process.
+  - content: A **Junction_vertex_allocation** is the relationship that specifies one
+      or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Layered_interconnect_module_design_arm.Layer_connection_point,Layer_connection_point}}
+      to which a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Physical_connectivity_definition_arm.Topological_junction,Topological_junction}}
+      is mapped during the layout routing process.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
-          version: '2'
-      type: authoritative
-      id: Interconnect_module_connection_routing_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Interconnect_module_connection_routing_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Junction_vertex_allocation
+  - type: expression
+    normative_status: preferred
+    designation: Junction_vertex_allocation
   domain: 'application module: Interconnect_module_connection_routing_arm'
   language_code: eng
   annotations: []

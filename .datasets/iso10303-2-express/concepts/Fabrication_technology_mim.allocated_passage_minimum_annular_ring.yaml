@@ -1,30 +1,33 @@
+---
 data:
   identifier: Fabrication_technology_mim.allocated_passage_minimum_annular_ring
   localized_concepts:
     eng: 02f68703-3da2-5732-83dc-e4e4af937127
   domains:
-    - concept_id: section-Fabrication_technology_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-      ref_type: section
+  - concept_id: section-Fabrication_technology_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+    ref_type: section
 id: Fabrication_technology_mim.allocated_passage_minimum_annular_ring
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that represents the allocated passage minimum annular ring {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim.characterized_object,characterized_object}}
+      that represents the allocated passage minimum annular ring {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **allocated_passage_minimum_annular_ring** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Allocated_passage_minimum_annular_ring,Allocated_passage_minimum_annular_ring}}.
+  - content: An **allocated_passage_minimum_annular_ring** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.characterized_object,characterized_object}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_arm.Allocated_passage_minimum_annular_ring,Allocated_passage_minimum_annular_ring}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
-          version: '5'
-      type: authoritative
-      id: Fabrication_technology_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Fabrication_technology_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: allocated_passage_minimum_annular_ring
+  - type: expression
+    normative_status: preferred
+    designation: allocated_passage_minimum_annular_ring
   domain: 'application module: Fabrication_technology_mim'
   language_code: eng
   annotations: []

@@ -1,32 +1,35 @@
+---
 data:
   identifier: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces
   localized_concepts:
     eng: 89631c16-fb8d-5038-973a-8a99204c2986
   domains:
-    - concept_id: section-Triangulated_shape_data_quality_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-      ref_type: section
+  - concept_id: section-Triangulated_shape_data_quality_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+    ref_type: section
 id: Triangulated_shape_data_quality_mim.tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the tsdq positive length measure for abrupt normal change of adjacent faces {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}}
+      that represents the tsdq positive length measure for abrupt normal change of
+      adjacent faces {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:presentation_appearance_schema.approximation_tolerance,approximation_tolerance}}
-        for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.abrupt_normal_change_of_adjacent_faces,abrupt_normal_change_of_adjacent_faces}}.
+  - content: |-
+      A **tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:annotated_3d_model_data_quality_criteria_schema.a3m_data_quality_criterion_specific_applied_value,a3m_data_quality_criterion_specific_applied_value}} that represents the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.abrupt_normal_change_of_adjacent_faces.approximation_tolerance,approximation_tolerance}}
+      for the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim.abrupt_normal_change_of_adjacent_faces,abrupt_normal_change_of_adjacent_faces}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
-          version: '1'
-      type: authoritative
-      id: Triangulated_shape_data_quality_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Triangulated_shape_data_quality_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces
+  - type: expression
+    normative_status: preferred
+    designation: tsdq_positive_length_measure_for_abrupt_normal_change_of_adjacent_faces
   domain: 'application module: Triangulated_shape_data_quality_mim'
   language_code: eng
   annotations: []

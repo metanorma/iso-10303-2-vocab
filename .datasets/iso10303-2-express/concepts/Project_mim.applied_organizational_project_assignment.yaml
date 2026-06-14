@@ -1,29 +1,31 @@
+---
 data:
   identifier: Project_mim.applied_organizational_project_assignment
   localized_concepts:
     eng: ae8590d3-8667-514c-8f61-15939603ffe6
   domains:
-    - concept_id: section-Project_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_mim
-      ref_type: section
+  - concept_id: section-Project_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_mim
+    ref_type: section
 id: Project_mim.applied_organizational_project_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:management_resources_schema.organizational_project_assignment,organizational_project_assignment}} that represents the applied organizational project assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_mim.organizational_project_assignment,organizational_project_assignment}}
+      that represents the applied organizational project assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_mim
-          version: '3'
-      type: authoritative
-      id: Project_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Project_mim
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: applied_organizational_project_assignment
+  - type: expression
+    normative_status: preferred
+    designation: applied_organizational_project_assignment
   domain: 'application module: Project_mim'
   language_code: eng
   annotations: []

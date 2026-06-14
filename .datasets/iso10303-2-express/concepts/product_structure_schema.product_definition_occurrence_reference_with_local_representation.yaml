@@ -1,30 +1,36 @@
+---
 data:
   identifier: product_structure_schema.product_definition_occurrence_reference_with_local_representation
   localized_concepts:
     eng: 805fac1f-622d-5faf-8fca-cae19d680dab
   domains:
-    - concept_id: section-product_structure_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-      ref_type: section
+  - concept_id: section-product_structure_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+    ref_type: section
 id: product_structure_schema.product_definition_occurrence_reference_with_local_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the product definition occurrence reference with local representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the product definition occurrence reference with
+      local representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **product_definition_occurrence_reference_with_local_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}} and of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}} that represents an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}} by a local product_definition.
+  - content: A **product_definition_occurrence_reference_with_local_representation**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}
+      and of type {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_definition_schema.generic_product_definition_reference,generic_product_definition_reference}}
+      that represents an externally defined {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema.product_definition_occurrence,product_definition_occurrence}}
+      by a local product_definition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
-          version: '6'
-      type: authoritative
-      id: product_structure_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_structure_schema
+        version: '6'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: product_definition_occurrence_reference_with_local_representation
+  - type: expression
+    normative_status: preferred
+    designation: product_definition_occurrence_reference_with_local_representation
   domain: 'resource: product_structure_schema'
   language_code: eng
   annotations: []

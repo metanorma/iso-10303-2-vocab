@@ -1,30 +1,32 @@
+---
 data:
   identifier: Location_arm.Regional_coordinate
   localized_concepts:
     eng: 2acb0842-609b-5fe4-8262-b3af8c352b37
   domains:
-    - concept_id: section-Location_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-      ref_type: section
+  - concept_id: section-Location_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+    ref_type: section
 id: Location_arm.Regional_coordinate
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the regional coordinate {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the regional coordinate {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Regional_coordinate** is a location that is specified relative to a Regional location system.
+  - content: A **Regional_coordinate** is a location that is specified relative to
+      a Regional location system.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
-          version: '2'
-      type: authoritative
-      id: Location_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Location_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Regional_coordinate
+  - type: expression
+    normative_status: preferred
+    designation: Regional_coordinate
   domain: 'application module: Location_arm'
   language_code: eng
   annotations: []

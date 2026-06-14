@@ -1,30 +1,36 @@
+---
 data:
   identifier: Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_inspection_result_representation_for_shape
   localized_concepts:
     eng: aa1341c4-3c49-5d4e-9c2e-b9e8116197be
   domains:
-    - concept_id: section-Annotated_3d_model_equivalence_assembly_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
-      ref_type: section
+  - concept_id: section-Annotated_3d_model_equivalence_assembly_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+    ref_type: section
 id: Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_inspection_result_representation_for_shape
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result_representation,A3m_equivalence_inspection_result_representation}} that represents the a3m equivalence inspection result representation for shape {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm.A3m_equivalence_inspection_result_representation,A3m_equivalence_inspection_result_representation}}
+      that represents the a3m equivalence inspection result representation for shape
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **A3m_equivalence_inspection_result_representation_for_shape** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result_representation,A3m_equivalence_inspection_result_representation}} that represents inspection results for the specified shape equivalence criteria against specific pair of product data instances.
+  - content: An **A3m_equivalence_inspection_result_representation_for_shape** is
+      a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_inspection_result_arm.A3m_equivalence_inspection_result_representation,A3m_equivalence_inspection_result_representation}}
+      that represents inspection results for the specified shape equivalence criteria
+      against specific pair of product data instances.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
-          version: '1'
-      type: authoritative
-      id: Annotated_3d_model_equivalence_assembly_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Annotated_3d_model_equivalence_assembly_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: A3m_equivalence_inspection_result_representation_for_shape
+  - type: expression
+    normative_status: preferred
+    designation: A3m_equivalence_inspection_result_representation_for_shape
   domain: 'application module: Annotated_3d_model_equivalence_assembly_arm'
   language_code: eng
   annotations: []

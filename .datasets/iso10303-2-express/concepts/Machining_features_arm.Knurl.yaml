@@ -1,30 +1,34 @@
+---
 data:
   identifier: Machining_features_arm.Knurl
   localized_concepts:
     eng: 6fe889a8-5075-5d0c-9295-0b117f921283
   domains:
-    - concept_id: section-Machining_features_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-      ref_type: section
+  - concept_id: section-Machining_features_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+    ref_type: section
 id: Machining_features_arm.Knurl
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that represents the knurl {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that represents the knurl {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}} that is a scoring pattern made by a series of small ridges or beads on a metal surface.
+  - content: A **Knurl** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm.Machining_feature,Machining_feature}}
+      that is a scoring pattern made by a series of small ridges or beads on a metal
+      surface.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
-          version: '4'
-      type: authoritative
-      id: Machining_features_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Machining_features_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Knurl
+  - type: expression
+    normative_status: preferred
+    designation: Knurl
   domain: 'application module: Machining_features_arm'
   language_code: eng
   annotations: []

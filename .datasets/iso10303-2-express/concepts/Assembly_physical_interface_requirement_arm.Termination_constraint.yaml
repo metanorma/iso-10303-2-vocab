@@ -1,29 +1,31 @@
+---
 data:
   identifier: Assembly_physical_interface_requirement_arm.Termination_constraint
   localized_concepts:
     eng: 74f28490-c87a-5ce3-8ace-c968e1d1f23a
   domains:
-    - concept_id: section-Assembly_physical_interface_requirement_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-      ref_type: section
+  - concept_id: section-Assembly_physical_interface_requirement_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+    ref_type: section
 id: Assembly_physical_interface_requirement_arm.Termination_constraint
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Requirement_decomposition_arm.Constraint_occurrence,Constraint_occurrence}} that represents the termination constraint {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm.Constraint_occurrence,Constraint_occurrence}}
+      that represents the termination constraint {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
-          version: '4'
-      type: authoritative
-      id: Assembly_physical_interface_requirement_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_physical_interface_requirement_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Termination_constraint
+  - type: expression
+    normative_status: preferred
+    designation: Termination_constraint
   domain: 'application module: Assembly_physical_interface_requirement_arm'
   language_code: eng
   annotations: []

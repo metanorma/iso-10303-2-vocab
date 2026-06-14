@@ -1,30 +1,32 @@
+---
 data:
   identifier: representation_schema.representation
   localized_concepts:
     eng: c7479071-7b6a-5763-aa22-21fdd546935b
   domains:
-    - concept_id: section-representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-      ref_type: section
+  - concept_id: section-representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+    ref_type: section
 id: representation_schema.representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **representation** is a collection of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}} instances that are related in a specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}.
+  - content: A **representation** is a collection of one or more {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_item,representation_item}}
+      instances that are related in a specified {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_context,representation_context}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-          version: '8'
-      type: authoritative
-      id: representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: representation
+  - type: expression
+    normative_status: preferred
+    designation: representation
   domain: 'resource: representation_schema'
   language_code: eng
   annotations: []

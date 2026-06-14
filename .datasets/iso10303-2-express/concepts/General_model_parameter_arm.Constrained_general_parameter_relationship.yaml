@@ -1,30 +1,34 @@
+---
 data:
   identifier: General_model_parameter_arm.Constrained_general_parameter_relationship
   localized_concepts:
     eng: 4d9ad240-3923-5fc3-87ac-85798bb6c6cd
   domains:
-    - concept_id: section-General_model_parameter_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
-      ref_type: section
+  - concept_id: section-General_model_parameter_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+    ref_type: section
 id: General_model_parameter_arm.Constrained_general_parameter_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property_relationship,Independent_property_relationship}} that represents the constrained general parameter relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm.Independent_property_relationship,Independent_property_relationship}}
+      that represents the constrained general parameter relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Constrained_general_parameter_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property_relationship,Independent_property_relationship}} that constrains the properties involved to be of a particular type or classified using a particular class.
+  - content: An **Constrained_general_parameter_relationship** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Independent_property_arm.Independent_property_relationship,Independent_property_relationship}}
+      that constrains the properties involved to be of a particular type or classified
+      using a particular class.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
-          version: '1'
-      type: authoritative
-      id: General_model_parameter_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:General_model_parameter_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Constrained_general_parameter_relationship
+  - type: expression
+    normative_status: preferred
+    designation: Constrained_general_parameter_relationship
   domain: 'application module: General_model_parameter_arm'
   language_code: eng
   annotations: []

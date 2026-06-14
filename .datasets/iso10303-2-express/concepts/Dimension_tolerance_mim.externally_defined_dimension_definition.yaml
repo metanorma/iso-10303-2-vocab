@@ -1,30 +1,34 @@
+---
 data:
   identifier: Dimension_tolerance_mim.externally_defined_dimension_definition
   localized_concepts:
     eng: 743b2747-0160-5aa9-985d-afa409354db0
   domains:
-    - concept_id: section-Dimension_tolerance_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_mim
-      ref_type: section
+  - concept_id: section-Dimension_tolerance_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_mim
+    ref_type: section
 id: Dimension_tolerance_mim.externally_defined_dimension_definition
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the externally defined dimension definition {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the externally defined dimension definition {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **externally_defined_dimension_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_size,dimensional_size}} and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}} that enables the specification of a kind of dimension that is not defined in this standard.
+  - content: An **externally_defined_dimension_definition** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:shape_dimension_schema.dimensional_size,dimensional_size}}
+      and {{urn:iso:std:iso:10303:-2:ed-1:en:tech:external_reference_schema.externally_defined_item,externally_defined_item}}
+      that enables the specification of a kind of dimension that is not defined in
+      this standard.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_mim
-          version: '8'
-      type: authoritative
-      id: Dimension_tolerance_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Dimension_tolerance_mim
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: externally_defined_dimension_definition
+  - type: expression
+    normative_status: preferred
+    designation: externally_defined_dimension_definition
   domain: 'application module: Dimension_tolerance_mim'
   language_code: eng
   annotations: []

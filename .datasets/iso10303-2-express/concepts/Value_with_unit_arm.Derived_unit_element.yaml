@@ -1,30 +1,31 @@
+---
 data:
   identifier: Value_with_unit_arm.Derived_unit_element
   localized_concepts:
     eng: 5d9e9b7d-c845-5b94-b628-349f45d2cc2e
   domains:
-    - concept_id: section-Value_with_unit_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-      ref_type: section
+  - concept_id: section-Value_with_unit_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+    ref_type: section
 id: Value_with_unit_arm.Derived_unit_element
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the derived unit element {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the derived unit element {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Derived_unit_element** is the association of an exponent with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}.
+  - content: A **Derived_unit_element** is the association of an exponent with a {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
-          version: '4'
-      type: authoritative
-      id: Value_with_unit_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Derived_unit_element
+  - type: expression
+    normative_status: preferred
+    designation: Derived_unit_element
   domain: 'application module: Value_with_unit_arm'
   language_code: eng
   annotations: []

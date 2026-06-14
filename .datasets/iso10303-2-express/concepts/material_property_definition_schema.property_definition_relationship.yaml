@@ -1,30 +1,32 @@
+---
 data:
   identifier: material_property_definition_schema.property_definition_relationship
   localized_concepts:
     eng: ab948fc4-fea9-5179-a708-6c626ed7a92d
   domains:
-    - concept_id: section-material_property_definition_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-      ref_type: section
+  - concept_id: section-material_property_definition_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+    ref_type: section
 id: material_property_definition_schema.property_definition_relationship
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the property definition relationship {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the property definition relationship {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **property_definition_relationship** is an association between two {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}.
+  - content: A **property_definition_relationship** is an association between two
+      {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_property_definition_schema.property_definition,property_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
-          version: '4'
-      type: authoritative
-      id: material_property_definition_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: property_definition_relationship
+  - type: expression
+    normative_status: preferred
+    designation: property_definition_relationship
   domain: 'resource: material_property_definition_schema'
   language_code: eng
   annotations: []

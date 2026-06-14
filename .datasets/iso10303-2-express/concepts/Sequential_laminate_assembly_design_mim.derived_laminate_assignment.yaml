@@ -1,30 +1,33 @@
+---
 data:
   identifier: Sequential_laminate_assembly_design_mim.derived_laminate_assignment
   localized_concepts:
     eng: fb9e5129-d39c-5623-ad96-58aef74ac050
   domains:
-    - concept_id: section-Sequential_laminate_assembly_design_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
-      ref_type: section
+  - concept_id: section-Sequential_laminate_assembly_design_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
+    ref_type: section
 id: Sequential_laminate_assembly_design_mim.derived_laminate_assignment
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.property_definition_relationship,property_definition_relationship}} that represents the derived laminate assignment {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim.property_definition_relationship,property_definition_relationship}}
+      that represents the derived laminate assignment {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **derived_laminate_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.property_definition_relationship,property_definition_relationship}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Derived_laminate_assignment,Derived_laminate_assignment}}.
+  - content: A **derived_laminate_assignment** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:material_property_definition_schema.property_definition_relationship,property_definition_relationship}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_arm.Derived_laminate_assignment,Derived_laminate_assignment}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
-          version: '5'
-      type: authoritative
-      id: Sequential_laminate_assembly_design_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Sequential_laminate_assembly_design_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: derived_laminate_assignment
+  - type: expression
+    normative_status: preferred
+    designation: derived_laminate_assignment
   domain: 'application module: Sequential_laminate_assembly_design_mim'
   language_code: eng
   annotations: []

@@ -1,30 +1,31 @@
+---
 data:
   identifier: representation_schema.representation_item
   localized_concepts:
     eng: 2f6b3cd1-f142-5f69-b6c8-56e60973ab32
   domains:
-    - concept_id: section-representation_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-      ref_type: section
+  - concept_id: section-representation_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+    ref_type: section
 id: representation_schema.representation_item
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the representation item {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the representation item {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **representation_item** is an element of representation.
+  - content: A **representation_item** is an element of representation.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
-          version: '8'
-      type: authoritative
-      id: representation_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema
+        version: '8'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: representation_item
+  - type: expression
+    normative_status: preferred
+    designation: representation_item
   domain: 'resource: representation_schema'
   language_code: eng
   annotations: []

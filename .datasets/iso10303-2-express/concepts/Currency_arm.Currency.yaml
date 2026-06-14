@@ -1,30 +1,33 @@
+---
 data:
   identifier: Currency_arm.Currency
   localized_concepts:
     eng: 50504dfc-7f34-5d6b-9cc4-1b8dee86708a
   domains:
-    - concept_id: section-Currency_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
-      ref_type: section
+  - concept_id: section-Currency_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+    ref_type: section
 id: Currency_arm.Currency
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that represents the currency {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm.Unit,Unit}}
+      that represents the currency {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Currency** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}} that is a system of money.
+  - content: A **Currency** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Value_with_unit_arm.Unit,Unit}}
+      that is a system of money.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
-          version: '1'
-      type: authoritative
-      id: Currency_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Currency_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Currency
+  - type: expression
+    normative_status: preferred
+    designation: Currency
   domain: 'application module: Currency_arm'
   language_code: eng
   annotations: []

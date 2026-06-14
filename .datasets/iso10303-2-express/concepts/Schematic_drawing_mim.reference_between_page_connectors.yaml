@@ -1,29 +1,31 @@
+---
 data:
   identifier: Schematic_drawing_mim.reference_between_page_connectors
   localized_concepts:
     eng: 0ddb787c-01a5-5b9a-9bb3-f281a9b1e063
   domains:
-    - concept_id: section-Schematic_drawing_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
-      ref_type: section
+  - concept_id: section-Schematic_drawing_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
+    ref_type: section
 id: Schematic_drawing_mim.reference_between_page_connectors
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:representation_schema.representation_relationship,representation_relationship}} that represents the reference between page connectors {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim.representation_relationship,representation_relationship}}
+      that represents the reference between page connectors {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
-          version: '1'
-      type: authoritative
-      id: Schematic_drawing_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Schematic_drawing_mim
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: reference_between_page_connectors
+  - type: expression
+    normative_status: preferred
+    designation: reference_between_page_connectors
   domain: 'application module: Schematic_drawing_mim'
   language_code: eng
   annotations: []

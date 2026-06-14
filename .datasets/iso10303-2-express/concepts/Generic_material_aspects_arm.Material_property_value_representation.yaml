@@ -1,29 +1,31 @@
+---
 data:
   identifier: Generic_material_aspects_arm.Material_property_value_representation
   localized_concepts:
     eng: ecde4659-02af-5cdc-8e20-f4d34a5cd52c
   domains:
-    - concept_id: section-Generic_material_aspects_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
-      ref_type: section
+  - concept_id: section-Generic_material_aspects_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+    ref_type: section
 id: Generic_material_aspects_arm.Material_property_value_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Property_assignment_arm.Property_definition_representation,Property_definition_representation}} that represents the material property value representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm.Property_definition_representation,Property_definition_representation}}
+      that represents the material property value representation {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes: []
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
-          version: '4'
-      type: authoritative
-      id: Generic_material_aspects_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_material_aspects_arm
+        version: '4'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Material_property_value_representation
+  - type: expression
+    normative_status: preferred
+    designation: Material_property_value_representation
   domain: 'application module: Generic_material_aspects_arm'
   language_code: eng
   annotations: []

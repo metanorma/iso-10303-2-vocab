@@ -1,30 +1,34 @@
+---
 data:
   identifier: topology_based_identification_schema.shell_feature_identification
   localized_concepts:
     eng: b7d51110-0dbe-59e7-9f8e-edb0161284ac
   domains:
-    - concept_id: section-topology_based_identification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
-      ref_type: section
+  - concept_id: section-topology_based_identification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+    ref_type: section
 id: topology_based_identification_schema.shell_feature_identification
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}} that represents the shell feature identification {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}}
+      that represents the shell feature identification {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **shell_feature_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}} that specifies a face relating to a shell feature such as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.shelled_solid,shelled_solid}} in ISO 10303-111.
+  - content: A **shell_feature_identification** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema.basic_face_identification,basic_face_identification}}
+      that specifies a face relating to a shell feature such as {{urn:iso:std:iso:10303:-2:ed-1:en:tech:solid_shape_element_schema.shelled_solid,shelled_solid}}
+      in ISO 10303-111.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
-          version: '1'
-      type: authoritative
-      id: topology_based_identification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:topology_based_identification_schema
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: shell_feature_identification
+  - type: expression
+    normative_status: preferred
+    designation: shell_feature_identification
   domain: 'resource: topology_based_identification_schema'
   language_code: eng
   annotations: []

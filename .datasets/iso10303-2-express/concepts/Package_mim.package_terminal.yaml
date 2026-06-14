@@ -1,39 +1,41 @@
+---
 data:
   identifier: Package_mim.package_terminal
   localized_concepts:
     eng: 812aee03-6167-51fd-99a3-2667dc3fc3aa
   domains:
-    - concept_id: section-Package_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-      ref_type: section
+  - concept_id: section-Package_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+    ref_type: section
 id: Package_mim.package_terminal
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.placed_feature,placed_feature}} that represents the package terminal {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim.placed_feature,placed_feature}}
+      that represents the package terminal {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: |-
-        A **package_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.placed_feature,placed_feature}} that implements the ARM concepts of:
+  - content: |-
+      A **package_terminal** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Shape_feature_mim.placed_feature,placed_feature}} that implements the ARM concepts of:
 
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Guided_wave_terminal,Guided_wave_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Length_trimmed_terminal,Length_trimmed_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Shape_formed_terminal,Shape_formed_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Surface_prepped_terminal,Surface_prepped_terminal}};
-        * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Wire_terminal_template_definition,Wire_terminal_template_definition}}.
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Altered_package_terminal,Altered_package_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Guided_wave_terminal,Guided_wave_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Length_trimmed_terminal,Length_trimmed_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Package_terminal,Package_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Shape_formed_terminal,Shape_formed_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Altered_package_arm.Surface_prepped_terminal,Surface_prepped_terminal}};
+      * {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_arm.Wire_terminal_template_definition,Wire_terminal_template_definition}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
-          version: '7'
-      type: authoritative
-      id: Package_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Package_mim
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: package_terminal
+  - type: expression
+    normative_status: preferred
+    designation: package_terminal
   domain: 'application module: Package_mim'
   language_code: eng
   annotations: []

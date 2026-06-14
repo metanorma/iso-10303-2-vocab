@@ -1,30 +1,33 @@
+---
 data:
   identifier: Generic_expression_arm.Unary_generic_expression
   localized_concepts:
     eng: 8837cb24-1353-5ece-b03c-c5b8d4ce9c1c
   domains:
-    - concept_id: section-Generic_expression_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-      ref_type: section
+  - concept_id: section-Generic_expression_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+    ref_type: section
 id: Generic_expression_arm.Unary_generic_expression
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} that represents the unary generic expression {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      that represents the unary generic expression {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **Unary_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}} and is the ABSTRACT SUPERTYPE of all the unary operators.
+  - content: An **Unary_generic_expression** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm.Generic_expression,Generic_expression}}
+      and is the ABSTRACT SUPERTYPE of all the unary operators.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
-          version: '3'
-      type: authoritative
-      id: Generic_expression_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Generic_expression_arm
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Unary_generic_expression
+  - type: expression
+    normative_status: preferred
+    designation: Unary_generic_expression
   domain: 'application module: Generic_expression_arm'
   language_code: eng
   annotations: []

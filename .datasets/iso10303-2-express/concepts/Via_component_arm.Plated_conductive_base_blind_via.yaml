@@ -1,30 +1,35 @@
+---
 data:
   identifier: Via_component_arm.Plated_conductive_base_blind_via
   localized_concepts:
     eng: cbe921fc-d9b9-5ef6-8020-f7510286eb97
   domains:
-    - concept_id: section-Via_component_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
-      ref_type: section
+  - concept_id: section-Via_component_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
+    ref_type: section
 id: Via_component_arm.Plated_conductive_base_blind_via
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} that represents the plated conductive base blind via {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      that represents the plated conductive base blind via {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Plated_conductive_base_blind_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} in which the material that composes the floor of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} is conductive, and in which the floor material of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}} is contiguous with the material on the wall of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}.
+  - content: A **Plated_conductive_base_blind_via** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      in which the material that composes the floor of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      is conductive, and in which the floor material of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}
+      is contiguous with the material on the wall of the {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm.Blind_via,Blind_via}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
-          version: '2'
-      type: authoritative
-      id: Via_component_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Via_component_arm
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Plated_conductive_base_blind_via
+  - type: expression
+    normative_status: preferred
+    designation: Plated_conductive_base_blind_via
   domain: 'application module: Via_component_arm'
   language_code: eng
   annotations: []

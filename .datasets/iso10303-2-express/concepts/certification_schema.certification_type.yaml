@@ -1,30 +1,32 @@
+---
 data:
   identifier: certification_schema.certification_type
   localized_concepts:
     eng: 6218a3ee-4520-59ce-b4a8-d92a4bbd4651
   domains:
-    - concept_id: section-certification_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
-      ref_type: section
+  - concept_id: section-certification_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
+    ref_type: section
 id: certification_schema.certification_type
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that represents the certification type {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that represents the certification type {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **certification_type** is the kind of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema.certification,certification}} granted.
+  - content: A **certification_type** is the kind of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema.certification,certification}}
+      granted.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
-          version: '3'
-      type: authoritative
-      id: certification_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:certification_schema
+        version: '3'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: certification_type
+  - type: expression
+    normative_status: preferred
+    designation: certification_type
   domain: 'resource: certification_schema'
   language_code: eng
   annotations: []

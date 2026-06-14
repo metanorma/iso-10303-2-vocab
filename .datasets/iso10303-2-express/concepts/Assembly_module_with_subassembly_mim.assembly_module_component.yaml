@@ -1,30 +1,33 @@
+---
 data:
   identifier: Assembly_module_with_subassembly_mim.assembly_module_component
   localized_concepts:
     eng: 86b375e1-e751-5ebf-8fd0-493710d1de46
   domains:
-    - concept_id: section-Assembly_module_with_subassembly_mim
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_mim
-      ref_type: section
+  - concept_id: section-Assembly_module_with_subassembly_mim
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_mim
+    ref_type: section
 id: Assembly_module_with_subassembly_mim.assembly_module_component
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that represents the assembly module component {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_mim.physical_component,physical_component}}
+      that represents the assembly module component {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: An **assembly_module_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}} that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_arm.Assembly_module_component,Assembly_module_component}}.
+  - content: An **assembly_module_component** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_component_mim.physical_component,physical_component}}
+      that implements the ARM concept of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_arm.Assembly_module_component,Assembly_module_component}}.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_mim
-          version: '5'
-      type: authoritative
-      id: Assembly_module_with_subassembly_mim
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Assembly_module_with_subassembly_mim
+        version: '5'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: assembly_module_component
+  - type: expression
+    normative_status: preferred
+    designation: assembly_module_component
   domain: 'application module: Assembly_module_with_subassembly_mim'
   language_code: eng
   annotations: []

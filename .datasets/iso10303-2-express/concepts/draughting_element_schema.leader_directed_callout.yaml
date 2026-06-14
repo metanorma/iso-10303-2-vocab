@@ -1,30 +1,35 @@
+---
 data:
   identifier: draughting_element_schema.leader_directed_callout
   localized_concepts:
     eng: 61434ea3-4586-51f9-ad2e-353b1dd30815
   domains:
-    - concept_id: section-draughting_element_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-      ref_type: section
+  - concept_id: section-draughting_element_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+    ref_type: section
 id: draughting_element_schema.leader_directed_callout
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} that represents the leader directed callout {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}}
+      that represents the leader directed callout {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **leader_directed_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}} which includes one or more leader lines to direct the eye of the reader from the other presented requirements and information to a place or places of interest on the drawing.
+  - content: A **leader_directed_callout** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema.draughting_callout,draughting_callout}}
+      which includes one or more leader lines to direct the eye of the reader from
+      the other presented requirements and information to a place or places of interest
+      on the drawing.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
-          version: '7'
-      type: authoritative
-      id: draughting_element_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:draughting_element_schema
+        version: '7'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: leader_directed_callout
+  - type: expression
+    normative_status: preferred
+    designation: leader_directed_callout
   domain: 'resource: draughting_element_schema'
   language_code: eng
   annotations: []

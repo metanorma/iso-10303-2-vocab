@@ -1,30 +1,33 @@
+---
 data:
   identifier: product_data_quality_criteria_schema.detailed_report_request_with_number_of_data
   localized_concepts:
     eng: ecd6f470-cd95-5955-ab60-a532cd9ed034
   domains:
-    - concept_id: section-product_data_quality_criteria_schema
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
-      ref_type: section
+  - concept_id: section-product_data_quality_criteria_schema
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+    ref_type: section
 id: product_data_quality_criteria_schema.detailed_report_request_with_number_of_data
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.detailed_report_request,detailed_report_request}} that represents the detailed report request with number of data {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.detailed_report_request,detailed_report_request}}
+      that represents the detailed report request with number of data {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **detailed_report_request_with_number_of_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.detailed_report_request,detailed_report_request}} that controls the maximum number of instances reported.
+  - content: A **detailed_report_request_with_number_of_data** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema.detailed_report_request,detailed_report_request}}
+      that controls the maximum number of instances reported.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
-          version: '2'
-      type: authoritative
-      id: product_data_quality_criteria_schema
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:product_data_quality_criteria_schema
+        version: '2'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: detailed_report_request_with_number_of_data
+  - type: expression
+    normative_status: preferred
+    designation: detailed_report_request_with_number_of_data
   domain: 'resource: product_data_quality_criteria_schema'
   language_code: eng
   annotations: []

@@ -1,30 +1,36 @@
+---
 data:
   identifier: Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_result_representation
   localized_concepts:
     eng: 6b071431-a742-58c4-b77c-93b8569cc3bc
   domains:
-    - concept_id: section-Externally_conditioned_data_quality_inspection_result_arm
-      source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
-      ref_type: section
+  - concept_id: section-Externally_conditioned_data_quality_inspection_result_arm
+    source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
+    ref_type: section
 id: Externally_conditioned_data_quality_inspection_result_arm.Externally_conditioned_data_quality_inspection_result_representation
 schema_version: v3
 ---
 data:
   definition:
-    - content: '{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_representation,Data_quality_inspection_result_representation}} that represents the externally conditioned data quality inspection result representation {{entity}}'
+  - content: "{{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity_data_type,entity
+      data type}} that is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm.Data_quality_inspection_result_representation,Data_quality_inspection_result_representation}}
+      that represents the externally conditioned data quality inspection result representation
+      {{urn:iso:std:iso:10303:-2:ed-1:en:term:express-language.entity,entity}}"
   notes:
-    - content: A **Externally_conditioned_data_quality_inspection_result_representation** is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_representation,Data_quality_inspection_result_representation}} that represents inspection result for the data quality based on externally defined acceptance condition.
+  - content: A **Externally_conditioned_data_quality_inspection_result_representation**
+      is a type of {{urn:iso:std:iso:10303:-2:ed-1:en:tech:Product_data_quality_inspection_result_arm.Data_quality_inspection_result_representation,Data_quality_inspection_result_representation}}
+      that represents inspection result for the data quality based on externally defined
+      acceptance condition.
   sources:
-    - origin:
-        ref:
-          source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
-          version: '1'
-      type: authoritative
-      id: Externally_conditioned_data_quality_inspection_result_arm
+  - origin:
+      ref:
+        source: urn:iso:std:iso:10303:-2:ed-1:en:tech:Externally_conditioned_data_quality_inspection_result_arm
+        version: '1'
+    type: authoritative
   terms:
-    - type: expression
-      normative_status: preferred
-      designation: Externally_conditioned_data_quality_inspection_result_representation
+  - type: expression
+    normative_status: preferred
+    designation: Externally_conditioned_data_quality_inspection_result_representation
   domain: 'application module: Externally_conditioned_data_quality_inspection_result_arm'
   language_code: eng
   annotations: []
