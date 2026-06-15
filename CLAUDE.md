@@ -43,11 +43,11 @@ This is a **deployment configuration repository** — not a traditional applicat
 1. Concept YAML files in `.datasets/` are the canonical data source (committed to git)
 2. `concept-browser build` runs generate, edges, favicons, and Vite build in one step
 3. `site-config.yml` controls identity, datasets, branding, navigation, and features
-4. About pages: `about.md` (site-level), `datasets/<id>/about.md` (per-dataset, auto-discovered via `localPath`)
+4. About pages: `about.md` (site-level), `.datasets/<id>/about.md` (per-dataset, auto-discovered via `localPath`)
 5. Output goes to `dist/`, deployed to GitHub Pages
 
 **Directory layout:**
-- `datasets/` — local source directories with about files (mirrors oiml-vocab pattern)
+- `.datasets/` — committed concept data (YAML concepts, register.yaml, metadata.yaml, about.md)
 - `.datasets/` — committed concept data (YAML concepts, register.yaml, metadata.yaml)
 - `site-config.yml` — site configuration (datasets, branding, pages)
 - `Rakefile` — concept extraction from the private `iso-10303` source repo via the `suma` gem

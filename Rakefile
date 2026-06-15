@@ -17,8 +17,11 @@ ISO_10303_SRC = ENV.fetch("ISO_10303_SRC",
 BASE_URN = "urn:iso:std:iso:10303:-2:ed-1:en"
 
 namespace :concepts do
-  desc "Extract EXPRESS concepts into .datasets/iso10303-2-express/"
-  task :express do
+  desc "Extract EXPRESS concepts and generate register.yaml"
+  task express: %i[express_concepts express_register]
+
+  desc "Extract EXPRESS entity concepts into .datasets/iso10303-2-express/concepts"
+  task :express_concepts do
     manifest = File.join(ISO_10303_SRC, "schemas-smrl-part-2.yml")
     unless File.exist?(manifest)
       abort "Schema manifest not found at #{manifest}. " \
@@ -28,6 +31,21 @@ namespace :concepts do
     outdir = ".datasets/iso10303-2-express"
     FileUtils.mkdir_p(outdir)
     sh "suma extract-terms #{manifest} #{outdir}/concepts -u #{BASE_URN}"
+  end
+
+  desc "Generate hierarchical register.yaml for EXPRESS dataset"
+  task :express_register do
+    manifest = File.join(ISO_10303_SRC, "schemas-smrl-part-2.yml")
+    unless File.exist?(manifest)
+      abort "Schema manifest not found at #{manifest}. " \
+            "Set ISO_10303_SRC to the iso-10303 source repo."
+    end
+
+    outdir = ".datasets/iso10303-2-express"
+    sh "suma generate-register #{manifest} #{outdir} " \
+       "-u #{BASE_URN}:tech:* " \
+       "--id iso10303-2-express " \
+       "--ref 'ISO 10303-2 EXPRESS Concepts'"
   end
 
   desc "Copy term definitions into .datasets/iso10303-2-terms/"
